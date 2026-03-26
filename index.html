@@ -27,11 +27,15 @@
   --amber: #C98A4C;
 }
 
-html { scroll-behavior: smooth; }
+html { 
+  scroll-behavior: smooth;
+  background-color: #0A0A0A !important;
+}
 
 body {
-  background: var(--black);
-  color: var(--white);
+  background-color: #0A0A0A !important;
+  background: #0A0A0A !important;
+  color: #F5F2EC !important;
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
   overflow-x: hidden;
@@ -877,7 +881,7 @@ footer {
 ```
 <p class="hero-eyebrow">// Transparency intelligence for food</p>
 <h1 class="hero-headline">
-  Know Every<br /><span class="gold">Ingredient.</span><br />Every Time.
+  The Filter For<br /><span class="gold">Food Gold</span><br />You Can Trust.
 </h1>
 <p class="hero-sub">
   Goldpan scores restaurant dishes on ingredient transparency — so you can eat with confidence, not guesswork.
@@ -1102,7 +1106,7 @@ footer {
           </div>
         </div>
         <div class="merchant-cta">
-          <a href="mailto:hello@goldpan.co" class="btn-outline">Partner With Us</a>
+          <a href="/cdn-cgi/l/email-protection#b9d1dcd5d5d6f9ded6d5ddc9d8d797dad6" class="btn-outline">Partner With Us</a>
         </div>
       </div>
 
@@ -1138,69 +1142,63 @@ footer {
     <ul class="footer-links">
       <li><a href="#how">How It Works</a></li>
       <li><a href="#restaurants">Restaurants</a></li>
-      <li><a href="mailto:hello@goldpan.co">Contact</a></li>
+      <li><a href="/cdn-cgi/l/email-protection#80e8e5ececefc0e7efece4f0e1eeaee3ef">Contact</a></li>
     </ul>
   </footer>
 
-  <script>
-    // Custom cursor
-    const cursor = document.getElementById('cursor');
-    const ring = document.getElementById('cursor-ring');
-    let mx = 0, my = 0, rx = 0, ry = 0;
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 
-    document.addEventListener('mousemove', e => {
-      mx = e.clientX; my = e.clientY;
-      cursor.style.transform = `translate(${mx - 5}px, ${my - 5}px)`;
-    });
+```
+// Custom cursor
+const cursor = document.getElementById('cursor');
+const ring = document.getElementById('cursor-ring');
+let mx = 0, my = 0, rx = 0, ry = 0;
 
-    function animateRing() {
-      rx += (mx - rx) * 0.12;
-      ry += (my - ry) * 0.12;
-      ring.style.transform = `translate(${rx - 18}px, ${ry - 18}px)`;
-      requestAnimationFrame(animateRing);
+document.addEventListener('mousemove', e => {
+  mx = e.clientX; my = e.clientY;
+  cursor.style.transform = `translate(${mx - 5}px, ${my - 5}px)`;
+});
+
+function animateRing() {
+  rx += (mx - rx) * 0.12;
+  ry += (my - ry) * 0.12;
+  ring.style.transform = `translate(${rx - 18}px, ${ry - 18}px)`;
+  requestAnimationFrame(animateRing);
+}
+animateRing();
+
+document.querySelectorAll('a, button, input').forEach(el => {
+  el.addEventListener('mouseenter', () => {
+    cursor.style.transform += ' scale(2)';
+    ring.style.width = '56px';
+    ring.style.height = '56px';
+    ring.style.opacity = '0.8';
+  });
+  el.addEventListener('mouseleave', () => {
+    ring.style.width = '36px';
+    ring.style.height = '36px';
+    ring.style.opacity = '0.5';
+  });
+});
+
+// Scroll reveal
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
     }
-    animateRing();
+  });
+}, { threshold: 0.12 });
+reveals.forEach(el => observer.observe(el));
 
-    document.querySelectorAll('a, button, input').forEach(el => {
-      el.addEventListener('mouseenter', () => {
-        cursor.style.transform += ' scale(2)';
-        ring.style.width = '56px';
-        ring.style.height = '56px';
-        ring.style.opacity = '0.8';
-      });
-      el.addEventListener('mouseleave', () => {
-        ring.style.width = '36px';
-        ring.style.height = '36px';
-        ring.style.opacity = '0.5';
-      });
-    });
-
-    // Scroll reveal
-    const reveals = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.12 });
-    reveals.forEach(el => observer.observe(el));
-
-    // Waitlist
-    function handleWaitlist() {
-      const email = document.getElementById('waitlist-email').value;
-      if (!email || !email.includes('@')) {
-        document.getElementById('waitlist-email').style.borderColor = '#C94C4C';
-        return;
-      }
-      document.querySelector('.waitlist-form').style.display = 'none';
-      document.getElementById('waitlist-success').style.display = 'block';
-    }
-
-    document.getElementById('waitlist-email').addEventListener('keydown', e => {
-      if (e.key === 'Enter') handleWaitlist();
-    });
-  </script>
-
-</body>
-</html>
+// Waitlist
+function handleWaitlist() {
+  const email = document.getElementById('waitlist-email').value;
+  if (!email || !email.includes('@')) {
+    document.getElementById('waitlist-email').style.borderColor = '#C94C4C';
+    return;
+  }
+  document.querySelector('.waitlist-form').style.display = 'none';
+  document.getElementById('waitlist-success').style.disp
+```
