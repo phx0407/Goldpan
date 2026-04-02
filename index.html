@@ -1,866 +1,245 @@
- <!DOCTYPE html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Goldpan — Know What You're Eating</title>
+  <title>Goldpan — The Filter For Food Gold You Can Trust</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-```
-:root {
-  --gold: #C9A84C;
-  --gold-light: #E8C97A;
-  --gold-dim: #8B6F2E;
-  --black: #0A0A0A;
-  --black-2: #111111;
-  --black-3: #1A1A1A;
-  --black-4: #222222;
-  --white: #F5F2EC;
-  --white-dim: #9A9488;
-  --green-safe: #4CAF76;
-  --red-flag: #C94C4C;
-  --amber: #C98A4C;
-}
-
-html { 
-  scroll-behavior: smooth;
-  background-color: #0A0A0A !important;
-}
-
-body {
-  background-color: #0A0A0A !important;
-  background: #0A0A0A !important;
-  color: #F5F2EC !important;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 300;
-  overflow-x: hidden;
-  cursor: none;
-}
-
-/* Custom cursor */
-.cursor {
-  width: 10px; height: 10px;
-  background: var(--gold);
-  border-radius: 50%;
-  position: fixed;
-  top: 0; left: 0;
-  pointer-events: none;
-  z-index: 9999;
-  transition: transform 0.15s ease;
-  mix-blend-mode: difference;
-}
-.cursor-ring {
-  width: 36px; height: 36px;
-  border: 1px solid var(--gold);
-  border-radius: 50%;
-  position: fixed;
-  top: 0; left: 0;
-  pointer-events: none;
-  z-index: 9998;
-  transition: transform 0.35s ease, width 0.2s, height 0.2s, opacity 0.2s;
-  opacity: 0.5;
-}
-
-/* Noise overlay */
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-  pointer-events: none;
-  z-index: 1000;
-  opacity: 0.4;
-}
-
-/* NAV */
-nav {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 100;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 24px 48px;
-  border-bottom: 1px solid rgba(201,168,76,0.1);
-  background: rgba(10,10,10,0.85);
-  backdrop-filter: blur(12px);
-}
-
-.nav-logo {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 28px;
-  letter-spacing: 0.08em;
-  color: var(--gold);
-  text-decoration: none;
-}
-
-.nav-links {
-  display: flex;
-  gap: 40px;
-  list-style: none;
-}
-
-.nav-links a {
-  color: var(--white-dim);
-  text-decoration: none;
-  font-size: 13px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  transition: color 0.2s;
-}
-.nav-links a:hover { color: var(--gold); }
-
-.nav-cta {
-  background: var(--gold);
-  color: var(--black) !important;
-  padding: 10px 24px;
-  font-weight: 500 !important;
-  letter-spacing: 0.05em !important;
-  transition: background 0.2s !important;
-}
-.nav-cta:hover { background: var(--gold-light) !important; color: var(--black) !important; }
-
-/* HERO */
-.hero {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 120px 48px 80px;
-  position: relative;
-  overflow: hidden;
-}
-
-.hero-bg-grid {
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(201,168,76,0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(201,168,76,0.04) 1px, transparent 1px);
-  background-size: 60px 60px;
-  pointer-events: none;
-}
-
-.hero-bg-glow {
-  position: absolute;
-  width: 600px; height: 600px;
-  background: radial-gradient(circle, rgba(201,168,76,0.12) 0%, transparent 70%);
-  top: 10%; right: -100px;
-  pointer-events: none;
-  animation: pulse-glow 6s ease-in-out infinite;
-}
-
-@keyframes pulse-glow {
-  0%, 100% { opacity: 0.6; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.08); }
-}
-
-.hero-eyebrow {
-  font-family: 'DM Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin-bottom: 28px;
-  opacity: 0;
-  animation: fade-up 0.8s ease forwards 0.2s;
-}
-
-.hero-headline {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(72px, 11vw, 160px);
-  line-height: 0.92;
-  letter-spacing: 0.02em;
-  color: var(--white);
-  max-width: 900px;
-  opacity: 0;
-  animation: fade-up 0.9s ease forwards 0.4s;
-}
-
-.hero-headline .gold { color: var(--gold); }
-
-.hero-sub {
-  margin-top: 36px;
-  font-size: 18px;
-  line-height: 1.6;
-  color: var(--white-dim);
-  max-width: 480px;
-  font-weight: 300;
-  opacity: 0;
-  animation: fade-up 0.9s ease forwards 0.6s;
-}
-
-.hero-actions {
-  margin-top: 52px;
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  opacity: 0;
-  animation: fade-up 0.9s ease forwards 0.8s;
-}
-
-.btn-primary {
-  background: var(--gold);
-  color: var(--black);
-  border: none;
-  padding: 16px 36px;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  cursor: none;
-  transition: background 0.2s, transform 0.15s;
-  text-decoration: none;
-  display: inline-block;
-}
-.btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); }
-
-.btn-ghost {
-  color: var(--white-dim);
-  font-size: 14px;
-  text-decoration: none;
-  letter-spacing: 0.05em;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  transition: color 0.2s;
-}
-.btn-ghost:hover { color: var(--gold); }
-.btn-ghost::after { content: '→'; transition: transform 0.2s; }
-.btn-ghost:hover::after { transform: translateX(4px); }
-
-.hero-stats {
-  position: absolute;
-  bottom: 60px; right: 48px;
-  display: flex;
-  gap: 48px;
-  opacity: 0;
-  animation: fade-up 0.9s ease forwards 1s;
-}
-
-.stat { text-align: right; }
-.stat-number {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 42px;
-  color: var(--gold);
-  line-height: 1;
-}
-.stat-label {
-  font-size: 11px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--white-dim);
-  margin-top: 4px;
-}
-
-@keyframes fade-up {
-  from { opacity: 0; transform: translateY(24px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* TICKER */
-.ticker {
-  background: var(--gold);
-  padding: 14px 0;
-  overflow: hidden;
-  white-space: nowrap;
-}
-.ticker-inner {
-  display: inline-flex;
-  gap: 0;
-  animation: ticker 25s linear infinite;
-}
-.ticker-item {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 15px;
-  letter-spacing: 0.15em;
-  color: var(--black);
-  padding: 0 32px;
-}
-.ticker-dot {
-  color: rgba(0,0,0,0.3);
-}
-@keyframes ticker {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-
-/* PROBLEM SECTION */
-.section {
-  padding: 120px 48px;
-}
-
-.section-label {
-  font-family: 'DM Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin-bottom: 20px;
-}
-
-.problem {
-  background: var(--black-2);
-  border-top: 1px solid var(--black-4);
-}
-
-.problem-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  align-items: center;
-}
-
-.problem-headline {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(42px, 5vw, 72px);
-  line-height: 1;
-  letter-spacing: 0.02em;
-}
-
-.problem-body {
-  font-size: 16px;
-  line-height: 1.75;
-  color: var(--white-dim);
-}
-
-.problem-body p + p { margin-top: 20px; }
-
-.problem-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-top: 40px;
-}
-
-.problem-card {
-  border: 1px solid var(--black-4);
-  padding: 24px 28px;
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  background: var(--black-3);
-  transition: border-color 0.2s;
-}
-.problem-card:hover { border-color: var(--gold-dim); }
-
-.problem-card-icon {
-  font-size: 22px;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-.problem-card-title {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--white);
-  margin-bottom: 6px;
-  letter-spacing: 0.02em;
-}
-
-.problem-card-text {
-  font-size: 13px;
-  color: var(--white-dim);
-  line-height: 1.6;
-}
-
-/* HOW IT WORKS */
-.how {
-  border-top: 1px solid var(--black-4);
-}
-
-.how-headline {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(42px, 5vw, 72px);
-  line-height: 1;
-  letter-spacing: 0.02em;
-  margin-bottom: 80px;
-  max-width: 600px;
-}
-
-.steps {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2px;
-}
-
-.step {
-  background: var(--black-2);
-  padding: 48px 36px;
-  position: relative;
-  overflow: hidden;
-  transition: background 0.2s;
-}
-.step:hover { background: var(--black-3); }
-
-.step-number {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 96px;
-  color: rgba(201,168,76,0.08);
-  line-height: 1;
-  position: absolute;
-  top: 16px; right: 24px;
-  pointer-events: none;
-  transition: color 0.2s;
-}
-.step:hover .step-number { color: rgba(201,168,76,0.14); }
-
-.step-icon {
-  font-size: 28px;
-  margin-bottom: 20px;
-}
-
-.step-title {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 28px;
-  letter-spacing: 0.04em;
-  color: var(--gold);
-  margin-bottom: 14px;
-}
-
-.step-text {
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--white-dim);
-}
-
-/* SCORE SHOWCASE */
-.score-section {
-  background: var(--black-2);
-  border-top: 1px solid var(--black-4);
-}
-
-.score-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  align-items: start;
-}
-
-.score-headline {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(42px, 5vw, 72px);
-  line-height: 1;
-  letter-spacing: 0.02em;
-  margin-bottom: 24px;
-}
-
-.score-body {
-  font-size: 15px;
-  line-height: 1.75;
-  color: var(--white-dim);
-  margin-bottom: 40px;
-}
-
-.score-dimensions {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.score-dim {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.score-dim-label {
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  color: var(--white-dim);
-  width: 200px;
-  flex-shrink: 0;
-}
-
-.score-dim-bar {
-  flex: 1;
-  height: 4px;
-  background: var(--black-4);
-  position: relative;
-  overflow: hidden;
-}
-
-.score-dim-fill {
-  position: absolute;
-  left: 0; top: 0; bottom: 0;
-  background: var(--gold);
-  transition: width 1.2s ease;
-}
-
-.score-dim-val {
-  font-family: 'DM Mono', monospace;
-  font-size: 13px;
-  color: var(--gold);
-  width: 36px;
-  text-align: right;
-  flex-shrink: 0;
-}
-
-/* DISH CARD */
-.dish-card {
-  background: var(--black-3);
-  border: 1px solid var(--black-4);
-  padding: 36px;
-}
-
-.dish-card-restaurant {
-  font-family: 'DM Mono', monospace;
-  font-size: 10px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin-bottom: 8px;
-}
-
-.dish-card-name {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 36px;
-  letter-spacing: 0.04em;
-  margin-bottom: 24px;
-}
-
-.dish-card-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 28px;
-}
-
-.tag {
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 5px 12px;
-  border: 1px solid;
-}
-
-.tag-safe { border-color: var(--green-safe); color: var(--green-safe); }
-.tag-flag { border-color: var(--red-flag); color: var(--red-flag); }
-.tag-unknown { border-color: var(--white-dim); color: var(--white-dim); }
-
-.dish-card-score {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-bottom: 8px;
-}
-
-.dish-score-number {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 72px;
-  line-height: 1;
-  color: var(--gold);
-}
-
-.dish-score-denom {
-  font-size: 20px;
-  color: var(--white-dim);
-  font-family: 'Bebas Neue', sans-serif;
-}
-
-.dish-score-label {
-  font-size: 11px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--white-dim);
-}
-
-.dish-ingredients {
-  margin-top: 24px;
-  padding-top: 24px;
-  border-top: 1px solid var(--black-4);
-}
-
-.dish-ing-title {
-  font-size: 10px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--white-dim);
-  margin-bottom: 12px;
-}
-
-.dish-ing-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.ing-pill {
-  font-size: 12px;
-  padding: 4px 10px;
-  background: var(--black-4);
-  color: var(--white-dim);
-}
-
-/* WAITLIST */
-.waitlist {
-  border-top: 1px solid var(--black-4);
-  background: var(--black);
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.waitlist-glow {
-  position: absolute;
-  width: 800px; height: 400px;
-  background: radial-gradient(ellipse, rgba(201,168,76,0.08) 0%, transparent 70%);
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
-
-.waitlist-headline {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(48px, 7vw, 100px);
-  line-height: 0.95;
-  letter-spacing: 0.02em;
-  margin-bottom: 20px;
-  position: relative;
-}
-
-.waitlist-sub {
-  font-size: 16px;
-  color: var(--white-dim);
-  max-width: 440px;
-  margin: 0 auto 48px;
-  line-height: 1.6;
-  position: relative;
-}
-
-.waitlist-form {
-  display: flex;
-  gap: 0;
-  max-width: 480px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.waitlist-input {
-  flex: 1;
-  background: var(--black-3);
-  border: 1px solid var(--black-4);
-  border-right: none;
-  color: var(--white);
-  font-family: 'DM Sans', sans-serif;
-  font-size: 15px;
-  padding: 16px 20px;
-  outline: none;
-  transition: border-color 0.2s;
-}
-.waitlist-input::placeholder { color: var(--white-dim); }
-.waitlist-input:focus { border-color: var(--gold-dim); }
-
-.waitlist-btn {
-  background: var(--gold);
-  color: var(--black);
-  border: none;
-  padding: 16px 28px;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  cursor: none;
-  transition: background 0.2s;
-  white-space: nowrap;
-}
-.waitlist-btn:hover { background: var(--gold-light); }
-
-.waitlist-note {
-  margin-top: 16px;
-  font-size: 12px;
-  color: var(--white-dim);
-  letter-spacing: 0.05em;
-  position: relative;
-}
-
-.waitlist-success {
-  display: none;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 24px;
-  letter-spacing: 0.1em;
-  color: var(--green-safe);
-  margin-top: 16px;
-  position: relative;
-}
-
-/* FOR RESTAURANTS */
-.merchant {
-  background: var(--black-2);
-  border-top: 1px solid var(--black-4);
-}
-
-.merchant-inner {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  align-items: center;
-}
-
-.merchant-headline {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(36px, 4vw, 56px);
-  line-height: 1;
-  letter-spacing: 0.02em;
-  margin-bottom: 20px;
-}
-
-.merchant-body {
-  font-size: 15px;
-  line-height: 1.75;
-  color: var(--white-dim);
-  margin-bottom: 32px;
-}
-
-.merchant-perks {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.perk {
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-}
-
-.perk-dot {
-  width: 6px; height: 6px;
-  background: var(--gold);
-  border-radius: 50%;
-  margin-top: 7px;
-  flex-shrink: 0;
-}
-
-.perk-text {
-  font-size: 14px;
-  color: var(--white-dim);
-  line-height: 1.6;
-}
-
-.merchant-cta {
-  margin-top: 36px;
-}
-
-.btn-outline {
-  display: inline-block;
-  border: 1px solid var(--gold);
-  color: var(--gold);
-  padding: 14px 32px;
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: background 0.2s, color 0.2s;
-}
-.btn-outline:hover { background: var(--gold); color: var(--black); }
-
-.merchant-visual {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.merchant-metric {
-  background: var(--black-3);
-  border: 1px solid var(--black-4);
-  padding: 28px 32px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: border-color 0.2s;
-}
-.merchant-metric:hover { border-color: var(--gold-dim); }
-
-.metric-label {
-  font-size: 13px;
-  color: var(--white-dim);
-}
-
-.metric-value {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 32px;
-  color: var(--gold);
-  letter-spacing: 0.05em;
-}
-
-/* FOOTER */
-footer {
-  border-top: 1px solid var(--black-4);
-  padding: 48px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-logo {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 24px;
-  letter-spacing: 0.1em;
-  color: var(--gold);
-}
-
-.footer-copy {
-  font-size: 12px;
-  color: var(--white-dim);
-  letter-spacing: 0.05em;
-}
-
-.footer-links {
-  display: flex;
-  gap: 32px;
-  list-style: none;
-}
-.footer-links a {
-  font-size: 12px;
-  color: var(--white-dim);
-  text-decoration: none;
-  letter-spacing: 0.08em;
-  transition: color 0.2s;
-}
-.footer-links a:hover { color: var(--gold); }
-
-/* SCROLL REVEAL */
-.reveal {
-  opacity: 0;
-  transform: translateY(32px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
-}
-.reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-  nav { padding: 20px 24px; }
-  .nav-links { display: none; }
-  .hero { padding: 100px 24px 80px; }
-  .hero-stats { position: static; margin-top: 48px; justify-content: flex-start; }
-  .section { padding: 80px 24px; }
-  .problem-grid, .score-grid, .merchant-inner { grid-template-columns: 1fr; gap: 48px; }
-  .steps { grid-template-columns: 1fr; }
-  .waitlist-form { flex-direction: column; }
-  .waitlist-input { border-right: 1px solid var(--black-4); border-bottom: none; }
-  footer { flex-direction: column; gap: 24px; text-align: center; }
-}
-```
-
+    :root {
+      --gold: #C9A84C;
+      --gold-light: #E8C97A;
+      --gold-dim: #8B6F2E;
+      --black: #0A0A0A;
+      --black-2: #111111;
+      --black-3: #1A1A1A;
+      --black-4: #222222;
+      --white: #F5F2EC;
+      --white-dim: #9A9488;
+      --green: #4CAF76;
+      --red: #C94C4C;
+    }
+
+    html { scroll-behavior: smooth; background: #0A0A0A; }
+
+    body {
+      background: #0A0A0A;
+      color: #F5F2EC;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      overflow-x: hidden;
+    }
+
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 22px 48px;
+      border-bottom: 1px solid rgba(201,168,76,0.12);
+      background: rgba(10,10,10,0.94);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 26px;
+      letter-spacing: 0.08em;
+      color: #C9A84C;
+      text-decoration: none;
+    }
+
+    .nav-links { display: flex; gap: 36px; list-style: none; }
+    .nav-links a { color: #9A9488; text-decoration: none; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: #C9A84C; }
+    .nav-cta { background: #C9A84C !important; color: #0A0A0A !important; padding: 9px 22px; font-weight: 500 !important; }
+    .nav-cta:hover { background: #E8C97A !important; }
+
+    @media (max-width: 768px) { nav { padding: 18px 24px; } .nav-links { display: none; } }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 120px 48px 80px;
+      position: relative;
+      overflow: hidden;
+      background: #0A0A0A;
+    }
+
+    .hero-grid {
+      position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(201,168,76,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,76,0.035) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+    }
+
+    .hero-glow {
+      position: absolute;
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(201,168,76,0.1) 0%, transparent 70%);
+      top: 5%; right: -100px;
+      pointer-events: none;
+      animation: glow 7s ease-in-out infinite;
+    }
+
+    @keyframes glow { 0%,100%{opacity:.5;transform:scale(1)} 50%{opacity:1;transform:scale(1.08)} }
+
+    .hero-eyebrow { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 28px; position: relative; z-index: 1; }
+
+    .hero-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(60px, 10vw, 148px); line-height: 0.93; letter-spacing: 0.02em; color: #F5F2EC; max-width: 920px; position: relative; z-index: 1; }
+    .hero-headline .gold { color: #C9A84C; }
+
+    .hero-sub { margin-top: 32px; font-size: 17px; line-height: 1.65; color: #9A9488; max-width: 460px; position: relative; z-index: 1; }
+
+    .hero-actions { margin-top: 48px; display: flex; align-items: center; gap: 28px; position: relative; z-index: 1; }
+
+    .btn-primary { background: #C9A84C; color: #0A0A0A; border: none; padding: 15px 34px; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; letter-spacing: 0.05em; cursor: pointer; transition: background 0.2s, transform 0.15s; text-decoration: none; display: inline-block; }
+    .btn-primary:hover { background: #E8C97A; transform: translateY(-2px); }
+
+    .btn-ghost { color: #9A9488; font-size: 14px; text-decoration: none; letter-spacing: 0.05em; display: flex; align-items: center; gap: 8px; transition: color 0.2s; }
+    .btn-ghost:hover { color: #C9A84C; }
+    .btn-ghost::after { content: '→'; transition: transform 0.2s; }
+    .btn-ghost:hover::after { transform: translateX(4px); }
+
+    .hero-stats { position: absolute; bottom: 60px; right: 48px; display: flex; gap: 48px; z-index: 1; }
+    .stat { text-align: right; }
+    .stat-number { font-family: 'Bebas Neue', sans-serif; font-size: 40px; color: #C9A84C; line-height: 1; }
+    .stat-label { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #9A9488; margin-top: 4px; }
+
+    @media (max-width: 768px) { .hero { padding: 100px 24px 80px; } .hero-stats { position: static; margin-top: 48px; justify-content: flex-start; } }
+
+    .ticker { background: #C9A84C; padding: 13px 0; overflow: hidden; white-space: nowrap; }
+    .ticker-inner { display: inline-flex; animation: ticker 28s linear infinite; }
+    .ticker-item { font-family: 'Bebas Neue', sans-serif; font-size: 14px; letter-spacing: 0.15em; color: #0A0A0A; padding: 0 28px; }
+    .ticker-dot { color: rgba(0,0,0,0.25); }
+    @keyframes ticker { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+    .section { padding: 100px 48px; }
+    .section-label { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 20px; }
+
+    @media (max-width: 768px) { .section { padding: 72px 24px; } }
+
+    /* OPPORTUNITY */
+    .opportunity { background: #111111; border-top: 1px solid #1A1A1A; }
+    .opp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+    .opp-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(38px, 4.5vw, 64px); line-height: 1; letter-spacing: 0.02em; color: #F5F2EC; }
+    .opp-body { font-size: 15px; line-height: 1.75; color: #9A9488; }
+    .opp-body p+p { margin-top: 18px; }
+    .opp-cards { display: flex; flex-direction: column; gap: 14px; margin-top: 36px; }
+    .opp-card { border: 1px solid #222222; padding: 22px 26px; display: flex; align-items: flex-start; gap: 18px; background: #1A1A1A; transition: border-color 0.2s; }
+    .opp-card:hover { border-color: #8B6F2E; }
+    .opp-card-icon { font-size: 20px; flex-shrink: 0; margin-top: 2px; }
+    .opp-card-title { font-size: 13px; font-weight: 500; color: #F5F2EC; margin-bottom: 5px; }
+    .opp-card-text { font-size: 13px; color: #9A9488; line-height: 1.6; }
+    @media (max-width: 768px) { .opp-grid { grid-template-columns: 1fr; gap: 48px; } }
+
+    /* VALUE */
+    .value { border-top: 1px solid #1A1A1A; background: #0A0A0A; }
+    .value-headline-wrap { border: 1px solid #C9A84C; padding: 20px 28px; margin-bottom: 40px; }
+    .value-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(20px, 2.5vw, 30px); color: #C9A84C; letter-spacing: 0.03em; }
+    .value-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+    .value-card { background: #111111; padding: 40px 30px; }
+    .value-num { font-family: 'Bebas Neue', sans-serif; font-size: 52px; color: rgba(201,168,76,0.12); line-height: 1; margin-bottom: 12px; }
+    .value-card-title { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 12px; }
+    .value-card-text { font-size: 13px; line-height: 1.7; color: #9A9488; }
+    @media (max-width: 768px) { .value-grid { grid-template-columns: 1fr; } }
+
+    /* HOW */
+    .how { border-top: 1px solid #1A1A1A; background: #111111; }
+    .how-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(38px, 4.5vw, 64px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 64px; max-width: 560px; }
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+    .step { background: #1A1A1A; padding: 44px 32px; position: relative; transition: background 0.2s; }
+    .step:hover { background: #222222; }
+    .step-num { font-family: 'Bebas Neue', sans-serif; font-size: 80px; color: rgba(201,168,76,0.07); line-height: 1; position: absolute; top: 16px; right: 20px; }
+    .step-icon { font-size: 26px; margin-bottom: 18px; }
+    .step-title { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 12px; }
+    .step-text { font-size: 13px; line-height: 1.7; color: #9A9488; }
+    @media (max-width: 768px) { .steps { grid-template-columns: 1fr; } }
+
+    /* SCORE */
+    .score { background: #111111; border-top: 1px solid #1A1A1A; }
+    .score-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+    .score-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(38px, 4.5vw, 64px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 20px; }
+    .score-body { font-size: 15px; line-height: 1.75; color: #9A9488; margin-bottom: 32px; }
+    .score-dims { display: flex; flex-direction: column; gap: 14px; }
+    .score-dim { display: flex; align-items: center; gap: 14px; }
+    .score-dim-label { font-size: 12px; letter-spacing: 0.06em; color: #9A9488; width: 200px; flex-shrink: 0; }
+    .score-dim-bar { flex: 1; height: 3px; background: #222222; position: relative; overflow: hidden; }
+    .score-dim-fill { position: absolute; left:0; top:0; bottom:0; background: #C9A84C; }
+    .score-dim-val { font-family: 'DM Mono', monospace; font-size: 12px; color: #C9A84C; width: 32px; text-align: right; }
+    .score-levels { margin-top: 28px; display: flex; flex-direction: column; gap: 8px; }
+    .score-level { display: flex; align-items: center; gap: 12px; }
+    .score-level-range { font-family: 'DM Mono', monospace; font-size: 11px; color: #C9A84C; width: 60px; flex-shrink: 0; }
+    .score-level-label { font-size: 12px; color: #9A9488; }
+    .dish-card { background: #1A1A1A; border: 1px solid #222222; padding: 32px; }
+    .dish-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; margin-bottom: 6px; }
+    .dish-name { font-family: 'Bebas Neue', sans-serif; font-size: 32px; letter-spacing: 0.04em; margin-bottom: 20px; }
+    .dish-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 24px; }
+    .tag { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 10px; border: 1px solid; }
+    .tag-flag { border-color: #C94C4C; color: #C94C4C; }
+    .tag-unknown { border-color: #9A9488; color: #9A9488; }
+    .dish-score { display: flex; align-items: baseline; gap: 6px; margin-bottom: 6px; }
+    .dish-score-num { font-family: 'Bebas Neue', sans-serif; font-size: 64px; line-height: 1; color: #C9A84C; }
+    .dish-score-denom { font-family: 'Bebas Neue', sans-serif; font-size: 22px; color: #9A9488; }
+    .dish-score-label { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #9A9488; margin-bottom: 20px; }
+    .dish-ing { padding-top: 20px; border-top: 1px solid #222222; }
+    .dish-ing-title { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #9A9488; margin-bottom: 10px; }
+    .dish-ing-list { display: flex; flex-wrap: wrap; gap: 6px; }
+    .ing-pill { font-size: 11px; padding: 4px 9px; background: #222222; color: #9A9488; }
+    @media (max-width: 768px) { .score-grid { grid-template-columns: 1fr; gap: 48px; } }
+
+    /* WAITLIST */
+    .waitlist { border-top: 1px solid #1A1A1A; background: #0A0A0A; text-align: center; position: relative; overflow: hidden; }
+    .waitlist-glow { position: absolute; width: 800px; height: 400px; background: radial-gradient(ellipse, rgba(201,168,76,0.07) 0%, transparent 70%); top: 50%; left: 50%; transform: translate(-50%,-50%); pointer-events: none; }
+    .waitlist-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(44px, 7vw, 96px); line-height: 0.95; letter-spacing: 0.02em; margin-bottom: 18px; position: relative; }
+    .waitlist-sub { font-size: 15px; color: #9A9488; max-width: 420px; margin: 0 auto 44px; line-height: 1.65; position: relative; }
+    .waitlist-form { display: flex; max-width: 460px; margin: 0 auto; position: relative; }
+    .waitlist-input { flex: 1; background: #1A1A1A; border: 1px solid #222222; border-right: none; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 14px; padding: 15px 18px; outline: none; transition: border-color 0.2s; }
+    .waitlist-input::placeholder { color: #9A9488; }
+    .waitlist-input:focus { border-color: #8B6F2E; }
+    .waitlist-btn { background: #C9A84C; color: #0A0A0A; border: none; padding: 15px 26px; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; transition: background 0.2s; white-space: nowrap; }
+    .waitlist-btn:hover { background: #E8C97A; }
+    .waitlist-note { margin-top: 14px; font-size: 11px; color: #9A9488; letter-spacing: 0.05em; position: relative; }
+    .waitlist-success { display: none; font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.1em; color: #4CAF76; margin-top: 14px; position: relative; }
+    @media (max-width: 768px) { .waitlist-form { flex-direction: column; } .waitlist-input { border-right: 1px solid #222222; border-bottom: none; } }
+
+    /* RESTAURANTS */
+    .restaurants { background: #111111; border-top: 1px solid #1A1A1A; }
+    .rest-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .rest-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(32px, 3.5vw, 52px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 18px; }
+    .rest-body { font-size: 15px; line-height: 1.75; color: #9A9488; margin-bottom: 28px; }
+    .rest-perks { display: flex; flex-direction: column; gap: 14px; }
+    .perk { display: flex; align-items: flex-start; gap: 12px; }
+    .perk-dot { width: 5px; height: 5px; background: #C9A84C; border-radius: 50%; margin-top: 7px; flex-shrink: 0; }
+    .perk-text { font-size: 13px; color: #9A9488; line-height: 1.6; }
+    .rest-cta { margin-top: 32px; }
+    .btn-outline { display: inline-block; border: 1px solid #C9A84C; color: #C9A84C; padding: 13px 30px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: background 0.2s, color 0.2s; }
+    .btn-outline:hover { background: #C9A84C; color: #0A0A0A; }
+    .rest-metrics { display: flex; flex-direction: column; gap: 14px; }
+    .metric { background: #1A1A1A; border: 1px solid #222222; padding: 24px 28px; display: flex; justify-content: space-between; align-items: center; transition: border-color 0.2s; }
+    .metric:hover { border-color: #8B6F2E; }
+    .metric-label { font-size: 12px; color: #9A9488; }
+    .metric-value { font-family: 'Bebas Neue', sans-serif; font-size: 30px; color: #C9A84C; letter-spacing: 0.05em; }
+    @media (max-width: 768px) { .rest-grid { grid-template-columns: 1fr; gap: 48px; } }
+
+    footer { border-top: 1px solid #1A1A1A; padding: 44px 48px; display: flex; justify-content: space-between; align-items: center; background: #0A0A0A; }
+    .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.1em; color: #C9A84C; }
+    .footer-copy { font-size: 11px; color: #9A9488; letter-spacing: 0.05em; }
+    .footer-links { display: flex; gap: 28px; list-style: none; }
+    .footer-links a { font-size: 11px; color: #9A9488; text-decoration: none; letter-spacing: 0.08em; transition: color 0.2s; }
+    .footer-links a:hover { color: #C9A84C; }
+    @media (max-width: 768px) { footer { flex-direction: column; gap: 20px; text-align: center; padding: 36px 24px; } }
   </style>
 </head>
 <body>
-
-  <div class="cursor" id="cursor"></div>
-  <div class="cursor-ring" id="cursor-ring"></div>
-
-  <!-- NAV -->
 
   <nav>
     <a href="#" class="nav-logo">Goldpan</a>
@@ -872,269 +251,170 @@ footer {
     </ul>
   </nav>
 
-  <!-- HERO -->
-
   <section class="hero">
-    <div class="hero-bg-grid"></div>
-    <div class="hero-bg-glow"></div>
-
-```
-<p class="hero-eyebrow">// Transparency intelligence for food</p>
-<h1 class="hero-headline">
-  The Filter For<br /><span class="gold">Food Gold</span><br />You Can Trust.
-</h1>
-<p class="hero-sub">
-  Goldpan scores restaurant dishes on ingredient transparency — so you can eat with confidence, not guesswork.
-</p>
-<div class="hero-actions">
-  <a href="#waitlist" class="btn-primary">Join the Waitlist</a>
-  <a href="#how" class="btn-ghost">See how it works</a>
-</div>
-
-<div class="hero-stats">
-  <div class="stat">
-    <div class="stat-number">5</div>
-    <div class="stat-label">Restaurants</div>
-  </div>
-  <div class="stat">
-    <div class="stat-number">40+</div>
-    <div class="stat-label">Dishes Scored</div>
-  </div>
-  <div class="stat">
-    <div class="stat-number">100</div>
-    <div class="stat-label">Point Scale</div>
-  </div>
-</div>
-```
-
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <p class="hero-eyebrow">// Transparency intelligence for food</p>
+    <h1 class="hero-headline">The Filter For<br /><span class="gold">Food Gold</span><br />You Can Trust.</h1>
+    <p class="hero-sub">Goldpan scores restaurant dishes on ingredient transparency — so you can eat with confidence, not guesswork.</p>
+    <div class="hero-actions">
+      <a href="#waitlist" class="btn-primary">Join the Waitlist</a>
+      <a href="#how" class="btn-ghost">See how it works</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-number">5</div><div class="stat-label">Restaurants</div></div>
+      <div class="stat"><div class="stat-number">40+</div><div class="stat-label">Dishes Scored</div></div>
+      <div class="stat"><div class="stat-number">100</div><div class="stat-label">Point Scale</div></div>
+    </div>
   </section>
-
-  <!-- TICKER -->
 
   <div class="ticker" aria-hidden="true">
     <div class="ticker-inner">
       <span class="ticker-item">Ingredient Transparency <span class="ticker-dot">◆</span></span>
       <span class="ticker-item">Allergen Clarity <span class="ticker-dot">◆</span></span>
+      <span class="ticker-item">Restaurants That Tell You Everything <span class="ticker-dot">◆</span></span>
+      <span class="ticker-item">We Help You Find Them <span class="ticker-dot">◆</span></span>
       <span class="ticker-item">Dietary Confidence <span class="ticker-dot">◆</span></span>
-      <span class="ticker-item">No More Guessing <span class="ticker-dot">◆</span></span>
-      <span class="ticker-item">Know What You Eat <span class="ticker-dot">◆</span></span>
-      <span class="ticker-item">Restaurant Accountability <span class="ticker-dot">◆</span></span>
-      <span class="ticker-item">Birmingham's Food Intelligence Layer <span class="ticker-dot">◆</span></span>
+      <span class="ticker-item">Celebrating Transparent Kitchens <span class="ticker-dot">◆</span></span>
+      <span class="ticker-item">Birmingham's Food Trust Layer <span class="ticker-dot">◆</span></span>
       <span class="ticker-item">Ingredient Transparency <span class="ticker-dot">◆</span></span>
       <span class="ticker-item">Allergen Clarity <span class="ticker-dot">◆</span></span>
+      <span class="ticker-item">Restaurants That Tell You Everything <span class="ticker-dot">◆</span></span>
+      <span class="ticker-item">We Help You Find Them <span class="ticker-dot">◆</span></span>
       <span class="ticker-item">Dietary Confidence <span class="ticker-dot">◆</span></span>
-      <span class="ticker-item">No More Guessing <span class="ticker-dot">◆</span></span>
-      <span class="ticker-item">Know What You Eat <span class="ticker-dot">◆</span></span>
-      <span class="ticker-item">Restaurant Accountability <span class="ticker-dot">◆</span></span>
-      <span class="ticker-item">Birmingham's Food Intelligence Layer <span class="ticker-dot">◆</span></span>
+      <span class="ticker-item">Celebrating Transparent Kitchens <span class="ticker-dot">◆</span></span>
+      <span class="ticker-item">Birmingham's Food Trust Layer <span class="ticker-dot">◆</span></span>
     </div>
   </div>
 
-  <!-- PROBLEM -->
-
-  <section class="problem section" id="problem">
-    <div class="problem-grid">
-      <div class="reveal">
-        <p class="section-label">// The Problem</p>
-        <h2 class="problem-headline">Menus Hide More Than They Show</h2>
+  <section class="opportunity section" id="opportunity">
+    <div class="opp-grid">
+      <div>
+        <p class="section-label">// The Opportunity</p>
+        <h2 class="opp-headline">Some Restaurants Tell You Everything. We Help You Find Them.</h2>
       </div>
-      <div class="reveal">
-        <p class="problem-body">
-          <p>You have a food allergy, a dietary preference, or you just want to know what you're putting in your body. But restaurant menus are built for selling — not for telling.</p>
-          <p>Sauces without ingredients. "Seasonal vegetables" with no specifics. Allergen information buried or missing entirely. Every meal is a gamble.</p>
-        </p>
-        <div class="problem-cards">
-          <div class="problem-card">
-            <div class="problem-card-icon">⚠️</div>
-            <div>
-              <div class="problem-card-title">Hidden Allergens</div>
-              <div class="problem-card-text">Common allergens buried inside compound sauces, dressings, and coatings with no disclosure.</div>
-            </div>
+      <div>
+        <div class="opp-body">
+          <p>There are restaurants that are transparent — ones that tell you exactly what's in your food, how it's prepared, and what allergens to watch for. They deserve to be found.</p>
+          <p>Goldpan scores every dish on ingredient transparency so diners with dietary needs, allergies, or simply a desire to know what they're eating can find the restaurants that care.</p>
+        </div>
+        <div class="opp-cards">
+          <div class="opp-card">
+            <div class="opp-card-icon">✅</div>
+            <div><div class="opp-card-title">Transparent Restaurants Win</div><div class="opp-card-text">Restaurants that disclose their ingredients get recognized, discovered, and trusted by the diners who care most.</div></div>
           </div>
-          <div class="problem-card">
-            <div class="problem-card-icon">🌫️</div>
-            <div>
-              <div class="problem-card-title">Vague Dietary Claims</div>
-              <div class="problem-card-text">"Gluten-free" and "vegan" labels with no verification or ingredient-level evidence behind them.</div>
-            </div>
+          <div class="opp-card">
+            <div class="opp-card-icon">🎯</div>
+            <div><div class="opp-card-title">Diners Get Confidence</div><div class="opp-card-text">Filter by allergen or dietary need and instantly see which dishes are clear — and how confident you can be in that answer.</div></div>
           </div>
-          <div class="problem-card">
-            <div class="problem-card-icon">🔍</div>
-            <div>
-              <div class="problem-card-title">No Accountability Layer</div>
-              <div class="problem-card-text">Diners have no way to know how confident they should be in any given menu claim.</div>
-            </div>
+          <div class="opp-card">
+            <div class="opp-card-icon">🤝</div>
+            <div><div class="opp-card-title">Trust Goes Both Ways</div><div class="opp-card-text">A Goldpan score isn't a grade — it's a signal. Restaurants that earn it build stronger relationships with their most loyal customers.</div></div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- HOW IT WORKS -->
+  <section class="value section" id="value">
+    <p class="section-label">// Why It Matters</p>
+    <div class="value-headline-wrap">
+      <div class="value-headline">The restaurants diners trust are the ones they find first.</div>
+    </div>
+    <div class="value-grid">
+      <div class="value-card"><div class="value-num">01</div><div class="value-card-title">Stand Out Instantly</div><div class="value-card-text">In a city full of options, transparency is a differentiator. A Goldpan score tells diners your restaurant is worth choosing — before they ever see a review.</div></div>
+      <div class="value-card"><div class="value-num">02</div><div class="value-card-title">Stop Losing Guests Before They Arrive</div><div class="value-card-text">Diners with dietary needs do their research first. If they can't find clear ingredient information, they move on. They never walk through the door.</div></div>
+      <div class="value-card"><div class="value-num">03</div><div class="value-card-title">The Guest Who Finds You Stays</div><div class="value-card-text">The diner who finds your restaurant through Goldpan is not a one-time visitor. They are a regular — and they bring everyone they know.</div></div>
+    </div>
+  </section>
 
   <section class="how section" id="how">
-    <p class="section-label reveal">// How It Works</p>
-    <h2 class="how-headline reveal">Clarity Has a<br />Score Now</h2>
+    <p class="section-label">// How It Works</p>
+    <h2 class="how-headline">Clarity Has a<br />Score Now</h2>
     <div class="steps">
-      <div class="step reveal">
-        <div class="step-number">01</div>
-        <div class="step-icon">📋</div>
-        <div class="step-title">We Map the Menu</div>
-        <div class="step-text">Every dish is broken down ingredient by ingredient — protein, base, sauces, seasonings — exactly as described. No inference. No guessing.</div>
-      </div>
-      <div class="step reveal">
-        <div class="step-number">02</div>
-        <div class="step-icon">🔬</div>
-        <div class="step-title">We Score the Clarity</div>
-        <div class="step-text">Each dish gets a Transparency Score from 0–100 across four dimensions: ingredient clarity, sauce disclosure, allergen transparency, and prep inputs.</div>
-      </div>
-      <div class="step reveal">
-        <div class="step-number">03</div>
-        <div class="step-icon">✅</div>
-        <div class="step-title">You Eat With Confidence</div>
-        <div class="step-text">Filter by allergen or dietary need and instantly see which dishes are clear, which are unknown, and how much to trust the result.</div>
-      </div>
+      <div class="step"><div class="step-num">01</div><div class="step-icon">📋</div><div class="step-title">We Map the Menu</div><div class="step-text">Every dish is broken down ingredient by ingredient — protein, base, sauces, seasonings — exactly as described. No inference. No guessing.</div></div>
+      <div class="step"><div class="step-num">02</div><div class="step-icon">🔬</div><div class="step-title">We Score the Clarity</div><div class="step-text">Each dish gets a Transparency Score from 0–100 across four dimensions: ingredient clarity, sauce disclosure, allergen transparency, and prep inputs.</div></div>
+      <div class="step"><div class="step-num">03</div><div class="step-icon">✅</div><div class="step-title">You Eat With Confidence</div><div class="step-text">Filter by allergen or dietary need and instantly see which dishes are clear, which are unknown, and how much to trust the result.</div></div>
     </div>
   </section>
 
-  <!-- SCORE SHOWCASE -->
-
-  <section class="score-section section" id="score">
+  <section class="score section" id="score">
     <div class="score-grid">
-      <div class="reveal">
+      <div>
         <p class="section-label">// The Transparency Score</p>
         <h2 class="score-headline">100 Points.<br />4 Dimensions.</h2>
-        <p class="score-body">
-          Every dish is scored on what a customer actually needs to know — not what looks good on a menu. Unverified claims score lower until confirmed.
-        </p>
-        <div class="score-dimensions">
-          <div class="score-dim">
-            <div class="score-dim-label">Core Ingredient Clarity</div>
-            <div class="score-dim-bar"><div class="score-dim-fill" style="width:100%"></div></div>
-            <div class="score-dim-val">25</div>
-          </div>
-          <div class="score-dim">
-            <div class="score-dim-label">Sauce & Seasoning Disclosure</div>
-            <div class="score-dim-bar"><div class="score-dim-fill" style="width:60%"></div></div>
-            <div class="score-dim-val">15</div>
-          </div>
-          <div class="score-dim">
-            <div class="score-dim-label">Allergen Transparency</div>
-            <div class="score-dim-bar"><div class="score-dim-fill" style="width:20%"></div></div>
-            <div class="score-dim-val">5</div>
-          </div>
-          <div class="score-dim">
-            <div class="score-dim-label">Prep Input Clarity</div>
-            <div class="score-dim-bar"><div class="score-dim-fill" style="width:60%"></div></div>
-            <div class="score-dim-val">15</div>
+        <p class="score-body">Every dish is scored on what a customer actually needs to know. Every score is a starting point, not a verdict — and confirmation raises it.</p>
+        <div class="score-dims">
+          <div class="score-dim"><div class="score-dim-label">Core Ingredient Clarity</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:100%"></div></div><div class="score-dim-val">25</div></div>
+          <div class="score-dim"><div class="score-dim-label">Sauce & Seasoning Disclosure</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:60%"></div></div><div class="score-dim-val">15</div></div>
+          <div class="score-dim"><div class="score-dim-label">Allergen Transparency</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:20%"></div></div><div class="score-dim-val">5</div></div>
+          <div class="score-dim"><div class="score-dim-label">Prep Input Clarity</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:60%"></div></div><div class="score-dim-val">15</div></div>
+        </div>
+        <div class="score-levels">
+          <div class="score-level"><div class="score-level-range">85–100</div><div class="score-level-label">High Transparency</div></div>
+          <div class="score-level"><div class="score-level-range">60–84</div><div class="score-level-label">Moderate Transparency</div></div>
+          <div class="score-level"><div class="score-level-range">30–59</div><div class="score-level-label">Building Transparency</div></div>
+          <div class="score-level"><div class="score-level-range">0–29</div><div class="score-level-label">Early Stage</div></div>
+        </div>
+      </div>
+      <div class="dish-card">
+        <div class="dish-restaurant">Real & Rosemary · Homewood</div>
+        <div class="dish-name">Chicken Poppers Appetizer</div>
+        <div class="dish-tags">
+          <span class="tag tag-flag">Contains Wheat</span>
+          <span class="tag tag-flag">Contains Mustard</span>
+          <span class="tag tag-unknown">Allergens Unverified</span>
+        </div>
+        <div class="dish-score"><div class="dish-score-num">60</div><div class="dish-score-denom">/100</div></div>
+        <div class="dish-score-label">Moderate Transparency</div>
+        <div class="dish-ing">
+          <div class="dish-ing-title">Ingredients on record</div>
+          <div class="dish-ing-list">
+            <span class="ing-pill">Chicken</span>
+            <span class="ing-pill">Panko Breadcrumbs</span>
+            <span class="ing-pill">Sorghum Honey Mustard</span>
+            <span class="ing-pill">Frying Oil</span>
           </div>
         </div>
       </div>
-
-```
-  <div class="dish-card reveal">
-    <div class="dish-card-restaurant">Real & Rosemary · Homewood</div>
-    <div class="dish-card-name">Chicken Poppers Appetizer</div>
-    <div class="dish-card-tags">
-      <span class="tag tag-flag">Contains Wheat</span>
-      <span class="tag tag-flag">Contains Mustard</span>
-      <span class="tag tag-unknown">Allergens Unverified</span>
     </div>
-    <div class="dish-card-score">
-      <div class="dish-score-number">60</div>
-      <div class="dish-score-denom">/100</div>
-    </div>
-    <div class="dish-score-label">Moderate Transparency</div>
-    <div class="dish-ingredients">
-      <div class="dish-ing-title">Ingredients on record</div>
-      <div class="dish-ing-list">
-        <span class="ing-pill">Chicken</span>
-        <span class="ing-pill">Panko Breadcrumbs</span>
-        <span class="ing-pill">Honey Mustard Sauce</span>
-        <span class="ing-pill">Frying Oil</span>
-      </div>
-    </div>
-  </div>
-</div>
-```
-
   </section>
-
-  <!-- WAITLIST -->
 
   <section class="waitlist section" id="waitlist">
     <div class="waitlist-glow"></div>
-    <p class="section-label reveal">// Early Access</p>
-    <h2 class="waitlist-headline reveal">Be First<br />to Know</h2>
-    <p class="waitlist-sub reveal">
-      Goldpan launches in Birmingham. Join the waitlist and get early access when we go live.
-    </p>
-    <div class="waitlist-form reveal">
+    <p class="section-label" style="position:relative;">// Early Access</p>
+    <h2 class="waitlist-headline">Be First<br />to Know</h2>
+    <p class="waitlist-sub">Goldpan launches in Birmingham. Join the waitlist and get early access when we go live.</p>
+    <div class="waitlist-form">
       <input type="email" class="waitlist-input" id="waitlist-email" placeholder="your@email.com" />
       <button class="waitlist-btn" onclick="handleWaitlist()">Join Now</button>
     </div>
-    <p class="waitlist-note reveal">No spam. Just your spot in line.</p>
+    <p class="waitlist-note">No spam. Just your spot in line.</p>
     <p class="waitlist-success" id="waitlist-success">✓ You're on the list. We'll be in touch.</p>
   </section>
 
-  <!-- FOR RESTAURANTS -->
-
-  <section class="merchant section" id="restaurants">
-    <div class="merchant-inner">
-      <div class="reveal">
+  <section class="restaurants section" id="restaurants">
+    <div class="rest-grid">
+      <div>
         <p class="section-label">// For Restaurants</p>
-        <h2 class="merchant-headline">Transparency Is a Competitive Advantage</h2>
-        <p class="merchant-body">
-          Diners are choosing where to eat based on trust. A high Goldpan score signals that your restaurant takes ingredient disclosure seriously — and that builds loyalty.
-        </p>
-        <div class="merchant-perks">
-          <div class="perk">
-            <div class="perk-dot"></div>
-            <div class="perk-text">Get discovered by diners filtering for their specific dietary needs</div>
-          </div>
-          <div class="perk">
-            <div class="perk-dot"></div>
-            <div class="perk-text">Verified scores unlock higher placement in search results</div>
-          </div>
-          <div class="perk">
-            <div class="perk-dot"></div>
-            <div class="perk-text">Confirmation process is fast — we do the heavy lifting</div>
-          </div>
-          <div class="perk">
-            <div class="perk-dot"></div>
-            <div class="perk-text">Early partners get free onboarding and priority listing</div>
-          </div>
+        <h2 class="rest-headline">Transparency Is a Badge, Not a Report Card</h2>
+        <p class="rest-body">Transparency is something to be proud of. If your restaurant tells diners what's in their food, Goldpan makes sure the right people find you — the ones actively looking for restaurants they can trust.</p>
+        <div class="rest-perks">
+          <div class="perk"><div class="perk-dot"></div><div class="perk-text">Get discovered by diners filtering for their specific dietary needs</div></div>
+          <div class="perk"><div class="perk-dot"></div><div class="perk-text">A verified Goldpan score is a badge of trust — not a report card</div></div>
+          <div class="perk"><div class="perk-dot"></div><div class="perk-text">We do the heavy lifting — confirmation process is fast and simple</div></div>
+          <div class="perk"><div class="perk-dot"></div><div class="perk-text">Only 5 founding partner spots — free for life, priority placement always</div></div>
         </div>
-        <div class="merchant-cta">
-          <a href="/cdn-cgi/l/email-protection#b9d1dcd5d5d6f9ded6d5ddc9d8d797dad6" class="btn-outline">Partner With Us</a>
-        </div>
+        <div class="rest-cta"><a href="mailto:hello@goldpan.co" class="btn-outline">Partner With Us</a></div>
       </div>
-
-```
-  <div class="merchant-visual reveal">
-    <div class="merchant-metric">
-      <div class="metric-label">Diners with dietary restrictions</div>
-      <div class="metric-value">1 in 3</div>
+      <div class="rest-metrics">
+        <div class="metric"><div class="metric-label">Diners with dietary restrictions</div><div class="metric-value">1 in 3</div></div>
+        <div class="metric"><div class="metric-label">Check ingredients before ordering</div><div class="metric-value">68%</div></div>
+        <div class="metric"><div class="metric-label">Trust gain from transparent menus</div><div class="metric-value">+40%</div></div>
+        <div class="metric"><div class="metric-label">Founding partner spots remaining</div><div class="metric-value">4 of 5</div></div>
+      </div>
     </div>
-    <div class="merchant-metric">
-      <div class="metric-label">Who check ingredients before ordering</div>
-      <div class="metric-value">68%</div>
-    </div>
-    <div class="merchant-metric">
-      <div class="metric-label">Trust gain from transparent menus</div>
-      <div class="metric-value">+40%</div>
-    </div>
-    <div class="merchant-metric">
-      <div class="metric-label">Current restaurant partners</div>
-      <div class="metric-value">5</div>
-    </div>
-  </div>
-</div>
-```
-
   </section>
-
-  <!-- FOOTER -->
 
   <footer>
     <div class="footer-logo">Goldpan</div>
@@ -1142,63 +422,25 @@ footer {
     <ul class="footer-links">
       <li><a href="#how">How It Works</a></li>
       <li><a href="#restaurants">Restaurants</a></li>
-      <li><a href="/cdn-cgi/l/email-protection#80e8e5ececefc0e7efece4f0e1eeaee3ef">Contact</a></li>
+      <li><a href="mailto:hello@goldpan.co">Contact</a></li>
     </ul>
   </footer>
 
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-
-```
-// Custom cursor
-const cursor = document.getElementById('cursor');
-const ring = document.getElementById('cursor-ring');
-let mx = 0, my = 0, rx = 0, ry = 0;
-
-document.addEventListener('mousemove', e => {
-  mx = e.clientX; my = e.clientY;
-  cursor.style.transform = `translate(${mx - 5}px, ${my - 5}px)`;
-});
-
-function animateRing() {
-  rx += (mx - rx) * 0.12;
-  ry += (my - ry) * 0.12;
-  ring.style.transform = `translate(${rx - 18}px, ${ry - 18}px)`;
-  requestAnimationFrame(animateRing);
-}
-animateRing();
-
-document.querySelectorAll('a, button, input').forEach(el => {
-  el.addEventListener('mouseenter', () => {
-    cursor.style.transform += ' scale(2)';
-    ring.style.width = '56px';
-    ring.style.height = '56px';
-    ring.style.opacity = '0.8';
-  });
-  el.addEventListener('mouseleave', () => {
-    ring.style.width = '36px';
-    ring.style.height = '36px';
-    ring.style.opacity = '0.5';
-  });
-});
-
-// Scroll reveal
-const reveals = document.querySelectorAll('.reveal');
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
+  <script>
+    function handleWaitlist() {
+      const email = document.getElementById('waitlist-email').value;
+      if (!email || !email.includes('@')) {
+        document.getElementById('waitlist-email').style.borderColor = '#C94C4C';
+        return;
+      }
+      document.querySelector('.waitlist-form').style.display = 'none';
+      document.querySelector('.waitlist-note').style.display = 'none';
+      document.getElementById('waitlist-success').style.display = 'block';
     }
-  });
-}, { threshold: 0.12 });
-reveals.forEach(el => observer.observe(el));
 
-// Waitlist
-function handleWaitlist() {
-  const email = document.getElementById('waitlist-email').value;
-  if (!email || !email.includes('@')) {
-    document.getElementById('waitlist-email').style.borderColor = '#C94C4C';
-    return;
-  }
-  document.querySelector('.waitlist-form').style.display = 'none';
-  document.getElementById('waitlist-success').style.disp
-```
+    document.getElementById('waitlist-email').addEventListener('keydown', e => {
+      if (e.key === 'Enter') handleWaitlist();
+    });
+  </script>
+</body>
+</html>
