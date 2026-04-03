@@ -405,7 +405,7 @@
           <div class="perk"><div class="perk-dot"></div><div class="perk-text">We do the heavy lifting — confirmation process is fast and simple</div></div>
           <div class="perk"><div class="perk-dot"></div><div class="perk-text">Only 5 founding partner spots — free for life, priority placement always</div></div>
         </div>
-        <div class="rest-cta"><a href="mailto:hello@goldpan.co" class="btn-outline">Partner With Us</a></div>
+        <div class="rest-cta"><a href="/cdn-cgi/l/email-protection#b8d0ddd4d4d7f8dfd7d4dcc8d9d696dbd7" class="btn-outline">Partner With Us</a></div>
       </div>
       <div class="rest-metrics">
         <div class="metric"><div class="metric-label">Diners with dietary restrictions</div><div class="metric-value">1 in 3</div></div>
@@ -422,20 +422,53 @@
     <ul class="footer-links">
       <li><a href="#how">How It Works</a></li>
       <li><a href="#restaurants">Restaurants</a></li>
-      <li><a href="mailto:hello@goldpan.co">Contact</a></li>
+      <li><a href="/cdn-cgi/l/email-protection#076f626b6b684760686b63776669296468">Contact</a></li>
+    </ul>
+  </footer>
+  <footer>
+    <div class="footer-logo">Goldpan</div>
+    <p class="footer-copy">© 2026 Goldpan. Birmingham, AL.</p>
+    <ul class="footer-links">
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#restaurants">Restaurants</a></li>
+      <li><a href="mailto:hello@goldpanapp.com">Contact</a></li>
     </ul>
   </footer>
 
   <script>
-    function handleWaitlist() {
+    async function handleWaitlist() {
       const email = document.getElementById('waitlist-email').value;
       if (!email || !email.includes('@')) {
         document.getElementById('waitlist-email').style.borderColor = '#C94C4C';
         return;
       }
-      document.querySelector('.waitlist-form').style.display = 'none';
-      document.querySelector('.waitlist-note').style.display = 'none';
-      document.getElementById('waitlist-success').style.display = 'block';
+      const btn = document.querySelector('.waitlist-btn');
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+      try {
+        const res = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            access_key: 'abd2a5ee-7cfa-45d1-8ff1-cd084338b769',
+            subject: 'New Goldpan Waitlist Signup',
+            email: email,
+            message: 'New waitlist signup: ' + email
+          })
+        });
+        const data = await res.json();
+        if (data.success) {
+          document.querySelector('.waitlist-form').style.display = 'none';
+          document.querySelector('.waitlist-note').style.display = 'none';
+          document.getElementById('waitlist-success').style.display = 'block';
+        } else {
+          btn.textContent = 'Try Again';
+          btn.disabled = false;
+        }
+      } catch(e) {
+        btn.textContent = 'Try Again';
+        btn.disabled = false;
+      }
     }
 
     document.getElementById('waitlist-email').addEventListener('keydown', e => {
