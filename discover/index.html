@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goldpan Discover</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --gold: #C9A84C; --black: #0A0A0A; --black-2: #111111; --black-3: #1A1A1A; --black-4: #222222; --white: #F5F2EC; --gray: #9A9488; --green: #4CAF76; }
+    html { scroll-behavior: smooth; background: #0A0A0A; }
+    body { background: #0A0A0A; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-weight: 300; min-height: 100vh; }
+    header { position: sticky; top: 0; z-index: 100; background: rgba(10,10,10,0.95); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(201,168,76,0.12); padding: 18px 48px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 0.08em; color: #C9A84C; text-decoration: none; }
+    .logo span { color: #F5F2EC; font-size: 13px; letter-spacing: 0.15em; margin-left: 12px; font-family: 'DM Mono', monospace; }
+    .header-stats { display: flex; gap: 32px; }
+    .hstat { text-align: right; }
+    .hstat-num { font-family: 'Bebas Neue', sans-serif; font-size: 24px; color: #C9A84C; line-height: 1; }
+    .hstat-label { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9488; }
+    @media (max-width: 768px) { header { padding: 14px 20px; } .header-stats { display: none; } }
+    .hero { padding: 60px 48px 40px; border-bottom: 1px solid #1A1A1A; }
+    .hero-label { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 16px; }
+    .hero-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(40px, 6vw, 80px); line-height: 0.95; letter-spacing: 0.02em; margin-bottom: 16px; }
+    .hero-sub { font-size: 15px; color: #9A9488; max-width: 500px; line-height: 1.6; }
+    @media (max-width: 768px) { .hero { padding: 40px 20px 30px; } }
+    .search-bar { padding: 24px 48px; border-bottom: 1px solid #1A1A1A; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    .search-input { flex: 1; min-width: 200px; background: #1A1A1A; border: 1px solid #222222; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 14px; padding: 12px 18px; outline: none; transition: border-color 0.2s; }
+    .search-input::placeholder { color: #9A9488; }
+    .search-input:focus { border-color: #8B6F2E; }
+    .filter-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+    .fbtn { padding: 10px 18px; border: 1px solid #222222; background: transparent; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: all 0.2s; }
+    .fbtn:hover { border-color: #C9A84C; color: #C9A84C; }
+    .fbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; }
+    @media (max-width: 768px) { .search-bar { padding: 16px 20px; } }
+    .results-bar { padding: 16px 48px; border-bottom: 1px solid #1A1A1A; display: flex; justify-content: space-between; align-items: center; }
+    .results-count { font-size: 12px; color: #9A9488; font-family: 'DM Mono', monospace; }
+    .sort-btn { font-size: 11px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.1em; text-transform: uppercase; }
+    @media (max-width: 768px) { .results-bar { padding: 12px 20px; } }
+    .grid { padding: 32px 48px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+    @media (max-width: 768px) { .grid { padding: 20px; grid-template-columns: 1fr; } }
+    .card { background: #111111; border: 1px solid #1A1A1A; padding: 28px; cursor: pointer; transition: border-color 0.2s, background 0.2s; position: relative; }
+    .card:hover { border-color: #8B6F2E; background: #151515; }
+    .card.selected { border-color: #C9A84C; }
+    .card-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; margin-bottom: 4px; }
+    .card-name { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 16px; line-height: 1.1; }
+    .card-score-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
+    .card-score { font-family: 'Bebas Neue', sans-serif; font-size: 44px; line-height: 1; }
+    .card-score.high { color: #4CAF76; }
+    .card-score.moderate { color: #C9A84C; }
+    .card-score.building { color: #9A9488; }
+    .card-score.early { color: #C94C4C; }
+    .card-denom { font-family: 'Bebas Neue', sans-serif; font-size: 18px; color: #9A9488; }
+    .card-bar { height: 3px; background: #222222; margin-bottom: 8px; overflow: hidden; }
+    .card-bar-fill { height: 100%; }
+    .card-bar-fill.high { background: #4CAF76; }
+    .card-bar-fill.moderate { background: #C9A84C; }
+    .card-bar-fill.building { background: #9A9488; }
+    .card-bar-fill.early { background: #C94C4C; }
+    .card-level { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9488; margin-bottom: 12px; }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+    .ctag { font-size: 10px; padding: 3px 8px; border: 1px solid; border-radius: 2px; }
+    .ctag-vegan { border-color: #4CAF76; color: #4CAF76; }
+    .ctag-vegetarian { border-color: #1D9E75; color: #1D9E75; }
+    .ctag-gluten { border-color: #378ADD; color: #378ADD; }
+    .ctag-allergen { border-color: #9A9488; color: #9A9488; }
+    .detail-panel { position: fixed; right: 0; top: 0; bottom: 0; width: 420px; background: #0A0A0A; border-left: 1px solid #1A1A1A; overflow-y: auto; transform: translateX(100%); transition: transform 0.3s; z-index: 200; padding: 32px; }
+    .detail-panel.open { transform: translateX(0); }
+    @media (max-width: 768px) { .detail-panel { width: 100%; } }
+    .detail-close { position: absolute; top: 20px; right: 20px; font-size: 20px; cursor: pointer; color: #9A9488; background: none; border: none; }
+    .detail-close:hover { color: #F5F2EC; }
+    .detail-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; margin-bottom: 6px; margin-top: 20px; }
+    .detail-name { font-family: 'Bebas Neue', sans-serif; font-size: 32px; letter-spacing: 0.04em; margin-bottom: 24px; line-height: 1.1; }
+    .detail-score-big { font-family: 'Bebas Neue', sans-serif; font-size: 72px; line-height: 1; margin-bottom: 4px; }
+    .detail-score-big.high { color: #4CAF76; }
+    .detail-score-big.moderate { color: #C9A84C; }
+    .detail-score-big.building { color: #9A9488; }
+    .detail-score-big.early { color: #C94C4C; }
+    .detail-level { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #9A9488; margin-bottom: 6px; }
+    .detail-context { font-size: 13px; color: #4CAF76; font-style: italic; margin-bottom: 24px; }
+    .detail-dims { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; padding: 20px; background: #111111; border: 1px solid #1A1A1A; }
+    .dim-row { display: flex; align-items: center; gap: 10px; }
+    .dim-label { font-size: 11px; color: #9A9488; flex: 1; }
+    .dim-bar { width: 80px; height: 3px; background: #222222; overflow: hidden; }
+    .dim-fill { height: 100%; background: #C9A84C; }
+    .dim-val { font-family: 'DM Mono', monospace; font-size: 11px; color: #C9A84C; width: 30px; text-align: right; }
+    .detail-section-title { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #9A9488; margin-bottom: 10px; }
+    .detail-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+    .detail-allergens { font-size: 12px; color: #9A9488; padding: 12px 16px; background: #111111; border: 1px solid #1A1A1A; margin-bottom: 20px; line-height: 1.6; }
+    .detail-ingredients { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+    .ing-chip { font-size: 11px; padding: 4px 10px; background: #1A1A1A; color: #9A9488; border: 1px solid #222222; }
+    .empty { padding: 80px 48px; text-align: center; color: #9A9488; }
+    .empty-title { font-family: 'Bebas Neue', sans-serif; font-size: 32px; color: #1A1A1A; margin-bottom: 12px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="display:flex;align-items:center;gap:16px;">
+    <a href="https://goldpanapp.com" class="logo">Goldpan <span>DISCOVER</span></a>
+  </div>
+  <div class="header-stats">
+    <div class="hstat"><div class="hstat-num">52</div><div class="hstat-label">Dishes</div></div>
+    <div class="hstat"><div class="hstat-num">11</div><div class="hstat-label">Restaurants</div></div>
+    <div class="hstat"><div class="hstat-num">44</div><div class="hstat-label">Avg Score</div></div>
+  </div>
+</header>
+
+<div class="hero">
+  <p class="hero-label">Birmingham Food Intelligence</p>
+  <h1 class="hero-title">Find Food<br />You Can Trust.</h1>
+  <p class="hero-sub">Search 52 scored dishes across 11 Birmingham restaurants. Filter by dietary need, allergen, or transparency score.</p>
+</div>
+
+<div class="search-bar">
+  <input class="search-input" id="search" placeholder="Search dishes, restaurants, ingredients..." oninput="render()" />
+  <div class="filter-btns">
+    <button class="fbtn active" onclick="setFilter('all',this)">All</button>
+    <button class="fbtn" onclick="setFilter('vegan',this)">Vegan</button>
+    <button class="fbtn" onclick="setFilter('vegetarian',this)">Vegetarian</button>
+    <button class="fbtn" onclick="setFilter('gluten-free',this)">Gluten Free</button>
+    <button class="fbtn" onclick="setFilter('no-dairy',this)">No Dairy</button>
+    <button class="fbtn" onclick="setFilter('no-nuts',this)">No Nuts</button>
+    <button class="fbtn" onclick="setFilter('60plus',this)">Score 60+</button>
+  </div>
+</div>
+
+<div class="results-bar">
+  <span class="results-count" id="results-count">52 dishes</span>
+  <button class="sort-btn" onclick="toggleSort()">Sort: <span id="sort-label">Highest Score</span></button>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="detail-panel" id="detail-panel">
+  <button class="detail-close" onclick="closeDetail()">x</button>
+  <div id="detail-content"></div>
+</div>
+
+<script>
+var dishes = [
+  {id:'D001',name:'Grilled Herb Chicken',restaurant:'Real and Rosemary',location:'Homewood',score:70,level:'Moderate',tags:['gluten-free'],allergens:'None stated',notes:'Seasonal vegetables vague, all seasonings named',core:25,sauce:25,allergen:5,prep:15,ingredients:['Chicken','Olive oil','Garlic','Rosemary','Thyme','Oregano','Lemon juice','Salt','Black pepper','Sorghum syrup','Honey','Mustard','Vinegar','Seasonal vegetables']},
+  {id:'D002',name:'Chicken Poppers Appetizer',restaurant:'Real and Rosemary',location:'Homewood',score:60,level:'Moderate',tags:[],allergens:'Wheat, Mustard',notes:'Honey mustard compound, frying oil unknown type',core:25,sauce:15,allergen:5,prep:15,ingredients:['Chicken','Panko breadcrumbs','Sorghum honey mustard','Frying oil']},
+  {id:'D003',name:'Impossible Burger',restaurant:'Real and Rosemary',location:'Homewood',score:40,level:'Building',tags:[],allergens:'Unknown',notes:'No sauce disclosed, no prep stated',core:25,sauce:5,allergen:5,prep:5,ingredients:['Impossible burger patty','Brioche bun','Lettuce','Tomato','Red onion','Pickle']},
+  {id:'D004',name:'Chicken Salad Sandwich',restaurant:'Real and Rosemary',location:'Homewood',score:30,level:'Building',tags:[],allergens:'Dairy, Wheat, Egg',notes:'Chicken salad mix compound, herbs vague',core:15,sauce:5,allergen:5,prep:5,ingredients:['Chicken salad mix','Sandwich bread','Lettuce','Tomato','Greek yogurt','Mayonnaise','Herbs']},
+  {id:'D005',name:'Spaghetti',restaurant:'Real and Rosemary',location:'Homewood',score:30,level:'Building',tags:[],allergens:'Wheat, Dairy',notes:'Meatballs compound, marinara compound',core:15,sauce:5,allergen:5,prep:5,ingredients:['Angel hair pasta','Meatballs','Marinara','Parmesan']},
+  {id:'D006',name:'Red Velvet French Toast',restaurant:'Yo Chef Surf and Turf',location:'Birmingham',score:40,level:'Building',tags:[],allergens:'Wheat, Egg, Dairy, Tree nuts',notes:'Red velvet crumbles compound, cream cheese icing compound',core:15,sauce:15,allergen:5,prep:5,ingredients:['French toast baguette','Red velvet cake crumbles','Walnuts','Cream cheese icing']},
+  {id:'D007',name:"Yo' Beyond Burger",restaurant:'Yo Chef Surf and Turf',location:'Birmingham',score:30,level:'Building',tags:[],allergens:'Unknown',notes:'Vegetarian sauce entirely unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Beyond burger patty','Burger bun','Vegetarian sauce','Pico de gallo','Fried onions']},
+  {id:'D008',name:'Cobb Salad',restaurant:'Yo Chef Surf and Turf',location:'Birmingham',score:50,level:'Building',tags:[],allergens:'Dairy, Egg',notes:'No dressing disclosed, cajun grilled stated',core:25,sauce:5,allergen:5,prep:15,ingredients:['Cajun grilled chicken','Lettuce','Bacon','Eggs','Red onions','Pico de gallo','Cheddar cheese','Black olives','Banana peppers']},
+  {id:'D009',name:'Swamp Love Gumbo',restaurant:'Yo Chef Surf and Turf',location:'Birmingham',score:30,level:'Building',tags:[],allergens:'Shellfish, Wheat',notes:'Roux sauce compound unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Chicken','Shrimp','Beef sausage','Roux sauce','Yellow rice']},
+  {id:'D010',name:'Chicken Caesar Wrap',restaurant:'Yo Chef Surf and Turf',location:'Birmingham',score:40,level:'Building',tags:[],allergens:'Dairy, Wheat',notes:'No Caesar dressing disclosed',core:15,sauce:5,allergen:5,prep:15,ingredients:['Grilled chicken','Lettuce','Croutons','Parmesan cheese','Tortilla','Fries']},
+  {id:'D011',name:'Classic Acai Bowl',restaurant:'Kale Me Crazy',location:'Birmingham',score:50,level:'Building',tags:[],allergens:'Tree nuts, Coconut',notes:'Granola compound, raw honey named',core:25,sauce:15,allergen:5,prep:5,ingredients:['Acai','Coconut milk','Date','Blueberries','Cashews','Banana','Strawberries','Coconut','Granola','Mint','Raw honey']},
+  {id:'D012',name:'Sesame Chicken Bowl',restaurant:'Brick and Tin',location:'Birmingham',score:30,level:'Building',tags:['gluten-free'],allergens:'Soy, Tree nuts',notes:'Teriyaki sauce compound unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Chicken','Edamame','Crispy rice noodles','Sushi rice','Cashews','Broccoli','Teriyaki sauce']},
+  {id:'D013',name:'Crispy Brussels',restaurant:'Brick and Tin',location:'Birmingham',score:40,level:'Building',tags:['gluten-free'],allergens:'Unknown',notes:'Remoulade compound unknown',core:15,sauce:5,allergen:5,prep:15,ingredients:['Brussels sprouts','Remoulade']},
+  {id:'D014',name:'Fall Harvest Salad',restaurant:'Brick and Tin',location:'Birmingham',score:50,level:'Building',tags:['gluten-free'],allergens:'Dairy, Tree nuts',notes:'Vinaigrette named but compound',core:25,sauce:15,allergen:5,prep:5,ingredients:['Tender greens','Butternut squash','Pears','Spiced pecans','Goat cheese','Dried cranberries','Apple cider vinaigrette']},
+  {id:'D015',name:'Simple Salad',restaurant:'Brick and Tin',location:'Birmingham',score:50,level:'Building',tags:['vegan','gluten-free'],allergens:'Unknown',notes:'Champagne vinaigrette named but compound',core:25,sauce:15,allergen:5,prep:5,ingredients:['Spinach','Romaine','Champagne vinaigrette']},
+  {id:'D016',name:'Fall Farro Salad',restaurant:'Brick and Tin',location:'Birmingham',score:50,level:'Building',tags:['vegan'],allergens:'Wheat, Tree nuts',notes:'Sorghum-sherry vinaigrette compound',core:25,sauce:15,allergen:5,prep:5,ingredients:['Farro','Kale','Sweet potatoes','Toasted pecans','Dried cranberries','Sorghum-sherry vinaigrette']},
+  {id:'D017',name:'Classic Pizza',restaurant:'Emmy Squared Pizza',location:'Birmingham',score:40,level:'Building',tags:[],allergens:'Wheat, Dairy',notes:'Too many options listed, red sauce compound',core:25,sauce:5,allergen:5,prep:5,ingredients:['Red sauce','Cheese blend','Various toppings available']},
+  {id:'D018',name:'The Founders Pizza',restaurant:'Emmy Squared Pizza',location:'Birmingham',score:50,level:'Building',tags:[],allergens:'Wheat, Dairy',notes:'Hot honey named, no prep stated',core:25,sauce:15,allergen:5,prep:5,ingredients:['Red sauce','Jalapenos','Pepperoni','Hot honey']},
+  {id:'D019',name:'Vodka Pizza',restaurant:'Emmy Squared Pizza',location:'Birmingham',score:30,level:'Building',tags:[],allergens:'Wheat, Dairy',notes:'Vodka sauce compound unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Vodka sauce','Cheese blend','Basil']},
+  {id:'D020',name:'Margherita',restaurant:'Emmy Squared Pizza',location:'Birmingham',score:40,level:'Building',tags:[],allergens:'Wheat, Dairy',notes:'Red sauce compound, cheese blend compound',core:25,sauce:5,allergen:5,prep:5,ingredients:['Red sauce','Cheese blend','Burrata','Basil']},
+  {id:'D021',name:'Shaved Brussels Sprouts Salad',restaurant:'Emmy Squared Pizza',location:'Birmingham',score:40,level:'Building',tags:[],allergens:'Tree nuts, Dairy',notes:'Miso dressing compound unknown',core:25,sauce:5,allergen:5,prep:5,ingredients:['Brussels sprouts','Pickled red onion','Cashew','Blue cheese','Dried cherries','Miso dressing']},
+  {id:'D022',name:'Hash',restaurant:'SoHo Standard',location:'Birmingham',score:50,level:'Building',tags:['gluten-free'],allergens:'Egg, Dairy',notes:'Avocado mash compound, pico compound',core:25,sauce:5,allergen:5,prep:15,ingredients:['Potatoes','Chorizo','Pico de gallo','Avocado mash','Queso fresco','Poached egg']},
+  {id:'D023',name:'Shrimp and Grits',restaurant:'SoHo Standard',location:'Birmingham',score:30,level:'Building',tags:['gluten-free'],allergens:'Shellfish, Dairy',notes:'White wine cream sauce compound',core:15,sauce:5,allergen:5,prep:5,ingredients:['Shrimp','Pimento grits','White wine cream sauce','Charred tomato','Micro greens']},
+  {id:'D024',name:'Toast',restaurant:'SoHo Standard',location:'Birmingham',score:50,level:'Building',tags:[],allergens:'Shellfish, Egg, Wheat',notes:'No sauce disclosed, poached stated',core:25,sauce:5,allergen:5,prep:15,ingredients:['Avocado','West Indies crab','Jalapeno','Radish','Micro greens','Poached egg']},
+  {id:'D025',name:'Quail and Waffles',restaurant:'SoHo Standard',location:'Birmingham',score:30,level:'Building',tags:[],allergens:'Dairy, Wheat, Egg',notes:'Hot honey glaze compound, bourbon butter compound',core:15,sauce:5,allergen:5,prep:5,ingredients:['Waffle','Quail','Jalapeno bacon','Hot honey glaze','Bourbon butter']},
+  {id:'D026',name:'Bites',restaurant:'SoHo Standard',location:'Birmingham',score:30,level:'Building',tags:['gluten-free'],allergens:'Egg, Dairy',notes:'Fresh herbs vague, citrus tossed greens compound',core:15,sauce:5,allergen:5,prep:5,ingredients:['Egg white','Mozzarella','Roasted red pepper','Fresh herbs','Citrus tossed greens']},
+  {id:'D028',name:'One Night Stand',restaurant:'Slutty Vegan',location:'Homewood',score:30,level:'Building',tags:['vegan'],allergens:'Unknown',notes:'Slut sauce entirely unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Plant-based patty','Vegan bacon','Vegan cheese','Onions','Lettuce','Tomato','Slut sauce','Vegan hawaiian bun']},
+  {id:'D029',name:'Dancehall Queen',restaurant:'Slutty Vegan',location:'Homewood',score:30,level:'Building',tags:['vegan'],allergens:'Unknown',notes:'Slut sauce entirely unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Plant-based patty','Sweet jerk plantains','Vegan cheese','Onions','Lettuce','Tomato','Slut sauce','Vegan hawaiian bun']},
+  {id:'D030',name:'Sloppy Toppy',restaurant:'Slutty Vegan',location:'Homewood',score:30,level:'Building',tags:['vegan'],allergens:'Unknown',notes:'Slut sauce entirely unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Plant-based patty','Jalapenos','Vegan cheese','Onions','Lettuce','Tomato','Slut sauce','Vegan hawaiian bun']},
+  {id:'D031',name:'Fussy Hussy',restaurant:'Slutty Vegan',location:'Homewood',score:30,level:'Building',tags:['vegan'],allergens:'Unknown',notes:'Slut sauce entirely unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Plant-based patty','Pickle','Vegan cheese','Onions','Lettuce','Tomato','Slut sauce','Vegan hawaiian bun']},
+  {id:'D032',name:'Hooker Fries',restaurant:'Slutty Vegan',location:'Homewood',score:30,level:'Building',tags:['vegan'],allergens:'Unknown',notes:'Vegan beef compound, vegan cheese compound',core:15,sauce:5,allergen:5,prep:5,ingredients:['Fries','Vegan beef','Vegan cheese','Jalapenos','Onions','Lettuce','Diced tomatoes']},
+  {id:'D033',name:'Southwest Steak Salad',restaurant:'Chopt Creative Salad Co.',location:'Birmingham',score:50,level:'Building',tags:[],allergens:'Dairy, Wheat',notes:'Chipotle ranch compound, seared stated',core:25,sauce:5,allergen:5,prep:15,ingredients:['Cabbage and cilantro blend','Romaine','Seared steak','Black beans','Corn','Jalapeno peppers','Pickled red onion','Tortilla chips','Chipotle ranch']},
+  {id:'D034',name:'Kimchi Salmon Bowl',restaurant:'Chopt Creative Salad Co.',location:'Birmingham',score:40,level:'Building',tags:[],allergens:'Fish',notes:'Two compound dressings, no prep stated for salmon',core:25,sauce:5,allergen:5,prep:5,ingredients:['Spinach','Norwegian salmon','Kimchi','Carrots','Red bell peppers','Crispy shallots','Creamy gochujang','Honey gochujang vinaigrette']},
+  {id:'D035',name:'Chicken Tinga Bowl',restaurant:'Chopt Creative Salad Co.',location:'Birmingham',score:50,level:'Building',tags:[],allergens:'Dairy',notes:'Mexican goddess dressing compound, braised stated',core:25,sauce:5,allergen:5,prep:15,ingredients:['Kale','Avocado','Braised chicken tinga','Black beans','Scallions','Cotija cheese','Tortilla chips','Mexican goddess dressing']},
+  {id:'D036',name:'Shrimp Spring Roll Salad',restaurant:'Chopt Creative Salad Co.',location:'Birmingham',score:40,level:'Building',tags:[],allergens:'Shellfish, Sesame',notes:'Creamy sesame dressing compound',core:25,sauce:5,allergen:5,prep:5,ingredients:['Cabbage and cilantro blend','Romaine','Shrimp','Carrots','English cucumber','Pickled red onion','Red bell peppers','Crispy wontons','Creamy sesame dressing']},
+  {id:'D037',name:'Crispy Chicken Ranch Wrap',restaurant:'Chopt Creative Salad Co.',location:'Birmingham',score:50,level:'Building',tags:[],allergens:'Dairy, Wheat',notes:'Buttermilk ranch compound, panko fried stated',core:25,sauce:5,allergen:5,prep:15,ingredients:['Romaine','Panko fried chicken','Carrots','Corn','Grape tomatoes','Pickled red onion','Pepper jack cheese','Buttermilk ranch','Wrap']},
+  {id:'D038',name:'Amazing Avocado',restaurant:'Adam and Eve Cafe',location:'Birmingham',score:60,level:'Moderate',tags:['vegan'],allergens:'Wheat',notes:'Sauce compound unknown',core:25,sauce:15,allergen:5,prep:15,ingredients:['Avocado','Roasted peppers','Caramelized onions','Lettuce','Chipotle and spicy mango sauce','Vegan pita bread']},
+  {id:'D039',name:'Grilled Tofu',restaurant:'Adam and Eve Cafe',location:'Birmingham',score:50,level:'Building',tags:['vegan'],allergens:'Soy, Wheat',notes:'Chipotle pita compound',core:25,sauce:5,allergen:5,prep:15,ingredients:['Baked tofu','Caramelized onions','Roasted peppers','Lettuce','Chipotle pita bread']},
+  {id:'D040',name:'Tuna Melt Sandwich',restaurant:'Adam and Eve Cafe',location:'Birmingham',score:30,level:'Building',tags:[],allergens:'Dairy, Wheat',notes:'Tuna salad compound, internals unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Tuna salad','Cheddar cheese','Cucumber','Onions','Pickled tomatoes','Pita bread or sub bun']},
+  {id:'D041',name:'Italiano Panini',restaurant:'Adam and Eve Cafe',location:'Birmingham',score:60,level:'Moderate',tags:[],allergens:'Dairy, Tree nuts',notes:'Pesto compound',core:25,sauce:15,allergen:5,prep:15,ingredients:['Grilled chicken','Roasted peppers','Fresh mozzarella','Pesto','Spinach']},
+  {id:'D042',name:'Tuscan Panini',restaurant:'Adam and Eve Cafe',location:'Birmingham',score:60,level:'Moderate',tags:['vegetarian'],allergens:'Dairy, Tree nuts',notes:'Pesto compound',core:25,sauce:15,allergen:5,prep:15,ingredients:['Mozzarella cheese','Grilled cherry tomatoes','Pesto','Spinach or arugula','Roasted pepper','Pistachios']},
+  {id:'D043',name:'Fish and Chips Bowl',restaurant:'Chop N Fresh',location:'Homewood',score:70,level:'Moderate',tags:[],allergens:'Fish',notes:'Strong prep disclosure, sauce compound',core:25,sauce:15,allergen:5,prep:25,ingredients:['Warm quinoa','Spring mix','Arugula','Shredded cabbage','Roasted salmon','Roasted asparagus','Roasted corn','Cilantro','Tortilla chips','Lemon','Lime cilantro jalapeno vinaigrette']},
+  {id:'D044',name:'Mexican Elote Bowl',restaurant:'Chop N Fresh',location:'Homewood',score:70,level:'Moderate',tags:['vegetarian'],allergens:'Dairy',notes:'Strong prep disclosure, sauce compound',core:25,sauce:15,allergen:5,prep:25,ingredients:['Warm quinoa','Arugula','Spring mix','Roasted corn','Roasted peppers','Goat cheese','Spicy sunflower seeds','Cilantro','Tomatoes','Shredded cabbage','Lime cilantro jalapeno vinaigrette']},
+  {id:'D045',name:'Cobb Boom',restaurant:'Chop N Fresh',location:'Homewood',score:60,level:'Moderate',tags:[],allergens:'Dairy, Egg',notes:'Bacon prep not stated',core:25,sauce:15,allergen:5,prep:15,ingredients:['Shredded kale','Chopped romaine','Bacon','Tomatoes','Raw corn','Avocado','Roasted chicken','Egg','Blue cheese dressing']},
+  {id:'D046',name:'The Impossible Taco Salad',restaurant:'Chop N Fresh',location:'Homewood',score:60,level:'Moderate',tags:[],allergens:'Unknown',notes:'Impossible meat allergens unknown',core:25,sauce:15,allergen:5,prep:15,ingredients:['Chopped romaine','Spring mix','Roasted corn','Avocado','Tomatoes','Cilantro','Shredded cabbage','Red onion','Tortilla strips','Impossible meat','Chipotle honey vinaigrette']},
+  {id:'D047',name:'Wholey Moley',restaurant:'Chop N Fresh',location:'Homewood',score:60,level:'Moderate',tags:[],allergens:'Unknown',notes:'Sauce compound, tortilla chips unknown',core:25,sauce:15,allergen:5,prep:15,ingredients:['Spring mix','Tomatoes','Red onion','Tortilla chips','Avocado','Roasted chicken','Fresh lime squeeze','Lime cilantro jalapeno vinaigrette']},
+  {id:'D048',name:'Korean Fried Cauliflower',restaurant:'East West',location:'Birmingham',score:50,level:'Building',tags:['vegetarian'],allergens:'Sesame',notes:'Garlic-ginger sauce vague',core:25,sauce:5,allergen:5,prep:15,ingredients:['Cauliflower','Garlic-ginger sauce','Green onion','Sesame seeds']},
+  {id:'D049',name:'Tofu Lettuce Wraps',restaurant:'East West',location:'Birmingham',score:30,level:'Building',tags:['vegetarian'],allergens:'Soy, Tree nuts',notes:'Nuts unspecified, yum-yum sauce unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Tofu','Carrots','Nuts','Yum-yum sauce','Onion','Shiitakes']},
+  {id:'D050',name:'Pan-Seared Salmon',restaurant:'East West',location:'Birmingham',score:70,level:'Moderate',tags:[],allergens:'Fish, Dairy',notes:'Strong prep disclosure, sauce compound',core:25,sauce:15,allergen:5,prep:25,ingredients:['Salmon','Lemongrass butter','Parmesan risotto','Grilled asparagus']},
+  {id:'D051',name:'Kobe Burger',restaurant:'East West',location:'Birmingham',score:30,level:'Building',tags:[],allergens:'Dairy, Egg',notes:'No bun listed, no prep stated',core:15,sauce:5,allergen:5,prep:5,ingredients:['Kobe beef patty','Muenster cheese','Onion jam','Shiitakes','Garlic mayo','Curly fries']},
+  {id:'D052',name:'Chinese Duck Nachos',restaurant:'East West',location:'Birmingham',score:40,level:'Building',tags:[],allergens:'Wheat, Dairy',notes:'Duck in name not in ingredients',core:15,sauce:5,allergen:5,prep:15,ingredients:['Wontons','Kimchi queso','Cotija cheese','Cilantro','Onions','Jalapenos']}
+];
+
+var activeFilter = 'all';
+var sortHigh = true;
+var selectedId = null;
+
+function levelKey(d) {
+  if (d.score >= 85) return 'high';
+  if (d.score >= 60) return 'moderate';
+  if (d.score >= 30) return 'building';
+  return 'early';
+}
+
+function setFilter(f, btn) {
+  activeFilter = f;
+  document.querySelectorAll('.fbtn').forEach(function(b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+  render();
+}
+
+function toggleSort() {
+  sortHigh = !sortHigh;
+  document.getElementById('sort-label').textContent = sortHigh ? 'Highest Score' : 'Lowest Score';
+  render();
+}
+
+function getFiltered() {
+  var q = document.getElementById('search').value.toLowerCase();
+  return dishes.filter(function(d) {
+    if (q && d.name.toLowerCase().indexOf(q) === -1 && d.restaurant.toLowerCase().indexOf(q) === -1 && d.ingredients.join(' ').toLowerCase().indexOf(q) === -1) return false;
+    if (activeFilter === 'vegan') return d.tags.indexOf('vegan') > -1;
+    if (activeFilter === 'vegetarian') return d.tags.indexOf('vegetarian') > -1 || d.tags.indexOf('vegan') > -1;
+    if (activeFilter === 'gluten-free') return d.tags.indexOf('gluten-free') > -1;
+    if (activeFilter === 'no-dairy') return d.allergens.toLowerCase().indexOf('dairy') === -1;
+    if (activeFilter === 'no-nuts') return d.allergens.toLowerCase().indexOf('tree nuts') === -1 && d.allergens.toLowerCase().indexOf('nuts') === -1;
+    if (activeFilter === '60plus') return d.score >= 60;
+    return true;
+  }).sort(function(a,b) { return sortHigh ? b.score - a.score : a.score - b.score; });
+}
+
+function render() {
+  var filtered = getFiltered();
+  document.getElementById('results-count').textContent = filtered.length + ' dish' + (filtered.length !== 1 ? 'es' : '');
+  var grid = document.getElementById('grid');
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="empty"><div class="empty-title">No dishes found</div><p>Try adjusting your search or filter.</p></div>';
+    return;
+  }
+  grid.innerHTML = filtered.map(function(d) {
+    var lk = levelKey(d);
+    var tagsHtml = d.tags.map(function(t) {
+      var cls = t === 'vegan' ? 'ctag-vegan' : t === 'vegetarian' ? 'ctag-vegetarian' : 'ctag-gluten';
+      return '<span class="ctag ' + cls + '">' + t + '</span>';
+    }).join('');
+    return '<div class="card' + (selectedId === d.id ? ' selected' : '') + '" onclick="openDetail(\'' + d.id + '\')">' +
+      '<div class="card-restaurant">' + d.restaurant + ' · ' + d.location + '</div>' +
+      '<div class="card-name">' + d.name + '</div>' +
+      '<div class="card-score-row"><span class="card-score ' + lk + '">' + d.score + '</span><span class="card-denom">/100</span></div>' +
+      '<div class="card-bar"><div class="card-bar-fill ' + lk + '" style="width:' + d.score + '%"></div></div>' +
+      '<div class="card-level">' + (lk === 'moderate' ? 'Moderate' : lk === 'high' ? 'High' : lk === 'building' ? 'Building' : 'Early Stage') + ' Transparency</div>' +
+      (tagsHtml ? '<div class="card-tags">' + tagsHtml + '</div>' : '') +
+      '</div>';
+  }).join('');
+}
+
+function openDetail(id) {
+  selectedId = id;
+  render();
+  var d = dishes.find(function(x) { return x.id === id; });
+  var lk = levelKey(d);
+  var levelLabel = lk === 'moderate' ? 'Moderate Transparency' : lk === 'high' ? 'High Transparency' : lk === 'building' ? 'Building Transparency' : 'Early Stage';
+  var tagsHtml = d.tags.map(function(t) {
+    var cls = t === 'vegan' ? 'ctag-vegan' : t === 'vegetarian' ? 'ctag-vegetarian' : 'ctag-gluten';
+    return '<span class="ctag ' + cls + '">' + t + '</span>';
+  }).join('');
+  var ingHtml = d.ingredients.map(function(i) { return '<span class="ing-chip">' + i + '</span>'; }).join('');
+  document.getElementById('detail-content').innerHTML =
+    '<div class="detail-restaurant">' + d.restaurant + ' · ' + d.location + '</div>' +
+    '<div class="detail-name">' + d.name + '</div>' +
+    '<div class="detail-score-big ' + lk + '">' + d.score + '<span style="font-size:28px;color:#9A9488">/100</span></div>' +
+    '<div class="detail-level">' + levelLabel + '</div>' +
+    (d.score > 44 ? '<div class="detail-context">' + (d.score - 44) + ' points above the Birmingham average of 44</div>' : '') +
+    '<div class="detail-dims">' +
+      '<div class="dim-row"><span class="dim-label">Core Ingredient Clarity</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.core/25*100) + '%"></div></div><span class="dim-val">' + d.core + '</span></div>' +
+      '<div class="dim-row"><span class="dim-label">Sauce and Seasoning</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.sauce/25*100) + '%"></div></div><span class="dim-val">' + d.sauce + '</span></div>' +
+      '<div class="dim-row"><span class="dim-label">Allergen Transparency</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.allergen/25*100) + '%"></div></div><span class="dim-val">' + d.allergen + '</span></div>' +
+      '<div class="dim-row"><span class="dim-label">Prep Input Clarity</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.prep/25*100) + '%"></div></div><span class="dim-val">' + d.prep + '</span></div>' +
+    '</div>' +
+    (tagsHtml ? '<div class="detail-section-title">Dietary Tags</div><div class="detail-tags">' + tagsHtml + '</div>' : '') +
+    '<div class="detail-section-title">Allergens on Record</div>' +
+    '<div class="detail-allergens">' + d.allergens + '</div>' +
+    '<div class="detail-section-title">Ingredients on Record</div>' +
+    '<div class="detail-ingredients">' + ingHtml + '</div>' +
+    '<div class="detail-section-title">Scoring Notes</div>' +
+    '<div class="detail-allergens">' + d.notes + '</div>';
+  document.getElementById('detail-panel').classList.add('open');
+}
+
+function closeDetail() {
+  selectedId = null;
+  render();
+  document.getElementById('detail-panel').classList.remove('open');
+}
+
+render();
+</script>
+</body>
+</html>
