@@ -75,6 +75,21 @@
     .step-title { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 12px; }
     .step-text { font-size: 13px; line-height: 1.7; color: #9A9488; }
     @media (max-width: 768px) { .steps { grid-template-columns: 1fr; } }
+    .filter-section { border-top: 1px solid #1A1A1A; background: #0A0A0A; }
+    .filter-btns { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 48px; }
+    .filter-btn { padding: 10px 22px; border: 1px solid #222222; background: transparent; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: all 0.2s; }
+    .filter-btn:hover { border-color: #C9A84C; color: #C9A84C; }
+    .filter-btn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; }
+    .filter-results { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+    .filter-card { background: #1A1A1A; border: 1px solid #222222; padding: 24px; transition: border-color 0.2s; }
+    .filter-card:hover { border-color: #8B6F2E; }
+    .filter-card-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; margin-bottom: 4px; }
+    .filter-card-name { font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 0.04em; margin-bottom: 12px; color: #F5F2EC; }
+    .filter-card-score { font-family: 'Bebas Neue', sans-serif; font-size: 36px; color: #C9A84C; line-height: 1; }
+    .filter-card-level { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9488; margin-top: 2px; }
+    .filter-card-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 12px; }
+    .filter-tag { font-size: 10px; padding: 3px 8px; border: 1px solid #C9A84C; color: #C9A84C; border-radius: 2px; }
+    .filter-empty { color: #9A9488; font-size: 14px; padding: 24px 0; }
     .score { background: #111111; border-top: 1px solid #1A1A1A; }
     .score-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
     .score-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(38px, 4.5vw, 64px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 20px; }
@@ -228,6 +243,19 @@
       <div class="step"><div class="step-num">03</div><div class="step-title">You Eat With Confidence</div><div class="step-text">Filter by allergen or dietary need and instantly see which dishes are clear, which are unknown, and how much to trust the result.</div></div>
     </div>
   </section>
+  <section class="filter-section section" id="filter">
+    <p class="section-label">Find Your Food</p>
+    <h2 class="how-headline">Filter by<br />What Matters to You</h2>
+    <div class="filter-btns">
+      <button class="filter-btn active" onclick="filterDishes('all', this)">All Dishes</button>
+      <button class="filter-btn" onclick="filterDishes('vegan', this)">Vegan</button>
+      <button class="filter-btn" onclick="filterDishes('vegetarian', this)">Vegetarian</button>
+      <button class="filter-btn" onclick="filterDishes('gluten-free', this)">Gluten Free</button>
+      <button class="filter-btn" onclick="filterDishes('no-dairy', this)">No Dairy</button>
+      <button class="filter-btn" onclick="filterDishes('high-score', this)">Score 60 Plus</button>
+    </div>
+    <div class="filter-results" id="filter-results"></div>
+  </section>
   <section class="score section" id="score">
     <div class="score-grid">
       <div>
@@ -314,46 +342,73 @@
     </ul>
   </footer>
   <script>
+    var dishes = [
+      {name:"Grilled Herb Chicken",restaurant:"Real and Rosemary",score:70,level:"Moderate",tags:["gluten-free"],allergens:"none stated"},
+      {name:"Chicken Poppers Appetizer",restaurant:"Real and Rosemary",score:60,level:"Moderate",tags:[],allergens:"wheat, mustard"},
+      {name:"Amazing Avocado",restaurant:"Adam and Eve Cafe",score:60,level:"Moderate",tags:["vegan"],allergens:"wheat"},
+      {name:"Grilled Tofu",restaurant:"Adam and Eve Cafe",score:50,level:"Building",tags:["vegan"],allergens:"soy, wheat"},
+      {name:"Tuscan Panini",restaurant:"Adam and Eve Cafe",score:60,level:"Moderate",tags:["vegetarian"],allergens:"dairy, tree nuts"},
+      {name:"Fish and Chips Bowl",restaurant:"Chop N Fresh",score:70,level:"Moderate",tags:[],allergens:"fish"},
+      {name:"Mexican Elote Bowl",restaurant:"Chop N Fresh",score:70,level:"Moderate",tags:["vegetarian"],allergens:"dairy"},
+      {name:"Cobb Boom",restaurant:"Chop N Fresh",score:60,level:"Moderate",tags:[],allergens:"dairy, egg"},
+      {name:"Pan-Seared Salmon",restaurant:"East West",score:70,level:"Moderate",tags:[],allergens:"fish, dairy"},
+      {name:"Korean Fried Cauliflower",restaurant:"East West",score:50,level:"Building",tags:["vegetarian"],allergens:"sesame"},
+      {name:"Simple Salad",restaurant:"Brick and Tin",score:50,level:"Building",tags:["vegan","gluten-free"],allergens:"unknown"},
+      {name:"Fall Farro Salad",restaurant:"Brick and Tin",score:50,level:"Building",tags:["vegan"],allergens:"wheat"},
+      {name:"Fall Harvest Salad",restaurant:"Brick and Tin",score:50,level:"Building",tags:["gluten-free"],allergens:"dairy, tree nuts"},
+      {name:"One Night Stand",restaurant:"Slutty Vegan",score:30,level:"Building",tags:["vegan"],allergens:"unknown"},
+      {name:"Dancehall Queen",restaurant:"Slutty Vegan",score:30,level:"Building",tags:["vegan"],allergens:"unknown"},
+      {name:"Classic Acai Bowl",restaurant:"Kale Me Crazy",score:50,level:"Building",tags:[],allergens:"tree nuts"},
+      {name:"Hash",restaurant:"SoHo Standard",score:50,level:"Building",tags:["gluten-free"],allergens:"egg, dairy"},
+      {name:"Southwest Steak Salad",restaurant:"Chopt",score:50,level:"Building",tags:[],allergens:"dairy, wheat"},
+      {name:"Chicken Tinga Bowl",restaurant:"Chopt",score:50,level:"Building",tags:[],allergens:"dairy"},
+      {name:"Kimchi Salmon Bowl",restaurant:"Chopt",score:40,level:"Building",tags:[],allergens:"fish"}
+    ];
+
+    function filterDishes(type, btn) {
+      document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var filtered = dishes;
+      if (type === 'vegan') filtered = dishes.filter(function(d) { return d.tags.indexOf('vegan') > -1; });
+      else if (type === 'vegetarian') filtered = dishes.filter(function(d) { return d.tags.indexOf('vegetarian') > -1 || d.tags.indexOf('vegan') > -1; });
+      else if (type === 'gluten-free') filtered = dishes.filter(function(d) { return d.tags.indexOf('gluten-free') > -1; });
+      else if (type === 'no-dairy') filtered = dishes.filter(function(d) { return d.allergens.indexOf('dairy') === -1; });
+      else if (type === 'high-score') filtered = dishes.filter(function(d) { return d.score >= 60; });
+      renderDishes(filtered);
+    }
+
+    function renderDishes(list) {
+      var el = document.getElementById('filter-results');
+      if (list.length === 0) { el.innerHTML = '<div class="filter-empty">No dishes match this filter yet.</div>'; return; }
+      el.innerHTML = list.slice(0, 6).map(function(d) {
+        var tagsHtml = d.tags.map(function(t) { return '<span class="filter-tag">' + t + '</span>'; }).join('');
+        return '<div class="filter-card"><div class="filter-card-restaurant">' + d.restaurant + '</div><div class="filter-card-name">' + d.name + '</div><div class="filter-card-score">' + d.score + '<span style="font-size:16px;color:#9A9488">/100</span></div><div class="filter-card-level">' + d.level + ' Transparency</div>' + (tagsHtml ? '<div class="filter-card-tags">' + tagsHtml + '</div>' : '') + '</div>';
+      }).join('');
+    }
+
+    renderDishes(dishes);
+
     async function handleWaitlist() {
-      const email = document.getElementById('waitlist-email').value;
-      if (!email || !email.includes('@')) {
-        document.getElementById('waitlist-email').style.borderColor = '#C94C4C';
-        return;
-      }
-      const btn = document.querySelector('.waitlist-btn');
+      var email = document.getElementById('waitlist-email').value;
+      if (!email || email.indexOf('@') === -1) { document.getElementById('waitlist-email').style.borderColor = '#C94C4C'; return; }
+      var btn = document.querySelector('.waitlist-btn');
       btn.textContent = 'Sending...';
       btn.disabled = true;
       try {
-        const res = await fetch('https://api.web3forms.com/submit', {
+        var res = await fetch('https://api.web3forms.com/submit', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            access_key: 'abd2a5ee-7cfa-45d1-8ff1-cd084338b769',
-            subject: 'New Goldpan Waitlist Signup',
-            email: email,
-            message: 'New waitlist signup: ' + email,
-            replyto: email,
-            from_name: 'Goldpan',
-            botcheck: false
-          })
+          body: JSON.stringify({ access_key: 'abd2a5ee-7cfa-45d1-8ff1-cd084338b769', subject: 'New Goldpan Waitlist Signup', email: email, message: 'New waitlist signup: ' + email, replyto: email, from_name: 'Goldpan', botcheck: false })
         });
-        const data = await res.json();
+        var data = await res.json();
         if (data.success) {
           document.querySelector('.waitlist-form').style.display = 'none';
           document.querySelector('.waitlist-note').style.display = 'none';
           document.getElementById('waitlist-success').style.display = 'block';
-        } else {
-          btn.textContent = 'Try Again';
-          btn.disabled = false;
-        }
-      } catch(e) {
-        btn.textContent = 'Try Again';
-        btn.disabled = false;
-      }
+        } else { btn.textContent = 'Try Again'; btn.disabled = false; }
+      } catch(e) { btn.textContent = 'Try Again'; btn.disabled = false; }
     }
-    document.getElementById('waitlist-email').addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') handleWaitlist();
-    });
+    document.getElementById('waitlist-email').addEventListener('keydown', function(e) { if (e.key === 'Enter') handleWaitlist(); });
   </script>
 </body>
 </html>
