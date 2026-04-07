@@ -1,1 +1,359 @@
-404: Not Found
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goldpan The Filter For Food Gold You Can Trust</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --gold: #C9A84C; --gold-light: #E8C97A; --gold-dim: #8B6F2E; --black: #0A0A0A; --black-2: #111111; --black-3: #1A1A1A; --black-4: #222222; --white: #F5F2EC; --white-dim: #9A9488; --green: #4CAF76; --red: #C94C4C; }
+    html { scroll-behavior: smooth; background: #0A0A0A; }
+    body { background: #0A0A0A; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-weight: 300; overflow-x: hidden; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 22px 48px; border-bottom: 1px solid rgba(201,168,76,0.12); background: rgba(10,10,10,0.94); backdrop-filter: blur(14px); }
+    .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 0.08em; color: #C9A84C; text-decoration: none; }
+    .nav-links { display: flex; gap: 36px; list-style: none; }
+    .nav-links a { color: #9A9488; text-decoration: none; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: #C9A84C; }
+    .nav-cta { background: #C9A84C !important; color: #0A0A0A !important; padding: 9px 22px; font-weight: 500 !important; }
+    .nav-cta:hover { background: #E8C97A !important; }
+    @media (max-width: 768px) { nav { padding: 18px 24px; } .nav-links { display: none; } }
+    .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 120px 48px 80px; position: relative; overflow: hidden; background: #0A0A0A; }
+    .hero-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(201,168,76,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,76,0.035) 1px, transparent 1px); background-size: 60px 60px; pointer-events: none; }
+    .hero-glow { position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(201,168,76,0.1) 0%, transparent 70%); top: 5%; right: -100px; pointer-events: none; animation: glow 7s ease-in-out infinite; }
+    @keyframes glow { 0%,100%{opacity:.5;transform:scale(1)} 50%{opacity:1;transform:scale(1.08)} }
+    .hero-eyebrow { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 28px; position: relative; z-index: 1; }
+    .hero-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(60px, 10vw, 148px); line-height: 0.93; letter-spacing: 0.02em; color: #F5F2EC; max-width: 920px; position: relative; z-index: 1; }
+    .hero-headline .gold { color: #C9A84C; }
+    .hero-sub { margin-top: 32px; font-size: 17px; line-height: 1.65; color: #9A9488; max-width: 460px; position: relative; z-index: 1; }
+    .hero-actions { margin-top: 48px; display: flex; align-items: center; gap: 28px; position: relative; z-index: 1; }
+    .btn-primary { background: #C9A84C; color: #0A0A0A; border: none; padding: 15px 34px; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; letter-spacing: 0.05em; cursor: pointer; transition: background 0.2s, transform 0.15s; text-decoration: none; display: inline-block; }
+    .btn-primary:hover { background: #E8C97A; transform: translateY(-2px); }
+    .btn-ghost { color: #9A9488; font-size: 14px; text-decoration: none; letter-spacing: 0.05em; display: flex; align-items: center; gap: 8px; transition: color 0.2s; }
+    .btn-ghost:hover { color: #C9A84C; }
+    .hero-stats { position: absolute; bottom: 60px; right: 48px; display: flex; gap: 48px; z-index: 1; }
+    .stat { text-align: right; }
+    .stat-number { font-family: 'Bebas Neue', sans-serif; font-size: 40px; color: #C9A84C; line-height: 1; }
+    .stat-label { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #9A9488; margin-top: 4px; }
+    @media (max-width: 768px) { .hero { padding: 100px 24px 80px; } .hero-stats { position: static; margin-top: 48px; justify-content: flex-start; } }
+    .ticker { background: #C9A84C; padding: 13px 0; overflow: hidden; white-space: nowrap; }
+    .ticker-inner { display: inline-flex; animation: ticker 28s linear infinite; }
+    .ticker-item { font-family: 'Bebas Neue', sans-serif; font-size: 14px; letter-spacing: 0.15em; color: #0A0A0A; padding: 0 28px; }
+    .ticker-dot { color: rgba(0,0,0,0.25); }
+    @keyframes ticker { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+    .section { padding: 100px 48px; }
+    .section-label { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 20px; }
+    @media (max-width: 768px) { .section { padding: 72px 24px; } }
+    .opportunity { background: #111111; border-top: 1px solid #1A1A1A; }
+    .opp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+    .opp-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(38px, 4.5vw, 64px); line-height: 1; letter-spacing: 0.02em; color: #F5F2EC; }
+    .opp-body { font-size: 15px; line-height: 1.75; color: #9A9488; }
+    .opp-body p+p { margin-top: 18px; }
+    .opp-cards { display: flex; flex-direction: column; gap: 14px; margin-top: 36px; }
+    .opp-card { border: 1px solid #222222; padding: 22px 26px; background: #1A1A1A; transition: border-color 0.2s; }
+    .opp-card:hover { border-color: #8B6F2E; }
+    .opp-card-title { font-size: 13px; font-weight: 500; color: #F5F2EC; margin-bottom: 5px; }
+    .opp-card-text { font-size: 13px; color: #9A9488; line-height: 1.6; }
+    @media (max-width: 768px) { .opp-grid { grid-template-columns: 1fr; gap: 48px; } }
+    .value { border-top: 1px solid #1A1A1A; background: #0A0A0A; }
+    .value-headline-wrap { border: 1px solid #C9A84C; padding: 20px 28px; margin-bottom: 40px; }
+    .value-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(20px, 2.5vw, 30px); color: #C9A84C; letter-spacing: 0.03em; }
+    .value-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+    .value-card { background: #111111; padding: 40px 30px; }
+    .value-num { font-family: 'Bebas Neue', sans-serif; font-size: 52px; color: rgba(201,168,76,0.12); line-height: 1; margin-bottom: 12px; }
+    .value-card-title { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 12px; }
+    .value-card-text { font-size: 13px; line-height: 1.7; color: #9A9488; }
+    @media (max-width: 768px) { .value-grid { grid-template-columns: 1fr; } }
+    .how { border-top: 1px solid #1A1A1A; background: #111111; }
+    .how-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(38px, 4.5vw, 64px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 64px; max-width: 560px; }
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+    .step { background: #1A1A1A; padding: 44px 32px; position: relative; transition: background 0.2s; }
+    .step:hover { background: #222222; }
+    .step-num { font-family: 'Bebas Neue', sans-serif; font-size: 80px; color: rgba(201,168,76,0.07); line-height: 1; position: absolute; top: 16px; right: 20px; }
+    .step-title { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 12px; }
+    .step-text { font-size: 13px; line-height: 1.7; color: #9A9488; }
+    @media (max-width: 768px) { .steps { grid-template-columns: 1fr; } }
+    .score { background: #111111; border-top: 1px solid #1A1A1A; }
+    .score-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+    .score-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(38px, 4.5vw, 64px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 20px; }
+    .score-body { font-size: 15px; line-height: 1.75; color: #9A9488; margin-bottom: 32px; }
+    .score-dims { display: flex; flex-direction: column; gap: 14px; }
+    .score-dim { display: flex; align-items: center; gap: 14px; }
+    .score-dim-label { font-size: 12px; letter-spacing: 0.06em; color: #9A9488; width: 200px; flex-shrink: 0; }
+    .score-dim-bar { flex: 1; height: 3px; background: #222222; position: relative; overflow: hidden; }
+    .score-dim-fill { position: absolute; left:0; top:0; bottom:0; background: #C9A84C; }
+    .score-dim-val { font-family: 'DM Mono', monospace; font-size: 12px; color: #C9A84C; width: 32px; text-align: right; }
+    .score-levels { margin-top: 28px; display: flex; flex-direction: column; gap: 8px; }
+    .score-level { display: flex; align-items: center; gap: 12px; }
+    .score-level-range { font-family: 'DM Mono', monospace; font-size: 11px; color: #C9A84C; width: 60px; flex-shrink: 0; }
+    .score-level-label { font-size: 12px; color: #9A9488; }
+    .dish-card { background: #1A1A1A; border: 1px solid #222222; padding: 32px; }
+    .dish-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; margin-bottom: 6px; }
+    .dish-name { font-family: 'Bebas Neue', sans-serif; font-size: 32px; letter-spacing: 0.04em; margin-bottom: 20px; }
+    .dish-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 24px; }
+    .tag { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 10px; border: 1px solid; }
+    .tag-flag { border-color: #C94C4C; color: #C94C4C; }
+    .tag-unknown { border-color: #9A9488; color: #9A9488; }
+    .dish-score { display: flex; align-items: baseline; gap: 6px; margin-bottom: 6px; }
+    .dish-score-num { font-family: 'Bebas Neue', sans-serif; font-size: 64px; line-height: 1; color: #4CAF76; }
+    .dish-score-denom { font-family: 'Bebas Neue', sans-serif; font-size: 22px; color: #9A9488; }
+    .dish-score-label { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #9A9488; margin-bottom: 8px; }
+    .dish-score-context { font-size: 13px; color: #4CAF76; margin-bottom: 20px; font-style: italic; font-weight: 500; }
+    .dish-ing { padding-top: 20px; border-top: 1px solid #222222; }
+    .dish-ing-title { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #9A9488; margin-bottom: 10px; }
+    .dish-ing-list { display: flex; flex-wrap: wrap; gap: 6px; }
+    .ing-pill { font-size: 11px; padding: 4px 9px; background: #222222; color: #9A9488; }
+    @media (max-width: 768px) { .score-grid { grid-template-columns: 1fr; gap: 48px; } }
+    .restaurants { background: #0A0A0A; border-top: 1px solid #1A1A1A; }
+    .rest-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .rest-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(32px, 3.5vw, 52px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 18px; }
+    .rest-body { font-size: 15px; line-height: 1.75; color: #9A9488; margin-bottom: 28px; }
+    .rest-perks { display: flex; flex-direction: column; gap: 14px; }
+    .perk { display: flex; align-items: flex-start; gap: 12px; }
+    .perk-dot { width: 5px; height: 5px; background: #C9A84C; border-radius: 50%; margin-top: 7px; flex-shrink: 0; }
+    .perk-text { font-size: 13px; color: #9A9488; line-height: 1.6; }
+    .rest-cta { margin-top: 32px; }
+    .btn-outline { display: inline-block; border: 1px solid #C9A84C; color: #C9A84C; padding: 13px 30px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: background 0.2s, color 0.2s; }
+    .btn-outline:hover { background: #C9A84C; color: #0A0A0A; }
+    .rest-metrics { display: flex; flex-direction: column; gap: 14px; }
+    .metric { background: #1A1A1A; border: 1px solid #222222; padding: 24px 28px; display: flex; justify-content: space-between; align-items: center; transition: border-color 0.2s; }
+    .metric:hover { border-color: #8B6F2E; }
+    .metric-label { font-size: 12px; color: #9A9488; }
+    .metric-value { font-family: 'Bebas Neue', sans-serif; font-size: 30px; color: #C9A84C; letter-spacing: 0.05em; }
+    @media (max-width: 768px) { .rest-grid { grid-template-columns: 1fr; gap: 48px; } }
+    .waitlist { border-top: 1px solid #1A1A1A; background: #111111; text-align: center; position: relative; overflow: hidden; }
+    .waitlist-glow { position: absolute; width: 800px; height: 400px; background: radial-gradient(ellipse, rgba(201,168,76,0.07) 0%, transparent 70%); top: 50%; left: 50%; transform: translate(-50%,-50%); pointer-events: none; }
+    .waitlist-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(44px, 7vw, 96px); line-height: 0.95; letter-spacing: 0.02em; margin-bottom: 18px; position: relative; }
+    .waitlist-sub { font-size: 15px; color: #9A9488; max-width: 420px; margin: 0 auto 44px; line-height: 1.65; position: relative; }
+    .waitlist-form { display: flex; max-width: 460px; margin: 0 auto; position: relative; }
+    .waitlist-input { flex: 1; background: #1A1A1A; border: 1px solid #222222; border-right: none; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 14px; padding: 15px 18px; outline: none; transition: border-color 0.2s; }
+    .waitlist-input::placeholder { color: #9A9488; }
+    .waitlist-input:focus { border-color: #8B6F2E; }
+    .waitlist-btn { background: #C9A84C; color: #0A0A0A; border: none; padding: 15px 26px; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; transition: background 0.2s; white-space: nowrap; }
+    .waitlist-btn:hover { background: #E8C97A; }
+    .waitlist-note { margin-top: 14px; font-size: 11px; color: #9A9488; letter-spacing: 0.05em; position: relative; }
+    .waitlist-success { display: none; font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.1em; color: #4CAF76; margin-top: 14px; position: relative; }
+    @media (max-width: 768px) { .waitlist-form { flex-direction: column; } .waitlist-input { border-right: 1px solid #222222; border-bottom: none; } }
+    footer { border-top: 1px solid #1A1A1A; padding: 44px 48px; display: flex; justify-content: space-between; align-items: center; background: #0A0A0A; }
+    .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.1em; color: #C9A84C; }
+    .footer-copy { font-size: 11px; color: #9A9488; letter-spacing: 0.05em; }
+    .footer-links { display: flex; gap: 28px; list-style: none; }
+    .footer-links a { font-size: 11px; color: #9A9488; text-decoration: none; letter-spacing: 0.08em; transition: color 0.2s; }
+    .footer-links a:hover { color: #C9A84C; }
+    @media (max-width: 768px) { footer { flex-direction: column; gap: 20px; text-align: center; padding: 36px 24px; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#" class="nav-logo">Goldpan</a>
+    <ul class="nav-links">
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#score">Our Score</a></li>
+      <li><a href="#restaurants">For Restaurants</a></li>
+      <li><a href="#waitlist" class="nav-cta">Join Waitlist</a></li>
+    </ul>
+  </nav>
+  <section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <p class="hero-eyebrow">Transparency Intelligence for Food</p>
+    <h1 class="hero-headline">The Filter For<br /><span class="gold">Food Gold</span><br />You Can Trust.</h1>
+    <p class="hero-sub">Goldpan scores restaurant dishes on ingredient transparency so you can eat with confidence, not guesswork.</p>
+    <div class="hero-actions">
+      <a href="#waitlist" class="btn-primary">Join the Waitlist</a>
+      <a href="#how" class="btn-ghost">See how it works</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-number">11</div><div class="stat-label">Restaurants</div></div>
+      <div class="stat"><div class="stat-number">52</div><div class="stat-label">Dishes Scored</div></div>
+      <div class="stat"><div class="stat-number">100</div><div class="stat-label">Point Scale</div></div>
+    </div>
+  </section>
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-inner">
+      <span class="ticker-item">Ingredient Transparency <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">Allergen Clarity <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">Restaurants That Tell You Everything <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">We Help You Find Them <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">Dietary Confidence <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">Celebrating Transparent Kitchens <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">Birmingham Food Trust Layer <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">Ingredient Transparency <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">Allergen Clarity <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">Restaurants That Tell You Everything <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">We Help You Find Them <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">Dietary Confidence <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">Celebrating Transparent Kitchens <span class="ticker-dot">&#9670;</span></span>
+      <span class="ticker-item">Birmingham Food Trust Layer <span class="ticker-dot">&#9670;</span></span>
+    </div>
+  </div>
+  <section class="opportunity section" id="opportunity">
+    <div class="opp-grid">
+      <div>
+        <p class="section-label">The Opportunity</p>
+        <h2 class="opp-headline">Some Restaurants Tell You Everything. We Help You Find Them.</h2>
+      </div>
+      <div>
+        <div class="opp-body">
+          <p>There are restaurants that are transparent. Ones that tell you exactly what is in your food, how it is prepared, and what allergens to watch for. They deserve to be found.</p>
+          <p>Goldpan scores every dish on ingredient transparency so diners with dietary needs, allergies, or simply a desire to know what they are eating can find the restaurants that care.</p>
+        </div>
+        <div class="opp-cards">
+          <div class="opp-card"><div class="opp-card-title">Transparent Restaurants Win</div><div class="opp-card-text">Restaurants that disclose their ingredients get recognized, discovered, and trusted by the diners who care most.</div></div>
+          <div class="opp-card"><div class="opp-card-title">Diners Get Confidence</div><div class="opp-card-text">Filter by allergen or dietary need and instantly see which dishes are clear and how confident you can be in that answer.</div></div>
+          <div class="opp-card"><div class="opp-card-title">Trust Goes Both Ways</div><div class="opp-card-text">A Goldpan score is not a grade. It is a signal. Restaurants that earn it build stronger relationships with their most loyal customers.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="value section" id="value">
+    <p class="section-label">Why It Matters</p>
+    <div class="value-headline-wrap">
+      <div class="value-headline">The restaurants diners trust are the ones they find first.</div>
+    </div>
+    <div class="value-grid">
+      <div class="value-card"><div class="value-num">01</div><div class="value-card-title">Stand Out Instantly</div><div class="value-card-text">In a city full of options, transparency is a differentiator. A Goldpan score tells diners your restaurant is worth choosing before they ever see a review.</div></div>
+      <div class="value-card"><div class="value-num">02</div><div class="value-card-title">Stop Losing Guests Before They Arrive</div><div class="value-card-text">Diners with dietary needs do their research first. If they cannot find clear ingredient information, they move on. They never walk through the door.</div></div>
+      <div class="value-card"><div class="value-num">03</div><div class="value-card-title">The Guest Who Finds You Stays</div><div class="value-card-text">The diner who finds your restaurant through Goldpan is not a one-time visitor. They are a regular and they bring everyone they know.</div></div>
+    </div>
+  </section>
+  <section class="how section" id="how">
+    <p class="section-label">How It Works</p>
+    <h2 class="how-headline">Clarity Has a<br />Score Now</h2>
+    <div class="steps">
+      <div class="step"><div class="step-num">01</div><div class="step-title">We Map the Menu</div><div class="step-text">Every dish is broken down ingredient by ingredient. Protein, base, sauces, seasonings. Exactly as described. No inference. No guessing.</div></div>
+      <div class="step"><div class="step-num">02</div><div class="step-title">We Score the Clarity</div><div class="step-text">Each dish gets a Transparency Score from 0 to 100 across four dimensions: ingredient clarity, sauce disclosure, allergen transparency, and prep inputs.</div></div>
+      <div class="step"><div class="step-num">03</div><div class="step-title">You Eat With Confidence</div><div class="step-text">Filter by allergen or dietary need and instantly see which dishes are clear, which are unknown, and how much to trust the result.</div></div>
+    </div>
+  </section>
+  <section class="score section" id="score">
+    <div class="score-grid">
+      <div>
+        <p class="section-label">The Transparency Score</p>
+        <h2 class="score-headline">100 Points.<br />4 Dimensions.</h2>
+        <p class="score-body">Every dish is scored on what a customer actually needs to know. Every score is a starting point, not a verdict. Confirmation raises it.</p>
+        <div class="score-dims">
+          <div class="score-dim"><div class="score-dim-label">Core Ingredient Clarity</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:100%"></div></div><div class="score-dim-val">25</div></div>
+          <div class="score-dim"><div class="score-dim-label">Sauce and Seasoning Disclosure</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:60%"></div></div><div class="score-dim-val">15</div></div>
+          <div class="score-dim"><div class="score-dim-label">Allergen Transparency</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:20%"></div></div><div class="score-dim-val">5</div></div>
+          <div class="score-dim"><div class="score-dim-label">Prep Input Clarity</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:60%"></div></div><div class="score-dim-val">15</div></div>
+        </div>
+        <div class="score-levels">
+          <div class="score-level"><div class="score-level-range">85-100</div><div class="score-level-label">High Transparency</div></div>
+          <div class="score-level"><div class="score-level-range">60-84</div><div class="score-level-label">Moderate Transparency</div></div>
+          <div class="score-level"><div class="score-level-range">30-59</div><div class="score-level-label">Building Transparency</div></div>
+          <div class="score-level"><div class="score-level-range">0-29</div><div class="score-level-label">Early Stage</div></div>
+        </div>
+      </div>
+      <div class="dish-card">
+        <div class="dish-restaurant">Real and Rosemary · Homewood</div>
+        <div class="dish-name">Chicken Poppers Appetizer</div>
+        <div class="dish-tags">
+          <span class="tag tag-flag">Contains Wheat</span>
+          <span class="tag tag-flag">Contains Mustard</span>
+          <span class="tag tag-unknown">Allergens Unverified</span>
+        </div>
+        <div class="dish-score"><div class="dish-score-num">60</div><div class="dish-score-denom">/100</div></div>
+        <div class="dish-score-label">Moderate Transparency</div>
+        <div class="dish-score-context">16 points above the current Birmingham average of 44</div>
+        <div class="dish-ing">
+          <div class="dish-ing-title">Ingredients on record</div>
+          <div class="dish-ing-list">
+            <span class="ing-pill">Chicken</span>
+            <span class="ing-pill">Panko Breadcrumbs</span>
+            <span class="ing-pill">Sorghum Honey Mustard</span>
+            <span class="ing-pill">Frying Oil</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="restaurants section" id="restaurants">
+    <div class="rest-grid">
+      <div>
+        <p class="section-label">For Restaurants</p>
+        <h2 class="rest-headline">Transparency Is a Badge, Not a Report Card</h2>
+        <p class="rest-body">Transparency is something to be proud of. If your restaurant tells diners what is in their food, Goldpan makes sure the right people find you. The ones actively looking for restaurants they can trust.</p>
+        <div class="rest-perks">
+          <div class="perk"><div class="perk-dot"></div><div class="perk-text">Get discovered by diners filtering for their specific dietary needs</div></div>
+          <div class="perk"><div class="perk-dot"></div><div class="perk-text">A verified Goldpan score is a badge of trust, not a report card</div></div>
+          <div class="perk"><div class="perk-dot"></div><div class="perk-text">We do the heavy lifting. Confirmation process is fast and simple</div></div>
+          <div class="perk"><div class="perk-dot"></div><div class="perk-text">Only 5 founding partner spots. Free for life, priority placement always</div></div>
+        </div>
+        <div class="rest-cta"><a href="mailto:hello@goldpanapp.com" class="btn-outline">Partner With Us</a></div>
+      </div>
+      <div class="rest-metrics">
+        <div class="metric"><div class="metric-label">Diners with dietary restrictions</div><div class="metric-value">1 in 3</div></div>
+        <div class="metric"><div class="metric-label">Check ingredients before ordering</div><div class="metric-value">68%</div></div>
+        <div class="metric"><div class="metric-label">Trust gain from transparent menus</div><div class="metric-value">+40%</div></div>
+        <div class="metric"><div class="metric-label">Founding partner spots remaining</div><div class="metric-value">4 of 5</div></div>
+      </div>
+    </div>
+  </section>
+  <section class="waitlist section" id="waitlist">
+    <div class="waitlist-glow"></div>
+    <p class="section-label" style="position:relative;">Early Access</p>
+    <h2 class="waitlist-headline">Be First<br />to Know</h2>
+    <p class="waitlist-sub">Goldpan launches in Birmingham. Join the waitlist and get early access when we go live.</p>
+    <div class="waitlist-form">
+      <input type="email" class="waitlist-input" id="waitlist-email" placeholder="your@email.com" />
+      <button class="waitlist-btn" onclick="handleWaitlist()">Join Now</button>
+    </div>
+    <p class="waitlist-note">No spam. Just your spot in line.</p>
+    <p class="waitlist-success" id="waitlist-success">You are on the list. We will be in touch.</p>
+  </section>
+  <footer>
+    <div class="footer-logo">Goldpan</div>
+    <p class="footer-copy">2026 Goldpan. Birmingham, AL.</p>
+    <ul class="footer-links">
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#restaurants">Restaurants</a></li>
+      <li><a href="mailto:hello@goldpanapp.com">Contact</a></li>
+    </ul>
+  </footer>
+  <script>
+    async function handleWaitlist() {
+      const email = document.getElementById('waitlist-email').value;
+      if (!email || !email.includes('@')) {
+        document.getElementById('waitlist-email').style.borderColor = '#C94C4C';
+        return;
+      }
+      const btn = document.querySelector('.waitlist-btn');
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+      try {
+        const res = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            access_key: 'abd2a5ee-7cfa-45d1-8ff1-cd084338b769',
+            subject: 'New Goldpan Waitlist Signup',
+            email: email,
+            message: 'New waitlist signup: ' + email,
+            replyto: email,
+            from_name: 'Goldpan',
+            botcheck: false
+          })
+        });
+        const data = await res.json();
+        if (data.success) {
+          document.querySelector('.waitlist-form').style.display = 'none';
+          document.querySelector('.waitlist-note').style.display = 'none';
+          document.getElementById('waitlist-success').style.display = 'block';
+        } else {
+          btn.textContent = 'Try Again';
+          btn.disabled = false;
+        }
+      } catch(e) {
+        btn.textContent = 'Try Again';
+        btn.disabled = false;
+      }
+    }
+    document.getElementById('waitlist-email').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') handleWaitlist();
+    });
+  </script>
+</body>
+</html>
