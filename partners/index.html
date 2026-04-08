@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goldpan Restaurant Partners</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; background: #0A0A0A; }
+    body { background: #0A0A0A; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-weight: 300; overflow-x: hidden; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 22px 48px; border-bottom: 1px solid rgba(201,168,76,0.12); background: rgba(10,10,10,0.94); backdrop-filter: blur(14px); }
+    .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 0.08em; color: #C9A84C; text-decoration: none; }
+    .nav-tag { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.2em; color: #9A9488; text-transform: uppercase; }
+    .nav-cta { background: #C9A84C; color: #0A0A0A; padding: 10px 24px; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: #E8C97A; }
+    @media (max-width: 768px) { nav { padding: 16px 24px; } .nav-tag { display: none; } }
+    .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 120px 48px 80px; position: relative; overflow: hidden; }
+    .hero-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(201,168,76,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,76,0.03) 1px, transparent 1px); background-size: 60px 60px; pointer-events: none; }
+    .hero-glow { position: absolute; width: 700px; height: 700px; background: radial-gradient(circle, rgba(201,168,76,0.08) 0%, transparent 70%); top: 0; right: -200px; pointer-events: none; }
+    .hero-label { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 28px; position: relative; z-index: 1; }
+    .hero-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(52px, 8vw, 120px); line-height: 0.93; letter-spacing: 0.02em; color: #F5F2EC; max-width: 900px; position: relative; z-index: 1; }
+    .hero-headline .gold { color: #C9A84C; }
+    .hero-sub { margin-top: 32px; font-size: 18px; line-height: 1.7; color: #9A9488; max-width: 520px; position: relative; z-index: 1; }
+    .hero-actions { margin-top: 48px; display: flex; align-items: center; gap: 24px; position: relative; z-index: 1; flex-wrap: wrap; }
+    .btn-primary { background: #C9A84C; color: #0A0A0A; border: none; padding: 16px 36px; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; letter-spacing: 0.06em; cursor: pointer; transition: background 0.2s; text-decoration: none; display: inline-block; text-transform: uppercase; }
+    .btn-primary:hover { background: #E8C97A; }
+    .hero-spots { position: absolute; bottom: 60px; right: 48px; z-index: 1; text-align: right; }
+    .spots-num { font-family: 'Bebas Neue', sans-serif; font-size: 72px; color: #C9A84C; line-height: 1; }
+    .spots-label { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #9A9488; }
+    @media (max-width: 768px) { .hero { padding: 100px 24px 80px; } .hero-spots { position: static; margin-top: 48px; text-align: left; } }
+    .section { padding: 100px 48px; }
+    .section-label { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 20px; }
+    @media (max-width: 768px) { .section { padding: 72px 24px; } }
+    .gap { background: #111111; border-top: 1px solid #1A1A1A; }
+    .gap-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+    .gap-col { padding: 48px; }
+    .gap-col.dark { background: #0A0A0A; }
+    .gap-col.light { background: #161616; }
+    .gap-col-title { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 28px; }
+    .gap-col.dark .gap-col-title { color: #C9A84C; }
+    .gap-col.light .gap-col-title { color: #9A9488; }
+    .gap-item { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 20px; }
+    .gap-dot { width: 6px; height: 6px; border-radius: 50%; margin-top: 8px; flex-shrink: 0; }
+    .gap-col.dark .gap-dot { background: #C9A84C; }
+    .gap-col.light .gap-dot { background: #333333; }
+    .gap-text { font-size: 15px; line-height: 1.6; }
+    .gap-col.dark .gap-text { color: #F5F2EC; }
+    .gap-col.light .gap-text { color: #9A9488; }
+    @media (max-width: 768px) { .gap-grid { grid-template-columns: 1fr; } .gap-col { padding: 36px 24px; } }
+    .stats { background: #0A0A0A; border-top: 1px solid #1A1A1A; }
+    .stats-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(32px, 4vw, 56px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 16px; }
+    .stats-sub { font-size: 15px; color: #9A9488; max-width: 560px; line-height: 1.65; margin-bottom: 60px; }
+    .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
+    .stat-card { background: #111111; padding: 40px 32px; border-top: 3px solid #C9A84C; }
+    .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 64px; color: #C9A84C; line-height: 1; margin-bottom: 8px; }
+    .stat-desc { font-size: 13px; color: #9A9488; line-height: 1.6; }
+    .stat-source { font-size: 10px; color: #333333; margin-top: 12px; font-family: 'DM Mono', monospace; letter-spacing: 0.05em; }
+    @media (max-width: 768px) { .stats-grid { grid-template-columns: 1fr; } }
+    .how { background: #111111; border-top: 1px solid #1A1A1A; }
+    .how-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(36px, 4.5vw, 64px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 60px; max-width: 600px; }
+    .steps { display: flex; flex-direction: column; gap: 4px; }
+    .step { display: flex; align-items: flex-start; gap: 32px; background: #1A1A1A; padding: 36px 40px; transition: background 0.2s; }
+    .step:hover { background: #1E1E1E; }
+    .step-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: rgba(201,168,76,0.2); line-height: 1; flex-shrink: 0; width: 48px; }
+    .step-content {}
+    .step-title { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 8px; }
+    .step-text { font-size: 14px; color: #9A9488; line-height: 1.7; }
+    @media (max-width: 768px) { .step { padding: 28px 24px; gap: 20px; } }
+    .benefits { background: #0A0A0A; border-top: 1px solid #1A1A1A; }
+    .benefits-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(36px, 4.5vw, 64px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 16px; }
+    .benefits-sub { font-size: 15px; color: #9A9488; max-width: 520px; line-height: 1.65; margin-bottom: 60px; }
+    .benefits-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; margin-bottom: 60px; }
+    .benefit-card { background: #111111; padding: 36px 32px; border-left: 3px solid #C9A84C; }
+    .benefit-title { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 10px; }
+    .benefit-text { font-size: 13px; color: #9A9488; line-height: 1.7; }
+    @media (max-width: 768px) { .benefits-grid { grid-template-columns: 1fr; } }
+    .spotlight { background: #111111; border-top: 1px solid #1A1A1A; }
+    .spotlight-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .spotlight-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; margin-bottom: 8px; }
+    .spotlight-name { font-family: 'Bebas Neue', sans-serif; font-size: clamp(32px, 4vw, 52px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 20px; }
+    .spotlight-body { font-size: 15px; color: #9A9488; line-height: 1.75; margin-bottom: 32px; }
+    .spotlight-perks { display: flex; flex-direction: column; gap: 12px; }
+    .sperk { display: flex; align-items: flex-start; gap: 12px; }
+    .sperk-dot { width: 5px; height: 5px; background: #C9A84C; border-radius: 50%; margin-top: 8px; flex-shrink: 0; }
+    .sperk-text { font-size: 13px; color: #9A9488; line-height: 1.6; }
+    .spotlight-score-card { background: #1A1A1A; border: 1px solid #222222; padding: 40px; }
+    .sc-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; margin-bottom: 6px; }
+    .sc-name { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.04em; margin-bottom: 24px; }
+    .sc-score { font-family: 'Bebas Neue', sans-serif; font-size: 80px; color: #4CAF76; line-height: 1; }
+    .sc-denom { font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: #9A9488; }
+    .sc-level { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #9A9488; margin-bottom: 6px; }
+    .sc-context { font-size: 13px; color: #4CAF76; font-style: italic; margin-bottom: 24px; }
+    .sc-path { font-size: 13px; color: #C9A84C; padding: 14px 18px; border: 1px solid rgba(201,168,76,0.3); background: rgba(201,168,76,0.05); }
+    @media (max-width: 768px) { .spotlight-grid { grid-template-columns: 1fr; gap: 48px; } }
+    .cta-section { background: #0A0A0A; border-top: 1px solid #1A1A1A; text-align: center; padding: 120px 48px; position: relative; overflow: hidden; }
+    .cta-glow { position: absolute; width: 800px; height: 600px; background: radial-gradient(ellipse, rgba(201,168,76,0.06) 0%, transparent 70%); top: 50%; left: 50%; transform: translate(-50%,-50%); pointer-events: none; }
+    .cta-label { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 20px; position: relative; }
+    .cta-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(48px, 7vw, 96px); line-height: 0.95; letter-spacing: 0.02em; margin-bottom: 20px; position: relative; }
+    .cta-sub { font-size: 16px; color: #9A9488; max-width: 480px; margin: 0 auto 48px; line-height: 1.65; position: relative; }
+    .cta-btn { background: #C9A84C; color: #0A0A0A; border: none; padding: 20px 48px; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 500; letter-spacing: 0.08em; cursor: pointer; transition: background 0.2s; text-decoration: none; display: inline-block; text-transform: uppercase; position: relative; }
+    .cta-btn:hover { background: #E8C97A; }
+    .cta-note { margin-top: 20px; font-size: 12px; color: #333333; letter-spacing: 0.05em; position: relative; }
+    footer { border-top: 1px solid #1A1A1A; padding: 44px 48px; display: flex; justify-content: space-between; align-items: center; background: #0A0A0A; }
+    .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.1em; color: #C9A84C; }
+    .footer-copy { font-size: 11px; color: #9A9488; letter-spacing: 0.05em; }
+    .footer-links { display: flex; gap: 28px; list-style: none; }
+    .footer-links a { font-size: 11px; color: #9A9488; text-decoration: none; letter-spacing: 0.08em; transition: color 0.2s; }
+    .footer-links a:hover { color: #C9A84C; }
+    @media (max-width: 768px) { footer { flex-direction: column; gap: 20px; text-align: center; padding: 36px 24px; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="https://goldpanapp.com" class="nav-logo">Goldpan</a>
+    <span class="nav-tag">Restaurant Partners</span>
+    <a href="mailto:hello@goldpanapp.com?subject=Founding Partner Inquiry" class="nav-cta">Become a Partner</a>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <p class="hero-label">For Birmingham Restaurants</p>
+    <h1 class="hero-headline">You are already<br />doing the work.<br /><span class="gold">Let us make sure<br />people find you.</span></h1>
+    <p class="hero-sub">A lot of restaurants are already putting effort into offering better options, but customers who care about that cannot easily find or understand it. Goldpan makes that visible.</p>
+    <div class="hero-actions">
+      <a href="mailto:hello@goldpanapp.com?subject=Founding Partner Inquiry" class="btn-primary">Become a Founding Partner</a>
+    </div>
+    <div class="hero-spots">
+      <div class="spots-num">4</div>
+      <div class="spots-label">Founding Partner Spots Remaining</div>
+    </div>
+  </section>
+
+  <section class="gap section">
+    <p class="section-label">The Recognition Gap</p>
+    <div class="gap-grid">
+      <div class="gap-col dark">
+        <div class="gap-col-title">What Your Restaurant Does</div>
+        <div class="gap-item"><div class="gap-dot"></div><div class="gap-text">Offer better ingredients and cleaner options</div></div>
+        <div class="gap-item"><div class="gap-dot"></div><div class="gap-text">Accommodate dietary needs and allergies</div></div>
+        <div class="gap-item"><div class="gap-dot"></div><div class="gap-text">Train staff on allergen procedures</div></div>
+        <div class="gap-item"><div class="gap-dot"></div><div class="gap-text">Source carefully and cook with intention</div></div>
+        <div class="gap-item"><div class="gap-dot"></div><div class="gap-text">Put real effort into what goes on the plate</div></div>
+      </div>
+      <div class="gap-col light">
+        <div class="gap-col-title">What Customers Currently See</div>
+        <div class="gap-item"><div class="gap-dot"></div><div class="gap-text">A menu. A price. A photo.</div></div>
+        <div class="gap-item"><div class="gap-dot"></div><div class="gap-text">No way to know what is really in the food</div></div>
+        <div class="gap-item"><div class="gap-dot"></div><div class="gap-text">No signal that you care more than the place next door</div></div>
+        <div class="gap-item"><div class="gap-dot"></div><div class="gap-text">No filter to find restaurants they can trust</div></div>
+        <div class="gap-item"><div class="gap-dot"></div><div class="gap-text">So they guess. Or they go somewhere else.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats section">
+    <p class="section-label">The Diner Demand</p>
+    <h2 class="stats-headline">The Diners Looking for You<br />Cannot Find You Yet.</h2>
+    <p class="stats-sub">The demand for ingredient transparency in restaurants is not a niche preference. It is a mainstream expectation that the restaurant industry has not caught up to.</p>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-num">76%</div>
+        <div class="stat-desc">of diners say transparency in food production influences their purchasing decisions</div>
+        <div class="stat-source">Food Marketing Institute</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">75%</div>
+        <div class="stat-desc">of diners will switch to a restaurant that provides more ingredient information — up from 39% in 2016</div>
+        <div class="stat-source">Label Insight / FMI</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">74%</div>
+        <div class="stat-desc">of customers are more likely to return to venues with clear dietary labeling</div>
+        <div class="stat-source">Restaurant Technology Report 2025</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how section">
+    <p class="section-label">How It Works</p>
+    <h2 class="how-headline">Five Steps.<br />No Work on Your End.</h2>
+    <div class="steps">
+      <div class="step"><div class="step-num">01</div><div class="step-content"><div class="step-title">Say Yes</div><div class="step-text">You confirm your founding partner status. That is all we need to get started. No paperwork, no commitment beyond the conversation.</div></div></div>
+      <div class="step"><div class="step-num">02</div><div class="step-content"><div class="step-title">We Map Your Menu</div><div class="step-text">We break down your dishes ingredient by ingredient. Protein, base, sauces, seasonings. Exactly as you describe them. No inference. No guessing.</div></div></div>
+      <div class="step"><div class="step-num">03</div><div class="step-content"><div class="step-title">We Score Your Dishes</div><div class="step-text">Every dish gets a Transparency Score from 0 to 100 across four dimensions. We show you the results before anything goes live.</div></div></div>
+      <div class="step"><div class="step-num">04</div><div class="step-content"><div class="step-title">You Confirm Your Ingredients</div><div class="step-text">A simple confirmation process. Fast and easy for your team. When you confirm, your score goes up and your Goldpan Verified badge goes on.</div></div></div>
+      <div class="step"><div class="step-num">05</div><div class="step-content"><div class="step-title">The Right Diners Find You</div><div class="step-text">Customers filtering by allergen or dietary need see your dishes first. Your restaurant becomes the answer to the question they are already asking.</div></div></div>
+    </div>
+  </section>
+
+  <section class="benefits section">
+    <p class="section-label">Founding Partner Benefits</p>
+    <h2 class="benefits-headline">Only 5 Spots.<br />Free for Life.</h2>
+    <p class="benefits-sub">Founding partners get everything Goldpan offers at no cost, forever. Priority placement always. This offer does not come back once the five spots are filled.</p>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-title">Free for Life</div>
+        <div class="benefit-text">Founding partners pay nothing, ever. You are in at the ground floor and you stay there regardless of what the platform becomes.</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-title">Priority Placement</div>
+        <div class="benefit-text">Your dishes appear first when diners search. Your restaurant leads the results. Always.</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-title">Goldpan Verified Badge</div>
+        <div class="benefit-text">A verified badge signals to every diner that your restaurant went the extra mile on ingredient transparency.</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-title">Confirmation Support</div>
+        <div class="benefit-text">We do the heavy lifting on the confirmation process. Fast and simple for your team. Your score goes up, your visibility goes up.</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-title">First to Everything</div>
+        <div class="benefit-text">New features, new markets, new opportunities. Founding partners get first access to everything Goldpan builds next.</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-title">Your Story Told</div>
+        <div class="benefit-text">We help diners understand the effort your restaurant already puts in. Transparency is something to be proud of.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="spotlight section">
+    <p class="section-label">Founding Partner Spotlight</p>
+    <div class="spotlight-grid">
+      <div>
+        <div class="spotlight-label">Confirmed Founding Partner</div>
+        <h2 class="spotlight-name">Real and Rosemary</h2>
+        <p class="spotlight-body">Homewood's Real and Rosemary was the first restaurant to join Goldpan as a founding partner. They are a perfect example of what Goldpan recognizes: a restaurant that was already doing the work before anyone was watching.</p>
+        <div class="spotlight-perks">
+          <div class="sperk"><div class="sperk-dot"></div><div class="sperk-text">Has documented allergen procedures</div></div>
+          <div class="sperk"><div class="sperk-dot"></div><div class="sperk-text">Offers allergen-specific menus on request</div></div>
+          <div class="sperk"><div class="sperk-dot"></div><div class="sperk-text">Every dish scored and mapped</div></div>
+          <div class="sperk"><div class="sperk-dot"></div><div class="sperk-text">Score jumps to 90 or above upon confirmation</div></div>
+          <div class="sperk"><div class="sperk-dot"></div><div class="sperk-text">Priority placement in all Goldpan results</div></div>
+        </div>
+      </div>
+      <div class="spotlight-score-card">
+        <div class="sc-restaurant">Real and Rosemary · Homewood</div>
+        <div class="sc-name">Grilled Herb Chicken</div>
+        <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px;">
+          <div class="sc-score">70</div>
+          <div class="sc-denom">/100</div>
+        </div>
+        <div class="sc-level">Moderate Transparency</div>
+        <div class="sc-context">26 points above the Birmingham average of 44</div>
+        <div class="sc-path">After confirmation: projected score of 90 or above and Goldpan Verified status</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-glow"></div>
+    <p class="cta-label">4 Spots Remaining</p>
+    <h2 class="cta-headline">Transparency Is<br />a Badge.<br /><span style="color:#C9A84C">Not a Report Card.</span></h2>
+    <p class="cta-sub">Your restaurant is already doing more than most. Let us make sure the right diners know it.</p>
+    <a href="mailto:hello@goldpanapp.com?subject=Founding Partner Inquiry" class="cta-btn">Become a Founding Partner</a>
+    <p class="cta-note">hello@goldpanapp.com · Birmingham, AL · goldpanapp.com</p>
+  </section>
+
+  <footer>
+    <div class="footer-logo">Goldpan</div>
+    <p class="footer-copy">2026 Goldpan. Birmingham, AL.</p>
+    <ul class="footer-links">
+      <li><a href="https://goldpanapp.com">Home</a></li>
+      <li><a href="https://goldpanapp.com/discover">Discover</a></li>
+      <li><a href="mailto:hello@goldpanapp.com">Contact</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
