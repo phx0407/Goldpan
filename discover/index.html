@@ -120,6 +120,8 @@
     <button class="fbtn" onclick="setFilter('gluten-free',this)">Gluten Free</button>
     <button class="fbtn" onclick="setFilter('no-dairy',this)">No Dairy</button>
     <button class="fbtn" onclick="setFilter('no-nuts',this)">No Nuts</button>
+    <button class="fbtn" onclick="setFilter('no-shellfish',this)">No Shellfish</button>
+    <button class="fbtn" onclick="setFilter('no-fish',this)">No Fish</button>
     <button class="fbtn" onclick="setFilter('60plus',this)">Score 60+</button>
   </div>
 </div>
@@ -224,6 +226,8 @@ function getFiltered() {
     if (activeFilter === 'gluten-free') return d.tags.indexOf('gluten-free') > -1;
     if (activeFilter === 'no-dairy') return d.allergens.toLowerCase().indexOf('dairy') === -1;
     if (activeFilter === 'no-nuts') return d.allergens.toLowerCase().indexOf('tree nuts') === -1 && d.allergens.toLowerCase().indexOf('nuts') === -1;
+    if (activeFilter === 'no-shellfish') return d.allergens.toLowerCase().indexOf('shellfish') === -1;
+    if (activeFilter === 'no-fish') return d.allergens.toLowerCase().indexOf('fish') === -1;
     if (activeFilter === '60plus') return d.score >= 60;
     return true;
   }).sort(function(a,b) { return sortHigh ? b.score - a.score : a.score - b.score; });
