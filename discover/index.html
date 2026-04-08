@@ -32,10 +32,10 @@
     .fbtn:hover { border-color: #C9A84C; color: #C9A84C; }
     .fbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; }
     @media (max-width: 768px) { .search-bar { padding: 16px 20px; } }
-    .results-bar { padding: 16px 48px; border-bottom: 1px solid #1A1A1A; display: flex; justify-content: space-between; align-items: center; }
+    .legend-bar { padding: 12px 48px; border-bottom: 1px solid #1A1A1A; display: flex; gap: 24px; flex-wrap: wrap; } .legend-item { font-size: 11px; color: #9A9488; letter-spacing: 0.08em; display: flex; align-items: center; gap: 6px; } .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; } .results-bar { padding: 16px 48px; border-bottom: 1px solid #1A1A1A; display: flex; justify-content: space-between; align-items: center; }
     .results-count { font-size: 12px; color: #9A9488; font-family: 'DM Mono', monospace; }
     .sort-btn { font-size: 11px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.1em; text-transform: uppercase; }
-    @media (max-width: 768px) { .results-bar { padding: 12px 20px; } }
+    @media (max-width: 768px) { .legend-bar { padding: 12px 48px; border-bottom: 1px solid #1A1A1A; display: flex; gap: 24px; flex-wrap: wrap; } .legend-item { font-size: 11px; color: #9A9488; letter-spacing: 0.08em; display: flex; align-items: center; gap: 6px; } .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; } .results-bar { padding: 12px 20px; } }
     .grid { padding: 32px 48px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
     @media (max-width: 768px) { .grid { padding: 20px; grid-template-columns: 1fr; } }
     .card { background: #111111; border: 1px solid #1A1A1A; padding: 28px; cursor: pointer; transition: border-color 0.2s, background 0.2s; position: relative; }
@@ -126,7 +126,7 @@
   </div>
 </div>
 
-<div class="results-bar">
+<div class="legend-bar"><span class="legend-item"><span class="legend-dot" style="background:#4CAF76"></span>85-100 High Transparency</span><span class="legend-item"><span class="legend-dot" style="background:#C9A84C"></span>60-84 Moderate Transparency</span><span class="legend-item"><span class="legend-dot" style="background:#9A9488"></span>0-59 Building Transparency</span></div><div class="results-bar">
   <span class="results-count" id="results-count">52 dishes</span>
   <button class="sort-btn" onclick="toggleSort()">Sort: <span id="sort-label">Highest Score</span></button>
 </div>
