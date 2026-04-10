@@ -14,7 +14,6 @@
     .logo { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 0.08em; color: #C9A84C; text-decoration: none; }
     .logo span { color: #F5F2EC; font-size: 13px; letter-spacing: 0.15em; margin-left: 12px; font-family: 'DM Mono', monospace; }
     .header-stats { display: flex; gap: 32px; }
-    .hstat { text-align: right; }
     .hstat-num { font-family: 'Bebas Neue', sans-serif; font-size: 24px; color: #C9A84C; line-height: 1; }
     .hstat-label { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9488; }
     @media (max-width: 768px) { header { padding: 14px 20px; } .header-stats { display: none; } }
@@ -32,10 +31,13 @@
     .fbtn:hover { border-color: #C9A84C; color: #C9A84C; }
     .fbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; }
     @media (max-width: 768px) { .search-bar { padding: 16px 20px; } }
-    .legend-bar { padding: 12px 48px; border-bottom: 1px solid #1A1A1A; display: flex; gap: 24px; flex-wrap: wrap; } .legend-item { font-size: 11px; color: #9A9488; letter-spacing: 0.08em; display: flex; align-items: center; gap: 6px; } .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; } .results-bar { padding: 16px 48px; border-bottom: 1px solid #1A1A1A; display: flex; justify-content: space-between; align-items: center; }
+    .legend-bar { padding: 12px 48px; border-bottom: 1px solid #1A1A1A; display: flex; gap: 24px; flex-wrap: wrap; }
+    .legend-item { font-size: 11px; color: #9A9488; letter-spacing: 0.08em; display: flex; align-items: center; gap: 6px; }
+    .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .results-bar { padding: 16px 48px; border-bottom: 1px solid #1A1A1A; display: flex; justify-content: space-between; align-items: center; }
     .results-count { font-size: 12px; color: #9A9488; font-family: 'DM Mono', monospace; }
     .sort-btn { font-size: 11px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.1em; text-transform: uppercase; }
-    @media (max-width: 768px) { .legend-bar { padding: 12px 48px; border-bottom: 1px solid #1A1A1A; display: flex; gap: 24px; flex-wrap: wrap; } .legend-item { font-size: 11px; color: #9A9488; letter-spacing: 0.08em; display: flex; align-items: center; gap: 6px; } .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; } .results-bar { padding: 12px 20px; } }
+    @media (max-width: 768px) { .legend-bar { padding: 12px 20px; } .results-bar { padding: 12px 20px; } }
     .grid { padding: 32px 48px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
     @media (max-width: 768px) { .grid { padding: 20px; grid-template-columns: 1fr; } }
     .card { background: #111111; border: 1px solid #1A1A1A; padding: 28px; cursor: pointer; transition: border-color 0.2s, background 0.2s; position: relative; }
@@ -48,21 +50,18 @@
     .card-score.high { color: #4CAF76; }
     .card-score.moderate { color: #C9A84C; }
     .card-score.building { color: #9A9488; }
-    .card-score.early { color: #C94C4C; }
     .card-denom { font-family: 'Bebas Neue', sans-serif; font-size: 18px; color: #9A9488; }
     .card-bar { height: 3px; background: #222222; margin-bottom: 8px; overflow: hidden; }
     .card-bar-fill { height: 100%; }
     .card-bar-fill.high { background: #4CAF76; }
     .card-bar-fill.moderate { background: #C9A84C; }
     .card-bar-fill.building { background: #9A9488; }
-    .card-bar-fill.early { background: #C94C4C; }
     .card-level { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9488; margin-bottom: 12px; }
     .card-tags { display: flex; flex-wrap: wrap; gap: 5px; }
     .ctag { font-size: 10px; padding: 3px 8px; border: 1px solid; border-radius: 2px; }
     .ctag-vegan { border-color: #4CAF76; color: #4CAF76; }
     .ctag-vegetarian { border-color: #1D9E75; color: #1D9E75; }
     .ctag-gluten { border-color: #378ADD; color: #378ADD; }
-    .ctag-allergen { border-color: #9A9488; color: #9A9488; }
     .detail-panel { position: fixed; right: 0; top: 0; bottom: 0; width: 420px; background: #0A0A0A; border-left: 1px solid #1A1A1A; overflow-y: auto; transform: translateX(100%); transition: transform 0.3s; z-index: 200; padding: 32px; }
     .detail-panel.open { transform: translateX(0); }
     @media (max-width: 768px) { .detail-panel { width: 100%; } }
@@ -74,7 +73,6 @@
     .detail-score-big.high { color: #4CAF76; }
     .detail-score-big.moderate { color: #C9A84C; }
     .detail-score-big.building { color: #9A9488; }
-    .detail-score-big.early { color: #C94C4C; }
     .detail-level { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #9A9488; margin-bottom: 6px; }
     .detail-context { font-size: 13px; color: #4CAF76; font-style: italic; margin-bottom: 24px; }
     .detail-dims { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; padding: 20px; background: #111111; border: 1px solid #1A1A1A; }
@@ -90,6 +88,12 @@
     .ing-chip { font-size: 11px; padding: 4px 10px; background: #1A1A1A; color: #9A9488; border: 1px solid #222222; }
     .empty { padding: 80px 48px; text-align: center; color: #9A9488; }
     .empty-title { font-family: 'Bebas Neue', sans-serif; font-size: 32px; color: #1A1A1A; margin-bottom: 12px; }
+    .active-filters-bar { padding: 10px 48px; border-bottom: 1px solid #1A1A1A; display: none; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .active-filters-bar.visible { display: flex; }
+    .active-filter-tag { font-size: 11px; padding: 4px 10px; background: rgba(201,168,76,0.1); border: 1px solid #C9A84C; color: #C9A84C; letter-spacing: 0.08em; }
+    .clear-all { font-size: 11px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; margin-left: 8px; }
+    .clear-all:hover { color: #F5F2EC; }
+    @media (max-width: 768px) { .active-filters-bar { padding: 10px 20px; } }
   </style>
 </head>
 <body>
@@ -108,25 +112,33 @@
 <div class="hero">
   <p class="hero-label">Birmingham Food Intelligence</p>
   <h1 class="hero-title">Find Food<br />You Can Trust.</h1>
-  <p class="hero-sub">Search 52 scored dishes across 11 Birmingham restaurants. Filter by dietary need, allergen, or transparency score.</p>
+  <p class="hero-sub">Search 52 scored dishes across 11 Birmingham restaurants. Select multiple filters to narrow by dietary need, allergen, or transparency score.</p>
 </div>
 
 <div class="search-bar">
   <input class="search-input" id="search" placeholder="Search dishes, restaurants, ingredients..." oninput="render()" />
   <div class="filter-btns">
-    <button class="fbtn active" onclick="setFilter('all',this)">All</button>
-    <button class="fbtn" onclick="setFilter('vegan',this)">Vegan</button>
-    <button class="fbtn" onclick="setFilter('vegetarian',this)">Vegetarian</button>
-    <button class="fbtn" onclick="setFilter('gluten-free',this)">Gluten Free</button>
-    <button class="fbtn" onclick="setFilter('no-dairy',this)">No Dairy</button>
-    <button class="fbtn" onclick="setFilter('no-nuts',this)">No Nuts</button>
-    <button class="fbtn" onclick="setFilter('no-shellfish',this)">No Shellfish</button>
-    <button class="fbtn" onclick="setFilter('no-fish',this)">No Fish</button>
-    <button class="fbtn" onclick="setFilter('60plus',this)">Score 60+</button>
+    <button class="fbtn active" id="btn-all" onclick="setFilter('all', this)">All</button>
+    <button class="fbtn" onclick="setFilter('vegan', this)">Vegan</button>
+    <button class="fbtn" onclick="setFilter('vegetarian', this)">Vegetarian</button>
+    <button class="fbtn" onclick="setFilter('gluten-free', this)">Gluten Free</button>
+    <button class="fbtn" onclick="setFilter('no-dairy', this)">No Dairy</button>
+    <button class="fbtn" onclick="setFilter('no-nuts', this)">No Nuts</button>
+    <button class="fbtn" onclick="setFilter('no-shellfish', this)">No Shellfish</button>
+    <button class="fbtn" onclick="setFilter('no-fish', this)">No Fish</button>
+    <button class="fbtn" onclick="setFilter('60plus', this)">Score 60+</button>
   </div>
 </div>
 
-<div class="legend-bar"><span class="legend-item"><span class="legend-dot" style="background:#4CAF76"></span>85-100 High Transparency</span><span class="legend-item"><span class="legend-dot" style="background:#C9A84C"></span>60-84 Moderate Transparency</span><span class="legend-item"><span class="legend-dot" style="background:#9A9488"></span>0-59 Building Transparency</span></div><div class="results-bar">
+<div class="active-filters-bar" id="active-filters-bar"></div>
+
+<div class="legend-bar">
+  <span class="legend-item"><span class="legend-dot" style="background:#4CAF76"></span>85-100 High Transparency</span>
+  <span class="legend-item"><span class="legend-dot" style="background:#C9A84C"></span>60-84 Moderate Transparency</span>
+  <span class="legend-item"><span class="legend-dot" style="background:#9A9488"></span>0-59 Building Transparency</span>
+</div>
+
+<div class="results-bar">
   <span class="results-count" id="results-count">52 dishes</span>
   <button class="sort-btn" onclick="toggleSort()">Sort: <span id="sort-label">Highest Score</span></button>
 </div>
@@ -146,7 +158,7 @@ var dishes = [
   {id:'D004',name:'Chicken Salad Sandwich',restaurant:'Real and Rosemary',location:'Homewood',score:30,level:'Building',tags:[],allergens:'Dairy, Wheat, Egg',notes:'Chicken salad mix compound, herbs vague',core:15,sauce:5,allergen:5,prep:5,ingredients:['Chicken salad mix','Sandwich bread','Lettuce','Tomato','Greek yogurt','Mayonnaise','Herbs']},
   {id:'D005',name:'Spaghetti',restaurant:'Real and Rosemary',location:'Homewood',score:30,level:'Building',tags:[],allergens:'Wheat, Dairy',notes:'Meatballs compound, marinara compound',core:15,sauce:5,allergen:5,prep:5,ingredients:['Angel hair pasta','Meatballs','Marinara','Parmesan']},
   {id:'D006',name:'Red Velvet French Toast',restaurant:'Yo Chef Surf and Turf',location:'Birmingham',score:40,level:'Building',tags:[],allergens:'Wheat, Egg, Dairy, Tree nuts',notes:'Red velvet crumbles compound, cream cheese icing compound',core:15,sauce:15,allergen:5,prep:5,ingredients:['French toast baguette','Red velvet cake crumbles','Walnuts','Cream cheese icing']},
-  {id:'D007',name:"Yo' Beyond Burger",restaurant:'Yo Chef Surf and Turf',location:'Birmingham',score:30,level:'Building',tags:[],allergens:'Unknown',notes:'Vegetarian sauce entirely unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Beyond burger patty','Burger bun','Vegetarian sauce','Pico de gallo','Fried onions']},
+  {id:'D007',name:"Yo Beyond Burger",restaurant:'Yo Chef Surf and Turf',location:'Birmingham',score:30,level:'Building',tags:[],allergens:'Unknown',notes:'Vegetarian sauce entirely unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Beyond burger patty','Burger bun','Vegetarian sauce','Pico de gallo','Fried onions']},
   {id:'D008',name:'Cobb Salad',restaurant:'Yo Chef Surf and Turf',location:'Birmingham',score:50,level:'Building',tags:[],allergens:'Dairy, Egg',notes:'No dressing disclosed, cajun grilled stated',core:25,sauce:5,allergen:5,prep:15,ingredients:['Cajun grilled chicken','Lettuce','Bacon','Eggs','Red onions','Pico de gallo','Cheddar cheese','Black olives','Banana peppers']},
   {id:'D009',name:'Swamp Love Gumbo',restaurant:'Yo Chef Surf and Turf',location:'Birmingham',score:30,level:'Building',tags:[],allergens:'Shellfish, Wheat',notes:'Roux sauce compound unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Chicken','Shrimp','Beef sausage','Roux sauce','Yellow rice']},
   {id:'D010',name:'Chicken Caesar Wrap',restaurant:'Yo Chef Surf and Turf',location:'Birmingham',score:40,level:'Building',tags:[],allergens:'Dairy, Wheat',notes:'No Caesar dressing disclosed',core:15,sauce:5,allergen:5,prep:15,ingredients:['Grilled chicken','Lettuce','Croutons','Parmesan cheese','Tortilla','Fries']},
@@ -193,21 +205,64 @@ var dishes = [
   {id:'D052',name:'Chinese Duck Nachos',restaurant:'East West',location:'Birmingham',score:40,level:'Building',tags:[],allergens:'Wheat, Dairy',notes:'Duck in name not in ingredients',core:15,sauce:5,allergen:5,prep:15,ingredients:['Wontons','Kimchi queso','Cotija cheese','Cilantro','Onions','Jalapenos']}
 ];
 
-var activeFilter = 'all';
+var activeFilters = [];
 var sortHigh = true;
 var selectedId = null;
 
 function levelKey(d) {
   if (d.score >= 85) return 'high';
   if (d.score >= 60) return 'moderate';
-  if (d.score >= 30) return 'building';
   return 'building';
 }
 
 function setFilter(f, btn) {
-  activeFilter = f;
+  if (f === 'all') {
+    activeFilters = [];
+    document.querySelectorAll('.fbtn').forEach(function(b) { b.classList.remove('active'); });
+    document.getElementById('btn-all').classList.add('active');
+  } else {
+    document.getElementById('btn-all').classList.remove('active');
+    var idx = activeFilters.indexOf(f);
+    if (idx > -1) {
+      activeFilters.splice(idx, 1);
+      btn.classList.remove('active');
+    } else {
+      activeFilters.push(f);
+      btn.classList.add('active');
+    }
+    if (activeFilters.length === 0) {
+      document.getElementById('btn-all').classList.add('active');
+    }
+  }
+  updateActiveFiltersBar();
+  render();
+}
+
+function updateActiveFiltersBar() {
+  var bar = document.getElementById('active-filters-bar');
+  if (activeFilters.length === 0) {
+    bar.classList.remove('visible');
+    bar.innerHTML = '';
+    return;
+  }
+  bar.classList.add('visible');
+  var labels = {
+    'vegan': 'Vegan', 'vegetarian': 'Vegetarian', 'gluten-free': 'Gluten Free',
+    'no-dairy': 'No Dairy', 'no-nuts': 'No Nuts', 'no-shellfish': 'No Shellfish',
+    'no-fish': 'No Fish', '60plus': 'Score 60+'
+  };
+  bar.innerHTML = '<span style="font-size:11px;color:#9A9488;letter-spacing:0.08em;text-transform:uppercase;">Active filters:</span>' +
+    activeFilters.map(function(f) {
+      return '<span class="active-filter-tag">' + (labels[f] || f) + '</span>';
+    }).join('') +
+    '<button class="clear-all" onclick="clearAll()">Clear All</button>';
+}
+
+function clearAll() {
+  activeFilters = [];
   document.querySelectorAll('.fbtn').forEach(function(b) { b.classList.remove('active'); });
-  btn.classList.add('active');
+  document.getElementById('btn-all').classList.add('active');
+  updateActiveFiltersBar();
   render();
 }
 
@@ -221,15 +276,18 @@ function getFiltered() {
   var q = document.getElementById('search').value.toLowerCase();
   return dishes.filter(function(d) {
     if (q && d.name.toLowerCase().indexOf(q) === -1 && d.restaurant.toLowerCase().indexOf(q) === -1 && d.ingredients.join(' ').toLowerCase().indexOf(q) === -1) return false;
-    if (activeFilter === 'vegan') return d.tags.indexOf('vegan') > -1;
-    if (activeFilter === 'vegetarian') return d.tags.indexOf('vegetarian') > -1 || d.tags.indexOf('vegan') > -1;
-    if (activeFilter === 'gluten-free') return d.tags.indexOf('gluten-free') > -1;
-    if (activeFilter === 'no-dairy') return d.allergens.toLowerCase().indexOf('dairy') === -1;
-    if (activeFilter === 'no-nuts') return d.allergens.toLowerCase().indexOf('tree nuts') === -1 && d.allergens.toLowerCase().indexOf('nuts') === -1;
-    if (activeFilter === 'no-shellfish') return d.allergens.toLowerCase().indexOf('shellfish') === -1;
-    if (activeFilter === 'no-fish') return d.allergens.toLowerCase().indexOf('fish') === -1;
-    if (activeFilter === '60plus') return d.score >= 60;
-    return true;
+    if (activeFilters.length === 0) return true;
+    return activeFilters.every(function(f) {
+      if (f === 'vegan') return d.tags.indexOf('vegan') > -1;
+      if (f === 'vegetarian') return d.tags.indexOf('vegetarian') > -1 || d.tags.indexOf('vegan') > -1;
+      if (f === 'gluten-free') return d.tags.indexOf('gluten-free') > -1;
+      if (f === 'no-dairy') return d.allergens.toLowerCase().indexOf('dairy') === -1;
+      if (f === 'no-nuts') return d.allergens.toLowerCase().indexOf('tree nuts') === -1 && d.allergens.toLowerCase().indexOf('nuts') === -1;
+      if (f === 'no-shellfish') return d.allergens.toLowerCase().indexOf('shellfish') === -1;
+      if (f === 'no-fish') return d.allergens.toLowerCase().indexOf('fish') === -1;
+      if (f === '60plus') return d.score >= 60;
+      return true;
+    });
   }).sort(function(a,b) { return sortHigh ? b.score - a.score : a.score - b.score; });
 }
 
@@ -238,7 +296,7 @@ function render() {
   document.getElementById('results-count').textContent = filtered.length + ' dish' + (filtered.length !== 1 ? 'es' : '');
   var grid = document.getElementById('grid');
   if (filtered.length === 0) {
-    grid.innerHTML = '<div class="empty"><div class="empty-title">No dishes found</div><p>Try adjusting your search or filter.</p></div>';
+    grid.innerHTML = '<div class="empty"><div class="empty-title">No dishes found</div><p>Try adjusting your search or filters.</p></div>';
     return;
   }
   grid.innerHTML = filtered.map(function(d) {
@@ -252,7 +310,7 @@ function render() {
       '<div class="card-name">' + d.name + '</div>' +
       '<div class="card-score-row"><span class="card-score ' + lk + '">' + d.score + '</span><span class="card-denom">/100</span></div>' +
       '<div class="card-bar"><div class="card-bar-fill ' + lk + '" style="width:' + d.score + '%"></div></div>' +
-      '<div class="card-level">' + (lk === 'moderate' ? 'Moderate' : lk === 'high' ? 'High' : lk === 'building' ? 'Building' : 'Early Stage') + ' Transparency</div>' +
+      '<div class="card-level">' + (lk === 'moderate' ? 'Moderate' : lk === 'high' ? 'High' : 'Building') + ' Transparency</div>' +
       (tagsHtml ? '<div class="card-tags">' + tagsHtml + '</div>' : '') +
       '</div>';
   }).join('');
@@ -263,7 +321,7 @@ function openDetail(id) {
   render();
   var d = dishes.find(function(x) { return x.id === id; });
   var lk = levelKey(d);
-  var levelLabel = lk === 'moderate' ? 'Moderate Transparency' : lk === 'high' ? 'High Transparency' : lk === 'building' ? 'Building Transparency' : 'Early Stage';
+  var levelLabel = lk === 'moderate' ? 'Moderate Transparency' : lk === 'high' ? 'High Transparency' : 'Building Transparency';
   var tagsHtml = d.tags.map(function(t) {
     var cls = t === 'vegan' ? 'ctag-vegan' : t === 'vegetarian' ? 'ctag-vegetarian' : 'ctag-gluten';
     return '<span class="ctag ' + cls + '">' + t + '</span>';
