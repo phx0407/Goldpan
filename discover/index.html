@@ -60,18 +60,15 @@
     .card.selected { border-color: #C9A84C; }
     .card-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; margin-bottom: 4px; }
     .card-name { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 16px; line-height: 1.1; }
-    .card-score-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
-    .card-score { font-family: 'Bebas Neue', sans-serif; font-size: 44px; line-height: 1; }
-    .card-score.high { color: #4CAF76; }
-    .card-score.moderate { color: #C9A84C; }
-    .card-score.building { color: #9A9488; }
-    .card-denom { font-family: 'Bebas Neue', sans-serif; font-size: 18px; color: #9A9488; }
-    .card-bar { height: 3px; background: #222222; margin-bottom: 8px; overflow: hidden; }
+    .card-bar { height: 3px; background: #222222; margin-bottom: 16px; overflow: hidden; }
     .card-bar-fill { height: 100%; }
     .card-bar-fill.high { background: #4CAF76; }
     .card-bar-fill.moderate { background: #C9A84C; }
     .card-bar-fill.building { background: #9A9488; }
-    .card-level { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9488; margin-bottom: 12px; }
+    .card-level { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.04em; line-height: 1.1; margin-bottom: 10px; }
+    .card-level.high { color: #4CAF76; }
+    .card-level.moderate { color: #C9A84C; }
+    .card-level.building { color: #9A9488; }
     .card-tags { display: flex; flex-wrap: wrap; gap: 5px; }
     .ctag { font-size: 10px; padding: 3px 8px; border: 1px solid; border-radius: 2px; }
     .ctag-vegan { border-color: #4CAF76; color: #4CAF76; }
@@ -231,6 +228,7 @@ var dishes = [
   {id:'D025',name:'Quail and Waffles',restaurant:'SoHo Standard',location:'Birmingham',score:30,level:'Building',tags:[],allergens:'Dairy, Wheat, Egg',notes:'Hot honey glaze compound, bourbon butter compound',core:15,sauce:5,allergen:5,prep:5,ingredients:['Waffle','Quail','Jalapeno bacon','Hot honey glaze','Bourbon butter']},
   {id:'D026',name:'Bites',restaurant:'SoHo Standard',location:'Birmingham',score:30,level:'Building',tags:['gluten-free'],allergens:'Egg, Dairy',notes:'Fresh herbs vague',core:15,sauce:5,allergen:5,prep:5,ingredients:['Egg white','Mozzarella','Roasted red pepper','Fresh herbs']},
   // ── SLUTTY VEGAN ──────────────────────────────────────────
+  {id:'D027',name:'Full Menu',restaurant:'Slutty Vegan',location:'Homewood',score:30,level:'Building',tags:['vegan'],allergens:'Unknown',notes:'Full menu is plant-based and vegan; individual dish details unconfirmed',core:15,sauce:5,allergen:5,prep:5,ingredients:['Plant-based ingredients','All dishes vegan']},
   {id:'D028',name:'One Night Stand',restaurant:'Slutty Vegan',location:'Homewood',score:30,level:'Building',tags:['vegan'],allergens:'Unknown',notes:'Slut sauce entirely unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Plant-based patty','Vegan bacon','Vegan cheese','Onions','Lettuce','Tomato','Slut sauce','Vegan hawaiian bun']},
   {id:'D029',name:'Dancehall Queen',restaurant:'Slutty Vegan',location:'Homewood',score:30,level:'Building',tags:['vegan'],allergens:'Unknown',notes:'Slut sauce entirely unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Plant-based patty','Sweet jerk plantains','Vegan cheese','Onions','Lettuce','Tomato','Slut sauce','Vegan hawaiian bun']},
   {id:'D030',name:'Sloppy Toppy',restaurant:'Slutty Vegan',location:'Homewood',score:30,level:'Building',tags:['vegan'],allergens:'Unknown',notes:'Slut sauce entirely unknown',core:15,sauce:5,allergen:5,prep:5,ingredients:['Plant-based patty','Jalapenos','Vegan cheese','Onions','Lettuce','Tomato','Slut sauce','Vegan hawaiian bun']},
@@ -377,9 +375,8 @@ function render() {
     return '<div class="card' + (selectedId === d.id ? ' selected' : '') + '" onclick="openDetail(\'' + d.id + '\')">' +
       '<div class="card-restaurant">' + d.restaurant + ' · ' + d.location + '</div>' +
       '<div class="card-name">' + d.name + '</div>' +
-      '<div class="card-score-row"><span class="card-score ' + lk + '">' + d.score + '</span><span class="card-denom">/100</span></div>' +
+      '<div class="card-level ' + lk + '">' + (lk === 'moderate' ? 'Moderate' : lk === 'high' ? 'High' : 'Building') + ' Transparency</div>' +
       '<div class="card-bar"><div class="card-bar-fill ' + lk + '" style="width:' + d.score + '%"></div></div>' +
-      '<div class="card-level">' + (lk === 'moderate' ? 'Moderate' : lk === 'high' ? 'High' : 'Building') + ' Transparency</div>' +
       (tagsHtml ? '<div class="card-tags">' + tagsHtml + '</div>' : '') +
       '</div>';
   }).join('');
