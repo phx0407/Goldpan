@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Goldpan — Quick Survey</title>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGENFQKBT1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -17,60 +16,132 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { background: #0A0A0A; min-height: 100vh; }
     body { background: #0A0A0A; color: #F5F2EC; font-family: "DM Sans", sans-serif; font-weight: 300; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 24px; }
-    .wrap { width: 100%; max-width: 520px; }
-    .logo { font-family: "Bebas Neue", sans-serif; font-size: 28px; letter-spacing: 0.1em; color: #C9A84C; margin-bottom: 48px; }
-    .section { margin-bottom: 48px; border: 1px solid #1A1A1A; padding: 32px; }
-    .q-label { font-family: "DM Mono", monospace; font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 10px; }
-    .q-text { font-family: "Bebas Neue", sans-serif; font-size: 26px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 20px; line-height: 1.1; }
+    .wrap { width: 100%; max-width: 580px; }
+    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 48px; }
+    .logo { font-family: "Bebas Neue", sans-serif; font-size: 28px; letter-spacing: 0.1em; color: #C9A84C; }
+    .progress-text { font-family: "DM Mono", monospace; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #9A9488; }
+    .progress-bar-wrap { width: 100%; height: 2px; background: #1A1A1A; margin-bottom: 56px; overflow: hidden; }
+    .progress-bar-fill { height: 100%; background: #C9A84C; transition: width 0.4s ease; }
+    .question-block { display: none; animation: fadeIn 0.35s ease; }
+    .question-block.active { display: block; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    .q-label { font-family: "DM Mono", monospace; font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 12px; }
+    .q-text { font-family: "Bebas Neue", sans-serif; font-size: clamp(26px, 4vw, 36px); letter-spacing: 0.02em; color: #F5F2EC; margin-bottom: 32px; line-height: 1.1; }
     .opts { display: flex; flex-direction: column; gap: 8px; }
-    .opt { background: #1A1A1A; border: 1px solid #222222; color: #9A9488; font-family: "DM Sans", sans-serif; font-size: 13px; padding: 13px 18px; text-align: left; cursor: pointer; transition: all 0.2s; }
-    .opt:hover { border-color: #C9A84C; color: #F5F2EC; }
+    .opt { background: #111111; border: 1px solid #222222; color: #9A9488; font-family: "DM Sans", sans-serif; font-size: 14px; padding: 15px 20px; text-align: left; cursor: pointer; transition: all 0.2s; width: 100%; }
+    .opt:hover { border-color: #C9A84C; color: #F5F2EC; background: #141414; }
     .opt.selected { border-color: #C9A84C; background: rgba(201,168,76,0.08); color: #C9A84C; }
-    .thanks { font-size: 13px; color: #4CAF76; margin-top: 12px; display: none; font-style: italic; }
-    .footer-note { font-family: "DM Mono", monospace; font-size: 11px; color: #333333; text-align: center; margin-top: 48px; letter-spacing: 0.08em; }
-    .footer-note a { color: #C9A84C; text-decoration: none; }
+    .scale-opts { display: flex; gap: 8px; margin-bottom: 12px; }
+    .scale-opt { flex: 1; background: #111111; border: 1px solid #222222; color: #9A9488; font-family: "Bebas Neue", sans-serif; font-size: 24px; padding: 18px 8px; text-align: center; cursor: pointer; transition: all 0.2s; }
+    .scale-opt:hover { border-color: #C9A84C; color: #F5F2EC; }
+    .scale-opt.selected { border-color: #C9A84C; background: rgba(201,168,76,0.08); color: #C9A84C; }
+    .scale-labels { display: flex; justify-content: space-between; margin-bottom: 32px; }
+    .scale-label { font-size: 11px; color: #333333; font-family: "DM Mono", monospace; letter-spacing: 0.05em; }
+    .next-btn { margin-top: 28px; background: #C9A84C; color: #0A0A0A; border: none; padding: 15px 40px; font-family: "DM Sans", sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; transition: background 0.2s; display: none; }
+    .next-btn:hover { background: #E8C97A; }
+    .next-btn.visible { display: inline-block; }
+    .thanks { display: none; text-align: center; padding: 40px 0; }
+    .thanks.visible { display: block; animation: fadeIn 0.4s ease; }
+    .thanks-headline { font-family: "Bebas Neue", sans-serif; font-size: 52px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 16px; line-height: 1; }
+    .thanks-sub { font-size: 15px; color: #9A9488; line-height: 1.65; max-width: 400px; margin: 0 auto 32px; }
+    .thanks-link { display: inline-block; border: 1px solid #C9A84C; color: #C9A84C; padding: 13px 30px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: all 0.2s; }
+    .thanks-link:hover { background: #C9A84C; color: #0A0A0A; }
+    .footer-note { font-family: "DM Mono", monospace; font-size: 11px; color: #222222; text-align: center; margin-top: 60px; letter-spacing: 0.08em; }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <div class="logo">Goldpan</div>
-
-    <div class="section">
-      <div class="q-label">Question 01</div>
-      <div class="q-text">What matters most to you when choosing where to eat?</div>
-      <div class="opts" id="q1-opts">
-        <button class="opt" onclick="select(this, 1, 'Knowing what is in my food')">Knowing what's in my food</button>
-        <button class="opt" onclick="select(this, 1, 'Finding options that fit my diet')">Finding options that fit my diet</button>
-        <button class="opt" onclick="select(this, 1, 'Supporting restaurants I trust')">Supporting restaurants I trust</button>
-        <button class="opt" onclick="select(this, 1, 'Discovering something new')">Discovering something new</button>
-      </div>
-      <div class="thanks" id="q1-thanks">Got it. Thank you.</div>
+    <div class="header">
+      <div class="logo">Goldpan</div>
+      <div class="progress-text" id="progress-text">Question 1 of 4</div>
     </div>
-
-    <div class="section">
-      <div class="q-label">Question 02</div>
-      <div class="q-text">What would make Goldpan a weekly habit for you?</div>
-      <div class="opts" id="q2-opts">
-        <button class="opt" onclick="select(this, 2, 'Seeing more restaurants and dishes near me')">Seeing more restaurants and dishes near me</button>
-        <button class="opt" onclick="select(this, 2, 'Getting recommendations based on how I eat')">Getting recommendations based on how I eat</button>
-        <button class="opt" onclick="select(this, 2, 'Knowing my favorite spots are transparent')">Knowing my favorite spots are transparent</button>
-        <button class="opt" onclick="select(this, 2, 'Finding new places that match my lifestyle')">Finding new places that match my lifestyle</button>
-      </div>
-      <div class="thanks" id="q2-thanks">Got it. Thank you.</div>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar-fill" id="progress-bar" style="width:25%"></div>
     </div>
-
-    <div class="footer-note">goldpanapp.com &nbsp;·&nbsp; <a href="https://goldpanapp.com">Back to Goldpan</a></div>
+    <div class="question-block active" id="q1">
+      <div class="q-label">Question 01 of 04</div>
+      <div class="q-text">If you could see a transparency score for every dish at a Birmingham restaurant before you ordered, would that change where you eat?</div>
+      <div class="opts">
+        <button class="opt" onclick="answer(1, this, 'Definitely')">Definitely</button>
+        <button class="opt" onclick="answer(1, this, 'Probably')">Probably</button>
+        <button class="opt" onclick="answer(1, this, 'Probably not')">Probably not</button>
+        <button class="opt" onclick="answer(1, this, 'No')">No</button>
+      </div>
+      <button class="next-btn" id="next1" onclick="nextQ(1)">Next Question</button>
+    </div>
+    <div class="question-block" id="q2">
+      <div class="q-label">Question 02 of 04</div>
+      <div class="q-text">When you eat at a restaurant, how confident are you that you know exactly what's in your food?</div>
+      <div class="scale-opts">
+        <button class="scale-opt" onclick="answer(2, this, '1')">1</button>
+        <button class="scale-opt" onclick="answer(2, this, '2')">2</button>
+        <button class="scale-opt" onclick="answer(2, this, '3')">3</button>
+        <button class="scale-opt" onclick="answer(2, this, '4')">4</button>
+        <button class="scale-opt" onclick="answer(2, this, '5')">5</button>
+      </div>
+      <div class="scale-labels">
+        <span class="scale-label">Not at all confident</span>
+        <span class="scale-label">Completely confident</span>
+      </div>
+      <button class="next-btn" id="next2" onclick="nextQ(2)">Next Question</button>
+    </div>
+    <div class="question-block" id="q3">
+      <div class="q-label">Question 03 of 04</div>
+      <div class="q-text">Have you ever avoided a restaurant or dish because you couldn't find clear ingredient information?</div>
+      <div class="opts">
+        <button class="opt" onclick="answer(3, this, 'Yes')">Yes</button>
+        <button class="opt" onclick="answer(3, this, 'Sometimes')">Sometimes</button>
+        <button class="opt" onclick="answer(3, this, 'No')">No</button>
+      </div>
+      <button class="next-btn" id="next3" onclick="nextQ(3)">Next Question</button>
+    </div>
+    <div class="question-block" id="q4">
+      <div class="q-label">Question 04 of 04 — Last one</div>
+      <div class="q-text">What best describes you when it comes to food?</div>
+      <div class="opts">
+        <button class="opt" onclick="answer(4, this, 'Medical reason')">I have a medical reason to watch what I eat</button>
+        <button class="opt" onclick="answer(4, this, 'Lifestyle diet by choice')">I follow a lifestyle diet by choice</button>
+        <button class="opt" onclick="answer(4, this, 'Order for someone with dietary needs')">I order for someone with dietary needs</button>
+        <button class="opt" onclick="answer(4, this, 'Want to eat cleaner')">I want to eat cleaner but don't know where to start</button>
+      </div>
+      <button class="next-btn" id="next4" onclick="submitSurvey()">Submit</button>
+    </div>
+    <div class="thanks" id="thanks">
+      <div class="thanks-headline">Thank You.</div>
+      <div class="thanks-sub">Your response helps us build the right thing for Birmingham. We will be in touch when Goldpan launches.</div>
+      <a href="https://goldpanapp.com" class="thanks-link">Back to Goldpan</a>
+    </div>
+    <div class="footer-note">goldpanapp.com · Birmingham, AL</div>
   </div>
-
   <script>
-    function select(btn, q, answer) {
-      var opts = document.querySelectorAll("#q" + q + "-opts .opt");
-      opts.forEach(function(b) { b.classList.remove("selected"); });
+    var answers = {};
+    function answer(q, btn, val) {
+      var container = btn.parentElement;
+      container.querySelectorAll("button").forEach(function(b) { b.classList.remove("selected"); });
       btn.classList.add("selected");
-      document.getElementById("q" + q + "-thanks").style.display = "block";
+      answers["q" + q] = val;
+      document.getElementById("next" + q).classList.add("visible");
       if (typeof gtag !== "undefined") {
-        gtag("event", "survey_response", { event_category: "Standalone Survey Q" + q, event_label: answer });
+        gtag("event", "survey_answer", { event_category: "Survey Q" + q, event_label: val });
       }
+    }
+    function nextQ(current) {
+      document.getElementById("q" + current).classList.remove("active");
+      var next = current + 1;
+      document.getElementById("q" + next).classList.add("active");
+      document.getElementById("progress-bar").style.width = (next / 4 * 100) + "%";
+      document.getElementById("progress-text").textContent = "Question " + next + " of 4";
+      window.scrollTo(0, 0);
+    }
+    function submitSurvey() {
+      document.getElementById("q4").classList.remove("active");
+      document.getElementById("progress-bar").style.width = "100%";
+      document.getElementById("progress-text").textContent = "Complete";
+      document.getElementById("thanks").classList.add("visible");
+      if (typeof gtag !== "undefined") {
+        gtag("event", "survey_complete", { event_category: "Survey", event_label: JSON.stringify(answers) });
+      }
+      window.scrollTo(0, 0);
     }
   </script>
 </body>
