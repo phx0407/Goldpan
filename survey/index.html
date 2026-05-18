@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goldpan — Quick Survey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGENFQKBT1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-NGENFQKBT1");
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { background: #0A0A0A; min-height: 100vh; }
+    body { background: #0A0A0A; color: #F5F2EC; font-family: "DM Sans", sans-serif; font-weight: 300; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 24px; }
+    .wrap { width: 100%; max-width: 520px; }
+    .logo { font-family: "Bebas Neue", sans-serif; font-size: 28px; letter-spacing: 0.1em; color: #C9A84C; margin-bottom: 48px; }
+    .section { margin-bottom: 48px; border: 1px solid #1A1A1A; padding: 32px; }
+    .q-label { font-family: "DM Mono", monospace; font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 10px; }
+    .q-text { font-family: "Bebas Neue", sans-serif; font-size: 26px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 20px; line-height: 1.1; }
+    .opts { display: flex; flex-direction: column; gap: 8px; }
+    .opt { background: #1A1A1A; border: 1px solid #222222; color: #9A9488; font-family: "DM Sans", sans-serif; font-size: 13px; padding: 13px 18px; text-align: left; cursor: pointer; transition: all 0.2s; }
+    .opt:hover { border-color: #C9A84C; color: #F5F2EC; }
+    .opt.selected { border-color: #C9A84C; background: rgba(201,168,76,0.08); color: #C9A84C; }
+    .thanks { font-size: 13px; color: #4CAF76; margin-top: 12px; display: none; font-style: italic; }
+    .footer-note { font-family: "DM Mono", monospace; font-size: 11px; color: #333333; text-align: center; margin-top: 48px; letter-spacing: 0.08em; }
+    .footer-note a { color: #C9A84C; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="logo">Goldpan</div>
+
+    <div class="section">
+      <div class="q-label">Question 01</div>
+      <div class="q-text">What matters most to you when choosing where to eat?</div>
+      <div class="opts" id="q1-opts">
+        <button class="opt" onclick="select(this, 1, 'Knowing what is in my food')">Knowing what's in my food</button>
+        <button class="opt" onclick="select(this, 1, 'Finding options that fit my diet')">Finding options that fit my diet</button>
+        <button class="opt" onclick="select(this, 1, 'Supporting restaurants I trust')">Supporting restaurants I trust</button>
+        <button class="opt" onclick="select(this, 1, 'Discovering something new')">Discovering something new</button>
+      </div>
+      <div class="thanks" id="q1-thanks">Got it. Thank you.</div>
+    </div>
+
+    <div class="section">
+      <div class="q-label">Question 02</div>
+      <div class="q-text">What would make Goldpan a weekly habit for you?</div>
+      <div class="opts" id="q2-opts">
+        <button class="opt" onclick="select(this, 2, 'Seeing more restaurants and dishes near me')">Seeing more restaurants and dishes near me</button>
+        <button class="opt" onclick="select(this, 2, 'Getting recommendations based on how I eat')">Getting recommendations based on how I eat</button>
+        <button class="opt" onclick="select(this, 2, 'Knowing my favorite spots are transparent')">Knowing my favorite spots are transparent</button>
+        <button class="opt" onclick="select(this, 2, 'Finding new places that match my lifestyle')">Finding new places that match my lifestyle</button>
+      </div>
+      <div class="thanks" id="q2-thanks">Got it. Thank you.</div>
+    </div>
+
+    <div class="footer-note">goldpanapp.com &nbsp;·&nbsp; <a href="https://goldpanapp.com">Back to Goldpan</a></div>
+  </div>
+
+  <script>
+    function select(btn, q, answer) {
+      var opts = document.querySelectorAll("#q" + q + "-opts .opt");
+      opts.forEach(function(b) { b.classList.remove("selected"); });
+      btn.classList.add("selected");
+      document.getElementById("q" + q + "-thanks").style.display = "block";
+      if (typeof gtag !== "undefined") {
+        gtag("event", "survey_response", { event_category: "Standalone Survey Q" + q, event_label: answer });
+      }
+    }
+  </script>
+</body>
+</html>

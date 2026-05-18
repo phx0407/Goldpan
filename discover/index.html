@@ -105,6 +105,19 @@
     .clear-all { font-size: 11px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; margin-left: 8px; }
     .clear-all:hover { color: #F5F2EC; }
     @media (max-width: 768px) { .active-filters-bar { padding: 10px 20px; } }
+
+    .survey-overlay { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); z-index: 5000; background: #111111; border: 1px solid #C9A84C; padding: 28px 32px; width: 480px; max-width: calc(100vw - 32px); box-shadow: 0 8px 40px rgba(0,0,0,0.6); display: none; }
+    .survey-overlay.visible { display: block; animation: surveyIn 0.4s ease; }
+    @keyframes surveyIn { from { opacity: 0; transform: translateX(-50%) translateY(16px); } to { opacity: 1; transform: translateX(-50%) translateY(0); } }
+    .survey-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 10px; }
+    .survey-question { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 16px; line-height: 1.1; }
+    .survey-options { display: flex; flex-direction: column; gap: 8px; }
+    .survey-opt { background: #1A1A1A; border: 1px solid #222222; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 13px; padding: 11px 16px; text-align: left; cursor: pointer; transition: all 0.2s; }
+    .survey-opt:hover { border-color: #C9A84C; color: #F5F2EC; }
+    .survey-opt.selected { border-color: #C9A84C; background: rgba(201,168,76,0.08); color: #C9A84C; }
+    .survey-dismiss { position: absolute; top: 12px; right: 14px; background: none; border: none; color: #9A9488; font-size: 16px; cursor: pointer; line-height: 1; }
+    .survey-dismiss:hover { color: #F5F2EC; }
+    .survey-thanks { font-size: 13px; color: #4CAF76; margin-top: 12px; display: none; font-style: italic; }
   </style>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGENFQKBT1"></script>
@@ -428,6 +441,58 @@ function closeDetail() {
   render();
   document.getElementById('detail-panel').classList.remove('open');
 }
+</script>
+<div class="survey-overlay" id="survey-overlay">
+  <button class="survey-dismiss" onclick="dismissSurvey()">x</button>
+  <div class="survey-label">Quick Question</div>
+  <div class="survey-question">What matters most to you when choosing where to eat?</div>
+  <div class="survey-options">
+    <button class="survey-opt" onclick="selectSurvey(this, 'Knowing what is in my food')">Knowing what's in my food</button>
+    <button class="survey-opt" onclick="selectSurvey(this, 'Finding options that fit my diet')">Finding options that fit my diet</button>
+    <button class="survey-opt" onclick="selectSurvey(this, 'Supporting restaurants I trust')">Supporting restaurants I trust</button>
+    <button class="survey-opt" onclick="selectSurvey(this, 'Discovering something new')">Discovering something new</button>
+  </div>
+  <div class="survey-thanks" id="survey-thanks">Thank you. That helps us build the right thing.</div>
+</div>
+
+<script>
+var surveyShown = false;
+var surveyDismissed = false;
+
+function showSurvey() {
+  if (!surveyShown && !surveyDismissed) {
+    surveyShown = true;
+    document.getElementById('survey-overlay').classList.add('visible');
+  }
+}
+
+function dismissSurvey() {
+  surveyDismissed = true;
+  document.getElementById('survey-overlay').classList.remove('visible');
+}
+
+function selectSurvey(btn, answer) {
+  document.querySelectorAll('.survey-opt').forEach(function(b) { b.classList.remove('selected'); });
+  btn.classList.add('selected');
+  document.getElementById('survey-thanks').style.display = 'block';
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'survey_response', { event_category: 'Discover Survey', event_label: answer });
+  }
+  setTimeout(dismissSurvey, 2800);
+}
+
+setTimeout(function() {
+  var app = document.getElementById('app');
+  if (app && app.classList.contains('unlocked')) {
+    showSurvey();
+  } else {
+    var orig = window.checkPassword;
+    window.checkPassword = function() {
+      orig();
+      setTimeout(showSurvey, 30000);
+    };
+  }
+}, 30000);
 </script>
 </body>
 </html>

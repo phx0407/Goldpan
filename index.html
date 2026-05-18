@@ -151,6 +151,11 @@
     .waitlist-note { margin-top: 14px; font-size: 11px; color: #9A9488; letter-spacing: 0.05em; position: relative; }
     .waitlist-success { display: none; font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.1em; color: #4CAF76; margin-top: 14px; position: relative; }
     @media (max-width: 768px) { .waitlist-form { flex-direction: column; } .waitlist-input { border-right: 1px solid #222222; border-bottom: none; } }
+
+    .waitlist-survey-btn { background: #1A1A1A; border: 1px solid #222222; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 13px; padding: 11px 16px; text-align: left; cursor: pointer; transition: all 0.2s; width: 100%; }
+    .waitlist-survey-btn:hover { border-color: #C9A84C; color: #F5F2EC; }
+    .waitlist-survey-btn.selected { border-color: #C9A84C; background: rgba(201,168,76,0.08); color: #C9A84C; }
+
     footer { border-top: 1px solid #1A1A1A; padding: 44px 48px; display: flex; justify-content: space-between; align-items: center; background: #0A0A0A; }
     .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.1em; color: #C9A84C; }
     .footer-copy { font-size: 11px; color: #9A9488; letter-spacing: 0.05em; }
@@ -343,6 +348,18 @@
     </div>
     <p class="waitlist-note">No spam. Just your spot in line.</p>
     <p class="waitlist-success" id="waitlist-success">You are on the list. We will be in touch.</p>
+        <div id="waitlist-survey" style="display:none;margin-top:28px;position:relative;">
+          <div style="font-family:'DM Mono',monospace;font-size:10px;letter-spacing:0.25em;text-transform:uppercase;color:#C9A84C;margin-bottom:10px;">One Quick Question</div>
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:0.04em;color:#F5F2EC;margin-bottom:16px;line-height:1.1;">What would make Goldpan a weekly habit for you?</div>
+          <div style="display:flex;flex-direction:column;gap:8px;" id="waitlist-survey-opts">
+            <button class="waitlist-survey-btn" onclick="selectWaitlistSurvey(this,'Seeing more restaurants and dishes near me')">Seeing more restaurants and dishes near me</button>
+            <button class="waitlist-survey-btn" onclick="selectWaitlistSurvey(this,'Getting recommendations based on how I eat')">Getting recommendations based on how I eat</button>
+            <button class="waitlist-survey-btn" onclick="selectWaitlistSurvey(this,'Knowing my favorite spots are transparent')">Knowing my favorite spots are transparent</button>
+            <button class="waitlist-survey-btn" onclick="selectWaitlistSurvey(this,'Finding new places that match my lifestyle')">Finding new places that match my lifestyle</button>
+          </div>
+          <div id="waitlist-survey-thanks" style="display:none;font-size:13px;color:#4CAF76;margin-top:12px;font-style:italic;">Thank you. That helps us build the right thing.</div>
+        </div>
+
   </section>
   <footer>
     <div class="footer-logo">Goldpan</div>
@@ -419,10 +436,21 @@
           document.querySelector('.waitlist-form').style.display = 'none';
           document.querySelector('.waitlist-note').style.display = 'none';
           document.getElementById('waitlist-success').style.display = 'block';
+          document.getElementById('waitlist-survey').style.display = 'block';
         } else { btn.textContent = 'Try Again'; btn.disabled = false; }
       } catch(e) { btn.textContent = 'Try Again'; btn.disabled = false; }
     }
     document.getElementById('waitlist-email').addEventListener('keydown', function(e) { if (e.key === 'Enter') handleWaitlist(); });
   </script>
+<script>
+function selectWaitlistSurvey(btn, answer) {
+  document.querySelectorAll('.waitlist-survey-btn').forEach(function(b) { b.classList.remove('selected'); });
+  btn.classList.add('selected');
+  document.getElementById('waitlist-survey-thanks').style.display = 'block';
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'survey_response', { event_category: 'Waitlist Survey', event_label: answer });
+  }
+}
+</script>
 </body>
 </html>
