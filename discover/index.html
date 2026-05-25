@@ -496,3 +496,59 @@ setTimeout(function() {
 </script>
 </body>
 </html>
+<script>
+(function(){
+  var _sf = window.setFilter;
+  window.setFilter = function(filterValue, btn){
+    if(typeof gtag !== 'undefined'){
+      gtag('event','filter_selected',{
+        filter_name: filterValue,
+        filter_state: (btn && btn.classList.contains('active')) ? 'deselected' : 'selected'
+      });
+    }
+    return _sf.apply(this, arguments);
+  };
+
+  var _od = window.openDetail;
+  window.openDetail = function(id){
+    if(typeof gtag !== 'undefined'){
+      var dishes = window.dishes || [];
+      var d = dishes.find(function(x){ return x.id === id; });
+      if(d){
+        gtag('event','dish_card_clicked',{
+          dish_name: d.name,
+          restaurant_name: d.restaurant,
+          dish_score: d.score,
+          transparency_level: d.score >= 85 ? 'high' : d.score >= 60 ? 'moderate' : 'building'
+        });
+      }
+    }
+    return _od.apply(this, arguments);
+  };
+
+  window.addEventListener('load', function(){
+    var si = document.querySelector('input[type="text"], input[type="search"], #search, .search-input');
+    if(si){
+      var sb;
+      si.addEventListener('input', function(){
+        clearTimeout(sb);
+        var q = this.value.trim();
+        sb = setTimeout(function(){
+          if(q.length >= 2 && typeof gtag !== 'undefined'){
+            gtag('event','search_performed',{ search_term: q });
+          }
+        }, 800);
+      });
+    }
+
+    var p = new URLSearchParams(window.location.search);
+    var src = p.get('utm_source');
+    if(src && typeof gtag !== 'undefined'){
+      gtag('event','partner_referral_landed',{
+        partner_name: src,
+        referral_medium: p.get('utm_medium') || 'unknown'
+      });
+    }
+  });
+})();
+</script>
