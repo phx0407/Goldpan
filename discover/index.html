@@ -60,15 +60,15 @@
     .card.selected { border-color: #C9A84C; }
     .card-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; margin-bottom: 4px; }
     .card-name { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 16px; line-height: 1.1; }
-    .card-bar { height: 3px; background: #222222; margin-bottom: 16px; overflow: hidden; }
-    .card-bar-fill { height: 100%; }
-    .card-bar-fill.high { background: #4CAF76; }
-    .card-bar-fill.moderate { background: #C9A84C; }
-    .card-bar-fill.building { background: #9A9488; }
     .card-level { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.04em; line-height: 1.1; margin-bottom: 10px; }
     .card-level.high { color: #4CAF76; }
     .card-level.moderate { color: #C9A84C; }
     .card-level.building { color: #9A9488; }
+    .card-bar { height: 3px; background: #222222; margin-bottom: 14px; overflow: hidden; }
+    .card-bar-fill { height: 100%; }
+    .card-bar-fill.high { background: #4CAF76; }
+    .card-bar-fill.moderate { background: #C9A84C; }
+    .card-bar-fill.building { background: #9A9488; }
     .card-tags { display: flex; flex-wrap: wrap; gap: 5px; }
     .ctag { font-size: 10px; padding: 3px 8px; border: 1px solid; border-radius: 2px; }
     .ctag-vegan { border-color: #4CAF76; color: #4CAF76; }
@@ -80,19 +80,16 @@
     .detail-close { position: absolute; top: 20px; right: 20px; font-size: 20px; cursor: pointer; color: #9A9488; background: none; border: none; }
     .detail-close:hover { color: #F5F2EC; }
     .detail-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; margin-bottom: 6px; margin-top: 20px; }
-    .detail-name { font-family: 'Bebas Neue', sans-serif; font-size: 32px; letter-spacing: 0.04em; margin-bottom: 24px; line-height: 1.1; }
-    .detail-score-big { font-family: 'Bebas Neue', sans-serif; font-size: 72px; line-height: 1; margin-bottom: 4px; }
-    .detail-score-big.high { color: #4CAF76; }
-    .detail-score-big.moderate { color: #C9A84C; }
-    .detail-score-big.building { color: #9A9488; }
-    .detail-level { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #9A9488; margin-bottom: 6px; }
-    .detail-context { font-size: 13px; color: #4CAF76; font-style: italic; margin-bottom: 24px; }
-    .detail-dims { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; padding: 20px; background: #111111; border: 1px solid #1A1A1A; }
-    .dim-row { display: flex; align-items: center; gap: 10px; }
-    .dim-label { font-size: 11px; color: #9A9488; flex: 1; }
-    .dim-bar { width: 80px; height: 3px; background: #222222; overflow: hidden; }
-    .dim-fill { height: 100%; background: #C9A84C; }
-    .dim-val { font-family: 'DM Mono', monospace; font-size: 11px; color: #C9A84C; width: 30px; text-align: right; }
+    .detail-name { font-family: 'Bebas Neue', sans-serif; font-size: 32px; letter-spacing: 0.04em; margin-bottom: 16px; line-height: 1.1; }
+    .detail-level-hero { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; margin-bottom: 20px; }
+    .detail-level-hero.high { color: #4CAF76; }
+    .detail-level-hero.moderate { color: #C9A84C; }
+    .detail-level-hero.building { color: #9A9488; }
+    .detail-dims { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; padding: 20px; background: #111111; border: 1px solid #1A1A1A; }
+    .detail-dims-title { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #9A9488; margin-bottom: 6px; }
+    .dim-text { font-size: 12px; color: #9A9488; padding: 6px 0; border-bottom: 1px solid #1A1A1A; letter-spacing: 0.04em; display: flex; align-items: center; gap: 8px; }
+    .dim-text:last-child { border-bottom: none; }
+    .dim-dot { width: 5px; height: 5px; border-radius: 50%; background: #C9A84C; flex-shrink: 0; }
     .detail-section-title { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #9A9488; margin-bottom: 10px; }
     .detail-allergens { font-size: 12px; color: #9A9488; padding: 12px 16px; background: #111111; border: 1px solid #1A1A1A; margin-bottom: 20px; line-height: 1.6; }
     .detail-ingredients { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
@@ -105,7 +102,6 @@
     .clear-all { font-size: 11px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; margin-left: 8px; }
     .clear-all:hover { color: #F5F2EC; }
     @media (max-width: 768px) { .active-filters-bar { padding: 10px 20px; } }
-
     .survey-overlay { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); z-index: 5000; background: #111111; border: 1px solid #C9A84C; padding: 28px 32px; width: 480px; max-width: calc(100vw - 32px); box-shadow: 0 8px 40px rgba(0,0,0,0.6); display: none; }
     .survey-overlay.visible { display: block; animation: surveyIn 0.4s ease; }
     @keyframes surveyIn { from { opacity: 0; transform: translateX(-50%) translateY(16px); } to { opacity: 1; transform: translateX(-50%) translateY(0); } }
@@ -142,14 +138,13 @@
     <div class="header-stats">
       <div class="hstat"><div class="hstat-num">62</div><div class="hstat-label">Dishes</div></div>
       <div class="hstat"><div class="hstat-num">13</div><div class="hstat-label">Restaurants</div></div>
-      <div class="hstat"><div class="hstat-num">46</div><div class="hstat-label">Avg Score</div></div>
     </div>
   </header>
 
   <div class="hero">
     <p class="hero-label">Birmingham Food Intelligence</p>
     <h1 class="hero-title">Find Food<br />You Can Trust.</h1>
-    <p class="hero-sub">Search 62 scored dishes across 13 Birmingham restaurants. Select multiple filters to narrow by dietary need, allergen, or transparency score.</p>
+    <p class="hero-sub">Search 62 dishes across 13 Birmingham restaurants. Filter by dietary need, allergen, or transparency level.</p>
   </div>
 
   <div class="search-bar">
@@ -163,21 +158,21 @@
       <button class="fbtn" onclick="setFilter('no-nuts', this)">No Nuts</button>
       <button class="fbtn" onclick="setFilter('no-shellfish', this)">No Shellfish</button>
       <button class="fbtn" onclick="setFilter('no-fish', this)">No Fish</button>
-      <button class="fbtn" onclick="setFilter('60plus', this)">Score 60+</button>
+      <button class="fbtn" onclick="setFilter('60plus', this)">Moderate+</button>
     </div>
   </div>
 
   <div class="active-filters-bar" id="active-filters-bar"></div>
 
   <div class="legend-bar">
-    <span class="legend-item"><span class="legend-dot" style="background:#4CAF76"></span>85-100 High Transparency</span>
-    <span class="legend-item"><span class="legend-dot" style="background:#C9A84C"></span>60-84 Moderate Transparency</span>
-    <span class="legend-item"><span class="legend-dot" style="background:#9A9488"></span>0-59 Building Transparency</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#4CAF76"></span>High Transparency</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#C9A84C"></span>Moderate Transparency</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#9A9488"></span>Building Transparency</span>
   </div>
 
   <div class="results-bar">
     <span class="results-count" id="results-count">62 dishes</span>
-    <button class="sort-btn" onclick="toggleSort()">Sort: <span id="sort-label">Highest Score</span></button>
+    <button class="sort-btn" onclick="toggleSort()">Sort: <span id="sort-label">Highest First</span></button>
   </div>
 
   <div class="grid" id="grid"></div>
@@ -296,6 +291,12 @@ function levelKey(d) {
   return 'building';
 }
 
+function levelLabel(lk) {
+  if (lk === 'high') return 'High Transparency';
+  if (lk === 'moderate') return 'Moderate Transparency';
+  return 'Building Transparency';
+}
+
 function setFilter(f, btn) {
   if (f === 'all') {
     activeFilters = [];
@@ -304,16 +305,9 @@ function setFilter(f, btn) {
   } else {
     document.getElementById('btn-all').classList.remove('active');
     var idx = activeFilters.indexOf(f);
-    if (idx > -1) {
-      activeFilters.splice(idx, 1);
-      btn.classList.remove('active');
-    } else {
-      activeFilters.push(f);
-      btn.classList.add('active');
-    }
-    if (activeFilters.length === 0) {
-      document.getElementById('btn-all').classList.add('active');
-    }
+    if (idx > -1) { activeFilters.splice(idx, 1); btn.classList.remove('active'); }
+    else { activeFilters.push(f); btn.classList.add('active'); }
+    if (activeFilters.length === 0) document.getElementById('btn-all').classList.add('active');
   }
   updateActiveFiltersBar();
   render();
@@ -321,21 +315,11 @@ function setFilter(f, btn) {
 
 function updateActiveFiltersBar() {
   var bar = document.getElementById('active-filters-bar');
-  if (activeFilters.length === 0) {
-    bar.classList.remove('visible');
-    bar.innerHTML = '';
-    return;
-  }
+  if (activeFilters.length === 0) { bar.classList.remove('visible'); bar.innerHTML = ''; return; }
   bar.classList.add('visible');
-  var labels = {
-    'vegan': 'Vegan', 'vegetarian': 'Vegetarian', 'gluten-free': 'Gluten Free',
-    'no-dairy': 'No Dairy', 'no-nuts': 'No Nuts', 'no-shellfish': 'No Shellfish',
-    'no-fish': 'No Fish', '60plus': 'Score 60+'
-  };
+  var labels = { 'vegan':'Vegan','vegetarian':'Vegetarian','gluten-free':'Gluten Free','no-dairy':'No Dairy','no-nuts':'No Nuts','no-shellfish':'No Shellfish','no-fish':'No Fish','60plus':'Moderate+' };
   bar.innerHTML = '<span style="font-size:11px;color:#9A9488;letter-spacing:0.08em;text-transform:uppercase;">Active filters:</span>' +
-    activeFilters.map(function(f) {
-      return '<span class="active-filter-tag">' + (labels[f] || f) + '</span>';
-    }).join('') +
+    activeFilters.map(function(f) { return '<span class="active-filter-tag">' + (labels[f]||f) + '</span>'; }).join('') +
     '<button class="clear-all" onclick="clearAll()">Clear All</button>';
 }
 
@@ -349,32 +333,32 @@ function clearAll() {
 
 function toggleSort() {
   sortHigh = !sortHigh;
-  document.getElementById('sort-label').textContent = sortHigh ? 'Highest Score' : 'Lowest Score';
+  document.getElementById('sort-label').textContent = sortHigh ? 'Highest First' : 'Lowest First';
   render();
 }
 
 function getFiltered() {
   var q = document.getElementById('search').value.toLowerCase();
   return dishes.filter(function(d) {
-    if (q && d.name.toLowerCase().indexOf(q) === -1 && d.restaurant.toLowerCase().indexOf(q) === -1 && d.ingredients.join(' ').toLowerCase().indexOf(q) === -1) return false;
+    if (q && d.name.toLowerCase().indexOf(q)===-1 && d.restaurant.toLowerCase().indexOf(q)===-1 && d.ingredients.join(' ').toLowerCase().indexOf(q)===-1) return false;
     if (activeFilters.length === 0) return true;
     return activeFilters.every(function(f) {
-      if (f === 'vegan') return d.tags.indexOf('vegan') > -1;
-      if (f === 'vegetarian') return d.tags.indexOf('vegetarian') > -1 || d.tags.indexOf('vegan') > -1;
-      if (f === 'gluten-free') return d.tags.indexOf('gluten-free') > -1;
-      if (f === 'no-dairy') return d.allergens.toLowerCase().indexOf('dairy') === -1;
-      if (f === 'no-nuts') return d.allergens.toLowerCase().indexOf('tree nuts') === -1 && d.allergens.toLowerCase().indexOf('nuts') === -1;
-      if (f === 'no-shellfish') return d.allergens.toLowerCase().indexOf('shellfish') === -1;
-      if (f === 'no-fish') return d.allergens.toLowerCase().indexOf('fish') === -1;
-      if (f === '60plus') return d.score >= 60;
+      if (f==='vegan') return d.tags.indexOf('vegan')>-1;
+      if (f==='vegetarian') return d.tags.indexOf('vegetarian')>-1||d.tags.indexOf('vegan')>-1;
+      if (f==='gluten-free') return d.tags.indexOf('gluten-free')>-1;
+      if (f==='no-dairy') return d.allergens.toLowerCase().indexOf('dairy')===-1;
+      if (f==='no-nuts') return d.allergens.toLowerCase().indexOf('tree nuts')===-1&&d.allergens.toLowerCase().indexOf('nuts')===-1;
+      if (f==='no-shellfish') return d.allergens.toLowerCase().indexOf('shellfish')===-1;
+      if (f==='no-fish') return d.allergens.toLowerCase().indexOf('fish')===-1;
+      if (f==='60plus') return d.score>=60;
       return true;
     });
-  }).sort(function(a,b) { return sortHigh ? b.score - a.score : a.score - b.score; });
+  }).sort(function(a,b){ return sortHigh ? b.score-a.score : a.score-b.score; });
 }
 
 function render() {
   var filtered = getFiltered();
-  document.getElementById('results-count').textContent = filtered.length + ' dish' + (filtered.length !== 1 ? 'es' : '');
+  document.getElementById('results-count').textContent = filtered.length + ' dish' + (filtered.length!==1?'es':'');
   var grid = document.getElementById('grid');
   if (filtered.length === 0) {
     grid.innerHTML = '<div class="empty"><div class="empty-title">No dishes found</div><p>Try adjusting your search or filters.</p></div>';
@@ -382,16 +366,16 @@ function render() {
   }
   grid.innerHTML = filtered.map(function(d) {
     var lk = levelKey(d);
-    var tagsHtml = d.tags.map(function(t) {
-      var cls = t === 'vegan' ? 'ctag-vegan' : t === 'vegetarian' ? 'ctag-vegetarian' : 'ctag-gluten';
-      return '<span class="ctag ' + cls + '">' + t + '</span>';
-    }).join('');
-    return '<div class="card' + (selectedId === d.id ? ' selected' : '') + '" onclick="openDetail(\'' + d.id + '\')">' +
-      '<div class="card-restaurant">' + d.restaurant + ' · ' + d.location + '</div>' +
-      '<div class="card-name">' + d.name + '</div>' +
-      '<div class="card-level ' + lk + '">' + (lk === 'moderate' ? 'Moderate' : lk === 'high' ? 'High' : 'Building') + ' Transparency</div>' +
-      '<div class="card-bar"><div class="card-bar-fill ' + lk + '" style="width:' + d.score + '%"></div></div>' +
-      (tagsHtml ? '<div class="card-tags">' + tagsHtml + '</div>' : '') +
+    var tagsHtml = d.tags.length ? '<div class="card-tags">' + d.tags.map(function(t) {
+      var cls = t==='vegan'?'ctag-vegan':t==='vegetarian'?'ctag-vegetarian':'ctag-gluten';
+      return '<span class="ctag '+cls+'">'+t+'</span>';
+    }).join('') + '</div>' : '';
+    return '<div class="card'+(selectedId===d.id?' selected':'')+'" onclick="openDetail(\''+d.id+'\')">'+
+      '<div class="card-restaurant">'+d.restaurant+' · '+d.location+'</div>'+
+      '<div class="card-name">'+d.name+'</div>'+
+      '<div class="card-level '+lk+'">'+levelLabel(lk)+'</div>'+
+      '<div class="card-bar"><div class="card-bar-fill '+lk+'" style="width:'+d.score+'%"></div></div>'+
+      tagsHtml+
       '</div>';
   }).join('');
 }
@@ -399,33 +383,40 @@ function render() {
 function openDetail(id) {
   selectedId = id;
   render();
-  var d = dishes.find(function(x) { return x.id === id; });
+  var d = dishes.find(function(x){ return x.id===id; });
   var lk = levelKey(d);
-  var levelLabel = lk === 'moderate' ? 'Moderate Transparency' : lk === 'high' ? 'High Transparency' : 'Building Transparency';
-  var tagsHtml = d.tags.map(function(t) {
-    var cls = t === 'vegan' ? 'ctag-vegan' : t === 'vegetarian' ? 'ctag-vegetarian' : 'ctag-gluten';
-    return '<span class="ctag ' + cls + '">' + t + '</span>';
-  }).join('');
-  var ingHtml = d.ingredients.map(function(i) { return '<span class="ing-chip">' + i + '</span>'; }).join('');
+  var tagsHtml = d.tags.length ? '<div class="detail-section-title">Dietary Tags</div><div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">' +
+    d.tags.map(function(t) {
+      var cls = t==='vegan'?'ctag-vegan':t==='vegetarian'?'ctag-vegetarian':'ctag-gluten';
+      return '<span class="ctag '+cls+'">'+t+'</span>';
+    }).join('') + '</div>' : '';
+  var ingHtml = d.ingredients.map(function(i){ return '<span class="ing-chip">'+i+'</span>'; }).join('');
+
+  // Positive affirmations — only show dimensions that clearly checked out
+  var affirmations = [];
+  if (d.core >= 25) affirmations.push('Core ingredients clearly named');
+  if (d.sauce >= 15) affirmations.push('Sauce and seasoning disclosed');
+  if (d.allergen >= 15) affirmations.push('Allergens clearly labeled');
+  if (d.prep >= 15) affirmations.push('Preparation method disclosed');
+
+  var affirmHtml = affirmations.length ?
+    '<div class="detail-dims">'+
+      '<div class="detail-dims-title">What This Restaurant Disclosed</div>'+
+      affirmations.map(function(a){ return '<div class="dim-text"><span class="dim-dot"></span>'+a+'</div>'; }).join('')+
+    '</div>' : '';
+
   document.getElementById('detail-content').innerHTML =
-    '<div class="detail-restaurant">' + d.restaurant + ' · ' + d.location + '</div>' +
-    '<div class="detail-name">' + d.name + '</div>' +
-    '<div class="detail-score-big ' + lk + '">' + d.score + '<span style="font-size:28px;color:#9A9488">/100</span></div>' +
-    '<div class="detail-level">' + levelLabel + '</div>' +
-    (d.score > 46 ? '<div class="detail-context">' + (d.score - 46) + ' points above the Birmingham average of 46</div>' : '') +
-    '<div class="detail-dims">' +
-      '<div class="dim-row"><span class="dim-label">Core Ingredient Clarity</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.core/25*100) + '%"></div></div><span class="dim-val">' + d.core + '</span></div>' +
-      '<div class="dim-row"><span class="dim-label">Sauce and Seasoning</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.sauce/25*100) + '%"></div></div><span class="dim-val">' + d.sauce + '</span></div>' +
-      '<div class="dim-row"><span class="dim-label">Allergen Transparency</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.allergen/25*100) + '%"></div></div><span class="dim-val">' + d.allergen + '</span></div>' +
-      '<div class="dim-row"><span class="dim-label">Prep Input Clarity</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.prep/25*100) + '%"></div></div><span class="dim-val">' + d.prep + '</span></div>' +
-    '</div>' +
-    (tagsHtml ? '<div class="detail-section-title">Dietary Tags</div><div class="detail-tags" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">' + tagsHtml + '</div>' : '') +
-    '<div class="detail-section-title">Allergens on Record</div>' +
-    '<div class="detail-allergens">' + d.allergens + '</div>' +
-    '<div class="detail-section-title">Ingredients on Record</div>' +
-    '<div class="detail-ingredients">' + ingHtml + '</div>' +
-    '<div class="detail-section-title">Scoring Notes</div>' +
-    '<div class="detail-allergens">' + d.notes + '</div>';
+    '<div class="detail-restaurant">'+d.restaurant+' · '+d.location+'</div>'+
+    '<div class="detail-name">'+d.name+'</div>'+
+    '<div class="detail-level-hero '+lk+'">'+levelLabel(lk)+'</div>'+
+    affirmHtml+
+    tagsHtml+
+    '<div class="detail-section-title">Allergens on Record</div>'+
+    '<div class="detail-allergens">'+d.allergens+'</div>'+
+    '<div class="detail-section-title">Ingredients on Record</div>'+
+    '<div class="detail-ingredients">'+ingHtml+'</div>'+
+    '<div class="detail-section-title">Transparency Notes</div>'+
+    '<div class="detail-allergens">'+d.notes+'</div>';
   document.getElementById('detail-panel').classList.add('open');
 }
 
@@ -435,6 +426,7 @@ function closeDetail() {
   document.getElementById('detail-panel').classList.remove('open');
 }
 </script>
+
 <div class="survey-overlay" id="survey-overlay">
   <button class="survey-dismiss" onclick="dismissSurvey()">x</button>
   <div class="survey-label">Quick Question</div>
@@ -451,97 +443,48 @@ function closeDetail() {
 <script>
 var surveyShown = false;
 var surveyDismissed = false;
-
-function showSurvey() {
-  if (!surveyShown && !surveyDismissed) {
-    surveyShown = true;
-    document.getElementById('survey-overlay').classList.add('visible');
-  }
-}
-
-function dismissSurvey() {
-  surveyDismissed = true;
-  document.getElementById('survey-overlay').classList.remove('visible');
-}
-
+function showSurvey() { if (!surveyShown && !surveyDismissed) { surveyShown = true; document.getElementById('survey-overlay').classList.add('visible'); } }
+function dismissSurvey() { surveyDismissed = true; document.getElementById('survey-overlay').classList.remove('visible'); }
 function selectSurvey(btn, answer) {
-  document.querySelectorAll('.survey-opt').forEach(function(b) { b.classList.remove('selected'); });
+  document.querySelectorAll('.survey-opt').forEach(function(b){ b.classList.remove('selected'); });
   btn.classList.add('selected');
   document.getElementById('survey-thanks').style.display = 'block';
-  if (typeof gtag !== 'undefined') {
-    gtag('event', 'survey_response', { event_category: 'Discover Survey', event_label: answer });
-  }
+  if (typeof gtag !== 'undefined') gtag('event','survey_response',{event_category:'Discover Survey',event_label:answer});
   setTimeout(dismissSurvey, 2800);
 }
-
 setTimeout(function() {
   var app = document.getElementById('app');
-  if (app && app.classList.contains('unlocked')) {
-    showSurvey();
-  } else {
+  if (app && app.classList.contains('unlocked')) { showSurvey(); }
+  else {
     var orig = window.checkPassword;
-    window.checkPassword = function() {
-      orig();
-      setTimeout(showSurvey, 30000);
-    };
+    window.checkPassword = function(){ orig(); setTimeout(showSurvey, 30000); };
   }
 }, 30000);
 </script>
-</body>
-</html>
+
 <script>
 (function(){
   var _sf = window.setFilter;
   window.setFilter = function(filterValue, btn){
-    if(typeof gtag !== 'undefined'){
-      gtag('event','filter_selected',{
-        filter_name: filterValue,
-        filter_state: (btn && btn.classList.contains('active')) ? 'deselected' : 'selected'
-      });
-    }
+    if(typeof gtag !== 'undefined') gtag('event','filter_selected',{filter_name:filterValue,filter_state:(btn&&btn.classList.contains('active'))?'deselected':'selected'});
     return _sf.apply(this, arguments);
   };
-
   var _od = window.openDetail;
   window.openDetail = function(id){
     if(typeof gtag !== 'undefined'){
-      var dishes = window.dishes || [];
-      var d = dishes.find(function(x){ return x.id === id; });
-      if(d){
-        gtag('event','dish_card_clicked',{
-          dish_name: d.name,
-          restaurant_name: d.restaurant,
-          dish_score: d.score,
-          transparency_level: d.score >= 85 ? 'high' : d.score >= 60 ? 'moderate' : 'building'
-        });
-      }
+      var d = (window.dishes||[]).find(function(x){ return x.id===id; });
+      if(d) gtag('event','dish_card_clicked',{dish_name:d.name,restaurant_name:d.restaurant,transparency_level:d.score>=85?'high':d.score>=60?'moderate':'building'});
     }
     return _od.apply(this, arguments);
   };
-
   window.addEventListener('load', function(){
-    var si = document.querySelector('input[type="text"], input[type="search"], #search, .search-input');
-    if(si){
-      var sb;
-      si.addEventListener('input', function(){
-        clearTimeout(sb);
-        var q = this.value.trim();
-        sb = setTimeout(function(){
-          if(q.length >= 2 && typeof gtag !== 'undefined'){
-            gtag('event','search_performed',{ search_term: q });
-          }
-        }, 800);
-      });
-    }
-
+    var si = document.querySelector('#search');
+    if(si){ var sb; si.addEventListener('input',function(){ clearTimeout(sb); var q=this.value.trim(); sb=setTimeout(function(){ if(q.length>=2&&typeof gtag!=='undefined') gtag('event','search_performed',{search_term:q}); },800); }); }
     var p = new URLSearchParams(window.location.search);
     var src = p.get('utm_source');
-    if(src && typeof gtag !== 'undefined'){
-      gtag('event','partner_referral_landed',{
-        partner_name: src,
-        referral_medium: p.get('utm_medium') || 'unknown'
-      });
-    }
+    if(src&&typeof gtag!=='undefined') gtag('event','partner_referral_landed',{partner_name:src,referral_medium:p.get('utm_medium')||'unknown'});
   });
 })();
 </script>
+</body>
+</html>
