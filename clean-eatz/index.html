@@ -1,3 +1,4 @@
+cat > ~/Documents/GitHub/Goldpan/clean-eatz/index.html << 'ENDOFFILE'
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Clean Eatz — Goldpan</title>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
-<style>
+  <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; background: #0A0A0A; }
     body { background: #0A0A0A; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-weight: 300; min-height: 100vh; }
@@ -22,349 +23,157 @@
     .gate-error { font-size: 12px; color: #C94C4C; margin-top: 10px; letter-spacing: 0.05em; position: relative; opacity: 0; transition: opacity 0.2s; }
     .gate-error.visible { opacity: 1; }
     .gate-note { font-size: 11px; color: #333333; margin-top: 48px; letter-spacing: 0.08em; position: relative; font-family: 'DM Mono', monospace; }
+    .gate-unofficial { font-size: 13px; color: #F5F2EC; margin-top: 16px; position: relative; }
     .app { display: none; }
     .app.unlocked { display: block; }
     nav { position: sticky; top: 0; z-index: 100; background: rgba(10,10,10,0.95); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(201,168,76,0.12); padding: 18px 48px; display: flex; align-items: center; justify-content: space-between; }
     .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 0.08em; color: #C9A84C; text-decoration: none; }
-    .nav-right { display: flex; gap: 24px; align-items: center; }
-    .nav-link { color: #9A9488; text-decoration: none; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
-    .nav-link:hover { color: #C9A84C; }
-    .nav-badge { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #0A0A0A; background: #C9A84C; padding: 4px 10px; }
-    @media (max-width: 768px) { nav { padding: 14px 20px; } }
-    .trust-hero { padding: 72px 48px 56px; border-bottom: 1px solid #1A1A1A; background: #0A0A0A; position: relative; overflow: hidden; }
-    .trust-hero-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(201,168,76,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,76,0.025) 1px, transparent 1px); background-size: 48px 48px; pointer-events: none; }
-    .trust-hero-glow { position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(201,168,76,0.07) 0%, transparent 70%); top: -100px; right: -150px; pointer-events: none; }
-    .trust-hero-inner { position: relative; z-index: 1; }
-    .trust-eyebrow { display: flex; align-items: center; gap: 16px; margin-bottom: 28px; flex-wrap: wrap; }
-    .trust-back { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #9A9488; text-decoration: none; transition: color 0.2s; }
-    .trust-back:hover { color: #C9A84C; }
-    .trust-sep { width: 1px; height: 14px; background: #222222; }
-    .trust-city { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #9A9488; }
-    .trust-layout { display: grid; grid-template-columns: 1fr 380px; gap: 80px; align-items: start; }
-    .trust-name { font-family: 'Bebas Neue', sans-serif; font-size: clamp(52px, 8vw, 104px); line-height: 0.93; letter-spacing: 0.02em; color: #F5F2EC; margin-bottom: 20px; }
-    .trust-statement { font-size: 17px; color: #9A9488; line-height: 1.7; max-width: 560px; margin-bottom: 32px; }
-    .trust-badges { display: flex; gap: 10px; flex-wrap: wrap; }
-    .trust-badge { display: flex; align-items: center; gap: 8px; padding: 8px 16px; }
-    .trust-badge.primary { background: rgba(201,168,76,0.08); border: 1px solid rgba(201,168,76,0.3); }
-    .trust-badge.secondary { background: #111111; border: 1px solid #1A1A1A; }
-    .trust-badge-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
-    .trust-badge.primary .trust-badge-dot { background: #C9A84C; }
-    .trust-badge.secondary .trust-badge-dot { background: #9A9488; }
-    .trust-badge-text { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; }
-    .trust-badge.primary .trust-badge-text { color: #C9A84C; }
-    .trust-badge.secondary .trust-badge-text { color: #9A9488; }
-    .trust-scorecard { background: #111111; border: 1px solid #1A1A1A; padding: 36px; }
-    .trust-scorecard-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; margin-bottom: 24px; }
-    .trust-score-main { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
-    .trust-score-num { font-family: 'Bebas Neue', sans-serif; font-size: 80px; color: #C9A84C; line-height: 1; }
-    .trust-score-denom { font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: #9A9488; }
-    .trust-score-label { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #9A9488; margin-bottom: 6px; }
-    .trust-score-context { font-size: 13px; color: #4CAF76; font-style: italic; margin-bottom: 24px; }
-    .trust-score-dims { display: flex; flex-direction: column; gap: 10px; }
-    .trust-dim { display: flex; align-items: center; gap: 10px; }
-    .trust-dim-label { font-size: 11px; color: #9A9488; flex: 1; }
-    .trust-dim-bar { width: 60px; height: 2px; background: #222222; overflow: hidden; }
-    .trust-dim-fill { height: 100%; background: #C9A84C; }
-    .trust-dim-val { font-family: 'DM Mono', monospace; font-size: 11px; color: #C9A84C; width: 24px; text-align: right; }
-    @media (max-width: 900px) { .trust-layout { grid-template-columns: 1fr; gap: 48px; } .trust-hero { padding: 48px 20px 40px; } }
-    .voice-section { background: #111111; border-bottom: 1px solid #1A1A1A; padding: 64px 48px; }
-    .voice-inner { max-width: 760px; }
-    .section-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 20px; }
-    .voice-quote { font-family: 'Bebas Neue', sans-serif; font-size: clamp(24px, 3vw, 36px); line-height: 1.1; letter-spacing: 0.02em; color: #F5F2EC; margin-bottom: 28px; position: relative; padding-left: 28px; }
-    .voice-quote::before { content: '"'; position: absolute; left: 0; top: -6px; font-size: 64px; color: rgba(201,168,76,0.2); line-height: 1; font-family: 'Bebas Neue', sans-serif; }
-    .voice-attr { display: flex; align-items: center; gap: 14px; padding-left: 28px; }
-    .voice-line { width: 28px; height: 1px; background: #C9A84C; flex-shrink: 0; }
-    .voice-name { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; }
-    .voice-title { font-size: 12px; color: #9A9488; margin-top: 3px; }
-    @media (max-width: 768px) { .voice-section { padding: 48px 20px; } }
-    .allergen-section { background: #0A0A0A; border-bottom: 1px solid #1A1A1A; padding: 48px; }
-    .allergen-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(28px, 3.5vw, 44px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 8px; }
-    .allergen-sub { font-size: 14px; color: #9A9488; max-width: 560px; line-height: 1.65; margin-bottom: 36px; }
-    .allergen-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-bottom: 24px; }
-    .allergen-card { background: #111111; padding: 24px 28px; }
-    .allergen-card-name { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; margin-bottom: 12px; }
-    .allergen-card-dishes { display: flex; flex-direction: column; gap: 6px; }
-    .allergen-dish-row { display: flex; justify-content: space-between; align-items: center; }
-    .allergen-dish-name { font-size: 12px; color: #9A9488; }
-    .allergen-status { font-size: 10px; font-family: 'DM Mono', monospace; letter-spacing: 0.08em; }
-    .allergen-status.present { color: #C94C4C; }
-    .allergen-status.absent { color: #4CAF76; }
-    .allergen-status.varies { color: #C9A84C; }
-    .allergen-note { background: #111111; border: 1px solid rgba(201,168,76,0.2); padding: 20px 24px; font-size: 13px; color: #9A9488; line-height: 1.65; max-width: 680px; }
-    .allergen-note strong { color: #F5F2EC; font-weight: 500; }
-    @media (max-width: 768px) { .allergen-section { padding: 32px 20px; } .allergen-grid { grid-template-columns: 1fr; } }
-    .claims-section { padding: 48px; border-bottom: 1px solid #1A1A1A; background: #111111; }
-    .claims-grid { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px; }
-    .claim-chip { display: flex; align-items: center; gap: 8px; background: #1A1A1A; border: 1px solid #222222; padding: 10px 16px; transition: border-color 0.2s; }
-    .claim-chip:hover { border-color: #8B6F2E; }
-    .claim-chip-dot { width: 4px; height: 4px; background: #C9A84C; border-radius: 50%; flex-shrink: 0; }
-    .claim-chip-text { font-size: 13px; color: #9A9488; }
-    @media (max-width: 768px) { .claims-section { padding: 32px 20px; } }
-    .strengths-section { padding: 48px; border-bottom: 1px solid #1A1A1A; background: #0A0A0A; }
-    .strengths-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; margin-top: 8px; }
-    .strength-card { background: #111111; padding: 28px; }
-    .strength-num { font-family: 'Bebas Neue', sans-serif; font-size: 36px; color: rgba(201,168,76,0.15); line-height: 1; margin-bottom: 8px; }
-    .strength-title { font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 8px; }
-    .strength-text { font-size: 13px; color: #9A9488; line-height: 1.6; }
-    @media (max-width: 768px) { .strengths-section { padding: 32px 20px; } .strengths-grid { grid-template-columns: 1fr; } }
-    .confirmation-section { padding: 48px; border-bottom: 1px solid #1A1A1A; background: #111111; }
-    .confirmation-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
-    .confirmation-col { padding: 32px; }
-    .confirmation-col.current { background: #0A0A0A; }
-    .confirmation-col.after { background: #0F1A0F; border: 1px solid rgba(76,175,118,0.15); }
-    .confirmation-col-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 16px; }
-    .confirmation-col.current .confirmation-col-label { color: #9A9488; }
-    .confirmation-col.after .confirmation-col-label { color: #4CAF76; }
-    .confirmation-col-title { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; margin-bottom: 16px; }
-    .confirmation-col.current .confirmation-col-title { color: #9A9488; }
-    .confirmation-col.after .confirmation-col-title { color: #4CAF76; }
-    .confirmation-items { display: flex; flex-direction: column; gap: 10px; }
-    .confirmation-item { display: flex; align-items: flex-start; gap: 10px; font-size: 13px; color: #9A9488; line-height: 1.5; }
-    .confirmation-item-dot { width: 4px; height: 4px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
-    .confirmation-col.current .confirmation-item-dot { background: #333333; }
-    .confirmation-col.after .confirmation-item-dot { background: #4CAF76; }
-    @media (max-width: 768px) { .confirmation-section { padding: 32px 20px; } .confirmation-inner { grid-template-columns: 1fr; } }
-    .menu-section { padding: 48px; background: #0A0A0A; }
-    .menu-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px; flex-wrap: wrap; gap: 16px; }
-    .menu-filters { display: flex; gap: 8px; flex-wrap: wrap; }
-    .mfbtn { padding: 8px 16px; border: 1px solid #222222; background: transparent; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: all 0.2s; }
-    .mfbtn:hover { border-color: #C9A84C; color: #C9A84C; }
-    .mfbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; }
-    .menu-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2px; }
-    .dish-card { background: #111111; border: 1px solid #1A1A1A; padding: 28px; cursor: pointer; transition: all 0.2s; }
-    .dish-card:hover { border-color: #8B6F2E; background: #131313; }
+    .nav-links { display: flex; gap: 28px; align-items: center; }
+    .nav-links a { color: #9A9488; text-decoration: none; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: #C9A84C; }
+    @media (max-width: 768px) { nav { padding: 14px 20px; } .nav-links { display: none; } }
+    .hero { padding: 60px 48px 48px; border-bottom: 1px solid #1A1A1A; position: relative; overflow: hidden; }
+    .hero-glow { position: absolute; width: 600px; height: 400px; background: radial-gradient(ellipse, rgba(201,168,76,0.07) 0%, transparent 70%); top: 0; right: -100px; pointer-events: none; }
+    .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+    .founding-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(201,168,76,0.1); border: 1px solid #C9A84C; padding: 6px 16px; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; }
+    .confirmed-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(46,125,50,0.1); border: 1px solid #4CAF76; padding: 6px 16px; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #4CAF76; }
+    .hero-name { font-family: 'Bebas Neue', sans-serif; font-size: clamp(48px, 7vw, 96px); line-height: 0.95; letter-spacing: 0.02em; color: #F5F2EC; margin-bottom: 12px; }
+    .hero-location { font-family: 'DM Mono', monospace; font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; margin-bottom: 20px; }
+    .hero-description { font-size: 16px; line-height: 1.7; color: #9A9488; max-width: 600px; margin-bottom: 32px; }
+    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 40px; }
+    .btn-primary { background: #C9A84C; color: #0A0A0A; border: none; padding: 14px 32px; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.06em; cursor: pointer; transition: background 0.2s; text-decoration: none; display: inline-block; text-transform: uppercase; }
+    .btn-primary:hover { background: #E8C97A; }
+    .btn-outline { display: inline-block; border: 1px solid #C9A84C; color: #C9A84C; padding: 13px 30px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: background 0.2s, color 0.2s; }
+    .btn-outline:hover { background: #C9A84C; color: #0A0A0A; }
+    .disclaimer { font-size: 11px; color: #333333; font-family: 'DM Mono', monospace; letter-spacing: 0.05em; line-height: 1.6; max-width: 600px; padding-top: 20px; border-top: 1px solid #1A1A1A; }
+    @media (max-width: 768px) { .hero { padding: 40px 20px 36px; } }
+    .transparency-section { padding: 60px 48px; border-bottom: 1px solid #1A1A1A; background: #111111; }
+    .section-label { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 20px; }
+    .transparency-level { font-family: 'Bebas Neue', sans-serif; font-size: clamp(36px, 5vw, 64px); line-height: 1; color: #C9A84C; margin-bottom: 8px; }
+    .transparency-sub { font-size: 14px; color: #9A9488; margin-bottom: 32px; }
+    .disclosure-list { display: flex; flex-direction: column; gap: 12px; }
+    .disclosure-item { display: flex; align-items: flex-start; gap: 12px; }
+    .disclosure-dot { width: 6px; height: 6px; background: #C9A84C; border-radius: 50%; margin-top: 7px; flex-shrink: 0; }
+    .disclosure-text { font-size: 14px; color: #F5F2EC; line-height: 1.6; }
+    @media (max-width: 768px) { .transparency-section { padding: 40px 20px; } }
+    .dishes-section { padding: 60px 48px; border-bottom: 1px solid #1A1A1A; }
+    .dishes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 32px; }
+    .dish-card { background: #111111; border: 1px solid #1A1A1A; padding: 28px; cursor: pointer; transition: border-color 0.2s; }
+    .dish-card:hover { border-color: #8B6F2E; }
     .dish-card.selected { border-color: #C9A84C; }
-    .dish-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
-    .dish-name { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #F5F2EC; line-height: 1.1; max-width: 180px; }
-    .dish-score-badge { text-align: right; flex-shrink: 0; }
-    .dish-score-num { font-family: 'Bebas Neue', sans-serif; font-size: 36px; line-height: 1; color: #C9A84C; }
-    .dish-score-denom { font-family: 'DM Mono', monospace; font-size: 10px; color: #9A9488; }
-    .dish-level { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #C9A84C; margin-bottom: 12px; }
-    .dish-bar { height: 2px; background: #1A1A1A; margin-bottom: 14px; overflow: hidden; }
+    .dish-name { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 12px; line-height: 1.1; }
+    .dish-level { font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 8px; }
+    .dish-bar { height: 3px; background: #222222; margin-bottom: 12px; overflow: hidden; }
     .dish-bar-fill { height: 100%; background: #C9A84C; }
-    .dish-allergens { font-size: 12px; color: #9A9488; margin-bottom: 10px; line-height: 1.5; }
-    .dish-tags { display: flex; flex-wrap: wrap; gap: 5px; }
-    .dish-tag { font-size: 10px; padding: 3px 8px; border: 1px solid #378ADD; color: #378ADD; }
-    @media (max-width: 768px) { .menu-section { padding: 32px 20px; } .menu-grid { grid-template-columns: 1fr; } }
-    .detail-panel { position: fixed; right: 0; top: 0; bottom: 0; width: 440px; background: #0A0A0A; border-left: 1px solid #1A1A1A; overflow-y: auto; transform: translateX(100%); transition: transform 0.3s; z-index: 200; padding: 36px; }
+    .dish-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+    .ctag { font-size: 10px; padding: 3px 8px; border: 1px solid; border-radius: 2px; }
+    .ctag-gluten { border-color: #378ADD; color: #378ADD; }
+    @media (max-width: 768px) { .dishes-section { padding: 40px 20px; } }
+    .detail-panel { position: fixed; right: 0; top: 0; bottom: 0; width: 420px; background: #0A0A0A; border-left: 1px solid #1A1A1A; overflow-y: auto; transform: translateX(100%); transition: transform 0.3s; z-index: 200; padding: 32px; }
     .detail-panel.open { transform: translateX(0); }
     @media (max-width: 768px) { .detail-panel { width: 100%; } }
-    .detail-close { position: absolute; top: 20px; right: 20px; font-size: 18px; cursor: pointer; color: #9A9488; background: none; border: none; }
+    .detail-close { position: absolute; top: 20px; right: 20px; font-size: 20px; cursor: pointer; color: #9A9488; background: none; border: none; }
     .detail-close:hover { color: #F5F2EC; }
-    .detail-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; margin-bottom: 6px; margin-top: 20px; }
-    .detail-name { font-family: 'Bebas Neue', sans-serif; font-size: 32px; letter-spacing: 0.04em; margin-bottom: 24px; line-height: 1.1; }
-    .detail-score-big { font-family: 'Bebas Neue', sans-serif; font-size: 72px; line-height: 1; color: #C9A84C; margin-bottom: 4px; }
-    .detail-level { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #9A9488; margin-bottom: 6px; }
-    .detail-context { font-size: 13px; color: #4CAF76; font-style: italic; margin-bottom: 24px; }
-    .detail-dims { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; padding: 20px; background: #111111; border: 1px solid #1A1A1A; }
-    .dim-row { display: flex; align-items: center; gap: 10px; }
-    .dim-label { font-size: 11px; color: #9A9488; flex: 1; }
-    .dim-bar { width: 80px; height: 3px; background: #222222; overflow: hidden; }
-    .dim-fill { height: 100%; background: #C9A84C; }
-    .dim-val { font-family: 'DM Mono', monospace; font-size: 11px; color: #C9A84C; width: 30px; text-align: right; }
+    .detail-dish-name { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.04em; margin-bottom: 8px; margin-top: 20px; line-height: 1.1; }
+    .detail-level { font-family: 'Bebas Neue', sans-serif; font-size: 24px; color: #C9A84C; margin-bottom: 20px; }
+    .detail-disclosed { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; padding: 20px; background: #111111; border: 1px solid #1A1A1A; }
+    .detail-disclosed-title { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #9A9488; margin-bottom: 6px; }
+    .disclosed-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #9A9488; padding: 6px 0; border-bottom: 1px solid #1A1A1A; }
+    .disclosed-item:last-child { border-bottom: none; }
+    .disclosed-dot { width: 5px; height: 5px; background: #C9A84C; border-radius: 50%; flex-shrink: 0; }
     .detail-section-title { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #9A9488; margin-bottom: 10px; }
-    .detail-box { font-size: 12px; color: #9A9488; padding: 12px 16px; background: #111111; border: 1px solid #1A1A1A; margin-bottom: 20px; line-height: 1.6; }
+    .detail-allergens { font-size: 12px; color: #9A9488; padding: 12px 16px; background: #111111; border: 1px solid #1A1A1A; margin-bottom: 20px; line-height: 1.6; }
     .detail-ingredients { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
     .ing-chip { font-size: 11px; padding: 4px 10px; background: #1A1A1A; color: #9A9488; border: 1px solid #222222; }
-    .confidence-bar { background: #111111; border: 1px solid #1A1A1A; padding: 20px; margin-bottom: 20px; }
-    .confidence-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; margin-bottom: 12px; }
-    .confidence-meter { height: 4px; background: #1A1A1A; overflow: hidden; margin-bottom: 8px; }
-    .confidence-fill { height: 100%; background: linear-gradient(90deg, #C9A84C, #4CAF76); }
-    .confidence-text { font-size: 12px; color: #9A9488; }
-    .profile-footer { border-top: 1px solid #1A1A1A; padding: 32px 48px; display: flex; justify-content: space-between; align-items: center; background: #0A0A0A; }
+    .perks-section { padding: 60px 48px; background: #111111; border-bottom: 1px solid #1A1A1A; }
+    .perks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 4px; margin-top: 32px; }
+    .perk-card { background: #1A1A1A; border-left: 3px solid #C9A84C; padding: 24px; }
+    .perk-title { font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 8px; }
+    .perk-text { font-size: 12px; color: #9A9488; line-height: 1.6; }
+    @media (max-width: 768px) { .perks-section { padding: 40px 20px; } }
+    footer { border-top: 1px solid #1A1A1A; padding: 36px 48px; display: flex; justify-content: space-between; align-items: center; background: #0A0A0A; flex-wrap: wrap; gap: 16px; }
     .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 0.1em; color: #C9A84C; }
-    .footer-copy { font-size: 11px; color: #9A9488; letter-spacing: 0.05em; }
-    @media (max-width: 768px) { .profile-footer { flex-direction: column; gap: 16px; text-align: center; padding: 28px 20px; } }
+    .footer-copy { font-size: 11px; color: #9A9488; }
+    @media (max-width: 768px) { footer { padding: 28px 20px; flex-direction: column; text-align: center; } }
   </style>
-  <script src="/consent.js" defer></script>
 </head>
 <body>
 <div class="gate" id="gate">
   <div class="gate-grid"></div>
   <div class="gate-logo">Goldpan</div>
-  <div class="gate-tag">Restaurant Profile</div>
+  <div class="gate-tag">Restaurant Demo</div>
   <div class="gate-label">Enter Access Password</div>
   <input class="gate-input" id="gate-input" type="password" placeholder="password" onkeydown="if(event.key==='Enter')checkPassword()" />
   <button class="gate-btn" onclick="checkPassword()">Enter</button>
   <div class="gate-error" id="gate-error">Incorrect password. Try again.</div>
   <div class="gate-note">goldpanapp.com</div>
+  <div class="gate-unofficial">You are accessing an unofficial build of Goldpan.</div>
 </div>
 <div class="app" id="app">
   <nav>
     <a href="https://goldpanapp.com" class="nav-logo">Goldpan</a>
-    <div class="nav-right">
-      <a href="https://goldpanapp.com/discover" class="nav-link">All Restaurants</a>
-      <span class="nav-badge">Founding Partner</span>
+    <div class="nav-links">
+      <a href="https://goldpanapp.com">Home</a>
+      <a href="https://goldpanapp.com/discover">Discover</a>
+      <a href="https://goldpanapp.com/partners">Partners</a>
     </div>
   </nav>
-  <section class="trust-hero">
-    <div class="trust-hero-grid"></div>
-    <div class="trust-hero-glow"></div>
-    <div class="trust-hero-inner">
-      <div class="trust-eyebrow">
-        <a href="https://goldpanapp.com/discover" class="trust-back">← All Restaurants</a>
-        <div class="trust-sep"></div>
-        <span class="trust-city">Hoover, AL</span>
-      </div>
-      <div class="trust-layout">
-        <div>
-          <h1 class="trust-name">Clean Eatz</h1>
-          <p class="trust-statement">Real food. Zero guesswork. Clean Eatz built their entire concept around the idea that eating better should not be this hard. Every sauce documented. Every protein option mapped. A menu designed for real life: high protein, gluten-free, GLP-1 support, or just fewer decisions at the end of a long day.</p>
-          <div class="trust-badges">
-            <div class="trust-badge primary"><div class="trust-badge-dot"></div><span class="trust-badge-text">Goldpan Founding Partner</span></div>
-            <div class="trust-badge secondary"><div class="trust-badge-dot"></div><span class="trust-badge-text">5 Dishes Scored</span></div>
-            <div class="trust-badge secondary"><div class="trust-badge-dot"></div><span class="trust-badge-text">Allergens Disclosed on All Sauces</span></div>
-          </div>
-        </div>
-        <div class="trust-scorecard">
-          <div class="trust-scorecard-label">Transparency at a Glance</div>
-          <div class="trust-score-main"><div class="trust-score-num">70</div><div class="trust-score-denom">/100</div></div>
-          <div class="trust-score-label">Top Dish Score</div>
-          <div class="trust-score-context">17 points above the Birmingham average of 46</div>
-          <div class="trust-score-dims">
-            <div class="trust-dim"><span class="trust-dim-label">Core Ingredient Clarity</span><div class="trust-dim-bar"><div class="trust-dim-fill" style="width:100%"></div></div><span class="trust-dim-val">25</span></div>
-            <div class="trust-dim"><span class="trust-dim-label">Sauce Disclosure</span><div class="trust-dim-bar"><div class="trust-dim-fill" style="width:100%"></div></div><span class="trust-dim-val">25</span></div>
-            <div class="trust-dim"><span class="trust-dim-label">Allergen Transparency</span><div class="trust-dim-bar"><div class="trust-dim-fill" style="width:60%"></div></div><span class="trust-dim-val">15</span></div>
-            <div class="trust-dim"><span class="trust-dim-label">Prep Input Clarity</span><div class="trust-dim-bar"><div class="trust-dim-fill" style="width:20%"></div></div><span class="trust-dim-val">5</span></div>
-          </div>
-        </div>
-      </div>
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="badges">
+      <span class="founding-badge">Founding Partner 05</span>
+      <span class="confirmed-badge">Goldpan Confirmed</span>
+    </div>
+    <h1 class="hero-name">Clean Eatz</h1>
+    <div class="hero-location">Hoover, Alabama</div>
+    <p class="hero-description">Clean Eatz Hoover joined Goldpan as a confirmed founding partner. A health-conscious cafe committed to clean ingredients, portion-controlled meals, and clear communication about what is in the food. Every dish scored and mapped.</p>
+    <div class="hero-actions">
+      <a href="https://cleaneatz.com/order-online?store-code=80" target="_blank" class="btn-primary">Order Online</a>
+      <a href="https://goldpanapp.com/discover" class="btn-outline">Find More Restaurants</a>
+    </div>
+    <p class="disclaimer">All claims on this page are made by the restaurant directly. Goldpan surfaces what restaurants disclose. Goldpan does not independently verify claims or warrant their accuracy. Goldpan makes no representations about health outcomes or dietary recommendations.</p>
+  </section>
+  <section class="transparency-section">
+    <p class="section-label">Transparency Profile</p>
+    <div class="transparency-level">Moderate Transparency</div>
+    <p class="transparency-sub">Clean Eatz communicates clearly about what is in their food. Here is what they disclose.</p>
+    <div class="disclosure-list">
+      <div class="disclosure-item"><div class="disclosure-dot"></div><div class="disclosure-text">Core ingredients named for all dishes</div></div>
+      <div class="disclosure-item"><div class="disclosure-dot"></div><div class="disclosure-text">Sauce allergens disclosed on multiple dishes</div></div>
+      <div class="disclosure-item"><div class="disclosure-dot"></div><div class="disclosure-text">All sauce options listed with allergen information on Nugget Dinner</div></div>
+      <div class="disclosure-item"><div class="disclosure-dot"></div><div class="disclosure-text">All protein options listed with allergen information on Bunless</div></div>
+      <div class="disclosure-item"><div class="disclosure-dot"></div><div class="disclosure-text">Gluten-free options clearly identified</div></div>
+      <div class="disclosure-item"><div class="disclosure-dot"></div><div class="disclosure-text">Whole wheat and flatbread bases named per dish</div></div>
     </div>
   </section>
-  <section class="voice-section">
-    <div class="section-label">In Their Own Words</div>
-    <div class="voice-inner">
-      <div class="voice-quote">The way Goldpan highlights the hard work that goes into every dish at our establishment — we love the solution this brings to the entire community and we are fully on board.</div>
-      <div class="voice-attr">
-        <div class="voice-line"></div>
-        <div>
-          <div class="voice-name">Katie Lee, Owner</div>
-          <div class="voice-title">Clean Eatz · Hoover, AL</div>
-        </div>
-      </div>
+  <section class="dishes-section">
+    <p class="section-label">Scored Dishes</p>
+    <h2 style="font-family:'Bebas Neue',sans-serif;font-size:clamp(32px,4vw,52px);letter-spacing:0.02em;margin-bottom:8px;">5 Dishes on Record</h2>
+    <p style="font-size:14px;color:#9A9488;margin-bottom:8px;">Every dish scored across four dimensions. Click any dish for full detail.</p>
+    <p style="font-size:11px;color:#333333;font-family:'DM Mono',monospace;letter-spacing:0.05em;">Scores reflect information disclosed by the restaurant and publicly available menu data.</p>
+    <div class="dishes-grid" id="dishes-grid"></div>
+  </section>
+  <section class="perks-section">
+    <p class="section-label">Why Clean Eatz</p>
+    <h2 style="font-family:'Bebas Neue',sans-serif;font-size:clamp(32px,4vw,52px);letter-spacing:0.02em;margin-bottom:8px;">What Makes This Restaurant Stand Out</h2>
+    <div class="perks-grid">
+      <div class="perk-card"><div class="perk-title">Founding Partner</div><div class="perk-text">One of five confirmed founding partners on Goldpan. Committed to transparency from day one of the platform.</div></div>
+      <div class="perk-card"><div class="perk-title">Allergen Disclosure</div><div class="perk-text">Sauce allergens disclosed across multiple dishes. Diners know what is in their food before they order.</div></div>
+      <div class="perk-card"><div class="perk-title">Gluten Free Options</div><div class="perk-text">Gluten-free chicken clearly identified. Diners with gluten restrictions can find compatible dishes quickly.</div></div>
+      <div class="perk-card"><div class="perk-title">Full Menu Mapped</div><div class="perk-text">Every dish broken down ingredient by ingredient. Goldpan surfaces what Clean Eatz already shares.</div></div>
+      <div class="perk-card"><div class="perk-title">Confirmation Path</div><div class="perk-text">Score rises further upon full ingredient confirmation. Goldpan Verified status coming.</div></div>
+      <div class="perk-card"><div class="perk-title">Priority Placement</div><div class="perk-text">Appears first in all Goldpan search results and filters. Always.</div></div>
     </div>
   </section>
-  <section class="allergen-section">
-    <div class="section-label">Full Menu Allergen Overview</div>
-    <h2 class="allergen-headline">Know Before You Order.</h2>
-    <p class="allergen-sub">Every dish at Clean Eatz mapped by allergen across the full menu. This is the picture you cannot get anywhere else.</p>
-    <div class="allergen-grid">
-      <div class="allergen-card">
-        <div class="allergen-card-name">Wheat</div>
-        <div class="allergen-card-dishes">
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Philly</span><span class="allergen-status present">Present</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Big Boy 2.0</span><span class="allergen-status present">Present</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">The Arnold</span><span class="allergen-status present">Present</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Nugget Dinner</span><span class="allergen-status absent">Absent</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Bunless</span><span class="allergen-status varies">Varies</span></div>
-        </div>
-      </div>
-      <div class="allergen-card">
-        <div class="allergen-card-name">Dairy</div>
-        <div class="allergen-card-dishes">
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Philly</span><span class="allergen-status present">Present</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Big Boy 2.0</span><span class="allergen-status present">Present</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">The Arnold</span><span class="allergen-status present">Present</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Nugget Dinner</span><span class="allergen-status varies">By Sauce</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Bunless</span><span class="allergen-status present">Present</span></div>
-        </div>
-      </div>
-      <div class="allergen-card">
-        <div class="allergen-card-name">Egg</div>
-        <div class="allergen-card-dishes">
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Philly</span><span class="allergen-status present">Present</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Big Boy 2.0</span><span class="allergen-status absent">Absent</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">The Arnold</span><span class="allergen-status present">Present</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Nugget Dinner</span><span class="allergen-status varies">By Sauce</span></div>
-          <div class="allergen-dish-row"><span class="allergen-dish-name">Bunless</span><span class="allergen-status present">Present</span></div>
-        </div>
-      </div>
-    </div>
-    <div class="allergen-note"><strong>Why this matters.</strong> Clean Eatz built their brand around zero guesswork. The allergen overview is that promise made visible. Every sauce documented. Every protein option mapped. Diners with serious allergies, intolerances, or dietary needs can see the full picture before they order.</div>
-  </section>
-  <section class="claims-section">
-    <div class="section-label">Restaurant Claims</div>
-    <div class="claims-grid">
-      <div class="claim-chip"><div class="claim-chip-dot"></div><span class="claim-chip-text">Allergens disclosed on all signature sauces</span></div>
-      <div class="claim-chip"><div class="claim-chip-dot"></div><span class="claim-chip-text">Gluten-free protein options available</span></div>
-      <div class="claim-chip"><div class="claim-chip-dot"></div><span class="claim-chip-text">Macro-conscious menu design</span></div>
-      <div class="claim-chip"><div class="claim-chip-dot"></div><span class="claim-chip-text">Clean ingredient sourcing</span></div>
-      <div class="claim-chip"><div class="claim-chip-dot"></div><span class="claim-chip-text">Multiple protein selections per dish</span></div>
-      <div class="claim-chip"><div class="claim-chip-dot"></div><span class="claim-chip-text">Health-focused preparation</span></div>
-      <div class="claim-chip"><div class="claim-chip-dot"></div><span class="claim-chip-text">GLP-1 friendly options available</span></div>
-      <div class="claim-chip"><div class="claim-chip-dot"></div><span class="claim-chip-text">Macro-tracked meal options</span></div>
-      <div class="claim-chip"><div class="claim-chip-dot"></div><span class="claim-chip-text">Recyclable packaging and sustainable shipping</span></div>
-    </div>
-  </section>
-  <section class="strengths-section">
-    <div class="section-label">What They Do Well</div>
-    <div class="strengths-grid">
-      <div class="strength-card">
-        <div class="strength-num">01</div>
-        <div class="strength-title">Sauce Transparency</div>
-        <div class="strength-text">Clean Eatz documents allergens on every signature sauce. Wheat, dairy, soy all on record. A concept built around zero guesswork starts here.</div>
-      </div>
-      <div class="strength-card">
-        <div class="strength-num">02</div>
-        <div class="strength-title">Protein Flexibility</div>
-        <div class="strength-text">Nine protein options on the Bunless. Ten sauce choices on the Nugget Dinner. Each one documented with allergen information. Clean Eatz built a menu for diners who need to customize and made sure that customization actually meant something.</div>
-      </div>
-      <div class="strength-card">
-        <div class="strength-num">03</div>
-        <div class="strength-title">Gluten-Free Options</div>
-        <div class="strength-text">Gluten-free chicken is a named, confirmed option. For diners managing celiac or gluten sensitivity, that distinction matters.</div>
-      </div>
-      <div class="strength-card">
-        <div class="strength-num">04</div>
-        <div class="strength-title">Sustainable Practices</div>
-        <div class="strength-text">Clean Eatz documents their sustainability practices openly: recyclable packaging, responsible shipping, a commitment to reducing waste. Transparency about what is in the food and how it gets to you.</div>
-      </div>
-    </div>
-  </section>
-  <section class="confirmation-section">
-    <div class="section-label">Transparency Status</div>
-    <div class="confirmation-inner">
-      <div class="confirmation-col current">
-        <div class="confirmation-col-label">Current — Scored</div>
-        <div class="confirmation-col-title">Based on Public Menu Data</div>
-        <div class="confirmation-items">
-          <div class="confirmation-item"><div class="confirmation-item-dot"></div>Dishes scored from publicly available menu information</div>
-          <div class="confirmation-item"><div class="confirmation-item-dot"></div>Allergen data sourced from documented sauce disclosures</div>
-          <div class="confirmation-item"><div class="confirmation-item-dot"></div>Scores reflect what is currently visible to any diner</div>
-          <div class="confirmation-item"><div class="confirmation-item-dot"></div>Confirmation process not yet complete</div>
-        </div>
-      </div>
-      <div class="confirmation-col after">
-        <div class="confirmation-col-label">After Confirmation</div>
-        <div class="confirmation-col-title">Goldpan Verified</div>
-        <div class="confirmation-items">
-          <div class="confirmation-item"><div class="confirmation-item-dot"></div>Restaurant directly confirms every ingredient on record</div>
-          <div class="confirmation-item"><div class="confirmation-item-dot"></div>Scores increase to reflect confirmed data</div>
-          <div class="confirmation-item"><div class="confirmation-item-dot"></div>Goldpan Verified badge applied to the profile</div>
-          <div class="confirmation-item"><div class="confirmation-item-dot"></div>Priority placement across all Goldpan results</div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="menu-section">
-    <div class="menu-header">
-      <div class="section-label" style="margin-bottom:0;">Scored Dishes</div>
-      <div class="menu-filters">
-        <button class="mfbtn active" id="mf-all" onclick="menuFilter('all', this)">All</button>
-        <button class="mfbtn" onclick="menuFilter('gluten-free', this)">Gluten Free</button>
-        <button class="mfbtn" onclick="menuFilter('high-score', this)">Score 60+</button>
-      </div>
-    </div>
-    <div class="menu-grid" id="menu-grid"></div>
-  </section>
+  <footer>
+    <div class="footer-logo">Goldpan</div>
+    <p class="footer-copy">2026 Goldpan. Birmingham, AL.</p>
+    <a href="https://goldpanapp.com/partners" style="font-size:11px;color:#C9A84C;text-decoration:none;letter-spacing:0.08em;">Become a Partner</a>
+  </footer>
   <div class="detail-panel" id="detail-panel">
     <button class="detail-close" onclick="closeDetail()">x</button>
     <div id="detail-content"></div>
   </div>
-  <footer class="profile-footer">
-    <div class="footer-logo">Goldpan</div>
-    <p class="footer-copy">2026 Goldpan. Birmingham, AL. goldpanapp.com</p>
-  </footer>
 </div>
 <script>
 function checkPassword() {
@@ -374,77 +183,60 @@ function checkPassword() {
   if (val === 'staygold') {
     document.getElementById('gate').style.display = 'none';
     document.getElementById('app').classList.add('unlocked');
-    renderMenu();
+    renderDishes();
   } else {
     input.classList.add('error');
     err.classList.add('visible');
-    setTimeout(function() { input.classList.remove('error'); err.classList.remove('visible'); input.value = ''; }, 2000);
+    setTimeout(function() {
+      input.classList.remove('error');
+      err.classList.remove('visible');
+      input.value = '';
+    }, 2000);
   }
 }
 var dishes = [
-  { id:'CE001', name:'Philly', score:60, level:'moderate', tags:[], allergens:'Wheat, Dairy, Egg', notes:'CE Chipotle Ranch allergens fully disclosed. Flatbread base confirmed. Clean ingredient list with no hidden components.', core:25, sauce:15, allergen:15, prep:5, ingredients:['Steak','Peppers','Onions','Mozzarella','CE Chipotle Ranch','Flatbread'], confidence:72 },
-  { id:'CE002', name:'Big Boy 2.0', score:60, level:'moderate', tags:[], allergens:'Wheat, Dairy, Soy', notes:'CE Sweet Chili allergens disclosed. Whole wheat wrap named. Grilled protein method confirmed.', core:25, sauce:15, allergen:15, prep:5, ingredients:['Grilled Chicken','Mozzarella','Lettuce','Tomato','CE Sweet Chili Sauce','Whole Wheat Wrap'], confidence:70 },
-  { id:'CE003', name:'The Arnold', score:60, level:'moderate', tags:[], allergens:'Wheat, Dairy, Egg', notes:'CE Buffalo allergens disclosed. Whole wheat wrap named. Strong sauce transparency across the board.', core:25, sauce:15, allergen:15, prep:5, ingredients:['Grilled Chicken','Mozzarella','Lettuce','Tomato','CE Buffalo Sauce','Whole Wheat Wrap'], confidence:70 },
-  { id:'CE004', name:'Nugget Dinner', score:70, level:'moderate', tags:['gluten-free'], allergens:'Multiple allergens by sauce selection — all 10 sauces documented', notes:'All 10 sauce options listed with full allergen disclosure. Gluten-free chicken clearly documented. Best allergen transparency on the platform.', core:25, sauce:25, allergen:15, prep:5, ingredients:['Gluten-Free Chicken Nuggets','Choice of Sauce (10 options with allergens)','Side Included'], confidence:88 },
-  { id:'CE005', name:'Bunless', score:70, level:'moderate', tags:[], allergens:'Varies by protein selection, Egg, Dairy', notes:'All 9 protein options listed with allergen info. CE Epic Sauce allergens disclosed. Highest customization transparency on the menu.', core:25, sauce:25, allergen:15, prep:5, ingredients:['Choice of Protein (9 options)','Mozzarella','Lettuce','Tomato','CE Epic Sauce'], confidence:85 }
+  {id:'D058',name:'Philly',allergens:'Wheat, Dairy, Egg',notes:'CE Chipotle Ranch allergens disclosed. Flatbread base confirmed. No prep stated.',tags:[],disclosed:['Core ingredients named','Sauce allergens disclosed','Base bread named'],ingredients:['Steak','Peppers','Onions','Mozzarella','CE Chipotle Ranch','Flatbread']},
+  {id:'D059',name:'Big Boy 2.0',allergens:'Wheat, Dairy, Soy',notes:'CE Sweet Chili allergens disclosed. Whole wheat wrap named. No prep stated.',tags:[],disclosed:['Core ingredients named','Sauce allergens disclosed','Whole wheat wrap named'],ingredients:['Grilled chicken','Mozzarella','Lettuce','Tomato','CE Sweet Chili sauce','Whole wheat wrap']},
+  {id:'D060',name:'The Arnold',allergens:'Wheat, Dairy, Egg',notes:'CE Buffalo allergens disclosed. Whole wheat wrap named. No prep stated.',tags:[],disclosed:['Core ingredients named','Sauce allergens disclosed','Whole wheat wrap named'],ingredients:['Grilled chicken','Mozzarella','Lettuce','Tomato','CE Buffalo sauce','Whole wheat wrap']},
+  {id:'D061',name:'Nugget Dinner',allergens:'Multiple allergens by sauce selection',notes:'All 10 sauce options listed with allergens. Gluten-free chicken noted. No prep stated.',tags:['gluten-free'],disclosed:['Core ingredients named','All 10 sauce options listed with allergens','Gluten-free chicken identified'],ingredients:['Gluten-free chicken nuggets','Choice of sauce','Side included']},
+  {id:'D062',name:'Bunless',allergens:'Varies by protein selection, Egg, Dairy',notes:'All 9 protein options listed with allergens. CE Epic Sauce allergens disclosed.',tags:[],disclosed:['All 9 protein options listed with allergens','Sauce allergens disclosed','Core ingredients named'],ingredients:['Choice of protein','Mozzarella','Lettuce','Tomato','CE Epic Sauce']}
 ];
-var activeFilter = 'all';
 var selectedId = null;
-function menuFilter(f, btn) {
-  activeFilter = f;
-  document.querySelectorAll('.mfbtn').forEach(function(b) { b.classList.remove('active'); });
-  btn.classList.add('active');
-  renderMenu();
-}
-function getFiltered() {
-  return dishes.filter(function(d) {
-    if (activeFilter === 'gluten-free') return d.tags.indexOf('gluten-free') > -1;
-    if (activeFilter === 'high-score') return d.score >= 60;
-    return true;
-  });
-}
-function renderMenu() {
-  var filtered = getFiltered();
-  var grid = document.getElementById('menu-grid');
-  grid.innerHTML = filtered.map(function(d) {
-    var tagsHtml = d.tags.map(function(t) { return '<span class="dish-tag">' + t + '</span>'; }).join('');
-    return '<div class="dish-card' + (selectedId === d.id ? ' selected' : '') + '" onclick="openDetail(\'' + d.id + '\''  + ')">' +
-      '<div class="dish-card-top"><div class="dish-name">' + d.name + '</div><div class="dish-score-badge"><div class="dish-score-num">' + d.score + '</div><div class="dish-score-denom">/100</div></div></div>' +
-      '<div class="dish-level">Moderate Transparency</div>' +
-      '<div class="dish-bar"><div class="dish-bar-fill" style="width:' + d.score + '%"></div></div>' +
-      '<div class="dish-allergens">Allergens: ' + d.allergens + '</div>' +
-      (tagsHtml ? '<div class="dish-tags">' + tagsHtml + '</div>' : '') +
-    '</div>';
+function renderDishes() {
+  var grid = document.getElementById('dishes-grid');
+  grid.innerHTML = dishes.map(function(d) {
+    var tagsHtml = d.tags.length ? '<div class="dish-tags">'+d.tags.map(function(t){ return '<span class="ctag ctag-gluten">'+t+'</span>'; }).join('')+'</div>' : '';
+    return '<div class="dish-card'+(selectedId===d.id?' selected':'')+'" onclick="openDetail(\''+d.id+'\')">'+
+      '<div class="dish-name">'+d.name+'</div>'+
+      '<div class="dish-level">Moderate Transparency</div>'+
+      '<div class="dish-bar"><div class="dish-bar-fill" style="width:65%"></div></div>'+
+      tagsHtml+'</div>';
   }).join('');
 }
 function openDetail(id) {
   selectedId = id;
-  renderMenu();
-  var d = dishes.find(function(x) { return x.id === id; });
-  var ingHtml = d.ingredients.map(function(i) { return '<span class="ing-chip">' + i + '</span>'; }).join('');
-  var tagsHtml = d.tags.map(function(t) { return '<span class="dish-tag" style="margin-right:6px;margin-bottom:6px;">' + t + '</span>'; }).join('');
+  renderDishes();
+  var d = dishes.find(function(x){ return x.id===id; });
+  var ingHtml = d.ingredients.map(function(i){ return '<span class="ing-chip">'+i+'</span>'; }).join('');
+  var disclosedHtml = d.disclosed.map(function(item){ return '<div class="disclosed-item"><div class="disclosed-dot"></div>'+item+'</div>'; }).join('');
+  var tagsHtml = d.tags.length ? '<div class="detail-section-title">Dietary Tags</div><div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">'+d.tags.map(function(t){ return '<span class="ctag ctag-gluten">'+t+'</span>'; }).join('')+'</div>' : '';
   document.getElementById('detail-content').innerHTML =
-    '<div class="detail-restaurant">Clean Eatz · Hoover, AL</div>' +
-    '<div class="detail-name">' + d.name + '</div>' +
-    '<div class="detail-score-big">' + d.score + '<span style="font-size:28px;color:#9A9488">/100</span></div>' +
-    '<div class="detail-level">Moderate Transparency</div>' +
-    '<div class="detail-context">' + (d.score - 46) + ' points above the Birmingham average of 46</div>' +
-    '<div class="confidence-bar"><div class="confidence-label">Diner Confidence Score</div><div class="confidence-meter"><div class="confidence-fill" style="width:' + d.confidence + '%"></div></div><div class="confidence-text">' + d.confidence + ' out of 100 — based on ingredient clarity and allergen disclosure</div></div>' +
-    '<div class="detail-dims">' +
-      '<div class="dim-row"><span class="dim-label">Core Ingredient Clarity</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.core/25*100) + '%"></div></div><span class="dim-val">' + d.core + '</span></div>' +
-      '<div class="dim-row"><span class="dim-label">Sauce and Seasoning</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.sauce/25*100) + '%"></div></div><span class="dim-val">' + d.sauce + '</span></div>' +
-      '<div class="dim-row"><span class="dim-label">Allergen Transparency</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.allergen/25*100) + '%"></div></div><span class="dim-val">' + d.allergen + '</span></div>' +
-      '<div class="dim-row"><span class="dim-label">Prep Input Clarity</span><div class="dim-bar"><div class="dim-fill" style="width:' + (d.prep/25*100) + '%"></div></div><span class="dim-val">' + d.prep + '</span></div>' +
-    '</div>' +
-    (tagsHtml ? '<div class="detail-section-title">Dietary Tags</div><div style="display:flex;flex-wrap:wrap;margin-bottom:20px;">' + tagsHtml + '</div>' : '') +
-    '<div class="detail-section-title">Allergens on Record</div><div class="detail-box">' + d.allergens + '</div>' +
-    '<div class="detail-section-title">Ingredients on Record</div><div class="detail-ingredients">' + ingHtml + '</div>' +
-    '<div class="detail-section-title">Scoring Notes</div><div class="detail-box">' + d.notes + '</div>';
+    '<div style="font-family:\'DM Mono\',monospace;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#C9A84C;margin-bottom:6px;margin-top:20px;">Clean Eatz · Hoover</div>'+
+    '<div class="detail-dish-name">'+d.name+'</div>'+
+    '<div class="detail-level">Moderate Transparency</div>'+
+    '<div class="detail-disclosed"><div class="detail-disclosed-title">What Clean Eatz Disclosed</div>'+disclosedHtml+'</div>'+
+    tagsHtml+
+    '<div class="detail-section-title">Allergens on Record</div>'+
+    '<div class="detail-allergens">'+d.allergens+'</div>'+
+    '<div class="detail-section-title">Ingredients on Record</div>'+
+    '<div class="detail-ingredients">'+ingHtml+'</div>'+
+    '<div class="detail-section-title">Transparency Notes</div>'+
+    '<div class="detail-allergens">'+d.notes+'</div>';
   document.getElementById('detail-panel').classList.add('open');
 }
 function closeDetail() {
   selectedId = null;
-  renderMenu();
+  renderDishes();
   document.getElementById('detail-panel').classList.remove('open');
 }
 </script>
