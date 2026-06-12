@@ -9,6 +9,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "chicken",
       "olive oil",
@@ -34,6 +35,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "chicken",
       "panko breadcrumbs",
@@ -49,6 +51,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "impossible burger patty",
       "brioche bun",
@@ -66,6 +69,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "chicken salad mix",
       "bread (sandwich bread)",
@@ -84,6 +88,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "angel hair pasta",
       "meatballs",
@@ -99,6 +104,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "french toast baguette",
       "red velvet cake crumbles",
@@ -114,6 +120,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "beyond burger patty",
       "burger bun",
@@ -130,6 +137,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "cajun grilled chicken",
       "lettuce",
@@ -150,6 +158,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "chicken",
       "shrimp",
@@ -166,6 +175,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "grilled chicken",
       "lettuce",
@@ -183,6 +193,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "acai",
       "coconut milk",
@@ -207,6 +218,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "chicken",
       "edamame",
@@ -227,6 +239,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "brussels sprouts",
       "remoulade"
@@ -242,6 +255,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "tender greens",
       "butternut squash",
@@ -263,6 +277,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "spinach",
       "romaine",
@@ -279,6 +294,7 @@
       "vegan"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "farro",
       "kale",
@@ -296,6 +312,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "red sauce",
       "cheese blend",
@@ -328,6 +345,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "red sauce",
       "jalapeños",
@@ -343,6 +361,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "vodka sauce",
       "cheese blend",
@@ -357,6 +376,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "red sauce",
       "cheese blend",
@@ -372,6 +392,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "brussels sprouts",
       "pickled red onion",
@@ -391,6 +412,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "potatoes",
       "chorizo",
@@ -410,6 +432,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "shrimp",
       "pimento grits",
@@ -426,6 +449,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "avocado",
       "west indies crab",
@@ -443,6 +467,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "waffle",
       "quail",
@@ -461,6 +486,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "egg white",
       "mozzarella",
@@ -479,6 +505,7 @@
       "vegan"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "plant-based patty",
       "vegan bacon",
@@ -500,6 +527,7 @@
       "vegan"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "plant-based patty",
       "sweet jerk plantains",
@@ -521,6 +549,7 @@
       "vegan"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "plant-based patty",
       "jalapenos",
@@ -542,6 +571,7 @@
       "vegan"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "plant-based patty",
       "pickle",
@@ -563,6 +593,7 @@
       "vegan"
     ],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "fries",
       "vegan beef",
@@ -581,6 +612,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
+    "meal_period": "All Day",
     "ingredients": [
       "cabbage & cilantro blend",
       "romaine",
@@ -601,6 +633,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "fish",
+    "meal_period": "yes",
     "ingredients": [
       "spinach",
       "norwegian salmon",
@@ -620,6 +653,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy",
+    "meal_period": "yes",
     "ingredients": [
       "kale",
       "avocado",
@@ -639,6 +673,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "shellfish",
+    "meal_period": "yes",
     "ingredients": [
       "cabbage & cilantro blend",
       "romaine",
@@ -659,6 +694,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy, gluten",
+    "meal_period": "yes",
     "ingredients": [
       "romaine",
       "panko fried chicken",
@@ -681,6 +717,7 @@
       "vegan"
     ],
     "allergens": "wheat (pita), unknown (sauce)",
+    "meal_period": "All Day",
     "ingredients": [
       "Avocado",
       "Roasted peppers",
@@ -700,6 +737,7 @@
       "vegan"
     ],
     "allergens": "soy (tofu), wheat (pita)",
+    "meal_period": "All Day",
     "ingredients": [
       "Baked tofu",
       "Caramelized onions",
@@ -716,6 +754,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (cheese), wheat (bread), unknown (tuna salad)",
+    "meal_period": "All Day",
     "ingredients": [
       "Tuna salad",
       "Cheddar cheese",
@@ -733,6 +772,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (mozzarella), tree nuts (pesto)",
+    "meal_period": "All Day",
     "ingredients": [
       "Grilled chicken",
       "Roasted peppers",
@@ -751,6 +791,7 @@
       "vegetarian"
     ],
     "allergens": "dairy (mozzarella), tree nuts (pesto, pistachios)",
+    "meal_period": "All Day",
     "ingredients": [
       "Mozzarella cheese",
       "Grilled cherry tomatoes",
@@ -768,6 +809,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "fish (salmon), unknown (vinaigrette, tortilla chips)",
+    "meal_period": "All Day",
     "ingredients": [
       "Warm quinoa",
       "Spring mix",
@@ -792,6 +834,7 @@
       "vegetarian"
     ],
     "allergens": "dairy (goat cheese), unknown (vinaigrette)",
+    "meal_period": "All Day",
     "ingredients": [
       "Warm quinoa",
       "Arugula",
@@ -814,6 +857,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (blue cheese dressing), egg",
+    "meal_period": "All Day",
     "ingredients": [
       "Shredded kale",
       "Chopped romaine",
@@ -834,6 +878,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "unknown (impossible meat, vinaigrette, tortilla strips)",
+    "meal_period": "All Day",
     "ingredients": [
       "Roasted corn",
       "Avocado",
@@ -854,6 +899,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "unknown (vinaigrette, tortilla chips)",
+    "meal_period": "All Day",
     "ingredients": [
       "Spring mix",
       "Roasted chicken",
@@ -871,6 +917,7 @@
       "vegetarian"
     ],
     "allergens": "sesame (sesame seeds), unknown (garlic-ginger sauce)",
+    "meal_period": "All Day",
     "ingredients": [
       "Cauliflower",
       "Garlic-ginger sauce",
@@ -888,6 +935,7 @@
       "vegetarian"
     ],
     "allergens": "soy (tofu), tree nuts (nuts), unknown (yum-yum sauce)",
+    "meal_period": "All Day",
     "ingredients": [
       "Tofu",
       "Carrots",
@@ -905,6 +953,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "fish (salmon), dairy (butter, risotto)",
+    "meal_period": "All Day",
     "ingredients": [
       "Salmon",
       "Lemongrass butter",
@@ -920,6 +969,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (muenster), egg (garlic mayo)",
+    "meal_period": "All Day",
     "ingredients": [
       "Kobe beef patty",
       "Muenster cheese",
@@ -937,6 +987,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "wheat (wontons), dairy (kimchi queso, cotija)",
+    "meal_period": "All Day",
     "ingredients": [
       "Wontons",
       "Kimchi queso",
@@ -954,6 +1005,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (smoked feta), wheat (pasta), unknown (balsamic glaze)",
+    "meal_period": "All Day",
     "ingredients": [
       "pasta",
       "artisanal lettuces",
@@ -975,6 +1027,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (smoked feta), soy (edamame), fish (tuna), sesame (tuna), unknown (Green Goddess dressing)",
+    "meal_period": "All Day",
     "ingredients": [
       "quinoa",
       "kale + broccoli slaw",
@@ -997,6 +1050,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "fish (tuna), soy (orange ginger soy, edamame)",
+    "meal_period": "All Day",
     "ingredients": [
       "tuna",
       "quinoa",
@@ -1013,6 +1067,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (smoked feta), wheat (flour tortillas)",
+    "meal_period": "All Day",
     "ingredients": [
       "flour tortillas",
       "flank steak",
@@ -1031,6 +1086,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (pimento cheese), wheat (egg roll wrapper)",
+    "meal_period": "All Day",
     "ingredients": [
       "egg roll wrapper",
       "Conecuh sausage",
@@ -1048,6 +1104,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "wheat (flatbread), dairy (mozzarella, CE Chipotle Ranch), egg (CE Chipotle Ranch)",
+    "meal_period": "All Day",
     "ingredients": [
       "shredded beef",
       "flatbread",
@@ -1065,6 +1122,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "wheat (whole wheat wrap), dairy (mozzarella), soy (CE Sweet Chili)",
+    "meal_period": "All Day",
     "ingredients": [
       "whole wheat wrap",
       "chicken",
@@ -1085,6 +1143,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "wheat (whole wheat wrap), dairy (mozzarella, CE Buffalo), egg (CE Buffalo)",
+    "meal_period": "All Day",
     "ingredients": [
       "whole wheat wrap",
       "shredded beef",
@@ -1107,6 +1166,7 @@
       "gluten-free"
     ],
     "allergens": "multiple allergens possible by sauce selection (egg, dairy, peanut, soy, sesame)",
+    "meal_period": "All Day",
     "ingredients": [
       "gluten-free breaded chicken",
       "sauce option - Epic Sauce",
@@ -1132,6 +1192,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "multiple allergens possible by protein selection (soy/wheat, fish, shellfish); egg (CE Epic Sauce), dairy (mozzarella)",
+    "meal_period": "All Day",
     "ingredients": [
       "protein option - black bean patty",
       "protein option - diced chicken",
@@ -1158,6 +1219,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "fish (smoked salmon), dairy (cream cheese)",
+    "meal_period": "All Day",
     "ingredients": [
       "Smoked salmon",
       "Arugula",
@@ -1178,6 +1240,7 @@
       "vegan"
     ],
     "allergens": "tree nuts (crushed almonds)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1188,6 +1251,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "wheat (bagel), dairy (cream cheese), tree nuts (peanut butter)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1198,6 +1262,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "wheat (pita), dairy (Swiss), egg (mayo)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1208,6 +1273,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "fish (tuna salad), dairy (cheddar), wheat (pita)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1218,6 +1284,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (Swiss), wheat (pita), egg (mayo)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1228,6 +1295,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (Swiss), wheat (pita), egg (chipotle mayo)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1238,6 +1306,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (Swiss), wheat (pita), unknown (BBQ sauce)",
+    "meal_period": "All Day",
     "ingredients": [
       "Grilled chicken",
       "Jalapeño",
@@ -1255,6 +1324,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (Swiss), wheat (pita), unknown (chipotle sauce)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1265,6 +1335,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (Swiss), wheat (pita), egg (mayo)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1277,6 +1348,7 @@
       "vegan"
     ],
     "allergens": "unknown (homemade hummus)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1289,6 +1361,7 @@
       "vegan"
     ],
     "allergens": "wheat (seitan, pita), unknown (vegan chipotle mayo)",
+    "meal_period": "All Day",
     "ingredients": [
       "Marinated seitan",
       "Caramelized onions",
@@ -1308,6 +1381,7 @@
       "vegan"
     ],
     "allergens": "unknown (house-made vegan chicken, vegan cheese, vegan mayo)",
+    "meal_period": "All Day",
     "ingredients": [
       "House-made vegan chicken",
       "Vegan mayonnaise",
@@ -1328,6 +1402,7 @@
       "vegan"
     ],
     "allergens": "dairy (parmesan), wheat (pita), unknown (vegan fried chicken, chipotle mayo)",
+    "meal_period": "All Day",
     "ingredients": [
       "Vegan fried chicken",
       "Parmesan cheese",
@@ -1347,6 +1422,7 @@
       "vegan"
     ],
     "allergens": "unknown (vegan meatballs, marinara sauce, vegan cheese)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1359,6 +1435,7 @@
       "vegan"
     ],
     "allergens": "unknown (vegan cheese, vegan mayo)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1371,6 +1448,7 @@
       "vegan"
     ],
     "allergens": "unknown (vegan salami, vegan cheese, vegan mayo)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1381,6 +1459,7 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (cheese), wheat (pita)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1393,6 +1472,7 @@
       "vegan"
     ],
     "allergens": "unknown (vegan salami, vegan chipotle)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1405,6 +1485,7 @@
       "vegetarian"
     ],
     "allergens": "dairy (parmesan), wheat (croutons), unknown (Caesar dressing)",
+    "meal_period": "All Day",
     "ingredients": []
   },
   {
@@ -1417,6 +1498,7 @@
       "vegan"
     ],
     "allergens": "unknown (baba ganoush)",
+    "meal_period": "All Day",
     "ingredients": []
   }
 ]
