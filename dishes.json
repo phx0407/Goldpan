@@ -1,0 +1,1422 @@
+[
+  {
+    "id": "D001",
+    "name": "Grilled Herb Chicken",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "chicken",
+      "olive oil",
+      "garlic",
+      "rosemary",
+      "thyme",
+      "oregano",
+      "lemon juice",
+      "salt",
+      "black pepper",
+      "sorghum syrup",
+      "honey",
+      "mustard",
+      "vinegar",
+      "seasonal vegetables"
+    ]
+  },
+  {
+    "id": "D002",
+    "name": "Chicken Poppers Appetizer",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "chicken",
+      "panko breadcrumbs",
+      "honey mustard",
+      "frying oil"
+    ]
+  },
+  {
+    "id": "D003",
+    "name": "Impossible Burger",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "impossible burger patty",
+      "brioche bun",
+      "lettuce",
+      "tomato",
+      "red onion",
+      "pickle"
+    ]
+  },
+  {
+    "id": "D004",
+    "name": "Chicken Salad Sandwich",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "chicken salad mix",
+      "bread (sandwich bread)",
+      "lettuce",
+      "tomato",
+      "greek yogurt",
+      "mayonnaise",
+      "herbs"
+    ]
+  },
+  {
+    "id": "D005",
+    "name": "Spaghetti",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "angel hair pasta",
+      "meatballs",
+      "marinara",
+      "parmesan"
+    ]
+  },
+  {
+    "id": "D006",
+    "name": "Red Velvet French Toast",
+    "restaurant": "Yo Chef Surf and Turf",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "french toast baguette",
+      "red velvet cake crumbles",
+      "walnuts",
+      "cream cheese icing"
+    ]
+  },
+  {
+    "id": "D007",
+    "name": "Yo' Beyond Burger",
+    "restaurant": "Yo Chef Surf and Turf",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "beyond burger patty",
+      "burger bun",
+      "vegetarian sauce",
+      "pico de gallo",
+      "fried onions"
+    ]
+  },
+  {
+    "id": "D008",
+    "name": "Cobb Salad",
+    "restaurant": "Yo Chef Surf and Turf",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "cajun grilled chicken",
+      "lettuce",
+      "bacon",
+      "eggs",
+      "red onions",
+      "pico de gallo",
+      "cheddar cheese",
+      "black olives",
+      "banana peppers"
+    ]
+  },
+  {
+    "id": "D009",
+    "name": "Swamp Love Gumbo",
+    "restaurant": "Yo Chef Surf and Turf",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "chicken",
+      "shrimp",
+      "beef sausage",
+      "roux sauce",
+      "yellow rice"
+    ]
+  },
+  {
+    "id": "D010",
+    "name": "Chicken Caesar Wrap",
+    "restaurant": "Yo Chef Surf and Turf",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "grilled chicken",
+      "lettuce",
+      "croutons",
+      "parmesan cheese",
+      "tortilla",
+      "fries"
+    ]
+  },
+  {
+    "id": "D011",
+    "name": "Classic Açaí Bowl",
+    "restaurant": "Kale Me Crazy",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "acai",
+      "coconut milk",
+      "date",
+      "blueberries",
+      "cashews",
+      "banana",
+      "strawberries",
+      "coconut",
+      "granola",
+      "mint",
+      "raw honey"
+    ]
+  },
+  {
+    "id": "D012",
+    "name": "Sesame Chicken Bowl",
+    "restaurant": "Brick & Tin",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "chicken",
+      "edamame",
+      "crispy rice noodles",
+      "sushi rice",
+      "cashews",
+      "broccoli",
+      "teriyaki sauce"
+    ]
+  },
+  {
+    "id": "D013",
+    "name": "Crispy Brussels",
+    "restaurant": "Brick & Tin",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "brussels sprouts",
+      "remoulade"
+    ]
+  },
+  {
+    "id": "D014",
+    "name": "Fall Harvest Salad",
+    "restaurant": "Brick & Tin",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "tender greens",
+      "butternut squash",
+      "pears",
+      "spiced pecans",
+      "goat cheese",
+      "dried cranberries",
+      "apple cider vinaigrette"
+    ]
+  },
+  {
+    "id": "D015",
+    "name": "Simple Salad",
+    "restaurant": "Brick & Tin",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "vegan",
+      "gluten-free"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "spinach",
+      "romaine",
+      "champagne vinaigrette"
+    ]
+  },
+  {
+    "id": "D016",
+    "name": "Fall Farro Salad",
+    "restaurant": "Brick & Tin",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "farro",
+      "kale",
+      "sweet potatoes",
+      "toasted pecans",
+      "dried cranberries",
+      "sorghum-sherry vinaigrette"
+    ]
+  },
+  {
+    "id": "D017",
+    "name": "Classic Pizza",
+    "restaurant": "Emmy Squared Pizza",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "red sauce",
+      "cheese blend",
+      "gluten-free crust",
+      "vegan cheese",
+      "pickled jalapeños",
+      "red onion",
+      "pineapple",
+      "caramelized onion",
+      "banana pepper",
+      "bell pepper",
+      "mushroom",
+      "basil",
+      "ranch",
+      "bacon",
+      "pepperoni",
+      "sausage",
+      "grilled chicken",
+      "fried chicken",
+      "ricotta",
+      "calabrian chilies",
+      "burrata"
+    ]
+  },
+  {
+    "id": "D018",
+    "name": "The Founders Pizza",
+    "restaurant": "Emmy Squared Pizza",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "red sauce",
+      "jalapeños",
+      "pepperoni",
+      "hot honey"
+    ]
+  },
+  {
+    "id": "D019",
+    "name": "Vodka Pizza",
+    "restaurant": "Emmy Squared Pizza",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "vodka sauce",
+      "cheese blend",
+      "basil"
+    ]
+  },
+  {
+    "id": "D020",
+    "name": "Margherita",
+    "restaurant": "Emmy Squared Pizza",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "red sauce",
+      "cheese blend",
+      "burrata",
+      "basil"
+    ]
+  },
+  {
+    "id": "D021",
+    "name": "Shaved Brussels Sprouts Salad",
+    "restaurant": "Emmy Squared Pizza",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "brussels sprouts",
+      "pickled red onion",
+      "cashew",
+      "blue cheese",
+      "dried cherries",
+      "miso dressing"
+    ]
+  },
+  {
+    "id": "D022",
+    "name": "Hash",
+    "restaurant": "SoHo Standard",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "potatoes",
+      "chorizo",
+      "pico de gallo",
+      "avocado mash",
+      "queso fresco",
+      "poached egg"
+    ]
+  },
+  {
+    "id": "D023",
+    "name": "Shrimp & Grits",
+    "restaurant": "SoHo Standard",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "shrimp",
+      "pimento grits",
+      "white wine cream sauce",
+      "charred tomato",
+      "micro greens"
+    ]
+  },
+  {
+    "id": "D024",
+    "name": "Toast",
+    "restaurant": "SoHo Standard",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "avocado",
+      "west indies crab",
+      "jalapeno",
+      "radish",
+      "micro greens",
+      "poached egg"
+    ]
+  },
+  {
+    "id": "D025",
+    "name": "Quail + Waffles",
+    "restaurant": "SoHo Standard",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "waffle",
+      "quail",
+      "jalapeno bacon",
+      "hot honey glaze",
+      "bourbon butter"
+    ]
+  },
+  {
+    "id": "D026",
+    "name": "Bites",
+    "restaurant": "SoHo Standard",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "egg white",
+      "mozzarella",
+      "roasted red pepper",
+      "fresh herbs",
+      "citrus tossed greens"
+    ]
+  },
+  {
+    "id": "D028",
+    "name": "One Night Stand",
+    "restaurant": "Slutty Vegan",
+    "location": "Atlanta",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "plant-based patty",
+      "vegan bacon",
+      "vegan cheese",
+      "onions",
+      "lettuce",
+      "tomato",
+      "slut sauce",
+      "vegan hawaiian bun"
+    ]
+  },
+  {
+    "id": "D029",
+    "name": "Dancehall Queen",
+    "restaurant": "Slutty Vegan",
+    "location": "Atlanta",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "plant-based patty",
+      "sweet jerk plantains",
+      "vegan cheese",
+      "onions",
+      "lettuce",
+      "tomato",
+      "slut sauce",
+      "vegan hawaiian bun"
+    ]
+  },
+  {
+    "id": "D030",
+    "name": "Sloppy Toppy",
+    "restaurant": "Slutty Vegan",
+    "location": "Atlanta",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "plant-based patty",
+      "jalapenos",
+      "vegan cheese",
+      "onions",
+      "lettuce",
+      "tomato",
+      "slut sauce",
+      "vegan hawaiian bun"
+    ]
+  },
+  {
+    "id": "D031",
+    "name": "Fussy Hussy",
+    "restaurant": "Slutty Vegan",
+    "location": "Atlanta",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "plant-based patty",
+      "pickle",
+      "vegan cheese",
+      "onions",
+      "lettuce",
+      "tomato",
+      "slut sauce",
+      "vegan hawaiian bun"
+    ]
+  },
+  {
+    "id": "D032",
+    "name": "Hooker Fries",
+    "restaurant": "Slutty Vegan",
+    "location": "Atlanta",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "Unknown",
+    "ingredients": [
+      "fries",
+      "vegan beef",
+      "vegan cheese",
+      "jalapenos",
+      "onions",
+      "lettuce",
+      "diced tomatoes"
+    ]
+  },
+  {
+    "id": "D033",
+    "name": "Southwest Steak Salad",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Unknown",
+    "ingredients": [
+      "cabbage & cilantro blend",
+      "romaine",
+      "seared steak",
+      "black beans",
+      "corn",
+      "jalapeño peppers",
+      "pickled red onion",
+      "tortilla chips",
+      "chipotle ranch"
+    ]
+  },
+  {
+    "id": "D034",
+    "name": "Kimchi Salmon Bowl",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "fish",
+    "ingredients": [
+      "spinach",
+      "norwegian salmon",
+      "kimchi",
+      "carrots",
+      "red bell peppers",
+      "crispy shallots",
+      "creamy gochujang",
+      "honey gochujang vinaigrette"
+    ]
+  },
+  {
+    "id": "D035",
+    "name": "Chicken Tinga Bowl",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy",
+    "ingredients": [
+      "kale",
+      "avocado",
+      "braised chicken tinga",
+      "black beans",
+      "scallions",
+      "cotija cheese",
+      "tortilla chips",
+      "mexican goddess dressing"
+    ]
+  },
+  {
+    "id": "D036",
+    "name": "Shrimp Spring Roll Salad",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "shellfish",
+    "ingredients": [
+      "cabbage & cilantro blend",
+      "romaine",
+      "shrimp",
+      "carrots",
+      "english cucumber",
+      "pickled red onion",
+      "red bell peppers",
+      "crispy wontons",
+      "creamy sesame dressing"
+    ]
+  },
+  {
+    "id": "D037",
+    "name": "Crispy Chicken Ranch Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy, gluten",
+    "ingredients": [
+      "romaine",
+      "panko fried chicken",
+      "carrots",
+      "corn",
+      "grape tomatoes",
+      "pickled red onion",
+      "pepper jack cheese",
+      "buttermilk ranch",
+      "wrap"
+    ]
+  },
+  {
+    "id": "D038",
+    "name": "Amazing Avocado",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "wheat (pita), unknown (sauce)",
+    "ingredients": [
+      "Avocado",
+      "Roasted peppers",
+      "Caramelized onions",
+      "Lettuce",
+      "Chipotle and spicy mango sauce",
+      "Vegan pita bread"
+    ]
+  },
+  {
+    "id": "D039",
+    "name": "Grilled Tofu",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "soy (tofu), wheat (pita)",
+    "ingredients": [
+      "Baked tofu",
+      "Caramelized onions",
+      "Roasted peppers",
+      "Lettuce",
+      "Chipotle pita bread"
+    ]
+  },
+  {
+    "id": "D040",
+    "name": "Tuna Melt Sandwich",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (cheese), wheat (bread), unknown (tuna salad)",
+    "ingredients": [
+      "Tuna salad",
+      "Cheddar cheese",
+      "Cucumber",
+      "Onions",
+      "Pickled tomatoes",
+      "Pita bread or sub bun"
+    ]
+  },
+  {
+    "id": "D041",
+    "name": "Italiano Panini",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (mozzarella), tree nuts (pesto)",
+    "ingredients": [
+      "Grilled chicken",
+      "Roasted peppers",
+      "Fresh mozzarella cheese",
+      "Pesto",
+      "Spinach"
+    ]
+  },
+  {
+    "id": "D042",
+    "name": "Tuscan Panini",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "dairy (mozzarella), tree nuts (pesto, pistachios)",
+    "ingredients": [
+      "Mozzarella cheese",
+      "Grilled cherry tomatoes",
+      "Pesto",
+      "Spinach or arugula",
+      "Roasted pepper",
+      "Pistachios"
+    ]
+  },
+  {
+    "id": "D043",
+    "name": "Fish & Chips Bowl",
+    "restaurant": "Chop N Fresh",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "fish (salmon), unknown (vinaigrette, tortilla chips)",
+    "ingredients": [
+      "Warm quinoa",
+      "Spring mix",
+      "Arugula",
+      "Shredded cabbage",
+      "Roasted salmon",
+      "Roasted asparagus",
+      "Roasted corn",
+      "Cilantro",
+      "Tortilla chips",
+      "Lemon",
+      "Lime cilantro jalapeño vinaigrette"
+    ]
+  },
+  {
+    "id": "D044",
+    "name": "Mexican Elote Bowl",
+    "restaurant": "Chop N Fresh",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "dairy (goat cheese), unknown (vinaigrette)",
+    "ingredients": [
+      "Warm quinoa",
+      "Arugula",
+      "Spring mix",
+      "Roasted corn",
+      "Roasted peppers",
+      "Goat cheese",
+      "Spicy sunflower seeds",
+      "Cilantro",
+      "Tomatoes",
+      "Shredded cabbage",
+      "Lime cilantro jalapeño vinaigrette"
+    ]
+  },
+  {
+    "id": "D045",
+    "name": "Cobb Boom",
+    "restaurant": "Chop N Fresh",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (blue cheese dressing), egg",
+    "ingredients": [
+      "Shredded kale",
+      "Chopped romaine",
+      "Bacon",
+      "Tomatoes",
+      "Raw corn",
+      "Avocado",
+      "Roasted chicken",
+      "Egg",
+      "Blue cheese dressing"
+    ]
+  },
+  {
+    "id": "D046",
+    "name": "The Impossible Taco Salad",
+    "restaurant": "Chop N Fresh",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "unknown (impossible meat, vinaigrette, tortilla strips)",
+    "ingredients": [
+      "Roasted corn",
+      "Avocado",
+      "Tomatoes",
+      "Cilantro",
+      "Shredded cabbage",
+      "Red onion",
+      "Tortilla strips",
+      "Impossible meat",
+      "Chipotle honey vinaigrette"
+    ]
+  },
+  {
+    "id": "D047",
+    "name": "Wholey Moley",
+    "restaurant": "Chop N Fresh",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "unknown (vinaigrette, tortilla chips)",
+    "ingredients": [
+      "Spring mix",
+      "Roasted chicken",
+      "Fresh lime squeeze",
+      "Lime cilantro jalapeño vinaigrette"
+    ]
+  },
+  {
+    "id": "D048",
+    "name": "Korean Fried Cauliflower",
+    "restaurant": "East West",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "sesame (sesame seeds), unknown (garlic-ginger sauce)",
+    "ingredients": [
+      "Cauliflower",
+      "Garlic-ginger sauce",
+      "Green onion",
+      "Sesame seeds"
+    ]
+  },
+  {
+    "id": "D049",
+    "name": "Tofu Lettuce Wraps",
+    "restaurant": "East West",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "soy (tofu), tree nuts (nuts), unknown (yum-yum sauce)",
+    "ingredients": [
+      "Tofu",
+      "Carrots",
+      "Nuts",
+      "Yum-yum sauce",
+      "Onion",
+      "Shiitakes"
+    ]
+  },
+  {
+    "id": "D050",
+    "name": "Pan-Seared Salmon",
+    "restaurant": "East West",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "fish (salmon), dairy (butter, risotto)",
+    "ingredients": [
+      "Salmon",
+      "Lemongrass butter",
+      "Parmesan risotto",
+      "Grilled asparagus"
+    ]
+  },
+  {
+    "id": "D051",
+    "name": "Kobe Burger",
+    "restaurant": "East West",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (muenster), egg (garlic mayo)",
+    "ingredients": [
+      "Kobe beef patty",
+      "Muenster cheese",
+      "Onion jam",
+      "Shiitakes",
+      "Garlic mayo",
+      "Curly fries"
+    ]
+  },
+  {
+    "id": "D052",
+    "name": "Chinese Duck Nachos",
+    "restaurant": "East West",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "wheat (wontons), dairy (kimchi queso, cotija)",
+    "ingredients": [
+      "Wontons",
+      "Kimchi queso",
+      "Cotija cheese",
+      "Cilantro",
+      "Onions",
+      "Jalapeños"
+    ]
+  },
+  {
+    "id": "D053",
+    "name": "TGIF Bowl",
+    "restaurant": "SoHo Social",
+    "location": "Birmingham",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (smoked feta), wheat (pasta), unknown (balsamic glaze)",
+    "ingredients": [
+      "pasta",
+      "artisanal lettuces",
+      "cucumber",
+      "tomato",
+      "red onion",
+      "lemon olive oil",
+      "creamy balsamic glaze",
+      "crispy chickpeas",
+      "smoked feta",
+      "grilled chicken"
+    ]
+  },
+  {
+    "id": "D054",
+    "name": "G.G.G. Bowl",
+    "restaurant": "SoHo Social",
+    "location": "Birmingham",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (smoked feta), soy (edamame), fish (tuna), sesame (tuna), unknown (Green Goddess dressing)",
+    "ingredients": [
+      "quinoa",
+      "kale + broccoli slaw",
+      "green garbanzo beans",
+      "radish",
+      "edamame",
+      "cucumber",
+      "avocado",
+      "Green Goddess dressing",
+      "smoked feta",
+      "pepitas",
+      "seared sesame tuna"
+    ]
+  },
+  {
+    "id": "D055",
+    "name": "Tuna Tataki",
+    "restaurant": "SoHo Social",
+    "location": "Birmingham",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "fish (tuna), soy (orange ginger soy, edamame)",
+    "ingredients": [
+      "tuna",
+      "quinoa",
+      "edamame",
+      "kale + broccoli slaw",
+      "orange ginger soy"
+    ]
+  },
+  {
+    "id": "D056",
+    "name": "Steak & Feta Tacos",
+    "restaurant": "SoHo Social",
+    "location": "Birmingham",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (smoked feta), wheat (flour tortillas)",
+    "ingredients": [
+      "flour tortillas",
+      "flank steak",
+      "avocado",
+      "grilled sweet corn",
+      "smoked feta",
+      "pickled red onion",
+      "green tabasco sauce"
+    ]
+  },
+  {
+    "id": "D057",
+    "name": "Whistle Stop Egg Rolls",
+    "restaurant": "SoHo Social",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (pimento cheese), wheat (egg roll wrapper)",
+    "ingredients": [
+      "egg roll wrapper",
+      "Conecuh sausage",
+      "collards",
+      "pimento cheese",
+      "green tomato jam",
+      "pepper jelly"
+    ]
+  },
+  {
+    "id": "D058",
+    "name": "Philly",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (flatbread), dairy (mozzarella, CE Chipotle Ranch), egg (CE Chipotle Ranch)",
+    "ingredients": [
+      "shredded beef",
+      "flatbread",
+      "CE Chipotle Ranch Sauce",
+      "mozzarella cheese",
+      "peppers",
+      "red onions"
+    ]
+  },
+  {
+    "id": "D059",
+    "name": "Big Boy 2.0",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (whole wheat wrap), dairy (mozzarella), soy (CE Sweet Chili)",
+    "ingredients": [
+      "whole wheat wrap",
+      "chicken",
+      "CE Sweet Chili Sauce",
+      "mozzarella cheese",
+      "brown rice",
+      "lettuce",
+      "corn",
+      "black beans",
+      "includes a side"
+    ]
+  },
+  {
+    "id": "D060",
+    "name": "The Arnold",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (whole wheat wrap), dairy (mozzarella, CE Buffalo), egg (CE Buffalo)",
+    "ingredients": [
+      "whole wheat wrap",
+      "shredded beef",
+      "CE Buffalo Sauce",
+      "mozzarella cheese",
+      "brown rice",
+      "green peppers",
+      "mushrooms",
+      "lettuce",
+      "includes a side"
+    ]
+  },
+  {
+    "id": "D061",
+    "name": "Nugget Dinner",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "multiple allergens possible by sauce selection (egg, dairy, peanut, soy, sesame)",
+    "ingredients": [
+      "gluten-free breaded chicken",
+      "sauce option - Epic Sauce",
+      "sauce option - NSA BBQ",
+      "sauce option - CE Chipotle Ranch",
+      "sauce option - CE Thai Peanut",
+      "sauce option - CE Sweet Chili",
+      "sauce option - CE Teriyaki",
+      "sauce option - Queso Sauce",
+      "sauce option - CE Buffalo",
+      "sauce option - Kale Pesto",
+      "sauce option - CE Ranch",
+      "sauce option - CE Marinara",
+      "steamed broccoli",
+      "sweet potato fries"
+    ]
+  },
+  {
+    "id": "D062",
+    "name": "Bunless",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "multiple allergens possible by protein selection (soy/wheat, fish, shellfish); egg (CE Epic Sauce), dairy (mozzarella)",
+    "ingredients": [
+      "protein option - black bean patty",
+      "protein option - diced chicken",
+      "protein option - breaded chicken",
+      "protein option - shredded beef",
+      "protein option - bison",
+      "protein option - salmon",
+      "protein option - turkey burger",
+      "protein option - shrimp",
+      "protein option - turkey burnt ends",
+      "CE Epic Sauce",
+      "mozzarella cheese",
+      "tomato",
+      "lettuce",
+      "grilled mushrooms",
+      "sweet potato fries"
+    ]
+  },
+  {
+    "id": "D063",
+    "name": "Adam and Eve Lox",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "fish (smoked salmon), dairy (cream cheese)",
+    "ingredients": [
+      "Smoked salmon",
+      "Arugula",
+      "Cucumber",
+      "Tomato",
+      "Capers",
+      "Cream cheese",
+      "Red onions"
+    ]
+  },
+  {
+    "id": "D064",
+    "name": "Avocado Toast",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "tree nuts (crushed almonds)",
+    "ingredients": []
+  },
+  {
+    "id": "D065",
+    "name": "Bagels",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "wheat (bagel), dairy (cream cheese), tree nuts (peanut butter)",
+    "ingredients": []
+  },
+  {
+    "id": "D066",
+    "name": "Classic Club Wrap",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "wheat (pita), dairy (Swiss), egg (mayo)",
+    "ingredients": []
+  },
+  {
+    "id": "D067",
+    "name": "Tuna Melt Wrap",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "fish (tuna salad), dairy (cheddar), wheat (pita)",
+    "ingredients": []
+  },
+  {
+    "id": "D068",
+    "name": "Five Point Sandwich",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (Swiss), wheat (pita), egg (mayo)",
+    "ingredients": []
+  },
+  {
+    "id": "D069",
+    "name": "House Sandwich",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (Swiss), wheat (pita), egg (chipotle mayo)",
+    "ingredients": []
+  },
+  {
+    "id": "D070",
+    "name": "Brooklyn Gem",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (Swiss), wheat (pita), unknown (BBQ sauce)",
+    "ingredients": [
+      "Grilled chicken",
+      "Jalapeño",
+      "Swiss cheese",
+      "Caramelized onions",
+      "BBQ sauce",
+      "Vegan pita bread"
+    ]
+  },
+  {
+    "id": "D071",
+    "name": "Bham Best",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (Swiss), wheat (pita), unknown (chipotle sauce)",
+    "ingredients": []
+  },
+  {
+    "id": "D072",
+    "name": "Classic Club",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (Swiss), wheat (pita), egg (mayo)",
+    "ingredients": []
+  },
+  {
+    "id": "D073",
+    "name": "Lovely Hummus",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "unknown (homemade hummus)",
+    "ingredients": []
+  },
+  {
+    "id": "D074",
+    "name": "Fancy Seitan",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "wheat (seitan, pita), unknown (vegan chipotle mayo)",
+    "ingredients": [
+      "Marinated seitan",
+      "Caramelized onions",
+      "Pickled roasted pepper",
+      "Lettuce",
+      "Vegan chipotle mayonnaise",
+      "Vegan pita bread"
+    ]
+  },
+  {
+    "id": "D075",
+    "name": "Vegan Grill Chicken Sandwich",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "unknown (house-made vegan chicken, vegan cheese, vegan mayo)",
+    "ingredients": [
+      "House-made vegan chicken",
+      "Vegan mayonnaise",
+      "Roasted peppers",
+      "Vegan cheese",
+      "Sliced apple",
+      "Fresh lettuce",
+      "Vegan pita bread"
+    ]
+  },
+  {
+    "id": "D076",
+    "name": "Dungeon Sandwich",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "dairy (parmesan), wheat (pita), unknown (vegan fried chicken, chipotle mayo)",
+    "ingredients": [
+      "Vegan fried chicken",
+      "Parmesan cheese",
+      "Lettuce",
+      "Tomato",
+      "Chipotle mayonnaise",
+      "Vegan pita bread"
+    ]
+  },
+  {
+    "id": "D077",
+    "name": "Vegan Meatball",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "unknown (vegan meatballs, marinara sauce, vegan cheese)",
+    "ingredients": []
+  },
+  {
+    "id": "D078",
+    "name": "Surprise Me",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "unknown (vegan cheese, vegan mayo)",
+    "ingredients": []
+  },
+  {
+    "id": "D079",
+    "name": "Vegan Italian Salami",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "unknown (vegan salami, vegan cheese, vegan mayo)",
+    "ingredients": []
+  },
+  {
+    "id": "D080",
+    "name": "Birmingham Sandwich",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (cheese), wheat (pita)",
+    "ingredients": []
+  },
+  {
+    "id": "D081",
+    "name": "Italian Sandwich",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "unknown (vegan salami, vegan chipotle)",
+    "ingredients": []
+  },
+  {
+    "id": "D082",
+    "name": "Fresh Caesar Salad",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "dairy (parmesan), wheat (croutons), unknown (Caesar dressing)",
+    "ingredients": []
+  },
+  {
+    "id": "D083",
+    "name": "Fresh Vegan Caesar Salad",
+    "restaurant": "Adam and Eve Cafe",
+    "location": "Birmingham AL",
+    "level": "Building",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "unknown (baba ganoush)",
+    "ingredients": []
+  }
+]
