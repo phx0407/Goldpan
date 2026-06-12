@@ -9,7 +9,8 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "chicken",
       "olive oil",
@@ -35,7 +36,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "chicken",
       "panko breadcrumbs",
@@ -51,7 +53,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "impossible burger patty",
       "brioche bun",
@@ -69,7 +72,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "chicken salad mix",
       "bread (sandwich bread)",
@@ -88,7 +92,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "angel hair pasta",
       "meatballs",
@@ -104,7 +109,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "french toast baguette",
       "red velvet cake crumbles",
@@ -120,7 +126,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "beyond burger patty",
       "burger bun",
@@ -137,7 +144,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "cajun grilled chicken",
       "lettuce",
@@ -158,7 +166,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "chicken",
       "shrimp",
@@ -175,7 +184,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "grilled chicken",
       "lettuce",
@@ -193,7 +203,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "acai",
       "coconut milk",
@@ -218,7 +229,8 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "chicken",
       "edamame",
@@ -239,7 +251,8 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "brussels sprouts",
       "remoulade"
@@ -255,7 +268,8 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "tender greens",
       "butternut squash",
@@ -277,7 +291,8 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "spinach",
       "romaine",
@@ -294,7 +309,8 @@
       "vegan"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "farro",
       "kale",
@@ -312,7 +328,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "red sauce",
       "cheese blend",
@@ -345,7 +362,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "red sauce",
       "jalapeños",
@@ -361,7 +379,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "vodka sauce",
       "cheese blend",
@@ -376,7 +395,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "red sauce",
       "cheese blend",
@@ -392,7 +412,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "brussels sprouts",
       "pickled red onion",
@@ -412,7 +433,8 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "potatoes",
       "chorizo",
@@ -432,7 +454,8 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "shrimp",
       "pimento grits",
@@ -449,7 +472,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "avocado",
       "west indies crab",
@@ -467,7 +491,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "waffle",
       "quail",
@@ -486,7 +511,8 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "egg white",
       "mozzarella",
@@ -505,7 +531,8 @@
       "vegan"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "plant-based patty",
       "vegan bacon",
@@ -527,7 +554,8 @@
       "vegan"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "plant-based patty",
       "sweet jerk plantains",
@@ -549,7 +577,8 @@
       "vegan"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "plant-based patty",
       "jalapenos",
@@ -571,7 +600,8 @@
       "vegan"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "plant-based patty",
       "pickle",
@@ -593,7 +623,8 @@
       "vegan"
     ],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "fries",
       "vegan beef",
@@ -612,7 +643,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "Unknown",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "cabbage & cilantro blend",
       "romaine",
@@ -633,7 +665,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "fish",
-    "meal_period": "yes",
+    "hours": "yes",
+    "menu_link": "",
     "ingredients": [
       "spinach",
       "norwegian salmon",
@@ -653,7 +686,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy",
-    "meal_period": "yes",
+    "hours": "yes",
+    "menu_link": "",
     "ingredients": [
       "kale",
       "avocado",
@@ -673,7 +707,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "shellfish",
-    "meal_period": "yes",
+    "hours": "yes",
+    "menu_link": "",
     "ingredients": [
       "cabbage & cilantro blend",
       "romaine",
@@ -694,7 +729,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy, gluten",
-    "meal_period": "yes",
+    "hours": "yes",
+    "menu_link": "",
     "ingredients": [
       "romaine",
       "panko fried chicken",
@@ -717,7 +753,8 @@
       "vegan"
     ],
     "allergens": "wheat (pita), unknown (sauce)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Avocado",
       "Roasted peppers",
@@ -737,7 +774,8 @@
       "vegan"
     ],
     "allergens": "soy (tofu), wheat (pita)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Baked tofu",
       "Caramelized onions",
@@ -754,7 +792,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (cheese), wheat (bread), unknown (tuna salad)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Tuna salad",
       "Cheddar cheese",
@@ -772,7 +811,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (mozzarella), tree nuts (pesto)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Grilled chicken",
       "Roasted peppers",
@@ -791,7 +831,8 @@
       "vegetarian"
     ],
     "allergens": "dairy (mozzarella), tree nuts (pesto, pistachios)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Mozzarella cheese",
       "Grilled cherry tomatoes",
@@ -809,7 +850,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "fish (salmon), unknown (vinaigrette, tortilla chips)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Warm quinoa",
       "Spring mix",
@@ -834,7 +876,8 @@
       "vegetarian"
     ],
     "allergens": "dairy (goat cheese), unknown (vinaigrette)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Warm quinoa",
       "Arugula",
@@ -857,7 +900,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (blue cheese dressing), egg",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Shredded kale",
       "Chopped romaine",
@@ -878,7 +922,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "unknown (impossible meat, vinaigrette, tortilla strips)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Roasted corn",
       "Avocado",
@@ -899,7 +944,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "unknown (vinaigrette, tortilla chips)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Spring mix",
       "Roasted chicken",
@@ -917,7 +963,8 @@
       "vegetarian"
     ],
     "allergens": "sesame (sesame seeds), unknown (garlic-ginger sauce)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Cauliflower",
       "Garlic-ginger sauce",
@@ -935,7 +982,8 @@
       "vegetarian"
     ],
     "allergens": "soy (tofu), tree nuts (nuts), unknown (yum-yum sauce)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Tofu",
       "Carrots",
@@ -953,7 +1001,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "fish (salmon), dairy (butter, risotto)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Salmon",
       "Lemongrass butter",
@@ -969,7 +1018,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (muenster), egg (garlic mayo)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Kobe beef patty",
       "Muenster cheese",
@@ -987,7 +1037,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "wheat (wontons), dairy (kimchi queso, cotija)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Wontons",
       "Kimchi queso",
@@ -1005,7 +1056,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (smoked feta), wheat (pasta), unknown (balsamic glaze)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "pasta",
       "artisanal lettuces",
@@ -1027,7 +1079,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (smoked feta), soy (edamame), fish (tuna), sesame (tuna), unknown (Green Goddess dressing)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "quinoa",
       "kale + broccoli slaw",
@@ -1050,7 +1103,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "fish (tuna), soy (orange ginger soy, edamame)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "tuna",
       "quinoa",
@@ -1067,7 +1121,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (smoked feta), wheat (flour tortillas)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "flour tortillas",
       "flank steak",
@@ -1086,7 +1141,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (pimento cheese), wheat (egg roll wrapper)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "egg roll wrapper",
       "Conecuh sausage",
@@ -1104,7 +1160,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "wheat (flatbread), dairy (mozzarella, CE Chipotle Ranch), egg (CE Chipotle Ranch)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "shredded beef",
       "flatbread",
@@ -1122,7 +1179,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "wheat (whole wheat wrap), dairy (mozzarella), soy (CE Sweet Chili)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "whole wheat wrap",
       "chicken",
@@ -1143,7 +1201,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "wheat (whole wheat wrap), dairy (mozzarella, CE Buffalo), egg (CE Buffalo)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "whole wheat wrap",
       "shredded beef",
@@ -1166,7 +1225,8 @@
       "gluten-free"
     ],
     "allergens": "multiple allergens possible by sauce selection (egg, dairy, peanut, soy, sesame)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "gluten-free breaded chicken",
       "sauce option - Epic Sauce",
@@ -1192,7 +1252,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "multiple allergens possible by protein selection (soy/wheat, fish, shellfish); egg (CE Epic Sauce), dairy (mozzarella)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "protein option - black bean patty",
       "protein option - diced chicken",
@@ -1219,7 +1280,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "fish (smoked salmon), dairy (cream cheese)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Smoked salmon",
       "Arugula",
@@ -1240,7 +1302,8 @@
       "vegan"
     ],
     "allergens": "tree nuts (crushed almonds)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1251,7 +1314,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "wheat (bagel), dairy (cream cheese), tree nuts (peanut butter)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1262,7 +1326,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "wheat (pita), dairy (Swiss), egg (mayo)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1273,7 +1338,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "fish (tuna salad), dairy (cheddar), wheat (pita)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1284,7 +1350,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (Swiss), wheat (pita), egg (mayo)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1295,7 +1362,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (Swiss), wheat (pita), egg (chipotle mayo)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1306,7 +1374,8 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "dairy (Swiss), wheat (pita), unknown (BBQ sauce)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Grilled chicken",
       "Jalapeño",
@@ -1324,7 +1393,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (Swiss), wheat (pita), unknown (chipotle sauce)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1335,7 +1405,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (Swiss), wheat (pita), egg (mayo)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1348,7 +1419,8 @@
       "vegan"
     ],
     "allergens": "unknown (homemade hummus)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1361,7 +1433,8 @@
       "vegan"
     ],
     "allergens": "wheat (seitan, pita), unknown (vegan chipotle mayo)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Marinated seitan",
       "Caramelized onions",
@@ -1381,7 +1454,8 @@
       "vegan"
     ],
     "allergens": "unknown (house-made vegan chicken, vegan cheese, vegan mayo)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "House-made vegan chicken",
       "Vegan mayonnaise",
@@ -1402,7 +1476,8 @@
       "vegan"
     ],
     "allergens": "dairy (parmesan), wheat (pita), unknown (vegan fried chicken, chipotle mayo)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": [
       "Vegan fried chicken",
       "Parmesan cheese",
@@ -1422,7 +1497,8 @@
       "vegan"
     ],
     "allergens": "unknown (vegan meatballs, marinara sauce, vegan cheese)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1435,7 +1511,8 @@
       "vegan"
     ],
     "allergens": "unknown (vegan cheese, vegan mayo)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1448,7 +1525,8 @@
       "vegan"
     ],
     "allergens": "unknown (vegan salami, vegan cheese, vegan mayo)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1459,7 +1537,8 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy (cheese), wheat (pita)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1472,7 +1551,8 @@
       "vegan"
     ],
     "allergens": "unknown (vegan salami, vegan chipotle)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1485,7 +1565,8 @@
       "vegetarian"
     ],
     "allergens": "dairy (parmesan), wheat (croutons), unknown (Caesar dressing)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
   },
   {
@@ -1498,7 +1579,262 @@
       "vegan"
     ],
     "allergens": "unknown (baba ganoush)",
-    "meal_period": "All Day",
+    "hours": "",
+    "menu_link": "",
     "ingredients": []
+  },
+  {
+    "id": "D084",
+    "name": "Granola & Yogurt",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": "dairy (yogurt), tree nuts (coconut, almond)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "whipped yogurt",
+      "coconut almond granola",
+      "fresh fruit"
+    ]
+  },
+  {
+    "id": "D085",
+    "name": "Caesar Salad",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "wheat (breadcrumbs), dairy (parmigiano), egg (caesar dressing - undisclosed)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "romaine lettuce",
+      "garlic breadcrumbs",
+      "parmigiano",
+      "caesar dressing"
+    ]
+  },
+  {
+    "id": "D086",
+    "name": "Five Grain Salad",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": "dairy (whipped feta), tree nuts (walnuts)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "mixed lettuces",
+      "whipped feta",
+      "walnuts",
+      "crispy quinoa",
+      "avocado",
+      "farro",
+      "barley",
+      "wheat berry"
+    ]
+  },
+  {
+    "id": "D087",
+    "name": "Avocado Toast",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "High",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "wheat (bread), dairy (cream cheese), egg (poached egg), sesame (everything spice)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "toast",
+      "avocado",
+      "chive cream cheese",
+      "roasted peppers",
+      "poached egg",
+      "everything spice"
+    ]
+  },
+  {
+    "id": "D088",
+    "name": "Eggs Benedict",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "High",
+    "tags": [],
+    "allergens": "wheat (english muffin), dairy (hollandaise), egg (poached eggs, hollandaise)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "english muffin",
+      "smoked salmon",
+      "housemade ham",
+      "poached eggs",
+      "hollandaise"
+    ]
+  },
+  {
+    "id": "D089",
+    "name": "Banana Bread French Toast",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "wheat (banana bread), dairy (mascarpone), egg (french toast - undisclosed), tree nuts (walnuts)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "banana bread",
+      "mascarpone",
+      "walnut caramel",
+      "strawberry compote"
+    ]
+  },
+  {
+    "id": "D090",
+    "name": "Honey Butter Pancakes",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": "dairy (honey butter), wheat (pancakes - undisclosed), egg (pancakes - undisclosed)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "pancakes",
+      "maple syrup",
+      "eastaboga honey butter"
+    ]
+  },
+  {
+    "id": "D091",
+    "name": "Fried Chicken Biscuit",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "High",
+    "tags": [],
+    "allergens": "wheat (biscuit, fried coating), dairy (buttermilk, ranch)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "buttermilk biscuit",
+      "buttermilk fried chicken breast",
+      "spicy honey calabrian sauce",
+      "ranch"
+    ]
+  },
+  {
+    "id": "D092",
+    "name": "Essential Hash",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "High",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "egg (scrambled eggs)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "pan fried potatoes",
+      "breakfast sausage",
+      "pickled peppers",
+      "caramelized onions",
+      "scrambled eggs",
+      "salsa verde"
+    ]
+  },
+  {
+    "id": "D093",
+    "name": "Tomatoes and Grits",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "High",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "dairy (parmesan), egg (poached egg)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "yellow corn grits",
+      "Bear Creek pork belly",
+      "roasted tomatoes",
+      "poached egg",
+      "parmesan",
+      "chives"
+    ]
+  },
+  {
+    "id": "D094",
+    "name": "Rigatoni Bolognese",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (rigatoni), dairy (manchego)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "rigatoni",
+      "housemade chorizo",
+      "tomato bolognese sauce",
+      "manchego"
+    ]
+  },
+  {
+    "id": "D095",
+    "name": "Cheeseburger",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "High",
+    "tags": [],
+    "allergens": "wheat (bun), dairy (cheddar), egg (russian, dijonaise - undisclosed)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "housemade bun",
+      "Bear Creek dry-aged beef patties",
+      "sharp american cheddar",
+      "russian dressing",
+      "dijonaise",
+      "shredded lettuce",
+      "pickles"
+    ]
+  },
+  {
+    "id": "D096",
+    "name": "Steak & Eggs",
+    "restaurant": "The Essential",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "egg (two eggs, hollandaise), dairy (hollandaise)",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "ingredients": [
+      "Bear Creek steak (bo round)",
+      "eggs",
+      "hollandaise",
+      "salsa verde"
+    ]
   }
 ]
