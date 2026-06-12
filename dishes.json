@@ -1841,7 +1841,7 @@
     "id": "D097",
     "name": "Arancini",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "vegetarian"
@@ -1849,7 +1849,11 @@
     "allergens": "dairy (mozzarella), wheat (breading - undisclosed)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": []
+    "ingredients": [
+      "crispy rice balls",
+      "mozzarella",
+      "calabrian chili sauce"
+    ]
   },
   {
     "id": "D098",
@@ -1868,7 +1872,8 @@
     "ingredients": [
       "Rancho Gordo chickpea hummus",
       "Santa Cruz olive oil",
-      "pickles"
+      "pickles",
+      "sourdough bread"
     ]
   },
   {
@@ -1884,7 +1889,10 @@
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
-      "thyme"
+      "thyme",
+      "housemade sourdough",
+      "roasted local mushrooms",
+      "creme fraiche"
     ]
   },
   {
@@ -1900,7 +1908,9 @@
     "ingredients": [
       "Bear Creek beef",
       "crispy shallots",
-      "capers"
+      "capers",
+      "beef tallow mayo",
+      "semolina cracker"
     ]
   },
   {
@@ -1917,9 +1927,14 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
       "ginger",
+      "smoked salmon",
+      "apples",
       "celery",
       "ricotta salata",
-      "peanut & pumpkin seed crunch"
+      "peanut & pumpkin seed crunch",
+      "charred cucumber",
+      "yuzu",
+      "dill"
     ]
   },
   {
@@ -1937,7 +1952,9 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
       "wild ramp vinaigrette",
-      "basil oil"
+      "basil oil",
+      "Liuzi fior di latte mozzarella",
+      "heirloom tomatoes"
     ]
   },
   {
@@ -1955,14 +1972,16 @@
     "ingredients": [
       "agnolotti pasta",
       "herbed ricotta",
-      "goat cheese"
+      "goat cheese",
+      "sungold tomato sauce",
+      "saffron butter"
     ]
   },
   {
     "id": "D104",
     "name": "Spaghetti",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "vegetarian"
@@ -1970,7 +1989,12 @@
     "allergens": "wheat (spelt flour), dairy (cheese, butter), soy (miso - undisclosed)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": []
+    "ingredients": [
+      "spelt flour spaghetti",
+      "miso butter",
+      "pecorino romano",
+      "zanzibar peppercorns"
+    ]
   },
   {
     "id": "D105",
@@ -1985,6 +2009,9 @@
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
+      "casarecce pasta",
+      "morel mushrooms",
+      "broccoli",
       "Shelburne aged cheddar",
       "herbed breadcrumbs"
     ]
@@ -2004,16 +2031,16 @@
       "Gulf shrimp",
       "summer squash",
       "zucchini",
+      "picholine olives",
       "fennel",
-      "tomato ragu",
-      "picholine olives"
+      "tomato ragu"
     ]
   },
   {
     "id": "D107",
     "name": "Rainbow Trout",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "gluten-free"
@@ -2021,7 +2048,12 @@
     "allergens": "fish (rainbow trout), dairy (cream sauce)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": []
+    "ingredients": [
+      "rainbow trout",
+      "spinach and sorrel cream sauce",
+      "Carolina Gold rice",
+      "salsa seca"
+    ]
   },
   {
     "id": "D108",
@@ -2046,7 +2078,7 @@
     "id": "D109",
     "name": "Bistro Steak",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "gluten-free"
@@ -2054,7 +2086,12 @@
     "allergens": "none identified",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": []
+    "ingredients": [
+      "Bear Creek bistro steak",
+      "confit fingerling potatoes",
+      "arugula",
+      "pearl onion balsamic sauce"
+    ]
   },
   {
     "id": "D110",
@@ -2070,6 +2107,7 @@
       "housemade chorizo",
       "tomato bolognese sauce",
       "creme fraiche",
+      "rigatoni",
       "manchego"
     ]
   }
