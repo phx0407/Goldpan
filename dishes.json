@@ -1841,7 +1841,7 @@
     "id": "D097",
     "name": "Arancini",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [
       "vegetarian"
@@ -1849,17 +1849,13 @@
     "allergens": "dairy (mozzarella), wheat (breading - undisclosed)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": [
-      "crispy rice balls",
-      "mozzarella",
-      "calabrian chili sauce"
-    ]
+    "ingredients": []
   },
   {
     "id": "D098",
     "name": "Hummus + Pickles",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [
       "vegetarian",
@@ -1869,12 +1865,7 @@
     "allergens": "wheat (sourdough bread), sesame (tahini in hummus - undisclosed)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": [
-      "Rancho Gordo chickpea hummus",
-      "Santa Cruz olive oil",
-      "pickles",
-      "sourdough bread"
-    ]
+    "ingredients": []
   },
   {
     "id": "D099",
@@ -1889,10 +1880,7 @@
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
-      "thyme",
-      "housemade sourdough",
-      "roasted local mushrooms",
-      "creme fraiche"
+      "thyme"
     ]
   },
   {
@@ -1908,9 +1896,7 @@
     "ingredients": [
       "Bear Creek beef",
       "crispy shallots",
-      "capers",
-      "beef tallow mayo",
-      "semolina cracker"
+      "capers"
     ]
   },
   {
@@ -1927,14 +1913,10 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
       "ginger",
-      "smoked salmon",
-      "apples",
       "celery",
       "ricotta salata",
       "peanut & pumpkin seed crunch",
-      "charred cucumber",
-      "yuzu",
-      "dill"
+      "charred cucumber"
     ]
   },
   {
@@ -1952,9 +1934,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
       "wild ramp vinaigrette",
-      "basil oil",
-      "Liuzi fior di latte mozzarella",
-      "heirloom tomatoes"
+      "basil oil"
     ]
   },
   {
@@ -1990,17 +1970,14 @@
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
-      "spelt flour spaghetti",
-      "miso butter",
-      "pecorino romano",
-      "zanzibar peppercorns"
+      "spelt flour spaghetti"
     ]
   },
   {
     "id": "D105",
     "name": "Casarecce",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [
       "vegetarian"
@@ -2008,13 +1985,7 @@
     "allergens": "wheat (pasta, breadcrumbs), dairy (Shelburne cheddar)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": [
-      "casarecce pasta",
-      "morel mushrooms",
-      "broccoli",
-      "Shelburne aged cheddar",
-      "herbed breadcrumbs"
-    ]
+    "ingredients": []
   },
   {
     "id": "D106",
@@ -2028,10 +1999,10 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
       "squid ink canestri pasta",
-      "Gulf shrimp",
-      "summer squash",
       "zucchini",
       "picholine olives",
+      "Gulf shrimp",
+      "summer squash",
       "fennel",
       "tomato ragu"
     ]
@@ -2059,7 +2030,7 @@
     "id": "D108",
     "name": "Half Chicken Piri Piri",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "High",
     "tags": [
       "gluten-free"
@@ -2067,12 +2038,7 @@
     "allergens": "peanuts (peanut-lime gremolata)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": [
-      "Joyce Farms half chicken",
-      "ginger guajillo marinade",
-      "peanut-lime gremolata",
-      "fries"
-    ]
+    "ingredients": []
   },
   {
     "id": "D109",
@@ -2105,10 +2071,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
       "housemade chorizo",
-      "tomato bolognese sauce",
-      "creme fraiche",
-      "rigatoni",
-      "manchego"
+      "rigatoni"
     ]
   }
 ]
