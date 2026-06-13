@@ -1841,21 +1841,23 @@
     "id": "D097",
     "name": "Arancini",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "vegetarian"
-    ],
-    "allergens": "dairy (mozzarella), wheat (breading - undisclosed)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
-    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": []
+    "tags": [],
+    "allergens": "Unknown",
+    "hours": "",
+    "menu_link": "",
+    "ingredients": [
+      "crispy rice balls",
+      "mozzarella",
+      "calabrian chili sauce"
+    ]
   },
   {
     "id": "D098",
     "name": "Hummus + Pickles",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "vegetarian",
@@ -1865,7 +1867,12 @@
     "allergens": "wheat (sourdough bread), sesame (tahini in hummus - undisclosed)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": []
+    "ingredients": [
+      "Rancho Gordo chickpea hummus",
+      "Santa Cruz olive oil",
+      "pickles",
+      "sourdough bread"
+    ]
   },
   {
     "id": "D099",
@@ -1880,6 +1887,9 @@
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
+      "housemade sourdough",
+      "roasted local mushrooms",
+      "creme fraiche",
       "thyme"
     ]
   },
@@ -1896,7 +1906,9 @@
     "ingredients": [
       "Bear Creek beef",
       "crispy shallots",
-      "capers"
+      "capers",
+      "beef tallow mayo",
+      "semolina cracker"
     ]
   },
   {
@@ -1912,11 +1924,15 @@
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
-      "ginger",
-      "celery",
       "ricotta salata",
       "peanut & pumpkin seed crunch",
-      "charred cucumber"
+      "charred cucumber",
+      "smoked salmon",
+      "apples",
+      "ginger",
+      "celery",
+      "yuzu",
+      "dill"
     ]
   },
   {
@@ -1934,6 +1950,8 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
       "wild ramp vinaigrette",
+      "Liuzi fior di latte mozzarella",
+      "heirloom tomatoes",
       "basil oil"
     ]
   },
@@ -1970,14 +1988,17 @@
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
-      "spelt flour spaghetti"
+      "spelt flour spaghetti",
+      "miso butter",
+      "pecorino romano",
+      "zanzibar peppercorns"
     ]
   },
   {
     "id": "D105",
     "name": "Casarecce",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "vegetarian"
@@ -1985,7 +2006,13 @@
     "allergens": "wheat (pasta, breadcrumbs), dairy (Shelburne cheddar)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": []
+    "ingredients": [
+      "casarecce pasta",
+      "morel mushrooms",
+      "broccoli",
+      "Shelburne aged cheddar",
+      "herbed breadcrumbs"
+    ]
   },
   {
     "id": "D106",
@@ -1998,13 +2025,13 @@
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
-      "squid ink canestri pasta",
       "zucchini",
       "picholine olives",
       "Gulf shrimp",
       "summer squash",
-      "fennel",
-      "tomato ragu"
+      "tomato ragu",
+      "squid ink canestri pasta",
+      "fennel"
     ]
   },
   {
@@ -2030,7 +2057,7 @@
     "id": "D108",
     "name": "Half Chicken Piri Piri",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "High",
     "tags": [
       "gluten-free"
@@ -2038,7 +2065,12 @@
     "allergens": "peanuts (peanut-lime gremolata)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
-    "ingredients": []
+    "ingredients": [
+      "Joyce Farms half chicken",
+      "ginger guajillo marinade",
+      "peanut-lime gremolata",
+      "fries"
+    ]
   },
   {
     "id": "D109",
@@ -2053,10 +2085,10 @@
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
-      "Bear Creek bistro steak",
-      "confit fingerling potatoes",
       "arugula",
-      "pearl onion balsamic sauce"
+      "pearl onion balsamic sauce",
+      "Bear Creek bistro steak",
+      "confit fingerling potatoes"
     ]
   },
   {
@@ -2070,8 +2102,11 @@
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "ingredients": [
+      "rigatoni",
       "housemade chorizo",
-      "rigatoni"
+      "tomato bolognese sauce",
+      "creme fraiche",
+      "manchego"
     ]
   },
   {
@@ -2086,27 +2121,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "ingredients": [
       "certified angus braised beef brisket",
-      "caramelized onions",
-      "white barbecue sauce",
-      "pain de mie flatbread"
-    ]
-  },
-  {
-    "id": "D112",
-    "name": "Chick & Tin",
-    "restaurant": "Brick & Tin Mountain Brook",
-    "location": "Mountain Brook, AL",
-    "level": "High",
-    "tags": [],
-    "allergens": "wheat (pain de mie flatbread), dairy (swiss cheese)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
-    "ingredients": [
-      "Joyce Farms flash fried chicken",
-      "house pickles",
-      "homemade honey-mustard",
-      "swiss cheese",
-      "pain de mie flatbread"
+      "white barbecue sauce"
     ]
   },
   {
@@ -2130,23 +2145,6 @@
     ]
   },
   {
-    "id": "D114",
-    "name": "Key Circle Hot Ham & Cheese",
-    "restaurant": "Brick & Tin Mountain Brook",
-    "location": "Mountain Brook, AL",
-    "level": "Moderate",
-    "tags": [],
-    "allergens": "wheat (pain de mie loaf), dairy (swiss cheese), egg (mustard aioli - undisclosed)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
-    "ingredients": [
-      "black forest ham",
-      "whole grain mustard aioli",
-      "swiss cheese",
-      "pain de mie loaf"
-    ]
-  },
-  {
     "id": "D115",
     "name": "Spring Chicken",
     "restaurant": "Brick & Tin Mountain Brook",
@@ -2157,8 +2155,6 @@
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "ingredients": [
-      "Joyce Farms roasted chicken",
-      "roasted garlic aioli",
       "pecorino romano",
       "spinach",
       "focaccia"
@@ -2177,29 +2173,7 @@
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "ingredients": [
-      "roasted portobello mushrooms",
-      "roasted tomatoes",
-      "provolone cheese",
-      "basil pesto",
-      "focaccia"
-    ]
-  },
-  {
-    "id": "D117",
-    "name": "Patty Melt",
-    "restaurant": "Brick & Tin Mountain Brook",
-    "location": "Mountain Brook, AL",
-    "level": "Moderate",
-    "tags": [],
-    "allergens": "wheat (pain de mie loaf), dairy (yellow cheddar), egg (aioli - undisclosed)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
-    "ingredients": [
-      "certified angus beef patty",
-      "thinly sliced red onion",
-      "heinz 57 aioli",
-      "yellow cheddar",
-      "pain de mie loaf"
+      "roasted portobello mushrooms"
     ]
   },
   {
@@ -2215,32 +2189,12 @@
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "ingredients": [
-      "iceberg lettuce",
       "carrots",
       "cheddar",
       "pickled onions",
       "cherry tomatoes",
       "croutons",
       "buttermilk ranch"
-    ]
-  },
-  {
-    "id": "D119",
-    "name": "Simple Salad",
-    "restaurant": "Brick & Tin Mountain Brook",
-    "location": "Mountain Brook, AL",
-    "level": "Building",
-    "tags": [
-      "vegan",
-      "gluten-free"
-    ],
-    "allergens": "none identified",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
-    "ingredients": [
-      "spinach",
-      "romaine",
-      "champagne vinaigrette"
     ]
   },
   {
@@ -2290,27 +2244,6 @@
     ]
   },
   {
-    "id": "D122",
-    "name": "Bluebird",
-    "restaurant": "Brick & Tin Mountain Brook",
-    "location": "Mountain Brook, AL",
-    "level": "Moderate",
-    "tags": [],
-    "allergens": "dairy (bleu cheese dressing), egg (dressing - undisclosed)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
-    "ingredients": [
-      "romaine",
-      "spinach",
-      "all-natural fried chicken",
-      "bacon",
-      "avocado",
-      "cherry tomatoes",
-      "bleu cheese dressing",
-      "champagne vinaigrette"
-    ]
-  },
-  {
     "id": "D123",
     "name": "Pork Belly Lettuce Wraps",
     "restaurant": "Brick & Tin Mountain Brook",
@@ -2328,24 +2261,6 @@
       "red cabbage slaw",
       "sweet & spicy chili sauce",
       "bibb lettuce"
-    ]
-  },
-  {
-    "id": "D124",
-    "name": "Crispy Spring Onion Tempura",
-    "restaurant": "Brick & Tin Mountain Brook",
-    "location": "Mountain Brook, AL",
-    "level": "Moderate",
-    "tags": [
-      "vegetarian"
-    ],
-    "allergens": "wheat (tempura batter - undisclosed)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
-    "ingredients": [
-      "locally grown baby spring onions",
-      "tempura batter",
-      "sweet chili sauce"
     ]
   },
   {
