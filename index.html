@@ -188,8 +188,6 @@
     <ul class="nav-links">
       <li><a href="#how">How It Works</a></li>
       <li><a href="/discover">Discover</a></li>
-      
-      <li><a href="#score">Our Score</a></li>
       <li><a href="/partners">For Restaurants</a></li>
       <li><a href="#waitlist" class="nav-cta">Join Waitlist</a></li>
     </ul>
@@ -206,7 +204,6 @@
     <ul class="drawer-links">
       <li><a href="#how" onclick="closeDrawer()">How It Works</a></li>
       <li><a href="/discover" onclick="closeDrawer()">Discover</a></li>
-      <li><a href="#score" onclick="closeDrawer()">Our Score</a></li>
       <li><a href="/partners" onclick="closeDrawer()">For Restaurants</a></li>
     </ul>
     <a href="#waitlist" class="drawer-cta" onclick="closeDrawer()">Join Waitlist</a>
@@ -226,7 +223,7 @@
     <div class="hero-stats">
       <div class="stat"><div class="stat-number" id="stat-rest-count">–</div><div class="stat-label">Restaurants</div></div>
       <div class="stat"><div class="stat-number" id="stat-dish-count">–</div><div class="stat-label">Dishes Scored</div></div>
-      <div class="stat"><div class="stat-number">100</div><div class="stat-label">Point Scale</div></div>
+      <div class="stat"><div class="stat-number">4</div><div class="stat-label">Dimensions Reviewed</div></div>
     </div>
   </section>
   <div class="ticker" aria-hidden="true">
@@ -282,7 +279,7 @@
     <h2 class="how-headline">Clarity Has a<br />Score Now</h2>
     <div class="steps">
       <div class="step"><div class="step-num">01</div><div class="step-title">We Map the Menu</div><div class="step-text">Every dish is broken down ingredient by ingredient. Protein, base, sauces, seasonings. Exactly as described. No inference. No guessing.</div></div>
-      <div class="step"><div class="step-num">02</div><div class="step-title">We Score the Clarity</div><div class="step-text">Each dish gets a Transparency Score from 0 to 100 across four dimensions: ingredient clarity, sauce disclosure, allergen transparency, and prep inputs.</div></div>
+      <div class="step"><div class="step-num">02</div><div class="step-title">We Assess the Clarity</div><div class="step-text">Each dish receives a transparency level — Building, Moderate, or High — based on how clearly a restaurant communicates across four dimensions: ingredients, sauces, allergens, and preparation.</div></div>
       <div class="step"><div class="step-num">03</div><div class="step-title">You See What Is Disclosed</div><div class="step-text">Filter by allergen or dietary need and instantly see which dishes are clear, which are unknown, and what the restaurant has shared.</div></div>
     </div>
   </section>
@@ -307,40 +304,33 @@
   <section class="score section" id="score">
     <div class="score-grid">
       <div>
-        <p class="section-label">The Transparency Score</p>
-        <h2 class="score-headline">100 Points.<br />4 Dimensions.</h2>
-        <p class="score-body">Every dish is scored on what a customer actually needs to know. Every score is a starting point, not a verdict. Confirmation raises it.</p>
-        <div class="score-dims">
-          <div class="score-dim"><div class="score-dim-label">Core Ingredient Clarity</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:100%"></div></div><div class="score-dim-val">25</div></div>
-          <div class="score-dim"><div class="score-dim-label">Sauce and Seasoning Disclosure</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:60%"></div></div><div class="score-dim-val">15</div></div>
-          <div class="score-dim"><div class="score-dim-label">Allergen Transparency</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:20%"></div></div><div class="score-dim-val">5</div></div>
-          <div class="score-dim"><div class="score-dim-label">Prep Input Clarity</div><div class="score-dim-bar"><div class="score-dim-fill" style="width:60%"></div></div><div class="score-dim-val">15</div></div>
-        </div>
-        <div class="score-levels">
-          <div class="score-level"><div class="score-level-range">85-100</div><div class="score-level-label">High Transparency</div></div>
-          <div class="score-level"><div class="score-level-range">60-84</div><div class="score-level-label">Moderate Transparency</div></div>
-          <div class="score-level"><div class="score-level-range">30-59</div><div class="score-level-label">Building Transparency</div></div>
-          <div class="score-level"><div class="score-level-range">0-29</div><div class="score-level-label">Early Stage</div></div>
+        <p class="section-label">What Diners See</p>
+        <h2 class="score-headline">Transparency<br />Levels, Not<br />Grades.</h2>
+        <p class="score-body">Every dish is reviewed across four dimensions — ingredient clarity, sauce disclosure, allergen information, and preparation. Diners see what a restaurant disclosed, framed as recognition, never as a grade.</p>
+        <div class="score-levels" style="margin-top:32px;">
+          <div class="score-level"><div class="score-level-range" style="color:#4CAF76;width:80px;">High</div><div class="score-level-label">Full or near-full disclosure across all dimensions</div></div>
+          <div class="score-level"><div class="score-level-range" style="color:#C9A84C;width:80px;">Moderate</div><div class="score-level-label">Strong disclosure with some gaps</div></div>
+          <div class="score-level"><div class="score-level-range" style="color:#9A9488;width:80px;">Building</div><div class="score-level-label">Incomplete disclosure — more to confirm</div></div>
         </div>
       </div>
       <div class="dish-card">
         <div class="dish-restaurant">Real and Rosemary · Homewood</div>
-        <div class="dish-name">Chicken Poppers Appetizer</div>
-        <div class="dish-tags">
-          <span class="tag tag-flag">Contains Wheat</span>
-          <span class="tag tag-flag">Contains Mustard</span>
-          <span class="tag tag-unknown">Allergens Unverified</span>
+        <div class="dish-name">Grilled Herb Chicken</div>
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:36px;line-height:1;color:#C9A84C;margin-bottom:12px;">Moderate Transparency</div>
+        <div style="height:3px;background:#222222;margin-bottom:28px;overflow:hidden;"><div style="height:100%;width:70%;background:#C9A84C;"></div></div>
+        <div style="background:#1A1A1A;border:1px solid #222222;padding:20px;margin-bottom:20px;">
+          <div style="font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#9A9488;margin-bottom:10px;">What This Restaurant Disclosed</div>
+          <div style="font-size:12px;color:#9A9488;padding:6px 0;border-bottom:1px solid #1A1A1A;display:flex;align-items:center;gap:8px;"><span style="width:5px;height:5px;border-radius:50%;background:#C9A84C;display:inline-block;flex-shrink:0;"></span>Core ingredients clearly named</div>
+          <div style="font-size:12px;color:#9A9488;padding:6px 0;display:flex;align-items:center;gap:8px;"><span style="width:5px;height:5px;border-radius:50%;background:#C9A84C;display:inline-block;flex-shrink:0;"></span>Sauce and seasoning disclosed</div>
         </div>
-        <div class="dish-score"><div class="dish-score-num">60</div><div class="dish-score-denom">/100</div></div>
-        <div class="dish-score-label">Moderate Transparency</div>
-        <div class="dish-score-context">16 points above the current Birmingham average of 44</div>
         <div class="dish-ing">
           <div class="dish-ing-title">Ingredients on record</div>
           <div class="dish-ing-list">
             <span class="ing-pill">Chicken</span>
-            <span class="ing-pill">Panko Breadcrumbs</span>
-            <span class="ing-pill">Sorghum Honey Mustard</span>
-            <span class="ing-pill">Frying Oil</span>
+            <span class="ing-pill">Olive Oil</span>
+            <span class="ing-pill">Rosemary</span>
+            <span class="ing-pill">Garlic</span>
+            <span class="ing-pill">Lemon Juice</span>
           </div>
         </div>
       </div>
