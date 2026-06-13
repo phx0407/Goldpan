@@ -267,15 +267,7 @@
     "menu_price": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": [
-      "chicken",
-      "edamame",
-      "crispy rice noodles",
-      "sushi rice",
-      "cashews",
-      "broccoli",
-      "teriyaki sauce"
-    ]
+    "ingredients": []
   },
   {
     "id": "D013",
@@ -292,10 +284,7 @@
     "menu_price": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": [
-      "brussels sprouts",
-      "remoulade"
-    ]
+    "ingredients": []
   },
   {
     "id": "D014",
@@ -312,15 +301,7 @@
     "menu_price": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": [
-      "tender greens",
-      "butternut squash",
-      "pears",
-      "spiced pecans",
-      "goat cheese",
-      "dried cranberries",
-      "apple cider vinaigrette"
-    ]
+    "ingredients": []
   },
   {
     "id": "D015",
@@ -338,11 +319,7 @@
     "menu_price": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": [
-      "spinach",
-      "romaine",
-      "champagne vinaigrette"
-    ]
+    "ingredients": []
   },
   {
     "id": "D016",
@@ -359,14 +336,7 @@
     "menu_price": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": [
-      "farro",
-      "kale",
-      "sweet potatoes",
-      "toasted pecans",
-      "dried cranberries",
-      "sorghum-sherry vinaigrette"
-    ]
+    "ingredients": []
   },
   {
     "id": "D017",
@@ -2126,22 +2096,28 @@
     "id": "D097",
     "name": "Arancini",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "dairy (mozzarella), wheat (breading - undisclosed)",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": []
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
+    "ingredients": [
+      "crispy rice balls",
+      "mozzarella",
+      "calabrian chili sauce"
+    ]
   },
   {
     "id": "D098",
     "name": "Hummus + Pickles",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "vegetarian",
@@ -2149,29 +2125,39 @@
       "gluten-free"
     ],
     "allergens": "wheat (sourdough bread), sesame (tahini in hummus - undisclosed)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": []
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
+    "ingredients": [
+      "Rancho Gordo chickpea hummus",
+      "Santa Cruz olive oil",
+      "pickles",
+      "sourdough bread"
+    ]
   },
   {
     "id": "D099",
     "name": "Mushroom Toast",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "High",
     "tags": [
       "vegetarian"
     ],
     "allergens": "wheat (sourdough), dairy (creme fraiche)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": []
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
+    "ingredients": [
+      "housemade sourdough",
+      "roasted local mushrooms",
+      "creme fraiche",
+      "thyme"
+    ]
   },
   {
     "id": "D100",
@@ -2181,31 +2167,45 @@
     "level": "High",
     "tags": [],
     "allergens": "wheat (semolina cracker), egg (beef tallow mayo)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
     "ingredients": [
-      "Bear Creek beef"
+      "Bear Creek beef",
+      "crispy shallots",
+      "capers",
+      "beef tallow mayo",
+      "semolina cracker"
     ]
   },
   {
     "id": "D101",
     "name": "Salmon Waldorf Salad",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "gluten-free"
     ],
     "allergens": "fish (smoked salmon), dairy (ricotta salata), peanuts",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": []
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
+    "ingredients": [
+      "smoked salmon",
+      "apples",
+      "ginger",
+      "celery",
+      "ricotta salata",
+      "peanut & pumpkin seed crunch",
+      "charred cucumber",
+      "yuzu",
+      "dill"
+    ]
   },
   {
     "id": "D102",
@@ -2218,13 +2218,15 @@
       "gluten-free"
     ],
     "allergens": "dairy (fior di latte mozzarella)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
     "ingredients": [
       "wild ramp vinaigrette",
+      "Liuzi fior di latte mozzarella",
+      "heirloom tomatoes",
       "basil oil"
     ]
   },
@@ -2232,52 +2234,69 @@
     "id": "D103",
     "name": "Agnolotti Pomodoro",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "vegetarian"
     ],
     "allergens": "wheat (pasta), dairy (ricotta, goat cheese, saffron butter), egg (pasta - undisclosed)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": []
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
+    "ingredients": [
+      "agnolotti pasta",
+      "herbed ricotta",
+      "goat cheese",
+      "sungold tomato sauce",
+      "saffron butter"
+    ]
   },
   {
     "id": "D104",
     "name": "Spaghetti",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "vegetarian"
     ],
     "allergens": "wheat (spelt flour), dairy (cheese, butter), soy (miso - undisclosed)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": []
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
+    "ingredients": [
+      "spelt flour spaghetti",
+      "miso butter",
+      "pecorino romano",
+      "zanzibar peppercorns"
+    ]
   },
   {
     "id": "D105",
     "name": "Casarecce",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "vegetarian"
     ],
     "allergens": "wheat (pasta, breadcrumbs), dairy (Shelburne cheddar)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": []
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
+    "ingredients": [
+      "casarecce pasta",
+      "morel mushrooms",
+      "broccoli",
+      "Shelburne aged cheddar",
+      "herbed breadcrumbs"
+    ]
   },
   {
     "id": "D106",
@@ -2287,16 +2306,19 @@
     "level": "High",
     "tags": [],
     "allergens": "shellfish (Gulf shrimp), wheat (squid ink pasta)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
     "ingredients": [
-      "Gulf shrimp",
-      "squid ink canestri pasta",
       "zucchini",
-      "picholine olives"
+      "picholine olives",
+      "squid ink canestri pasta",
+      "Gulf shrimp",
+      "summer squash",
+      "fennel",
+      "tomato ragu"
     ]
   },
   {
@@ -2309,32 +2331,39 @@
       "gluten-free"
     ],
     "allergens": "fish (rainbow trout), dairy (cream sauce)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
     "ingredients": [
+      "rainbow trout",
       "spinach and sorrel cream sauce",
-      "Carolina Gold rice"
+      "Carolina Gold rice",
+      "salsa seca"
     ]
   },
   {
     "id": "D108",
     "name": "Half Chicken Piri Piri",
     "restaurant": "The Essential",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "High",
     "tags": [
       "gluten-free"
     ],
     "allergens": "peanuts (peanut-lime gremolata)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": []
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
+    "ingredients": [
+      "Joyce Farms half chicken",
+      "ginger guajillo marinade",
+      "peanut-lime gremolata",
+      "fries"
+    ]
   },
   {
     "id": "D109",
@@ -2346,13 +2375,15 @@
       "gluten-free"
     ],
     "allergens": "none identified",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
     "ingredients": [
       "arugula",
+      "Bear Creek bistro steak",
+      "confit fingerling potatoes",
       "pearl onion balsamic sauce"
     ]
   },
@@ -2364,14 +2395,17 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "wheat (rigatoni), dairy (creme fraiche, manchego)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://essentialbham.com/",
     "ingredients": [
+      "housemade chorizo",
       "rigatoni",
-      "housemade chorizo"
+      "tomato bolognese sauce",
+      "creme fraiche",
+      "manchego"
     ]
   },
   {
@@ -2381,37 +2415,14 @@
     "location": "Mountain Brook, AL",
     "level": "High",
     "tags": [],
-    "allergens": "wheat (pain de mie flatbread)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "allergens": "Unknown",
+    "hours": "",
+    "menu_link": "",
     "menu_price": "",
-    "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [
-      "certified angus braised beef brisket",
-      "white barbecue sauce"
-    ]
-  },
-  {
-    "id": "D113",
-    "name": "Turkey Club",
-    "restaurant": "Brick & Tin Mountain Brook",
-    "location": "Mountain Brook, AL",
-    "level": "Moderate",
-    "tags": [],
-    "allergens": "wheat (sourdough), dairy (swiss cheese), egg (aioli - undisclosed)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
-    "menu_price": "",
-    "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
-    "restaurant_website": "",
-    "ingredients": [
-      "bacon",
-      "aioli",
-      "bibb lettuce",
-      "swiss cheese",
-      "sliced tomato",
-      "sourdough bread"
+      "certified angus braised beef brisket"
     ]
   },
   {
@@ -2434,38 +2445,17 @@
     ]
   },
   {
-    "id": "D116",
-    "name": "Tuscan",
-    "restaurant": "Brick & Tin Mountain Brook",
-    "location": "Mountain Brook, AL",
-    "level": "High",
-    "tags": [
-      "vegetarian"
-    ],
-    "allergens": "wheat (focaccia), dairy (provolone), tree nuts (pesto - undisclosed)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
-    "menu_price": "",
-    "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
-    "restaurant_website": "",
-    "ingredients": [
-      "roasted portobello mushrooms"
-    ]
-  },
-  {
     "id": "D118",
     "name": "Classic Salad",
     "restaurant": "Brick & Tin Mountain Brook",
     "location": "Mountain Brook, AL",
     "level": "Moderate",
-    "tags": [
-      "vegetarian"
-    ],
-    "allergens": "wheat (croutons), dairy (cheddar, buttermilk ranch), egg (ranch - undisclosed)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "tags": [],
+    "allergens": "Unknown",
+    "hours": "",
+    "menu_link": "",
     "menu_price": "",
-    "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [
       "carrots",
@@ -2502,46 +2492,17 @@
     ]
   },
   {
-    "id": "D121",
-    "name": "Spring Harvest Salad",
-    "restaurant": "Brick & Tin Mountain Brook",
-    "location": "Mountain Brook, AL",
-    "level": "Moderate",
-    "tags": [
-      "vegetarian",
-      "gluten-free"
-    ],
-    "allergens": "dairy (feta), tree nuts (almonds)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
-    "menu_price": "",
-    "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
-    "restaurant_website": "",
-    "ingredients": [
-      "tender greens",
-      "Harvest Farms strawberries",
-      "almonds",
-      "feta",
-      "radishes",
-      "sugar snaps",
-      "carrots",
-      "honey lemon vinaigrette"
-    ]
-  },
-  {
     "id": "D123",
     "name": "Pork Belly Lettuce Wraps",
     "restaurant": "Brick & Tin Mountain Brook",
     "location": "Mountain Brook, AL",
     "level": "High",
-    "tags": [
-      "gluten-free"
-    ],
-    "allergens": "sesame (sesame glaze)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "tags": [],
+    "allergens": "Unknown",
+    "hours": "",
+    "menu_link": "",
     "menu_price": "",
-    "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [
       "spice-crusted slow-roasted pork belly",
@@ -2583,14 +2544,12 @@
     "restaurant": "Brick & Tin Mountain Brook",
     "location": "Mountain Brook, AL",
     "level": "Moderate",
-    "tags": [
-      "gluten-free"
-    ],
-    "allergens": "sesame, soy (edamame, teriyaki - partially disclosed), tree nuts (cashews)",
-    "hours": "Daily 10:30am-8pm",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "tags": [],
+    "allergens": "Unknown",
+    "hours": "",
+    "menu_link": "",
     "menu_price": "",
-    "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [
       "sesame chicken",
