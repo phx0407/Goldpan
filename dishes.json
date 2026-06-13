@@ -35,7 +35,7 @@
     "id": "D002",
     "name": "Chicken Poppers Appetizer",
     "restaurant": "Real & Rosemary",
-    "location": "Homewood, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [],
     "allergens": "wheat (panko), egg (likely in breading)",
@@ -44,11 +44,7 @@
     "menu_price": "$9.99",
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
-    "ingredients": [
-      "chicken",
-      "panko breadcrumbs",
-      "sorghum honey mustard"
-    ]
+    "ingredients": []
   },
   {
     "id": "D003",
@@ -66,14 +62,9 @@
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
-      "impossible burger patty",
-      "brioche bun",
-      "lettuce",
-      "tomato",
       "Impossible burger patty",
       "romaine",
-      "red onion",
-      "ketchup"
+      "tomato"
     ]
   },
   {
@@ -93,8 +84,6 @@
       "greek yogurt",
       "mayonnaise",
       "herbs",
-      "chicken",
-      "mayo",
       "tomato",
       "lettuce",
       "multigrain bread"
@@ -116,7 +105,6 @@
     "ingredients": [
       "angel hair pasta",
       "meatballs",
-      "marinara",
       "marinara sauce",
       "parmesan"
     ]
@@ -135,7 +123,6 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [
-      "vegetarian sauce",
       "pico de gallo",
       "fried onions"
     ]
@@ -2525,15 +2512,14 @@
     "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
       "okra",
-      "breading",
-      "chipotle mayo"
+      "breading"
     ]
   },
   {
     "id": "D128",
     "name": "Sweet Potato Fries",
     "restaurant": "Real & Rosemary",
-    "location": "Homewood, AL",
+    "location": "Birmingham",
     "level": "High",
     "tags": [
       "vegetarian"
@@ -2544,16 +2530,13 @@
     "menu_price": "$6.49",
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
-    "ingredients": [
-      "sweet potato",
-      "chipotle mayo"
-    ]
+    "ingredients": []
   },
   {
     "id": "D129",
     "name": "Fried Green Tomatoes",
     "restaurant": "Real & Rosemary",
-    "location": "Homewood, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [
       "vegetarian"
@@ -2564,11 +2547,7 @@
     "menu_price": "$7.49",
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
-    "ingredients": [
-      "green tomatoes",
-      "breading",
-      "chipotle mayo"
-    ]
+    "ingredients": []
   },
   {
     "id": "D130",
@@ -2584,7 +2563,6 @@
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
-      "flounder",
       "panko breadcrumbs",
       "yogurt remoulade"
     ]
@@ -2647,10 +2625,6 @@
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
-      "mixed greens",
-      "grilled chicken",
-      "herbed pumpkin seeds",
-      "crispy chickpeas",
       "feta",
       "balsamic vinaigrette"
     ]
@@ -2677,9 +2651,6 @@
       "yellow beets",
       "oranges",
       "grapefruit",
-      "pears",
-      "goat cheese",
-      "pistachios",
       "lemon vinaigrette"
     ]
   },
@@ -2702,12 +2673,8 @@
     "ingredients": [
       "tomato base",
       "carrots",
-      "onion",
-      "celery",
       "sweet potato",
-      "corn",
-      "beans",
-      "herbs"
+      "corn"
     ]
   },
   {
@@ -2724,13 +2691,9 @@
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
-      "romaine",
       "spice rubbed chicken",
       "pepperjack",
       "black beans",
-      "avocado",
-      "tortilla strips",
-      "cherry tomatoes",
       "chipotle lime vinaigrette"
     ]
   },
@@ -2750,11 +2713,6 @@
     "ingredients": [
       "turkey",
       "swiss cheese",
-      "Duke's mayo",
-      "dijon mustard",
-      "jam",
-      "arugula",
-      "red onion",
       "multigrain bread"
     ]
   },
@@ -2792,20 +2750,16 @@
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
-      "ground beef",
-      "tomato",
-      "romaine",
       "onion",
       "pickle",
-      "housemade sauce",
-      "brioche bun"
+      "housemade sauce"
     ]
   },
   {
     "id": "D140",
     "name": "Fried Green Tomato BLT",
     "restaurant": "Real & Rosemary",
-    "location": "Homewood, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [],
     "allergens": "wheat (bread), egg (chipotle mayo)",
@@ -2814,13 +2768,7 @@
     "menu_price": "$10.49",
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
-    "ingredients": [
-      "hickory smoked bacon",
-      "lettuce",
-      "green tomatoes",
-      "chipotle mayo",
-      "multigrain bread"
-    ]
+    "ingredients": []
   },
   {
     "id": "D141",
@@ -2848,7 +2796,7 @@
     "id": "D142",
     "name": "Beet, Fig, Goat Cheese Sandwich",
     "restaurant": "Real & Rosemary",
-    "location": "Homewood, AL",
+    "location": "Birmingham",
     "level": "High",
     "tags": [
       "vegetarian"
@@ -2859,14 +2807,7 @@
     "menu_price": "$10.29",
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
-    "ingredients": [
-      "yellow beets",
-      "figs",
-      "goat cheese",
-      "arugula",
-      "balsamic glaze",
-      "cranberry walnut bread"
-    ]
+    "ingredients": []
   },
   {
     "id": "D143",
@@ -2918,16 +2859,14 @@
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
-      "spice rubbed chicken",
-      "cilantro lime vinaigrette",
-      "garden sides (choice of two)"
+      "spice rubbed chicken"
     ]
   },
   {
     "id": "D146",
     "name": "Flounder Cake Plate",
     "restaurant": "Real & Rosemary",
-    "location": "Homewood, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [],
     "allergens": "fish (flounder), wheat (panko), dairy (yogurt remoulade)",
@@ -2936,12 +2875,7 @@
     "menu_price": "$13.99",
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
-    "ingredients": [
-      "flounder",
-      "panko breadcrumbs",
-      "yogurt remoulade",
-      "garden sides (choice of two)"
-    ]
+    "ingredients": []
   },
   {
     "id": "D147",
@@ -2957,7 +2891,6 @@
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
-      "meatballs",
       "marinara sauce",
       "parmesan",
       "garden sides (choice of two)"
@@ -3021,9 +2954,6 @@
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
-      "spring mix",
-      "watermelon",
-      "plum",
       "heirloom tomatoes",
       "feta",
       "mint",
