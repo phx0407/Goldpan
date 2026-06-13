@@ -13,6 +13,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "chicken",
       "olive oil",
@@ -42,6 +43,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "chicken",
       "panko breadcrumbs",
@@ -61,6 +63,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "impossible burger patty",
       "brioche bun",
@@ -82,6 +85,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "chicken salad mix",
       "bread (sandwich bread)",
@@ -104,6 +108,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "angel hair pasta",
       "meatballs",
@@ -123,6 +128,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "french toast baguette",
       "red velvet cake crumbles",
@@ -142,6 +148,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "beyond burger patty",
       "burger bun",
@@ -162,6 +169,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "cajun grilled chicken",
       "lettuce",
@@ -186,6 +194,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "chicken",
       "shrimp",
@@ -206,6 +215,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "grilled chicken",
       "lettuce",
@@ -227,6 +237,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "acai",
       "coconut milk",
@@ -255,6 +266,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "chicken",
       "edamame",
@@ -279,6 +291,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "brussels sprouts",
       "remoulade"
@@ -298,6 +311,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "tender greens",
       "butternut squash",
@@ -323,6 +337,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "spinach",
       "romaine",
@@ -343,6 +358,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "farro",
       "kale",
@@ -364,6 +380,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "red sauce",
       "cheese blend",
@@ -400,6 +417,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "red sauce",
       "jalapeños",
@@ -419,6 +437,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "vodka sauce",
       "cheese blend",
@@ -437,6 +456,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "red sauce",
       "cheese blend",
@@ -456,6 +476,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "brussels sprouts",
       "pickled red onion",
@@ -479,6 +500,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "potatoes",
       "chorizo",
@@ -502,6 +524,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "shrimp",
       "pimento grits",
@@ -522,6 +545,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "avocado",
       "west indies crab",
@@ -543,6 +567,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "waffle",
       "quail",
@@ -565,6 +590,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "egg white",
       "mozzarella",
@@ -587,6 +613,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "plant-based patty",
       "vegan bacon",
@@ -612,6 +639,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "plant-based patty",
       "sweet jerk plantains",
@@ -637,6 +665,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "plant-based patty",
       "jalapenos",
@@ -662,6 +691,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "plant-based patty",
       "pickle",
@@ -687,6 +717,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "fries",
       "vegan beef",
@@ -709,6 +740,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "cabbage & cilantro blend",
       "romaine",
@@ -733,6 +765,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "spinach",
       "norwegian salmon",
@@ -756,6 +789,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "kale",
       "avocado",
@@ -779,6 +813,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "cabbage & cilantro blend",
       "romaine",
@@ -803,6 +838,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "romaine",
       "panko fried chicken",
@@ -829,6 +865,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Avocado",
       "Roasted peppers",
@@ -852,6 +889,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Baked tofu",
       "Caramelized onions",
@@ -872,6 +910,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Tuna salad",
       "Cheddar cheese",
@@ -893,6 +932,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Grilled chicken",
       "Roasted peppers",
@@ -915,6 +955,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Mozzarella cheese",
       "Grilled cherry tomatoes",
@@ -936,6 +977,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Warm quinoa",
       "Spring mix",
@@ -964,6 +1006,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Warm quinoa",
       "Arugula",
@@ -990,6 +1033,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Shredded kale",
       "Chopped romaine",
@@ -1014,6 +1058,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Roasted corn",
       "Avocado",
@@ -1038,6 +1083,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Spring mix",
       "Roasted chicken",
@@ -1059,6 +1105,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Cauliflower",
       "Garlic-ginger sauce",
@@ -1080,6 +1127,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Tofu",
       "Carrots",
@@ -1101,6 +1149,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Salmon",
       "Lemongrass butter",
@@ -1120,6 +1169,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Kobe beef patty",
       "Muenster cheese",
@@ -1141,6 +1191,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Wontons",
       "Kimchi queso",
@@ -1162,6 +1213,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "pasta",
       "artisanal lettuces",
@@ -1187,6 +1239,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "quinoa",
       "kale + broccoli slaw",
@@ -1213,6 +1266,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "tuna",
       "quinoa",
@@ -1233,6 +1287,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "flour tortillas",
       "flank steak",
@@ -1255,6 +1310,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "egg roll wrapper",
       "Conecuh sausage",
@@ -1276,6 +1332,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "shredded beef",
       "flatbread",
@@ -1297,6 +1354,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "whole wheat wrap",
       "chicken",
@@ -1321,6 +1379,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "whole wheat wrap",
       "shredded beef",
@@ -1347,6 +1406,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "gluten-free breaded chicken",
       "sauce option - Epic Sauce",
@@ -1376,6 +1436,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "protein option - black bean patty",
       "protein option - diced chicken",
@@ -1406,6 +1467,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Smoked salmon",
       "Arugula",
@@ -1430,6 +1492,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1444,6 +1507,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1458,6 +1522,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1472,6 +1537,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1486,6 +1552,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1500,6 +1567,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1514,6 +1582,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Grilled chicken",
       "Jalapeño",
@@ -1535,6 +1604,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1549,6 +1619,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1565,6 +1636,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1581,6 +1653,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Marinated seitan",
       "Caramelized onions",
@@ -1604,6 +1677,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "House-made vegan chicken",
       "Vegan mayonnaise",
@@ -1628,6 +1702,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Vegan fried chicken",
       "Parmesan cheese",
@@ -1651,6 +1726,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1667,6 +1743,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1683,6 +1760,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1697,6 +1775,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1713,6 +1792,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1729,6 +1809,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1745,6 +1826,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -1762,6 +1844,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "whipped yogurt",
       "coconut almond granola",
@@ -1782,6 +1865,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "romaine lettuce",
       "garlic breadcrumbs",
@@ -1804,6 +1888,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "mixed lettuces",
       "whipped feta",
@@ -1829,6 +1914,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "toast",
       "avocado",
@@ -1850,6 +1936,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "english muffin",
       "smoked salmon",
@@ -1872,6 +1959,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "banana bread",
       "mascarpone",
@@ -1894,6 +1982,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "pancakes",
       "maple syrup",
@@ -1912,6 +2001,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "buttermilk biscuit",
       "buttermilk fried chicken breast",
@@ -1933,6 +2023,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "pan fried potatoes",
       "breakfast sausage",
@@ -1956,6 +2047,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "yellow corn grits",
       "Bear Creek pork belly",
@@ -1977,6 +2069,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "rigatoni",
       "housemade chorizo",
@@ -1996,6 +2089,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "housemade bun",
       "Bear Creek dry-aged beef patties",
@@ -2020,6 +2114,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "Bear Creek steak (bo round)",
       "eggs",
@@ -2039,6 +2134,7 @@
     "menu_link": "",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -2057,13 +2153,14 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
     "id": "D099",
     "name": "Mushroom Toast",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "High",
     "tags": [
       "vegetarian"
@@ -2073,9 +2170,8 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
-    "ingredients": [
-      "thyme"
-    ]
+    "restaurant_website": "",
+    "ingredients": []
   },
   {
     "id": "D100",
@@ -2089,16 +2185,16 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
-      "Bear Creek beef",
-      "crispy shallots"
+      "Bear Creek beef"
     ]
   },
   {
     "id": "D101",
     "name": "Salmon Waldorf Salad",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [
       "gluten-free"
@@ -2108,9 +2204,8 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
-    "ingredients": [
-      "ginger"
-    ]
+    "restaurant_website": "",
+    "ingredients": []
   },
   {
     "id": "D102",
@@ -2127,6 +2222,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "wild ramp vinaigrette",
       "basil oil"
@@ -2136,7 +2232,7 @@
     "id": "D103",
     "name": "Agnolotti Pomodoro",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [
       "vegetarian"
@@ -2146,15 +2242,14 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
-    "ingredients": [
-      "agnolotti pasta"
-    ]
+    "restaurant_website": "",
+    "ingredients": []
   },
   {
     "id": "D104",
     "name": "Spaghetti",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [
       "vegetarian"
@@ -2164,9 +2259,8 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
-    "ingredients": [
-      "spelt flour spaghetti"
-    ]
+    "restaurant_website": "",
+    "ingredients": []
   },
   {
     "id": "D105",
@@ -2182,6 +2276,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -2196,12 +2291,12 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
-      "zucchini",
-      "picholine olives",
       "Gulf shrimp",
-      "summer squash",
-      "squid ink canestri pasta"
+      "squid ink canestri pasta",
+      "zucchini",
+      "picholine olives"
     ]
   },
   {
@@ -2218,8 +2313,8 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
-      "rainbow trout",
       "spinach and sorrel cream sauce",
       "Carolina Gold rice"
     ]
@@ -2238,6 +2333,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": []
   },
   {
@@ -2254,11 +2350,10 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "arugula",
-      "pearl onion balsamic sauce",
-      "Bear Creek bistro steak",
-      "confit fingerling potatoes"
+      "pearl onion balsamic sauce"
     ]
   },
   {
@@ -2273,6 +2368,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
       "rigatoni",
       "housemade chorizo"
@@ -2290,6 +2386,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_website": "",
     "ingredients": [
       "certified angus braised beef brisket",
       "white barbecue sauce"
@@ -2307,8 +2404,8 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_website": "",
     "ingredients": [
-      "Thuman's smoked turkey",
       "bacon",
       "aioli",
       "bibb lettuce",
@@ -2329,6 +2426,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_website": "",
     "ingredients": [
       "pecorino romano",
       "spinach",
@@ -2349,6 +2447,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_website": "",
     "ingredients": [
       "roasted portobello mushrooms"
     ]
@@ -2367,6 +2466,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_website": "",
     "ingredients": [
       "carrots",
       "cheddar",
@@ -2390,6 +2490,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_website": "",
     "ingredients": [
       "farro",
       "asparagus",
@@ -2415,6 +2516,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_website": "",
     "ingredients": [
       "tender greens",
       "Harvest Farms strawberries",
@@ -2440,6 +2542,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_website": "",
     "ingredients": [
       "spice-crusted slow-roasted pork belly",
       "sesame glaze",
@@ -2462,6 +2565,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_website": "",
     "ingredients": [
       "atlantic salmon",
       "farro",
@@ -2487,6 +2591,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
+    "restaurant_website": "",
     "ingredients": [
       "sesame chicken",
       "edamame",
