@@ -2045,7 +2045,7 @@
     "id": "D098",
     "name": "Hummus + Pickles",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [
       "vegetarian",
@@ -2057,11 +2057,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
-    "ingredients": [
-      "Rancho Gordo chickpea hummus",
-      "Santa Cruz olive oil",
-      "pickles"
-    ]
+    "ingredients": []
   },
   {
     "id": "D099",
@@ -2095,8 +2091,7 @@
     "restaurant_address": "",
     "ingredients": [
       "Bear Creek beef",
-      "crispy shallots",
-      "capers"
+      "crispy shallots"
     ]
   },
   {
@@ -2114,10 +2109,7 @@
     "menu_price": "",
     "restaurant_address": "",
     "ingredients": [
-      "ginger",
-      "celery",
-      "ricotta salata",
-      "peanut & pumpkin seed crunch"
+      "ginger"
     ]
   },
   {
@@ -2155,9 +2147,7 @@
     "menu_price": "",
     "restaurant_address": "",
     "ingredients": [
-      "agnolotti pasta",
-      "herbed ricotta",
-      "goat cheese"
+      "agnolotti pasta"
     ]
   },
   {
@@ -2182,7 +2172,7 @@
     "id": "D105",
     "name": "Casarecce",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [
       "vegetarian"
@@ -2192,10 +2182,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
-    "ingredients": [
-      "Shelburne aged cheddar",
-      "herbed breadcrumbs"
-    ]
+    "ingredients": []
   },
   {
     "id": "D106",
@@ -2214,9 +2201,7 @@
       "picholine olives",
       "Gulf shrimp",
       "summer squash",
-      "squid ink canestri pasta",
-      "fennel",
-      "tomato ragu"
+      "squid ink canestri pasta"
     ]
   },
   {
@@ -2243,7 +2228,7 @@
     "id": "D108",
     "name": "Half Chicken Piri Piri",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "High",
     "tags": [
       "gluten-free"
@@ -2253,9 +2238,7 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
     "menu_price": "",
     "restaurant_address": "",
-    "ingredients": [
-      "fries"
-    ]
+    "ingredients": []
   },
   {
     "id": "D109",
