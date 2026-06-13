@@ -224,8 +224,8 @@
     <p style="margin-top:24px;font-size:13px;color:#9A9488;position:relative;z-index:1;">A restaurant in Birmingham? <a href="/partners" style="color:#C9A84C;text-decoration:none;">Stake your claim on Goldpan.</a></p>
     </div>
     <div class="hero-stats">
-      <div class="stat"><div class="stat-number">13</div><div class="stat-label">Restaurants</div></div>
-      <div class="stat"><div class="stat-number">62</div><div class="stat-label">Dishes Scored</div></div>
+      <div class="stat"><div class="stat-number" id="stat-rest-count">–</div><div class="stat-label">Restaurants</div></div>
+      <div class="stat"><div class="stat-number" id="stat-dish-count">–</div><div class="stat-label">Dishes Scored</div></div>
       <div class="stat"><div class="stat-number">100</div><div class="stat-label">Point Scale</div></div>
     </div>
   </section>
@@ -288,8 +288,17 @@
   </section>
   <section class="filter-section section" id="filter">
     <p class="section-label">Early Access</p>
-    <h2 class="how-headline">62 Dishes.<br />13 Restaurants.<br />Live Now.</h2>
-    <p style="font-size:15px;color:#9A9488;max-width:480px;line-height:1.65;margin-bottom:48px;">The Goldpan discover page is currently invite-only. Search and filter 62 scored dishes across 13 Birmingham restaurants by dietary need, allergen, or transparency score. Request access to see it in action.</p>
+    <h2 class="how-headline"><span id="live-dish-count">–</span> Dishes.<br /><span id="live-rest-count">–</span> Restaurants.<br />Live Now.</h2>
+    <p id="live-sub" style="font-size:15px;color:#9A9488;max-width:480px;line-height:1.65;margin-bottom:32px;">The Goldpan discover page is currently invite-only. Search and filter scored dishes across Birmingham restaurants by dietary need, allergen, or transparency level.</p>
+    <div class="filter-btns" style="margin-bottom:20px;">
+      <button class="filter-btn active" onclick="filterDishes('all',this)">All</button>
+      <button class="filter-btn" onclick="filterDishes('vegan',this)">Vegan</button>
+      <button class="filter-btn" onclick="filterDishes('vegetarian',this)">Vegetarian</button>
+      <button class="filter-btn" onclick="filterDishes('gluten-free',this)">Gluten Free</button>
+      <button class="filter-btn" onclick="filterDishes('no-dairy',this)">No Dairy</button>
+      <button class="filter-btn" onclick="filterDishes('high-score',this)">Moderate+</button>
+    </div>
+    <div id="filter-results" class="filter-results" style="margin-bottom:40px;"></div>
     <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center;">
       <a href="mailto:hello@goldpanapp.com?subject=Goldpan Early Access Request" style="background:#C9A84C;color:#0A0A0A;padding:16px 36px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;letter-spacing:0.06em;text-decoration:none;text-transform:uppercase;display:inline-block;">Request Early Access</a>
       <span style="font-size:12px;color:#333333;font-family:'DM Mono',monospace;letter-spacing:0.08em;">Invite only · Birmingham, AL</span>
@@ -413,51 +422,60 @@
     </ul>
   </footer>
   <script>
-    var dishes = [
-      {name:"Grilled Herb Chicken",restaurant:"Real and Rosemary",score:70,level:"Moderate",tags:["gluten-free"],allergens:"none stated"},
-      {name:"Chicken Poppers Appetizer",restaurant:"Real and Rosemary",score:60,level:"Moderate",tags:[],allergens:"wheat, mustard"},
-      {name:"Amazing Avocado",restaurant:"Adam and Eve Cafe",score:60,level:"Moderate",tags:["vegan"],allergens:"wheat"},
-      {name:"Grilled Tofu",restaurant:"Adam and Eve Cafe",score:50,level:"Building",tags:["vegan"],allergens:"soy, wheat"},
-      {name:"Tuscan Panini",restaurant:"Adam and Eve Cafe",score:60,level:"Moderate",tags:["vegetarian"],allergens:"dairy, tree nuts"},
-      {name:"Fish and Chips Bowl",restaurant:"Chop N Fresh",score:70,level:"Moderate",tags:[],allergens:"fish"},
-      {name:"Mexican Elote Bowl",restaurant:"Chop N Fresh",score:70,level:"Moderate",tags:["vegetarian"],allergens:"dairy"},
-      {name:"Cobb Boom",restaurant:"Chop N Fresh",score:60,level:"Moderate",tags:[],allergens:"dairy, egg"},
-      {name:"Pan-Seared Salmon",restaurant:"East West",score:70,level:"Moderate",tags:[],allergens:"fish, dairy"},
-      {name:"Korean Fried Cauliflower",restaurant:"East West",score:50,level:"Building",tags:["vegetarian"],allergens:"sesame"},
-      {name:"Simple Salad",restaurant:"Brick and Tin",score:50,level:"Building",tags:["vegan","gluten-free"],allergens:"unknown"},
-      {name:"Fall Farro Salad",restaurant:"Brick and Tin",score:50,level:"Building",tags:["vegan"],allergens:"wheat"},
-      {name:"Fall Harvest Salad",restaurant:"Brick and Tin",score:50,level:"Building",tags:["gluten-free"],allergens:"dairy, tree nuts"},
-      {name:"One Night Stand",restaurant:"Slutty Vegan",score:30,level:"Building",tags:["vegan"],allergens:"unknown"},
-      {name:"Dancehall Queen",restaurant:"Slutty Vegan",score:30,level:"Building",tags:["vegan"],allergens:"unknown"},
-      {name:"Classic Acai Bowl",restaurant:"Kale Me Crazy",score:50,level:"Building",tags:[],allergens:"tree nuts"},
-      {name:"Hash",restaurant:"SoHo Standard",score:50,level:"Building",tags:["gluten-free"],allergens:"egg, dairy"},
-      {name:"Southwest Steak Salad",restaurant:"Chopt",score:50,level:"Building",tags:[],allergens:"dairy, wheat"},
-      {name:"Chicken Tinga Bowl",restaurant:"Chopt",score:50,level:"Building",tags:[],allergens:"dairy"},
-      {name:"Kimchi Salmon Bowl",restaurant:"Chopt",score:40,level:"Building",tags:[],allergens:"fish"}
-    ];
+    var dishes = [];
+
+    fetch('/dishes.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        dishes = data;
+        var dishCount = dishes.length;
+        var restCount = (new Set(dishes.map(function(d){ return d.restaurant; }))).size;
+        var el;
+        el = document.getElementById('stat-dish-count'); if (el) el.textContent = dishCount;
+        el = document.getElementById('stat-rest-count'); if (el) el.textContent = restCount;
+        el = document.getElementById('live-dish-count'); if (el) el.textContent = dishCount;
+        el = document.getElementById('live-rest-count'); if (el) el.textContent = restCount;
+        el = document.getElementById('live-sub');
+        if (el) el.textContent = 'The Goldpan discover page is currently invite-only. Search and filter ' + dishCount + ' scored dishes across ' + restCount + ' Birmingham restaurants by dietary need, allergen, or transparency level.';
+        renderDishes(dishes);
+      })
+      .catch(function() { renderDishes([]); });
 
     function filterDishes(type, btn) {
       document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
       btn.classList.add('active');
       var filtered = dishes;
-      if (type === 'vegan') filtered = dishes.filter(function(d) { return d.tags.indexOf('vegan') > -1; });
-      else if (type === 'vegetarian') filtered = dishes.filter(function(d) { return d.tags.indexOf('vegetarian') > -1 || d.tags.indexOf('vegan') > -1; });
-      else if (type === 'gluten-free') filtered = dishes.filter(function(d) { return d.tags.indexOf('gluten-free') > -1; });
-      else if (type === 'no-dairy') filtered = dishes.filter(function(d) { return d.allergens.indexOf('dairy') === -1; });
-      else if (type === 'high-score') filtered = dishes.filter(function(d) { return d.score >= 60; });
+      if (type === 'vegan') filtered = dishes.filter(function(d) { return (d.tags||[]).indexOf('vegan') > -1; });
+      else if (type === 'vegetarian') filtered = dishes.filter(function(d) { return (d.tags||[]).indexOf('vegetarian') > -1 || (d.tags||[]).indexOf('vegan') > -1; });
+      else if (type === 'gluten-free') filtered = dishes.filter(function(d) { return (d.tags||[]).indexOf('gluten-free') > -1; });
+      else if (type === 'no-dairy') filtered = dishes.filter(function(d) { return (d.allergens||'').toLowerCase().indexOf('dairy') === -1; });
+      else if (type === 'high-score') filtered = dishes.filter(function(d) { var l = (d.level||'').toLowerCase(); return l === 'high' || l === 'moderate'; });
       renderDishes(filtered);
+    }
+
+    function levelColor(level) {
+      var l = (level||'').toLowerCase();
+      if (l === 'high') return '#4CAF76';
+      if (l === 'moderate') return '#C9A84C';
+      return '#9A9488';
     }
 
     function renderDishes(list) {
       var el = document.getElementById('filter-results');
+      if (!el) return;
       if (list.length === 0) { el.innerHTML = '<div class="filter-empty">No dishes match this filter yet.</div>'; return; }
       el.innerHTML = list.slice(0, 6).map(function(d) {
-        var tagsHtml = d.tags.map(function(t) { return '<span class="filter-tag">' + t + '</span>'; }).join('');
-        return '<div class="filter-card"><div class="filter-card-restaurant">' + d.restaurant + '</div><div class="filter-card-name">' + d.name + '</div><div class="filter-card-score">' + d.score + '<span style="font-size:16px;color:#9A9488">/100</span></div><div class="filter-card-level">' + d.level + ' Transparency</div>' + (tagsHtml ? '<div class="filter-card-tags">' + tagsHtml + '</div>' : '') + '</div>';
+        var tagsHtml = (d.tags||[]).map(function(t) { return '<span class="filter-tag">' + t + '</span>'; }).join('');
+        var col = levelColor(d.level);
+        return '<div class="filter-card">' +
+          '<div class="filter-card-restaurant">' + d.restaurant + '</div>' +
+          '<div class="filter-card-name">' + d.name + '</div>' +
+          '<div class="filter-card-score" style="color:' + col + '">' + (d.level||'Building') + '</div>' +
+          '<div class="filter-card-level">Transparency</div>' +
+          (tagsHtml ? '<div class="filter-card-tags">' + tagsHtml + '</div>' : '') +
+          '</div>';
       }).join('');
     }
-
-    renderDishes(dishes);
 
     async function handleWaitlist() {
       var email = document.getElementById('waitlist-email').value;
