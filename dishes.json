@@ -2965,7 +2965,7 @@
     "id": "D151",
     "name": "Red Velvet French Toast",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [],
     "allergens": "dairy (cream cheese icing), tree nuts (walnuts), wheat (baguette), unknown (french toast batter)",
@@ -2974,12 +2974,7 @@
     "menu_price": "$15.00",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "baguette",
-      "red velvet cake crumbles",
-      "crushed walnuts",
-      "cream cheese icing"
-    ]
+    "ingredients": []
   },
   {
     "id": "D152",
@@ -3015,9 +3010,6 @@
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
       "pancakes",
-      "bacon",
-      "Conecuh sausage",
-      "eggs",
       "cheddar jack cheese",
       "honey"
     ]
@@ -3036,13 +3028,7 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "shrimp",
-      "creamy grits",
-      "bayou cream sauce",
-      "spinach",
-      "bell peppers",
-      "onions",
-      "mozzarella cheese"
+      "shrimp"
     ]
   },
   {
@@ -3087,7 +3073,7 @@
     "id": "D157",
     "name": "Char-Boiled Oysters",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [],
     "allergens": "shellfish (oysters), dairy (parmesan, garlic butter), unknown (Cajun seasonings, herbs)",
@@ -3096,15 +3082,7 @@
     "menu_price": "$26.00 half / $41.60 whole",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "oysters",
-      "garlic butter",
-      "Cajun seasonings",
-      "parmesan",
-      "spinach",
-      "herbs",
-      "bacon"
-    ]
+    "ingredients": []
   },
   {
     "id": "D158",
@@ -3142,8 +3120,7 @@
     "ingredients": [
       "chicken",
       "spinach",
-      "Italian herbs",
-      "chips"
+      "Italian herbs"
     ]
   },
   {
@@ -3160,8 +3137,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "ground beef",
-      "shrimp",
       "jack cheese",
       "bayou lobster cream sauce",
       "fries"
@@ -3181,9 +3156,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "ground beef",
-      "American cheese",
-      "pickles",
       "signature backyard BBQ sauce",
       "fries"
     ]
@@ -3202,11 +3174,7 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "sirloin",
-      "mozzarella cheese",
-      "bell peppers",
-      "onions",
-      "fries"
+      "sirloin"
     ]
   },
   {
@@ -3223,9 +3191,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "shrimp",
-      "lettuce",
-      "tomatoes",
       "pickles",
       "remoulade sauce",
       "fries"
@@ -3265,10 +3230,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "chicken",
-      "lettuce",
-      "tomatoes",
-      "pickles",
       "onions",
       "honey mustard",
       "fries"
@@ -3289,10 +3250,6 @@
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
       "catfish",
-      "lettuce",
-      "tomatoes",
-      "pickles",
-      "remoulade sauce",
       "fries"
     ]
   },
@@ -3312,16 +3269,14 @@
     "ingredients": [
       "chicken breast",
       "bacon",
-      "cheddar jack cheese",
-      "ranch",
-      "fries"
+      "cheddar jack cheese"
     ]
   },
   {
     "id": "D168",
     "name": "BBQ Smoked Pork Ribs",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [],
     "allergens": "unknown (marinade, signature BBQ glaze)",
@@ -3330,11 +3285,7 @@
     "menu_price": "$22.88",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "pork ribs",
-      "marinade",
-      "signature BBQ glaze"
-    ]
+    "ingredients": []
   },
   {
     "id": "D169",
@@ -3377,7 +3328,7 @@
     "id": "D171",
     "name": "Braised Oxtails",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [],
     "allergens": "unknown (braising liquid, seasonings)",
@@ -3386,15 +3337,13 @@
     "menu_price": "$35.00",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "oxtails"
-    ]
+    "ingredients": []
   },
   {
     "id": "D172",
     "name": "BBQ Smoked 1/2 Chicken",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [],
     "allergens": "unknown (Yo Chef signature spices)",
@@ -3403,16 +3352,13 @@
     "menu_price": "$23.00",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "chicken",
-      "Yo Chef signature spices"
-    ]
+    "ingredients": []
   },
   {
     "id": "D173",
     "name": "Grilled Salmon",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [],
     "allergens": "fish (salmon), unknown (signature blend seasoning)",
@@ -3421,10 +3367,7 @@
     "menu_price": "$30.00",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "salmon",
-      "signature blend seasoning"
-    ]
+    "ingredients": []
   },
   {
     "id": "D174",
@@ -3444,9 +3387,7 @@
       "bayou cream sauce",
       "bell peppers",
       "spinach",
-      "mozzarella cheese",
-      "provolone cheese",
-      "basil"
+      "mozzarella cheese"
     ]
   },
   {
@@ -3463,9 +3404,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "cavatappi pasta",
-      "Jamaican jerk sauce",
-      "bell peppers",
       "spinach",
       "mozzarella cheese",
       "provolone cheese",
@@ -3487,12 +3425,6 @@
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
       "chicken",
-      "lettuce",
-      "bacon",
-      "eggs",
-      "red onions",
-      "pico de gallo",
-      "cheddar cheese",
       "black olives",
       "banana peppers",
       "dressing (choice)"
@@ -3515,10 +3447,6 @@
       "salmon",
       "lettuce",
       "mozzarella cheese",
-      "black olives",
-      "pico de gallo",
-      "banana peppers",
-      "sweet red peppers",
       "cilantro",
       "dressing (choice)"
     ]
