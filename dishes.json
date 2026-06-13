@@ -35,105 +35,90 @@
     "id": "D002",
     "name": "Chicken Poppers Appetizer",
     "restaurant": "Real & Rosemary",
-    "location": "Homewood",
+    "location": "Homewood, AL",
     "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "wheat (panko), egg (likely in breading)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$9.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
       "chicken",
       "panko breadcrumbs",
-      "honey mustard",
-      "frying oil"
+      "sorghum honey mustard"
     ]
   },
   {
     "id": "D003",
     "name": "Impossible Burger",
     "restaurant": "Real & Rosemary",
-    "location": "Homewood",
+    "location": "Homewood, AL",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "soy (Impossible patty), wheat (patty, brioche bun)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$13.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
       "impossible burger patty",
       "brioche bun",
       "lettuce",
       "tomato",
+      "Impossible burger patty",
+      "romaine",
       "red onion",
-      "pickle"
+      "ketchup"
     ]
   },
   {
     "id": "D004",
     "name": "Chicken Salad Sandwich",
     "restaurant": "Real & Rosemary",
-    "location": "Homewood",
-    "level": "Building",
+    "location": "Homewood, AL",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "egg (mayo), wheat (multigrain bread), dairy (greek yogurt)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$9.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
-      "chicken salad mix",
-      "bread (sandwich bread)",
-      "lettuce",
-      "tomato",
       "greek yogurt",
       "mayonnaise",
-      "herbs"
+      "herbs",
+      "chicken",
+      "mayo",
+      "tomato",
+      "lettuce",
+      "multigrain bread"
     ]
   },
   {
     "id": "D005",
     "name": "Spaghetti",
     "restaurant": "Real & Rosemary",
-    "location": "Homewood",
-    "level": "Building",
+    "location": "Homewood, AL",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "wheat (pasta), egg (likely in meatballs), dairy (parmesan)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$12.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
     "ingredients": [
       "angel hair pasta",
       "meatballs",
       "marinara",
+      "marinara sauce",
       "parmesan"
-    ]
-  },
-  {
-    "id": "D006",
-    "name": "Red Velvet French Toast",
-    "restaurant": "Yo Chef Surf and Turf",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": [
-      "french toast baguette",
-      "red velvet cake crumbles",
-      "walnuts",
-      "cream cheese icing"
     ]
   },
   {
@@ -150,36 +135,9 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [
-      "beyond burger patty",
-      "burger bun",
       "vegetarian sauce",
       "pico de gallo",
       "fried onions"
-    ]
-  },
-  {
-    "id": "D008",
-    "name": "Cobb Salad",
-    "restaurant": "Yo Chef Surf and Turf",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "menu_price": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": [
-      "cajun grilled chicken",
-      "lettuce",
-      "bacon",
-      "eggs",
-      "red onions",
-      "pico de gallo",
-      "cheddar cheese",
-      "black olives",
-      "banana peppers"
     ]
   },
   {
@@ -258,9 +216,7 @@
     "restaurant": "Brick & Tin",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [
-      "gluten-free"
-    ],
+    "tags": [],
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
@@ -275,9 +231,7 @@
     "restaurant": "Brick & Tin",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [
-      "gluten-free"
-    ],
+    "tags": [],
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
@@ -292,9 +246,7 @@
     "restaurant": "Brick & Tin",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [
-      "gluten-free"
-    ],
+    "tags": [],
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
@@ -309,10 +261,7 @@
     "restaurant": "Brick & Tin",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [
-      "vegan",
-      "gluten-free"
-    ],
+    "tags": [],
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
@@ -327,9 +276,7 @@
     "restaurant": "Brick & Tin",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [
-      "vegan"
-    ],
+    "tags": [],
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
@@ -2437,7 +2384,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
-    "restaurant_website": "",
+    "restaurant_website": "https://brickandtin.com/",
     "ingredients": [
       "pecorino romano",
       "spinach",
@@ -2480,7 +2427,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
-    "restaurant_website": "",
+    "restaurant_website": "https://brickandtin.com/",
     "ingredients": [
       "farro",
       "asparagus",
@@ -2526,7 +2473,7 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
     "menu_price": "",
     "restaurant_address": "2901 Cahaba Road, Mountain Brook, AL 35223",
-    "restaurant_website": "",
+    "restaurant_website": "https://brickandtin.com/",
     "ingredients": [
       "atlantic salmon",
       "farro",
@@ -2559,6 +2506,529 @@
       "cashews",
       "broccoli",
       "savory teriyaki sauce"
+    ]
+  },
+  {
+    "id": "D127",
+    "name": "Fried Okra",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "wheat (likely breading), egg (mayo)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$7.49",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "okra",
+      "breading",
+      "chipotle mayo"
+    ]
+  },
+  {
+    "id": "D128",
+    "name": "Sweet Potato Fries",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "High",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "egg (chipotle mayo)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$6.49",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "sweet potato",
+      "chipotle mayo"
+    ]
+  },
+  {
+    "id": "D129",
+    "name": "Fried Green Tomatoes",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "wheat (likely breading), egg (mayo)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$7.49",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "green tomatoes",
+      "breading",
+      "chipotle mayo"
+    ]
+  },
+  {
+    "id": "D130",
+    "name": "Flounder Cakes",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "fish (flounder), wheat (panko), dairy (yogurt remoulade)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$9.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "flounder",
+      "panko breadcrumbs",
+      "yogurt remoulade"
+    ]
+  },
+  {
+    "id": "D131",
+    "name": "Honey Ricotta",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "High",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "dairy (ricotta), wheat (baguette)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$9.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "ricotta",
+      "honey",
+      "thyme",
+      "apples",
+      "baguette"
+    ]
+  },
+  {
+    "id": "D132",
+    "name": "Meatballs",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (parmesan), wheat (likely in meatballs), egg (likely in meatballs)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$12.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "meatballs",
+      "marinara sauce",
+      "parmesan"
+    ]
+  },
+  {
+    "id": "D133",
+    "name": "Grilled Chicken Salad",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "High",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "dairy (feta)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$12.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "mixed greens",
+      "grilled chicken",
+      "herbed pumpkin seeds",
+      "crispy chickpeas",
+      "feta",
+      "balsamic vinaigrette"
+    ]
+  },
+  {
+    "id": "D134",
+    "name": "Upbeet Salad",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "High",
+    "tags": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": "tree nuts (pistachios), dairy (goat cheese)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$10.29",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "spring mix",
+      "red beets",
+      "yellow beets",
+      "oranges",
+      "grapefruit",
+      "pears",
+      "goat cheese",
+      "pistachios",
+      "lemon vinaigrette"
+    ]
+  },
+  {
+    "id": "D135",
+    "name": "Vegetable Soup",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "High",
+    "tags": [
+      "vegan",
+      "gluten-free"
+    ],
+    "allergens": "none",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$4.99 cup / $8.99 bowl",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "tomato base",
+      "carrots",
+      "onion",
+      "celery",
+      "sweet potato",
+      "corn",
+      "beans",
+      "herbs"
+    ]
+  },
+  {
+    "id": "D136",
+    "name": "Southwest Salad",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "High",
+    "tags": [],
+    "allergens": "dairy (pepperjack), wheat (tortilla strips)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$13.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "romaine",
+      "spice rubbed chicken",
+      "pepperjack",
+      "black beans",
+      "avocado",
+      "tortilla strips",
+      "cherry tomatoes",
+      "chipotle lime vinaigrette"
+    ]
+  },
+  {
+    "id": "D137",
+    "name": "Turkey Sandwich",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "High",
+    "tags": [],
+    "allergens": "dairy (swiss), wheat (multigrain bread), egg (Duke's mayo)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$11.49",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "turkey",
+      "swiss cheese",
+      "Duke's mayo",
+      "dijon mustard",
+      "jam",
+      "arugula",
+      "red onion",
+      "multigrain bread"
+    ]
+  },
+  {
+    "id": "D138",
+    "name": "Reuben",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (marbled rye), unknown (housemade sauce)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$12.49",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "pastrami",
+      "house sauce",
+      "sauerkraut",
+      "marbled rye bread"
+    ]
+  },
+  {
+    "id": "D139",
+    "name": "The Burger",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (brioche bun), unknown (housemade sauce)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$13.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "ground beef",
+      "tomato",
+      "romaine",
+      "onion",
+      "pickle",
+      "housemade sauce",
+      "brioche bun"
+    ]
+  },
+  {
+    "id": "D140",
+    "name": "Fried Green Tomato BLT",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (bread), egg (chipotle mayo)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$10.49",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "hickory smoked bacon",
+      "lettuce",
+      "green tomatoes",
+      "chipotle mayo",
+      "multigrain bread"
+    ]
+  },
+  {
+    "id": "D141",
+    "name": "Grilled Chicken Sandwich",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "High",
+    "tags": [],
+    "allergens": "dairy (goat cheese), wheat (multigrain bread)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$12.49",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "grilled chicken",
+      "goat cheese",
+      "green apple",
+      "arugula",
+      "honey mustard",
+      "multigrain bread"
+    ]
+  },
+  {
+    "id": "D142",
+    "name": "Beet, Fig, Goat Cheese Sandwich",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "High",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "tree nuts (walnuts in bread), dairy (goat cheese), wheat (bread)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$10.29",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "yellow beets",
+      "figs",
+      "goat cheese",
+      "arugula",
+      "balsamic glaze",
+      "cranberry walnut bread"
+    ]
+  },
+  {
+    "id": "D143",
+    "name": "Garden Plate",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "varies by sides selected",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$11",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "garden sides (choice of four)"
+    ]
+  },
+  {
+    "id": "D144",
+    "name": "Grilled Chicken Plate",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "unknown (sides variable)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$12.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "grilled chicken",
+      "sorghum honey mustard",
+      "garden sides (choice of two)"
+    ]
+  },
+  {
+    "id": "D145",
+    "name": "Spice Rubbed Chicken Plate",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "unknown (spice rub, sides variable)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$12.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "spice rubbed chicken",
+      "cilantro lime vinaigrette",
+      "garden sides (choice of two)"
+    ]
+  },
+  {
+    "id": "D146",
+    "name": "Flounder Cake Plate",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "fish (flounder), wheat (panko), dairy (yogurt remoulade)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$13.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "flounder",
+      "panko breadcrumbs",
+      "yogurt remoulade",
+      "garden sides (choice of two)"
+    ]
+  },
+  {
+    "id": "D147",
+    "name": "Meatball Plate",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (parmesan), wheat (likely in meatballs), egg (likely in meatballs)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$12.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "meatballs",
+      "marinara sauce",
+      "parmesan",
+      "garden sides (choice of two)"
+    ]
+  },
+  {
+    "id": "D148",
+    "name": "Chicken Poppers Plate",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (panko), egg (likely in breading)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$13.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "chicken",
+      "panko breadcrumbs",
+      "sorghum honey mustard",
+      "garden sides (choice of two)"
+    ]
+  },
+  {
+    "id": "D149",
+    "name": "Chicken Salad Plate",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "egg (mayo), dairy (greek yogurt)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$12.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "chicken",
+      "greek yogurt",
+      "mayo",
+      "herbs",
+      "garden sides (choice of two)"
+    ]
+  },
+  {
+    "id": "D150",
+    "name": "\"Early\" Summer Salad",
+    "restaurant": "Real & Rosemary",
+    "location": "Homewood, AL",
+    "level": "High",
+    "tags": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": "dairy (feta), tree nuts (pecan)",
+    "hours": "Mon-Sat 11am-8pm, Closed Sunday",
+    "menu_link": "https://www.realandrosemary.com/wp-content/uploads/2026/05/May-Menu-2026.pdf",
+    "menu_price": "$10.99",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com/",
+    "ingredients": [
+      "spring mix",
+      "watermelon",
+      "plum",
+      "heirloom tomatoes",
+      "feta",
+      "mint",
+      "pecan",
+      "lemon vinaigrette"
     ]
   }
 ]
