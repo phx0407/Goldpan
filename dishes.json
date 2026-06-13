@@ -2960,5 +2960,669 @@
       "pecan",
       "lemon vinaigrette"
     ]
+  },
+  {
+    "id": "D151",
+    "name": "Red Velvet French Toast",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (cream cheese icing), tree nuts (walnuts), wheat (baguette), unknown (french toast batter)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$15.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "baguette",
+      "red velvet cake crumbles",
+      "crushed walnuts",
+      "cream cheese icing"
+    ]
+  },
+  {
+    "id": "D152",
+    "name": "Chicken & Waffles",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "unknown (sweet potato waffles, wings)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$18.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "whole chicken wings",
+      "sweet potato waffles",
+      "honey"
+    ]
+  },
+  {
+    "id": "D153",
+    "name": "Overstuffed Pancake Tacos",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "egg (eggs), dairy (cheddar jack cheese), unknown (pancakes, Conecuh sausage)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$18.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "pancakes",
+      "bacon",
+      "Conecuh sausage",
+      "eggs",
+      "cheddar jack cheese",
+      "honey"
+    ]
+  },
+  {
+    "id": "D154",
+    "name": "Shrimp & Grits",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "shellfish (shrimp), dairy (mozzarella), unknown (bayou cream sauce)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$18.72",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "shrimp",
+      "creamy grits",
+      "bayou cream sauce",
+      "spinach",
+      "bell peppers",
+      "onions",
+      "mozzarella cheese"
+    ]
+  },
+  {
+    "id": "D155",
+    "name": "Salmon & Grits",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "fish (salmon), unknown (signature sauce, creamy grits)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$30.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "salmon",
+      "creamy grits",
+      "signature sauce"
+    ]
+  },
+  {
+    "id": "D156",
+    "name": "Oxtails & Grits",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "unknown (house gravy, creamy grits)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$35.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "oxtails",
+      "creamy grits",
+      "house gravy"
+    ]
+  },
+  {
+    "id": "D157",
+    "name": "Char-Boiled Oysters",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "shellfish (oysters), dairy (parmesan, garlic butter), unknown (Cajun seasonings, herbs)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$26.00 half / $41.60 whole",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "oysters",
+      "garlic butter",
+      "Cajun seasonings",
+      "parmesan",
+      "spinach",
+      "herbs",
+      "bacon"
+    ]
+  },
+  {
+    "id": "D158",
+    "name": "Blackened Shrimp Queso",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "shellfish (shrimp), unknown (bayou pico de gallo, Louisiana spices)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$14.56",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "shrimp",
+      "bayou pico de gallo",
+      "Louisiana spices",
+      "chips"
+    ]
+  },
+  {
+    "id": "D159",
+    "name": "Herbed Chicken & Spinach Dip",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "unknown (Italian herbs, dip composition)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$14.56",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "chicken",
+      "spinach",
+      "Italian herbs",
+      "chips"
+    ]
+  },
+  {
+    "id": "D160",
+    "name": "Surf & Turf Burger",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "shellfish (shrimp), dairy (jack cheese), unknown (bayou lobster cream sauce, bun)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$15.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "ground beef",
+      "shrimp",
+      "jack cheese",
+      "bayou lobster cream sauce",
+      "fries"
+    ]
+  },
+  {
+    "id": "D161",
+    "name": "OG Burger",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (American cheese), unknown (signature BBQ sauce, bun)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$15.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "ground beef",
+      "American cheese",
+      "pickles",
+      "signature backyard BBQ sauce",
+      "fries"
+    ]
+  },
+  {
+    "id": "D162",
+    "name": "Down South Philly",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (mozzarella), unknown (bread type)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$15.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "sirloin",
+      "mozzarella cheese",
+      "bell peppers",
+      "onions",
+      "fries"
+    ]
+  },
+  {
+    "id": "D163",
+    "name": "Shrimp Po Boy",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "shellfish (shrimp), unknown (remoulade, bread type)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$16.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "shrimp",
+      "lettuce",
+      "tomatoes",
+      "pickles",
+      "remoulade sauce",
+      "fries"
+    ]
+  },
+  {
+    "id": "D164",
+    "name": "Chipotle Chicken Tacos",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (cheddar jack cheese), unknown (taco shell type)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$18.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "chicken",
+      "cheddar jack cheese",
+      "pico de gallo",
+      "fries"
+    ]
+  },
+  {
+    "id": "D165",
+    "name": "Grilled Chicken Sandwich",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "unknown (honey mustard, bread type)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$15.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "chicken",
+      "lettuce",
+      "tomatoes",
+      "pickles",
+      "onions",
+      "honey mustard",
+      "fries"
+    ]
+  },
+  {
+    "id": "D166",
+    "name": "Catfish Po Boy",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "fish (catfish), unknown (remoulade, bread type)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$15.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "catfish",
+      "lettuce",
+      "tomatoes",
+      "pickles",
+      "remoulade sauce",
+      "fries"
+    ]
+  },
+  {
+    "id": "D167",
+    "name": "Chicken Bacon Ranch Quesadilla",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (cheddar jack cheese), unknown (ranch, tortilla)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$18.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "chicken breast",
+      "bacon",
+      "cheddar jack cheese",
+      "ranch",
+      "fries"
+    ]
+  },
+  {
+    "id": "D168",
+    "name": "BBQ Smoked Pork Ribs",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "unknown (marinade, signature BBQ glaze)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$22.88",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "pork ribs",
+      "marinade",
+      "signature BBQ glaze"
+    ]
+  },
+  {
+    "id": "D169",
+    "name": "Ribeye Steak",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (garlic herb butter), unknown (signature blend seasoning)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$46.80",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "ribeye steak",
+      "signature blend seasoning",
+      "garlic herb butter"
+    ]
+  },
+  {
+    "id": "D170",
+    "name": "Glazed Lamb Chops",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "unknown (signature sweet-and-savory glaze)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$41.60 half rack / $72.80 full rack",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "lamb chops",
+      "signature glaze"
+    ]
+  },
+  {
+    "id": "D171",
+    "name": "Braised Oxtails",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "unknown (braising liquid, seasonings)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$35.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "oxtails"
+    ]
+  },
+  {
+    "id": "D172",
+    "name": "BBQ Smoked 1/2 Chicken",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "unknown (Yo Chef signature spices)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$23.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "chicken",
+      "Yo Chef signature spices"
+    ]
+  },
+  {
+    "id": "D173",
+    "name": "Grilled Salmon",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "fish (salmon), unknown (signature blend seasoning)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$30.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "salmon",
+      "signature blend seasoning"
+    ]
+  },
+  {
+    "id": "D174",
+    "name": "Cavatappi Bowl",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (mozzarella, provolone), wheat (cavatappi pasta), unknown (bayou cream sauce, protein choice)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$18.76 chicken / $20.76 steak or shrimp / $30.00 salmon / $35.00 oxtails",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "cavatappi pasta",
+      "bayou cream sauce",
+      "bell peppers",
+      "spinach",
+      "mozzarella cheese",
+      "provolone cheese",
+      "basil"
+    ]
+  },
+  {
+    "id": "D175",
+    "name": "Rasta Bowl",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (mozzarella, provolone), wheat (cavatappi pasta), unknown (Jamaican jerk sauce, protein choice)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$18.72 chicken / $20.72 steak or shrimp / $30.00 salmon / $35.00 oxtails",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "cavatappi pasta",
+      "Jamaican jerk sauce",
+      "bell peppers",
+      "spinach",
+      "mozzarella cheese",
+      "provolone cheese",
+      "basil"
+    ]
+  },
+  {
+    "id": "D176",
+    "name": "Cobb Salad",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (cheddar cheese), egg (eggs), unknown (dressing choice)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$20.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "chicken",
+      "lettuce",
+      "bacon",
+      "eggs",
+      "red onions",
+      "pico de gallo",
+      "cheddar cheese",
+      "black olives",
+      "banana peppers",
+      "dressing (choice)"
+    ]
+  },
+  {
+    "id": "D177",
+    "name": "Grilled Salmon Salad",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "fish (salmon), dairy (mozzarella), unknown (dressing choice)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$25.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "salmon",
+      "lettuce",
+      "mozzarella cheese",
+      "black olives",
+      "pico de gallo",
+      "banana peppers",
+      "sweet red peppers",
+      "cilantro",
+      "dressing (choice)"
+    ]
+  },
+  {
+    "id": "D178",
+    "name": "Garden Salad",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "unknown (dressing choice)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$12.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "lettuce",
+      "carrots",
+      "pico de gallo",
+      "black olives",
+      "banana peppers",
+      "dressing (choice)"
+    ]
+  },
+  {
+    "id": "D179",
+    "name": "Veggie Bowl",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "none",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$16.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "saffron yellow rice",
+      "corn",
+      "pinto beans",
+      "seasonal vegetables",
+      "pico de gallo",
+      "lime"
+    ]
+  },
+  {
+    "id": "D180",
+    "name": "Veggie Wings",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "unknown (veggie wing composition, sauce choice)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$12.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "veggie wings",
+      "sauce (choice)"
+    ]
+  },
+  {
+    "id": "D181",
+    "name": "Fried Red Velvet Pound Cake",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "unknown (cake composition)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$12.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "red velvet pound cake"
+    ]
+  },
+  {
+    "id": "D182",
+    "name": "Fried Cheesecake",
+    "restaurant": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "unknown (cheesecake composition)",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "menu_price": "$14.00",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "ingredients": [
+      "cheesecake"
+    ]
   }
 ]
