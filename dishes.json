@@ -2994,13 +2994,7 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "shrimp",
-      "creamy grits",
-      "bayou cream sauce",
-      "spinach",
-      "bell peppers",
-      "onions",
-      "mozzarella cheese"
+      "shrimp"
     ]
   },
   {
@@ -3056,8 +3050,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "ground beef",
-      "shrimp",
       "jack cheese",
       "bayou lobster cream sauce",
       "fries"
@@ -3080,8 +3072,7 @@
       "sirloin",
       "mozzarella cheese",
       "bell peppers",
-      "onions",
-      "fries"
+      "onions"
     ]
   },
   {
@@ -3098,8 +3089,8 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "cheddar jack cheese",
       "chicken",
+      "cheddar jack cheese",
       "pico de gallo",
       "fries"
     ]
@@ -3122,8 +3113,7 @@
       "catfish",
       "lettuce",
       "tomatoes",
-      "pickles",
-      "remoulade sauce"
+      "pickles"
     ]
   },
   {
@@ -3141,8 +3131,7 @@
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
       "pork ribs",
-      "marinade",
-      "signature BBQ glaze"
+      "marinade"
     ]
   },
   {
@@ -3159,8 +3148,7 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "signature glaze",
-      "lamb chops"
+      "signature glaze"
     ]
   },
   {
@@ -3196,9 +3184,6 @@
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
       "bell peppers",
-      "cavatappi pasta",
-      "bayou cream sauce",
-      "spinach",
       "mozzarella cheese",
       "provolone cheese",
       "basil"
@@ -3218,8 +3203,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "chicken",
-      "lettuce",
       "bacon",
       "eggs",
       "red onions",

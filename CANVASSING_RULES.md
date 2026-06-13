@@ -150,6 +150,20 @@ Birmingham average: 44. Any dish above 44 scores above the current city baseline
 
 ---
 
+## Score Representation
+
+| Rule | Definition |
+|------|-----------|
+| Score_Visibility | The numerical score is internal only. Customers never see a number. |
+| Customer_Display | Customers see a transparency level (Building, Moderate, or High) shown as a label and a progress bar. |
+| Positive_Only | In the detail panel, customers see positive disclosure indicators only, under "What This Restaurant Disclosed." Only dimensions that clearly checked out appear. Nothing tells the customer what a restaurant failed to disclose. |
+| Disclosure_Indicators | Core ingredients clearly named. Sauce and seasoning disclosed. Allergens clearly labeled. Preparation method disclosed. Each appears only if the dimension earned it. |
+| No_Grade_Framing | The score was never meant to punish. It recognizes disclosure. Making it private removes the punitive feeling while keeping everything the score does well. |
+| Internal_Use | The score drives analysis, internal ranking, understanding of where each restaurant stands, and confirmation conversations. It is the engine. It is not the dashboard the customer reads. |
+| One_Line | The score measures how clearly a restaurant communicates what is in its food. Use it internally to understand and improve transparency. Customers see what a restaurant discloses, framed as recognition, never as a grade. |
+
+---
+
 ## Philosophy
 
 | Rule | Definition |

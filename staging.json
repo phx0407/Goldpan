@@ -1,0 +1,1869 @@
+{
+  "restaurant_id": "R002",
+  "restaurant_name": "Yo Chef Surf & Turf Smokehouse",
+  "location": "Birmingham, AL",
+  "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+  "restaurant_website": "https://yochefsurfandturf.net/",
+  "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+  "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+  "dishes": [
+    {
+      "dish_id": "D151",
+      "dish_name": "Red Velvet French Toast",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "dairy (cream cheese icing), tree nuts (walnuts), wheat (baguette), unknown (french toast batter)",
+      "menu_price": "$15.00",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "All toppings named with specificity; cream cheese icing named but not broken down; baguette type stated; French toast egg wash not disclosed",
+      "ingredients": [
+        {
+          "name": "baguette",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "red velvet cake crumbles",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "topping"
+        },
+        {
+          "name": "crushed walnuts",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "tree nuts",
+          "role": "topping"
+        },
+        {
+          "name": "cream cheese icing",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D152",
+      "dish_name": "Chicken & Waffles",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (sweet potato waffles, wings)",
+      "menu_price": "$18.00",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "3 whole wings and 8 mini sweet potato waffles named with counts; honey fully disclosed as single ingredient; wing/waffle cooking methods not stated",
+      "ingredients": [
+        {
+          "name": "whole chicken wings",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "sweet potato waffles",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "unknown",
+          "role": "base"
+        },
+        {
+          "name": "honey",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "neutral",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D153",
+      "dish_name": "Overstuffed Pancake Tacos",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "egg (eggs), dairy (cheddar jack cheese), unknown (pancakes, Conecuh sausage)",
+      "menu_price": "$18.00",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "All fillings named including specific Conecuh sausage brand; honey fully disclosed; pancake and waffle cooking method implied not stated",
+      "ingredients": [
+        {
+          "name": "pancakes",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "unknown",
+          "role": "base"
+        },
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "Conecuh sausage",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "eggs",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "egg",
+          "role": "protein"
+        },
+        {
+          "name": "cheddar jack cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "honey",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "neutral",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D154",
+      "dish_name": "Shrimp & Grits",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "shellfish (shrimp), dairy (mozzarella), unknown (bayou cream sauce)",
+      "menu_price": "$18.72",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Shrimp count (8), grits, spinach, bell peppers, onions, mozzarella all named; bayou cream sauce named but not broken down; fried or grilled stated",
+      "ingredients": [
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "creamy grits",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "base"
+        },
+        {
+          "name": "bayou cream sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "spinach",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "bell peppers",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "onions",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "mozzarella cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        }
+      ]
+    },
+    {
+      "dish_id": "D155",
+      "dish_name": "Salmon & Grits",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "fish (salmon), unknown (signature sauce, creamy grits)",
+      "menu_price": "$30.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Salmon and grits named; signature sauce undisclosed; grilled method stated",
+      "ingredients": [
+        {
+          "name": "salmon",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "creamy grits",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "base"
+        },
+        {
+          "name": "signature sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D156",
+      "dish_name": "Oxtails & Grits",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (house gravy, creamy grits)",
+      "menu_price": "$35.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Oxtails and grits named; house gravy undisclosed; slow-braised method stated",
+      "ingredients": [
+        {
+          "name": "oxtails",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "creamy grits",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "base"
+        },
+        {
+          "name": "house gravy",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D157",
+      "dish_name": "Char-Boiled Oysters",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "shellfish (oysters), dairy (parmesan, garlic butter), unknown (Cajun seasonings, herbs)",
+      "menu_price": "$26.00 half / $41.60 whole",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Both Louisiana and Rockefeller preparations named with key components; Cajun seasonings and herbs vague; charbroiled method stated",
+      "ingredients": [
+        {
+          "name": "oysters",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "shellfish",
+          "role": "base"
+        },
+        {
+          "name": "garlic butter",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        },
+        {
+          "name": "Cajun seasonings",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "seasoning"
+        },
+        {
+          "name": "parmesan",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "spinach",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "herbs",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "seasoning"
+        },
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ]
+    },
+    {
+      "dish_id": "D158",
+      "dish_name": "Blackened Shrimp Queso",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "shellfish (shrimp), unknown (bayou pico de gallo, Louisiana spices)",
+      "menu_price": "$14.56",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Blackened shrimp named; bayou pico named but composition vague; Louisiana spices undisclosed; blackened method stated; no cheese explicitly listed despite queso name",
+      "ingredients": [
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "bayou pico de gallo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "Louisiana spices",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "seasoning"
+        },
+        {
+          "name": "chips",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "unknown",
+          "role": "accompaniment"
+        }
+      ]
+    },
+    {
+      "dish_id": "D159",
+      "dish_name": "Herbed Chicken & Spinach Dip",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (Italian herbs, dip composition)",
+      "menu_price": "$14.56",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Roasted chicken and spinach named; Italian herbs vague; roasted method stated for chicken; dip base composition not disclosed",
+      "ingredients": [
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "spinach",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "Italian herbs",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "seasoning"
+        },
+        {
+          "name": "chips",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "unknown",
+          "role": "accompaniment"
+        }
+      ]
+    },
+    {
+      "dish_id": "D160",
+      "dish_name": "Surf & Turf Burger",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "shellfish (shrimp), dairy (jack cheese), unknown (bayou lobster cream sauce, bun)",
+      "menu_price": "$15.00",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "100% beef, blackened shrimp, jack cheese named; bayou lobster cream sauce named with some description but proprietary; bun type not stated; cooking method not stated",
+      "ingredients": [
+        {
+          "name": "ground beef",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "jack cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "bayou lobster cream sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "fries",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "side"
+        }
+      ]
+    },
+    {
+      "dish_id": "D161",
+      "dish_name": "OG Burger",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "dairy (American cheese), unknown (signature BBQ sauce, bun)",
+      "menu_price": "$15.00",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "100% beef, American cheese, pickles named; signature backyard BBQ sauce undisclosed; bun type not stated; cooking method not stated",
+      "ingredients": [
+        {
+          "name": "ground beef",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "American cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "pickles",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "signature backyard BBQ sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "fries",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "side"
+        }
+      ]
+    },
+    {
+      "dish_id": "D162",
+      "dish_name": "Down South Philly",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "dairy (mozzarella), unknown (bread type)",
+      "menu_price": "$15.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Thin sliced sirloin, mozzarella, grilled bell peppers and onions named; no sauce disclosed; bread type not stated; cooking method for steak not stated",
+      "ingredients": [
+        {
+          "name": "sirloin",
+          "cut_type": "sliced",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "mozzarella cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "bell peppers",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "onions",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "fries",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "side"
+        }
+      ]
+    },
+    {
+      "dish_id": "D163",
+      "dish_name": "Shrimp Po Boy",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "shellfish (shrimp), unknown (remoulade, bread type)",
+      "menu_price": "$16.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Jumbo shrimp, lettuce, tomatoes, pickles named; remoulade named but not broken down; crispy method implies fried but not stated; bread type not stated",
+      "ingredients": [
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "lettuce",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "tomatoes",
+          "cut_type": "sliced",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "pickles",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "remoulade sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "fries",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "side"
+        }
+      ]
+    },
+    {
+      "dish_id": "D164",
+      "dish_name": "Chipotle Chicken Tacos",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "dairy (cheddar jack cheese), unknown (taco shell type)",
+      "menu_price": "$18.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Crispy chicken, cheddar jack, pico de gallo named; taco shell type not stated; crispy method implies fried but not stated",
+      "ingredients": [
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "cheddar jack cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "pico de gallo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "fries",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "side"
+        }
+      ]
+    },
+    {
+      "dish_id": "D165",
+      "dish_name": "Grilled Chicken Sandwich",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (honey mustard, bread type)",
+      "menu_price": "$15.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Grilled chicken, lettuce, tomatoes, pickles, onions named; honey mustard named but not broken down; grilled method stated; bread type not stated",
+      "ingredients": [
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "lettuce",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "tomatoes",
+          "cut_type": "sliced",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "pickles",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "onions",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "honey mustard",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "fries",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "side"
+        }
+      ]
+    },
+    {
+      "dish_id": "D166",
+      "dish_name": "Catfish Po Boy",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "fish (catfish), unknown (remoulade, bread type)",
+      "menu_price": "$15.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Catfish nuggets, lettuce, tomatoes, pickles named; remoulade named but not broken down; bread type not stated; cooking method not stated",
+      "ingredients": [
+        {
+          "name": "catfish",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "lettuce",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "tomatoes",
+          "cut_type": "sliced",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "pickles",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "remoulade sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "fries",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "side"
+        }
+      ]
+    },
+    {
+      "dish_id": "D167",
+      "dish_name": "Chicken Bacon Ranch Quesadilla",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "dairy (cheddar jack cheese), unknown (ranch, tortilla)",
+      "menu_price": "$18.00",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Grilled chicken breast, bacon, cheddar jack cheese, ranch all named; ranch not broken down; grilled method stated for chicken; tortilla type implied by quesadilla",
+      "ingredients": [
+        {
+          "name": "chicken breast",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "cheddar jack cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "ranch",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "fries",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "side"
+        }
+      ]
+    },
+    {
+      "dish_id": "D168",
+      "dish_name": "BBQ Smoked Pork Ribs",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (marinade, signature BBQ glaze)",
+      "menu_price": "$22.88",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "St. Louis style pork ribs named; 24-hour marinade and 8-hour smoke disclosed but marinade composition unknown; signature BBQ glaze undisclosed; smoked method stated",
+      "ingredients": [
+        {
+          "name": "pork ribs",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "marinade",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "seasoning"
+        },
+        {
+          "name": "signature BBQ glaze",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D169",
+      "dish_name": "Ribeye Steak",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "dairy (garlic herb butter), unknown (signature blend seasoning)",
+      "menu_price": "$46.80",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Ribeye cut and weight named; garlic herb butter named; signature blend seasoning undisclosed; flame-grilled method stated",
+      "ingredients": [
+        {
+          "name": "ribeye steak",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "signature blend seasoning",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "seasoning"
+        },
+        {
+          "name": "garlic herb butter",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D170",
+      "dish_name": "Glazed Lamb Chops",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (signature sweet-and-savory glaze)",
+      "menu_price": "$41.60 half rack / $72.80 full rack",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Lamb chops named; signature sweet-and-savory glaze undisclosed; flame-grilled method stated; glaze flavors (Original, Rasta Chop) listed but not broken down",
+      "ingredients": [
+        {
+          "name": "lamb chops",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "signature glaze",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D171",
+      "dish_name": "Braised Oxtails",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (braising liquid, seasonings)",
+      "menu_price": "$35.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 0,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 35,
+      "transparency_level": "Building Transparency",
+      "notes": "Oxtails named; braised method stated; braising liquid and seasonings entirely undisclosed and unavoidable",
+      "ingredients": [
+        {
+          "name": "oxtails",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        }
+      ]
+    },
+    {
+      "dish_id": "D172",
+      "dish_name": "BBQ Smoked 1/2 Chicken",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (Yo Chef signature spices)",
+      "menu_price": "$23.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Half chicken named; Yo Chef signature spices undisclosed; slow-smoked method stated",
+      "ingredients": [
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "Yo Chef signature spices",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "seasoning"
+        }
+      ]
+    },
+    {
+      "dish_id": "D173",
+      "dish_name": "Grilled Salmon",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "fish (salmon), unknown (signature blend seasoning)",
+      "menu_price": "$30.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Salmon filet named; signature blend seasoning undisclosed; grilled method stated",
+      "ingredients": [
+        {
+          "name": "salmon",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "signature blend seasoning",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "seasoning"
+        }
+      ]
+    },
+    {
+      "dish_id": "D174",
+      "dish_name": "Cavatappi Bowl",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "dairy (mozzarella, provolone), wheat (cavatappi pasta), unknown (bayou cream sauce, protein choice)",
+      "menu_price": "$18.76 chicken / $20.76 steak or shrimp / $30.00 salmon / $35.00 oxtails",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Pasta, bell peppers, spinach, mozzarella, provolone, basil all named; bayou cream sauce named but not broken down; protein is customer choice; cooking method not stated",
+      "ingredients": [
+        {
+          "name": "cavatappi pasta",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "bayou cream sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "bell peppers",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "spinach",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "mozzarella cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "provolone cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "basil",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ]
+    },
+    {
+      "dish_id": "D175",
+      "dish_name": "Rasta Bowl",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "dairy (mozzarella, provolone), wheat (cavatappi pasta), unknown (Jamaican jerk sauce, protein choice)",
+      "menu_price": "$18.72 chicken / $20.72 steak or shrimp / $30.00 salmon / $35.00 oxtails",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Pasta, bell peppers, spinach, mozzarella, provolone, basil named; Jamaican jerk sauce named but not broken down; protein is customer choice; cooking method not stated",
+      "ingredients": [
+        {
+          "name": "cavatappi pasta",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "Jamaican jerk sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "bell peppers",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "spinach",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "mozzarella cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "provolone cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "basil",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ]
+    },
+    {
+      "dish_id": "D176",
+      "dish_name": "Cobb Salad",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "dairy (cheddar cheese), egg (eggs), unknown (dressing choice)",
+      "menu_price": "$20.00",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "All components named: cajun grilled chicken, lettuce, bacon, eggs, red onions, pico de gallo, cheddar cheese, black olives, banana peppers; dressing is customer choice from named list; cajun grilled method stated",
+      "ingredients": [
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "lettuce",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "eggs",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "egg",
+          "role": "topping"
+        },
+        {
+          "name": "red onions",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "pico de gallo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cheddar cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "black olives",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "banana peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "dressing (choice)",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D177",
+      "dish_name": "Grilled Salmon Salad",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "fish (salmon), dairy (mozzarella), unknown (dressing choice)",
+      "menu_price": "$25.00",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "All components named: lettuce, mozzarella, black olives, pico de gallo, banana peppers, sweet red peppers, cilantro, grilled salmon; dressing choice from named list; grilled method stated",
+      "ingredients": [
+        {
+          "name": "salmon",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "lettuce",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "mozzarella cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "black olives",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "pico de gallo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "banana peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "sweet red peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cilantro",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "garnish"
+        },
+        {
+          "name": "dressing (choice)",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D178",
+      "dish_name": "Garden Salad",
+      "dietary_tags": "vegetarian",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (dressing choice)",
+      "menu_price": "$12.00",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "All components named: lettuce, carrots, pico de gallo, black olives, banana peppers; dressing choice from named list; raw/assembled prep evident",
+      "ingredients": [
+        {
+          "name": "lettuce",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "carrots",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "pico de gallo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "black olives",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "banana peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "dressing (choice)",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D179",
+      "dish_name": "Veggie Bowl",
+      "dietary_tags": "vegetarian",
+      "dietary_options": "none",
+      "allergen_summary": "none",
+      "menu_price": "$16.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Saffron yellow rice, corn, pinto beans, pico de gallo, lime named; seasonal vegetables vague; no cooking method stated",
+      "ingredients": [
+        {
+          "name": "saffron yellow rice",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "corn",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "pinto beans",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "seasonal vegetables",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "pico de gallo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "lime",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ]
+    },
+    {
+      "dish_id": "D180",
+      "dish_name": "Veggie Wings",
+      "dietary_tags": "vegetarian",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (veggie wing composition, sauce choice)",
+      "menu_price": "$12.00",
+      "core_clarity": 0,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 25,
+      "transparency_level": "Building Transparency",
+      "notes": "Veggie wing base composition not disclosed (cauliflower? seitan? not stated); sauce flavors named (Mango Habanero, Teriyaki, Buffalo, Jerk, BBQ) but not broken down; prep method not stated",
+      "ingredients": [
+        {
+          "name": "veggie wings",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "base"
+        },
+        {
+          "name": "sauce (choice)",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D181",
+      "dish_name": "Fried Red Velvet Pound Cake",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (cake composition)",
+      "menu_price": "$12.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Red velvet pound cake named; no sauce; fried method stated; cake composition not disclosed",
+      "ingredients": [
+        {
+          "name": "red velvet pound cake",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "base"
+        }
+      ]
+    },
+    {
+      "dish_id": "D182",
+      "dish_name": "Fried Cheesecake",
+      "dietary_tags": "none",
+      "dietary_options": "none",
+      "allergen_summary": "unknown (cheesecake composition)",
+      "menu_price": "$14.00",
+      "core_clarity": 15,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Cheesecake named; no sauce; fried method stated; cheesecake composition not disclosed",
+      "ingredients": [
+        {
+          "name": "cheesecake",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "base"
+        }
+      ]
+    }
+  ]
+}
