@@ -2073,5 +2073,324 @@
       "housemade chorizo",
       "rigatoni"
     ]
+  },
+  {
+    "id": "D111",
+    "name": "Brisket Panini",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "High",
+    "tags": [],
+    "allergens": "wheat (pain de mie flatbread)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "certified angus braised beef brisket",
+      "caramelized onions",
+      "white barbecue sauce",
+      "pain de mie flatbread"
+    ]
+  },
+  {
+    "id": "D112",
+    "name": "Chick & Tin",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "High",
+    "tags": [],
+    "allergens": "wheat (pain de mie flatbread), dairy (swiss cheese)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "Joyce Farms flash fried chicken",
+      "house pickles",
+      "homemade honey-mustard",
+      "swiss cheese",
+      "pain de mie flatbread"
+    ]
+  },
+  {
+    "id": "D113",
+    "name": "Turkey Club",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (sourdough), dairy (swiss cheese), egg (aioli - undisclosed)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "Thuman's smoked turkey",
+      "bacon",
+      "aioli",
+      "bibb lettuce",
+      "swiss cheese",
+      "sliced tomato",
+      "sourdough bread"
+    ]
+  },
+  {
+    "id": "D114",
+    "name": "Key Circle Hot Ham & Cheese",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (pain de mie loaf), dairy (swiss cheese), egg (mustard aioli - undisclosed)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "black forest ham",
+      "whole grain mustard aioli",
+      "swiss cheese",
+      "pain de mie loaf"
+    ]
+  },
+  {
+    "id": "D115",
+    "name": "Spring Chicken",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "High",
+    "tags": [],
+    "allergens": "wheat (focaccia), dairy (pecorino romano), egg (aioli - undisclosed)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "Joyce Farms roasted chicken",
+      "roasted garlic aioli",
+      "pecorino romano",
+      "spinach",
+      "focaccia"
+    ]
+  },
+  {
+    "id": "D116",
+    "name": "Tuscan",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "High",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "wheat (focaccia), dairy (provolone), tree nuts (pesto - undisclosed)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "roasted portobello mushrooms",
+      "roasted tomatoes",
+      "provolone cheese",
+      "basil pesto",
+      "focaccia"
+    ]
+  },
+  {
+    "id": "D117",
+    "name": "Patty Melt",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (pain de mie loaf), dairy (yellow cheddar), egg (aioli - undisclosed)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "certified angus beef patty",
+      "thinly sliced red onion",
+      "heinz 57 aioli",
+      "yellow cheddar",
+      "pain de mie loaf"
+    ]
+  },
+  {
+    "id": "D118",
+    "name": "Classic Salad",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "wheat (croutons), dairy (cheddar, buttermilk ranch), egg (ranch - undisclosed)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "iceberg lettuce",
+      "carrots",
+      "cheddar",
+      "pickled onions",
+      "cherry tomatoes",
+      "croutons",
+      "buttermilk ranch"
+    ]
+  },
+  {
+    "id": "D119",
+    "name": "Simple Salad",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "Building",
+    "tags": [
+      "vegan",
+      "gluten-free"
+    ],
+    "allergens": "none identified",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "spinach",
+      "romaine",
+      "champagne vinaigrette"
+    ]
+  },
+  {
+    "id": "D120",
+    "name": "Spring Farro Salad",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan"
+    ],
+    "allergens": "wheat (farro)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "farro",
+      "asparagus",
+      "sweet peas",
+      "grape tomatoes",
+      "spring onions",
+      "sugar snaps",
+      "honey lemon vinaigrette"
+    ]
+  },
+  {
+    "id": "D121",
+    "name": "Spring Harvest Salad",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": "dairy (feta), tree nuts (almonds)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "tender greens",
+      "Harvest Farms strawberries",
+      "almonds",
+      "feta",
+      "radishes",
+      "sugar snaps",
+      "carrots",
+      "honey lemon vinaigrette"
+    ]
+  },
+  {
+    "id": "D122",
+    "name": "Bluebird",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (bleu cheese dressing), egg (dressing - undisclosed)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "romaine",
+      "spinach",
+      "all-natural fried chicken",
+      "bacon",
+      "avocado",
+      "cherry tomatoes",
+      "bleu cheese dressing",
+      "champagne vinaigrette"
+    ]
+  },
+  {
+    "id": "D123",
+    "name": "Pork Belly Lettuce Wraps",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "High",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "sesame (sesame glaze)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "spice-crusted slow-roasted pork belly",
+      "sesame glaze",
+      "red cabbage slaw",
+      "sweet & spicy chili sauce",
+      "bibb lettuce"
+    ]
+  },
+  {
+    "id": "D124",
+    "name": "Crispy Spring Onion Tempura",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "wheat (tempura batter - undisclosed)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "locally grown baby spring onions",
+      "tempura batter",
+      "sweet chili sauce"
+    ]
+  },
+  {
+    "id": "D125",
+    "name": "Sauteed Salmon",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "High",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "fish (atlantic salmon), wheat (farro), dairy (mint yogurt)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "atlantic salmon",
+      "farro",
+      "asparagus",
+      "sugar snaps",
+      "grape tomatoes",
+      "spring onions",
+      "sweet peas",
+      "mint yogurt"
+    ]
+  },
+  {
+    "id": "D126",
+    "name": "Sesame Chicken Bowl",
+    "restaurant": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "sesame, soy (edamame, teriyaki - partially disclosed), tree nuts (cashews)",
+    "hours": "Daily 10:30am-8pm",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "ingredients": [
+      "sesame chicken",
+      "edamame",
+      "crispy rice noodles",
+      "sushi rice",
+      "cashews",
+      "broccoli",
+      "savory teriyaki sauce"
+    ]
   }
 ]
