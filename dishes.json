@@ -11,6 +11,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "chicken",
       "olive oil",
@@ -38,6 +40,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "chicken",
       "panko breadcrumbs",
@@ -55,6 +59,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "impossible burger patty",
       "brioche bun",
@@ -74,6 +80,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "chicken salad mix",
       "bread (sandwich bread)",
@@ -94,6 +102,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "angel hair pasta",
       "meatballs",
@@ -111,6 +121,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "french toast baguette",
       "red velvet cake crumbles",
@@ -128,6 +140,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "beyond burger patty",
       "burger bun",
@@ -146,6 +160,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "cajun grilled chicken",
       "lettuce",
@@ -168,6 +184,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "chicken",
       "shrimp",
@@ -186,6 +204,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "grilled chicken",
       "lettuce",
@@ -205,6 +225,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "acai",
       "coconut milk",
@@ -231,6 +253,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "chicken",
       "edamame",
@@ -253,6 +277,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "brussels sprouts",
       "remoulade"
@@ -270,6 +296,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "tender greens",
       "butternut squash",
@@ -293,6 +321,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "spinach",
       "romaine",
@@ -311,6 +341,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "farro",
       "kale",
@@ -330,6 +362,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "red sauce",
       "cheese blend",
@@ -364,6 +398,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "red sauce",
       "jalapeños",
@@ -381,6 +417,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "vodka sauce",
       "cheese blend",
@@ -397,6 +435,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "red sauce",
       "cheese blend",
@@ -414,6 +454,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "brussels sprouts",
       "pickled red onion",
@@ -435,6 +477,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "potatoes",
       "chorizo",
@@ -456,6 +500,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "shrimp",
       "pimento grits",
@@ -474,6 +520,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "avocado",
       "west indies crab",
@@ -493,6 +541,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "waffle",
       "quail",
@@ -513,6 +563,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "egg white",
       "mozzarella",
@@ -533,6 +585,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "plant-based patty",
       "vegan bacon",
@@ -556,6 +610,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "plant-based patty",
       "sweet jerk plantains",
@@ -579,6 +635,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "plant-based patty",
       "jalapenos",
@@ -602,6 +660,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "plant-based patty",
       "pickle",
@@ -625,6 +685,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "fries",
       "vegan beef",
@@ -645,6 +707,8 @@
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "cabbage & cilantro blend",
       "romaine",
@@ -665,8 +729,10 @@
     "level": "Building",
     "tags": [],
     "allergens": "fish",
-    "hours": "yes",
+    "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "spinach",
       "norwegian salmon",
@@ -686,8 +752,10 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy",
-    "hours": "yes",
+    "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "kale",
       "avocado",
@@ -707,8 +775,10 @@
     "level": "Building",
     "tags": [],
     "allergens": "shellfish",
-    "hours": "yes",
+    "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "cabbage & cilantro blend",
       "romaine",
@@ -729,8 +799,10 @@
     "level": "Building",
     "tags": [],
     "allergens": "dairy, gluten",
-    "hours": "yes",
+    "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "romaine",
       "panko fried chicken",
@@ -755,6 +827,8 @@
     "allergens": "wheat (pita), unknown (sauce)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Avocado",
       "Roasted peppers",
@@ -776,6 +850,8 @@
     "allergens": "soy (tofu), wheat (pita)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Baked tofu",
       "Caramelized onions",
@@ -794,6 +870,8 @@
     "allergens": "dairy (cheese), wheat (bread), unknown (tuna salad)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Tuna salad",
       "Cheddar cheese",
@@ -813,6 +891,8 @@
     "allergens": "dairy (mozzarella), tree nuts (pesto)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Grilled chicken",
       "Roasted peppers",
@@ -833,6 +913,8 @@
     "allergens": "dairy (mozzarella), tree nuts (pesto, pistachios)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Mozzarella cheese",
       "Grilled cherry tomatoes",
@@ -852,6 +934,8 @@
     "allergens": "fish (salmon), unknown (vinaigrette, tortilla chips)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Warm quinoa",
       "Spring mix",
@@ -878,6 +962,8 @@
     "allergens": "dairy (goat cheese), unknown (vinaigrette)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Warm quinoa",
       "Arugula",
@@ -902,6 +988,8 @@
     "allergens": "dairy (blue cheese dressing), egg",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Shredded kale",
       "Chopped romaine",
@@ -924,6 +1012,8 @@
     "allergens": "unknown (impossible meat, vinaigrette, tortilla strips)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Roasted corn",
       "Avocado",
@@ -946,6 +1036,8 @@
     "allergens": "unknown (vinaigrette, tortilla chips)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Spring mix",
       "Roasted chicken",
@@ -965,6 +1057,8 @@
     "allergens": "sesame (sesame seeds), unknown (garlic-ginger sauce)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Cauliflower",
       "Garlic-ginger sauce",
@@ -984,6 +1078,8 @@
     "allergens": "soy (tofu), tree nuts (nuts), unknown (yum-yum sauce)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Tofu",
       "Carrots",
@@ -1003,6 +1099,8 @@
     "allergens": "fish (salmon), dairy (butter, risotto)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Salmon",
       "Lemongrass butter",
@@ -1020,6 +1118,8 @@
     "allergens": "dairy (muenster), egg (garlic mayo)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Kobe beef patty",
       "Muenster cheese",
@@ -1039,6 +1139,8 @@
     "allergens": "wheat (wontons), dairy (kimchi queso, cotija)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Wontons",
       "Kimchi queso",
@@ -1058,6 +1160,8 @@
     "allergens": "dairy (smoked feta), wheat (pasta), unknown (balsamic glaze)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "pasta",
       "artisanal lettuces",
@@ -1081,6 +1185,8 @@
     "allergens": "dairy (smoked feta), soy (edamame), fish (tuna), sesame (tuna), unknown (Green Goddess dressing)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "quinoa",
       "kale + broccoli slaw",
@@ -1105,6 +1211,8 @@
     "allergens": "fish (tuna), soy (orange ginger soy, edamame)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "tuna",
       "quinoa",
@@ -1123,6 +1231,8 @@
     "allergens": "dairy (smoked feta), wheat (flour tortillas)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "flour tortillas",
       "flank steak",
@@ -1143,6 +1253,8 @@
     "allergens": "dairy (pimento cheese), wheat (egg roll wrapper)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "egg roll wrapper",
       "Conecuh sausage",
@@ -1162,6 +1274,8 @@
     "allergens": "wheat (flatbread), dairy (mozzarella, CE Chipotle Ranch), egg (CE Chipotle Ranch)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "shredded beef",
       "flatbread",
@@ -1181,6 +1295,8 @@
     "allergens": "wheat (whole wheat wrap), dairy (mozzarella), soy (CE Sweet Chili)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "whole wheat wrap",
       "chicken",
@@ -1203,6 +1319,8 @@
     "allergens": "wheat (whole wheat wrap), dairy (mozzarella, CE Buffalo), egg (CE Buffalo)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "whole wheat wrap",
       "shredded beef",
@@ -1227,6 +1345,8 @@
     "allergens": "multiple allergens possible by sauce selection (egg, dairy, peanut, soy, sesame)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "gluten-free breaded chicken",
       "sauce option - Epic Sauce",
@@ -1254,6 +1374,8 @@
     "allergens": "multiple allergens possible by protein selection (soy/wheat, fish, shellfish); egg (CE Epic Sauce), dairy (mozzarella)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "protein option - black bean patty",
       "protein option - diced chicken",
@@ -1282,6 +1404,8 @@
     "allergens": "fish (smoked salmon), dairy (cream cheese)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Smoked salmon",
       "Arugula",
@@ -1304,6 +1428,8 @@
     "allergens": "tree nuts (crushed almonds)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1316,6 +1442,8 @@
     "allergens": "wheat (bagel), dairy (cream cheese), tree nuts (peanut butter)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1328,6 +1456,8 @@
     "allergens": "wheat (pita), dairy (Swiss), egg (mayo)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1340,6 +1470,8 @@
     "allergens": "fish (tuna salad), dairy (cheddar), wheat (pita)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1352,6 +1484,8 @@
     "allergens": "dairy (Swiss), wheat (pita), egg (mayo)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1364,6 +1498,8 @@
     "allergens": "dairy (Swiss), wheat (pita), egg (chipotle mayo)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1376,6 +1512,8 @@
     "allergens": "dairy (Swiss), wheat (pita), unknown (BBQ sauce)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Grilled chicken",
       "Jalapeño",
@@ -1395,6 +1533,8 @@
     "allergens": "dairy (Swiss), wheat (pita), unknown (chipotle sauce)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1407,6 +1547,8 @@
     "allergens": "dairy (Swiss), wheat (pita), egg (mayo)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1421,6 +1563,8 @@
     "allergens": "unknown (homemade hummus)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1435,6 +1579,8 @@
     "allergens": "wheat (seitan, pita), unknown (vegan chipotle mayo)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Marinated seitan",
       "Caramelized onions",
@@ -1456,6 +1602,8 @@
     "allergens": "unknown (house-made vegan chicken, vegan cheese, vegan mayo)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "House-made vegan chicken",
       "Vegan mayonnaise",
@@ -1478,6 +1626,8 @@
     "allergens": "dairy (parmesan), wheat (pita), unknown (vegan fried chicken, chipotle mayo)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Vegan fried chicken",
       "Parmesan cheese",
@@ -1499,6 +1649,8 @@
     "allergens": "unknown (vegan meatballs, marinara sauce, vegan cheese)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1513,6 +1665,8 @@
     "allergens": "unknown (vegan cheese, vegan mayo)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1527,6 +1681,8 @@
     "allergens": "unknown (vegan salami, vegan cheese, vegan mayo)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1539,6 +1695,8 @@
     "allergens": "dairy (cheese), wheat (pita)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1553,6 +1711,8 @@
     "allergens": "unknown (vegan salami, vegan chipotle)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1567,6 +1727,8 @@
     "allergens": "dairy (parmesan), wheat (croutons), unknown (Caesar dressing)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1581,6 +1743,8 @@
     "allergens": "unknown (baba ganoush)",
     "hours": "",
     "menu_link": "",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": []
   },
   {
@@ -1596,6 +1760,8 @@
     "allergens": "dairy (yogurt), tree nuts (coconut, almond)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "whipped yogurt",
       "coconut almond granola",
@@ -1614,6 +1780,8 @@
     "allergens": "wheat (breadcrumbs), dairy (parmigiano), egg (caesar dressing - undisclosed)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "romaine lettuce",
       "garlic breadcrumbs",
@@ -1634,6 +1802,8 @@
     "allergens": "dairy (whipped feta), tree nuts (walnuts)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "mixed lettuces",
       "whipped feta",
@@ -1657,6 +1827,8 @@
     "allergens": "wheat (bread), dairy (cream cheese), egg (poached egg), sesame (everything spice)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "toast",
       "avocado",
@@ -1676,6 +1848,8 @@
     "allergens": "wheat (english muffin), dairy (hollandaise), egg (poached eggs, hollandaise)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "english muffin",
       "smoked salmon",
@@ -1696,6 +1870,8 @@
     "allergens": "wheat (banana bread), dairy (mascarpone), egg (french toast - undisclosed), tree nuts (walnuts)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "banana bread",
       "mascarpone",
@@ -1716,6 +1892,8 @@
     "allergens": "dairy (honey butter), wheat (pancakes - undisclosed), egg (pancakes - undisclosed)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "pancakes",
       "maple syrup",
@@ -1732,6 +1910,8 @@
     "allergens": "wheat (biscuit, fried coating), dairy (buttermilk, ranch)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "buttermilk biscuit",
       "buttermilk fried chicken breast",
@@ -1751,6 +1931,8 @@
     "allergens": "egg (scrambled eggs)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "pan fried potatoes",
       "breakfast sausage",
@@ -1772,6 +1954,8 @@
     "allergens": "dairy (parmesan), egg (poached egg)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "yellow corn grits",
       "Bear Creek pork belly",
@@ -1791,6 +1975,8 @@
     "allergens": "wheat (rigatoni), dairy (manchego)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "rigatoni",
       "housemade chorizo",
@@ -1808,6 +1994,8 @@
     "allergens": "wheat (bun), dairy (cheddar), egg (russian, dijonaise - undisclosed)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "housemade bun",
       "Bear Creek dry-aged beef patties",
@@ -1830,6 +2018,8 @@
     "allergens": "egg (two eggs, hollandaise), dairy (hollandaise)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Bear Creek steak (bo round)",
       "eggs",
@@ -1841,17 +2031,15 @@
     "id": "D097",
     "name": "Arancini",
     "restaurant": "The Essential",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [],
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
-    "ingredients": [
-      "crispy rice balls",
-      "mozzarella",
-      "calabrian chili sauce"
-    ]
+    "menu_price": "",
+    "restaurant_address": "",
+    "ingredients": []
   },
   {
     "id": "D098",
@@ -1867,11 +2055,12 @@
     "allergens": "wheat (sourdough bread), sesame (tahini in hummus - undisclosed)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Rancho Gordo chickpea hummus",
       "Santa Cruz olive oil",
-      "pickles",
-      "sourdough bread"
+      "pickles"
     ]
   },
   {
@@ -1886,10 +2075,9 @@
     "allergens": "wheat (sourdough), dairy (creme fraiche)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
-      "housemade sourdough",
-      "roasted local mushrooms",
-      "creme fraiche",
       "thyme"
     ]
   },
@@ -1903,12 +2091,12 @@
     "allergens": "wheat (semolina cracker), egg (beef tallow mayo)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Bear Creek beef",
       "crispy shallots",
-      "capers",
-      "beef tallow mayo",
-      "semolina cracker"
+      "capers"
     ]
   },
   {
@@ -1923,16 +2111,13 @@
     "allergens": "fish (smoked salmon), dairy (ricotta salata), peanuts",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
-      "ricotta salata",
-      "peanut & pumpkin seed crunch",
-      "charred cucumber",
-      "smoked salmon",
-      "apples",
       "ginger",
       "celery",
-      "yuzu",
-      "dill"
+      "ricotta salata",
+      "peanut & pumpkin seed crunch"
     ]
   },
   {
@@ -1948,10 +2133,10 @@
     "allergens": "dairy (fior di latte mozzarella)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "wild ramp vinaigrette",
-      "Liuzi fior di latte mozzarella",
-      "heirloom tomatoes",
       "basil oil"
     ]
   },
@@ -1967,12 +2152,12 @@
     "allergens": "wheat (pasta), dairy (ricotta, goat cheese, saffron butter), egg (pasta - undisclosed)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "agnolotti pasta",
       "herbed ricotta",
-      "goat cheese",
-      "sungold tomato sauce",
-      "saffron butter"
+      "goat cheese"
     ]
   },
   {
@@ -1987,11 +2172,10 @@
     "allergens": "wheat (spelt flour), dairy (cheese, butter), soy (miso - undisclosed)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
-      "spelt flour spaghetti",
-      "miso butter",
-      "pecorino romano",
-      "zanzibar peppercorns"
+      "spelt flour spaghetti"
     ]
   },
   {
@@ -2006,10 +2190,9 @@
     "allergens": "wheat (pasta, breadcrumbs), dairy (Shelburne cheddar)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
-      "casarecce pasta",
-      "morel mushrooms",
-      "broccoli",
       "Shelburne aged cheddar",
       "herbed breadcrumbs"
     ]
@@ -2024,14 +2207,16 @@
     "allergens": "shellfish (Gulf shrimp), wheat (squid ink pasta)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "zucchini",
       "picholine olives",
       "Gulf shrimp",
       "summer squash",
-      "tomato ragu",
       "squid ink canestri pasta",
-      "fennel"
+      "fennel",
+      "tomato ragu"
     ]
   },
   {
@@ -2046,11 +2231,12 @@
     "allergens": "fish (rainbow trout), dairy (cream sauce)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "rainbow trout",
       "spinach and sorrel cream sauce",
-      "Carolina Gold rice",
-      "salsa seca"
+      "Carolina Gold rice"
     ]
   },
   {
@@ -2065,10 +2251,9 @@
     "allergens": "peanuts (peanut-lime gremolata)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
-      "Joyce Farms half chicken",
-      "ginger guajillo marinade",
-      "peanut-lime gremolata",
       "fries"
     ]
   },
@@ -2084,6 +2269,8 @@
     "allergens": "none identified",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "arugula",
       "pearl onion balsamic sauce",
@@ -2101,12 +2288,11 @@
     "allergens": "wheat (rigatoni), dairy (creme fraiche, manchego)",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "rigatoni",
-      "housemade chorizo",
-      "tomato bolognese sauce",
-      "creme fraiche",
-      "manchego"
+      "housemade chorizo"
     ]
   },
   {
@@ -2119,6 +2305,8 @@
     "allergens": "wheat (pain de mie flatbread)",
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "certified angus braised beef brisket",
       "white barbecue sauce"
@@ -2134,6 +2322,8 @@
     "allergens": "wheat (sourdough), dairy (swiss cheese), egg (aioli - undisclosed)",
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "Thuman's smoked turkey",
       "bacon",
@@ -2154,6 +2344,8 @@
     "allergens": "wheat (focaccia), dairy (pecorino romano), egg (aioli - undisclosed)",
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "pecorino romano",
       "spinach",
@@ -2172,6 +2364,8 @@
     "allergens": "wheat (focaccia), dairy (provolone), tree nuts (pesto - undisclosed)",
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "roasted portobello mushrooms"
     ]
@@ -2188,6 +2382,8 @@
     "allergens": "wheat (croutons), dairy (cheddar, buttermilk ranch), egg (ranch - undisclosed)",
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "carrots",
       "cheddar",
@@ -2209,6 +2405,8 @@
     "allergens": "wheat (farro)",
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "farro",
       "asparagus",
@@ -2232,6 +2430,8 @@
     "allergens": "dairy (feta), tree nuts (almonds)",
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "tender greens",
       "Harvest Farms strawberries",
@@ -2255,6 +2455,8 @@
     "allergens": "sesame (sesame glaze)",
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "spice-crusted slow-roasted pork belly",
       "sesame glaze",
@@ -2275,6 +2477,8 @@
     "allergens": "fish (atlantic salmon), wheat (farro), dairy (mint yogurt)",
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "atlantic salmon",
       "farro",
@@ -2298,6 +2502,8 @@
     "allergens": "sesame, soy (edamame, teriyaki - partially disclosed), tree nuts (cashews)",
     "hours": "Daily 10:30am-8pm",
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-downtown-menu",
+    "menu_price": "",
+    "restaurant_address": "",
     "ingredients": [
       "sesame chicken",
       "edamame",
