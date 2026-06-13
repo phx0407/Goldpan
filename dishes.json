@@ -2980,7 +2980,7 @@
     "id": "D152",
     "name": "Chicken & Waffles",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [],
     "allergens": "unknown (sweet potato waffles, wings)",
@@ -2989,11 +2989,7 @@
     "menu_price": "$18.00",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "whole chicken wings",
-      "sweet potato waffles",
-      "honey"
-    ]
+    "ingredients": []
   },
   {
     "id": "D153",
@@ -3018,7 +3014,7 @@
     "id": "D154",
     "name": "Shrimp & Grits",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [],
     "allergens": "shellfish (shrimp), dairy (mozzarella), unknown (bayou cream sauce)",
@@ -3027,9 +3023,7 @@
     "menu_price": "$18.72",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "shrimp"
-    ]
+    "ingredients": []
   },
   {
     "id": "D155",
@@ -3045,8 +3039,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "salmon",
-      "creamy grits",
       "signature sauce"
     ]
   },
@@ -3065,8 +3057,7 @@
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
       "oxtails",
-      "creamy grits",
-      "house gravy"
+      "creamy grits"
     ]
   },
   {
@@ -3098,10 +3089,7 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "shrimp",
-      "bayou pico de gallo",
-      "Louisiana spices",
-      "chips"
+      "shrimp"
     ]
   },
   {
@@ -3127,7 +3115,7 @@
     "id": "D160",
     "name": "Surf & Turf Burger",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [],
     "allergens": "shellfish (shrimp), dairy (jack cheese), unknown (bayou lobster cream sauce, bun)",
@@ -3136,11 +3124,7 @@
     "menu_price": "$15.00",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "jack cheese",
-      "bayou lobster cream sauce",
-      "fries"
-    ]
+    "ingredients": []
   },
   {
     "id": "D161",
@@ -3181,7 +3165,7 @@
     "id": "D163",
     "name": "Shrimp Po Boy",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [],
     "allergens": "shellfish (shrimp), unknown (remoulade, bread type)",
@@ -3190,11 +3174,7 @@
     "menu_price": "$16.00",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "pickles",
-      "remoulade sauce",
-      "fries"
-    ]
+    "ingredients": []
   },
   {
     "id": "D164",
@@ -3210,7 +3190,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "chicken",
       "cheddar jack cheese",
       "pico de gallo",
       "fries"
@@ -3230,9 +3209,7 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "onions",
-      "honey mustard",
-      "fries"
+      "onions"
     ]
   },
   {
@@ -3249,7 +3226,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "catfish",
       "fries"
     ]
   },
@@ -3268,8 +3244,7 @@
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
       "chicken breast",
-      "bacon",
-      "cheddar jack cheese"
+      "bacon"
     ]
   },
   {
@@ -3301,8 +3276,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "ribeye steak",
-      "signature blend seasoning",
       "garlic herb butter"
     ]
   },
@@ -3383,11 +3356,8 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "cavatappi pasta",
-      "bayou cream sauce",
       "bell peppers",
-      "spinach",
-      "mozzarella cheese"
+      "spinach"
     ]
   },
   {
@@ -3404,10 +3374,7 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "spinach",
-      "mozzarella cheese",
-      "provolone cheese",
-      "basil"
+      "spinach"
     ]
   },
   {
@@ -3426,8 +3393,7 @@
     "ingredients": [
       "chicken",
       "black olives",
-      "banana peppers",
-      "dressing (choice)"
+      "banana peppers"
     ]
   },
   {
@@ -3444,9 +3410,6 @@
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
-      "salmon",
-      "lettuce",
-      "mozzarella cheese",
       "cilantro",
       "dressing (choice)"
     ]
@@ -3469,9 +3432,6 @@
     "ingredients": [
       "lettuce",
       "carrots",
-      "pico de gallo",
-      "black olives",
-      "banana peppers",
       "dressing (choice)"
     ]
   },
@@ -3493,8 +3453,6 @@
     "ingredients": [
       "saffron yellow rice",
       "corn",
-      "pinto beans",
-      "seasonal vegetables",
       "pico de gallo",
       "lime"
     ]
@@ -3503,7 +3461,7 @@
     "id": "D180",
     "name": "Veggie Wings",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [
       "vegetarian"
@@ -3514,16 +3472,13 @@
     "menu_price": "$12.00",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "veggie wings",
-      "sauce (choice)"
-    ]
+    "ingredients": []
   },
   {
     "id": "D181",
     "name": "Fried Red Velvet Pound Cake",
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [],
     "allergens": "unknown (cake composition)",
@@ -3532,9 +3487,7 @@
     "menu_price": "$12.00",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "red velvet pound cake"
-    ]
+    "ingredients": []
   },
   {
     "id": "D182",
