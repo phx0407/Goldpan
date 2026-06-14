@@ -101,7 +101,19 @@ NAME_NORMALIZATIONS = {
 # Leave a key out entirely to skip that field for a given dish.
 
 DISH_OVERRIDES = {
+    "D076": {  # Dungeon Sandwich (Adam and Eve) — contains real parmesan, not vegan
+        "dietary_tags": "none",
+    },
+    "D086": {  # Five Grain Salad (The Essential) — farro/barley/wheat berry, not gluten-free
+        "dietary_tags": "vegetarian",
+    },
     "D090": {  # Honey Butter Pancakes (The Essential) — not gluten-free
+        "dietary_tags": "none",
+    },
+    "D120": {  # Spring Farro Salad (Brick & Tin MB) — honey lemon vinaigrette, not vegan
+        "dietary_tags": "none",
+    },
+    "D125": {  # Sauteed Salmon (Brick & Tin MB) — farro (wheat allergen confirmed), not gluten-free
         "dietary_tags": "none",
     },
     "D098": {  # Hummus + Pickles (The Essential) — served with sourdough, not gluten-free
