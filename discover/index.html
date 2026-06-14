@@ -114,6 +114,12 @@
     .survey-dismiss { position: absolute; top: 12px; right: 14px; background: none; border: none; color: #9A9488; font-size: 16px; cursor: pointer; line-height: 1; }
     .survey-dismiss:hover { color: #F5F2EC; }
     .survey-thanks { font-size: 13px; color: #4CAF76; margin-top: 12px; display: none; font-style: italic; }
+    .site-footer { border-top: 1px solid #1A1A1A; padding: 32px 48px; display: flex; flex-direction: column; gap: 12px; }
+    .footer-disclaimer { font-size: 11px; color: #555550; line-height: 1.6; letter-spacing: 0.02em; }
+    .footer-disclaimer strong { color: #9A9488; font-weight: 500; }
+    .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 16px; letter-spacing: 0.1em; color: #333330; margin-bottom: 4px; }
+    @media (max-width: 768px) { .site-footer { padding: 24px 20px; } }
+    .allergen-disclaimer { font-size: 11px; color: #9A9488; background: #111111; border: 1px solid #2A2A2A; padding: 10px 14px; margin-bottom: 20px; line-height: 1.6; letter-spacing: 0.02em; }
   </style>
   <script src="/consent.js" defer></script>
 </head>
@@ -176,6 +182,16 @@
   </div>
 
   <div class="grid" id="grid"></div>
+
+  <footer class="site-footer">
+    <div class="footer-logo">Goldpan™</div>
+    <p class="footer-disclaimer"><strong>Allergen Notice.</strong> Allergen information on Goldpan is sourced from publicly available menu data and has not been verified by the restaurant. Menus and ingredients change without notice. If you have a food allergy or intolerance, always confirm directly with the restaurant before ordering. Goldpan is not liable for decisions made based on this information.</p>
+    <p class="footer-disclaimer"><strong>Data Accuracy.</strong> Dish and ingredient information reflects what was publicly disclosed at the time of canvassing. Goldpan does not guarantee that information is current or complete.</p>
+    <p class="footer-disclaimer"><strong>Transparency Levels.</strong> Goldpan's transparency levels (Building, Moderate, High) measure how clearly a restaurant discloses what is in its food — not food quality, safety, or healthfulness. A higher level means more disclosure, not a health endorsement.</p>
+    <p class="footer-disclaimer"><strong>No Affiliation.</strong> Goldpan is not affiliated with, endorsed by, or partnered with any listed restaurant. Restaurant names and marks are the property of their respective owners.</p>
+    <p class="footer-disclaimer"><strong>Not Medical or Dietary Advice.</strong> Nothing on Goldpan constitutes medical, nutritional, or dietary advice. Consult a qualified professional for guidance related to your health.</p>
+    <p class="footer-disclaimer" style="margin-top:8px;">© Goldpan™ · <a href="/privacy.html" style="color:#555550;text-decoration:underline;">Privacy Policy</a></p>
+  </footer>
 
   <div class="detail-panel" id="detail-panel">
     <button class="detail-close" onclick="closeDetail()">x</button>
@@ -388,7 +404,6 @@ function openDetail(id) {
     '</div>' : '';
 
   var metaHtml = '';
-  if (d.menu_price) metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">Price: '+d.menu_price+'</div>';
   if (d.hours) metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">Hours: '+d.hours+'</div>';
   if (d.restaurant_address) metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">'+d.restaurant_address+'</div>';
   if (d.restaurant_website) metaHtml += '<div style="font-size:12px;margin-bottom:20px;"><a href="'+d.restaurant_website+'" target="_blank" style="color:#C9A84C;text-decoration:none;">Restaurant Website ↗</a></div>';
@@ -401,6 +416,7 @@ function openDetail(id) {
     affirmHtml+
     tagsHtml+
     '<div class="detail-section-title">Allergens on Record</div>'+
+    '<div class="allergen-disclaimer">⚠ Allergen data is sourced from public menus and has not been confirmed by the restaurant. Always verify directly with the restaurant before ordering if you have a food allergy or intolerance.</div>'+
     '<div class="detail-allergens">'+(d.allergens||'Unknown')+'</div>'+
     '<div class="detail-section-title">Ingredients on Record</div>'+
     '<div class="detail-ingredients">'+ingHtml+'</div>'+
