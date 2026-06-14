@@ -101,6 +101,12 @@ NAME_NORMALIZATIONS = {
 # Leave a key out entirely to skip that field for a given dish.
 
 DISH_OVERRIDES = {
+    "D090": {  # Honey Butter Pancakes (The Essential) — not gluten-free
+        "dietary_tags": "none",
+    },
+    "D098": {  # Hummus + Pickles (The Essential) — served with sourdough, not gluten-free
+        "dietary_tags": "vegan",
+    },
     "D001": {
         "menu_price":       "$13.99",
         "allergen_summary": "mustard (sorghum honey mustard)",
@@ -155,6 +161,7 @@ for rid, meta in RESTAURANT_METADATA.items():
 COL_RESTAURANT_ID      = 0
 COL_RESTAURANT_NAME    = 1
 COL_DISH_ID            = 3
+COL_DIETARY_TAGS       = 5
 COL_DIETARY_OPTIONS    = 6
 COL_HOURS              = 9
 COL_MENU_LINK          = 10
@@ -336,6 +343,7 @@ def main():
         # Dish-level overrides (DISH_OVERRIDES wins over staging)
         override = DISH_OVERRIDES.get(did, {})
         if override:
+            if "dietary_tags"     in override: queue(COL_DIETARY_TAGS,     override["dietary_tags"],     force=True)
             if "dietary_options"  in override: queue(COL_DIETARY_OPTIONS,  override["dietary_options"],  force=True)
             if "menu_price"       in override: queue(COL_MENU_PRICE,       override["menu_price"],       force=True)
             if "allergen_summary" in override: queue(COL_ALLERGEN_SUMMARY, override["allergen_summary"], force=True)

@@ -28,7 +28,8 @@
 
 | Rule | Definition | Allowed Values |
 |------|-----------|----------------|
-| Dietary_Tags_Rule | Only use explicit restaurant claims. Symbols count as claims. Allergens come from Allergen_Flags, not tags. | vegan, vegetarian, gluten-free, dairy-free, none |
+| Dietary_Tags_Rule | Only use explicit restaurant claims. Symbols count as claims. Allergens come from Allergen_Flags, not tags. Never infer a tag from ingredients. | vegan, vegetarian, gluten-free, dairy-free, none |
+| Dietary_Options_Rule | Only record modifications the restaurant explicitly offers (e.g. "vegan cheese available upon request"). Do not infer that a substitution is possible from ingredients alone. If the restaurant doesn't say it, it doesn't go in dietary_options. | — |
 | Controlled_Vocabulary | Dietary tags use one fixed list shared by form, database, and discover. No free text — out-of-list tags create dead data. | — |
 | Tag_Logic | Multiple symbols = multiple tags. No symbol = none. | — |
 | Tag_Source | Where dietary claim came from. Menu is default. | menu, confirmed |
