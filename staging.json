@@ -22,10 +22,42 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Chicken, peanuts, cilantro named; sriracha crystal glaze named; sauce is optional (served naked available); crispy hand-breaded prep stated",
       "ingredients": [
-        { "name": "chicken wings", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "protein" },
-        { "name": "sriracha crystal glaze", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "unknown", "role": "sauce" },
-        { "name": "peanuts", "cut_type": "none", "preparation": "none", "type": "standard", "source": "plant-based", "allergen_flags": "peanuts", "role": "topping" },
-        { "name": "cilantro", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "garnish" }
+        {
+          "name": "chicken wings",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "sriracha crystal glaze",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "peanuts",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "peanuts",
+          "role": "topping"
+        },
+        {
+          "name": "cilantro",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
       ]
     },
     {
@@ -43,10 +75,42 @@
       "transparency_level": "Building Transparency",
       "notes": "Garlic breadsticks, roasted garlic named; pesto named but not broken down; red sauce named; crispy prep implied but not stated",
       "ingredients": [
-        { "name": "garlic breadsticks", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "roasted garlic", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "pesto", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "unknown", "role": "sauce" },
-        { "name": "red sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "sauce" }
+        {
+          "name": "garlic breadsticks",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "roasted garlic",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "pesto",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "red sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
       ]
     },
     {
@@ -64,9 +128,33 @@
       "transparency_level": "Building Transparency",
       "notes": "Hand-stretched mozzarella named; red sauce named but not broken down; crispy implies fried but method not stated",
       "ingredients": [
-        { "name": "mozzarella cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "base" },
-        { "name": "breading", "cut_type": "none", "preparation": "fried", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "red sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "sauce" }
+        {
+          "name": "mozzarella cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "base"
+        },
+        {
+          "name": "breading",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "red sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
       ]
     },
     {
@@ -84,12 +172,60 @@
       "transparency_level": "Building Transparency",
       "notes": "Waffle fries and bacon named; 'seasoned' = unknown blend; hatch chile cheddar queso and green ranch both undisclosed — two proprietary sauces; frying implied but not stated",
       "ingredients": [
-        { "name": "waffle fries", "cut_type": "none", "preparation": "fried", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "base" },
-        { "name": "seasoning", "cut_type": "none", "preparation": "none", "type": "compound", "source": "unknown", "allergen_flags": "unknown", "role": "seasoning" },
-        { "name": "bacon", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "topping" },
-        { "name": "scallions", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "hatch chile cheddar queso", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "sauce" },
-        { "name": "green ranch", "cut_type": "none", "preparation": "none", "type": "compound", "source": "unknown", "allergen_flags": "unknown", "role": "sauce" }
+        {
+          "name": "waffle fries",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "seasoning",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "seasoning"
+        },
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "scallions",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "hatch chile cheddar queso",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        },
+        {
+          "name": "green ranch",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
       ]
     },
     {
@@ -107,10 +243,42 @@
       "transparency_level": "Building Transparency",
       "notes": "Romaine, pecorino, sprizolina named; anchovy disclosed in dressing name; dressing composition otherwise not broken down; no prep method stated",
       "ingredients": [
-        { "name": "chopped romaine", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "base" },
-        { "name": "anchovy Caesar dressing", "cut_type": "none", "preparation": "none", "type": "compound", "source": "seafood", "allergen_flags": "fish", "role": "sauce" },
-        { "name": "pecorino", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "sprizolina", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "unknown", "role": "topping" }
+        {
+          "name": "chopped romaine",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "anchovy Caesar dressing",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "seafood",
+          "allergen_flags": "fish",
+          "role": "sauce"
+        },
+        {
+          "name": "pecorino",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "sprizolina",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "unknown",
+          "role": "topping"
+        }
       ]
     },
     {
@@ -128,12 +296,60 @@
       "transparency_level": "Building Transparency",
       "notes": "Brussels sprouts (dish name), pickled red onion, cashew, blue cheese, dried cherries named; miso dressing named but not broken down; no prep method stated",
       "ingredients": [
-        { "name": "Brussels sprouts", "cut_type": "shredded", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "base" },
-        { "name": "pickled red onion", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "cashew", "cut_type": "none", "preparation": "none", "type": "standard", "source": "plant-based", "allergen_flags": "tree nuts", "role": "topping" },
-        { "name": "blue cheese", "cut_type": "crumbled", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "dried cherries", "cut_type": "none", "preparation": "none", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "miso dressing", "cut_type": "none", "preparation": "none", "type": "compound", "source": "unknown", "allergen_flags": "unknown", "role": "sauce" }
+        {
+          "name": "Brussels sprouts",
+          "cut_type": "shredded",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "pickled red onion",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cashew",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "tree nuts",
+          "role": "topping"
+        },
+        {
+          "name": "blue cheese",
+          "cut_type": "crumbled",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "dried cherries",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "miso dressing",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
       ]
     },
     {
@@ -151,12 +367,60 @@
       "transparency_level": "Building Transparency",
       "notes": "Romaine, bacon, olives, cherry tomatoes, celery named; 'Bama white sauce is proprietary — name gives no composition clues; no prep method stated",
       "ingredients": [
-        { "name": "chopped romaine", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "base" },
-        { "name": "bacon", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "topping" },
-        { "name": "olives", "cut_type": "none", "preparation": "none", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "cherry tomatoes", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "celery", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "'Bama white sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "unknown", "allergen_flags": "unknown", "role": "sauce" }
+        {
+          "name": "chopped romaine",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "olives",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cherry tomatoes",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "celery",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "'Bama white sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
       ]
     },
     {
@@ -174,12 +438,60 @@
       "transparency_level": "Building Transparency",
       "notes": "Grass-fed beef specified, american cheese, greens, pickles named; Sammy sauce is proprietary — undisclosed; pretzel bun specified; no cooking method stated for beef",
       "ingredients": [
-        { "name": "grass-fed beef", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "protein" },
-        { "name": "american cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "Sammy sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "unknown", "allergen_flags": "unknown", "role": "sauce" },
-        { "name": "greens", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "pickles", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "pretzel bun", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" }
+        {
+          "name": "grass-fed beef",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "american cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "Sammy sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "greens",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "pickles",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "pretzel bun",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
       ]
     },
     {
@@ -197,13 +509,69 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Crispy breaded chicken, pickles, greens, radish named; green ranch named but not broken down; crispy breaded prep stated; pretzel bun specified",
       "ingredients": [
-        { "name": "chicken", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "protein" },
-        { "name": "breading", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "pickles", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "greens", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "radish", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "green ranch", "cut_type": "none", "preparation": "none", "type": "compound", "source": "unknown", "allergen_flags": "unknown", "role": "sauce" },
-        { "name": "pretzel bun", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" }
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "breading",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "pickles",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "greens",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "radish",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "green ranch",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "pretzel bun",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
       ]
     },
     {
@@ -221,19 +589,67 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Crispy breaded chicken, red sauce, mozzarella, basil named; red sauce named but not broken down; crispy breaded prep stated; pretzel bun specified",
       "ingredients": [
-        { "name": "chicken", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "protein" },
-        { "name": "breading", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "red sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "sauce" },
-        { "name": "mozzarella cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "basil", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "garnish" },
-        { "name": "pretzel bun", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" }
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "breading",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "red sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "mozzarella cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "basil",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "garnish"
+        },
+        {
+          "name": "pretzel bun",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
       ]
     },
     {
       "dish_id": "D242",
       "dish_name": "Classic Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend), wheat (Detroit-style dough)",
       "menu_price": "$16.80",
       "core_clarity": 15,
@@ -244,16 +660,40 @@
       "transparency_level": "Building Transparency",
       "notes": "Emmy's cheese blend is compound (proprietary multi-cheese blend, composition not disclosed); red sauce named but not broken down; baked implied by pizza format",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "red sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "sauce" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "red sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        }
       ]
     },
     {
       "dish_id": "D243",
       "dish_name": "The Founders Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend), wheat (Detroit-style dough), unknown (house-made red sauce)",
       "menu_price": "$18.80",
       "core_clarity": 25,
@@ -264,19 +704,67 @@
       "transparency_level": "Building Transparency",
       "notes": "Ezzo Pepperoni brand named; jalapeños noted as hand-sliced and house-pickled (prep stated); Mike's Hot Honey brand named; house-made red sauce named but not broken down",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "house-made red sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "sauce" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "house-pickled jalapeños", "cut_type": "sliced", "preparation": "pickled", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "Ezzo pepperoni", "cut_type": "none", "preparation": "none", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "protein" },
-        { "name": "Mike's Hot Honey", "cut_type": "none", "preparation": "none", "type": "standard", "source": "neutral", "allergen_flags": "none", "role": "sauce" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "house-made red sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "house-pickled jalapeños",
+          "cut_type": "sliced",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "Ezzo pepperoni",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "Mike's Hot Honey",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "neutral",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
       ]
     },
     {
       "dish_id": "D244",
       "dish_name": "Roni Supreme Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend), wheat (Detroit-style dough)",
       "menu_price": "$22.80",
       "core_clarity": 15,
@@ -287,18 +775,58 @@
       "transparency_level": "Building Transparency",
       "notes": "Ezzo pepperoni brand named; Calabrian chilis named; cheese blend is compound; red sauce named but not broken down; baked implied",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "red sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "sauce" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "Ezzo pepperoni", "cut_type": "none", "preparation": "none", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "protein" },
-        { "name": "Calabrian chilis", "cut_type": "none", "preparation": "none", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "red sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "Ezzo pepperoni",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "Calabrian chilis",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
       ]
     },
     {
       "dish_id": "D245",
       "dish_name": "Margherita Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend, burrata), wheat (Detroit-style dough)",
       "menu_price": "$21.80",
       "core_clarity": 15,
@@ -309,18 +837,58 @@
       "transparency_level": "Building Transparency",
       "notes": "Cheese blend is compound; burrata and basil named; red sauce named but not broken down; baked implied",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "red sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "sauce" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "burrata", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "basil", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "garnish" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "red sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "burrata",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "basil",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
       ]
     },
     {
       "dish_id": "D246",
       "dish_name": "Vodka Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend, pecorino), wheat (Detroit-style dough), unknown (vodka sauce)",
       "menu_price": "$16.80",
       "core_clarity": 15,
@@ -331,18 +899,58 @@
       "transparency_level": "Building Transparency",
       "notes": "Cheese blend is compound; pecorino and basil named; vodka sauce named but not broken down; baked implied",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "vodka sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "unknown", "allergen_flags": "unknown", "role": "sauce" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "basil", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "garnish" },
-        { "name": "pecorino", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "vodka sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "basil",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "garnish"
+        },
+        {
+          "name": "pecorino",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        }
       ]
     },
     {
       "dish_id": "D247",
       "dish_name": "MVP Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend, pecorino), wheat (Detroit-style dough, sesame seed crust), unknown (vodka sauce, parsley pesto)",
       "menu_price": "$18.80",
       "core_clarity": 15,
@@ -353,19 +961,67 @@
       "transparency_level": "Building Transparency",
       "notes": "Cheese blend is compound; three sauces (vodka, red, parsley pesto) named but none broken down; sesame seed crust detail noted; baked implied",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "sesame seed crust", "cut_type": "none", "preparation": "none", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "base" },
-        { "name": "vodka sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "unknown", "allergen_flags": "unknown", "role": "sauce" },
-        { "name": "red sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "sauce" },
-        { "name": "parsley pesto", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "unknown", "role": "sauce" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "sesame seed crust",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "vodka sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "red sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "parsley pesto",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        }
       ]
     },
     {
       "dish_id": "D248",
       "dish_name": "Big Ang Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend, ricotta, pecorino), wheat (Detroit-style dough), unknown (vodka sauce, Italian sausage)",
       "menu_price": "$21.80",
       "core_clarity": 25,
@@ -376,20 +1032,76 @@
       "transparency_level": "Building Transparency",
       "notes": "Ricotta, double pecorino, Italian sausage, banana peppers all individually named beyond cheese blend; vodka sauce named but not broken down; baked implied",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "vodka sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "unknown", "allergen_flags": "unknown", "role": "sauce" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "ricotta", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "pecorino", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "Italian sausage", "cut_type": "none", "preparation": "cooked", "type": "compound", "source": "animal", "allergen_flags": "unknown", "role": "protein" },
-        { "name": "banana peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "vodka sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "ricotta",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "pecorino",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "Italian sausage",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "animal",
+          "allergen_flags": "unknown",
+          "role": "protein"
+        },
+        {
+          "name": "banana peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
       ]
     },
     {
       "dish_id": "D249",
       "dish_name": "Big Hawaiian Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend), wheat (Detroit-style dough), unknown (pineapple chili glaze)",
       "menu_price": "$19.80",
       "core_clarity": 15,
@@ -400,19 +1112,67 @@
       "transparency_level": "Building Transparency",
       "notes": "Ezzo pepperoni brand named; bacon and pineapple named; cheese blend is compound; pineapple chili glaze named but not broken down; baked implied",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "Ezzo pepperoni", "cut_type": "none", "preparation": "none", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "protein" },
-        { "name": "bacon", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "topping" },
-        { "name": "pineapple", "cut_type": "none", "preparation": "none", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "pineapple chili glaze", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "sauce" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "Ezzo pepperoni",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "pineapple",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "pineapple chili glaze",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
       ]
     },
     {
       "dish_id": "D250",
       "dish_name": "Good Paulie Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend, smoked gouda), wheat (Detroit-style dough), unknown (Italian sausage)",
       "menu_price": "$18.80",
       "core_clarity": 25,
@@ -423,18 +1183,58 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Smoked gouda named beyond cheese blend; caramelized onions named with prep; Italian sausage named; no sauce listed; baked implied",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "caramelized onions", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "Italian sausage", "cut_type": "none", "preparation": "cooked", "type": "compound", "source": "animal", "allergen_flags": "unknown", "role": "protein" },
-        { "name": "smoked gouda", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "caramelized onions",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "Italian sausage",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "animal",
+          "allergen_flags": "unknown",
+          "role": "protein"
+        },
+        {
+          "name": "smoked gouda",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        }
       ]
     },
     {
       "dish_id": "D251",
       "dish_name": "Deluxe Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend), wheat (Detroit-style dough), unknown (Italian sausage)",
       "menu_price": "$18.80",
       "core_clarity": 25,
@@ -445,19 +1245,67 @@
       "transparency_level": "Building Transparency",
       "notes": "Bell peppers, mushrooms, crumbled Italian sausage named; red sauce named but not broken down; cheese blend is compound; baked implied",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "red sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "sauce" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "bell peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "mushrooms", "cut_type": "none", "preparation": "none", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "Italian sausage", "cut_type": "crumbled", "preparation": "cooked", "type": "compound", "source": "animal", "allergen_flags": "unknown", "role": "protein" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "red sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "bell peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "mushrooms",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "Italian sausage",
+          "cut_type": "crumbled",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "animal",
+          "allergen_flags": "unknown",
+          "role": "protein"
+        }
       ]
     },
     {
       "dish_id": "D252",
       "dish_name": "Miranda Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend, smoked gouda, pecorino, ricotta), wheat (Detroit-style dough)",
       "menu_price": "$18.80",
       "core_clarity": 25,
@@ -468,20 +1316,76 @@
       "transparency_level": "Moderate Transparency",
       "notes": "All four cheeses individually named; bacon named; hot honey is a single-ingredient drizzle — no hidden sauce; baked implied",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "smoked gouda", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "pecorino", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "ricotta", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "bacon", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "topping" },
-        { "name": "hot honey", "cut_type": "none", "preparation": "none", "type": "standard", "source": "neutral", "allergen_flags": "none", "role": "sauce" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "smoked gouda",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "pecorino",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "ricotta",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "hot honey",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "neutral",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
       ]
     },
     {
       "dish_id": "D253",
       "dish_name": "Meatsiah Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend), wheat (Detroit-style dough), unknown (Italian sausage, house-made red sauce)",
       "menu_price": "$23.80",
       "core_clarity": 25,
@@ -492,20 +1396,76 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Ezzo pepperoni (brand), handcrafted Italian sausage, Daily's Thick-cut Bacon (brand), shaved sirloin all named with specificity; house-made red sauce named; crispy stated for pepperoni, shaved cut stated for sirloin",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "house-made red sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "none", "role": "sauce" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "Ezzo pepperoni", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "protein" },
-        { "name": "Italian sausage", "cut_type": "none", "preparation": "cooked", "type": "compound", "source": "animal", "allergen_flags": "unknown", "role": "protein" },
-        { "name": "Daily's thick-cut bacon", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "protein" },
-        { "name": "shaved sirloin", "cut_type": "shredded", "preparation": "cooked", "type": "standard", "source": "animal", "allergen_flags": "none", "role": "protein" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "house-made red sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "Ezzo pepperoni",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "Italian sausage",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "animal",
+          "allergen_flags": "unknown",
+          "role": "protein"
+        },
+        {
+          "name": "Daily's thick-cut bacon",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "shaved sirloin",
+          "cut_type": "shredded",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "animal",
+          "allergen_flags": "none",
+          "role": "protein"
+        }
       ]
     },
     {
       "dish_id": "D254",
       "dish_name": "Quinn Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend, smoked gouda, pecorino, ricotta), wheat (Detroit-style dough)",
       "menu_price": "$16.80",
       "core_clarity": 25,
@@ -516,18 +1476,58 @@
       "transparency_level": "Moderate Transparency",
       "notes": "All four cheeses individually named; no sauce; baked implied",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "Emmy's cheese blend", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "smoked gouda", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "pecorino", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "ricotta", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "Emmy's cheese blend",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "smoked gouda",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "pecorino",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "ricotta",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        }
       ]
     },
     {
       "dish_id": "D255",
       "dish_name": "Nashville Hot Chicken Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (cheese blend), wheat (Detroit-style dough), unknown ('Bama white sauce, Nashville hot spice blend)",
       "menu_price": "$18.80",
       "core_clarity": 15,
@@ -538,17 +1538,49 @@
       "transparency_level": "Building Transparency",
       "notes": "Nashville hot chicken is compound — spice/sauce blend integrated and not disclosed; 'Bama white sauce is proprietary; pickles named; Nashville hot style implies frying + sauce; baked implied for pizza",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "Nashville hot chicken", "cut_type": "none", "preparation": "fried", "type": "compound", "source": "animal", "allergen_flags": "unknown", "role": "protein" },
-        { "name": "'Bama white sauce", "cut_type": "none", "preparation": "none", "type": "compound", "source": "unknown", "allergen_flags": "unknown", "role": "sauce" },
-        { "name": "chopped pickles", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "Nashville hot chicken",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "animal",
+          "allergen_flags": "unknown",
+          "role": "protein"
+        },
+        {
+          "name": "'Bama white sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "chopped pickles",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
       ]
     },
     {
       "dish_id": "D256",
       "dish_name": "Angel Pizza",
       "dietary_tags": "none",
-      "dietary_options": "none",
+      "dietary_options": "vegan cheese, gluten-free crust available on Sixer (6-slice) upon request (+$4)",
       "allergen_summary": "dairy (ricotta), wheat (Detroit-style dough), unknown (truffle cream, parsley pesto — may contain tree nuts)",
       "menu_price": "$21.80",
       "core_clarity": 25,
@@ -559,11 +1591,51 @@
       "transparency_level": "Building Transparency",
       "notes": "Ricotta and mushrooms named; truffle cream and parsley pesto named but not broken down; no standard cheese blend listed; baked implied",
       "ingredients": [
-        { "name": "Detroit-style dough", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "plant-based", "allergen_flags": "wheat", "role": "base" },
-        { "name": "ricotta", "cut_type": "none", "preparation": "none", "type": "standard", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "truffle cream", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "sauce" },
-        { "name": "mushrooms", "cut_type": "none", "preparation": "none", "type": "standard", "source": "plant-based", "allergen_flags": "none", "role": "topping" },
-        { "name": "parsley pesto", "cut_type": "none", "preparation": "none", "type": "compound", "source": "plant-based", "allergen_flags": "unknown", "role": "sauce" }
+        {
+          "name": "Detroit-style dough",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "ricotta",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "truffle cream",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        },
+        {
+          "name": "mushrooms",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "parsley pesto",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        }
       ]
     },
     {
@@ -581,9 +1653,33 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Triple-chocolate brownie is compound (composition not disclosed); vanilla ice cream and Maldon salt named; baked prep stated",
       "ingredients": [
-        { "name": "triple-chocolate brownie", "cut_type": "none", "preparation": "baked", "type": "compound", "source": "unknown", "allergen_flags": "unknown", "role": "base" },
-        { "name": "vanilla ice cream", "cut_type": "none", "preparation": "none", "type": "compound", "source": "dairy", "allergen_flags": "dairy", "role": "topping" },
-        { "name": "Maldon salt", "cut_type": "none", "preparation": "none", "type": "standard", "source": "neutral", "allergen_flags": "none", "role": "garnish" }
+        {
+          "name": "triple-chocolate brownie",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "compound",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "base"
+        },
+        {
+          "name": "vanilla ice cream",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "Maldon salt",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "neutral",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
       ]
     }
   ]

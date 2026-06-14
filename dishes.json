@@ -8,10 +8,10 @@
     "tags": [
       "gluten-free"
     ],
-    "allergens": "Unknown",
+    "allergens": "mustard (sorghum honey mustard)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
-    "menu_price": "",
+    "menu_price": "$13.99",
     "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
     "restaurant_website": "https://www.realandrosemary.com",
     "ingredients": [
@@ -110,55 +110,16 @@
     ]
   },
   {
-    "id": "D007",
-    "name": "Yo' Beyond Burger",
-    "restaurant": "Yo Chef Surf and Turf",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
-    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
-    "menu_price": "",
-    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
-    "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "pico de gallo",
-      "fried onions"
-    ]
-  },
-  {
-    "id": "D009",
-    "name": "Swamp Love Gumbo",
-    "restaurant": "Yo Chef Surf and Turf",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
-    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
-    "menu_price": "",
-    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
-    "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "chicken",
-      "shrimp",
-      "beef sausage",
-      "roux sauce",
-      "yellow rice"
-    ]
-  },
-  {
     "id": "D010",
     "name": "Chicken Caesar Wrap",
     "restaurant": "Yo Chef Surf and Turf",
     "location": "Birmingham",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
+    "allergens": "wheat (tortilla, croutons), dairy (parmesan, likely in dressing), egg/fish (likely in caesar dressing)",
     "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
     "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
-    "menu_price": "",
+    "menu_price": "$15.00",
     "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
@@ -279,10 +240,10 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
+    "allergens": "dairy (cheese blend), wheat (Detroit-style dough)",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "",
+    "menu_price": "$16.80",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
@@ -316,10 +277,10 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
+    "allergens": "dairy (cheese blend), wheat (Detroit-style dough), unknown (house-made red sauce)",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "",
+    "menu_price": "$18.80",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
@@ -336,10 +297,10 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
+    "allergens": "dairy (cheese blend, pecorino), wheat (Detroit-style dough), unknown (vodka sauce)",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "",
+    "menu_price": "$16.80",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
@@ -355,10 +316,10 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
+    "allergens": "dairy (cheese blend, burrata), wheat (Detroit-style dough)",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "",
+    "menu_price": "$21.80",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
@@ -375,10 +336,10 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
+    "allergens": "dairy (blue cheese), tree nuts (cashew), unknown (miso dressing)",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "",
+    "menu_price": "$11.50",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
@@ -4373,21 +4334,6 @@
     ]
   },
   {
-    "id": "D232",
-    "name": "Sriracha Glazed Chicken Wings",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham",
-    "level": "Moderate",
-    "tags": [],
-    "allergens": "peanuts (sriracha glaze), unknown (sriracha crystal glaze)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$11.90",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": []
-  },
-  {
     "id": "D233",
     "name": "Cheesy Garlic Sticks",
     "restaurant": "Emmy Squared",
@@ -4408,21 +4354,6 @@
     ]
   },
   {
-    "id": "D234",
-    "name": "BKLYN Mozz Sticks",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [],
-    "allergens": "dairy (mozzarella), wheat (breading), unknown (red sauce)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$14.80",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": []
-  },
-  {
     "id": "D235",
     "name": "Zia Fries",
     "restaurant": "Emmy Squared",
@@ -4439,25 +4370,9 @@
       "seasoning",
       "bacon",
       "scallions",
-      "hatch chile cheddar queso"
-    ]
-  },
-  {
-    "id": "D236",
-    "name": "Caesar Salad",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [],
-    "allergens": "dairy (pecorino), fish (anchovy in dressing), unknown (sprizolina, dressing composition)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$9.90",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "pecorino",
-      "sprizolina"
+      "hatch chile cheddar queso",
+      "waffle fries",
+      "green ranch"
     ]
   },
   {
@@ -4474,28 +4389,12 @@
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
-      "Brussels sprouts"
-    ]
-  },
-  {
-    "id": "D238",
-    "name": "Chopped Wedge Salad",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [],
-    "allergens": "unknown ('Bama white sauce)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$9.90",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "bacon",
-      "olives",
-      "cherry tomatoes",
-      "celery",
-      "Bama white sauce"
+      "Brussels sprouts",
+      "pickled red onion",
+      "cashew",
+      "blue cheese",
+      "dried cherries",
+      "miso dressing"
     ]
   },
   {
@@ -4513,26 +4412,11 @@
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
       "grass-fed beef",
+      "american cheese",
+      "Sammy sauce",
+      "greens",
+      "pickles",
       "pretzel bun"
-    ]
-  },
-  {
-    "id": "D240",
-    "name": "Spicy Chicken Sandwich",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Moderate",
-    "tags": [],
-    "allergens": "wheat (pretzel bun, breading), unknown (green ranch)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$12.90",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "chicken",
-      "breading",
-      "pickles"
     ]
   },
   {
@@ -4550,27 +4434,11 @@
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
       "red sauce",
+      "chicken",
+      "breading",
       "mozzarella cheese",
       "basil",
       "pretzel bun"
-    ]
-  },
-  {
-    "id": "D242",
-    "name": "Classic Pizza",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [],
-    "allergens": "dairy (cheese blend), wheat (Detroit-style dough)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$16.80",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "Detroit-style dough",
-      "red sauce"
     ]
   },
   {
@@ -4587,35 +4455,19 @@
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
-      "Mike's Hot Honey"
-    ]
-  },
-  {
-    "id": "D244",
-    "name": "Roni Supreme Pizza",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [],
-    "allergens": "dairy (cheese blend), wheat (Detroit-style dough)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$22.80",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
+      "Mike's Hot Honey",
       "Detroit-style dough",
-      "red sauce",
+      "house-made red sauce",
       "Emmy's cheese blend",
-      "Ezzo pepperoni",
-      "Calabrian chilis"
+      "house-pickled jalapeños",
+      "Ezzo pepperoni"
     ]
   },
   {
     "id": "D245",
     "name": "Margherita Pizza",
     "restaurant": "Emmy Squared",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "allergens": "dairy (cheese blend, burrata), wheat (Detroit-style dough)",
@@ -4624,26 +4476,12 @@
     "menu_price": "$21.80",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": []
-  },
-  {
-    "id": "D246",
-    "name": "Vodka Pizza",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [],
-    "allergens": "dairy (cheese blend, pecorino), wheat (Detroit-style dough), unknown (vodka sauce)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$16.80",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
-      "vodka sauce",
+      "Detroit-style dough",
+      "red sauce",
       "Emmy's cheese blend",
-      "basil",
-      "pecorino"
+      "burrata",
+      "basil"
     ]
   },
   {
@@ -4661,27 +4499,11 @@
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
       "Detroit-style dough",
-      "sesame seed crust"
-    ]
-  },
-  {
-    "id": "D248",
-    "name": "Big Ang Pizza",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [],
-    "allergens": "dairy (cheese blend, ricotta, pecorino), wheat (Detroit-style dough), unknown (vodka sauce, Italian sausage)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$21.80",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "ricotta",
-      "pecorino",
-      "Italian sausage",
-      "banana peppers"
+      "sesame seed crust",
+      "vodka sauce",
+      "red sauce",
+      "parsley pesto",
+      "Emmy's cheese blend"
     ]
   },
   {
@@ -4700,25 +4522,10 @@
     "ingredients": [
       "Detroit-style dough",
       "Emmy's cheese blend",
-      "Ezzo pepperoni"
-    ]
-  },
-  {
-    "id": "D250",
-    "name": "Good Paulie Pizza",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Moderate",
-    "tags": [],
-    "allergens": "dairy (cheese blend, smoked gouda), wheat (Detroit-style dough), unknown (Italian sausage)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$18.80",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "Italian sausage",
-      "smoked gouda"
+      "Ezzo pepperoni",
+      "bacon",
+      "pineapple",
+      "pineapple chili glaze"
     ]
   },
   {
@@ -4738,26 +4545,9 @@
       "Detroit-style dough",
       "red sauce",
       "Emmy's cheese blend",
-      "bell peppers"
-    ]
-  },
-  {
-    "id": "D252",
-    "name": "Miranda Pizza",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Moderate",
-    "tags": [],
-    "allergens": "dairy (cheese blend, smoked gouda, pecorino, ricotta), wheat (Detroit-style dough)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$18.80",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "Emmy's cheese blend",
-      "smoked gouda",
-      "pecorino"
+      "bell peppers",
+      "mushrooms",
+      "Italian sausage"
     ]
   },
   {
@@ -4775,29 +4565,12 @@
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
       "Ezzo pepperoni",
+      "Detroit-style dough",
+      "house-made red sauce",
+      "Emmy's cheese blend",
       "Italian sausage",
       "Daily's thick-cut bacon",
       "shaved sirloin"
-    ]
-  },
-  {
-    "id": "D254",
-    "name": "Quinn Pizza",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Moderate",
-    "tags": [],
-    "allergens": "dairy (cheese blend, smoked gouda, pecorino, ricotta), wheat (Detroit-style dough)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "menu_price": "$16.80",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "Detroit-style dough",
-      "Emmy's cheese blend",
-      "smoked gouda",
-      "pecorino"
     ]
   },
   {
@@ -4815,7 +4588,9 @@
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
       "Bama white sauce",
-      "chopped pickles"
+      "chopped pickles",
+      "Detroit-style dough",
+      "Nashville hot chicken"
     ]
   },
   {
