@@ -2,9 +2,12 @@
 patch_metadata.py — Goldpan metadata backfill
 Scans Goldpan Dish Level Data and patches:
   - Restaurant-level: Hours, Menu_Link, Restaurant_Address, Restaurant_Website
-  - Dish-level (from staging.json): Dietary_Options, Menu_Price, Allergen_Summary
-  - Dish-level (from DISH_OVERRIDES): Menu_Price, Allergen_Summary, Dietary_Options
+  - Dish-level (from staging.json): Dietary_Options, Allergen_Summary
+  - Dish-level (from DISH_OVERRIDES): Allergen_Summary, Dietary_Options
   - Always: Last_Updated set to today on any patched row
+
+Note: Menu_Price is retained in the sheet as an internal field but is not
+published to dishes.json (stripped in fetch_dishes.py).
 
 Matching: Restaurant_ID (col 0) first; restaurant name (col 1) as fallback.
 Null state: set menu_price="" and allergen_summary="Discontinued" for delisted dishes.

@@ -108,7 +108,6 @@ def main():
             "allergens":          str(r.get("Allergen_summary", "")).strip() or "Unknown",
             "hours":              str(r.get("Hours", "")).strip(),
             "menu_link":          str(r.get("Menu_Link", "")).strip(),
-            "menu_price":         str(r.get("Menu_Price", "")).strip(),
             "restaurant_address": str(r.get("Restaurant_Address", "")).strip(),
             "restaurant_website": str(r.get("Restaurant_Website", "")).strip(),
         }
@@ -131,7 +130,6 @@ def main():
             "allergens":          dl.get("allergens", "Unknown"),
             "hours":              dl.get("hours", ""),
             "menu_link":          dl.get("menu_link", ""),
-            "menu_price":         dl.get("menu_price", ""),
             "restaurant_address": dl.get("restaurant_address", ""),
             "restaurant_website": dl.get("restaurant_website", ""),
             "ingredients":        ing,

@@ -1,0 +1,822 @@
+{
+  "restaurant_id": "R014",
+  "restaurant_name": "The Essential",
+  "location": "Birmingham, AL",
+  "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
+  "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a2049489d42345ae6714bbc/1780500808483/DinnerMenu+6.3.26.pdf",
+  "dishes": [
+    {
+      "dish_id": "D097",
+      "dish_name": "Arancini",
+      "dietary_tags": "vegetarian",
+      "allergen_summary": "dairy (mozzarella), wheat (breading - undisclosed)",
+      "transparency_level": "Moderate Transparency",
+      "core_clarity": 25,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 10,
+      "prep_clarity": 10,
+      "total_score": 55,
+      "notes": "Cheese and sauce named; rice and breading composition undisclosed",
+      "ingredients": [
+        {
+          "name": "crispy rice balls",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "mozzarella",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "protein"
+        },
+        {
+          "name": "calabrian chili sauce",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D098",
+      "dish_name": "Hummus + Pickles",
+      "dietary_tags": "vegetarian, vegan, gluten-free",
+      "allergen_summary": "wheat (sourdough bread), sesame (tahini in hummus - undisclosed)",
+      "transparency_level": "Moderate Transparency",
+      "core_clarity": 30,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 10,
+      "prep_clarity": 10,
+      "total_score": 65,
+      "notes": "Chickpeas sourced (Rancho Gordo), olive oil sourced (Santa Cruz); tahini allergen undisclosed",
+      "ingredients": [
+        {
+          "name": "Rancho Gordo chickpea hummus",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "housemade",
+          "source": "plant-based",
+          "allergen_flags": "sesame",
+          "role": "base"
+        },
+        {
+          "name": "Santa Cruz olive oil",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "pickles",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "sourdough bread",
+          "cut_type": "sliced",
+          "preparation": "baked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ]
+    },
+    {
+      "dish_id": "D099",
+      "dish_name": "Mushroom Toast",
+      "dietary_tags": "vegetarian",
+      "allergen_summary": "wheat (sourdough), dairy (creme fraiche)",
+      "transparency_level": "High Transparency",
+      "core_clarity": 30,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 15,
+      "prep_clarity": 15,
+      "total_score": 75,
+      "notes": "Bread housemade; mushrooms sourced locally; all components named with prep",
+      "ingredients": [
+        {
+          "name": "housemade sourdough",
+          "cut_type": "sliced",
+          "preparation": "baked",
+          "type": "housemade",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "roasted local mushrooms",
+          "cut_type": "none",
+          "preparation": "roasted",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "creme fraiche",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        },
+        {
+          "name": "thyme",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ]
+    },
+    {
+      "dish_id": "D100",
+      "dish_name": "Beef Carpaccio",
+      "dietary_tags": "none",
+      "allergen_summary": "wheat (semolina cracker), egg (beef tallow mayo)",
+      "transparency_level": "High Transparency",
+      "core_clarity": 35,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 15,
+      "prep_clarity": 15,
+      "total_score": 80,
+      "notes": "Sourced beef (Bear Creek); all components named; mayo allergen visible; raw beef noted",
+      "ingredients": [
+        {
+          "name": "Bear Creek beef",
+          "cut_type": "sliced",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "animal-based",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "crispy shallots",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "capers",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "beef tallow mayo",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "housemade",
+          "source": "animal-based",
+          "allergen_flags": "egg",
+          "role": "sauce"
+        },
+        {
+          "name": "semolina cracker",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ]
+    },
+    {
+      "dish_id": "D101",
+      "dish_name": "Salmon Waldorf Salad",
+      "dietary_tags": "gluten-free",
+      "allergen_summary": "fish (smoked salmon), dairy (ricotta salata), peanuts",
+      "transparency_level": "Moderate Transparency",
+      "core_clarity": 40,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 15,
+      "prep_clarity": 10,
+      "total_score": 70,
+      "notes": "Excellent ingredient list; dressing/yuzu application undisclosed; peanut allergen visible",
+      "ingredients": [
+        {
+          "name": "smoked salmon",
+          "cut_type": "none",
+          "preparation": "smoked",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "apples",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "ginger",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "celery",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "ricotta salata",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "peanut & pumpkin seed crunch",
+          "cut_type": "none",
+          "preparation": "toasted",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "peanuts",
+          "role": "topping"
+        },
+        {
+          "name": "charred cucumber",
+          "cut_type": "none",
+          "preparation": "charred",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "yuzu",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "dill",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ]
+    },
+    {
+      "dish_id": "D102",
+      "dish_name": "Caprese Salad",
+      "dietary_tags": "vegetarian, gluten-free",
+      "allergen_summary": "dairy (fior di latte mozzarella)",
+      "transparency_level": "Moderate Transparency",
+      "core_clarity": 35,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 10,
+      "prep_clarity": 10,
+      "total_score": 70,
+      "notes": "Mozzarella sourced (Liuzi); vinaigrette and basil oil named; dressing composition undisclosed",
+      "ingredients": [
+        {
+          "name": "Liuzi fior di latte mozzarella",
+          "cut_type": "sliced",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "protein"
+        },
+        {
+          "name": "heirloom tomatoes",
+          "cut_type": "sliced",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "wild ramp vinaigrette",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "basil oil",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D103",
+      "dish_name": "Agnolotti Pomodoro",
+      "dietary_tags": "vegetarian",
+      "allergen_summary": "wheat (pasta), dairy (ricotta, goat cheese, saffron butter), egg (pasta - undisclosed)",
+      "transparency_level": "Moderate Transparency",
+      "core_clarity": 30,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 15,
+      "prep_clarity": 10,
+      "total_score": 70,
+      "notes": "Filling well-disclosed; pasta egg content undisclosed; sauces clearly named",
+      "ingredients": [
+        {
+          "name": "agnolotti pasta",
+          "cut_type": "none",
+          "preparation": "boiled",
+          "type": "housemade",
+          "source": "plant-based",
+          "allergen_flags": "wheat, egg",
+          "role": "base"
+        },
+        {
+          "name": "herbed ricotta",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "protein"
+        },
+        {
+          "name": "goat cheese",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "protein"
+        },
+        {
+          "name": "sungold tomato sauce",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "saffron butter",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D104",
+      "dish_name": "Spaghetti",
+      "dietary_tags": "vegetarian",
+      "allergen_summary": "wheat (spelt flour), dairy (cheese, butter), soy (miso - undisclosed)",
+      "transparency_level": "Moderate Transparency",
+      "core_clarity": 30,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 10,
+      "prep_clarity": 10,
+      "total_score": 60,
+      "notes": "Spelt flour pasta noted; miso soy allergen undisclosed; peppercorn sourced (Zanzibar)",
+      "ingredients": [
+        {
+          "name": "spelt flour spaghetti",
+          "cut_type": "none",
+          "preparation": "boiled",
+          "type": "housemade",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "miso butter",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy, soy",
+          "role": "sauce"
+        },
+        {
+          "name": "pecorino romano",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "zanzibar peppercorns",
+          "cut_type": "none",
+          "preparation": "ground",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ]
+    },
+    {
+      "dish_id": "D105",
+      "dish_name": "Casarecce",
+      "dietary_tags": "vegetarian",
+      "allergen_summary": "wheat (pasta, breadcrumbs), dairy (Shelburne cheddar)",
+      "transparency_level": "Moderate Transparency",
+      "core_clarity": 35,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 10,
+      "prep_clarity": 10,
+      "total_score": 60,
+      "notes": "Cheese sourced (Shelburne Farms); no sauce disclosed; wheat in both pasta and breadcrumbs",
+      "ingredients": [
+        {
+          "name": "casarecce pasta",
+          "cut_type": "none",
+          "preparation": "boiled",
+          "type": "housemade",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "morel mushrooms",
+          "cut_type": "none",
+          "preparation": "sauteed",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "broccoli",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "Shelburne aged cheddar",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "herbed breadcrumbs",
+          "cut_type": "none",
+          "preparation": "toasted",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "topping"
+        }
+      ]
+    },
+    {
+      "dish_id": "D106",
+      "dish_name": "Canestri",
+      "dietary_tags": "none",
+      "allergen_summary": "shellfish (Gulf shrimp), wheat (squid ink pasta)",
+      "transparency_level": "High Transparency",
+      "core_clarity": 40,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 15,
+      "prep_clarity": 10,
+      "total_score": 75,
+      "notes": "Shrimp sourced (Gulf); all components named; tomato ragu composition undisclosed",
+      "ingredients": [
+        {
+          "name": "squid ink canestri pasta",
+          "cut_type": "none",
+          "preparation": "boiled",
+          "type": "housemade",
+          "source": "seafood",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "Gulf shrimp",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "summer squash",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "zucchini",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "fennel",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "tomato ragu",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "picholine olives",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ]
+    },
+    {
+      "dish_id": "D107",
+      "dish_name": "Rainbow Trout",
+      "dietary_tags": "gluten-free",
+      "allergen_summary": "fish (rainbow trout), dairy (cream sauce)",
+      "transparency_level": "Moderate Transparency",
+      "core_clarity": 30,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 10,
+      "prep_clarity": 5,
+      "total_score": 60,
+      "notes": "Sauces named; rice variety specified (Carolina Gold); prep method for fish undisclosed",
+      "ingredients": [
+        {
+          "name": "rainbow trout",
+          "cut_type": "none",
+          "preparation": "unspecified",
+          "type": "standard",
+          "source": "seafood",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "spinach and sorrel cream sauce",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "compound",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        },
+        {
+          "name": "Carolina Gold rice",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "salsa seca",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D108",
+      "dish_name": "Half Chicken Piri Piri",
+      "dietary_tags": "gluten-free",
+      "allergen_summary": "peanuts (peanut-lime gremolata)",
+      "transparency_level": "High Transparency",
+      "core_clarity": 35,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 10,
+      "prep_clarity": 15,
+      "total_score": 75,
+      "notes": "Chicken sourced (Joyce Farms); brick technique noted; peanut allergen visible",
+      "ingredients": [
+        {
+          "name": "Joyce Farms half chicken",
+          "cut_type": "halved",
+          "preparation": "brick-pressed",
+          "type": "standard",
+          "source": "animal-based",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "ginger guajillo marinade",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "peanut-lime gremolata",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "peanuts",
+          "role": "sauce"
+        },
+        {
+          "name": "fries",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        }
+      ]
+    },
+    {
+      "dish_id": "D109",
+      "dish_name": "Bistro Steak",
+      "dietary_tags": "gluten-free",
+      "allergen_summary": "none identified",
+      "transparency_level": "Moderate Transparency",
+      "core_clarity": 30,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 65,
+      "notes": "Sourced beef (Bear Creek); confit prep specific; sauce named; steak cut not specified",
+      "ingredients": [
+        {
+          "name": "Bear Creek bistro steak",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "animal-based",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "confit fingerling potatoes",
+          "cut_type": "none",
+          "preparation": "confit",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "arugula",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "pearl onion balsamic sauce",
+          "cut_type": "none",
+          "preparation": "compound",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ]
+    },
+    {
+      "dish_id": "D110",
+      "dish_name": "Rigatoni",
+      "dietary_tags": "none",
+      "allergen_summary": "wheat (rigatoni), dairy (creme fraiche, manchego)",
+      "transparency_level": "Moderate Transparency",
+      "core_clarity": 25,
+      "sauce_disclosure": 12,
+      "allergen_transparency": 12,
+      "prep_clarity": 10,
+      "total_score": 59,
+      "notes": "Housemade chorizo noted; bolognese is compound; creme fraiche adds dairy disclosure vs. brunch version",
+      "ingredients": [
+        {
+          "name": "rigatoni",
+          "cut_type": "none",
+          "preparation": "boiled",
+          "type": "housemade",
+          "source": "plant-based",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "housemade chorizo",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "housemade",
+          "source": "animal-based",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "tomato bolognese sauce",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "compound",
+          "source": "plant-based",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "creme fraiche",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        },
+        {
+          "name": "manchego",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "dairy",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        }
+      ]
+    }
+  ]
+}
