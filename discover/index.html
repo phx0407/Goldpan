@@ -403,10 +403,16 @@ function openDetail(id) {
       affirmations.map(function(a){ return '<div class="dim-text"><span class="dim-dot"></span>'+a+'</div>'; }).join('')+
     '</div>' : '';
 
+  var optionsHtml = (d.dietary_options && d.dietary_options.toLowerCase() !== 'none' && d.dietary_options.trim())
+    ? '<div class="detail-section-title">Modifications Available</div><div style="font-size:12px;color:#9A9488;padding:12px 16px;background:#111111;border:1px solid #1A1A1A;margin-bottom:20px;line-height:1.6;">'+d.dietary_options+'</div>'
+    : '';
+
+  var allergenText = (d.allergens && d.allergens.toLowerCase() !== 'unknown') ? d.allergens : 'Not on record';
+
   var metaHtml = '';
   if (d.hours) metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">Hours: '+d.hours+'</div>';
   if (d.restaurant_address) metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">'+d.restaurant_address+'</div>';
-  if (d.restaurant_website) metaHtml += '<div style="font-size:12px;margin-bottom:20px;"><a href="'+d.restaurant_website+'" target="_blank" style="color:#C9A84C;text-decoration:none;">Restaurant Website ↗</a></div>';
+  if (d.restaurant_website) metaHtml += '<div style="font-size:12px;margin-bottom:8px;"><a href="'+d.restaurant_website+'" target="_blank" style="color:#C9A84C;text-decoration:none;">Restaurant Website ↗</a></div>';
   if (d.menu_link) metaHtml += '<div style="font-size:12px;margin-bottom:20px;"><a href="'+d.menu_link+'" target="_blank" style="color:#C9A84C;text-decoration:none;">View Menu ↗</a></div>';
 
   document.getElementById('detail-content').innerHTML =
@@ -415,9 +421,10 @@ function openDetail(id) {
     '<div class="detail-level-hero '+lk+'">'+levelLabel(lk)+'</div>'+
     affirmHtml+
     tagsHtml+
+    optionsHtml+
     '<div class="detail-section-title">Allergens on Record</div>'+
     '<div class="allergen-disclaimer">⚠ Allergen data is sourced from public menus and has not been confirmed by the restaurant. Always verify directly with the restaurant before ordering if you have a food allergy or intolerance.</div>'+
-    '<div class="detail-allergens">'+(d.allergens||'Unknown')+'</div>'+
+    '<div class="detail-allergens">'+allergenText+'</div>'+
     '<div class="detail-section-title">Ingredients on Record</div>'+
     '<div class="detail-ingredients">'+ingHtml+'</div>'+
     (metaHtml ? '<div class="detail-section-title">Restaurant Info</div>'+metaHtml : '');
@@ -446,13 +453,20 @@ function closeDetail() {
 
 <script>
 var surveyShown = false;
-var surveyDismissed = false;
-function showSurvey() { if (!surveyShown && !surveyDismissed) { surveyShown = true; document.getElementById('survey-overlay').classList.add('visible'); } }
-function dismissSurvey() { surveyDismissed = true; document.getElementById('survey-overlay').classList.remove('visible'); }
+function showSurvey() {
+  if (surveyShown || localStorage.getItem('gp_survey_done')) return;
+  surveyShown = true;
+  document.getElementById('survey-overlay').classList.add('visible');
+}
+function dismissSurvey() {
+  localStorage.setItem('gp_survey_done', '1');
+  document.getElementById('survey-overlay').classList.remove('visible');
+}
 function selectSurvey(btn, answer) {
   document.querySelectorAll('.survey-opt').forEach(function(b){ b.classList.remove('selected'); });
   btn.classList.add('selected');
   document.getElementById('survey-thanks').style.display = 'block';
+  localStorage.setItem('gp_survey_done', '1');
   if (typeof gtag !== 'undefined') gtag('event','survey_response',{event_category:'Discover Survey',event_label:answer});
   setTimeout(dismissSurvey, 2800);
 }
@@ -464,6 +478,42 @@ setTimeout(function() {
     window.checkPassword = function(){ orig(); setTimeout(showSurvey, 30000); };
   }
 }, 30000);
+
+// Persist active filters across visits
+(function() {
+  try {
+    var saved = localStorage.getItem('gp_filters');
+    if (saved) {
+      var parsed = JSON.parse(saved);
+      if (Array.isArray(parsed) && parsed.length) {
+        activeFilters = parsed;
+        document.addEventListener('DOMContentLoaded', function() {
+          document.getElementById('btn-all').classList.remove('active');
+          parsed.forEach(function(f) {
+            var btn = document.querySelector('[onclick*="\''+f+'\'"]');
+            if (btn) btn.classList.add('active');
+          });
+          updateActiveFiltersBar();
+        });
+      }
+    }
+  } catch(e) {}
+  var origSetFilter = window.setFilter;
+  window.setFilter = function(f, btn) {
+    origSetFilter(f, btn);
+    try { localStorage.setItem('gp_filters', JSON.stringify(activeFilters)); } catch(e) {}
+  };
+  var origClearAll = window.clearAll;
+  window.clearAll = function() {
+    origClearAll();
+    try { localStorage.removeItem('gp_filters'); } catch(e) {}
+  };
+})();
+
+// Escape key closes detail panel
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeDetail();
+});
 </script>
 
 <script>
