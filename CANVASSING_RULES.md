@@ -33,6 +33,7 @@
 | Tag_Logic | Multiple symbols = multiple tags. No symbol = none. | — |
 | Tag_Source | Where dietary claim came from. Menu is default. | menu, confirmed |
 | Verification_Status | Default = unconfirmed. | unconfirmed, restaurant-confirmed and unverified, verified |
+| Dessert_Exclusion | Desserts are excluded from canvassing entirely. They score poorly by default (compound batters, undisclosed sauces) and provide no meaningful signal. Do not canvas cakes, brownies, cheesecakes, cookies, pies, ice cream, or similar items. | — |
 
 ---
 

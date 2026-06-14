@@ -3068,22 +3068,6 @@
     ]
   },
   {
-    "id": "D182",
-    "name": "Fried Cheesecake",
-    "restaurant": "Yo Chef Surf & Turf Smokehouse",
-    "location": "Birmingham, AL",
-    "level": "Moderate",
-    "tags": [],
-    "allergens": "unknown (cheesecake composition)",
-    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
-    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
-    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
-    "restaurant_website": "https://yochefsurfandturf.net/",
-    "ingredients": [
-      "cheesecake"
-    ]
-  },
-  {
     "id": "D183",
     "name": "Recovery Smoothie",
     "restaurant": "Kale Me Crazy",
@@ -4150,7 +4134,7 @@
     "id": "D235",
     "name": "Zia Fries",
     "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [],
     "allergens": "dairy (hatch chile cheddar queso), unknown (green ranch, seasoning blend)",
@@ -4158,12 +4142,7 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "seasoning",
-      "bacon",
-      "scallions",
-      "hatch chile cheddar queso"
-    ]
+    "ingredients": []
   },
   {
     "id": "D237",
@@ -4183,7 +4162,7 @@
     "id": "D239",
     "name": "Le Big Matt",
     "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [],
     "allergens": "dairy (american cheese), wheat (pretzel bun), unknown (Sammy sauce)",
@@ -4191,10 +4170,7 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "Sammy sauce",
-      "greens"
-    ]
+    "ingredients": []
   },
   {
     "id": "D241",
@@ -4241,7 +4217,6 @@
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
-      "Detroit-style dough",
       "red sauce",
       "Emmy's cheese blend"
     ]
@@ -4259,7 +4234,6 @@
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
-      "parsley pesto",
       "Emmy's cheese blend"
     ]
   },
@@ -4343,27 +4317,7 @@
     "ingredients": [
       "Detroit-style dough",
       "ricotta",
-      "truffle cream",
-      "mushrooms",
-      "parsley pesto"
-    ]
-  },
-  {
-    "id": "D257",
-    "name": "Skillet Baked Brownie",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Moderate",
-    "tags": [],
-    "allergens": "dairy (vanilla ice cream), unknown (triple-chocolate brownie — likely contains dairy, egg, wheat)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "triple-chocolate brownie",
-      "vanilla ice cream",
-      "Maldon salt"
+      "truffle cream"
     ]
   }
 ]

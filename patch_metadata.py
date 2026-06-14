@@ -83,6 +83,8 @@ RESTAURANT_METADATA = {
 DELETE_DISH_IDS = {
     "D007",  # Yo' Beyond Burger — no longer on Yo Chef menu
     "D009",  # Swamp Love Gumbo — no longer on Yo Chef menu
+    "D182",  # Fried Cheesecake — desserts excluded from Goldpan
+    "D257",  # Skillet Baked Brownie — desserts excluded from Goldpan
 }
 
 # ── NAME NORMALIZATIONS ──────────────────────────────────────────────────────
