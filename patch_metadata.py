@@ -85,6 +85,15 @@ DELETE_DISH_IDS = {
     "D009",  # Swamp Love Gumbo — no longer on Yo Chef menu
 }
 
+# ── NAME NORMALIZATIONS ──────────────────────────────────────────────────────
+# Maps legacy restaurant names to (canonical_name, canonical_restaurant_id).
+# Applied across all three sheet tabs before metadata patching.
+
+NAME_NORMALIZATIONS = {
+    "Emmy Squared Pizza":      ("Emmy Squared",                  "R004"),
+    "Yo Chef Surf and Turf":   ("Yo Chef Surf & Turf Smokehouse", "R002"),
+}
+
 # ── DISH OVERRIDES ───────────────────────────────────────────────────────────
 # Per-dish corrections keyed by Dish_ID.
 # Leave a key out entirely to skip that field for a given dish.
@@ -205,6 +214,37 @@ def cell_addr(row_1indexed, col_0indexed):
     return f"{col_letter}{row_1indexed}"
 
 
+def normalize_restaurant_names(ss):
+    """
+    Scan all three tabs and fix legacy restaurant names + IDs.
+    Returns total number of cells updated.
+    """
+    tabs = [
+        ("Goldpan Dish Level Data", 0, 1),  # (tab, rid_col, name_col)
+        ("Ingredient Details",      0, 1),
+        ("Transparency Scoring",    0, 1),
+    ]
+    total = 0
+    for tab_name, rid_col, name_col in tabs:
+        ws       = ss.worksheet(tab_name)
+        all_vals = ws.get_all_values()
+        updates  = []
+        for i, row in enumerate(all_vals[1:], start=2):
+            name = row[name_col].strip() if len(row) > name_col else ""
+            if name in NAME_NORMALIZATIONS:
+                canonical_name, canonical_rid = NAME_NORMALIZATIONS[name]
+                if DRY_RUN:
+                    did = row[3].strip() if len(row) > 3 else f"row {i}"
+                    print(f"  {tab_name}: would rename '{name}' → '{canonical_name}' ({did})")
+                else:
+                    updates.append({"range": cell_addr(i, name_col), "values": [[canonical_name]]})
+                    updates.append({"range": cell_addr(i, rid_col),  "values": [[canonical_rid]]})
+                total += 1
+        if updates and not DRY_RUN:
+            ws.batch_update(updates, value_input_option="USER_ENTERED")
+    return total
+
+
 def delete_dish_rows(ws, dish_ids_to_delete, did_col, label):
     """Delete all rows matching any Dish_ID in dish_ids_to_delete (reverse order)."""
     all_vals = ws.get_all_values()
@@ -232,7 +272,13 @@ def main():
     if DRY_RUN:
         print("\n-- DRY RUN — no changes will be written --\n")
 
-    # ── Step 1: Delete discontinued dishes from all three tabs ────────────────
+    # ── Step 1: Normalize restaurant names across all tabs ────────────────────
+    if NAME_NORMALIZATIONS:
+        print("Normalizing restaurant names...")
+        n = normalize_restaurant_names(ss)
+        print(f"  {n} row(s) {'would be ' if DRY_RUN else ''}updated")
+
+    # ── Step 2: Delete discontinued dishes ───────────────────────────────────
     if DELETE_DISH_IDS:
         print("Deleting discontinued dishes...")
         n  = delete_dish_rows(ss.worksheet("Goldpan Dish Level Data"), DELETE_DISH_IDS, COL_DISH_ID, "Goldpan Dish Level Data")
@@ -240,7 +286,7 @@ def main():
         n += delete_dish_rows(ss.worksheet("Transparency Scoring"),    DELETE_DISH_IDS, 2,            "Transparency Scoring")
         print(f"  {n} row(s) {'would be ' if DRY_RUN else ''}deleted across all tabs")
 
-    # ── Step 2: Patch metadata on remaining rows ──────────────────────────────
+    # ── Step 3: Patch metadata on remaining rows ──────────────────────────────
     ws       = ss.worksheet("Goldpan Dish Level Data")
     all_rows = ws.get_all_values()
     data_rows = all_rows[1:]
