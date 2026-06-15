@@ -56,19 +56,29 @@ def build_ingredient_rows(data):
     loc   = data["location"]
     for dish in data["dishes"]:
         for ing in dish.get("ingredients", []):
+            # Support both string ingredients ("tomato") and dict ingredients
+            if isinstance(ing, str):
+                name = ing
+                cut_type = "none"
+                preparation = "none"
+                ing_type = "standard"
+                source = "unknown"
+                allergen_flags = "none"
+                role = ""
+            else:
+                name = ing.get("name", "")
+                cut_type = ing.get("cut_type", "none")
+                preparation = ing.get("preparation", "none")
+                ing_type = ing.get("type", "standard")
+                source = ing.get("source", "unknown")
+                allergen_flags = ing.get("allergen_flags", "none")
+                role = ing.get("role", "")
             rows.append([
                 rid, rname, loc,
                 dish["dish_id"], dish["dish_name"],
-                ing.get("name", ""),
-                ing.get("cut_type", "none"),
-                ing.get("preparation", "none"),
-                ing.get("type", "standard"),
-                "Active",
-                "1",
-                "Unconfirmed",
-                ing.get("source", "unknown"),
-                ing.get("allergen_flags", "none"),
-                ing.get("role", ""),
+                name, cut_type, preparation, ing_type,
+                "Active", "1", "Unconfirmed",
+                source, allergen_flags, role,
             ])
     return rows
 
@@ -132,6 +142,20 @@ def index_by_dish_id(ws, did_col):
     return index
 
 
+def api_call_with_retry(fn, *args, retries=4, **kwargs):
+    """Call fn(*args, **kwargs), retrying on 429 with exponential backoff."""
+    for attempt in range(retries):
+        try:
+            return fn(*args, **kwargs)
+        except gspread.exceptions.APIError as e:
+            if e.response.status_code == 429 and attempt < retries - 1:
+                wait = 30 * (attempt + 1)
+                print(f"  [quota] 429 received, waiting {wait}s before retry {attempt + 2}/{retries}...")
+                time.sleep(wait)
+            else:
+                raise
+
+
 def delete_rows_batch(ws, row_numbers):
     """Delete rows in a single batch_update request to avoid API quota limits."""
     if not row_numbers:
@@ -150,7 +174,7 @@ def delete_rows_batch(ws, row_numbers):
         }
         for row_num in sorted_rows
     ]
-    ws.spreadsheet.batch_update({"requests": requests})
+    api_call_with_retry(ws.spreadsheet.batch_update, {"requests": requests})
 
 
 def upsert_tab(ws, new_rows_by_did, did_col, label):
@@ -180,7 +204,7 @@ def upsert_tab(ws, new_rows_by_did, did_col, label):
 
     if rows_to_append:
         if not DRY_RUN:
-            ws.append_rows(rows_to_append, value_input_option="USER_ENTERED")
+            api_call_with_retry(ws.append_rows, rows_to_append, value_input_option="USER_ENTERED")
 
     return n_updated, n_added
 
@@ -233,10 +257,10 @@ def main():
     else:
         u, a = upsert_tab(ss.worksheet("Ingredient Details"),      ing_by_did,   3, "Ingredient Details")
         print(f"  Ingredient Details      : {a} added, {u} updated")
-        time.sleep(3)
+        time.sleep(20)
         u, a = upsert_tab(ss.worksheet("Transparency Scoring"),    score_by_did, 2, "Transparency Scoring")
         print(f"  Transparency Scoring    : {a} added, {u} updated")
-        time.sleep(3)
+        time.sleep(20)
         u, a = upsert_tab(ss.worksheet("Goldpan Dish Level Data"), dish_by_did,  3, "Goldpan Dish Level Data")
         print(f"  Goldpan Dish Level Data : {a} added, {u} updated")
 

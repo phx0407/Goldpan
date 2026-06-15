@@ -21,7 +21,7 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: house-made focaccia, grilled onion, rosemary butter, olive oil all named. Sauce 25: butter and olive oil named. Prep 15: grilled onion stated.",
-      "ingredients": []
+      "ingredients": ["house-made focaccia", "grilled onion", "rosemary butter", "olive oil"]
     },
     {
       "dish_id": "D353",
@@ -37,7 +37,7 @@
       "total_score": 50,
       "transparency_level": "Building Transparency",
       "notes": "Core 25: lemon aioli, egg mousse, chives, fresh horseradish, tallow croutons all named. Sauce 15: lemon aioli named. Prep 5: tartare = raw, no prep stated.",
-      "ingredients": []
+      "ingredients": ["beef", "lemon aioli", "egg mousse", "chives", "fresh horseradish", "tallow croutons"]
     },
     {
       "dish_id": "D354",
@@ -53,7 +53,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: shrimp (1/2 lb), spices listed. Sauce 15: drawn butter and cocktail sauce named. Prep 25: poached-to-order explicitly stated.",
-      "ingredients": []
+      "ingredients": ["shrimp", "spices", "drawn butter", "cocktail sauce"]
     },
     {
       "dish_id": "D355",
@@ -69,7 +69,7 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: burrata, brown butter carrots, sage bread pudding, balsamic, oregano, candied pecans all named. Sauce 25: brown butter and aged balsamic named. Prep 15: candied/brown butter prep implied.",
-      "ingredients": []
+      "ingredients": ["burrata", "brown butter carrots", "sage bread pudding", "aged balsamic", "oregano", "candied pecans"]
     },
     {
       "dish_id": "D356",
@@ -85,7 +85,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: green apple, aged white cheddar, candied walnuts, crispy bacon, brussels leaves all named. Sauce 15: honey dijon vinaigrette named by type. Prep 15: crispy bacon, candied walnuts prep stated.",
-      "ingredients": []
+      "ingredients": ["green apple", "aged white cheddar", "candied walnuts", "crispy bacon", "brussels leaves", "honey dijon vinaigrette"]
     },
     {
       "dish_id": "D357",
@@ -101,7 +101,7 @@
       "total_score": 40,
       "transparency_level": "Building Transparency",
       "notes": "Core 25: romaine, sourdough croutons, lemon, parm named. Sauce 5: no dressing detail. Prep 5: no prep stated.",
-      "ingredients": []
+      "ingredients": ["romaine", "sourdough croutons", "lemon", "parmesan", "caesar dressing"]
     },
     {
       "dish_id": "D358",
@@ -117,7 +117,7 @@
       "total_score": 50,
       "transparency_level": "Building Transparency",
       "notes": "Core 25: bone broth, sourdough croutons, melted swiss, aged balsamic named. Sauce 15: bone broth base named. Prep 5: no prep stated.",
-      "ingredients": []
+      "ingredients": ["bone broth", "sourdough croutons", "melted swiss cheese", "aged balsamic"]
     },
     {
       "dish_id": "D359",
@@ -133,7 +133,7 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: hungarian peppers, sweet sausage, aged cheddar, olive oil, house focaccia named. Sauce 15: olive oil named. Prep 25: blistered explicitly stated.",
-      "ingredients": []
+      "ingredients": ["hungarian peppers", "sweet sausage", "aged cheddar", "olive oil", "house focaccia"]
     },
     {
       "dish_id": "D360",
@@ -149,7 +149,7 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Core 15: chicken wings, ranch and veggies named. Sauce 5: four sauce options listed by name only, no ingredients. Prep 5: no prep stated.",
-      "ingredients": []
+      "ingredients": ["chicken wings", "ranch", "vegetables"]
     },
     {
       "dish_id": "D361",
@@ -165,7 +165,7 @@
       "total_score": 80,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: bone marrow, smoked garlic butter, onion jam, cornichons, toasted sourdough all named. Sauce 25: smoked garlic butter and onion jam named specifically. Prep 25: wood-fired explicitly stated.",
-      "ingredients": []
+      "ingredients": ["bone marrow", "smoked garlic butter", "onion jam", "cornichons", "toasted sourdough"]
     },
     {
       "dish_id": "D362",
@@ -181,7 +181,7 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: red sauce, mozzarella, basil, olive oil, parmesan named. Sauce 15: red sauce named, not detailed. Prep 25: wood-fired pizza implied.",
-      "ingredients": []
+      "ingredients": ["pizza dough", "red sauce", "fresh mozzarella", "basil", "olive oil", "parmesan"]
     },
     {
       "dish_id": "D363",
@@ -197,7 +197,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: 'plenty of veggies' is vague — specific vegetables not listed. Sauce 15: red sauce named. Prep 25: wood-fired pizza implied. Vegetarian per dish name.",
-      "ingredients": []
+      "ingredients": ["pizza dough", "red sauce", "mozzarella", "parmesan", "vegetables"]
     },
     {
       "dish_id": "D364",
@@ -213,7 +213,7 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: pepperoni, red sauce, mozz, marinated peppers, honey, fresh oregano all named. Sauce 15: red sauce named. Prep 25: wood-fired pizza implied.",
-      "ingredients": []
+      "ingredients": ["pizza dough", "pepperoni", "red sauce", "mozzarella", "marinated peppers", "honey", "fresh oregano"]
     },
     {
       "dish_id": "D365",
@@ -229,7 +229,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: italian sausage, cremini mushrooms, red onion, garlic, herbs named. Sauce 5: no sauce listed beyond toppings. Prep 25: wood-fired pizza implied.",
-      "ingredients": []
+      "ingredients": ["pizza dough", "italian sausage", "cremini mushrooms", "red onion", "garlic", "herbs"]
     },
     {
       "dish_id": "D366",
@@ -245,7 +245,7 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: bacon, white sauce, mozzarella, gorgonzola, red onion, aged balsamic named. Sauce 15: white sauce and pesto named by type. Prep 25: wood-fired pizza implied.",
-      "ingredients": []
+      "ingredients": ["pizza dough", "bacon", "white sauce", "pesto", "mozzarella", "gorgonzola", "red onion", "aged balsamic"]
     },
     {
       "dish_id": "D367",
@@ -261,7 +261,7 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: roasted veggies vague (specific vegetables not listed). Sauce 25: vegan garlic + sweet pepper aioli named specifically. Prep 25: wood-fired pizza implied. Vegan per dish name.",
-      "ingredients": []
+      "ingredients": ["pizza dough", "roasted vegetables", "vegan garlic and sweet pepper aioli"]
     },
     {
       "dish_id": "D368",
@@ -277,7 +277,7 @@
       "total_score": 50,
       "transparency_level": "Building Transparency",
       "notes": "Core 25: american cheese, iceberg, grilled onion, dill pickle named. Sauce 5: no sauce listed. Prep 15: grilled onion stated. GF bun option per menu.",
-      "ingredients": []
+      "ingredients": ["beef patty", "american cheese", "iceberg lettuce", "grilled onion", "dill pickle", "bun"]
     },
     {
       "dish_id": "D369",
@@ -293,7 +293,7 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: swiss, mushrooms, onion jam, arugula, garlic aioli, aged balsamic all named. Sauce 25: garlic aioli and balsamic named. Prep 15: onion jam prep implied.",
-      "ingredients": []
+      "ingredients": ["beef patty", "swiss cheese", "mushrooms", "onion jam", "arugula", "garlic aioli", "aged balsamic", "bun"]
     },
     {
       "dish_id": "D370",
@@ -309,7 +309,7 @@
       "total_score": 20,
       "transparency_level": "Building Transparency",
       "notes": "Core 5: 'house-made veggie patties' — ingredients not disclosed. Sauce 5: no sauce listed (depends on burger style). Vegetarian per dish name.",
-      "ingredients": []
+      "ingredients": ["house-made veggie patty", "bun"]
     },
     {
       "dish_id": "D371",
@@ -325,7 +325,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: citrus slaw, pickles, arugula named; chicken not described beyond 'fried'. Sauce 15: honey mustard named. Prep 25: fried stated in dish name.",
-      "ingredients": []
+      "ingredients": ["fried chicken", "citrus slaw", "pickles", "arugula", "honey mustard", "bun"]
     },
     {
       "dish_id": "D372",
@@ -341,7 +341,7 @@
       "total_score": 50,
       "transparency_level": "Building Transparency",
       "notes": "Core 25: house lamb sausage, calabrian chili, preserved lemon, parmesan, vodka sauce all named. Sauce 15: vodka sauce named by type. Prep 5: no prep method stated.",
-      "ingredients": []
+      "ingredients": ["rigatoni pasta", "house lamb sausage", "calabrian chili", "preserved lemon", "parmesan", "vodka sauce"]
     },
     {
       "dish_id": "D373",
@@ -357,7 +357,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: sweet potato, candied walnut, salsa verde, parmesan fonduta, brussels leaves, aged balsamic named. Sauce 25: salsa verde and parmesan fonduta named specifically. Prep 5: no cooking method stated for chop.",
-      "ingredients": []
+      "ingredients": ["pork chop", "sweet potato", "candied walnut", "salsa verde", "parmesan fonduta", "brussels leaves", "aged balsamic"]
     },
     {
       "dish_id": "D374",
@@ -373,7 +373,7 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: scallops, herbed risotto, shiitake mushroom gravy, carrot, swiss chard, crispy potato named. Sauce 15: shiitake mushroom gravy named. Prep 25: seared and sautéed stated.",
-      "ingredients": []
+      "ingredients": ["scallops", "herbed risotto", "shiitake mushroom gravy", "carrot", "swiss chard", "crispy potato"]
     },
     {
       "dish_id": "D375",
@@ -389,7 +389,7 @@
       "total_score": 80,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: 6 oz filet mignon, lobster dumpling & tail, braised mushrooms all named. Sauce 25: chive butter sauce and chili oil named. Prep 25: braised stated.",
-      "ingredients": []
+      "ingredients": ["filet mignon", "lobster tail", "lobster dumpling", "braised mushrooms", "chive butter sauce", "chili oil"]
     },
     {
       "dish_id": "D376",
@@ -405,7 +405,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: beet ravioli, goat cheese, chive cream, basil, candied pistachio, crispy shallot named. Sauce 25: chive cream named specifically. Prep 5: no prep stated beyond crispy shallot.",
-      "ingredients": []
+      "ingredients": ["beet ravioli", "goat cheese", "chive cream", "basil", "candied pistachio", "crispy shallot"]
     },
     {
       "dish_id": "D377",
@@ -421,7 +421,7 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: herbed rice, chicory named but chicken schnitzel itself has no ingredient breakdown. Sauce 25: lemon & caper butter sauce named specifically. Prep 25: breaded-to-order explicitly stated.",
-      "ingredients": []
+      "ingredients": ["chicken schnitzel", "herbed rice", "chicory", "lemon caper butter sauce"]
     },
     {
       "dish_id": "D378",
@@ -437,7 +437,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: 10 oz strip, chimichurri, aged cheddar, potato gratin, horseradish crema all named. Sauce 25: chimichurri and horseradish crema named. Prep 5: no cooking method stated for steak.",
-      "ingredients": []
+      "ingredients": ["10 oz New York strip", "chimichurri", "aged cheddar", "potato gratin", "horseradish crema"]
     },
     {
       "dish_id": "D379",
@@ -453,7 +453,7 @@
       "total_score": 40,
       "transparency_level": "Building Transparency",
       "notes": "Core 15: cauliflower, caribbean spice, cilantro named. Sauce 15: jerk crema named. Prep 5: cooking method not stated.",
-      "ingredients": []
+      "ingredients": ["cauliflower", "caribbean spice", "cilantro", "jerk crema"]
     },
     {
       "dish_id": "D380",
@@ -469,7 +469,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: brussels sprouts, pickled cranberries, goat cheese, almonds named. Sauce 5: no sauce listed. Prep 25: wood-fired stated in dish name.",
-      "ingredients": []
+      "ingredients": ["brussels sprouts", "pickled cranberries", "goat cheese", "almonds"]
     },
     {
       "dish_id": "D381",
@@ -485,7 +485,7 @@
       "total_score": 40,
       "transparency_level": "Building Transparency",
       "notes": "Core 15: fries with herbs mentioned. Sauce 15: ketchup and fry sauce named. Prep 5: fried implied, not stated.",
-      "ingredients": []
+      "ingredients": ["french fries", "herbs", "ketchup", "fry sauce"]
     },
     {
       "dish_id": "D382",
@@ -501,7 +501,7 @@
       "total_score": 80,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: fingerling potatoes, steak butter, chive crema, parsley all named. Sauce 25: steak butter and chive crema named. Prep 25: confit explicitly stated in dish name.",
-      "ingredients": []
+      "ingredients": ["fingerling potatoes", "steak butter", "chive crema", "parsley"]
     },
     {
       "dish_id": "D383",
@@ -517,7 +517,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: Tullamore D.E.W., demerara sugar, fresh whipped cream all named. Sauce 25: all components named. Prep 5: no prep method stated.",
-      "ingredients": []
+      "ingredients": ["Tullamore D.E.W. Irish whiskey", "coffee", "demerara sugar", "fresh whipped cream"]
     },
     {
       "dish_id": "D384",
@@ -533,7 +533,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: vodka, espresso, coffee liqueur, cream, sugar all named. Sauce 25: all components named. Prep 5: no prep method stated.",
-      "ingredients": []
+      "ingredients": ["vodka", "espresso", "coffee liqueur", "cream", "sugar"]
     },
     {
       "dish_id": "D385",
@@ -549,7 +549,7 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: crème de menthe, crème de cacao, menta, cream, Valrhona chocolate all named. Sauce 25: all components named. Prep 5: no prep method stated.",
-      "ingredients": []
+      "ingredients": ["crème de menthe", "crème de cacao", "menta", "cream", "Valrhona chocolate"]
     }
   ]
 }
