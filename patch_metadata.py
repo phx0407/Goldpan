@@ -74,6 +74,34 @@ RESTAURANT_METADATA = {
         "menu_link":           "https://www.emmysquaredpizza.com/birmingham-menus/",
         "hours":               "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     },
+    "R005": {
+        "name_aliases": ["Yo Mama's", "Yo Mamas"],
+        "restaurant_address":  "2024 4th Ave N, Birmingham, AL 35203",
+        "restaurant_website":  "https://www.yomamasbirmingham.com",
+        "menu_link":           "https://www.yomamasbirmingham.com",  # TODO: confirm brunch/food menu URLs
+        "hours":               "Mon-Fri 10:30am-2:30pm",
+    },
+    "R016": {
+        "name_aliases": ["Blue Root", "Blueroot"],
+        "restaurant_address":  "2829 2nd Ave S, Birmingham, AL 35233",
+        "restaurant_website":  "https://bluerootco.com",
+        "menu_link":           "https://bluerootco.com",
+        "hours":               "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    },
+    "R017": {
+        "name_aliases": ["Eli's Jerusalem Grill", "Elis Jerusalem Grill"],
+        "restaurant_address":  "4673 US-280, Birmingham, AL 35242",
+        "restaurant_website":  "https://elisjerusalemgrill.com",
+        "menu_link":           "https://elisjerusalemgrill.com",
+        "hours":               "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    },
+    "R018": {
+        "name_aliases": ["Wooden City Birmingham", "Wooden City"],
+        "restaurant_address":  "2335 Morris Avenue, Birmingham, AL 35203",
+        "restaurant_website":  "https://www.woodencitybirmingham.com",
+        "menu_link":           "https://www.woodencitybirmingham.com/menu",
+        "hours":               "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    },
 }
 
 # ── DISHES TO DELETE ─────────────────────────────────────────────────────────
