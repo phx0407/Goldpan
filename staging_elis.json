@@ -1,0 +1,913 @@
+{
+  "restaurant_id": "R017",
+  "restaurant_name": "Eli's Jerusalem Grill",
+  "location": "Birmingham, AL",
+  "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+  "restaurant_website": "https://elisjerusalemgrill.com",
+  "menu_link": "https://elisjerusalemgrill.com",
+  "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+  "dishes": [
+    {
+      "dish_id": "D308",
+      "dish_name": "Chicken Vegetable Soup",
+      "dietary_tags": [],
+      "dietary_options": "",
+      "menu_price": "$6.25",
+      "allergen_summary": "May contain gluten (wheat from shared pita). No common allergens in soup itself.",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 25: chicken, carrots, zucchini, celery, parsley, onions all named. Prep 5: method not stated. Served with homemade pita (wheat).",
+      "ingredients": [
+        {"name": "chicken", "cut_type": "none", "preparation": "simmered", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "carrots", "cut_type": "fresh cut", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "zucchini", "cut_type": "fresh cut", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "celery", "cut_type": "fresh cut", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "parsley", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
+        {"name": "onions", "cut_type": "fresh cut", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "homemade pita", "cut_type": "none", "preparation": "baked", "type": "house-made", "source": "house", "allergen_flags": "wheat", "role": "side"}
+      ]
+    },
+    {
+      "dish_id": "D309",
+      "dish_name": "Lentil Soup",
+      "dietary_tags": ["vegetarian", "vegan"],
+      "dietary_options": "Vegetarian, Vegan",
+      "menu_price": "$6.25",
+      "allergen_summary": "No common allergens. Served with pita (wheat).",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 25: lentils, carrots, celery, parsley, tomatoes, onions all named. Vegan per menu description. Served with homemade pita (wheat).",
+      "ingredients": [
+        {"name": "lentils", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "carrots", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "celery", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "parsley", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
+        {"name": "tomatoes", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "onions", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "homemade pita", "cut_type": "none", "preparation": "baked", "type": "house-made", "source": "house", "allergen_flags": "wheat", "role": "side"}
+      ]
+    },
+    {
+      "dish_id": "D310",
+      "dish_name": "Matzah Ball Soup",
+      "dietary_tags": [],
+      "dietary_options": "",
+      "menu_price": "$6.25",
+      "allergen_summary": "Wheat (matzah ball — explicitly noted on menu). Served with pita (wheat).",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 15: matzah ball dumpling named; broth described as chicken vegetable soup. Sauce 15: broth named via reference to chicken vegetable soup recipe. Contains Wheat noted on menu.",
+      "ingredients": [
+        {"name": "matzah ball", "cut_type": "dumpling", "preparation": "simmered", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
+        {"name": "chicken vegetable broth", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "base"},
+        {"name": "homemade pita", "cut_type": "none", "preparation": "baked", "type": "house-made", "source": "house", "allergen_flags": "wheat", "role": "side"}
+      ]
+    },
+    {
+      "dish_id": "D311",
+      "dish_name": "Hummus",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF (small/no pita). Vegan.",
+      "menu_price": "$3.50 / $6.50",
+      "allergen_summary": "Sesame (tahini). Wheat if ordered with pita (large size).",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 25: chickpeas, tahini, lemon juice all named. Dip itself is GF; large size includes wheat pita. Sesame allergen (tahini) present.",
+      "ingredients": [
+        {"name": "chickpeas", "cut_type": "none", "preparation": "pureed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "tahini", "cut_type": "none", "preparation": "blended", "type": "standard", "source": "unknown", "allergen_flags": "sesame", "role": "base"},
+        {"name": "lemon juice", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D312",
+      "dish_name": "Hummus with Hard-Boiled Egg",
+      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_options": "GF (small/no pita). Vegetarian.",
+      "menu_price": "$3.50 / $7.99",
+      "allergen_summary": "Sesame (tahini). Eggs. Wheat if ordered with pita (large size).",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 40,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 25: chickpeas, tahini, lemon juice, hard-boiled egg named.",
+      "ingredients": [
+        {"name": "chickpeas", "cut_type": "none", "preparation": "pureed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "tahini", "cut_type": "none", "preparation": "blended", "type": "standard", "source": "unknown", "allergen_flags": "sesame", "role": "base"},
+        {"name": "lemon juice", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"},
+        {"name": "hard-boiled egg", "cut_type": "halved", "preparation": "hard-boiled", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "protein"}
+      ]
+    },
+    {
+      "dish_id": "D313",
+      "dish_name": "Hummus with Sautéed Mushroom",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF (small/no pita). Vegan.",
+      "menu_price": "$3.50 / $7.99",
+      "allergen_summary": "Sesame (tahini). Wheat if ordered with pita (large size).",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 25: chickpeas, tahini, lemon juice, mushroom named. Prep 15: mushroom prep (sautéed) stated.",
+      "ingredients": [
+        {"name": "chickpeas", "cut_type": "none", "preparation": "pureed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "tahini", "cut_type": "none", "preparation": "blended", "type": "standard", "source": "unknown", "allergen_flags": "sesame", "role": "base"},
+        {"name": "lemon juice", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"},
+        {"name": "mushrooms", "cut_type": "sliced", "preparation": "sautéed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"}
+      ]
+    },
+    {
+      "dish_id": "D314",
+      "dish_name": "Hummus with Roasted Red Peppers",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF (small/no pita). Vegan.",
+      "menu_price": "$3.50 / $7.99",
+      "allergen_summary": "Sesame (tahini). Wheat if ordered with pita (large size).",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 25: chickpeas, tahini, lemon juice, roasted red peppers named. Prep 15: roasted pepper prep stated.",
+      "ingredients": [
+        {"name": "chickpeas", "cut_type": "none", "preparation": "pureed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "tahini", "cut_type": "none", "preparation": "blended", "type": "standard", "source": "unknown", "allergen_flags": "sesame", "role": "base"},
+        {"name": "lemon juice", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"},
+        {"name": "red bell peppers", "cut_type": "none", "preparation": "roasted", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"}
+      ]
+    },
+    {
+      "dish_id": "D315",
+      "dish_name": "Baba Ghanoush",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF (small/no pita). Vegan.",
+      "menu_price": "$3.50 / $6.50",
+      "allergen_summary": "Sesame (tahini). Wheat if ordered with pita (large size).",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 15: eggplant, tahini, garlic named; 'seasonings' is vague. Prep 25: roasted eggplant explicitly stated.",
+      "ingredients": [
+        {"name": "eggplant", "cut_type": "none", "preparation": "roasted", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "tahini", "cut_type": "none", "preparation": "blended", "type": "standard", "source": "unknown", "allergen_flags": "sesame", "role": "base"},
+        {"name": "garlic", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"},
+        {"name": "seasonings", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D316",
+      "dish_name": "Homemade Pita Bread",
+      "dietary_tags": [],
+      "dietary_options": "",
+      "menu_price": "$2.00",
+      "allergen_summary": "Wheat (noted on menu).",
+      "core_clarity": 5,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 30,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 5: wheat content noted but full ingredients not listed. Prep 15: baked daily in-house (homemade stated).",
+      "ingredients": [
+        {"name": "pita bread", "cut_type": "none", "preparation": "baked", "type": "house-made", "source": "house", "allergen_flags": "wheat", "role": "base"}
+      ]
+    },
+    {
+      "dish_id": "D317",
+      "dish_name": "Homemade Pita Chips",
+      "dietary_tags": [],
+      "dietary_options": "",
+      "menu_price": "$4.25",
+      "allergen_summary": "Wheat (noted on menu).",
+      "core_clarity": 5,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 30,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 5: wheat noted but full ingredients not listed. Prep 15: house-made (homemade stated).",
+      "ingredients": [
+        {"name": "pita chips", "cut_type": "chipped", "preparation": "baked or fried", "type": "house-made", "source": "house", "allergen_flags": "wheat", "role": "base"}
+      ]
+    },
+    {
+      "dish_id": "D318",
+      "dish_name": "Israeli Salad",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF, Vegan",
+      "menu_price": "$5.50",
+      "allergen_summary": "No common allergens.",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 80,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: tomatoes, cucumbers, onions, parsley all named. Sauce 25: olive oil and lemon juice fully named. Prep 25: finely diced stated.",
+      "ingredients": [
+        {"name": "tomatoes", "cut_type": "finely diced", "preparation": "raw", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "cucumbers", "cut_type": "finely diced", "preparation": "raw", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "onions", "cut_type": "finely diced", "preparation": "raw", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "parsley", "cut_type": "chopped", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
+        {"name": "olive oil", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "lemon juice", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D319",
+      "dish_name": "Tabouli Salad",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF (quinoa-based, not bulgur). Vegan.",
+      "menu_price": "$6.25",
+      "allergen_summary": "No common allergens. Made with quinoa, not bulgur wheat — GF.",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 80,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: tomatoes, quinoa, onions, parsley, cilantro all named. Sauce 25: olive oil, lemon juice named. Prep 25: finely diced, seasoned stated. GF because quinoa replaces traditional bulgur.",
+      "ingredients": [
+        {"name": "tomatoes", "cut_type": "finely diced", "preparation": "raw", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "quinoa", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "onions", "cut_type": "finely diced", "preparation": "raw", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "parsley", "cut_type": "chopped", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
+        {"name": "cilantro", "cut_type": "chopped", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
+        {"name": "olive oil", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "lemon juice", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D320",
+      "dish_name": "Red Cabbage Salad",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF, Vegan",
+      "menu_price": "$5.50",
+      "allergen_summary": "No common allergens.",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: red cabbage named. Sauce 15: homemade oregano vinaigrette named by type but not fully broken down. Prep 25: shredded, seasoned stated.",
+      "ingredients": [
+        {"name": "red cabbage", "cut_type": "shredded", "preparation": "raw", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "homemade oregano vinaigrette dressing", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D321",
+      "dish_name": "White Cabbage Salad",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF, Vegan",
+      "menu_price": "$5.50",
+      "allergen_summary": "No common allergens.",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: white cabbage named. Sauce 15: homemade oregano vinaigrette named by type. Prep 25: shredded, seasoned stated.",
+      "ingredients": [
+        {"name": "white cabbage", "cut_type": "shredded", "preparation": "raw", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "homemade oregano vinaigrette dressing", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D322",
+      "dish_name": "Cucumber Salad",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF, Vegan",
+      "menu_price": "$6.50",
+      "allergen_summary": "No common allergens.",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: cucumber and onions named. Sauce 15: homemade lemon vinaigrette named by type. Prep 25: marinated stated.",
+      "ingredients": [
+        {"name": "cucumber", "cut_type": "sliced", "preparation": "marinated", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "onions", "cut_type": "sliced", "preparation": "marinated", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "homemade lemon vinaigrette dressing", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D323",
+      "dish_name": "Moroccan Carrots",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF, Vegan",
+      "menu_price": "$5.50",
+      "allergen_summary": "No common allergens.",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: carrots, lemon juice, garlic, olive oil named. Sauce 15: Moroccan spice blend named by type; herbs not individually listed. Prep 25: sliced, cooked, seasoned, served chilled stated.",
+      "ingredients": [
+        {"name": "carrots", "cut_type": "sliced", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "lemon juice", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "garlic", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"},
+        {"name": "olive oil", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "Moroccan spice blend", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "spice"},
+        {"name": "herbs", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D324",
+      "dish_name": "Beet Salad",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF, Vegan",
+      "menu_price": "$6.25",
+      "allergen_summary": "No common allergens.",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: red beets, lemon named. Sauce 5: 'blend of spices' is vague. Prep 25: sliced, seasoned stated.",
+      "ingredients": [
+        {"name": "red beets", "cut_type": "sliced", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "lemon juice", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "blend of spices", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D325",
+      "dish_name": "Roasted Red Peppers",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF, Vegan",
+      "menu_price": "$6.25",
+      "allergen_summary": "No common allergens.",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 80,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: red bell peppers named. Sauce 25: olive oil, fresh garlic, lemon juice all named. Prep 25: roasted on open fire explicitly stated.",
+      "ingredients": [
+        {"name": "red bell peppers", "cut_type": "none", "preparation": "roasted on open fire", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "olive oil", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "fresh garlic", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"},
+        {"name": "lemon juice", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D326",
+      "dish_name": "Roasted Vegetables",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF, Vegan",
+      "menu_price": "$6.25",
+      "allergen_summary": "No common allergens.",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 15: 'mixed vegetables' is unspecified. Sauce 15: olive oil and oregano named; 'blend of spices' is vague. Prep 25: roasted, seasoned stated.",
+      "ingredients": [
+        {"name": "mixed vegetables", "cut_type": "none", "preparation": "roasted", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "olive oil", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "oregano", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"},
+        {"name": "blend of spices", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D327",
+      "dish_name": "Salad Sampler",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF, Vegan",
+      "menu_price": "$8.99",
+      "allergen_summary": "Sesame (tahini in hummus).",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: all 5 components named (Hummus, Red Cabbage, Moroccan Carrots, Beets, White Cabbage). Sauce 15: dressings known via individual dish descriptions. Prep 15: preps known via individual dishes.",
+      "ingredients": [
+        {"name": "hummus", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "sesame", "role": "base"},
+        {"name": "red cabbage salad", "cut_type": "shredded", "preparation": "seasoned", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "side"},
+        {"name": "Moroccan carrots", "cut_type": "sliced", "preparation": "cooked", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "side"},
+        {"name": "beet salad", "cut_type": "sliced", "preparation": "seasoned", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "side"},
+        {"name": "white cabbage salad", "cut_type": "shredded", "preparation": "seasoned", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "side"}
+      ]
+    },
+    {
+      "dish_id": "D328",
+      "dish_name": "Chicken Shawarma",
+      "dietary_tags": [],
+      "dietary_options": "Available as sandwich, laffa, or plate",
+      "menu_price": "$10.25 / $11.25 / $12.75",
+      "allergen_summary": "Wheat (pita/laffa). Sesame (tahini in hummus, served on sandwich). Organic chicken.",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 15: organic chicken stated; marinade unnamed. Sauce 5: marinade ingredients not disclosed. Prep 25: slow cooked on rotisserie explicitly stated. Hormone/antibiotic-free organic chicken per restaurant statement.",
+      "ingredients": [
+        {"name": "organic chicken", "cut_type": "thin slices", "preparation": "marinated, slow cooked on rotisserie", "type": "standard", "source": "organic", "allergen_flags": "none", "role": "protein"},
+        {"name": "marinade", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house", "allergen_flags": "unknown", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D329",
+      "dish_name": "Garlic Chicken",
+      "dietary_tags": [],
+      "dietary_options": "Available as sandwich, laffa, or plate",
+      "menu_price": "$10.25 / $11.25 / $12.75",
+      "allergen_summary": "Wheat (pita/laffa). Sesame (tahini in hummus, served on sandwich). Organic chicken.",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 15: organic chicken stated. Sauce 15: garlic named; 'spices' is vague. Prep 25: grilled explicitly stated.",
+      "ingredients": [
+        {"name": "organic chicken", "cut_type": "none", "preparation": "marinated, grilled", "type": "standard", "source": "organic", "allergen_flags": "none", "role": "protein"},
+        {"name": "garlic", "cut_type": "none", "preparation": "marinade", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"},
+        {"name": "spices", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D330",
+      "dish_name": "Chicken Kabob",
+      "dietary_tags": [],
+      "dietary_options": "Available as sandwich, laffa, or plate",
+      "menu_price": "$11.25 / $12.25 / $14.75",
+      "allergen_summary": "Wheat (pita/laffa). Sesame (tahini in hummus, served on sandwich). Organic chicken.",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 15: organic chicken breasts stated. Sauce 5: marinade unnamed. Prep 25: grilled stated.",
+      "ingredients": [
+        {"name": "organic chicken breast", "cut_type": "none", "preparation": "marinated, grilled", "type": "standard", "source": "organic", "allergen_flags": "none", "role": "protein"},
+        {"name": "marinade", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house", "allergen_flags": "unknown", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D331",
+      "dish_name": "Chicken Tenders",
+      "dietary_tags": [],
+      "dietary_options": "Available as sandwich, laffa, or plate",
+      "menu_price": "$11.25 / $12.25 / $14.25",
+      "allergen_summary": "Wheat (pita/laffa). Sesame (hummus on sandwich). Organic chicken.",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 80,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: organic tenders — simple protein, no hidden components. Sauce 25: no marinade or sauce — fully transparent. Prep 25: grilled stated.",
+      "ingredients": [
+        {"name": "organic chicken tenders", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "organic", "allergen_flags": "none", "role": "protein"}
+      ]
+    },
+    {
+      "dish_id": "D332",
+      "dish_name": "Chicken Schnitzel",
+      "dietary_tags": ["gluten-free"],
+      "dietary_options": "GF — all breading is gluten-free per restaurant; fried in non-GMO sunflower oil",
+      "menu_price": "$11.75 / $12.75 / $15.25",
+      "allergen_summary": "No gluten (GF breading, non-GMO sunflower oil). Organic chicken. Wheat in pita/laffa if ordered as sandwich.",
+      "core_clarity": 15,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 15: organic chicken cutlet named; 'perfectly seasoned' — seasoning unnamed. Sauce 25: no sauce. Prep 25: breaded and fried in non-GMO sunflower oil stated. Restaurant explicitly labels GF.",
+      "ingredients": [
+        {"name": "organic chicken cutlet", "cut_type": "cutlet", "preparation": "breaded, fried in non-GMO sunflower oil", "type": "standard", "source": "organic", "allergen_flags": "none", "role": "protein"},
+        {"name": "gluten-free breading", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "seasoning", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D333",
+      "dish_name": "Beef & Lamb Shawarma",
+      "dietary_tags": [],
+      "dietary_options": "Available as sandwich, laffa, or plate",
+      "menu_price": "$11.25 / $12.25 / $15.75",
+      "allergen_summary": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed beef and lamb.",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 15: grass-fed beef and lamb stated; marinade unnamed. Sauce 5: marinade not disclosed. Prep 25: slow cooked on rotisserie stated.",
+      "ingredients": [
+        {"name": "grass-fed beef", "cut_type": "thin slices", "preparation": "marinated, slow cooked on rotisserie", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "grass-fed lamb", "cut_type": "thin slices", "preparation": "marinated, slow cooked on rotisserie", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "marinade", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house", "allergen_flags": "unknown", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D334",
+      "dish_name": "Beef Kabob",
+      "dietary_tags": [],
+      "dietary_options": "Available as sandwich, laffa, or plate",
+      "menu_price": "$11.75 / $12.75 / $15.75",
+      "allergen_summary": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed beef.",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 15: grass-fed beef medallions stated; marinade unnamed. Sauce 5: marinade not disclosed. Prep 25: grilled stated.",
+      "ingredients": [
+        {"name": "grass-fed beef", "cut_type": "medallions", "preparation": "marinated, grilled", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "marinade", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house", "allergen_flags": "unknown", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D335",
+      "dish_name": "Lamb Kabob",
+      "dietary_tags": [],
+      "dietary_options": "Available as sandwich, laffa, or plate",
+      "menu_price": "$12.95 / $13.95 / $16.95",
+      "allergen_summary": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed lamb.",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 15: grass-fed lamb medallions stated; marinade unnamed. Sauce 5: marinade not disclosed. Prep 25: grilled stated.",
+      "ingredients": [
+        {"name": "grass-fed lamb", "cut_type": "medallions", "preparation": "marinated, grilled", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "marinade", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house", "allergen_flags": "unknown", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D336",
+      "dish_name": "Kefta Kabob",
+      "dietary_tags": [],
+      "dietary_options": "Available as sandwich, laffa, or plate",
+      "menu_price": "$11.50 / $12.50 / $14.95",
+      "allergen_summary": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed beef and lamb.",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: ground grass-fed beef and lamb both named. Sauce 5: 'lightly seasoned' — seasoning unnamed. Prep 25: grilled stated.",
+      "ingredients": [
+        {"name": "ground grass-fed beef", "cut_type": "ground", "preparation": "grilled", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "ground grass-fed lamb", "cut_type": "ground", "preparation": "grilled", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "seasoning", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D337",
+      "dish_name": "Falafel",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF (fried in non-GMO sunflower oil, GF per restaurant). Vegan.",
+      "menu_price": "$9.25 / $10.25 / $11.25",
+      "allergen_summary": "No common allergens. Fried in non-GMO sunflower oil. Wheat in pita/laffa if ordered as sandwich.",
+      "core_clarity": 15,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 15: chickpeas named; 'herbs' vague. Sauce 25: no sauce. Prep 25: fried in non-GMO sunflower oil, freshly made stated. Restaurant labels GF.",
+      "ingredients": [
+        {"name": "chickpeas", "cut_type": "none", "preparation": "ground, fried in non-GMO sunflower oil", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "herbs", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D338",
+      "dish_name": "Mixed Shawarma Plate",
+      "dietary_tags": [],
+      "dietary_options": "Plate only",
+      "menu_price": "$15.25",
+      "allergen_summary": "Wheat (pita served with plate). Sesame (hummus). Organic chicken and grass-fed beef and lamb.",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: organic chicken + grass-fed beef and lamb named. Sauce 5: shawarma marinade not disclosed. Prep 25: slow cooked on rotisserie stated.",
+      "ingredients": [
+        {"name": "organic chicken", "cut_type": "thin slices", "preparation": "marinated, slow cooked on rotisserie", "type": "standard", "source": "organic", "allergen_flags": "none", "role": "protein"},
+        {"name": "grass-fed beef", "cut_type": "thin slices", "preparation": "marinated, slow cooked on rotisserie", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "grass-fed lamb", "cut_type": "thin slices", "preparation": "marinated, slow cooked on rotisserie", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "marinade", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house", "allergen_flags": "unknown", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D339",
+      "dish_name": "Lamb Chops Plate",
+      "dietary_tags": [],
+      "dietary_options": "Plate only",
+      "menu_price": "$28.99",
+      "allergen_summary": "Wheat (pita served with plate). Sesame (hummus). Grass-fed lamb.",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: grass-fed lamb chops named. Sauce 5: 'seasoned' — seasoning not disclosed. Prep 25: grilled stated.",
+      "ingredients": [
+        {"name": "grass-fed lamb chops", "cut_type": "chop", "preparation": "seasoned, grilled", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "seasoning", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D340",
+      "dish_name": "Combination Plate",
+      "dietary_tags": [],
+      "dietary_options": "Plate only",
+      "menu_price": "$19.99",
+      "allergen_summary": "Wheat (pita). Sesame (hummus/tahini in falafel). Organic chicken and grass-fed beef and lamb.",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: all 5 components named (chicken shawarma, beef/lamb shawarma, kefta kabob, falafel, chicken tender). Sauce 5: shawarma/kabob marinades unnamed. Prep 25: known from individual dishes.",
+      "ingredients": [
+        {"name": "organic chicken shawarma", "cut_type": "thin slices", "preparation": "marinated, slow cooked on rotisserie", "type": "standard", "source": "organic", "allergen_flags": "none", "role": "protein"},
+        {"name": "grass-fed beef/lamb shawarma", "cut_type": "thin slices", "preparation": "marinated, slow cooked on rotisserie", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "kefta kabob", "cut_type": "ground", "preparation": "grilled", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "falafel", "cut_type": "croquette", "preparation": "fried in non-GMO sunflower oil", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "protein"},
+        {"name": "organic chicken tender", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "organic", "allergen_flags": "none", "role": "protein"}
+      ]
+    },
+    {
+      "dish_id": "D341",
+      "dish_name": "Shakshuka Plate",
+      "dietary_tags": ["vegetarian", "gluten-free"],
+      "dietary_options": "Vegetarian, GF (served with salad only — no pita)",
+      "menu_price": "$13.99",
+      "allergen_summary": "Eggs. No gluten (served with salad only, no pita).",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 80,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: eggs, tomatoes, red peppers, garlic, onions all named. Sauce 25: all sauce components named. Prep 25: eggs poached explicitly stated. Spice level customizable.",
+      "ingredients": [
+        {"name": "eggs", "cut_type": "none", "preparation": "poached", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "protein"},
+        {"name": "tomatoes", "cut_type": "diced", "preparation": "sautéed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "red peppers", "cut_type": "diced", "preparation": "sautéed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "garlic", "cut_type": "none", "preparation": "sautéed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "onions", "cut_type": "diced", "preparation": "sautéed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D342",
+      "dish_name": "Vegetarian & Vegan Plate",
+      "dietary_tags": ["vegetarian", "vegan", "gluten-free"],
+      "dietary_options": "Vegetarian, Vegan, GF",
+      "menu_price": "$14.50",
+      "allergen_summary": "Sesame (tahini in hummus, baba ghanoush). Wheat if pita added.",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: six falafels, hummus, baba ghanoush, tabouli, red cabbage all named. Sauce 15: individual dressings/sauces known via component dishes. Prep 25: frying, roasting known via components.",
+      "ingredients": [
+        {"name": "falafel (6)", "cut_type": "croquette", "preparation": "fried in non-GMO sunflower oil", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "protein"},
+        {"name": "hummus", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "sesame", "role": "side"},
+        {"name": "baba ghanoush", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "sesame", "role": "side"},
+        {"name": "tabouli salad", "cut_type": "finely diced", "preparation": "seasoned", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "side"},
+        {"name": "red cabbage salad", "cut_type": "shredded", "preparation": "seasoned", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "side"}
+      ]
+    },
+    {
+      "dish_id": "D343",
+      "dish_name": "Stuffed Cabbage Plate",
+      "dietary_tags": [],
+      "dietary_options": "Weekend only special",
+      "menu_price": "$13.99",
+      "allergen_summary": "Wheat (pita served with plate). Grass-fed ground beef.",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: green cabbage, ground beef, rice, blend of spices named. Sauce 15: homemade tomato sauce named but not fully detailed. Prep 25: baked stated.",
+      "ingredients": [
+        {"name": "green cabbage leaves", "cut_type": "whole leaf", "preparation": "stuffed, baked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "ground beef", "cut_type": "ground", "preparation": "mixed", "type": "standard", "source": "grass-fed", "allergen_flags": "none", "role": "protein"},
+        {"name": "rice", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "blend of spices", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "spice"},
+        {"name": "homemade tomato sauce", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"}
+      ]
+    },
+    {
+      "dish_id": "D344",
+      "dish_name": "Alaskan Salmon Plate",
+      "dietary_tags": ["gluten-free"],
+      "dietary_options": "GF",
+      "menu_price": "$19.99",
+      "allergen_summary": "Fish (wild-caught Alaskan salmon).",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: wild-caught Alaskan salmon specified. Sauce 15: olive oil named; 'blend of spices' vague. Prep 25: sautéed stated.",
+      "ingredients": [
+        {"name": "wild-caught Alaskan salmon", "cut_type": "fillet", "preparation": "sautéed", "type": "standard", "source": "wild-caught Alaskan", "allergen_flags": "fish", "role": "protein"},
+        {"name": "olive oil", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "blend of spices", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D345",
+      "dish_name": "Moroccan Fish Plate",
+      "dietary_tags": ["gluten-free"],
+      "dietary_options": "GF. Weekend only special.",
+      "menu_price": "$19.99",
+      "allergen_summary": "Fish (wild, line-caught Pacific grouper).",
+      "core_clarity": 25,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: wild line-caught Pacific grouper, tomatoes, garlic, cilantro all named. Sauce 15: 'traditional Moroccan seasonings' named by type but not broken down. Prep 25: baked stated.",
+      "ingredients": [
+        {"name": "wild line-caught Pacific grouper", "cut_type": "fillet", "preparation": "baked", "type": "standard", "source": "wild, line-caught Pacific", "allergen_flags": "fish", "role": "protein"},
+        {"name": "tomatoes", "cut_type": "diced", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
+        {"name": "garlic", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spice"},
+        {"name": "cilantro", "cut_type": "chopped", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
+        {"name": "traditional Moroccan seasonings", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "spice"}
+      ]
+    },
+    {
+      "dish_id": "D346",
+      "dish_name": "Israeli Pickles & Olives",
+      "dietary_tags": ["gluten-free", "vegetarian", "vegan"],
+      "dietary_options": "GF, Vegan",
+      "menu_price": "$3.50",
+      "allergen_summary": "No common allergens.",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 5,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: pickles and olives named. Sauce 25: no sauce. Prep 5: no prep method stated.",
+      "ingredients": [
+        {"name": "Israeli pickles", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
+        {"name": "olives", "cut_type": "none", "preparation": "cured", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"}
+      ]
+    },
+    {
+      "dish_id": "D347",
+      "dish_name": "French Fries",
+      "dietary_tags": ["gluten-free", "vegan"],
+      "dietary_options": "GF (non-GMO sunflower oil). Vegan.",
+      "menu_price": "$4.50",
+      "allergen_summary": "No common allergens. Hand-cut organic potatoes, fried in non-GMO sunflower oil.",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 80,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: hand-cut organic potatoes. Sauce 25: no sauce. Prep 25: hand-cut and fried in non-GMO sunflower oil stated. Restaurant explicitly labels GF.",
+      "ingredients": [
+        {"name": "organic potatoes", "cut_type": "hand-cut fry", "preparation": "fried in non-GMO sunflower oil", "type": "standard", "source": "organic", "allergen_flags": "none", "role": "base"}
+      ]
+    },
+    {
+      "dish_id": "D348",
+      "dish_name": "Sweet Potato Fries",
+      "dietary_tags": ["gluten-free", "vegan"],
+      "dietary_options": "GF (non-GMO sunflower oil). Vegan.",
+      "menu_price": "$5.25",
+      "allergen_summary": "No common allergens. Hand-cut organic sweet potatoes, fried in non-GMO sunflower oil.",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 80,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: hand-cut organic sweet potatoes. Sauce 25: no sauce. Prep 25: hand-cut, fried in non-GMO sunflower oil stated. Restaurant explicitly labels GF.",
+      "ingredients": [
+        {"name": "organic sweet potatoes", "cut_type": "hand-cut fry", "preparation": "fried in non-GMO sunflower oil", "type": "standard", "source": "organic", "allergen_flags": "none", "role": "base"}
+      ]
+    },
+    {
+      "dish_id": "D349",
+      "dish_name": "Fried Cauliflower",
+      "dietary_tags": ["gluten-free", "vegan"],
+      "dietary_options": "GF (non-GMO sunflower oil, GF breading). Vegan.",
+      "menu_price": "$6.50",
+      "allergen_summary": "No common allergens. Fried in non-GMO sunflower oil. GF breading.",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 80,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: cauliflower. Sauce 25: no sauce. Prep 25: fried in non-GMO sunflower oil; GF breading per restaurant statement. Restaurant explicitly labels GF.",
+      "ingredients": [
+        {"name": "cauliflower", "cut_type": "florets", "preparation": "fried in non-GMO sunflower oil", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "gluten-free breading", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"}
+      ]
+    },
+    {
+      "dish_id": "D350",
+      "dish_name": "Baklava",
+      "dietary_tags": [],
+      "dietary_options": "",
+      "menu_price": "$3.50",
+      "allergen_summary": "Wheat (filo pastry). Tree nuts (almonds, pistachios). Contains coconut.",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 80,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: filo, shredded coconut, almonds, pistachios all named. Sauce 25: homemade blossom citrus syrup named. Prep 25: layered pastry (baked implied). Menu explicitly notes Contains wheat and nuts.",
+      "ingredients": [
+        {"name": "filo pastry", "cut_type": "layers", "preparation": "baked", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
+        {"name": "shredded coconut", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "base"},
+        {"name": "almonds", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "base"},
+        {"name": "homemade blossom citrus syrup", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"},
+        {"name": "crushed pistachios", "cut_type": "crushed", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "garnish"}
+      ]
+    },
+    {
+      "dish_id": "D351",
+      "dish_name": "Knafeh",
+      "dietary_tags": [],
+      "dietary_options": "",
+      "menu_price": "$3.50",
+      "allergen_summary": "Dairy (sweet cheese). Wheat (filo pastry). Tree nuts (almonds, pistachios). Contains coconut.",
+      "core_clarity": 25,
+      "sauce_disclosure": 25,
+      "allergen_transparency": 5,
+      "prep_clarity": 25,
+      "total_score": 80,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: sweet cheese, shredded coconut, almonds, filo pastry named. Sauce 25: homemade blossom citrus syrup named. Prep 25: layered pastry (baked implied). Menu explicitly notes Contains dairy, wheat and nuts.",
+      "ingredients": [
+        {"name": "sweet cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"},
+        {"name": "shredded coconut", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "base"},
+        {"name": "almonds", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "base"},
+        {"name": "filo pastry", "cut_type": "layers", "preparation": "baked", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
+        {"name": "homemade blossom citrus syrup", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"},
+        {"name": "crushed pistachios", "cut_type": "crushed", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "garnish"}
+      ]
+    }
+  ]
+}

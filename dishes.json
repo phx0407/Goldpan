@@ -4900,6 +4900,398 @@
     ]
   },
   {
+    "id": "D290",
+    "name": "Fish Plate",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Fish (tilapia). GF option available. Cross-contamination possible in shared fryer.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "tilapia fillets",
+      "fresh-cut fries",
+      "cole slaw",
+      "homemade tartar sauce"
+    ]
+  },
+  {
+    "id": "D291",
+    "name": "Fish Tacos",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Fish (tilapia). Tree nuts (almonds in POE Sauce — labeled on menu). Wheat (flour tortilla option).",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "tilapia",
+      "POE Sauce (almond-based)",
+      "salsa fresca",
+      "cole slaw",
+      "black beans",
+      "rice",
+      "tortillas (flour or corn)"
+    ]
+  },
+  {
+    "id": "D292",
+    "name": "Shrimp Tacos",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Shellfish (shrimp). Tree nuts (almonds in POE Sauce). Wheat (flour tortilla option).",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "shrimp",
+      "POE Sauce (almond-based)",
+      "salsa fresca",
+      "cole slaw",
+      "black beans",
+      "rice",
+      "tortillas (flour or corn)"
+    ]
+  },
+  {
+    "id": "D293",
+    "name": "Shrimp & Grits",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Shellfish (shrimp). Dairy (white cheddar, asiago, cream cheese). Sausage allergens unknown.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "shrimp",
+      "spicy sausage",
+      "grits",
+      "white cheddar cheese",
+      "asiago cheese",
+      "cream cheese",
+      "red bell pepper",
+      "green bell pepper",
+      "onions"
+    ]
+  },
+  {
+    "id": "D294",
+    "name": "Shrimp Plate",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Shellfish (shrimp). Cross-contamination possible in shared fryer.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "shrimp",
+      "fresh-cut fries",
+      "cole slaw",
+      "homemade tartar sauce"
+    ]
+  },
+  {
+    "id": "D295",
+    "name": "Hot Wings Plate",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Poultry. Dairy (ranch sauce). Sauce allergens unknown (house-made).",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "chicken wings",
+      "house wing sauce",
+      "ranch sauce",
+      "fresh-cut fries",
+      "bread"
+    ]
+  },
+  {
+    "id": "D296",
+    "name": "Chicken & Waffle",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Wheat (waffle). Eggs (waffle batter). Poultry.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "chicken wings (6)",
+      "Belgian waffle",
+      "homemade syrup"
+    ]
+  },
+  {
+    "id": "D297",
+    "name": "Chicken Plate",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Poultry. Wheat (bread). Cross-contamination possible in shared fryer.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "chicken wings",
+      "fresh-cut fries",
+      "cole slaw",
+      "bread"
+    ]
+  },
+  {
+    "id": "D298",
+    "name": "BBQ Cheeseburger Plate",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Wheat (bun). Dairy (cheddar cheese). Beef.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "beef patty",
+      "cheddar cheese",
+      "caramelized onions",
+      "homemade BBQ sauce",
+      "fresh-cut fries",
+      "bun"
+    ]
+  },
+  {
+    "id": "D299",
+    "name": "Chicken & Pancakes",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Wheat (pancakes). Eggs (pancake batter). Dairy (butter in batter). Poultry.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "chicken wings (6)",
+      "buttermilk pancakes (3)",
+      "homemade syrup"
+    ]
+  },
+  {
+    "id": "D300",
+    "name": "Fish & Grits",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Fish (tilapia). Dairy (white cheddar, asiago, cream cheese). Wheat (toast, optional).",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "tilapia fillets (2)",
+      "grits",
+      "white cheddar cheese",
+      "asiago cheese",
+      "cream cheese",
+      "toast (optional)"
+    ]
+  },
+  {
+    "id": "D301",
+    "name": "Mama's Meal",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Wheat (toast). Dairy (grits). Eggs. Sausage allergens unknown.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "bacon, sausage, or smoked sausage (choice)",
+      "grits",
+      "eggs (2)",
+      "homestyle potatoes",
+      "toast"
+    ]
+  },
+  {
+    "id": "D302",
+    "name": "Salmon Croquettes",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Fish (salmon). Eggs. Wheat (biscuit). Binder in croquettes unknown.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "salmon croquettes (2)",
+      "eggs (2)",
+      "rice",
+      "buttermilk biscuit"
+    ]
+  },
+  {
+    "id": "D303",
+    "name": "Pancakes",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Wheat (pancakes). Eggs (batter). Dairy (buttermilk). Sausage allergens unknown.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "buttermilk pancakes (3)",
+      "bacon, sausage, or smoked sausage (choice)",
+      "homemade syrup"
+    ]
+  },
+  {
+    "id": "D304",
+    "name": "French Toast",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Wheat (bread). Eggs (sweet vanilla cream mix). Dairy (cream). Sausage allergens unknown.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "bakery-fresh bread (3 slices)",
+      "sweet vanilla cream mix",
+      "bacon, sausage, or smoked sausage (choice)",
+      "homemade syrup"
+    ]
+  },
+  {
+    "id": "D305",
+    "name": "Waffle",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Wheat (waffle batter). Eggs (batter). Dairy. Sausage allergens unknown.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "Belgian waffle",
+      "bacon, sausage, or smoked sausage (choice)",
+      "homemade syrup"
+    ]
+  },
+  {
+    "id": "D306",
+    "name": "2-Egg Omelette",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Eggs. Dairy (cheese option, cheese grits). Wheat (toast). Fillings vary by choice.",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "eggs (2)",
+      "choice of 3 fillings (onions/bell peppers/mushrooms/spinach/cheddar/ham/sausage/bacon)",
+      "cheese grits or homestyle potatoes (choice)",
+      "toast"
+    ]
+  },
+  {
+    "id": "D307",
+    "name": "Seafood Omelette",
+    "restaurant": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Shellfish (shrimp, lump crab). Eggs. Dairy (Gouda cheese).",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "ingredients": [
+      "lump crab",
+      "shrimp",
+      "eggs",
+      "red bell pepper",
+      "onions",
+      "spinach",
+      "Gouda cheese"
+    ]
+  },
+  {
     "id": "D352",
     "name": "Bread & Butter",
     "restaurant": "Wooden City Birmingham",
