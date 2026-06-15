@@ -5381,12 +5381,15 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Egg, Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5395,12 +5398,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5409,12 +5416,15 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Egg, Milk, Tree Nuts (Pecans). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5423,12 +5433,15 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Sesame Seed, Tree Nuts (Almonds). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5437,12 +5450,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Soy, Tree Nuts (Pistachios). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5451,12 +5468,15 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5465,12 +5485,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Soy, Tree Nuts (Almonds). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5479,12 +5503,15 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Tree Nuts (Pistachios). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5493,12 +5520,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Cashews). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5507,12 +5538,15 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5521,12 +5555,15 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Tree Nuts (Cashews). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5535,12 +5572,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5549,12 +5590,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5563,12 +5608,15 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5577,12 +5625,14 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Sesame Seeds. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5591,12 +5641,15 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Sesame Seeds. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5605,12 +5658,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Sesame Seeds. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5619,12 +5676,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5633,12 +5694,14 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Wheat. NOTE: This item was labeled GF on the nutrition document, but wheatberries contain gluten — the GF tag has been omitted. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5647,12 +5710,14 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5661,12 +5726,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5675,12 +5744,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5689,12 +5762,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Sesame Seeds, Tree Nuts (Almonds, Walnuts). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5703,12 +5780,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Almonds). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5717,12 +5798,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5731,12 +5816,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5745,12 +5834,16 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5759,12 +5852,14 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Sesame Seeds, Wheat. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5773,12 +5868,14 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Eggs, Milk, Sesame Seeds, Wheat. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5788,11 +5885,11 @@
     "location": "Birmingham",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Salmon (fish), Sesame Seeds, Wheat. Fish allergen listed as stated on nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5802,11 +5899,11 @@
     "location": "Birmingham",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Sesame Seeds, Wheat. Contains smoked salmon (fish). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5815,12 +5912,14 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "dairy-free"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Eggs, Salmon (fish), Wheat. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   },
   {
@@ -5829,12 +5928,14 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Sesame Seeds, Tree Nuts (Almonds, Pecans), Wheat. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": []
   }
 ]

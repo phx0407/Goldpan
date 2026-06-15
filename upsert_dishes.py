@@ -100,7 +100,7 @@ def build_dish_level_rows(data):
         rows.append([
             rid, rname, loc,
             dish["dish_id"], dish["dish_name"],
-            dish.get("dietary_tags", "none"),
+            ", ".join(dish["dietary_tags"]) if dish.get("dietary_tags") else "none",
             dish.get("dietary_options", ""),
             "menu",
             "unconfirmed",
