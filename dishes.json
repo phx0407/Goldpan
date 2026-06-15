@@ -5292,6 +5292,912 @@
     ]
   },
   {
+    "id": "D308",
+    "name": "Chicken Vegetable Soup",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "May contain gluten (wheat from shared pita). No common allergens in soup itself.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "chicken",
+      "carrots",
+      "zucchini",
+      "celery",
+      "parsley",
+      "onions",
+      "homemade pita"
+    ]
+  },
+  {
+    "id": "D309",
+    "name": "Lentil Soup",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens. Served with pita (wheat).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "lentils",
+      "carrots",
+      "celery",
+      "parsley",
+      "tomatoes",
+      "onions",
+      "homemade pita"
+    ]
+  },
+  {
+    "id": "D310",
+    "name": "Matzah Ball Soup",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Wheat (matzah ball — explicitly noted on menu). Served with pita (wheat).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "matzah ball",
+      "chicken vegetable broth",
+      "homemade pita"
+    ]
+  },
+  {
+    "id": "D311",
+    "name": "Hummus",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "Sesame (tahini). Wheat if ordered with pita (large size).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "chickpeas",
+      "tahini",
+      "lemon juice"
+    ]
+  },
+  {
+    "id": "D312",
+    "name": "Hummus with Hard-Boiled Egg",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Sesame (tahini). Eggs. Wheat if ordered with pita (large size).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "chickpeas",
+      "tahini",
+      "lemon juice",
+      "hard-boiled egg"
+    ]
+  },
+  {
+    "id": "D313",
+    "name": "Hummus with Sautéed Mushroom",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "Sesame (tahini). Wheat if ordered with pita (large size).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "chickpeas",
+      "tahini",
+      "lemon juice",
+      "mushrooms"
+    ]
+  },
+  {
+    "id": "D314",
+    "name": "Hummus with Roasted Red Peppers",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "Sesame (tahini). Wheat if ordered with pita (large size).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "chickpeas",
+      "tahini",
+      "lemon juice",
+      "red bell peppers"
+    ]
+  },
+  {
+    "id": "D315",
+    "name": "Baba Ghanoush",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "Sesame (tahini). Wheat if ordered with pita (large size).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "eggplant",
+      "tahini",
+      "garlic",
+      "seasonings"
+    ]
+  },
+  {
+    "id": "D316",
+    "name": "Homemade Pita Bread",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Wheat (noted on menu).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "pita bread"
+    ]
+  },
+  {
+    "id": "D317",
+    "name": "Homemade Pita Chips",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Wheat (noted on menu).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "pita chips"
+    ]
+  },
+  {
+    "id": "D318",
+    "name": "Israeli Salad",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "tomatoes",
+      "cucumbers",
+      "onions",
+      "parsley",
+      "olive oil",
+      "lemon juice"
+    ]
+  },
+  {
+    "id": "D319",
+    "name": "Tabouli Salad",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens. Made with quinoa, not bulgur wheat — GF.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "tomatoes",
+      "quinoa",
+      "onions",
+      "parsley",
+      "cilantro",
+      "olive oil",
+      "lemon juice"
+    ]
+  },
+  {
+    "id": "D320",
+    "name": "Red Cabbage Salad",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "red cabbage",
+      "homemade oregano vinaigrette dressing"
+    ]
+  },
+  {
+    "id": "D321",
+    "name": "White Cabbage Salad",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "white cabbage",
+      "homemade oregano vinaigrette dressing"
+    ]
+  },
+  {
+    "id": "D322",
+    "name": "Cucumber Salad",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "cucumber",
+      "onions",
+      "homemade lemon vinaigrette dressing"
+    ]
+  },
+  {
+    "id": "D323",
+    "name": "Moroccan Carrots",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "carrots",
+      "lemon juice",
+      "garlic",
+      "olive oil",
+      "Moroccan spice blend",
+      "herbs"
+    ]
+  },
+  {
+    "id": "D324",
+    "name": "Beet Salad",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "red beets",
+      "lemon juice",
+      "blend of spices"
+    ]
+  },
+  {
+    "id": "D325",
+    "name": "Roasted Red Peppers",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "red bell peppers",
+      "olive oil",
+      "fresh garlic",
+      "lemon juice"
+    ]
+  },
+  {
+    "id": "D326",
+    "name": "Roasted Vegetables",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "mixed vegetables",
+      "olive oil",
+      "oregano",
+      "blend of spices"
+    ]
+  },
+  {
+    "id": "D327",
+    "name": "Salad Sampler",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "Sesame (tahini in hummus).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "hummus",
+      "red cabbage salad",
+      "Moroccan carrots",
+      "beet salad",
+      "white cabbage salad"
+    ]
+  },
+  {
+    "id": "D328",
+    "name": "Chicken Shawarma",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Wheat (pita/laffa). Sesame (tahini in hummus, served on sandwich). Organic chicken.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "organic chicken",
+      "marinade"
+    ]
+  },
+  {
+    "id": "D329",
+    "name": "Garlic Chicken",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Wheat (pita/laffa). Sesame (tahini in hummus, served on sandwich). Organic chicken.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "organic chicken",
+      "garlic",
+      "spices"
+    ]
+  },
+  {
+    "id": "D330",
+    "name": "Chicken Kabob",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Wheat (pita/laffa). Sesame (tahini in hummus, served on sandwich). Organic chicken.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "organic chicken breast",
+      "marinade"
+    ]
+  },
+  {
+    "id": "D331",
+    "name": "Chicken Tenders",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Wheat (pita/laffa). Sesame (hummus on sandwich). Organic chicken.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "organic chicken tenders"
+    ]
+  },
+  {
+    "id": "D332",
+    "name": "Chicken Schnitzel",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "No gluten (GF breading, non-GMO sunflower oil). Organic chicken. Wheat in pita/laffa if ordered as sandwich.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "organic chicken cutlet",
+      "gluten-free breading",
+      "seasoning"
+    ]
+  },
+  {
+    "id": "D333",
+    "name": "Beef & Lamb Shawarma",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed beef and lamb.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "grass-fed beef",
+      "grass-fed lamb",
+      "marinade"
+    ]
+  },
+  {
+    "id": "D334",
+    "name": "Beef Kabob",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed beef.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "grass-fed beef",
+      "marinade"
+    ]
+  },
+  {
+    "id": "D335",
+    "name": "Lamb Kabob",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed lamb.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "grass-fed lamb",
+      "marinade"
+    ]
+  },
+  {
+    "id": "D336",
+    "name": "Kefta Kabob",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed beef and lamb.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "ground grass-fed beef",
+      "ground grass-fed lamb",
+      "seasoning"
+    ]
+  },
+  {
+    "id": "D337",
+    "name": "Falafel",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens. Fried in non-GMO sunflower oil. Wheat in pita/laffa if ordered as sandwich.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "chickpeas",
+      "herbs"
+    ]
+  },
+  {
+    "id": "D338",
+    "name": "Mixed Shawarma Plate",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Wheat (pita served with plate). Sesame (hummus). Organic chicken and grass-fed beef and lamb.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "organic chicken",
+      "grass-fed beef",
+      "grass-fed lamb",
+      "marinade"
+    ]
+  },
+  {
+    "id": "D339",
+    "name": "Lamb Chops Plate",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Wheat (pita served with plate). Sesame (hummus). Grass-fed lamb.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "grass-fed lamb chops",
+      "seasoning"
+    ]
+  },
+  {
+    "id": "D340",
+    "name": "Combination Plate",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Wheat (pita). Sesame (hummus/tahini in falafel). Organic chicken and grass-fed beef and lamb.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "organic chicken shawarma",
+      "grass-fed beef/lamb shawarma",
+      "kefta kabob",
+      "falafel",
+      "organic chicken tender"
+    ]
+  },
+  {
+    "id": "D341",
+    "name": "Shakshuka Plate",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": "Eggs. No gluten (served with salad only, no pita).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "eggs",
+      "tomatoes",
+      "red peppers",
+      "garlic",
+      "onions"
+    ]
+  },
+  {
+    "id": "D342",
+    "name": "Vegetarian & Vegan Plate",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "allergens": "Sesame (tahini in hummus, baba ghanoush). Wheat if pita added.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "falafel (6)",
+      "hummus",
+      "baba ghanoush",
+      "tabouli salad",
+      "red cabbage salad"
+    ]
+  },
+  {
+    "id": "D343",
+    "name": "Stuffed Cabbage Plate",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Wheat (pita served with plate). Grass-fed ground beef.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "green cabbage leaves",
+      "ground beef",
+      "rice",
+      "blend of spices",
+      "homemade tomato sauce"
+    ]
+  },
+  {
+    "id": "D344",
+    "name": "Alaskan Salmon Plate",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Fish (wild-caught Alaskan salmon).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "wild-caught Alaskan salmon",
+      "olive oil",
+      "blend of spices"
+    ]
+  },
+  {
+    "id": "D345",
+    "name": "Moroccan Fish Plate",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Fish (wild, line-caught Pacific grouper).",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "wild line-caught Pacific grouper",
+      "tomatoes",
+      "garlic",
+      "cilantro",
+      "traditional Moroccan seasonings"
+    ]
+  },
+  {
+    "id": "D346",
+    "name": "Israeli Pickles & Olives",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "No common allergens.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "Israeli pickles",
+      "olives"
+    ]
+  },
+  {
+    "id": "D347",
+    "name": "French Fries",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegan"
+    ],
+    "allergens": "No common allergens. Hand-cut organic potatoes, fried in non-GMO sunflower oil.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "organic potatoes"
+    ]
+  },
+  {
+    "id": "D348",
+    "name": "Sweet Potato Fries",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegan"
+    ],
+    "allergens": "No common allergens. Hand-cut organic sweet potatoes, fried in non-GMO sunflower oil.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "organic sweet potatoes"
+    ]
+  },
+  {
+    "id": "D349",
+    "name": "Fried Cauliflower",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free",
+      "vegan"
+    ],
+    "allergens": "No common allergens. Fried in non-GMO sunflower oil. GF breading.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "cauliflower",
+      "gluten-free breading"
+    ]
+  },
+  {
+    "id": "D350",
+    "name": "Baklava",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Wheat (filo pastry). Tree nuts (almonds, pistachios). Contains coconut.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "filo pastry",
+      "shredded coconut",
+      "almonds",
+      "homemade blossom citrus syrup",
+      "crushed pistachios"
+    ]
+  },
+  {
+    "id": "D351",
+    "name": "Knafeh",
+    "restaurant": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Dairy (sweet cheese). Wheat (filo pastry). Tree nuts (almonds, pistachios). Contains coconut.",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "ingredients": [
+      "sweet cheese",
+      "shredded coconut",
+      "almonds",
+      "filo pastry",
+      "homemade blossom citrus syrup",
+      "crushed pistachios"
+    ]
+  },
+  {
     "id": "D352",
     "name": "Bread & Butter",
     "restaurant": "Wooden City Birmingham",
@@ -6002,9 +6908,9 @@
     "level": "Building",
     "tags": [
       "gluten-free",
-      "vegetarian"
+      "vegan"
     ],
-    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk (possible cross-contamination — restaurant labels dish Vegan). Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
@@ -6324,6 +7230,229 @@
       "vegetarian"
     ],
     "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Sesame Seeds, Tree Nuts (Almonds, Pecans), Wheat. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D419",
+    "name": "Cashew Butter Cookies",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Eggs, Milk, Tree Nuts (Cashews). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D420",
+    "name": "Dark Chocolate Tahini Brownie",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Egg, Sesame Seeds, Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D421",
+    "name": "Dark Chocolate Collagen Bliss Bites",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Almonds, Coconut, Walnuts). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D422",
+    "name": "Not Your Mama's Rice Crispy Treat",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Tree Nuts (Almonds, Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D423",
+    "name": "PB&J Protein Bliss Bites",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Peanuts. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D424",
+    "name": "Beet Hummus",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Sesame Seeds. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D425",
+    "name": "Chicken Salad",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D426",
+    "name": "Chipotle Chicken",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D427",
+    "name": "Soft-Boiled Farm Egg",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Egg. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D428",
+    "name": "Grilled Chicken",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D429",
+    "name": "Lemon-Herb Chicken",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D430",
+    "name": "Maple Cured Salmon",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Fish. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": []
+  },
+  {
+    "id": "D431",
+    "name": "Miso-Glazed Tofu",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Soy. Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
