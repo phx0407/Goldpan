@@ -307,7 +307,6 @@
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
-      "red sauce",
       "cheese blend",
       "burrata",
       "basil"
@@ -328,28 +327,25 @@
     "ingredients": [
       "brussels sprouts",
       "pickled red onion",
-      "cashew",
-      "blue cheese",
-      "dried cherries",
-      "miso dressing"
+      "cashew"
     ]
   },
   {
     "id": "D022",
     "name": "Hash",
     "restaurant": "SoHo Standard",
-    "location": "Birmingham, AL",
-    "level": "Building",
+    "location": "Homewood, AL",
+    "level": "Moderate",
     "tags": [
       "gluten-free"
     ],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
+    "allergens": "dairy (queso fresco), egg (poached egg)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
     "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
     "ingredients": [
-      "potatoes",
+      "potato",
       "chorizo",
       "pico de gallo",
       "avocado mash",
@@ -361,79 +357,86 @@
     "id": "D023",
     "name": "Shrimp & Grits",
     "restaurant": "SoHo Standard",
-    "location": "Birmingham, AL",
-    "level": "Building",
+    "location": "Homewood, AL",
+    "level": "Moderate",
     "tags": [
       "gluten-free"
     ],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
+    "allergens": "shellfish (royal red shrimp), dairy (likely in grits and cream sauce)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
     "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
     "ingredients": [
       "shrimp",
       "pimento grits",
       "white wine cream sauce",
       "charred tomato",
-      "micro greens"
+      "micro greens",
+      "royal red shrimp",
+      "smoked pimento grits",
+      "micro green"
     ]
   },
   {
     "id": "D024",
     "name": "Toast",
     "restaurant": "SoHo Standard",
-    "location": "Birmingham, AL",
-    "level": "Building",
+    "location": "Homewood, AL",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
+    "allergens": "shellfish (west indie's crab), egg (poached egg), wheat (toast)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
     "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
     "ingredients": [
       "avocado",
-      "west indies crab",
+      "west indie's crab",
       "jalapeno",
       "radish",
-      "micro greens",
-      "poached egg"
+      "micro green",
+      "poached egg",
+      "toast"
     ]
   },
   {
     "id": "D025",
     "name": "Quail + Waffles",
     "restaurant": "SoHo Standard",
-    "location": "Birmingham, AL",
+    "location": "Homewood, AL",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
+    "allergens": "wheat (waffle), egg (waffle), dairy (bourbon butter), unknown (hot honey glaze ingredients beyond honey)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
     "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
     "ingredients": [
       "waffle",
       "quail",
       "jalapeno bacon",
       "hot honey glaze",
-      "bourbon butter"
+      "bourbon butter",
+      "2 day waffle",
+      "jalapeno bacon wrapped quail",
+      "eastaboga bee co. hot honey glaze"
     ]
   },
   {
     "id": "D026",
     "name": "Bites",
     "restaurant": "SoHo Standard",
-    "location": "Birmingham, AL",
+    "location": "Homewood, AL",
     "level": "Building",
     "tags": [
       "gluten-free"
     ],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
+    "allergens": "egg (egg white), dairy (mozzarella)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
     "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
     "ingredients": [
       "egg white",
       "mozzarella",
@@ -448,48 +451,18 @@
     "restaurant": "Slutty Vegan",
     "location": "Atlanta",
     "level": "Building",
-    "tags": [
-      "vegan"
-    ],
+    "tags": [],
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [
-      "plant-based patty",
-      "vegan bacon",
       "vegan cheese",
       "onions",
       "lettuce",
       "tomato",
-      "slut sauce",
-      "vegan hawaiian bun"
-    ]
-  },
-  {
-    "id": "D029",
-    "name": "Dancehall Queen",
-    "restaurant": "Slutty Vegan",
-    "location": "Atlanta",
-    "level": "Building",
-    "tags": [
-      "vegan"
-    ],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": [
-      "plant-based patty",
-      "sweet jerk plantains",
-      "vegan cheese",
-      "onions",
-      "lettuce",
-      "tomato",
-      "slut sauce",
-      "vegan hawaiian bun"
+      "slut sauce"
     ]
   },
   {
@@ -498,9 +471,7 @@
     "restaurant": "Slutty Vegan",
     "location": "Atlanta",
     "level": "Building",
-    "tags": [
-      "vegan"
-    ],
+    "tags": [],
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
@@ -509,31 +480,6 @@
     "ingredients": [
       "plant-based patty",
       "jalapenos",
-      "vegan cheese",
-      "onions",
-      "lettuce",
-      "tomato",
-      "slut sauce",
-      "vegan hawaiian bun"
-    ]
-  },
-  {
-    "id": "D031",
-    "name": "Fussy Hussy",
-    "restaurant": "Slutty Vegan",
-    "location": "Atlanta",
-    "level": "Building",
-    "tags": [
-      "vegan"
-    ],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": [
-      "plant-based patty",
-      "pickle",
       "vegan cheese",
       "onions",
       "lettuce",
@@ -4318,6 +4264,639 @@
       "Detroit-style dough",
       "ricotta",
       "truffle cream"
+    ]
+  },
+  {
+    "id": "D258",
+    "name": "Oyster (Brunch)",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "shellfish (oysters), wheat (toast), unknown (west indie's mignonette ingredients)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "oyster",
+      "west indie's mignonette",
+      "lemon",
+      "toast"
+    ]
+  },
+  {
+    "id": "D259",
+    "name": "FGT (Brunch)",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "shellfish (west indie's crab), unknown (remoulade — likely egg and dairy)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "fried green tomato",
+      "west indie's crab",
+      "smoked tomato",
+      "remoulade",
+      "micro green"
+    ]
+  },
+  {
+    "id": "D260",
+    "name": "Bacon",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "unknown (sausage balls — ingredients not disclosed; may contain wheat, dairy, egg)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "candied jalapeno bacon",
+      "smoked mariah bacon",
+      "sausage balls"
+    ]
+  },
+  {
+    "id": "D261",
+    "name": "Biscuit",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "wheat (biscuits), dairy (cheddar, country gravy likely has dairy), egg (poached egg)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "baby biscuit",
+      "cheddar",
+      "conecuh country gravy",
+      "poached egg"
+    ]
+  },
+  {
+    "id": "D262",
+    "name": "Lox",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (lemon-herb mascarpone), wheat (croissant)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "cold smoked salmon",
+      "baby croissant",
+      "lemon-herb mascarpone",
+      "fried capers"
+    ]
+  },
+  {
+    "id": "D263",
+    "name": "Fish (Brunch)",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "unknown (cajun cocktail — ingredients not disclosed; dirty tartar — likely egg-based)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "grouper",
+      "cajun cocktail",
+      "dirty tartar",
+      "lemon"
+    ]
+  },
+  {
+    "id": "D264",
+    "name": "Benedict",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "egg (poached egg), wheat (cornbread), unknown (al. wbbq sauce ingredients)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "sweet cornbread",
+      "collards",
+      "pulled bacon",
+      "al. wbbq",
+      "poached egg"
+    ]
+  },
+  {
+    "id": "D265",
+    "name": "Steak + Biscuits",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (biscuits), dairy (gouda), egg (likely in béarnaise)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "smoked tenderloin",
+      "scratch gouda biscuit",
+      "béarnaise"
+    ]
+  },
+  {
+    "id": "D266",
+    "name": "Char",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "unknown (al. wbbq sauce ingredients)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "smoked tomato",
+      "wood fired okra",
+      "smoked shallot jam",
+      "al. wbbq"
+    ]
+  },
+  {
+    "id": "D267",
+    "name": "Claw",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "shellfish (Gulf crab claws)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "Gulf crab claw"
+    ]
+  },
+  {
+    "id": "D268",
+    "name": "Burrata",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (burrata), wheat (baguette)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "burrata",
+      "grilled peach",
+      "basil",
+      "baguette",
+      "balsamic glaze",
+      "honey"
+    ]
+  },
+  {
+    "id": "D269",
+    "name": "FGT",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "shellfish (marinated crab), unknown (remoulade — likely egg and dairy)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "fried green tomato",
+      "marinated crab",
+      "smoked tomato",
+      "remoulade"
+    ]
+  },
+  {
+    "id": "D270",
+    "name": "Shrimp",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "shellfish (shrimp), wheat (toast)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "jumbo shrimp",
+      "roasted garlic",
+      "lemon",
+      "chili flake",
+      "cilantro",
+      "toast"
+    ]
+  },
+  {
+    "id": "D271",
+    "name": "Oyster",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "shellfish (oysters), wheat (sourdough), dairy (parmesan and compound butter in chargrilled style)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "oyster",
+      "sourdough",
+      "fresh herb mignonette",
+      "chili flake",
+      "lemon",
+      "compound butter",
+      "parmesan"
+    ]
+  },
+  {
+    "id": "D272",
+    "name": "Flatbread",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (lemon dill mascarpone), wheat (flatbread)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "smoked salmon",
+      "lemon dill mascarpone",
+      "fried capers",
+      "pickled onion",
+      "flatbread"
+    ]
+  },
+  {
+    "id": "D273",
+    "name": "Dip",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "wheat (sourdough), unknown (slm sauce — proprietary)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "smoked blackened tuna",
+      "slm sauce",
+      "wickle relish",
+      "red pepper",
+      "sourdough"
+    ]
+  },
+  {
+    "id": "D274",
+    "name": "Arugula Salad",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (pistachio goat cheese), tree nuts (pistachio)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "arugula",
+      "avocado",
+      "pistachio goat cheese",
+      "baby tomato",
+      "shallot",
+      "citrus vinaigrette"
+    ]
+  },
+  {
+    "id": "D275",
+    "name": "Stack Salad",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (cornbread crouton, fried okra breading), dairy (buttermilk dressing)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "heirloom tomato",
+      "wood-fired corn",
+      "black eyed pea",
+      "butter bean",
+      "avocado",
+      "fried okra",
+      "cornbread crouton",
+      "jalapeno bacon",
+      "buttermilk dressing"
+    ]
+  },
+  {
+    "id": "D276",
+    "name": "Ginger Salad",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "unknown (housemade fresh ginger dressing — full ingredients not disclosed)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "mixed greens",
+      "cherry tomato",
+      "cucumber",
+      "toasted sesame seeds",
+      "housemade fresh ginger dressing"
+    ]
+  },
+  {
+    "id": "D277",
+    "name": "Summer Salad",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (bocconcini)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "grilled peach",
+      "prosciutto",
+      "bocconcini",
+      "white balsamic honey vinaigrette"
+    ]
+  },
+  {
+    "id": "D278",
+    "name": "Bolognese",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "wheat (rigatoni), dairy (parmesan), unknown (marco's house bolognese — meat type and sauce ingredients not disclosed)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "rigatoni",
+      "marco's house bolognese",
+      "parmesan",
+      "fresh basil"
+    ]
+  },
+  {
+    "id": "D279",
+    "name": "Fettuccine",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "tree nuts (pistachio in pesto), dairy (asiago), wheat (fettuccine, toast)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "fettuccine",
+      "pistachio pesto",
+      "asiago",
+      "blistered tomato",
+      "toast"
+    ]
+  },
+  {
+    "id": "D280",
+    "name": "Ravioli",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "shellfish (lobster, shrimp), dairy (butter in cream sauce), wheat (pasta, pinsa)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "lobster ravioli",
+      "shrimp",
+      "garlic butter cream sauce",
+      "lemon",
+      "pinsa"
+    ]
+  },
+  {
+    "id": "D281",
+    "name": "Steak",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (compound herb butter)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "smoked tenderloin",
+      "smashed potato",
+      "asparagus",
+      "compound herb butter"
+    ]
+  },
+  {
+    "id": "D282",
+    "name": "Fish",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (beurre blanc — butter-based), unknown (smoked tomato spinach risotto full ingredients)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "grouper",
+      "smoked tomato spinach risotto",
+      "beurre blanc"
+    ]
+  },
+  {
+    "id": "D283",
+    "name": "Chicken",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "unknown (pan sauce, bloody mary rice — ingredients not disclosed)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "chicken",
+      "creamed collards",
+      "bloody mary rice",
+      "pan sauce"
+    ]
+  },
+  {
+    "id": "D284",
+    "name": "Burger",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (muenster), wheat (bun implied), unknown (slm sauce — proprietary)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "beef burger patty",
+      "muenster",
+      "smoked shallot jam",
+      "pickle",
+      "arugula",
+      "slm sauce",
+      "fries"
+    ]
+  },
+  {
+    "id": "D285",
+    "name": "Tacos",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "dairy (queso fresco), wheat (tortilla)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "ribeye",
+      "corn tortilla",
+      "pickled carrot",
+      "chimichurri",
+      "queso fresco",
+      "rice"
+    ]
+  },
+  {
+    "id": "D286",
+    "name": "Skewer",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (goat cheese), tree nuts (pistachio)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "goat cheese",
+      "pistachio",
+      "smoked tomato",
+      "prosciutto",
+      "balsamic",
+      "micro basil"
+    ]
+  },
+  {
+    "id": "D287",
+    "name": "Dates",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (goat cheese)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "date",
+      "herb goat cheese",
+      "jalapeno bacon"
+    ]
+  },
+  {
+    "id": "D288",
+    "name": "Okra",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "wheat (cornmeal breading), dairy (buttermilk dressing), egg (likely in buttermilk dressing)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "okra",
+      "cornmeal breading",
+      "smoked paprika",
+      "buttermilk dressing"
+    ]
+  },
+  {
+    "id": "D289",
+    "name": "Fries",
+    "restaurant": "SoHo Standard",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "dairy (parmesan), unknown (slm aioli — proprietary)",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "ingredients": [
+      "fries",
+      "duck fat",
+      "truffle",
+      "mixed herbs",
+      "parmesan",
+      "slm aioli"
     ]
   }
 ]
