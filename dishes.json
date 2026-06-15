@@ -4921,30 +4921,6 @@
     ]
   },
   {
-    "id": "D291",
-    "name": "Fish Tacos",
-    "restaurant": "Yo Mama's",
-    "location": "Birmingham, AL",
-    "level": "Moderate",
-    "tags": [
-      "gluten-free"
-    ],
-    "allergens": "Fish (tilapia). Tree nuts (almonds in POE Sauce — labeled on menu). Wheat (flour tortilla option).",
-    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
-    "menu_link": "https://www.yomamasrestaurant.com/food/",
-    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
-    "restaurant_website": "https://www.yomamasrestaurant.com",
-    "ingredients": [
-      "tilapia",
-      "POE Sauce (almond-based)",
-      "salsa fresca",
-      "cole slaw",
-      "black beans",
-      "rice",
-      "tortillas (flour or corn)"
-    ]
-  },
-  {
     "id": "D292",
     "name": "Shrimp Tacos",
     "restaurant": "Yo Mama's",
@@ -5292,28 +5268,6 @@
     ]
   },
   {
-    "id": "D308",
-    "name": "Chicken Vegetable Soup",
-    "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [],
-    "allergens": "May contain gluten (wheat from shared pita). No common allergens in soup itself.",
-    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
-    "menu_link": "https://elisjerusalemgrill.com",
-    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
-    "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "chicken",
-      "carrots",
-      "zucchini",
-      "celery",
-      "parsley",
-      "onions",
-      "homemade pita"
-    ]
-  },
-  {
     "id": "D309",
     "name": "Lentil Soup",
     "restaurant": "Eli's Jerusalem Grill",
@@ -5336,68 +5290,6 @@
       "tomatoes",
       "onions",
       "homemade pita"
-    ]
-  },
-  {
-    "id": "D310",
-    "name": "Matzah Ball Soup",
-    "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [],
-    "allergens": "Wheat (matzah ball — explicitly noted on menu). Served with pita (wheat).",
-    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
-    "menu_link": "https://elisjerusalemgrill.com",
-    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
-    "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "matzah ball",
-      "chicken vegetable broth",
-      "homemade pita"
-    ]
-  },
-  {
-    "id": "D311",
-    "name": "Hummus",
-    "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [
-      "gluten-free",
-      "vegetarian",
-      "vegan"
-    ],
-    "allergens": "Sesame (tahini). Wheat if ordered with pita (large size).",
-    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
-    "menu_link": "https://elisjerusalemgrill.com",
-    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
-    "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "chickpeas",
-      "tahini",
-      "lemon juice"
-    ]
-  },
-  {
-    "id": "D312",
-    "name": "Hummus with Hard-Boiled Egg",
-    "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [
-      "gluten-free",
-      "vegetarian"
-    ],
-    "allergens": "Sesame (tahini). Eggs. Wheat if ordered with pita (large size).",
-    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
-    "menu_link": "https://elisjerusalemgrill.com",
-    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
-    "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "chickpeas",
-      "tahini",
-      "lemon juice",
-      "hard-boiled egg"
     ]
   },
   {
@@ -5424,68 +5316,6 @@
     ]
   },
   {
-    "id": "D314",
-    "name": "Hummus with Roasted Red Peppers",
-    "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [
-      "gluten-free",
-      "vegetarian",
-      "vegan"
-    ],
-    "allergens": "Sesame (tahini). Wheat if ordered with pita (large size).",
-    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
-    "menu_link": "https://elisjerusalemgrill.com",
-    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
-    "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "chickpeas",
-      "tahini",
-      "lemon juice",
-      "red bell peppers"
-    ]
-  },
-  {
-    "id": "D315",
-    "name": "Baba Ghanoush",
-    "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [
-      "gluten-free",
-      "vegetarian",
-      "vegan"
-    ],
-    "allergens": "Sesame (tahini). Wheat if ordered with pita (large size).",
-    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
-    "menu_link": "https://elisjerusalemgrill.com",
-    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
-    "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "eggplant",
-      "tahini",
-      "garlic",
-      "seasonings"
-    ]
-  },
-  {
-    "id": "D316",
-    "name": "Homemade Pita Bread",
-    "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [],
-    "allergens": "Wheat (noted on menu).",
-    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
-    "menu_link": "https://elisjerusalemgrill.com",
-    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
-    "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "pita bread"
-    ]
-  },
-  {
     "id": "D317",
     "name": "Homemade Pita Chips",
     "restaurant": "Eli's Jerusalem Grill",
@@ -5502,74 +5332,18 @@
     ]
   },
   {
-    "id": "D318",
-    "name": "Israeli Salad",
-    "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
-    "level": "Moderate",
-    "tags": [
-      "gluten-free",
-      "vegetarian",
-      "vegan"
-    ],
-    "allergens": "No common allergens.",
-    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
-    "menu_link": "https://elisjerusalemgrill.com",
-    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
-    "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "tomatoes",
-      "cucumbers",
-      "onions",
-      "parsley",
-      "olive oil",
-      "lemon juice"
-    ]
-  },
-  {
-    "id": "D319",
-    "name": "Tabouli Salad",
-    "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
-    "level": "Moderate",
-    "tags": [
-      "gluten-free",
-      "vegetarian",
-      "vegan"
-    ],
-    "allergens": "No common allergens. Made with quinoa, not bulgur wheat — GF.",
-    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
-    "menu_link": "https://elisjerusalemgrill.com",
-    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
-    "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "tomatoes",
-      "quinoa",
-      "onions",
-      "parsley",
-      "cilantro",
-      "olive oil",
-      "lemon juice"
-    ]
-  },
-  {
     "id": "D320",
     "name": "Red Cabbage Salad",
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "gluten-free",
-      "vegetarian",
-      "vegan"
-    ],
-    "allergens": "No common allergens.",
-    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
-    "menu_link": "https://elisjerusalemgrill.com",
-    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
-    "restaurant_website": "https://elisjerusalemgrill.com",
+    "tags": [],
+    "allergens": "Unknown",
+    "hours": "",
+    "menu_link": "",
+    "restaurant_address": "",
+    "restaurant_website": "",
     "ingredients": [
-      "red cabbage",
       "homemade oregano vinaigrette dressing"
     ]
   },
@@ -5611,9 +5385,7 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "cucumber",
-      "onions",
-      "homemade lemon vinaigrette dressing"
+      "cucumber"
     ]
   },
   {
@@ -5633,8 +5405,6 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "carrots",
-      "lemon juice",
       "garlic",
       "olive oil",
       "Moroccan spice blend",
@@ -5645,7 +5415,7 @@
     "id": "D324",
     "name": "Beet Salad",
     "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [
       "gluten-free",
@@ -5657,11 +5427,7 @@
     "menu_link": "https://elisjerusalemgrill.com",
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "red beets",
-      "lemon juice",
-      "blend of spices"
-    ]
+    "ingredients": []
   },
   {
     "id": "D325",
@@ -5680,7 +5446,6 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "red bell peppers",
       "olive oil",
       "fresh garlic",
       "lemon juice"
@@ -5704,9 +5469,7 @@
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
       "mixed vegetables",
-      "olive oil",
-      "oregano",
-      "blend of spices"
+      "oregano"
     ]
   },
   {
@@ -5726,18 +5489,14 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "hummus",
-      "red cabbage salad",
-      "Moroccan carrots",
-      "beet salad",
-      "white cabbage salad"
+      "hummus"
     ]
   },
   {
     "id": "D328",
     "name": "Chicken Shawarma",
     "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [],
     "allergens": "Wheat (pita/laffa). Sesame (tahini in hummus, served on sandwich). Organic chicken.",
@@ -5745,10 +5504,7 @@
     "menu_link": "https://elisjerusalemgrill.com",
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "organic chicken",
-      "marinade"
-    ]
+    "ingredients": []
   },
   {
     "id": "D329",
@@ -5805,7 +5561,7 @@
     "id": "D332",
     "name": "Chicken Schnitzel",
     "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Moderate",
     "tags": [
       "gluten-free"
@@ -5815,17 +5571,13 @@
     "menu_link": "https://elisjerusalemgrill.com",
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "organic chicken cutlet",
-      "gluten-free breading",
-      "seasoning"
-    ]
+    "ingredients": []
   },
   {
     "id": "D333",
     "name": "Beef & Lamb Shawarma",
     "restaurant": "Eli's Jerusalem Grill",
-    "location": "Birmingham, AL",
+    "location": "Birmingham",
     "level": "Building",
     "tags": [],
     "allergens": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed beef and lamb.",
@@ -5833,11 +5585,7 @@
     "menu_link": "https://elisjerusalemgrill.com",
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
-    "ingredients": [
-      "grass-fed beef",
-      "grass-fed lamb",
-      "marinade"
-    ]
+    "ingredients": []
   },
   {
     "id": "D334",
@@ -5852,7 +5600,6 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "grass-fed beef",
       "marinade"
     ]
   },
@@ -5908,8 +5655,7 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "chickpeas",
-      "herbs"
+      "chickpeas"
     ]
   },
   {
@@ -5925,10 +5671,8 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "organic chicken",
       "grass-fed beef",
-      "grass-fed lamb",
-      "marinade"
+      "grass-fed lamb"
     ]
   },
   {
@@ -5944,7 +5688,6 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "grass-fed lamb chops",
       "seasoning"
     ]
   },
@@ -5962,9 +5705,6 @@
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
       "organic chicken shawarma",
-      "grass-fed beef/lamb shawarma",
-      "kefta kabob",
-      "falafel",
       "organic chicken tender"
     ]
   },
@@ -5985,10 +5725,7 @@
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
       "eggs",
-      "tomatoes",
-      "red peppers",
-      "garlic",
-      "onions"
+      "tomatoes"
     ]
   },
   {
@@ -6008,9 +5745,6 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "falafel (6)",
-      "hummus",
-      "baba ghanoush",
       "tabouli salad",
       "red cabbage salad"
     ]
@@ -6031,8 +5765,7 @@
       "green cabbage leaves",
       "ground beef",
       "rice",
-      "blend of spices",
-      "homemade tomato sauce"
+      "blend of spices"
     ]
   },
   {
@@ -6050,8 +5783,6 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "wild-caught Alaskan salmon",
-      "olive oil",
       "blend of spices"
     ]
   },
@@ -6071,10 +5802,7 @@
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
       "wild line-caught Pacific grouper",
-      "tomatoes",
-      "garlic",
-      "cilantro",
-      "traditional Moroccan seasonings"
+      "tomatoes"
     ]
   },
   {
@@ -6094,7 +5822,6 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "Israeli pickles",
       "olives"
     ]
   },
@@ -6152,8 +5879,7 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "cauliflower",
-      "gluten-free breading"
+      "cauliflower"
     ]
   },
   {
@@ -6169,9 +5895,6 @@
     "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
-      "filo pastry",
-      "shredded coconut",
-      "almonds",
       "homemade blossom citrus syrup",
       "crushed pistachios"
     ]
@@ -6190,11 +5913,7 @@
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
       "sweet cheese",
-      "shredded coconut",
-      "almonds",
-      "filo pastry",
-      "homemade blossom citrus syrup",
-      "crushed pistachios"
+      "shredded coconut"
     ]
   },
   {
@@ -6202,13 +5921,13 @@
     "name": "Bread & Butter",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Wheat (house-made focaccia), Dairy (rosemary butter). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6218,11 +5937,11 @@
     "location": "Birmingham",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Eggs (egg mousse), Wheat (tallow croutons). Contains raw beef. Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6230,13 +5949,13 @@
     "name": "Peel 'n' Eat Shrimp",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Shellfish (shrimp), Dairy (drawn butter). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6244,13 +5963,13 @@
     "name": "Fresh Burrata",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (burrata), Tree Nuts (pecans), Wheat (bread pudding). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6258,13 +5977,13 @@
     "name": "Autumn Salad",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (aged white cheddar), Tree Nuts (walnuts). Contains bacon. Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6274,11 +5993,11 @@
     "location": "Birmingham",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (parmesan), Wheat (sourdough croutons). Traditional Caesar dressing may contain eggs and fish (anchovies) — contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6288,11 +6007,11 @@
     "location": "Birmingham",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (melted swiss cheese), Wheat (sourdough croutons). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6300,13 +6019,13 @@
     "name": "Blistered Hungarian Peppers",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (aged cheddar), Wheat (house focaccia). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6316,11 +6035,11 @@
     "location": "Birmingham",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (ranch). Sauce allergens vary by choice — contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6328,13 +6047,13 @@
     "name": "Wood-Fired Bone Marrow",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (smoked garlic butter), Wheat (toasted sourdough). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6342,13 +6061,13 @@
     "name": "Fresh Mozzarella Pizza",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (mozzarella, parmesan), Wheat (pizza dough). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6356,13 +6075,15 @@
     "name": "Veggie Pizza",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (mozzarella, parmesan), Wheat (pizza dough). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6370,13 +6091,13 @@
     "name": "Pepperoni Pizza",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (mozzarella), Wheat (pizza dough). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6384,13 +6105,13 @@
     "name": "Sausage + Mushroom Pizza",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (implied cheese), Wheat (pizza dough). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6398,13 +6119,13 @@
     "name": "Bacon Pesto Pizza",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (mozzarella, gorgonzola), Wheat (pizza dough). Pesto may contain tree nuts — contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6412,13 +6133,16 @@
     "name": "Vegan Pizza",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "level": "Moderate",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Tree Nuts (almonds), Wheat (pizza dough). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6427,12 +6151,14 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (american cheese), Wheat (bun — GF bun available +$1). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6440,13 +6166,13 @@
     "name": "Fancy Burger",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (swiss, garlic aioli), Wheat (bun). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6455,12 +6181,14 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Wheat (bun). Patty ingredients not listed — contact restaurant to confirm allergens.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6468,13 +6196,13 @@
     "name": "Fried Chicken Sandwich",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Wheat (bun, breading), Eggs (honey mustard may contain). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6484,11 +6212,11 @@
     "location": "Birmingham",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (parmesan), Wheat (rigatoni pasta). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6496,13 +6224,13 @@
     "name": "Country-Style Pork Chop",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (parmesan fonduta), Tree Nuts (candied walnut). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6510,13 +6238,13 @@
     "name": "Seared Scallops",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Shellfish (scallops), Dairy (implied in risotto and gravy). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6524,13 +6252,13 @@
     "name": "Wooden City Surf & Turf",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Shellfish (lobster), Dairy (chive butter sauce), Wheat (dumpling wrapper). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6538,13 +6266,13 @@
     "name": "Beet Ravioli",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (goat cheese, chive cream), Wheat (ravioli pasta), Tree Nuts (pistachio). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6552,13 +6280,13 @@
     "name": "Chicken Schnitzel",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Wheat (breading), Dairy (lemon caper butter sauce). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6566,13 +6294,13 @@
     "name": "New York Strip",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (aged cheddar, horseradish crema, potato gratin). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6582,11 +6310,11 @@
     "location": "Birmingham",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (jerk crema). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6594,13 +6322,13 @@
     "name": "Wood-Fired Brussels Sprouts",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (goat cheese), Tree Nuts (almonds). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6610,11 +6338,11 @@
     "location": "Birmingham",
     "level": "Building",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (fry sauce may contain). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6622,13 +6350,13 @@
     "name": "Confit Fingerling Potatoes",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (steak butter, chive crema). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6636,13 +6364,13 @@
     "name": "Classic Irish Coffee",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (fresh whipped cream). Contains alcohol (Tullamore D.E.W. Irish whiskey). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6650,13 +6378,13 @@
     "name": "Espresso Martini",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (cream). Contains alcohol (vodka, coffee liqueur). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6664,13 +6392,13 @@
     "name": "Grasshopper",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham",
-    "level": "Building",
+    "level": "Moderate",
     "tags": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (cream). Contains alcohol (crème de menthe, crème de cacao). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": []
   },
   {
@@ -6726,23 +6454,6 @@
     "ingredients": []
   },
   {
-    "id": "D389",
-    "name": "Glow",
-    "restaurant": "Blue Root",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [
-      "gluten-free",
-      "dairy-free"
-    ],
-    "allergens": "Allergens sourced from Blue Root's published nutrition document: Sesame Seed, Tree Nuts (Almonds). Kitchen processes milk, eggs, peanuts, and tree nuts.",
-    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://bluerootco.com",
-    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
-    "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
-  },
-  {
     "id": "D390",
     "name": "Green God",
     "restaurant": "Blue Root",
@@ -6778,24 +6489,6 @@
     "ingredients": []
   },
   {
-    "id": "D392",
-    "name": "Magic City",
-    "restaurant": "Blue Root",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [
-      "gluten-free",
-      "dairy-free",
-      "vegan"
-    ],
-    "allergens": "Allergens sourced from Blue Root's published nutrition document: Soy, Tree Nuts (Almonds). Kitchen processes milk, eggs, peanuts, and tree nuts.",
-    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://bluerootco.com",
-    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
-    "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
-  },
-  {
     "id": "D393",
     "name": "Mykonos",
     "restaurant": "Blue Root",
@@ -6806,24 +6499,6 @@
       "vegetarian"
     ],
     "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Tree Nuts (Pistachios). Kitchen processes milk, eggs, peanuts, and tree nuts.",
-    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://bluerootco.com",
-    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
-    "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
-  },
-  {
-    "id": "D394",
-    "name": "Pacific Salad",
-    "restaurant": "Blue Root",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [
-      "gluten-free",
-      "dairy-free",
-      "vegan"
-    ],
-    "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Cashews). Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
@@ -6918,22 +6593,6 @@
     "ingredients": []
   },
   {
-    "id": "D400",
-    "name": "Protein Box with Chicken Salad",
-    "restaurant": "Blue Root",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [
-      "gluten-free"
-    ],
-    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Sesame Seeds. Kitchen processes milk, eggs, peanuts, and tree nuts.",
-    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://bluerootco.com",
-    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
-    "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
-  },
-  {
     "id": "D401",
     "name": "Protein Box with Grilled Chicken",
     "restaurant": "Blue Root",
@@ -7003,22 +6662,6 @@
     "ingredients": []
   },
   {
-    "id": "D405",
-    "name": "White Bean Chicken Chilli",
-    "restaurant": "Blue Root",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [
-      "gluten-free"
-    ],
-    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
-    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://bluerootco.com",
-    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
-    "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
-  },
-  {
     "id": "D406",
     "name": "Banana Nut Bread Overnight Oats",
     "restaurant": "Blue Root",
@@ -7055,24 +6698,6 @@
     "ingredients": []
   },
   {
-    "id": "D408",
-    "name": "Granola Strawberry Ginger",
-    "restaurant": "Blue Root",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [
-      "gluten-free",
-      "dairy-free",
-      "vegetarian"
-    ],
-    "allergens": "Allergens sourced from Blue Root's published nutrition document: Sesame Seeds, Tree Nuts (Almonds, Walnuts). Kitchen processes milk, eggs, peanuts, and tree nuts.",
-    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://bluerootco.com",
-    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
-    "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
-  },
-  {
     "id": "D409",
     "name": "Lemon Blueberry Overnight Oats",
     "restaurant": "Blue Root",
@@ -7084,24 +6709,6 @@
       "vegan"
     ],
     "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Almonds). Kitchen processes milk, eggs, peanuts, and tree nuts.",
-    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://bluerootco.com",
-    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
-    "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
-  },
-  {
-    "id": "D410",
-    "name": "Plain Jane Overnight Oats",
-    "restaurant": "Blue Root",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [
-      "gluten-free",
-      "dairy-free",
-      "vegan"
-    ],
-    "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
@@ -7177,20 +6784,6 @@
     "ingredients": []
   },
   {
-    "id": "D415",
-    "name": "Hummus Toast with Prosciutto",
-    "restaurant": "Blue Root",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [],
-    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Salmon (fish), Sesame Seeds, Wheat. Fish allergen listed as stated on nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
-    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://bluerootco.com",
-    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
-    "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
-  },
-  {
     "id": "D416",
     "name": "Hummus Toast with Smoked Salmon",
     "restaurant": "Blue Root",
@@ -7214,22 +6807,6 @@
       "dairy-free"
     ],
     "allergens": "Allergens sourced from Blue Root's published nutrition document: Eggs, Salmon (fish), Wheat. Kitchen processes milk, eggs, peanuts, and tree nuts.",
-    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://bluerootco.com",
-    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
-    "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
-  },
-  {
-    "id": "D418",
-    "name": "Whipped Goat Cheese + Jam Toast",
-    "restaurant": "Blue Root",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [
-      "vegetarian"
-    ],
-    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Sesame Seeds, Tree Nuts (Almonds, Pecans), Wheat. Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",

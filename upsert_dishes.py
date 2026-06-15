@@ -20,6 +20,7 @@ Usage:
 
 import json
 import sys
+import time
 import datetime
 import gspread
 from google.oauth2.service_account import Credentials
@@ -131,10 +132,25 @@ def index_by_dish_id(ws, did_col):
     return index
 
 
-def delete_rows_reverse(ws, row_numbers):
-    """Delete rows by number in reverse order to avoid index shifting."""
-    for row_num in sorted(row_numbers, reverse=True):
-        ws.delete_rows(row_num)
+def delete_rows_batch(ws, row_numbers):
+    """Delete rows in a single batch_update request to avoid API quota limits."""
+    if not row_numbers:
+        return
+    sorted_rows = sorted(row_numbers, reverse=True)
+    requests = [
+        {
+            "deleteDimension": {
+                "range": {
+                    "sheetId": ws._properties["sheetId"],
+                    "dimension": "ROWS",
+                    "startIndex": row_num - 1,
+                    "endIndex": row_num,
+                }
+            }
+        }
+        for row_num in sorted_rows
+    ]
+    ws.spreadsheet.batch_update({"requests": requests})
 
 
 def upsert_tab(ws, new_rows_by_did, did_col, label):
@@ -154,7 +170,7 @@ def upsert_tab(ws, new_rows_by_did, did_col, label):
             if DRY_RUN:
                 print(f"  {label} [{did}]: would update (delete old rows, write {len(rows)} new)")
             else:
-                delete_rows_reverse(ws, existing[did])
+                delete_rows_batch(ws, existing[did])
             n_updated += 1
         else:
             if DRY_RUN:
@@ -217,8 +233,10 @@ def main():
     else:
         u, a = upsert_tab(ss.worksheet("Ingredient Details"),      ing_by_did,   3, "Ingredient Details")
         print(f"  Ingredient Details      : {a} added, {u} updated")
+        time.sleep(3)
         u, a = upsert_tab(ss.worksheet("Transparency Scoring"),    score_by_did, 2, "Transparency Scoring")
         print(f"  Transparency Scoring    : {a} added, {u} updated")
+        time.sleep(3)
         u, a = upsert_tab(ss.worksheet("Goldpan Dish Level Data"), dish_by_did,  3, "Goldpan Dish Level Data")
         print(f"  Goldpan Dish Level Data : {a} added, {u} updated")
 
