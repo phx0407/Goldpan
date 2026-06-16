@@ -122,6 +122,15 @@
     .rest-badge.moderate { border-color: #C9A84C; color: #C9A84C; }
     .rest-badge.building { border-color: #9A9488; color: #9A9488; }
 
+    /* Transparency indicators */
+    .t-indicators { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 12px; }
+    .t-chip { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; color: #4CAF76; border: 1px solid rgba(76,175,118,0.3); padding: 3px 7px; }
+    .why-box { background: #111111; border: 1px solid #1A1A1A; border-left: 2px solid #C9A84C; padding: 14px 16px; margin-bottom: 20px; font-size: 12px; color: #9A9488; line-height: 1.7; }
+    .t-attr-list { margin-bottom: 20px; }
+    .t-attr-row { display: flex; align-items: center; gap: 8px; padding: 7px 0; border-bottom: 1px solid #1A1A1A; font-size: 12px; color: #9A9488; }
+    .t-attr-row:last-child { border-bottom: none; }
+    .t-attr-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+
     /* Empty state */
     .empty { padding: 80px 48px; text-align: center; color: #9A9488; }
     .empty-title { font-family: 'Bebas Neue', sans-serif; font-size: 32px; color: #1A1A1A; margin-bottom: 12px; }
@@ -216,8 +225,8 @@
 
   <div class="hero">
     <p class="hero-label">Birmingham Food Intelligence</p>
-    <h1 class="hero-title">Know What's<br />In Your Food.</h1>
-    <p class="hero-sub" id="hero-sub">Browse Birmingham restaurants and search dishes by dietary need, allergen, or ingredient.</p>
+    <h1 class="hero-title">Understand<br />Your Food.</h1>
+    <p class="hero-sub" id="hero-sub">Discover Birmingham restaurants with greater ingredient transparency, dietary information, and menu clarity.</p>
   </div>
 
   <!-- Tab switcher -->
@@ -260,6 +269,9 @@
         <button class="fbtn"        onclick="setDishFilter('no-soy',       this)">No Soy</button>
         <button class="fbtn"        onclick="setDishFilter('no-pork',      this)">No Pork</button>
         <button class="fbtn"        onclick="setDishFilter('60plus',       this)">Moderate+</button>
+        <button class="fbtn"        onclick="setDishFilter('has-ingredients', this)">Has Ingredients</button>
+        <button class="fbtn"        onclick="setDishFilter('has-allergens',   this)">Has Allergen Info</button>
+        <button class="fbtn"        onclick="setDishFilter('has-dietary',     this)">Has Dietary Info</button>
       </div>
     </div>
     <div class="active-filters-bar" id="active-filters-bar"></div>
@@ -346,6 +358,34 @@ function displayPct(level) {
   return 35;
 }
 
+function whyGoldpan(r) {
+  var reasons = [];
+  if (r.hasIngredients) reasons.push('ingredient details');
+  if (r.hasAllergens)   reasons.push('allergen information');
+  if (r.hasDietaryTags) reasons.push('dietary information');
+  if (r.hasPrepDetails) reasons.push('preparation details');
+  if (!reasons.length) return 'This restaurant is included on Goldpan as part of our effort to document food transparency across Birmingham.';
+  var last = reasons.pop();
+  var list = reasons.length ? reasons.join(', ') + ' and ' + last : last;
+  return 'This restaurant appears on Goldpan because it offers ' + list + ', helping diners better understand what they are eating and make more informed decisions.';
+}
+
+function transparencyAttrs(r) {
+  var attrs = [
+    { label: 'Ingredient details available',    on: r.hasIngredients },
+    { label: 'Allergen information available',  on: r.hasAllergens   },
+    { label: 'Dietary information available',   on: r.hasDietaryTags },
+    { label: 'Preparation details available',   on: r.hasPrepDetails },
+  ];
+  return '<div class="t-attr-list">' +
+    attrs.map(function(a) {
+      var col = a.on ? '#4CAF76' : '#333333';
+      var textCol = a.on ? '#9A9488' : '#333333';
+      return '<div class="t-attr-row"><span class="t-attr-dot" style="background:' + col + '"></span><span style="color:' + textCol + '">' + a.label + '</span></div>';
+    }).join('') +
+    '</div>';
+}
+
 function bestLevel(r) {
   if (r.high > 0) return 'high';
   if (r.moderate > 0) return 'moderate';
@@ -374,6 +414,12 @@ function buildRestaurants() {
     map[key][levelKey(d)]++;
   });
   restaurants = Object.values(map).sort(function(a, b) { return a.name.localeCompare(b.name); });
+  restaurants.forEach(function(r) {
+    r.hasIngredients  = r.dishes.some(function(d) { return (d.ingredients || []).length > 0; });
+    r.hasDietaryTags  = r.dishes.some(function(d) { return (d.tags || []).length > 0; });
+    r.hasAllergens    = r.dishes.some(function(d) { return d.allergens && d.allergens.toLowerCase() !== 'unknown' && d.allergens.trim(); });
+    r.hasPrepDetails  = r.high > 0; // High transparency requires prep disclosure
+  });
 }
 
 function updateStats() {
@@ -383,7 +429,7 @@ function updateStats() {
   el = document.getElementById('stat-dish-count');
   if (el) el.textContent = dishes.length;
   el = document.getElementById('hero-sub');
-  if (el) el.textContent = 'Browse ' + restCount + ' Birmingham restaurants and search ' + dishes.length + ' dishes by dietary need, allergen, or ingredient.';
+  if (el) el.textContent = 'Discover ' + restCount + ' Birmingham restaurants with greater ingredient transparency, dietary information, and menu clarity.';
 }
 
 function loadDishes() {
@@ -478,6 +524,12 @@ function renderRestaurants() {
         (r.moderate ? '<div><div class="rest-card-stat-num" style="color:#C9A84C">' + r.moderate + '</div><div class="rest-card-stat-label">Moderate</div></div>' : '') +
       '</div>' +
       '<span class="rest-badge ' + bl + '">' + badgeLabel[bl] + '</span>' +
+      '<div class="t-indicators">' +
+        (r.hasIngredients ? '<span class="t-chip">Ingredients</span>' : '') +
+        (r.hasAllergens   ? '<span class="t-chip">Allergen Info</span>' : '') +
+        (r.hasDietaryTags ? '<span class="t-chip">Dietary Info</span>' : '') +
+        (r.hasPrepDetails ? '<span class="t-chip">Prep Details</span>' : '') +
+      '</div>' +
       '</div>';
   }).join('');
 }
@@ -505,6 +557,10 @@ function openRestaurantDetail(idx) {
       (r.high     ? '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#4CAF76;">' + r.high     + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">High</div></div>' : '') +
       (r.moderate ? '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#C9A84C;">' + r.moderate + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">Moderate</div></div>' : '') +
     '</div>' +
+    '<div class="detail-section-title">Why Goldpan Included This Restaurant</div>' +
+    '<div class="why-box">' + whyGoldpan(r) + '</div>' +
+    '<div class="detail-section-title">Transparency Attributes</div>' +
+    transparencyAttrs(r) +
     (metaHtml ? '<div class="detail-section-title">Restaurant Info</div>' + metaHtml : '') +
     '<div class="detail-section-title" style="margin-bottom:10px;">Menu</div>' +
     '<input class="panel-search" id="panel-search" placeholder="Search dishes..." oninput="onPanelSearch(this.value)" />' +
@@ -592,7 +648,7 @@ function updateActiveFiltersBar() {
   var bar = document.getElementById('active-filters-bar');
   if (dishActiveFilters.length === 0) { bar.classList.remove('visible'); bar.innerHTML = ''; return; }
   bar.classList.add('visible');
-  var labels = { 'vegan':'Vegan','vegetarian':'Vegetarian','gluten-free':'Gluten Free','no-dairy':'No Dairy','no-nuts':'No Nuts','no-shellfish':'No Shellfish','no-fish':'No Fish','no-eggs':'No Eggs','no-soy':'No Soy','no-pork':'No Pork','60plus':'Moderate+' };
+  var labels = { 'vegan':'Vegan','vegetarian':'Vegetarian','gluten-free':'Gluten Free','no-dairy':'No Dairy','no-nuts':'No Nuts','no-shellfish':'No Shellfish','no-fish':'No Fish','no-eggs':'No Eggs','no-soy':'No Soy','no-pork':'No Pork','60plus':'Moderate+','has-ingredients':'Has Ingredients','has-allergens':'Has Allergen Info','has-dietary':'Has Dietary Info' };
   bar.innerHTML = '<span style="font-size:11px;color:#9A9488;letter-spacing:0.08em;text-transform:uppercase;">Active filters:</span>' +
     dishActiveFilters.map(function(f) { return '<span class="active-filter-tag">' + (labels[f] || f) + '</span>'; }).join('') +
     '<button class="clear-all" onclick="clearDishFilters()">Clear All</button>';
@@ -632,6 +688,9 @@ function getFilteredDishes() {
       if (f === 'no-soy') return (d.allergens || '').toLowerCase().indexOf('soy') === -1;
       if (f === 'no-pork') { var al = (d.allergens || '').toLowerCase(); var ing = (d.ingredients || []).join(' ').toLowerCase(); return al.indexOf('pork') === -1 && ing.indexOf('pork') === -1 && ing.indexOf('bacon') === -1 && ing.indexOf('ham') === -1 && ing.indexOf('prosciutto') === -1 && ing.indexOf('pancetta') === -1; }
       if (f === '60plus') { var l = (d.level || '').toLowerCase(); return l === 'high' || l === 'moderate'; }
+      if (f === 'has-ingredients') return (d.ingredients || []).length > 0;
+      if (f === 'has-allergens')   return d.allergens && d.allergens.toLowerCase() !== 'unknown' && d.allergens.trim() !== '';
+      if (f === 'has-dietary')     return (d.tags || []).length > 0;
       return true;
     });
   }).sort(function(a, b) {
