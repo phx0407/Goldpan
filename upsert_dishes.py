@@ -77,7 +77,7 @@ def build_ingredient_rows(data):
                 rid, rname, loc,
                 dish["dish_id"], dish["dish_name"],
                 name, cut_type, preparation, ing_type,
-                "Active", "1", "Unconfirmed",
+                "Active", "1",
                 source, allergen_flags, role,
             ])
     return rows

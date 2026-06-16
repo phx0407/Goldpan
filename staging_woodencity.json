@@ -21,7 +21,12 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: house-made focaccia, grilled onion, rosemary butter, olive oil all named. Sauce 25: butter and olive oil named. Prep 15: grilled onion stated.",
-      "ingredients": ["house-made focaccia", "grilled onion", "rosemary butter", "olive oil"]
+      "ingredients": [
+        {"name": "focaccia", "cut_type": "none", "preparation": "baked", "type": "house-made", "source": "house-made", "allergen_flags": "wheat", "role": "base"},
+        {"name": "onion", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "rosemary butter", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
+        {"name": "olive oil", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"}
+      ]
     },
     {
       "dish_id": "D353",
@@ -37,7 +42,14 @@
       "total_score": 50,
       "transparency_level": "Building Transparency",
       "notes": "Core 25: lemon aioli, egg mousse, chives, fresh horseradish, tallow croutons all named. Sauce 15: lemon aioli named. Prep 5: tartare = raw, no prep stated.",
-      "ingredients": ["beef", "lemon aioli", "egg mousse", "chives", "fresh horseradish", "tallow croutons"]
+      "ingredients": [
+        {"name": "beef", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "lemon aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
+        {"name": "egg mousse", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "component"},
+        {"name": "chives", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
+        {"name": "horseradish", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
+        {"name": "tallow croutons", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "component"}
+      ]
     },
     {
       "dish_id": "D354",
@@ -53,7 +65,12 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: shrimp (1/2 lb), spices listed. Sauce 15: drawn butter and cocktail sauce named. Prep 25: poached-to-order explicitly stated.",
-      "ingredients": ["shrimp", "spices", "drawn butter", "cocktail sauce"]
+      "ingredients": [
+        {"name": "shrimp", "cut_type": "none", "preparation": "poached", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
+        {"name": "spices", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "seasoning"},
+        {"name": "drawn butter", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "dipping sauce"},
+        {"name": "cocktail sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "dipping sauce"}
+      ]
     },
     {
       "dish_id": "D355",
@@ -69,7 +86,14 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: burrata, brown butter carrots, sage bread pudding, balsamic, oregano, candied pecans all named. Sauce 25: brown butter and aged balsamic named. Prep 15: candied/brown butter prep implied.",
-      "ingredients": ["burrata", "brown butter carrots", "sage bread pudding", "aged balsamic", "oregano", "candied pecans"]
+      "ingredients": [
+        {"name": "burrata", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "protein"},
+        {"name": "carrots", "cut_type": "none", "preparation": "roasted", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "sage bread pudding", "cut_type": "none", "preparation": "baked", "type": "standard", "source": "unknown", "allergen_flags": "wheat,dairy,eggs", "role": "component"},
+        {"name": "aged balsamic", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "oregano", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
+        {"name": "pecans", "cut_type": "none", "preparation": "candied", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "garnish"}
+      ]
     },
     {
       "dish_id": "D356",
@@ -85,7 +109,14 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: green apple, aged white cheddar, candied walnuts, crispy bacon, brussels leaves all named. Sauce 15: honey dijon vinaigrette named by type. Prep 15: crispy bacon, candied walnuts prep stated.",
-      "ingredients": ["green apple", "aged white cheddar", "candied walnuts", "crispy bacon", "brussels leaves", "honey dijon vinaigrette"]
+      "ingredients": [
+        {"name": "brussels sprouts leaves", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "green apple", "cut_type": "sliced", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "aged white cheddar", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "walnuts", "cut_type": "none", "preparation": "candied", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "component"},
+        {"name": "bacon", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "honey dijon vinaigrette", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "dressing"}
+      ]
     },
     {
       "dish_id": "D357",
@@ -101,7 +132,13 @@
       "total_score": 40,
       "transparency_level": "Building Transparency",
       "notes": "Core 25: romaine, sourdough croutons, lemon, parm named. Sauce 5: no dressing detail. Prep 5: no prep stated.",
-      "ingredients": ["romaine", "sourdough croutons", "lemon", "parmesan", "caesar dressing"]
+      "ingredients": [
+        {"name": "romaine", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "sourdough croutons", "cut_type": "none", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "component"},
+        {"name": "parmesan", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "lemon", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
+        {"name": "caesar dressing", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs,fish", "role": "dressing"}
+      ]
     },
     {
       "dish_id": "D358",
@@ -117,7 +154,12 @@
       "total_score": 50,
       "transparency_level": "Building Transparency",
       "notes": "Core 25: bone broth, sourdough croutons, melted swiss, aged balsamic named. Sauce 15: bone broth base named. Prep 5: no prep stated.",
-      "ingredients": ["bone broth", "sourdough croutons", "melted swiss cheese", "aged balsamic"]
+      "ingredients": [
+        {"name": "bone broth", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "sourdough croutons", "cut_type": "none", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "component"},
+        {"name": "swiss cheese", "cut_type": "none", "preparation": "melted", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "aged balsamic", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"}
+      ]
     },
     {
       "dish_id": "D359",
@@ -133,7 +175,13 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: hungarian peppers, sweet sausage, aged cheddar, olive oil, house focaccia named. Sauce 15: olive oil named. Prep 25: blistered explicitly stated.",
-      "ingredients": ["hungarian peppers", "sweet sausage", "aged cheddar", "olive oil", "house focaccia"]
+      "ingredients": [
+        {"name": "hungarian peppers", "cut_type": "none", "preparation": "blistered", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "sweet sausage", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "aged cheddar", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "olive oil", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "focaccia", "cut_type": "none", "preparation": "baked", "type": "house-made", "source": "house-made", "allergen_flags": "wheat", "role": "base"}
+      ]
     },
     {
       "dish_id": "D360",
@@ -149,7 +197,11 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Core 15: chicken wings, ranch and veggies named. Sauce 5: four sauce options listed by name only, no ingredients. Prep 5: no prep stated.",
-      "ingredients": ["chicken wings", "ranch", "vegetables"]
+      "ingredients": [
+        {"name": "chicken wings", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "ranch", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,eggs", "role": "dipping sauce"},
+        {"name": "vegetables", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
+      ]
     },
     {
       "dish_id": "D361",
@@ -165,7 +217,13 @@
       "total_score": 80,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: bone marrow, smoked garlic butter, onion jam, cornichons, toasted sourdough all named. Sauce 25: smoked garlic butter and onion jam named specifically. Prep 25: wood-fired explicitly stated.",
-      "ingredients": ["bone marrow", "smoked garlic butter", "onion jam", "cornichons", "toasted sourdough"]
+      "ingredients": [
+        {"name": "bone marrow", "cut_type": "none", "preparation": "wood-fired", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "smoked garlic butter", "cut_type": "none", "preparation": "smoked", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
+        {"name": "onion jam", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
+        {"name": "cornichons", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
+        {"name": "sourdough", "cut_type": "sliced", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
+      ]
     },
     {
       "dish_id": "D362",
@@ -181,7 +239,14 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: red sauce, mozzarella, basil, olive oil, parmesan named. Sauce 15: red sauce named, not detailed. Prep 25: wood-fired pizza implied.",
-      "ingredients": ["pizza dough", "red sauce", "fresh mozzarella", "basil", "olive oil", "parmesan"]
+      "ingredients": [
+        {"name": "pizza dough", "cut_type": "none", "preparation": "wood-fired", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
+        {"name": "red sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "fresh mozzarella", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "parmesan", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "basil", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
+        {"name": "olive oil", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"}
+      ]
     },
     {
       "dish_id": "D363",
@@ -197,7 +262,13 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: 'plenty of veggies' is vague — specific vegetables not listed. Sauce 15: red sauce named. Prep 25: wood-fired pizza implied. Vegetarian per dish name.",
-      "ingredients": ["pizza dough", "red sauce", "mozzarella", "parmesan", "vegetables"]
+      "ingredients": [
+        {"name": "pizza dough", "cut_type": "none", "preparation": "wood-fired", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
+        {"name": "red sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "mozzarella", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "parmesan", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "vegetables", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"}
+      ]
     },
     {
       "dish_id": "D364",
@@ -213,7 +284,15 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: pepperoni, red sauce, mozz, marinated peppers, honey, fresh oregano all named. Sauce 15: red sauce named. Prep 25: wood-fired pizza implied.",
-      "ingredients": ["pizza dough", "pepperoni", "red sauce", "mozzarella", "marinated peppers", "honey", "fresh oregano"]
+      "ingredients": [
+        {"name": "pizza dough", "cut_type": "none", "preparation": "wood-fired", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
+        {"name": "red sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "mozzarella", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "pepperoni", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "marinated peppers", "cut_type": "none", "preparation": "marinated", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "honey", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "drizzle"},
+        {"name": "oregano", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
+      ]
     },
     {
       "dish_id": "D365",
@@ -229,7 +308,14 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: italian sausage, cremini mushrooms, red onion, garlic, herbs named. Sauce 5: no sauce listed beyond toppings. Prep 25: wood-fired pizza implied.",
-      "ingredients": ["pizza dough", "italian sausage", "cremini mushrooms", "red onion", "garlic", "herbs"]
+      "ingredients": [
+        {"name": "pizza dough", "cut_type": "none", "preparation": "wood-fired", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
+        {"name": "italian sausage", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "cremini mushrooms", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "red onion", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "garlic", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "seasoning"},
+        {"name": "herbs", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
+      ]
     },
     {
       "dish_id": "D366",
@@ -245,7 +331,16 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: bacon, white sauce, mozzarella, gorgonzola, red onion, aged balsamic named. Sauce 15: white sauce and pesto named by type. Prep 25: wood-fired pizza implied.",
-      "ingredients": ["pizza dough", "bacon", "white sauce", "pesto", "mozzarella", "gorgonzola", "red onion", "aged balsamic"]
+      "ingredients": [
+        {"name": "pizza dough", "cut_type": "none", "preparation": "wood-fired", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
+        {"name": "white sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
+        {"name": "pesto", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "sauce"},
+        {"name": "bacon", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "mozzarella", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "gorgonzola", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "red onion", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "aged balsamic", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "drizzle"}
+      ]
     },
     {
       "dish_id": "D367",
@@ -261,7 +356,11 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: roasted veggies vague (specific vegetables not listed). Sauce 25: vegan garlic + sweet pepper aioli named specifically. Prep 25: wood-fired pizza implied. Vegan per dish name.",
-      "ingredients": ["pizza dough", "roasted vegetables", "vegan garlic and sweet pepper aioli"]
+      "ingredients": [
+        {"name": "pizza dough", "cut_type": "none", "preparation": "wood-fired", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
+        {"name": "vegan garlic and sweet pepper aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "sauce"},
+        {"name": "roasted vegetables", "cut_type": "none", "preparation": "roasted", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"}
+      ]
     },
     {
       "dish_id": "D368",
@@ -277,7 +376,14 @@
       "total_score": 50,
       "transparency_level": "Building Transparency",
       "notes": "Core 25: american cheese, iceberg, grilled onion, dill pickle named. Sauce 5: no sauce listed. Prep 15: grilled onion stated. GF bun option per menu.",
-      "ingredients": ["beef patty", "american cheese", "iceberg lettuce", "grilled onion", "dill pickle", "bun"]
+      "ingredients": [
+        {"name": "beef patty", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "american cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "iceberg lettuce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "onion", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "dill pickle", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
+        {"name": "bun", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
+      ]
     },
     {
       "dish_id": "D369",
@@ -293,7 +399,16 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: swiss, mushrooms, onion jam, arugula, garlic aioli, aged balsamic all named. Sauce 25: garlic aioli and balsamic named. Prep 15: onion jam prep implied.",
-      "ingredients": ["beef patty", "swiss cheese", "mushrooms", "onion jam", "arugula", "garlic aioli", "aged balsamic", "bun"]
+      "ingredients": [
+        {"name": "beef patty", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "swiss cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "mushrooms", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "onion jam", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
+        {"name": "arugula", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "garlic aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,eggs", "role": "sauce"},
+        {"name": "aged balsamic", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "drizzle"},
+        {"name": "bun", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
+      ]
     },
     {
       "dish_id": "D370",
@@ -309,7 +424,10 @@
       "total_score": 20,
       "transparency_level": "Building Transparency",
       "notes": "Core 5: 'house-made veggie patties' — ingredients not disclosed. Sauce 5: no sauce listed (depends on burger style). Vegetarian per dish name.",
-      "ingredients": ["house-made veggie patty", "bun"]
+      "ingredients": [
+        {"name": "veggie patty", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house-made", "allergen_flags": "none", "role": "protein"},
+        {"name": "bun", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
+      ]
     },
     {
       "dish_id": "D371",
@@ -325,7 +443,14 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: citrus slaw, pickles, arugula named; chicken not described beyond 'fried'. Sauce 15: honey mustard named. Prep 25: fried stated in dish name.",
-      "ingredients": ["fried chicken", "citrus slaw", "pickles", "arugula", "honey mustard", "bun"]
+      "ingredients": [
+        {"name": "chicken", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "protein"},
+        {"name": "citrus slaw", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "pickles", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
+        {"name": "arugula", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "honey mustard", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
+        {"name": "bun", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
+      ]
     },
     {
       "dish_id": "D372",
@@ -341,7 +466,14 @@
       "total_score": 50,
       "transparency_level": "Building Transparency",
       "notes": "Core 25: house lamb sausage, calabrian chili, preserved lemon, parmesan, vodka sauce all named. Sauce 15: vodka sauce named by type. Prep 5: no prep method stated.",
-      "ingredients": ["rigatoni pasta", "house lamb sausage", "calabrian chili", "preserved lemon", "parmesan", "vodka sauce"]
+      "ingredients": [
+        {"name": "rigatoni pasta", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
+        {"name": "lamb sausage", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house-made", "allergen_flags": "none", "role": "protein"},
+        {"name": "calabrian chili", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "preserved lemon", "cut_type": "none", "preparation": "preserved", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "vodka sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
+        {"name": "parmesan", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "garnish"}
+      ]
     },
     {
       "dish_id": "D373",
@@ -357,7 +489,15 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: sweet potato, candied walnut, salsa verde, parmesan fonduta, brussels leaves, aged balsamic named. Sauce 25: salsa verde and parmesan fonduta named specifically. Prep 5: no cooking method stated for chop.",
-      "ingredients": ["pork chop", "sweet potato", "candied walnut", "salsa verde", "parmesan fonduta", "brussels leaves", "aged balsamic"]
+      "ingredients": [
+        {"name": "pork chop", "cut_type": "chop", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "sweet potato", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "walnuts", "cut_type": "none", "preparation": "candied", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "component"},
+        {"name": "salsa verde", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "parmesan fonduta", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
+        {"name": "brussels sprouts leaves", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "aged balsamic", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "drizzle"}
+      ]
     },
     {
       "dish_id": "D374",
@@ -373,7 +513,14 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: scallops, herbed risotto, shiitake mushroom gravy, carrot, swiss chard, crispy potato named. Sauce 15: shiitake mushroom gravy named. Prep 25: seared and sautéed stated.",
-      "ingredients": ["scallops", "herbed risotto", "shiitake mushroom gravy", "carrot", "swiss chard", "crispy potato"]
+      "ingredients": [
+        {"name": "scallops", "cut_type": "none", "preparation": "seared", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
+        {"name": "herbed risotto", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"},
+        {"name": "shiitake mushroom gravy", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "carrot", "cut_type": "none", "preparation": "sautéed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "swiss chard", "cut_type": "none", "preparation": "sautéed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "potato", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"}
+      ]
     },
     {
       "dish_id": "D375",
@@ -389,7 +536,14 @@
       "total_score": 80,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: 6 oz filet mignon, lobster dumpling & tail, braised mushrooms all named. Sauce 25: chive butter sauce and chili oil named. Prep 25: braised stated.",
-      "ingredients": ["filet mignon", "lobster tail", "lobster dumpling", "braised mushrooms", "chive butter sauce", "chili oil"]
+      "ingredients": [
+        {"name": "filet mignon", "cut_type": "filet", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "lobster tail", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
+        {"name": "lobster dumpling", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "shellfish,wheat", "role": "component"},
+        {"name": "mushrooms", "cut_type": "none", "preparation": "braised", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "chive butter sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
+        {"name": "chili oil", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"}
+      ]
     },
     {
       "dish_id": "D376",
@@ -405,7 +559,14 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: beet ravioli, goat cheese, chive cream, basil, candied pistachio, crispy shallot named. Sauce 25: chive cream named specifically. Prep 5: no prep stated beyond crispy shallot.",
-      "ingredients": ["beet ravioli", "goat cheese", "chive cream", "basil", "candied pistachio", "crispy shallot"]
+      "ingredients": [
+        {"name": "beet ravioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
+        {"name": "goat cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "filling"},
+        {"name": "chive cream", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
+        {"name": "pistachios", "cut_type": "none", "preparation": "candied", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "garnish"},
+        {"name": "shallot", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
+        {"name": "basil", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
+      ]
     },
     {
       "dish_id": "D377",
@@ -421,7 +582,12 @@
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: herbed rice, chicory named but chicken schnitzel itself has no ingredient breakdown. Sauce 25: lemon & caper butter sauce named specifically. Prep 25: breaded-to-order explicitly stated.",
-      "ingredients": ["chicken schnitzel", "herbed rice", "chicory", "lemon caper butter sauce"]
+      "ingredients": [
+        {"name": "chicken schnitzel", "cut_type": "none", "preparation": "breaded", "type": "standard", "source": "unknown", "allergen_flags": "wheat,eggs", "role": "protein"},
+        {"name": "herbed rice", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "chicory", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "lemon caper butter sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"}
+      ]
     },
     {
       "dish_id": "D378",
@@ -437,7 +603,13 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: 10 oz strip, chimichurri, aged cheddar, potato gratin, horseradish crema all named. Sauce 25: chimichurri and horseradish crema named. Prep 5: no cooking method stated for steak.",
-      "ingredients": ["10 oz New York strip", "chimichurri", "aged cheddar", "potato gratin", "horseradish crema"]
+      "ingredients": [
+        {"name": "New York strip", "cut_type": "strip", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "chimichurri", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
+        {"name": "aged cheddar", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "potato gratin", "cut_type": "none", "preparation": "baked", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "horseradish crema", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"}
+      ]
     },
     {
       "dish_id": "D379",
@@ -453,7 +625,12 @@
       "total_score": 40,
       "transparency_level": "Building Transparency",
       "notes": "Core 15: cauliflower, caribbean spice, cilantro named. Sauce 15: jerk crema named. Prep 5: cooking method not stated.",
-      "ingredients": ["cauliflower", "caribbean spice", "cilantro", "jerk crema"]
+      "ingredients": [
+        {"name": "cauliflower", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "caribbean spice", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "seasoning"},
+        {"name": "jerk crema", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
+        {"name": "cilantro", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
+      ]
     },
     {
       "dish_id": "D380",
@@ -469,7 +646,12 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: brussels sprouts, pickled cranberries, goat cheese, almonds named. Sauce 5: no sauce listed. Prep 25: wood-fired stated in dish name.",
-      "ingredients": ["brussels sprouts", "pickled cranberries", "goat cheese", "almonds"]
+      "ingredients": [
+        {"name": "brussels sprouts", "cut_type": "none", "preparation": "wood-fired", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "cranberries", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
+        {"name": "goat cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "almonds", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "garnish"}
+      ]
     },
     {
       "dish_id": "D381",
@@ -485,7 +667,12 @@
       "total_score": 40,
       "transparency_level": "Building Transparency",
       "notes": "Core 15: fries with herbs mentioned. Sauce 15: ketchup and fry sauce named. Prep 5: fried implied, not stated.",
-      "ingredients": ["french fries", "herbs", "ketchup", "fry sauce"]
+      "ingredients": [
+        {"name": "french fries", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "herbs", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "seasoning"},
+        {"name": "ketchup", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
+        {"name": "fry sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,eggs", "role": "condiment"}
+      ]
     },
     {
       "dish_id": "D382",
@@ -501,7 +688,12 @@
       "total_score": 80,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: fingerling potatoes, steak butter, chive crema, parsley all named. Sauce 25: steak butter and chive crema named. Prep 25: confit explicitly stated in dish name.",
-      "ingredients": ["fingerling potatoes", "steak butter", "chive crema", "parsley"]
+      "ingredients": [
+        {"name": "fingerling potatoes", "cut_type": "none", "preparation": "confit", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
+        {"name": "steak butter", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
+        {"name": "chive crema", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
+        {"name": "parsley", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
+      ]
     },
     {
       "dish_id": "D383",
@@ -517,7 +709,12 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: Tullamore D.E.W., demerara sugar, fresh whipped cream all named. Sauce 25: all components named. Prep 5: no prep method stated.",
-      "ingredients": ["Tullamore D.E.W. Irish whiskey", "coffee", "demerara sugar", "fresh whipped cream"]
+      "ingredients": [
+        {"name": "Tullamore D.E.W. Irish whiskey", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spirit"},
+        {"name": "coffee", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "demerara sugar", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sweetener"},
+        {"name": "whipped cream", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "topping"}
+      ]
     },
     {
       "dish_id": "D384",
@@ -533,7 +730,13 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: vodka, espresso, coffee liqueur, cream, sugar all named. Sauce 25: all components named. Prep 5: no prep method stated.",
-      "ingredients": ["vodka", "espresso", "coffee liqueur", "cream", "sugar"]
+      "ingredients": [
+        {"name": "vodka", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spirit"},
+        {"name": "espresso", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
+        {"name": "coffee liqueur", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spirit"},
+        {"name": "cream", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "sugar", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sweetener"}
+      ]
     },
     {
       "dish_id": "D385",
@@ -549,7 +752,13 @@
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: crème de menthe, crème de cacao, menta, cream, Valrhona chocolate all named. Sauce 25: all components named. Prep 5: no prep method stated.",
-      "ingredients": ["crème de menthe", "crème de cacao", "menta", "cream", "Valrhona chocolate"]
+      "ingredients": [
+        {"name": "crème de menthe", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spirit"},
+        {"name": "crème de cacao", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spirit"},
+        {"name": "menta", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "spirit"},
+        {"name": "cream", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
+        {"name": "Valrhona chocolate", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
+      ]
     }
   ]
 }
