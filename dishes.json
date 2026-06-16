@@ -7163,11 +7163,11 @@
     "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
     "restaurant_website": "https://manthebattery.com",
     "ingredients": [
+      "pecans",
+      "pomegranate seeds",
       "brussels sprouts",
       "goat cheese",
-      "honey",
-      "pecans",
-      "pomegranate seeds"
+      "honey"
     ]
   },
   {
@@ -7222,10 +7222,10 @@
     "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
     "restaurant_website": "https://manthebattery.com",
     "ingredients": [
-      "white queso",
       "Fresno peppers",
       "jalapeños",
-      "tortilla chips"
+      "tortilla chips",
+      "white queso"
     ]
   },
   {
@@ -7243,14 +7243,14 @@
     "ingredients": [
       "ahi tuna",
       "edamame",
-      "carrots",
       "jalapeño",
+      "sesame seeds",
+      "fried shallots",
+      "carrots",
       "avocado",
       "cilantro",
       "yum yum sauce",
-      "teriyaki sauce",
-      "sesame seeds",
-      "fried shallots"
+      "teriyaki sauce"
     ]
   },
   {
@@ -7268,11 +7268,11 @@
     "ingredients": [
       "sliced ribeye (or grilled chicken or shrimp)",
       "shredded cheese",
+      "flour tortilla",
       "peppers",
       "onions",
       "salsa",
-      "sour cream",
-      "flour tortilla"
+      "sour cream"
     ]
   },
   {
@@ -7317,15 +7317,15 @@
     "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
     "restaurant_website": "https://manthebattery.com",
     "ingredients": [
-      "romaine",
-      "ham",
-      "turkey",
       "bacon",
       "shredded cheese",
       "cherry tomato",
       "shredded carrots",
       "hard boiled egg",
-      "dressing"
+      "dressing",
+      "romaine",
+      "ham",
+      "turkey"
     ]
   },
   {
@@ -7427,14 +7427,14 @@
     "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
     "restaurant_website": "https://manthebattery.com",
     "ingredients": [
+      "bread",
       "bacon",
       "ham",
       "turkey",
       "cheese",
       "garlic aioli",
       "tomato",
-      "arugula",
-      "bread"
+      "arugula"
     ]
   },
   {
@@ -7597,11 +7597,11 @@
     "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
     "restaurant_website": "https://manthebattery.com",
     "ingredients": [
+      "blueberry glaze",
+      "fresh mint",
       "pork ribeye",
       "brussels sprouts",
-      "mashed potatoes",
-      "blueberry glaze",
-      "fresh mint"
+      "mashed potatoes"
     ]
   },
   {
@@ -7638,11 +7638,11 @@
     "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
     "restaurant_website": "https://manthebattery.com",
     "ingredients": [
+      "garlic aioli",
+      "salsa verde",
       "king salmon",
       "sweet potatoes",
-      "broccolini",
-      "garlic aioli",
-      "salsa verde"
+      "broccolini"
     ]
   },
   {
@@ -7679,11 +7679,11 @@
     "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
     "restaurant_website": "https://manthebattery.com",
     "ingredients": [
-      "linguine pasta",
-      "basil and almond pesto",
       "chicken",
       "red chili flake",
-      "toast points"
+      "toast points",
+      "linguine pasta",
+      "basil and almond pesto"
     ]
   }
 ]
