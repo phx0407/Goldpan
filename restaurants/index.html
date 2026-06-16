@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Goldpan Discover</title>
+  <title>Goldpan · Restaurants</title>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -33,85 +33,27 @@
     /* ── Header ── */
     header { position: sticky; top: 0; z-index: 100; background: rgba(10,10,10,0.95); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(201,168,76,0.12); padding: 18px 48px; display: flex; align-items: center; justify-content: space-between; }
     .header-left { display: flex; align-items: center; gap: 20px; }
-.logo { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 0.08em; color: #C9A84C; text-decoration: none; }
+    .logo { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 0.08em; color: #C9A84C; text-decoration: none; }
     .logo span { color: #F5F2EC; font-size: 13px; letter-spacing: 0.15em; margin-left: 12px; font-family: 'DM Mono', monospace; }
-    .header-stats { display: flex; gap: 32px; }
-    .hstat-num { font-family: 'Bebas Neue', sans-serif; font-size: 24px; color: #C9A84C; line-height: 1; }
-    .hstat-label { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9488; }
-    @media (max-width: 768px) { header { padding: 14px 20px; } .header-stats { display: none; } }
-
-    /* ── Nav link ── */
     .nav-link { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #9A9488; text-decoration: none; transition: color 0.2s; }
     .nav-link:hover { color: #C9A84C; }
+    .nav-link.active { color: #C9A84C; }
+    .header-count { font-family: 'DM Mono', monospace; font-size: 11px; color: #555550; }
+    @media (max-width: 768px) { header { padding: 14px 20px; } .header-count { display: none; } }
 
-    /* ── Hero ── */
-    .hero { padding: 60px 48px 40px; border-bottom: 1px solid #1A1A1A; }
-    .hero-label { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 16px; }
-    .hero-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(40px, 6vw, 80px); line-height: 0.95; letter-spacing: 0.02em; margin-bottom: 16px; }
-    .hero-sub { font-size: 15px; color: #9A9488; max-width: 540px; line-height: 1.6; }
-    .hero-browse { margin-top: 24px; display: inline-flex; align-items: center; gap: 10px; background: none; border: 1px solid #C9A84C; color: #C9A84C; font-family: 'DM Sans', sans-serif; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; padding: 11px 22px; cursor: pointer; transition: all 0.2s; }
-    .hero-browse:hover { background: #C9A84C; color: #0A0A0A; }
-    @media (max-width: 768px) { .hero { padding: 40px 20px 30px; } }
-
-    /* ── Search + filters ── */
-    .search-bar { padding: 24px 48px; border-bottom: 1px solid #1A1A1A; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
-    .search-input { flex: 1; min-width: 200px; background: #1A1A1A; border: 1px solid #222222; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 14px; padding: 12px 18px; outline: none; transition: border-color 0.2s; }
-    .search-input::placeholder { color: #9A9488; }
-    .search-input:focus { border-color: #8B6F2E; }
-    .filter-btns { display: flex; gap: 8px; flex-wrap: wrap; }
-    .fbtn { padding: 10px 18px; border: 1px solid #222222; background: transparent; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: all 0.2s; }
-    .fbtn:hover { border-color: #C9A84C; color: #C9A84C; }
-    .fbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; }
-    @media (max-width: 768px) { .search-bar { padding: 16px 20px; } }
-
-    /* ── Active filters ── */
-    .active-filters-bar { padding: 10px 48px; border-bottom: 1px solid #1A1A1A; display: none; gap: 8px; flex-wrap: wrap; align-items: center; }
-    .active-filters-bar.visible { display: flex; }
-    .active-filter-tag { font-size: 11px; padding: 4px 10px; background: rgba(201,168,76,0.1); border: 1px solid #C9A84C; color: #C9A84C; letter-spacing: 0.08em; }
-    .clear-all { font-size: 11px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; margin-left: 8px; }
-    .clear-all:hover { color: #F5F2EC; }
-    @media (max-width: 768px) { .active-filters-bar { padding: 10px 20px; } }
-
-    /* ── Legend ── */
-    .legend-bar { padding: 12px 48px; border-bottom: 1px solid #1A1A1A; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
-    .legend-items { display: flex; gap: 24px; flex-wrap: wrap; }
-    .legend-item { font-size: 11px; color: #9A9488; letter-spacing: 0.08em; display: flex; align-items: center; gap: 6px; }
-    .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-    .legend-note { font-size: 11px; color: #555550; font-family: 'DM Mono', monospace; letter-spacing: 0.04em; }
-    @media (max-width: 768px) { .legend-bar { padding: 12px 20px; } }
-
-    /* ── Results bar ── */
-    .results-bar { padding: 16px 48px; border-bottom: 1px solid #1A1A1A; display: flex; justify-content: space-between; align-items: center; }
-    .results-count { font-size: 12px; color: #9A9488; font-family: 'DM Mono', monospace; }
-    .sort-btn { font-size: 11px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.1em; text-transform: uppercase; }
-    @media (max-width: 768px) { .results-bar { padding: 12px 20px; } }
-
-    /* ── Dish grid ── */
-    .grid { padding: 32px 48px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
-    @media (max-width: 768px) { .grid { padding: 20px; grid-template-columns: 1fr; } }
-    .card { background: #111111; border: 1px solid #1A1A1A; padding: 28px; cursor: pointer; transition: border-color 0.2s, background 0.2s; }
-    .card:hover { border-color: #8B6F2E; background: #151515; }
-    .card.selected { border-color: #C9A84C; }
-    .card-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; margin-bottom: 4px; }
-    .card-name { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 16px; line-height: 1.1; }
-    .card-level { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.04em; line-height: 1.1; margin-bottom: 10px; }
-    .card-level.high { color: #4CAF76; }
-    .card-level.moderate { color: #C9A84C; }
-    .card-level.building { color: #9A9488; }
-    .card-bar { height: 3px; background: #222222; margin-bottom: 14px; overflow: hidden; }
-    .card-bar-fill { height: 100%; }
-    .card-bar-fill.high { background: #4CAF76; }
-    .card-bar-fill.moderate { background: #C9A84C; }
-    .card-bar-fill.building { background: #9A9488; }
-    .card-tags { display: flex; flex-wrap: wrap; gap: 5px; }
-    .ctag { font-size: 10px; padding: 3px 8px; border: 1px solid; border-radius: 2px; }
-    .ctag-vegan { border-color: #4CAF76; color: #4CAF76; }
-    .ctag-vegetarian { border-color: #1D9E75; color: #1D9E75; }
-    .ctag-gluten { border-color: #378ADD; color: #378ADD; }
-
-    /* ── Empty state ── */
-    .empty { padding: 80px 48px; text-align: center; color: #9A9488; }
-    .empty-title { font-family: 'Bebas Neue', sans-serif; font-size: 32px; color: #222222; margin-bottom: 12px; }
+    /* ── Restaurant list ── */
+    .rest-list { max-width: 640px; margin: 0 auto; padding: 48px 24px; }
+    @media (max-width: 768px) { .rest-list { padding: 32px 20px; } }
+    .rest-row { display: flex; align-items: center; justify-content: space-between; padding: 20px 0; border-bottom: 1px solid #111111; cursor: pointer; gap: 16px; transition: background 0.15s; }
+    .rest-row:first-child { border-top: 1px solid #111111; }
+    .rest-row:hover .rest-row-name { color: #C9A84C; }
+    .rest-row-left { flex: 1; min-width: 0; }
+    .rest-row-location { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #555550; margin-bottom: 4px; }
+    .rest-row-name { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 0.04em; color: #F5F2EC; line-height: 1.05; transition: color 0.2s; }
+    .rest-row-badge { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; flex-shrink: 0; }
+    .rest-row-badge.high { color: #4CAF76; }
+    .rest-row-badge.moderate { color: #C9A84C; }
+    .rest-row-badge.building { color: #333333; }
 
     /* ── Detail panel ── */
     .detail-panel { position: fixed; right: 0; top: 0; bottom: 0; width: 440px; background: #0A0A0A; border-left: 1px solid #1A1A1A; overflow-y: auto; transform: translateX(100%); transition: transform 0.3s; z-index: 200; padding: 32px; }
@@ -143,6 +85,10 @@
     .t-attr-row { display: flex; align-items: center; gap: 8px; padding: 7px 0; border-bottom: 1px solid #1A1A1A; font-size: 12px; color: #9A9488; }
     .t-attr-row:last-child { border-bottom: none; }
     .t-attr-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+    .ctag { font-size: 10px; padding: 3px 8px; border: 1px solid; border-radius: 2px; }
+    .ctag-vegan { border-color: #4CAF76; color: #4CAF76; }
+    .ctag-vegetarian { border-color: #1D9E75; color: #1D9E75; }
+    .ctag-gluten { border-color: #378ADD; color: #378ADD; }
 
     /* ── Panel dish search ── */
     .panel-search { width: 100%; background: #1A1A1A; border: 1px solid #222222; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 13px; padding: 10px 14px; outline: none; transition: border-color 0.2s; margin-bottom: 10px; display: block; }
@@ -164,20 +110,6 @@
     .footer-disclaimer strong { color: #9A9488; font-weight: 500; }
     .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 16px; letter-spacing: 0.1em; color: #333330; margin-bottom: 4px; }
     @media (max-width: 768px) { .site-footer { padding: 24px 20px; } }
-
-    /* ── Survey ── */
-    .survey-overlay { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); z-index: 5000; background: #111111; border: 1px solid #C9A84C; padding: 28px 32px; width: 480px; max-width: calc(100vw - 32px); box-shadow: 0 8px 40px rgba(0,0,0,0.6); display: none; }
-    .survey-overlay.visible { display: block; animation: surveyIn 0.4s ease; }
-    @keyframes surveyIn { from { opacity: 0; transform: translateX(-50%) translateY(16px); } to { opacity: 1; transform: translateX(-50%) translateY(0); } }
-    .survey-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 10px; }
-    .survey-question { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 16px; line-height: 1.1; }
-    .survey-options { display: flex; flex-direction: column; gap: 8px; }
-    .survey-opt { background: #1A1A1A; border: 1px solid #222222; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 13px; padding: 11px 16px; text-align: left; cursor: pointer; transition: all 0.2s; }
-    .survey-opt:hover { border-color: #C9A84C; color: #F5F2EC; }
-    .survey-opt.selected { border-color: #C9A84C; background: rgba(201,168,76,0.08); color: #C9A84C; }
-    .survey-dismiss { position: absolute; top: 12px; right: 14px; background: none; border: none; color: #9A9488; font-size: 16px; cursor: pointer; line-height: 1; }
-    .survey-dismiss:hover { color: #F5F2EC; }
-    .survey-thanks { font-size: 13px; color: #4CAF76; margin-top: 12px; display: none; font-style: italic; }
   </style>
   <script src="/consent.js" defer></script>
 </head>
@@ -200,68 +132,21 @@
 <div class="app" id="app">
   <header>
     <div class="header-left">
-      <a href="https://goldpanapp.com" class="logo">Goldpan <span>DISCOVER</span></a>
-      <a href="/restaurants/" class="nav-link">Restaurants</a>
+      <a href="https://goldpanapp.com" class="logo">Goldpan</a>
+      <a href="/discover/" class="nav-link">Discover</a>
+      <a href="/restaurants/" class="nav-link active">Restaurants</a>
     </div>
-    <div class="header-stats">
-      <div class="hstat"><div class="hstat-num" id="stat-rest-count">–</div><div class="hstat-label">Restaurants</div></div>
-      <div class="hstat"><div class="hstat-num" id="stat-dish-count">–</div><div class="hstat-label">Dishes Tracked</div></div>
-    </div>
+    <div class="header-count" id="header-count"></div>
   </header>
 
-  <div class="hero">
-    <p class="hero-label">Birmingham Food Intelligence</p>
-    <h1 class="hero-title">Understand<br />Your Food.</h1>
-    <p class="hero-sub" id="hero-sub">Discover Birmingham restaurants with greater ingredient transparency, dietary information, and menu clarity.</p>
-    <a class="hero-browse" href="/restaurants/">Browse Restaurants →</a>
+  <div class="rest-list">
+    <div id="rest-list-inner"></div>
   </div>
-
-  <div class="search-bar">
-    <input class="search-input" id="dish-search" placeholder="Search dishes, restaurants, ingredients..." oninput="renderDishes()" />
-    <div class="filter-btns">
-      <button class="fbtn active" id="dbtn-all"            onclick="setDishFilter('all',             this)">All</button>
-      <button class="fbtn"                                 onclick="setDishFilter('vegan',           this)">Vegan</button>
-      <button class="fbtn"                                 onclick="setDishFilter('vegetarian',      this)">Vegetarian</button>
-      <button class="fbtn"                                 onclick="setDishFilter('gluten-free',     this)">Gluten Free</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-dairy',        this)">No Dairy</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-nuts',         this)">No Nuts</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-shellfish',    this)">No Shellfish</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-fish',         this)">No Fish</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-eggs',         this)">No Eggs</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-soy',          this)">No Soy</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-pork',         this)">No Pork</button>
-      <button class="fbtn"                                 onclick="setDishFilter('60plus',          this)">Moderate+</button>
-      <button class="fbtn"                                 onclick="setDishFilter('has-ingredients', this)">Has Ingredients</button>
-      <button class="fbtn"                                 onclick="setDishFilter('has-allergens',   this)">Has Allergen Info</button>
-      <button class="fbtn"                                 onclick="setDishFilter('has-dietary',     this)">Has Dietary Info</button>
-    </div>
-  </div>
-
-  <div class="active-filters-bar" id="active-filters-bar"></div>
-
-  <div class="legend-bar">
-    <div class="legend-items">
-      <span class="legend-item"><span class="legend-dot" style="background:#4CAF76"></span>High Transparency</span>
-      <span class="legend-item"><span class="legend-dot" style="background:#C9A84C"></span>Moderate Transparency</span>
-      <span class="legend-item"><span class="legend-dot" style="background:#9A9488"></span>Building Transparency</span>
-    </div>
-    <span class="legend-note">Results based on publicly disclosed menu information only.</span>
-  </div>
-
-  <div class="results-bar">
-    <span class="results-count" id="dish-results-count">–</span>
-    <button class="sort-btn" onclick="toggleSort()">Sort: <span id="sort-label">Highest First</span></button>
-  </div>
-
-  <div class="grid" id="dish-grid"></div>
 
   <footer class="site-footer">
     <div class="footer-logo">Goldpan™</div>
-    <p class="footer-disclaimer"><strong>Allergen Notice.</strong> Allergen information on Goldpan is sourced from publicly available menu data and has not been verified by the restaurant. Menus and ingredients change without notice. If you have a food allergy or intolerance, always confirm directly with the restaurant before ordering. Goldpan is not liable for decisions made based on this information.</p>
-    <p class="footer-disclaimer"><strong>Data Accuracy.</strong> Dish and ingredient information reflects what was publicly disclosed at the time of canvassing. Goldpan does not guarantee that information is current or complete.</p>
-    <p class="footer-disclaimer"><strong>Transparency Levels.</strong> Goldpan's transparency levels (Building, Moderate, High) measure how clearly a restaurant discloses what is in its food — not food quality, safety, or healthfulness. A higher level means more disclosure, not a health endorsement.</p>
     <p class="footer-disclaimer"><strong>No Affiliation.</strong> Goldpan is not affiliated with, endorsed by, or partnered with any listed restaurant. Restaurant names and marks are the property of their respective owners.</p>
-    <p class="footer-disclaimer"><strong>Not Medical or Dietary Advice.</strong> Nothing on Goldpan constitutes medical, nutritional, or dietary advice. Consult a qualified professional for guidance related to your health.</p>
+    <p class="footer-disclaimer"><strong>Data Accuracy.</strong> Dish and ingredient information reflects what was publicly disclosed at the time of canvassing. Goldpan does not guarantee that information is current or complete.</p>
     <p class="footer-disclaimer" style="margin-top:8px;">© Goldpan™ · <a href="/privacy.html" style="color:#555550;text-decoration:underline;">Privacy Policy</a></p>
   </footer>
 
@@ -275,9 +160,6 @@
 <script>
 var dishes = [];
 var restaurants = [];
-var dishActiveFilters = [];
-var sortHigh = true;
-var selectedDishId = null;
 var currentRestaurantIdx = null;
 var panelDishFilter = 'all';
 var panelDishSearch = '';
@@ -303,19 +185,11 @@ function levelLabel(lk) {
   if (lk === 'moderate') return 'Moderate Transparency';
   return 'Building Transparency';
 }
-function displayPct(level) {
-  if (!level) return 35;
-  var l = level.toLowerCase();
-  if (l === 'high') return 90;
-  if (l === 'moderate') return 70;
-  return 35;
-}
 function bestLevel(r) {
   if (r.high > 0) return 'high';
   if (r.moderate > 0) return 'moderate';
   return 'building';
 }
-
 function whyGoldpan(r) {
   var reasons = [];
   if (r.hasIngredients) reasons.push('ingredient details');
@@ -327,7 +201,6 @@ function whyGoldpan(r) {
   var list = reasons.length ? reasons.join(', ') + ' and ' + last : last;
   return 'This restaurant appears on Goldpan because it offers ' + list + ', helping diners better understand what they are eating and make more informed decisions.';
 }
-
 function transparencyAttrs(r) {
   var attrs = [
     { label: 'Ingredient details available',   on: r.hasIngredients },
@@ -363,13 +236,22 @@ function buildRestaurants() {
   });
 }
 
-function updateStats() {
-  var el = document.getElementById('stat-rest-count');
-  if (el) el.textContent = restaurants.length;
-  el = document.getElementById('stat-dish-count');
-  if (el) el.textContent = dishes.length;
-  el = document.getElementById('hero-sub');
-  if (el) el.textContent = 'Discover ' + restaurants.length + ' Birmingham restaurants with greater ingredient transparency, dietary information, and menu clarity.';
+function renderRestaurants() {
+  var el = document.getElementById('rest-list-inner');
+  var countEl = document.getElementById('header-count');
+  if (countEl) countEl.textContent = restaurants.length + ' restaurants';
+  if (!el) return;
+  el.innerHTML = restaurants.map(function(r, i) {
+    var bl = bestLevel(r);
+    var badgeLabel = bl === 'high' ? 'High' : bl === 'moderate' ? 'Moderate' : 'Building';
+    return '<div class="rest-row" onclick="openRestaurantDetail(' + i + ')">' +
+      '<div class="rest-row-left">' +
+        '<div class="rest-row-location">' + r.location + '</div>' +
+        '<div class="rest-row-name">' + r.name + '</div>' +
+      '</div>' +
+      '<div class="rest-row-badge ' + bl + '">' + badgeLabel + '</div>' +
+    '</div>';
+  }).join('');
 }
 
 function loadDishes() {
@@ -378,35 +260,42 @@ function loadDishes() {
     .then(function(data) {
       dishes = data;
       buildRestaurants();
-      updateStats();
       var app = document.getElementById('app');
-      if (app && app.classList.contains('unlocked')) {
-        renderDishes();
-      }
+      if (app && app.classList.contains('unlocked')) renderRestaurants();
     })
     .catch(function() {
-      document.getElementById('dish-grid').innerHTML = '<div class="empty"><div class="empty-title">Could not load data</div><p>Please try refreshing.</p></div>';
+      var el = document.getElementById('rest-list-inner');
+      if (el) el.innerHTML = '<p style="color:#9A9488;padding:40px 0;">Could not load restaurant data. Try refreshing.</p>';
     });
 }
 loadDishes();
 
 // ── Gate ─────────────────────────────────────────────────────────────────────
 
+function unlock() {
+  document.getElementById('gate').style.display = 'none';
+  document.getElementById('app').classList.add('unlocked');
+  sessionStorage.setItem('gp_unlocked', '1');
+  renderRestaurants();
+}
+
 function checkPassword() {
   var val = document.getElementById('gate-input').value;
   var err = document.getElementById('gate-error');
   var input = document.getElementById('gate-input');
   if (val === 'staygold') {
-    document.getElementById('gate').style.display = 'none';
-    document.getElementById('app').classList.add('unlocked');
-    sessionStorage.setItem('gp_unlocked','1');
-    renderDishes();
+    unlock();
   } else {
     input.classList.add('error');
     err.classList.add('visible');
     setTimeout(function() { input.classList.remove('error'); err.classList.remove('visible'); input.value = ''; }, 2000);
   }
 }
+
+// Auto-unlock if already authenticated in this session
+(function() {
+  if (sessionStorage.getItem('gp_unlocked') === '1') unlock();
+})();
 
 // ── Restaurant detail panel ───────────────────────────────────────────────────
 
@@ -490,112 +379,9 @@ function renderPanelDishes() {
   }).join('');
 }
 
-// ── Dish search ───────────────────────────────────────────────────────────────
-
-function setDishFilter(f, btn) {
-  if (f === 'all') {
-    dishActiveFilters = [];
-    document.querySelectorAll('.filter-btns .fbtn').forEach(function(b) { b.classList.remove('active'); });
-    document.getElementById('dbtn-all').classList.add('active');
-  } else {
-    document.getElementById('dbtn-all').classList.remove('active');
-    var idx = dishActiveFilters.indexOf(f);
-    if (idx > -1) { dishActiveFilters.splice(idx, 1); btn.classList.remove('active'); }
-    else { dishActiveFilters.push(f); btn.classList.add('active'); }
-    if (dishActiveFilters.length === 0) document.getElementById('dbtn-all').classList.add('active');
-  }
-  updateActiveFiltersBar();
-  renderDishes();
-  try { localStorage.setItem('gp_filters', JSON.stringify(dishActiveFilters)); } catch(e) {}
-}
-
-function updateActiveFiltersBar() {
-  var bar = document.getElementById('active-filters-bar');
-  if (dishActiveFilters.length === 0) { bar.classList.remove('visible'); bar.innerHTML = ''; return; }
-  bar.classList.add('visible');
-  var labels = { 'vegan':'Vegan','vegetarian':'Vegetarian','gluten-free':'Gluten Free','no-dairy':'No Dairy','no-nuts':'No Nuts','no-shellfish':'No Shellfish','no-fish':'No Fish','no-eggs':'No Eggs','no-soy':'No Soy','no-pork':'No Pork','60plus':'Moderate+','has-ingredients':'Has Ingredients','has-allergens':'Has Allergen Info','has-dietary':'Has Dietary Info' };
-  bar.innerHTML = '<span style="font-size:11px;color:#9A9488;letter-spacing:0.08em;text-transform:uppercase;">Active filters:</span>' +
-    dishActiveFilters.map(function(f) { return '<span class="active-filter-tag">' + (labels[f] || f) + '</span>'; }).join('') +
-    '<button class="clear-all" onclick="clearDishFilters()">Clear All</button>';
-}
-
-function clearDishFilters() {
-  dishActiveFilters = [];
-  document.querySelectorAll('.filter-btns .fbtn').forEach(function(b) { b.classList.remove('active'); });
-  document.getElementById('dbtn-all').classList.add('active');
-  updateActiveFiltersBar();
-  renderDishes();
-  try { localStorage.removeItem('gp_filters'); } catch(e) {}
-}
-
-function toggleSort() {
-  sortHigh = !sortHigh;
-  document.getElementById('sort-label').textContent = sortHigh ? 'Highest First' : 'Lowest First';
-  renderDishes();
-}
-
-function getFilteredDishes() {
-  var q = (document.getElementById('dish-search') || {}).value || '';
-  q = q.toLowerCase();
-  return dishes.filter(function(d) {
-    var ingText = (d.ingredients || []).join(' ').toLowerCase();
-    if (q && d.name.toLowerCase().indexOf(q) === -1 && d.restaurant.toLowerCase().indexOf(q) === -1 && ingText.indexOf(q) === -1) return false;
-    if (dishActiveFilters.length === 0) return true;
-    return dishActiveFilters.every(function(f) {
-      if (f === 'vegan')            return (d.tags || []).indexOf('vegan') > -1;
-      if (f === 'vegetarian')       return (d.tags || []).indexOf('vegetarian') > -1 || (d.tags || []).indexOf('vegan') > -1;
-      if (f === 'gluten-free')      return (d.tags || []).indexOf('gluten-free') > -1;
-      if (f === 'no-dairy')         return (d.allergens || '').toLowerCase().indexOf('dairy') === -1;
-      if (f === 'no-nuts')          return (d.allergens || '').toLowerCase().indexOf('tree nuts') === -1 && (d.allergens || '').toLowerCase().indexOf('nuts') === -1;
-      if (f === 'no-shellfish')     return (d.allergens || '').toLowerCase().indexOf('shellfish') === -1;
-      if (f === 'no-fish')          return (d.allergens || '').toLowerCase().indexOf('fish') === -1;
-      if (f === 'no-eggs')          return (d.allergens || '').toLowerCase().indexOf('egg') === -1;
-      if (f === 'no-soy')           return (d.allergens || '').toLowerCase().indexOf('soy') === -1;
-      if (f === 'no-pork')          { var al = (d.allergens || '').toLowerCase(); var ing = (d.ingredients || []).join(' ').toLowerCase(); return al.indexOf('pork') === -1 && ing.indexOf('pork') === -1 && ing.indexOf('bacon') === -1 && ing.indexOf('ham') === -1 && ing.indexOf('prosciutto') === -1 && ing.indexOf('pancetta') === -1; }
-      if (f === '60plus')           { var l = (d.level || '').toLowerCase(); return l === 'high' || l === 'moderate'; }
-      if (f === 'has-ingredients')  return (d.ingredients || []).length > 0;
-      if (f === 'has-allergens')    return d.allergens && d.allergens.toLowerCase() !== 'unknown' && d.allergens.trim() !== '';
-      if (f === 'has-dietary')      return (d.tags || []).length > 0;
-      return true;
-    });
-  }).sort(function(a, b) {
-    var wa = levelWeight(a.level), wb = levelWeight(b.level);
-    return sortHigh ? wb - wa : wa - wb;
-  });
-}
-
-function renderDishes() {
-  var q = (document.getElementById('dish-search') || {}).value || '';
-  var grid = document.getElementById('dish-grid');
-  var countEl = document.getElementById('dish-results-count');
-  if (!q.trim() && dishActiveFilters.length === 0) {
-    countEl.textContent = dishes.length + ' dishes available';
-    grid.innerHTML = '<div class="empty"><div class="empty-title">Start searching</div><p>Type a dish name, ingredient, or restaurant — or select a filter above.</p></div>';
-    return;
-  }
-  var filtered = getFilteredDishes();
-  countEl.textContent = filtered.length + ' dish' + (filtered.length !== 1 ? 'es' : '');
-  if (!filtered.length) { grid.innerHTML = '<div class="empty"><div class="empty-title">No dishes found</div><p>Try adjusting your search or filters.</p></div>'; return; }
-  grid.innerHTML = filtered.map(function(d) {
-    var lk = levelKey(d);
-    var pct = displayPct(d.level);
-    var tagsHtml = (d.tags || []).length ? '<div class="card-tags">' + d.tags.map(function(t) {
-      var cls = t === 'vegan' ? 'ctag-vegan' : t === 'vegetarian' ? 'ctag-vegetarian' : 'ctag-gluten';
-      return '<span class="ctag ' + cls + '">' + t + '</span>';
-    }).join('') + '</div>' : '';
-    return '<div class="card' + (selectedDishId === d.id ? ' selected' : '') + '" onclick="openDishDetail(\'' + d.id + '\')">' +
-      '<div class="card-restaurant">' + d.restaurant + ' · ' + d.location + '</div>' +
-      '<div class="card-name">' + d.name + '</div>' +
-      '<div class="card-level ' + lk + '">' + levelLabel(lk) + '</div>' +
-      '<div class="card-bar"><div class="card-bar-fill ' + lk + '" style="width:' + pct + '%"></div></div>' +
-      tagsHtml + '</div>';
-  }).join('');
-}
-
 // ── Dish detail ───────────────────────────────────────────────────────────────
 
 function openDishDetail(id) {
-  selectedDishId = id;
   var d = dishes.find(function(x) { return x.id === id; });
   if (!d) return;
   var lk = levelKey(d);
@@ -607,7 +393,6 @@ function openDishDetail(id) {
   if (lk === 'high') affirmations = ['Core ingredients clearly named', 'Sauce and seasoning disclosed', 'Allergens clearly labeled', 'Preparation method disclosed'];
   else if (lk === 'moderate') affirmations = ['Core ingredients and key preparation disclosed'];
   var affirmHtml = affirmations.length ? '<div class="detail-dims"><div class="detail-dims-title">What This Restaurant Disclosed</div>' + affirmations.map(function(a) { return '<div class="dim-text"><span class="dim-dot"></span>' + a + '</div>'; }).join('') + '</div>' : '';
-  var optionsHtml = (d.dietary_options && d.dietary_options.toLowerCase() !== 'none' && d.dietary_options.trim()) ? '<div class="detail-section-title">Modifications Available</div><div style="font-size:12px;color:#9A9488;padding:12px 16px;background:#111111;border:1px solid #1A1A1A;margin-bottom:20px;line-height:1.6;">' + d.dietary_options + '</div>' : '';
   var allergenText = (d.allergens && d.allergens.toLowerCase() !== 'unknown') ? d.allergens : 'Not on record';
   var ingHtml = (d.ingredients || []).map(function(i) { return '<span class="ing-chip">' + i + '</span>'; }).join('');
   var metaHtml = '';
@@ -622,7 +407,7 @@ function openDishDetail(id) {
     '<div class="detail-restaurant">' + d.restaurant + ' · ' + d.location + '</div>' +
     '<div class="detail-name">' + d.name + '</div>' +
     '<div class="detail-level-hero ' + lk + '">' + levelLabel(lk) + '</div>' +
-    affirmHtml + tagsHtml + optionsHtml +
+    affirmHtml + tagsHtml +
     '<div class="detail-section-title">Allergens on Record</div>' +
     '<div class="allergen-disclaimer">⚠ Allergen data is sourced from public menus and has not been confirmed by the restaurant. Always verify directly with the restaurant before ordering if you have a food allergy or intolerance.</div>' +
     '<div class="detail-allergens">' + allergenText + '</div>' +
@@ -636,60 +421,12 @@ function goBackToRestaurant() {
   if (currentRestaurantIdx !== null) openRestaurantDetail(currentRestaurantIdx);
 }
 function closeDetail() {
-  selectedDishId = null;
   document.getElementById('detail-panel').classList.remove('open');
 }
 
 document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') { closeDetail(); }
+  if (e.key === 'Escape') closeDetail();
 });
-
-// Restore saved filters
-(function() {
-  try {
-    var saved = localStorage.getItem('gp_filters');
-    if (saved) { var p = JSON.parse(saved); if (Array.isArray(p) && p.length) dishActiveFilters = p; }
-  } catch(e) {}
-})();
-</script>
-
-<div class="survey-overlay" id="survey-overlay">
-  <button class="survey-dismiss" onclick="dismissSurvey()">✕</button>
-  <div class="survey-label">Quick Question</div>
-  <div class="survey-question">What matters most to you when choosing where to eat?</div>
-  <div class="survey-options">
-    <button class="survey-opt" onclick="selectSurvey(this,'Knowing what is in my food')">Knowing what's in my food</button>
-    <button class="survey-opt" onclick="selectSurvey(this,'Finding options that fit my diet')">Finding options that fit my diet</button>
-    <button class="survey-opt" onclick="selectSurvey(this,'Supporting restaurants I trust')">Supporting restaurants I trust</button>
-    <button class="survey-opt" onclick="selectSurvey(this,'Discovering something new')">Discovering something new</button>
-  </div>
-  <div class="survey-thanks" id="survey-thanks">Thank you. That helps us build the right thing.</div>
-</div>
-
-<script>
-var surveyShown = false;
-function showSurvey() { if (surveyShown || localStorage.getItem('gp_survey_done')) return; surveyShown = true; document.getElementById('survey-overlay').classList.add('visible'); }
-function dismissSurvey() { localStorage.setItem('gp_survey_done','1'); document.getElementById('survey-overlay').classList.remove('visible'); }
-function selectSurvey(btn, answer) {
-  document.querySelectorAll('.survey-opt').forEach(function(b){ b.classList.remove('selected'); });
-  btn.classList.add('selected');
-  document.getElementById('survey-thanks').style.display = 'block';
-  localStorage.setItem('gp_survey_done','1');
-  if (typeof gtag !== 'undefined') gtag('event','survey_response',{event_category:'Discover Survey',event_label:answer});
-  setTimeout(dismissSurvey, 2800);
-}
-setTimeout(function() {
-  var app = document.getElementById('app');
-  if (app && app.classList.contains('unlocked')) { showSurvey(); }
-  else { var orig = window.checkPassword; window.checkPassword = function(){ orig(); setTimeout(showSurvey, 30000); }; }
-}, 30000);
-(function(){
-  window.addEventListener('load', function(){
-    var p = new URLSearchParams(window.location.search);
-    var src = p.get('utm_source');
-    if (src && typeof gtag !== 'undefined') gtag('event','partner_referral_landed',{partner_name:src,referral_medium:p.get('utm_medium')||'unknown'});
-  });
-})();
 </script>
 </body>
 </html>
