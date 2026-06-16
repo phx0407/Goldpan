@@ -120,6 +120,33 @@
     .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 16px; letter-spacing: 0.1em; color: #333330; margin-bottom: 4px; }
     @media (max-width: 768px) { .site-footer { padding: 24px 20px; } }
     .allergen-disclaimer { font-size: 11px; color: #9A9488; background: #111111; border: 1px solid #2A2A2A; padding: 10px 14px; margin-bottom: 20px; line-height: 1.6; letter-spacing: 0.02em; }
+    .tab-switcher { display: flex; gap: 0; border-bottom: 1px solid #1A1A1A; padding: 0 48px; background: #0A0A0A; }
+    .tab-btn { background: none; border: none; border-bottom: 2px solid transparent; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; padding: 16px 20px; cursor: pointer; transition: all 0.2s; margin-bottom: -1px; }
+    .tab-btn:hover { color: #C9A84C; }
+    .tab-btn.active { color: #C9A84C; border-bottom-color: #C9A84C; }
+    @media (max-width: 768px) { .tab-switcher { padding: 0 20px; } }
+    .rest-grid { padding: 32px 48px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+    @media (max-width: 768px) { .rest-grid { padding: 20px; grid-template-columns: 1fr; } }
+    .rest-card { background: #111111; border: 1px solid #1A1A1A; padding: 28px; cursor: pointer; transition: border-color 0.2s, background 0.2s; }
+    .rest-card:hover { border-color: #8B6F2E; background: #151515; }
+    .rest-card-name { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 4px; line-height: 1.1; }
+    .rest-card-location { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; margin-bottom: 12px; }
+    .rest-card-stats { display: flex; gap: 24px; margin-bottom: 14px; }
+    .rest-card-stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 28px; line-height: 1; }
+    .rest-card-stat-label { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: #9A9488; margin-top: 2px; }
+    .rest-badge { display: inline-block; font-size: 10px; padding: 3px 8px; border: 1px solid; letter-spacing: 0.06em; }
+    .rest-badge.high { border-color: #4CAF76; color: #4CAF76; }
+    .rest-badge.moderate { border-color: #C9A84C; color: #C9A84C; }
+    .rest-badge.building { border-color: #9A9488; color: #9A9488; }
+    #restaurants-view { display: none; }
+    #restaurants-view.active { display: block; }
+    .rest-results-bar { padding: 16px 48px; border-bottom: 1px solid #1A1A1A; }
+    .rest-results-count { font-size: 12px; color: #9A9488; font-family: 'DM Mono', monospace; }
+    @media (max-width: 768px) { .rest-results-bar { padding: 12px 20px; } }
+    .dish-row { padding: 12px 0; border-bottom: 1px solid #1A1A1A; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+    .dish-row:hover .dish-row-name { color: #C9A84C; }
+    .dish-row-name { font-size: 13px; color: #F5F2EC; transition: color 0.2s; }
+    .dish-row-level { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; flex-shrink: 0; margin-left: 12px; }
   </style>
   <script src="/consent.js" defer></script>
 </head>
@@ -153,6 +180,12 @@
     <p class="hero-sub" id="hero-sub">Search Birmingham restaurants. Filter by dietary need, allergen, or transparency level.</p>
   </div>
 
+  <div class="tab-switcher">
+    <button class="tab-btn active" id="tab-dishes" onclick="switchTab('dishes')">Dishes</button>
+    <button class="tab-btn" id="tab-restaurants" onclick="switchTab('restaurants')">Restaurants</button>
+  </div>
+
+  <div id="dishes-view">
   <div class="search-bar">
     <input class="search-input" id="search" placeholder="Search dishes, restaurants, ingredients..." oninput="render()" />
     <div class="filter-btns">
@@ -182,6 +215,23 @@
   </div>
 
   <div class="grid" id="grid"></div>
+  </div><!-- /#dishes-view -->
+
+  <div id="restaurants-view">
+    <div class="search-bar">
+      <input class="search-input" id="rest-search" placeholder="Search restaurants or locations..." oninput="renderRestaurants()" />
+      <div class="filter-btns">
+        <button class="fbtn active" id="rbtn-all" onclick="setRestFilter('all', this)">All</button>
+        <button class="fbtn" onclick="setRestFilter('high', this)">Has High</button>
+        <button class="fbtn" onclick="setRestFilter('moderate', this)">Has Moderate</button>
+        <button class="fbtn" onclick="setRestFilter('building', this)">Building</button>
+      </div>
+    </div>
+    <div class="rest-results-bar">
+      <span class="rest-results-count" id="rest-results-count">Loading...</span>
+    </div>
+    <div class="rest-grid" id="rest-grid"></div>
+  </div>
 
   <footer class="site-footer">
     <div class="footer-logo">Goldpan™</div>
@@ -435,6 +485,152 @@ function closeDetail() {
   selectedId = null;
   render();
   document.getElementById('detail-panel').classList.remove('open');
+}
+
+// ── Restaurants tab ──────────────────────────────────────────────────────────
+
+var viewMode = 'dishes';
+var restaurants = [];
+var restFilter = 'all';
+
+function buildRestaurants() {
+  var map = {};
+  dishes.forEach(function(d) {
+    var key = d.restaurant;
+    if (!map[key]) {
+      map[key] = {
+        name: d.restaurant,
+        location: d.location || '',
+        address: d.restaurant_address || '',
+        website: d.restaurant_website || '',
+        menu_link: d.menu_link || '',
+        hours: d.hours || '',
+        dishes: [],
+        high: 0, moderate: 0, building: 0
+      };
+    }
+    map[key].dishes.push(d);
+    map[key][levelKey(d)]++;
+  });
+  restaurants = Object.values(map).sort(function(a, b) {
+    return a.name.localeCompare(b.name);
+  });
+}
+
+function bestLevel(r) {
+  if (r.high > 0) return 'high';
+  if (r.moderate > 0) return 'moderate';
+  return 'building';
+}
+
+function setRestFilter(f, btn) {
+  restFilter = f;
+  document.querySelectorAll('#restaurants-view .fbtn').forEach(function(b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+  renderRestaurants();
+}
+
+function getFilteredRestaurants() {
+  var q = (document.getElementById('rest-search') || {}).value || '';
+  q = q.toLowerCase();
+  return restaurants.filter(function(r) {
+    if (q && r.name.toLowerCase().indexOf(q) === -1 && (r.location || '').toLowerCase().indexOf(q) === -1) return false;
+    if (restFilter === 'all') return true;
+    if (restFilter === 'high') return r.high > 0;
+    if (restFilter === 'moderate') return r.moderate > 0;
+    if (restFilter === 'building') return r.building > 0;
+    return true;
+  });
+}
+
+function renderRestaurants() {
+  if (!restaurants.length) buildRestaurants();
+  var filtered = getFilteredRestaurants();
+  document.getElementById('rest-results-count').textContent =
+    filtered.length + ' restaurant' + (filtered.length !== 1 ? 's' : '');
+  var badgeLabel = { high: 'Has High Transparency Dishes', moderate: 'Moderate Transparency', building: 'Building Transparency' };
+  var grid = document.getElementById('rest-grid');
+  if (!filtered.length) {
+    grid.innerHTML = '<div class="empty"><div class="empty-title">No restaurants found</div><p>Try adjusting your search or filter.</p></div>';
+    return;
+  }
+  grid.innerHTML = filtered.map(function(r) {
+    var ri = restaurants.indexOf(r);
+    var bl = bestLevel(r);
+    return '<div class="rest-card" onclick="openRestaurantDetail(' + ri + ')">' +
+      '<div class="rest-card-location">' + (r.location || '') + '</div>' +
+      '<div class="rest-card-name">' + r.name + '</div>' +
+      '<div class="rest-card-stats">' +
+        '<div><div class="rest-card-stat-num" style="color:#F5F2EC">' + r.dishes.length + '</div><div class="rest-card-stat-label">Dishes</div></div>' +
+        (r.high     ? '<div><div class="rest-card-stat-num" style="color:#4CAF76">' + r.high     + '</div><div class="rest-card-stat-label">High</div></div>' : '') +
+        (r.moderate ? '<div><div class="rest-card-stat-num" style="color:#C9A84C">' + r.moderate + '</div><div class="rest-card-stat-label">Moderate</div></div>' : '') +
+      '</div>' +
+      '<span class="rest-badge ' + bl + '">' + badgeLabel[bl] + '</span>' +
+      '</div>';
+  }).join('');
+}
+
+function openRestaurantDetail(idx) {
+  var r = restaurants[idx];
+  if (!r) return;
+
+  var sorted = r.dishes.slice().sort(function(a, b) {
+    return levelWeight(b.level) - levelWeight(a.level);
+  });
+  var dishListHtml = sorted.map(function(d) {
+    var lk = levelKey(d);
+    var col = lk === 'high' ? '#4CAF76' : lk === 'moderate' ? '#C9A84C' : '#9A9488';
+    return '<div class="dish-row" onclick="switchToDish(\'' + d.id + '\')">' +
+      '<span class="dish-row-name">' + d.name + '</span>' +
+      '<span class="dish-row-level" style="color:' + col + '">' + levelLabel(lk).replace(' Transparency', '') + '</span>' +
+      '</div>';
+  }).join('');
+
+  var metaHtml = '';
+  if (r.hours)   metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">Hours: ' + r.hours + '</div>';
+  if (r.address) metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">' + r.address + '</div>';
+  if (r.website) metaHtml += '<div style="font-size:12px;margin-bottom:6px;"><a href="' + r.website + '" target="_blank" style="color:#C9A84C;text-decoration:none;">Restaurant Website ↗</a></div>';
+  if (r.menu_link) metaHtml += '<div style="font-size:12px;margin-bottom:20px;"><a href="' + r.menu_link + '" target="_blank" style="color:#C9A84C;text-decoration:none;">View Menu ↗</a></div>';
+
+  document.getElementById('detail-content').innerHTML =
+    '<div class="detail-restaurant">' + (r.location || '') + '</div>' +
+    '<div class="detail-name">' + r.name + '</div>' +
+    '<div style="display:flex;gap:20px;margin-bottom:20px;">' +
+      '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#F5F2EC;">' + r.dishes.length + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">Dishes</div></div>' +
+      (r.high     ? '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#4CAF76;">' + r.high + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">High</div></div>' : '') +
+      (r.moderate ? '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#C9A84C;">' + r.moderate + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">Moderate</div></div>' : '') +
+    '</div>' +
+    (metaHtml ? '<div class="detail-section-title">Restaurant Info</div>' + metaHtml : '') +
+    '<div class="detail-section-title">All Dishes — click to view details</div>' +
+    dishListHtml;
+
+  document.getElementById('detail-panel').classList.add('open');
+}
+
+function switchToDish(id) {
+  closeDetail();
+  switchTab('dishes');
+  setTimeout(function() { openDetail(id); }, 80);
+}
+
+function switchTab(tab) {
+  viewMode = tab;
+  var dishesView = document.getElementById('dishes-view');
+  var restsView  = document.getElementById('restaurants-view');
+
+  document.getElementById('tab-dishes').classList.toggle('active', tab === 'dishes');
+  document.getElementById('tab-restaurants').classList.toggle('active', tab === 'restaurants');
+  closeDetail();
+
+  if (tab === 'dishes') {
+    dishesView.style.display = '';
+    restsView.classList.remove('active');
+  } else {
+    dishesView.style.display = 'none';
+    restsView.classList.add('active');
+    buildRestaurants();
+    renderRestaurants();
+  }
 }
 </script>
 
