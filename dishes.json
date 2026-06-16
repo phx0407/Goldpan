@@ -7107,5 +7107,583 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": []
+  },
+  {
+    "id": "D432",
+    "name": "Monsterella Sticks",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (mozzarella, vodka sauce), Wheat (breading). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "mozzarella",
+      "breading",
+      "vodka sauce"
+    ]
+  },
+  {
+    "id": "D433",
+    "name": "Pickle Fries",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Wheat (batter), Dairy (ranch), Eggs (ranch may contain). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "pickles",
+      "batter",
+      "ranch"
+    ]
+  },
+  {
+    "id": "D434",
+    "name": "Crispy Brussels Sprouts",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (whipped goat cheese), Tree Nuts (pecans). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "brussels sprouts",
+      "goat cheese",
+      "honey",
+      "pecans",
+      "pomegranate seeds"
+    ]
+  },
+  {
+    "id": "D435",
+    "name": "Smoked Chicken Wings",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Peanuts (Korean BBQ Peanut Togarashi option), Dairy (Alabama White sauce option). Allergens vary by sauce choice — contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "chicken wings"
+    ]
+  },
+  {
+    "id": "D436",
+    "name": "Pimento Cheese",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (sharp cheddar), Wheat (ranch chips). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "sharp cheddar",
+      "pimento peppers",
+      "ranch chips",
+      "fresh vegetables"
+    ]
+  },
+  {
+    "id": "D437",
+    "name": "Queso Dip",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (white queso). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "white queso",
+      "Fresno peppers",
+      "jalapeños",
+      "tortilla chips"
+    ]
+  },
+  {
+    "id": "D438",
+    "name": "Tuna Poke Bowl",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Fish (ahi tuna), Soy (edamame, teriyaki sauce), Sesame (sesame seeds), Eggs (yum yum sauce). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "ahi tuna",
+      "edamame",
+      "carrots",
+      "jalapeño",
+      "avocado",
+      "cilantro",
+      "yum yum sauce",
+      "teriyaki sauce",
+      "sesame seeds",
+      "fried shallots"
+    ]
+  },
+  {
+    "id": "D439",
+    "name": "Battery Quesadilla",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (shredded cheese, sour cream), Wheat (flour tortilla), Shellfish (shrimp option). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "sliced ribeye (or grilled chicken or shrimp)",
+      "shredded cheese",
+      "peppers",
+      "onions",
+      "salsa",
+      "sour cream",
+      "flour tortilla"
+    ]
+  },
+  {
+    "id": "D440",
+    "name": "Green Goddess Salad",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens based on visible menu description: Eggs (hard boiled egg), Dairy (green goddess dressing may contain). Contains bacon. Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "spinach",
+      "arugula",
+      "broccoli",
+      "brussels sprout leaves",
+      "onion",
+      "tomato",
+      "hard boiled egg",
+      "avocado",
+      "bacon",
+      "green goddess dressing"
+    ]
+  },
+  {
+    "id": "D441",
+    "name": "Cobb Salad",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (shredded cheese), Eggs (hard boiled egg). Dressing allergens vary by choice — contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "romaine",
+      "ham",
+      "turkey",
+      "bacon",
+      "shredded cheese",
+      "cherry tomato",
+      "shredded carrots",
+      "hard boiled egg",
+      "dressing"
+    ]
+  },
+  {
+    "id": "D442",
+    "name": "Wedge Salad",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (blue cheese crumbles, blue cheese dressing), Eggs (dressing may contain). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "iceberg lettuce",
+      "bacon lardons",
+      "blue cheese crumbles",
+      "shallot",
+      "cherry tomato",
+      "red onion",
+      "blue cheese dressing"
+    ]
+  },
+  {
+    "id": "D443",
+    "name": "Tomato Soup",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (parmesan). Confirm GF status of okra croutons with restaurant.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "tomato soup",
+      "okra croutons",
+      "parmesan",
+      "chives"
+    ]
+  },
+  {
+    "id": "D444",
+    "name": "Southern Caesar",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (parmesan), Eggs (caesar dressing), Fish (caesar dressing may contain anchovies), Wheat (okra croutons). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "romaine",
+      "parmesan",
+      "okra croutons",
+      "red chili flakes",
+      "house caesar dressing"
+    ]
+  },
+  {
+    "id": "D445",
+    "name": "Chicken Tender Basket",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Wheat (hand breading), Eggs (breading may contain), Dairy (ranch). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "chicken tenders",
+      "hand breading",
+      "parmesan fries",
+      "honey mustard",
+      "ranch"
+    ]
+  },
+  {
+    "id": "D446",
+    "name": "The Club",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (cheese), Eggs (garlic aioli), Wheat (bread). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "bacon",
+      "ham",
+      "turkey",
+      "cheese",
+      "garlic aioli",
+      "tomato",
+      "arugula",
+      "bread"
+    ]
+  },
+  {
+    "id": "D447",
+    "name": "Philly Cheesesteak",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (cheese sauce), Eggs (garlic aioli), Wheat (hoagie roll). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "sliced ribeye (or grilled chicken)",
+      "yellow onion",
+      "red bell peppers",
+      "garlic aioli",
+      "cheese sauce",
+      "hoagie roll"
+    ]
+  },
+  {
+    "id": "D448",
+    "name": "The Smashburger",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (white American cheese), Wheat (bun). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "Black Angus beef patties",
+      "white American cheese",
+      "yellow mustard",
+      "pickles",
+      "onions",
+      "bun"
+    ]
+  },
+  {
+    "id": "D449",
+    "name": "Buffalo Chicken Sandwich",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (buttermilk ranch, blue cheese), Wheat (bun, breading if fried), Eggs (ranch may contain). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "chicken",
+      "house buffalo sauce",
+      "buttermilk ranch",
+      "blue cheese crumbles",
+      "ranch celery slaw",
+      "bun"
+    ]
+  },
+  {
+    "id": "D450",
+    "name": "Brisket Grilled Cheese",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (white American cheese), Wheat (sourdough). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "brisket marmalade",
+      "white American cheese",
+      "sourdough"
+    ]
+  },
+  {
+    "id": "D451",
+    "name": "Korean BBQ Tacos",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Peanuts (peanut Togarashi), Wheat (taco shells), Shellfish (shrimp option), Soy (Korean BBQ sauce). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "brisket (or chicken or shrimp)",
+      "Korean BBQ sauce",
+      "carrot slaw",
+      "peanut Togarashi",
+      "cilantro",
+      "lime",
+      "taco shells"
+    ]
+  },
+  {
+    "id": "D452",
+    "name": "Blackened Fish Sandwich",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Fish (species not disclosed), Wheat (bun), Eggs (garlic aioli). Contact restaurant to confirm fish species.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "fish",
+      "lettuce",
+      "tomato",
+      "red onion",
+      "garlic aioli",
+      "bun"
+    ]
+  },
+  {
+    "id": "D453",
+    "name": "Black & Blue Burger",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (blue cheese), Eggs (garlic aioli), Wheat (bun). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "beef patties",
+      "blue cheese crumbles",
+      "garlic aioli",
+      "bacon jam",
+      "lettuce",
+      "tomato",
+      "red onion",
+      "bun"
+    ]
+  },
+  {
+    "id": "D454",
+    "name": "Pork Ribeye",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (mashed potatoes). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "pork ribeye",
+      "brussels sprouts",
+      "mashed potatoes",
+      "blueberry glaze",
+      "fresh mint"
+    ]
+  },
+  {
+    "id": "D455",
+    "name": "Mama's Chicken",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (mashed potatoes, sawmill gravy), Wheat (breading, sawmill gravy). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "chicken breast",
+      "Conecuh collard greens",
+      "mashed potatoes",
+      "sawmill gravy"
+    ]
+  },
+  {
+    "id": "D456",
+    "name": "Seared King Salmon",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens based on visible menu description: Fish (king salmon), Eggs (garlic aioli). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "king salmon",
+      "sweet potatoes",
+      "broccolini",
+      "garlic aioli",
+      "salsa verde"
+    ]
+  },
+  {
+    "id": "D457",
+    "name": "Shrimp & Grits",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Shellfish (shrimp), Dairy (cheese grits, Crystal cream sauce). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "shrimp",
+      "bell peppers",
+      "bacon",
+      "Conecuh sausage",
+      "Crystal cream sauce",
+      "cheese grits"
+    ]
+  },
+  {
+    "id": "D458",
+    "name": "Chicken Pesto Pasta",
+    "restaurant": "The Battery",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Wheat (linguine, grilled toast points), Tree Nuts (almonds in pesto). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "ingredients": [
+      "linguine pasta",
+      "basil and almond pesto",
+      "chicken",
+      "red chili flake",
+      "toast points"
+    ]
   }
 ]
