@@ -9,6 +9,8 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; background: #0A0A0A; }
     body { background: #0A0A0A; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-weight: 300; min-height: 100vh; }
+
+    /* Gate */
     .gate { position: fixed; inset: 0; background: #0A0A0A; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 9999; padding: 24px; }
     .gate-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(201,168,76,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,76,0.03) 1px, transparent 1px); background-size: 60px 60px; pointer-events: none; }
     .gate-logo { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 0.12em; color: #C9A84C; margin-bottom: 8px; position: relative; }
@@ -22,9 +24,13 @@
     .gate-error { font-size: 12px; color: #C94C4C; margin-top: 10px; letter-spacing: 0.05em; position: relative; opacity: 0; transition: opacity 0.2s; }
     .gate-error.visible { opacity: 1; }
     .gate-note { font-size: 11px; color: #333333; margin-top: 48px; letter-spacing: 0.08em; position: relative; font-family: 'DM Mono', monospace; }
+
+    /* App shell */
     .app { display: none; }
     .app.unlocked { display: block; }
-    :root { --gold: #C9A84C; --black: #0A0A0A; --black-2: #111111; --black-3: #1A1A1A; --black-4: #222222; --white: #F5F2EC; --gray: #9A9488; --green: #4CAF76; }
+    :root { --gold: #C9A84C; --black: #0A0A0A; --white: #F5F2EC; --gray: #9A9488; --green: #4CAF76; }
+
+    /* Header */
     header { position: sticky; top: 0; z-index: 100; background: rgba(10,10,10,0.95); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(201,168,76,0.12); padding: 18px 48px; display: flex; align-items: center; justify-content: space-between; }
     .logo { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 0.08em; color: #C9A84C; text-decoration: none; }
     .logo span { color: #F5F2EC; font-size: 13px; letter-spacing: 0.15em; margin-left: 12px; font-family: 'DM Mono', monospace; }
@@ -32,11 +38,15 @@
     .hstat-num { font-family: 'Bebas Neue', sans-serif; font-size: 24px; color: #C9A84C; line-height: 1; }
     .hstat-label { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9488; }
     @media (max-width: 768px) { header { padding: 14px 20px; } .header-stats { display: none; } }
+
+    /* Hero */
     .hero { padding: 60px 48px 40px; border-bottom: 1px solid #1A1A1A; }
     .hero-label { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 16px; }
     .hero-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(40px, 6vw, 80px); line-height: 0.95; letter-spacing: 0.02em; margin-bottom: 16px; }
-    .hero-sub { font-size: 15px; color: #9A9488; max-width: 500px; line-height: 1.6; }
+    .hero-sub { font-size: 15px; color: #9A9488; max-width: 540px; line-height: 1.6; }
     @media (max-width: 768px) { .hero { padding: 40px 20px 30px; } }
+
+    /* Search + filters */
     .search-bar { padding: 24px 48px; border-bottom: 1px solid #1A1A1A; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
     .search-input { flex: 1; min-width: 200px; background: #1A1A1A; border: 1px solid #222222; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 14px; padding: 12px 18px; outline: none; transition: border-color 0.2s; }
     .search-input::placeholder { color: #9A9488; }
@@ -46,39 +56,40 @@
     .fbtn:hover { border-color: #C9A84C; color: #C9A84C; }
     .fbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; }
     @media (max-width: 768px) { .search-bar { padding: 16px 20px; } }
-    .legend-bar { padding: 12px 48px; border-bottom: 1px solid #1A1A1A; display: flex; gap: 24px; flex-wrap: wrap; }
-    .legend-item { font-size: 11px; color: #9A9488; letter-spacing: 0.08em; display: flex; align-items: center; gap: 6px; }
-    .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+    /* Results bar */
     .results-bar { padding: 16px 48px; border-bottom: 1px solid #1A1A1A; display: flex; justify-content: space-between; align-items: center; }
     .results-count { font-size: 12px; color: #9A9488; font-family: 'DM Mono', monospace; }
-    .sort-btn { font-size: 11px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.1em; text-transform: uppercase; }
-    @media (max-width: 768px) { .legend-bar { padding: 12px 20px; } .results-bar { padding: 12px 20px; } }
-    .grid { padding: 32px 48px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
-    @media (max-width: 768px) { .grid { padding: 20px; grid-template-columns: 1fr; } }
-    .card { background: #111111; border: 1px solid #1A1A1A; padding: 28px; cursor: pointer; transition: border-color 0.2s, background 0.2s; }
-    .card:hover { border-color: #8B6F2E; background: #151515; }
-    .card.selected { border-color: #C9A84C; }
-    .card-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; margin-bottom: 4px; }
-    .card-name { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 16px; line-height: 1.1; }
-    .card-level { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.04em; line-height: 1.1; margin-bottom: 10px; }
-    .card-level.high { color: #4CAF76; }
-    .card-level.moderate { color: #C9A84C; }
-    .card-level.building { color: #9A9488; }
-    .card-bar { height: 3px; background: #222222; margin-bottom: 14px; overflow: hidden; }
-    .card-bar-fill { height: 100%; }
-    .card-bar-fill.high { background: #4CAF76; }
-    .card-bar-fill.moderate { background: #C9A84C; }
-    .card-bar-fill.building { background: #9A9488; }
-    .card-tags { display: flex; flex-wrap: wrap; gap: 5px; }
-    .ctag { font-size: 10px; padding: 3px 8px; border: 1px solid; border-radius: 2px; }
-    .ctag-vegan { border-color: #4CAF76; color: #4CAF76; }
-    .ctag-vegetarian { border-color: #1D9E75; color: #1D9E75; }
-    .ctag-gluten { border-color: #378ADD; color: #378ADD; }
-    .detail-panel { position: fixed; right: 0; top: 0; bottom: 0; width: 420px; background: #0A0A0A; border-left: 1px solid #1A1A1A; overflow-y: auto; transform: translateX(100%); transition: transform 0.3s; z-index: 200; padding: 32px; }
+    @media (max-width: 768px) { .results-bar { padding: 12px 20px; } }
+
+    /* Restaurant cards */
+    .rest-grid { padding: 32px 48px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+    @media (max-width: 768px) { .rest-grid { padding: 20px; grid-template-columns: 1fr; } }
+    .rest-card { background: #111111; border: 1px solid #1A1A1A; padding: 28px; cursor: pointer; transition: border-color 0.2s, background 0.2s; }
+    .rest-card:hover { border-color: #8B6F2E; background: #151515; }
+    .rest-card-location { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; margin-bottom: 8px; }
+    .rest-card-name { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 16px; line-height: 1.1; }
+    .rest-card-stats { display: flex; gap: 24px; margin-bottom: 14px; }
+    .rest-card-stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 28px; line-height: 1; }
+    .rest-card-stat-label { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: #9A9488; margin-top: 2px; }
+    .rest-badge { display: inline-block; font-size: 10px; padding: 3px 8px; border: 1px solid; letter-spacing: 0.06em; }
+    .rest-badge.high { border-color: #4CAF76; color: #4CAF76; }
+    .rest-badge.moderate { border-color: #C9A84C; color: #C9A84C; }
+    .rest-badge.building { border-color: #9A9488; color: #9A9488; }
+
+    /* Empty state */
+    .empty { padding: 80px 48px; text-align: center; color: #9A9488; }
+    .empty-title { font-family: 'Bebas Neue', sans-serif; font-size: 32px; color: #1A1A1A; margin-bottom: 12px; }
+
+    /* Detail panel */
+    .detail-panel { position: fixed; right: 0; top: 0; bottom: 0; width: 440px; background: #0A0A0A; border-left: 1px solid #1A1A1A; overflow-y: auto; transform: translateX(100%); transition: transform 0.3s; z-index: 200; padding: 32px; }
     .detail-panel.open { transform: translateX(0); }
     @media (max-width: 768px) { .detail-panel { width: 100%; } }
     .detail-close { position: absolute; top: 20px; right: 20px; font-size: 20px; cursor: pointer; color: #9A9488; background: none; border: none; }
     .detail-close:hover { color: #F5F2EC; }
+    .detail-back { display: none; position: absolute; top: 20px; left: 20px; font-size: 12px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; font-family: 'DM Mono', monospace; transition: color 0.2s; }
+    .detail-back:hover { color: #C9A84C; }
+    .detail-back.visible { display: block; }
     .detail-restaurant { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #C9A84C; margin-bottom: 6px; margin-top: 20px; }
     .detail-name { font-family: 'Bebas Neue', sans-serif; font-size: 32px; letter-spacing: 0.04em; margin-bottom: 16px; line-height: 1.1; }
     .detail-level-hero { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; margin-bottom: 20px; }
@@ -94,14 +105,37 @@
     .detail-allergens { font-size: 12px; color: #9A9488; padding: 12px 16px; background: #111111; border: 1px solid #1A1A1A; margin-bottom: 20px; line-height: 1.6; }
     .detail-ingredients { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
     .ing-chip { font-size: 11px; padding: 4px 10px; background: #1A1A1A; color: #9A9488; border: 1px solid #222222; }
-    .empty { padding: 80px 48px; text-align: center; color: #9A9488; }
-    .empty-title { font-family: 'Bebas Neue', sans-serif; font-size: 32px; color: #1A1A1A; margin-bottom: 12px; }
-    .active-filters-bar { padding: 10px 48px; border-bottom: 1px solid #1A1A1A; display: none; gap: 8px; flex-wrap: wrap; align-items: center; }
-    .active-filters-bar.visible { display: flex; }
-    .active-filter-tag { font-size: 11px; padding: 4px 10px; background: rgba(201,168,76,0.1); border: 1px solid #C9A84C; color: #C9A84C; letter-spacing: 0.08em; }
-    .clear-all { font-size: 11px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; margin-left: 8px; }
-    .clear-all:hover { color: #F5F2EC; }
-    @media (max-width: 768px) { .active-filters-bar { padding: 10px 20px; } }
+    .allergen-disclaimer { font-size: 11px; color: #9A9488; background: #111111; border: 1px solid #2A2A2A; padding: 10px 14px; margin-bottom: 20px; line-height: 1.6; letter-spacing: 0.02em; }
+    .ctag { font-size: 10px; padding: 3px 8px; border: 1px solid; border-radius: 2px; }
+    .ctag-vegan { border-color: #4CAF76; color: #4CAF76; }
+    .ctag-vegetarian { border-color: #1D9E75; color: #1D9E75; }
+    .ctag-gluten { border-color: #378ADD; color: #378ADD; }
+
+    /* Dish rows inside restaurant panel */
+    .dish-row { padding: 12px 0; border-bottom: 1px solid #1A1A1A; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+    .dish-row:last-child { border-bottom: none; }
+    .dish-row:hover .dish-row-name { color: #C9A84C; }
+    .dish-row-name { font-size: 13px; color: #F5F2EC; transition: color 0.2s; }
+    .dish-row-level { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; flex-shrink: 0; margin-left: 12px; }
+
+    /* Panel dish search */
+    .panel-search-wrap { margin-bottom: 12px; }
+    .panel-search { width: 100%; background: #1A1A1A; border: 1px solid #222222; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 13px; padding: 10px 14px; outline: none; transition: border-color 0.2s; }
+    .panel-search::placeholder { color: #9A9488; }
+    .panel-search:focus { border-color: #8B6F2E; }
+    .panel-filter-btns { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+    .pfbtn { padding: 7px 12px; border: 1px solid #222222; background: transparent; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: all 0.2s; }
+    .pfbtn:hover { border-color: #C9A84C; color: #C9A84C; }
+    .pfbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; }
+
+    /* Footer */
+    .site-footer { border-top: 1px solid #1A1A1A; padding: 32px 48px; display: flex; flex-direction: column; gap: 12px; }
+    .footer-disclaimer { font-size: 11px; color: #555550; line-height: 1.6; letter-spacing: 0.02em; }
+    .footer-disclaimer strong { color: #9A9488; font-weight: 500; }
+    .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 16px; letter-spacing: 0.1em; color: #333330; margin-bottom: 4px; }
+    @media (max-width: 768px) { .site-footer { padding: 24px 20px; } }
+
+    /* Survey */
     .survey-overlay { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); z-index: 5000; background: #111111; border: 1px solid #C9A84C; padding: 28px 32px; width: 480px; max-width: calc(100vw - 32px); box-shadow: 0 8px 40px rgba(0,0,0,0.6); display: none; }
     .survey-overlay.visible { display: block; animation: surveyIn 0.4s ease; }
     @keyframes surveyIn { from { opacity: 0; transform: translateX(-50%) translateY(16px); } to { opacity: 1; transform: translateX(-50%) translateY(0); } }
@@ -114,39 +148,6 @@
     .survey-dismiss { position: absolute; top: 12px; right: 14px; background: none; border: none; color: #9A9488; font-size: 16px; cursor: pointer; line-height: 1; }
     .survey-dismiss:hover { color: #F5F2EC; }
     .survey-thanks { font-size: 13px; color: #4CAF76; margin-top: 12px; display: none; font-style: italic; }
-    .site-footer { border-top: 1px solid #1A1A1A; padding: 32px 48px; display: flex; flex-direction: column; gap: 12px; }
-    .footer-disclaimer { font-size: 11px; color: #555550; line-height: 1.6; letter-spacing: 0.02em; }
-    .footer-disclaimer strong { color: #9A9488; font-weight: 500; }
-    .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 16px; letter-spacing: 0.1em; color: #333330; margin-bottom: 4px; }
-    @media (max-width: 768px) { .site-footer { padding: 24px 20px; } }
-    .allergen-disclaimer { font-size: 11px; color: #9A9488; background: #111111; border: 1px solid #2A2A2A; padding: 10px 14px; margin-bottom: 20px; line-height: 1.6; letter-spacing: 0.02em; }
-    .tab-switcher { display: flex; gap: 0; border-bottom: 1px solid #1A1A1A; padding: 0 48px; background: #0A0A0A; }
-    .tab-btn { background: none; border: none; border-bottom: 2px solid transparent; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; padding: 16px 20px; cursor: pointer; transition: all 0.2s; margin-bottom: -1px; }
-    .tab-btn:hover { color: #C9A84C; }
-    .tab-btn.active { color: #C9A84C; border-bottom-color: #C9A84C; }
-    @media (max-width: 768px) { .tab-switcher { padding: 0 20px; } }
-    .rest-grid { padding: 32px 48px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
-    @media (max-width: 768px) { .rest-grid { padding: 20px; grid-template-columns: 1fr; } }
-    .rest-card { background: #111111; border: 1px solid #1A1A1A; padding: 28px; cursor: pointer; transition: border-color 0.2s, background 0.2s; }
-    .rest-card:hover { border-color: #8B6F2E; background: #151515; }
-    .rest-card-name { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 4px; line-height: 1.1; }
-    .rest-card-location { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; margin-bottom: 12px; }
-    .rest-card-stats { display: flex; gap: 24px; margin-bottom: 14px; }
-    .rest-card-stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 28px; line-height: 1; }
-    .rest-card-stat-label { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: #9A9488; margin-top: 2px; }
-    .rest-badge { display: inline-block; font-size: 10px; padding: 3px 8px; border: 1px solid; letter-spacing: 0.06em; }
-    .rest-badge.high { border-color: #4CAF76; color: #4CAF76; }
-    .rest-badge.moderate { border-color: #C9A84C; color: #C9A84C; }
-    .rest-badge.building { border-color: #9A9488; color: #9A9488; }
-    #restaurants-view { display: none; }
-    #restaurants-view.active { display: block; }
-    .rest-results-bar { padding: 16px 48px; border-bottom: 1px solid #1A1A1A; }
-    .rest-results-count { font-size: 12px; color: #9A9488; font-family: 'DM Mono', monospace; }
-    @media (max-width: 768px) { .rest-results-bar { padding: 12px 20px; } }
-    .dish-row { padding: 12px 0; border-bottom: 1px solid #1A1A1A; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
-    .dish-row:hover .dish-row-name { color: #C9A84C; }
-    .dish-row-name { font-size: 13px; color: #F5F2EC; transition: color 0.2s; }
-    .dish-row-level { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; flex-shrink: 0; margin-left: 12px; }
   </style>
   <script src="/consent.js" defer></script>
 </head>
@@ -160,78 +161,40 @@
   <input class="gate-input" id="gate-input" type="password" placeholder="password" onkeydown="if(event.key==='Enter')checkPassword()" />
   <button class="gate-btn" onclick="checkPassword()">Enter</button>
   <div class="gate-error" id="gate-error">Incorrect password. Try again.</div>
-  <div class="gate-note">goldpanapp.com</div><div class="gate-note" style="margin-top:16px;color:#F5F2EC;font-size:13px;">You are accessing an unofficial build of Goldpan.</div>
+  <div class="gate-note">goldpanapp.com</div>
+  <div class="gate-note" style="margin-top:16px;color:#F5F2EC;font-size:13px;">You are accessing an unofficial build of Goldpan.</div>
 </div>
 
 <div class="app" id="app">
   <header>
-    <div style="display:flex;align-items:center;gap:16px;">
-      <a href="https://goldpanapp.com" class="logo">Goldpan <span>DISCOVER</span></a>
-    </div>
+    <a href="https://goldpanapp.com" class="logo">Goldpan <span>DISCOVER</span></a>
     <div class="header-stats">
-      <div class="hstat"><div class="hstat-num" id="stat-dish-count">–</div><div class="hstat-label">Dishes</div></div>
       <div class="hstat"><div class="hstat-num" id="stat-rest-count">–</div><div class="hstat-label">Restaurants</div></div>
+      <div class="hstat"><div class="hstat-num" id="stat-dish-count">–</div><div class="hstat-label">Dishes Tracked</div></div>
     </div>
   </header>
 
   <div class="hero">
     <p class="hero-label">Birmingham Food Intelligence</p>
-    <h1 class="hero-title">Find Food<br />You Can Trust.</h1>
-    <p class="hero-sub" id="hero-sub">Search Birmingham restaurants. Filter by dietary need, allergen, or transparency level.</p>
+    <h1 class="hero-title">Know What's<br />In Your Food.</h1>
+    <p class="hero-sub" id="hero-sub">Browse Birmingham restaurants. Click any one to explore its menu, ingredients, and transparency rating.</p>
   </div>
 
-  <div class="tab-switcher">
-    <button class="tab-btn active" id="tab-dishes" onclick="switchTab('dishes')">Dishes</button>
-    <button class="tab-btn" id="tab-restaurants" onclick="switchTab('restaurants')">Restaurants</button>
-  </div>
-
-  <div id="dishes-view">
   <div class="search-bar">
-    <input class="search-input" id="search" placeholder="Search dishes, restaurants, ingredients..." oninput="render()" />
+    <input class="search-input" id="rest-search" placeholder="Search restaurants or locations..." oninput="renderRestaurants()" />
     <div class="filter-btns">
-      <button class="fbtn active" id="btn-all" onclick="setFilter('all', this)">All</button>
-      <button class="fbtn" onclick="setFilter('vegan', this)">Vegan</button>
-      <button class="fbtn" onclick="setFilter('vegetarian', this)">Vegetarian</button>
-      <button class="fbtn" onclick="setFilter('gluten-free', this)">Gluten Free</button>
-      <button class="fbtn" onclick="setFilter('no-dairy', this)">No Dairy</button>
-      <button class="fbtn" onclick="setFilter('no-nuts', this)">No Nuts</button>
-      <button class="fbtn" onclick="setFilter('no-shellfish', this)">No Shellfish</button>
-      <button class="fbtn" onclick="setFilter('no-fish', this)">No Fish</button>
-      <button class="fbtn" onclick="setFilter('60plus', this)">Moderate+</button>
+      <button class="fbtn active" id="rbtn-all" onclick="setRestFilter('all', this)">All</button>
+      <button class="fbtn" onclick="setRestFilter('high', this)">Has High</button>
+      <button class="fbtn" onclick="setRestFilter('moderate', this)">Has Moderate</button>
+      <button class="fbtn" onclick="setRestFilter('building', this)">Building</button>
     </div>
-  </div>
-
-  <div class="active-filters-bar" id="active-filters-bar"></div>
-
-  <div class="legend-bar">
-    <span class="legend-item"><span class="legend-dot" style="background:#4CAF76"></span>High Transparency</span>
-    <span class="legend-item"><span class="legend-dot" style="background:#C9A84C"></span>Moderate Transparency</span>
-    <span class="legend-item"><span class="legend-dot" style="background:#9A9488"></span>Building Transparency</span>
   </div>
 
   <div class="results-bar">
-    <span class="results-count" id="results-count">Loading...</span>
-    <button class="sort-btn" onclick="toggleSort()">Sort: <span id="sort-label">Highest First</span></button>
+    <span class="results-count" id="rest-results-count">Loading...</span>
   </div>
 
-  <div class="grid" id="grid"></div>
-  </div><!-- /#dishes-view -->
-
-  <div id="restaurants-view">
-    <div class="search-bar">
-      <input class="search-input" id="rest-search" placeholder="Search restaurants or locations..." oninput="renderRestaurants()" />
-      <div class="filter-btns">
-        <button class="fbtn active" id="rbtn-all" onclick="setRestFilter('all', this)">All</button>
-        <button class="fbtn" onclick="setRestFilter('high', this)">Has High</button>
-        <button class="fbtn" onclick="setRestFilter('moderate', this)">Has Moderate</button>
-        <button class="fbtn" onclick="setRestFilter('building', this)">Building</button>
-      </div>
-    </div>
-    <div class="rest-results-bar">
-      <span class="rest-results-count" id="rest-results-count">Loading...</span>
-    </div>
-    <div class="rest-grid" id="rest-grid"></div>
-  </div>
+  <div class="rest-grid" id="rest-grid"></div>
 
   <footer class="site-footer">
     <div class="footer-logo">Goldpan™</div>
@@ -244,27 +207,22 @@
   </footer>
 
   <div class="detail-panel" id="detail-panel">
-    <button class="detail-close" onclick="closeDetail()">x</button>
+    <button class="detail-back" id="detail-back" onclick="goBackToRestaurant()">← Back</button>
+    <button class="detail-close" onclick="closeDetail()">✕</button>
     <div id="detail-content"></div>
   </div>
 </div>
 
 <script>
 var dishes = [];
-var activeFilters = [];
-var sortHigh = true;
-var selectedId = null;
+var restaurants = [];
+var restFilter = 'all';
+var currentRestaurantIdx = null;
+var panelDishFilter = 'all';
+var panelDishSearch = '';
 
-// Map level string to a display percentage for the bar width
-function displayPct(level) {
-  if (!level) return 35;
-  var l = level.toLowerCase();
-  if (l === 'high') return 90;
-  if (l === 'moderate') return 70;
-  return 35;
-}
+// ── Helpers ──────────────────────────────────────────────────────────────────
 
-// Map level string to sort weight
 function levelWeight(level) {
   if (!level) return 0;
   var l = level.toLowerCase();
@@ -287,211 +245,13 @@ function levelLabel(lk) {
   return 'Building Transparency';
 }
 
-function updateStats() {
-  var dishCount = dishes.length;
-  var restCount = (new Set(dishes.map(function(d){ return d.restaurant; }))).size;
-  var el = document.getElementById('stat-dish-count');
-  if (el) el.textContent = dishCount;
-  el = document.getElementById('stat-rest-count');
-  if (el) el.textContent = restCount;
-  el = document.getElementById('hero-sub');
-  if (el) el.textContent = 'Search ' + dishCount + ' dishes across ' + restCount + ' Birmingham restaurants. Filter by dietary need, allergen, or transparency level.';
+function bestLevel(r) {
+  if (r.high > 0) return 'high';
+  if (r.moderate > 0) return 'moderate';
+  return 'building';
 }
 
-function loadDishes() {
-  fetch('../dishes.json')
-    .then(function(r) { return r.json(); })
-    .then(function(data) {
-      dishes = data;
-      updateStats();
-      var app = document.getElementById('app');
-      if (app && app.classList.contains('unlocked')) {
-        render();
-      }
-    })
-    .catch(function(e) {
-      console.error('Failed to load dishes.json:', e);
-      var grid = document.getElementById('grid');
-      if (grid) grid.innerHTML = '<div class="empty"><div class="empty-title">Could not load data</div><p>Please try refreshing the page.</p></div>';
-    });
-}
-
-// Start loading immediately so data is ready when the gate is passed
-loadDishes();
-
-function checkPassword() {
-  var val = document.getElementById('gate-input').value;
-  var err = document.getElementById('gate-error');
-  var input = document.getElementById('gate-input');
-  if (val === 'staygold') {
-    document.getElementById('gate').style.display = 'none';
-    document.getElementById('app').classList.add('unlocked');
-    render();
-  } else {
-    input.classList.add('error');
-    err.classList.add('visible');
-    setTimeout(function() {
-      input.classList.remove('error');
-      err.classList.remove('visible');
-      input.value = '';
-    }, 2000);
-  }
-}
-
-function setFilter(f, btn) {
-  if (f === 'all') {
-    activeFilters = [];
-    document.querySelectorAll('.fbtn').forEach(function(b) { b.classList.remove('active'); });
-    document.getElementById('btn-all').classList.add('active');
-  } else {
-    document.getElementById('btn-all').classList.remove('active');
-    var idx = activeFilters.indexOf(f);
-    if (idx > -1) { activeFilters.splice(idx, 1); btn.classList.remove('active'); }
-    else { activeFilters.push(f); btn.classList.add('active'); }
-    if (activeFilters.length === 0) document.getElementById('btn-all').classList.add('active');
-  }
-  updateActiveFiltersBar();
-  render();
-}
-
-function updateActiveFiltersBar() {
-  var bar = document.getElementById('active-filters-bar');
-  if (activeFilters.length === 0) { bar.classList.remove('visible'); bar.innerHTML = ''; return; }
-  bar.classList.add('visible');
-  var labels = { 'vegan':'Vegan','vegetarian':'Vegetarian','gluten-free':'Gluten Free','no-dairy':'No Dairy','no-nuts':'No Nuts','no-shellfish':'No Shellfish','no-fish':'No Fish','60plus':'Moderate+' };
-  bar.innerHTML = '<span style="font-size:11px;color:#9A9488;letter-spacing:0.08em;text-transform:uppercase;">Active filters:</span>' +
-    activeFilters.map(function(f) { return '<span class="active-filter-tag">' + (labels[f]||f) + '</span>'; }).join('') +
-    '<button class="clear-all" onclick="clearAll()">Clear All</button>';
-}
-
-function clearAll() {
-  activeFilters = [];
-  document.querySelectorAll('.fbtn').forEach(function(b) { b.classList.remove('active'); });
-  document.getElementById('btn-all').classList.add('active');
-  updateActiveFiltersBar();
-  render();
-}
-
-function toggleSort() {
-  sortHigh = !sortHigh;
-  document.getElementById('sort-label').textContent = sortHigh ? 'Highest First' : 'Lowest First';
-  render();
-}
-
-function getFiltered() {
-  var q = document.getElementById('search').value.toLowerCase();
-  return dishes.filter(function(d) {
-    var ingText = (d.ingredients || []).join(' ').toLowerCase();
-    if (q && d.name.toLowerCase().indexOf(q)===-1 && d.restaurant.toLowerCase().indexOf(q)===-1 && ingText.indexOf(q)===-1) return false;
-    if (activeFilters.length === 0) return true;
-    return activeFilters.every(function(f) {
-      if (f==='vegan') return (d.tags||[]).indexOf('vegan')>-1;
-      if (f==='vegetarian') return (d.tags||[]).indexOf('vegetarian')>-1||(d.tags||[]).indexOf('vegan')>-1;
-      if (f==='gluten-free') return (d.tags||[]).indexOf('gluten-free')>-1;
-      if (f==='no-dairy') return (d.allergens||'').toLowerCase().indexOf('dairy')===-1;
-      if (f==='no-nuts') return (d.allergens||'').toLowerCase().indexOf('tree nuts')===-1&&(d.allergens||'').toLowerCase().indexOf('nuts')===-1;
-      if (f==='no-shellfish') return (d.allergens||'').toLowerCase().indexOf('shellfish')===-1;
-      if (f==='no-fish') return (d.allergens||'').toLowerCase().indexOf('fish')===-1;
-      if (f==='60plus') { var l = (d.level||'').toLowerCase(); return l==='high'||l==='moderate'; }
-      return true;
-    });
-  }).sort(function(a,b){
-    var wa = levelWeight(a.level), wb = levelWeight(b.level);
-    return sortHigh ? wb - wa : wa - wb;
-  });
-}
-
-function render() {
-  var filtered = getFiltered();
-  document.getElementById('results-count').textContent = filtered.length + ' dish' + (filtered.length!==1?'es':'');
-  var grid = document.getElementById('grid');
-  if (filtered.length === 0) {
-    grid.innerHTML = '<div class="empty"><div class="empty-title">No dishes found</div><p>Try adjusting your search or filters.</p></div>';
-    return;
-  }
-  grid.innerHTML = filtered.map(function(d) {
-    var lk = levelKey(d);
-    var pct = displayPct(d.level);
-    var tagsHtml = (d.tags||[]).length ? '<div class="card-tags">' + d.tags.map(function(t) {
-      var cls = t==='vegan'?'ctag-vegan':t==='vegetarian'?'ctag-vegetarian':'ctag-gluten';
-      return '<span class="ctag '+cls+'">'+t+'</span>';
-    }).join('') + '</div>' : '';
-    return '<div class="card'+(selectedId===d.id?' selected':'')+'" onclick="openDetail(\''+d.id+'\')">'+
-      '<div class="card-restaurant">'+d.restaurant+' · '+d.location+'</div>'+
-      '<div class="card-name">'+d.name+'</div>'+
-      '<div class="card-level '+lk+'">'+levelLabel(lk)+'</div>'+
-      '<div class="card-bar"><div class="card-bar-fill '+lk+'" style="width:'+pct+'%"></div></div>'+
-      tagsHtml+
-      '</div>';
-  }).join('');
-}
-
-function openDetail(id) {
-  selectedId = id;
-  render();
-  var d = dishes.find(function(x){ return x.id===id; });
-  if (!d) return;
-  var lk = levelKey(d);
-  var tagsHtml = (d.tags||[]).length ? '<div class="detail-section-title">Dietary Tags</div><div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">' +
-    d.tags.map(function(t) {
-      var cls = t==='vegan'?'ctag-vegan':t==='vegetarian'?'ctag-vegetarian':'ctag-gluten';
-      return '<span class="ctag '+cls+'">'+t+'</span>';
-    }).join('') + '</div>' : '';
-  var ingHtml = (d.ingredients||[]).map(function(i){ return '<span class="ing-chip">'+i+'</span>'; }).join('');
-
-  // Affirmations based on transparency level
-  var affirmations = [];
-  if (lk === 'high') {
-    affirmations = ['Core ingredients clearly named','Sauce and seasoning disclosed','Allergens clearly labeled','Preparation method disclosed'];
-  } else if (lk === 'moderate') {
-    affirmations = ['Core ingredients and key preparation disclosed'];
-  }
-
-  var affirmHtml = affirmations.length ?
-    '<div class="detail-dims">'+
-      '<div class="detail-dims-title">What This Restaurant Disclosed</div>'+
-      affirmations.map(function(a){ return '<div class="dim-text"><span class="dim-dot"></span>'+a+'</div>'; }).join('')+
-    '</div>' : '';
-
-  var optionsHtml = (d.dietary_options && d.dietary_options.toLowerCase() !== 'none' && d.dietary_options.trim())
-    ? '<div class="detail-section-title">Modifications Available</div><div style="font-size:12px;color:#9A9488;padding:12px 16px;background:#111111;border:1px solid #1A1A1A;margin-bottom:20px;line-height:1.6;">'+d.dietary_options+'</div>'
-    : '';
-
-  var allergenText = (d.allergens && d.allergens.toLowerCase() !== 'unknown') ? d.allergens : 'Not on record';
-
-  var metaHtml = '';
-  if (d.hours) metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">Hours: '+d.hours+'</div>';
-  if (d.restaurant_address) metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">'+d.restaurant_address+'</div>';
-  if (d.restaurant_website) metaHtml += '<div style="font-size:12px;margin-bottom:8px;"><a href="'+d.restaurant_website+'" target="_blank" style="color:#C9A84C;text-decoration:none;">Restaurant Website ↗</a></div>';
-  if (d.menu_link) metaHtml += '<div style="font-size:12px;margin-bottom:20px;"><a href="'+d.menu_link+'" target="_blank" style="color:#C9A84C;text-decoration:none;">View Menu ↗</a></div>';
-
-  document.getElementById('detail-content').innerHTML =
-    '<div class="detail-restaurant">'+d.restaurant+' · '+d.location+'</div>'+
-    '<div class="detail-name">'+d.name+'</div>'+
-    '<div class="detail-level-hero '+lk+'">'+levelLabel(lk)+'</div>'+
-    affirmHtml+
-    tagsHtml+
-    optionsHtml+
-    '<div class="detail-section-title">Allergens on Record</div>'+
-    '<div class="allergen-disclaimer">⚠ Allergen data is sourced from public menus and has not been confirmed by the restaurant. Always verify directly with the restaurant before ordering if you have a food allergy or intolerance.</div>'+
-    '<div class="detail-allergens">'+allergenText+'</div>'+
-    '<div class="detail-section-title">Ingredients on Record</div>'+
-    '<div class="detail-ingredients">'+ingHtml+'</div>'+
-    (metaHtml ? '<div class="detail-section-title">Restaurant Info</div>'+metaHtml : '');
-  document.getElementById('detail-panel').classList.add('open');
-}
-
-function closeDetail() {
-  selectedId = null;
-  render();
-  document.getElementById('detail-panel').classList.remove('open');
-}
-
-// ── Restaurants tab ──────────────────────────────────────────────────────────
-
-var viewMode = 'dishes';
-var restaurants = [];
-var restFilter = 'all';
+// ── Data loading ─────────────────────────────────────────────────────────────
 
 function buildRestaurants() {
   var map = {};
@@ -517,15 +277,62 @@ function buildRestaurants() {
   });
 }
 
-function bestLevel(r) {
-  if (r.high > 0) return 'high';
-  if (r.moderate > 0) return 'moderate';
-  return 'building';
+function updateStats() {
+  var restCount = (new Set(dishes.map(function(d){ return d.restaurant; }))).size;
+  var el = document.getElementById('stat-rest-count');
+  if (el) el.textContent = restCount;
+  el = document.getElementById('stat-dish-count');
+  if (el) el.textContent = dishes.length;
+  el = document.getElementById('hero-sub');
+  if (el) el.textContent = 'Browse ' + restCount + ' Birmingham restaurants. Click any one to explore its menu, ingredients, and transparency rating.';
 }
+
+function loadDishes() {
+  fetch('../dishes.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      dishes = data;
+      buildRestaurants();
+      updateStats();
+      var app = document.getElementById('app');
+      if (app && app.classList.contains('unlocked')) {
+        renderRestaurants();
+      }
+    })
+    .catch(function(e) {
+      console.error('Failed to load dishes.json:', e);
+      document.getElementById('rest-grid').innerHTML = '<div class="empty"><div class="empty-title">Could not load data</div><p>Please try refreshing the page.</p></div>';
+    });
+}
+
+loadDishes();
+
+// ── Gate ─────────────────────────────────────────────────────────────────────
+
+function checkPassword() {
+  var val = document.getElementById('gate-input').value;
+  var err = document.getElementById('gate-error');
+  var input = document.getElementById('gate-input');
+  if (val === 'staygold') {
+    document.getElementById('gate').style.display = 'none';
+    document.getElementById('app').classList.add('unlocked');
+    renderRestaurants();
+  } else {
+    input.classList.add('error');
+    err.classList.add('visible');
+    setTimeout(function() {
+      input.classList.remove('error');
+      err.classList.remove('visible');
+      input.value = '';
+    }, 2000);
+  }
+}
+
+// ── Restaurant list ───────────────────────────────────────────────────────────
 
 function setRestFilter(f, btn) {
   restFilter = f;
-  document.querySelectorAll('#restaurants-view .fbtn').forEach(function(b) { b.classList.remove('active'); });
+  document.querySelectorAll('.filter-btns .fbtn').forEach(function(b) { b.classList.remove('active'); });
   btn.classList.add('active');
   renderRestaurants();
 }
@@ -534,7 +341,7 @@ function getFilteredRestaurants() {
   var q = (document.getElementById('rest-search') || {}).value || '';
   q = q.toLowerCase();
   return restaurants.filter(function(r) {
-    if (q && r.name.toLowerCase().indexOf(q) === -1 && (r.location || '').toLowerCase().indexOf(q) === -1) return false;
+    if (q && r.name.toLowerCase().indexOf(q) === -1 && r.location.toLowerCase().indexOf(q) === -1) return false;
     if (restFilter === 'all') return true;
     if (restFilter === 'high') return r.high > 0;
     if (restFilter === 'moderate') return r.moderate > 0;
@@ -544,7 +351,6 @@ function getFilteredRestaurants() {
 }
 
 function renderRestaurants() {
-  if (!restaurants.length) buildRestaurants();
   var filtered = getFilteredRestaurants();
   document.getElementById('rest-results-count').textContent =
     filtered.length + ' restaurant' + (filtered.length !== 1 ? 's' : '');
@@ -558,7 +364,7 @@ function renderRestaurants() {
     var ri = restaurants.indexOf(r);
     var bl = bestLevel(r);
     return '<div class="rest-card" onclick="openRestaurantDetail(' + ri + ')">' +
-      '<div class="rest-card-location">' + (r.location || '') + '</div>' +
+      '<div class="rest-card-location">' + r.location + '</div>' +
       '<div class="rest-card-name">' + r.name + '</div>' +
       '<div class="rest-card-stats">' +
         '<div><div class="rest-card-stat-num" style="color:#F5F2EC">' + r.dishes.length + '</div><div class="rest-card-stat-label">Dishes</div></div>' +
@@ -570,72 +376,178 @@ function renderRestaurants() {
   }).join('');
 }
 
+// ── Restaurant detail panel ───────────────────────────────────────────────────
+
 function openRestaurantDetail(idx) {
+  currentRestaurantIdx = idx;
+  panelDishFilter = 'all';
+  panelDishSearch = '';
   var r = restaurants[idx];
   if (!r) return;
 
-  var sorted = r.dishes.slice().sort(function(a, b) {
-    return levelWeight(b.level) - levelWeight(a.level);
-  });
-  var dishListHtml = sorted.map(function(d) {
-    var lk = levelKey(d);
-    var col = lk === 'high' ? '#4CAF76' : lk === 'moderate' ? '#C9A84C' : '#9A9488';
-    return '<div class="dish-row" onclick="switchToDish(\'' + d.id + '\')">' +
-      '<span class="dish-row-name">' + d.name + '</span>' +
-      '<span class="dish-row-level" style="color:' + col + '">' + levelLabel(lk).replace(' Transparency', '') + '</span>' +
-      '</div>';
-  }).join('');
-
   var metaHtml = '';
-  if (r.hours)   metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">Hours: ' + r.hours + '</div>';
-  if (r.address) metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">' + r.address + '</div>';
-  if (r.website) metaHtml += '<div style="font-size:12px;margin-bottom:6px;"><a href="' + r.website + '" target="_blank" style="color:#C9A84C;text-decoration:none;">Restaurant Website ↗</a></div>';
+  if (r.hours)     metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">Hours: ' + r.hours + '</div>';
+  if (r.address)   metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">' + r.address + '</div>';
+  if (r.website)   metaHtml += '<div style="font-size:12px;margin-bottom:6px;"><a href="' + r.website + '" target="_blank" style="color:#C9A84C;text-decoration:none;">Restaurant Website ↗</a></div>';
   if (r.menu_link) metaHtml += '<div style="font-size:12px;margin-bottom:20px;"><a href="' + r.menu_link + '" target="_blank" style="color:#C9A84C;text-decoration:none;">View Menu ↗</a></div>';
 
   document.getElementById('detail-content').innerHTML =
-    '<div class="detail-restaurant">' + (r.location || '') + '</div>' +
+    '<div class="detail-restaurant">' + r.location + '</div>' +
     '<div class="detail-name">' + r.name + '</div>' +
     '<div style="display:flex;gap:20px;margin-bottom:20px;">' +
       '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#F5F2EC;">' + r.dishes.length + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">Dishes</div></div>' +
-      (r.high     ? '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#4CAF76;">' + r.high + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">High</div></div>' : '') +
+      (r.high     ? '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#4CAF76;">' + r.high     + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">High</div></div>' : '') +
       (r.moderate ? '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#C9A84C;">' + r.moderate + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">Moderate</div></div>' : '') +
     '</div>' +
     (metaHtml ? '<div class="detail-section-title">Restaurant Info</div>' + metaHtml : '') +
-    '<div class="detail-section-title">All Dishes — click to view details</div>' +
-    dishListHtml;
+    '<div class="detail-section-title" style="margin-bottom:10px;">Menu</div>' +
+    '<div class="panel-search-wrap"><input class="panel-search" id="panel-search" placeholder="Search dishes..." oninput="onPanelSearch(this.value)" /></div>' +
+    '<div class="panel-filter-btns">' +
+      '<button class="pfbtn active" id="pfbtn-all"          onclick="setPanelFilter(\'all\',        this)">All</button>' +
+      '<button class="pfbtn"        id="pfbtn-vegan"        onclick="setPanelFilter(\'vegan\',      this)">Vegan</button>' +
+      '<button class="pfbtn"        id="pfbtn-vegetarian"   onclick="setPanelFilter(\'vegetarian\', this)">Vegetarian</button>' +
+      '<button class="pfbtn"        id="pfbtn-gluten-free"  onclick="setPanelFilter(\'gluten-free\',this)">GF</button>' +
+      '<button class="pfbtn"        id="pfbtn-high"         onclick="setPanelFilter(\'high\',       this)">High Only</button>' +
+    '</div>' +
+    '<div id="panel-dish-list"></div>';
+
+  document.getElementById('detail-back').classList.remove('visible');
+  document.getElementById('detail-panel').classList.add('open');
+  renderPanelDishes();
+}
+
+function onPanelSearch(val) {
+  panelDishSearch = val.toLowerCase();
+  renderPanelDishes();
+}
+
+function setPanelFilter(f, btn) {
+  panelDishFilter = f;
+  document.querySelectorAll('.pfbtn').forEach(function(b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+  renderPanelDishes();
+}
+
+function renderPanelDishes() {
+  var r = restaurants[currentRestaurantIdx];
+  if (!r) return;
+
+  var filtered = r.dishes.filter(function(d) {
+    if (panelDishSearch && d.name.toLowerCase().indexOf(panelDishSearch) === -1) return false;
+    if (panelDishFilter === 'all') return true;
+    if (panelDishFilter === 'high') return levelKey(d) === 'high';
+    if (panelDishFilter === 'vegan') return (d.tags || []).indexOf('vegan') > -1;
+    if (panelDishFilter === 'vegetarian') return (d.tags || []).indexOf('vegetarian') > -1 || (d.tags || []).indexOf('vegan') > -1;
+    if (panelDishFilter === 'gluten-free') return (d.tags || []).indexOf('gluten-free') > -1;
+    return true;
+  }).sort(function(a, b) { return levelWeight(b.level) - levelWeight(a.level); });
+
+  var el = document.getElementById('panel-dish-list');
+  if (!el) return;
+  if (!filtered.length) {
+    el.innerHTML = '<div style="padding:20px 0;font-size:13px;color:#9A9488;">No dishes match.</div>';
+    return;
+  }
+  el.innerHTML = filtered.map(function(d) {
+    var lk = levelKey(d);
+    var col = lk === 'high' ? '#4CAF76' : lk === 'moderate' ? '#C9A84C' : '#9A9488';
+    var tagsHtml = (d.tags || []).length
+      ? ' ' + d.tags.map(function(t) {
+          var cls = t === 'vegan' ? 'ctag-vegan' : t === 'vegetarian' ? 'ctag-vegetarian' : 'ctag-gluten';
+          return '<span class="ctag ' + cls + '">' + t + '</span>';
+        }).join(' ')
+      : '';
+    return '<div class="dish-row" onclick="openDishDetail(\'' + d.id + '\')">' +
+      '<div>' +
+        '<div class="dish-row-name">' + d.name + '</div>' +
+        (tagsHtml ? '<div style="margin-top:4px;">' + tagsHtml + '</div>' : '') +
+      '</div>' +
+      '<span class="dish-row-level" style="color:' + col + '">' + levelLabel(lk).replace(' Transparency', '') + '</span>' +
+      '</div>';
+  }).join('');
+}
+
+// ── Dish detail panel ─────────────────────────────────────────────────────────
+
+function openDishDetail(id) {
+  var d = dishes.find(function(x) { return x.id === id; });
+  if (!d) return;
+  var lk = levelKey(d);
+
+  var tagsHtml = (d.tags || []).length
+    ? '<div class="detail-section-title">Dietary Tags</div><div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">' +
+      d.tags.map(function(t) {
+        var cls = t === 'vegan' ? 'ctag-vegan' : t === 'vegetarian' ? 'ctag-vegetarian' : 'ctag-gluten';
+        return '<span class="ctag ' + cls + '">' + t + '</span>';
+      }).join('') + '</div>'
+    : '';
+
+  var affirmations = [];
+  if (lk === 'high') affirmations = ['Core ingredients clearly named', 'Sauce and seasoning disclosed', 'Allergens clearly labeled', 'Preparation method disclosed'];
+  else if (lk === 'moderate') affirmations = ['Core ingredients and key preparation disclosed'];
+
+  var affirmHtml = affirmations.length
+    ? '<div class="detail-dims"><div class="detail-dims-title">What This Restaurant Disclosed</div>' +
+      affirmations.map(function(a) { return '<div class="dim-text"><span class="dim-dot"></span>' + a + '</div>'; }).join('') +
+      '</div>'
+    : '';
+
+  var optionsHtml = (d.dietary_options && d.dietary_options.toLowerCase() !== 'none' && d.dietary_options.trim())
+    ? '<div class="detail-section-title">Modifications Available</div><div style="font-size:12px;color:#9A9488;padding:12px 16px;background:#111111;border:1px solid #1A1A1A;margin-bottom:20px;line-height:1.6;">' + d.dietary_options + '</div>'
+    : '';
+
+  var allergenText = (d.allergens && d.allergens.toLowerCase() !== 'unknown') ? d.allergens : 'Not on record';
+  var ingHtml = (d.ingredients || []).map(function(i) { return '<span class="ing-chip">' + i + '</span>'; }).join('');
+
+  var metaHtml = '';
+  if (d.hours)              metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">Hours: ' + d.hours + '</div>';
+  if (d.restaurant_address) metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">' + d.restaurant_address + '</div>';
+  if (d.restaurant_website) metaHtml += '<div style="font-size:12px;margin-bottom:8px;"><a href="' + d.restaurant_website + '" target="_blank" style="color:#C9A84C;text-decoration:none;">Restaurant Website ↗</a></div>';
+  if (d.menu_link)          metaHtml += '<div style="font-size:12px;margin-bottom:20px;"><a href="' + d.menu_link + '" target="_blank" style="color:#C9A84C;text-decoration:none;">View Menu ↗</a></div>';
+
+  // Show back button if we came from a restaurant
+  var backBtn = document.getElementById('detail-back');
+  if (currentRestaurantIdx !== null) {
+    backBtn.textContent = '← ' + restaurants[currentRestaurantIdx].name;
+    backBtn.classList.add('visible');
+  } else {
+    backBtn.classList.remove('visible');
+  }
+
+  document.getElementById('detail-content').innerHTML =
+    '<div class="detail-restaurant">' + d.restaurant + ' · ' + d.location + '</div>' +
+    '<div class="detail-name">' + d.name + '</div>' +
+    '<div class="detail-level-hero ' + lk + '">' + levelLabel(lk) + '</div>' +
+    affirmHtml +
+    tagsHtml +
+    optionsHtml +
+    '<div class="detail-section-title">Allergens on Record</div>' +
+    '<div class="allergen-disclaimer">⚠ Allergen data is sourced from public menus and has not been confirmed by the restaurant. Always verify directly with the restaurant before ordering if you have a food allergy or intolerance.</div>' +
+    '<div class="detail-allergens">' + allergenText + '</div>' +
+    '<div class="detail-section-title">Ingredients on Record</div>' +
+    '<div class="detail-ingredients">' + ingHtml + '</div>' +
+    (metaHtml ? '<div class="detail-section-title">Restaurant Info</div>' + metaHtml : '');
 
   document.getElementById('detail-panel').classList.add('open');
 }
 
-function switchToDish(id) {
-  closeDetail();
-  switchTab('dishes');
-  setTimeout(function() { openDetail(id); }, 80);
-}
-
-function switchTab(tab) {
-  viewMode = tab;
-  var dishesView = document.getElementById('dishes-view');
-  var restsView  = document.getElementById('restaurants-view');
-
-  document.getElementById('tab-dishes').classList.toggle('active', tab === 'dishes');
-  document.getElementById('tab-restaurants').classList.toggle('active', tab === 'restaurants');
-  closeDetail();
-
-  if (tab === 'dishes') {
-    dishesView.style.display = '';
-    restsView.classList.remove('active');
-  } else {
-    dishesView.style.display = 'none';
-    restsView.classList.add('active');
-    buildRestaurants();
-    renderRestaurants();
+function goBackToRestaurant() {
+  if (currentRestaurantIdx !== null) {
+    openRestaurantDetail(currentRestaurantIdx);
   }
 }
+
+function closeDetail() {
+  document.getElementById('detail-panel').classList.remove('open');
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeDetail();
+});
 </script>
 
 <div class="survey-overlay" id="survey-overlay">
-  <button class="survey-dismiss" onclick="dismissSurvey()">x</button>
+  <button class="survey-dismiss" onclick="dismissSurvey()">✕</button>
   <div class="survey-label">Quick Question</div>
   <div class="survey-question">What matters most to you when choosing where to eat?</div>
   <div class="survey-options">
@@ -663,7 +575,7 @@ function selectSurvey(btn, answer) {
   btn.classList.add('selected');
   document.getElementById('survey-thanks').style.display = 'block';
   localStorage.setItem('gp_survey_done', '1');
-  if (typeof gtag !== 'undefined') gtag('event','survey_response',{event_category:'Discover Survey',event_label:answer});
+  if (typeof gtag !== 'undefined') gtag('event', 'survey_response', { event_category: 'Discover Survey', event_label: answer });
   setTimeout(dismissSurvey, 2800);
 }
 setTimeout(function() {
@@ -675,64 +587,23 @@ setTimeout(function() {
   }
 }, 30000);
 
-// Persist active filters across visits
-(function() {
-  try {
-    var saved = localStorage.getItem('gp_filters');
-    if (saved) {
-      var parsed = JSON.parse(saved);
-      if (Array.isArray(parsed) && parsed.length) {
-        activeFilters = parsed;
-        document.addEventListener('DOMContentLoaded', function() {
-          document.getElementById('btn-all').classList.remove('active');
-          parsed.forEach(function(f) {
-            var btn = document.querySelector('[onclick*="\''+f+'\'"]');
-            if (btn) btn.classList.add('active');
-          });
-          updateActiveFiltersBar();
-        });
-      }
-    }
-  } catch(e) {}
-  var origSetFilter = window.setFilter;
-  window.setFilter = function(f, btn) {
-    origSetFilter(f, btn);
-    try { localStorage.setItem('gp_filters', JSON.stringify(activeFilters)); } catch(e) {}
-  };
-  var origClearAll = window.clearAll;
-  window.clearAll = function() {
-    origClearAll();
-    try { localStorage.removeItem('gp_filters'); } catch(e) {}
-  };
-})();
-
-// Escape key closes detail panel
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') closeDetail();
-});
-</script>
-
-<script>
+// Analytics
 (function(){
-  var _sf = window.setFilter;
-  window.setFilter = function(filterValue, btn){
-    if(typeof gtag !== 'undefined') gtag('event','filter_selected',{filter_name:filterValue,filter_state:(btn&&btn.classList.contains('active'))?'deselected':'selected'});
-    return _sf.apply(this, arguments);
-  };
-  var _od = window.openDetail;
-  window.openDetail = function(id){
-    if(typeof gtag !== 'undefined'){
-      var d = (window.dishes||[]).find(function(x){ return x.id===id; });
-      if(d) gtag('event','dish_card_clicked',{dish_name:d.name,restaurant_name:d.restaurant,transparency_level:levelKey(d)});
-    }
-    return _od.apply(this, arguments);
-  };
   window.addEventListener('load', function(){
-    var si = document.querySelector('#search');
-    if(si){ var sb; si.addEventListener('input',function(){ clearTimeout(sb); var q=this.value.trim(); sb=setTimeout(function(){ if(q.length>=2&&typeof gtag!=='undefined') gtag('event','search_performed',{search_term:q}); },800); }); }
+    var si = document.querySelector('#rest-search');
+    if (si) {
+      var sb;
+      si.addEventListener('input', function(){
+        clearTimeout(sb);
+        var q = this.value.trim();
+        sb = setTimeout(function(){
+          if (q.length >= 2 && typeof gtag !== 'undefined') gtag('event', 'restaurant_search', { search_term: q });
+        }, 800);
+      });
+    }
     var p = new URLSearchParams(window.location.search);
     var src = p.get('utm_source');
-    if(src&&typeof gtag!=='undefined') gtag('event','partner_referral_landed',{partner_name:src,referral_medium:p.get('utm_medium')||'unknown'});
+    if (src && typeof gtag !== 'undefined') gtag('event', 'partner_referral_landed', { partner_name: src, referral_medium: p.get('utm_medium') || 'unknown' });
   });
 })();
 </script>
