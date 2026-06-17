@@ -644,6 +644,15 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') { closeDetail(); }
 });
 
+// Auto-unlock if already authenticated in this session
+(function() {
+  if (sessionStorage.getItem('gp_unlocked') === '1') {
+    document.getElementById('gate').style.display = 'none';
+    document.getElementById('app').classList.add('unlocked');
+    renderDishes();
+  }
+})();
+
 // Restore saved filters
 (function() {
   try {
