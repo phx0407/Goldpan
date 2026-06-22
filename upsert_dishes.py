@@ -123,7 +123,9 @@ def build_dish_level_rows(data):
             dish.get("allergen_summary", "Unknown"),
             TODAY,                              # Last_Updated
             data.get("restaurant_website", ""), # Restaurant_Website
-            dish.get("category", ""),           # Category
+            "",                                 # Status (col 16 — managed in sheet)
+            "",                                 # Version (col 17 — managed in sheet)
+            dish.get("category", ""),           # Category (col 18)
         ])
     return rows
 
