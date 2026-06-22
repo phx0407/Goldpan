@@ -7958,5 +7958,622 @@
       "burger bun"
     ],
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "id": "D470",
+    "name": "Chinese Duck Nachos",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Wheat (wontons), Dairy (kimchi queso, cotija cheese). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "wontons",
+      "duck",
+      "kimchi queso",
+      "cilantro",
+      "onion",
+      "cotija cheese",
+      "jalapeño slice"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D471",
+    "name": "Fried Spring Rolls",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Wheat (spring roll wrapper). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "spring roll wrapper",
+      "cabbage",
+      "carrots",
+      "onion",
+      "sweet chili sauce"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D472",
+    "name": "Korean-Fried Cauliflower",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Wheat (frying batter likely), Sesame (sesame seeds). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "cauliflower",
+      "garlic-ginger sauce",
+      "green onion",
+      "sesame seeds"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D473",
+    "name": "House Salad",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: No major allergens identified from menu description. Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "iceberg lettuce",
+      "carrots",
+      "carrot-ginger dressing"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D474",
+    "name": "Lettuce Wraps",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Tree Nuts (nuts), Soy (tofu option). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "lettuce",
+      "tofu or chicken",
+      "carrots",
+      "nuts",
+      "yum-yum sauce",
+      "onion",
+      "shiitake mushrooms"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D475",
+    "name": "West Wings",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Wheat/Soy (ssamjang). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "chicken wings",
+      "yum-yum sauce",
+      "ssamjang hot sauce"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D476",
+    "name": "Blistered Shishito Peppers",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (sriracha yogurt). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "shishito peppers",
+      "lemon-flake salt",
+      "sriracha yogurt"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D477",
+    "name": "Grilled Short Ribs",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Soy (house sauce likely). Sesame (sesame seeds). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "short ribs",
+      "house sauce",
+      "green onion",
+      "sesame seeds"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D478",
+    "name": "Fried Soft Shell Crab Bao",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Shellfish (soft shell crab), Wheat (bao bun). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "bao bun",
+      "soft shell crab",
+      "yum-yum sauce",
+      "sweet-onion slaw",
+      "jalapeño"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D479",
+    "name": "Smoked Pork Belly Bao",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Wheat (bao bun). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "bao bun",
+      "pork belly",
+      "house sauce",
+      "pickles",
+      "green onion"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D480",
+    "name": "Char-Grilled Short Rib Bao",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Wheat (bao bun), Soy (house sauce likely). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "bao bun",
+      "short rib",
+      "house sauce",
+      "ginger-scallion relish"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D481",
+    "name": "Fried Mushroom Bao",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Wheat (bao bun), Egg (garlic mayo likely). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "bao bun",
+      "portobello mushroom",
+      "garlic mayo",
+      "green onion"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D482",
+    "name": "Pan-Seared Salmon",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens based on visible menu description: Fish (salmon), Dairy (lemongrass-soy butter, parmesan risotto). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "salmon",
+      "lemongrass-soy butter",
+      "grilled asparagus",
+      "parmesan risotto"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D483",
+    "name": "Kobe Burger",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Wheat (bun), Dairy (muenster cheese), Egg (garlic mayo). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "beef patty",
+      "burger bun",
+      "onion-jam",
+      "garlic mayo",
+      "muenster cheese",
+      "pickled shiitakes",
+      "curly fries"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D484",
+    "name": "Spicy Garlic Noodles and Gulf Shrimp",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Shellfish (shrimp), Wheat (noodles), Soy (mongolian sauce). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "gulf shrimp",
+      "noodles",
+      "onion",
+      "peppers",
+      "fried garlic",
+      "red pepper paste",
+      "mongolian sauce"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D485",
+    "name": "Fried Katsu Chicken",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Wheat (katsu breading). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "chicken",
+      "curry mustard",
+      "house sauce",
+      "green onion",
+      "mixed vegetables",
+      "rice"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D486",
+    "name": "Mongolian Ribeye",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens based on visible menu description: Soy (mongolian sauce). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "ribeye",
+      "green beans",
+      "rice"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D487",
+    "name": "Teriyaki Chicken Rice Bowl",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Soy (teriyaki sauce). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "chicken",
+      "rice",
+      "teriyaki sauce",
+      "yum-yum sauce",
+      "carrot",
+      "green onion",
+      "pineapple kimchi"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D488",
+    "name": "Vegetable Bowl",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": "Allergens based on visible menu description: Soy (tofu, yum-yum sauce). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "rice",
+      "wok fired tofu",
+      "mixed vegetables",
+      "green onion",
+      "cucumber kimchi",
+      "fried cauliflower",
+      "shishito peppers",
+      "yum-yum sauce"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D489",
+    "name": "Mongolian Beef Rice Bowl",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Soy (mongolian sauce). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "beef",
+      "rice",
+      "mongolian sauce",
+      "yum-yum sauce",
+      "carrot",
+      "cabbage kimchi",
+      "green onion"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D490",
+    "name": "Tempura Fried Shrimp Rice Bowl",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Shellfish (shrimp), Wheat (tempura batter). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "shrimp",
+      "rice",
+      "house sauce",
+      "yum-yum sauce",
+      "carrot",
+      "cilantro",
+      "cucumber kimchi",
+      "green onion",
+      "sesame seeds"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D491",
+    "name": "Tempura Fried Soft-Shell Crab Rice Bowl",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Shellfish (soft shell crab), Wheat (tempura batter). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "soft shell crab",
+      "rice",
+      "house sauce",
+      "yum-yum sauce",
+      "carrot",
+      "crab salad",
+      "cucumber kimchi",
+      "green onion",
+      "sesame seeds"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D492",
+    "name": "Japanese Cocktail",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "No allergen information provided. Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "cognac",
+      "orgeat",
+      "bitters",
+      "lemon twist"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D493",
+    "name": "Mr West",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "No allergen information provided. Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "tequila",
+      "lemongrass",
+      "dry vermouth",
+      "lime",
+      "jalapeño"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D494",
+    "name": "Masala Mule",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "No allergen information provided. Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "dark rum",
+      "ginger",
+      "chai",
+      "lemon",
+      "soda"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D495",
+    "name": "East 75",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "No allergen information provided. Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "gin",
+      "thai basil",
+      "orange liqueur",
+      "lime",
+      "cava"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D496",
+    "name": "Silk Road",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "No allergen information provided. Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "rye whiskey",
+      "tamarind",
+      "lime",
+      "angostura bitters"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D497",
+    "name": "Osaka Spritz",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "No allergen information provided. Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com",
+    "ingredients": [
+      "vodka",
+      "lychee",
+      "coconut",
+      "hibiscus",
+      "lemon",
+      "rosé"
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
   }
 ]
