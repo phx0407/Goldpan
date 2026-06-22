@@ -1,0 +1,4663 @@
+{
+  "restaurant_id": "R021",
+  "restaurant_name": "Abhi Eatery and Bar",
+  "location": "Mountain Brook, AL",
+  "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
+  "restaurant_website": "https://www.abhieatery.com",
+  "menu_link": "https://www.abhieatery.com/eat",
+  "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
+  "dishes": [
+    {
+      "dish_id": "D557",
+      "dish_name": "Momos",
+      "ingredients": [
+        {
+          "name": "turkey",
+          "role": "protein option",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "pork",
+          "role": "protein option",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "dumpling wrapper",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "Alabama tomato vinaigrette",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains gluten",
+      "menu_price": "$10",
+      "core_clarity": 8,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 5,
+      "prep_clarity": 6,
+      "total_score": 68,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Protein choice turkey or pork",
+      "category": "dumpling"
+    },
+    {
+      "dish_id": "D558",
+      "dish_name": "Pan Fried Momos",
+      "ingredients": [
+        {
+          "name": "turkey",
+          "role": "protein option",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "pork",
+          "role": "protein option",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "dumpling wrapper",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "Alabama tomato vinaigrette",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains gluten",
+      "menu_price": "$11",
+      "core_clarity": 8,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 5,
+      "prep_clarity": 8,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Pan fried version of momos",
+      "category": "dumpling"
+    },
+    {
+      "dish_id": "D559",
+      "dish_name": "Lumpia",
+      "ingredients": [
+        {
+          "name": "turkey",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "carrots",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "celery",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "water chestnuts",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "house sweet chili sauce",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains gluten (wrapper)",
+      "menu_price": "$10",
+      "core_clarity": 8,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 5,
+      "prep_clarity": 6,
+      "total_score": 67,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Filipino spring roll",
+      "category": "appetizer"
+    },
+    {
+      "dish_id": "D560",
+      "dish_name": "Edamame",
+      "ingredients": [
+        {
+          "name": "edamame",
+          "role": "main",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "Himalayan pink salt",
+          "role": "seasoning",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free",
+        "vegan"
+      ],
+      "allergen_summary": "Contains soy",
+      "menu_price": "$9",
+      "core_clarity": 9,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "GF marked on menu",
+      "category": "appetizer"
+    },
+    {
+      "dish_id": "D561",
+      "dish_name": "Spicy Edamame",
+      "ingredients": [
+        {
+          "name": "edamame",
+          "role": "main",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "Himalayan pink salt",
+          "role": "seasoning",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free",
+        "vegan"
+      ],
+      "allergen_summary": "Contains soy",
+      "menu_price": "$12",
+      "core_clarity": 8,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 7,
+      "prep_clarity": 8,
+      "total_score": 80,
+      "transparency_level": "Moderate Transparency",
+      "notes": "GF marked; spice preparation not detailed",
+      "category": "appetizer"
+    },
+    {
+      "dish_id": "D562",
+      "dish_name": "Tempura Fried Green Beans",
+      "ingredients": [
+        {
+          "name": "green beans",
+          "role": "main",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tempura batter",
+          "role": "coating",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "togarashi sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergen_summary": "Contains gluten",
+      "menu_price": "$10",
+      "core_clarity": 8,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 6,
+      "prep_clarity": 8,
+      "total_score": 73,
+      "transparency_level": "Moderate Transparency",
+      "notes": "",
+      "category": "appetizer"
+    },
+    {
+      "dish_id": "D563",
+      "dish_name": "KFC (Kathmandu Fried Chicken)",
+      "ingredients": [
+        {
+          "name": "chicken",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "house sweet chili sauce",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains gluten (batter)",
+      "menu_price": "$12",
+      "core_clarity": 6,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 5,
+      "prep_clarity": 7,
+      "total_score": 63,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Batter details not listed",
+      "category": "appetizer"
+    },
+    {
+      "dish_id": "D564",
+      "dish_name": "Beer Batter Eggplant",
+      "ingredients": [
+        {
+          "name": "eggplant",
+          "role": "main",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "beer batter",
+          "role": "coating",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "togarashi sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergen_summary": "Contains gluten",
+      "menu_price": "$9",
+      "core_clarity": 8,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 6,
+      "prep_clarity": 8,
+      "total_score": 73,
+      "transparency_level": "Moderate Transparency",
+      "notes": "",
+      "category": "appetizer"
+    },
+    {
+      "dish_id": "D565",
+      "dish_name": "Chickpea & Shiitake Wrap",
+      "ingredients": [
+        {
+          "name": "chickpeas",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shiitake mushrooms",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "wrap",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "vegetarian",
+        "vegan"
+      ],
+      "allergen_summary": "Contains gluten",
+      "menu_price": "$12",
+      "core_clarity": 7,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 6,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Sauce/seasoning not listed",
+      "category": "wrap"
+    },
+    {
+      "dish_id": "D566",
+      "dish_name": "Udon Noodles",
+      "ingredients": [
+        {
+          "name": "udon noodles",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "ginger scallion sauce",
+          "role": "sauce option",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "peanut sauce",
+          "role": "sauce option",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "peanuts",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "allergen_summary": "Contains gluten; peanut sauce option contains peanuts",
+      "menu_price": "$12",
+      "core_clarity": 7,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 7,
+      "prep_clarity": 6,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Sauce choice: ginger scallion or peanut",
+      "category": "noodles"
+    },
+    {
+      "dish_id": "D567",
+      "dish_name": "Wing Sizzler",
+      "ingredients": [
+        {
+          "name": "chicken wings",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "jalapeno",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "onions",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "red bell peppers",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "green bell peppers",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Unknown",
+      "menu_price": "$18",
+      "core_clarity": 8,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 6,
+      "total_score": 63,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Sauce not listed",
+      "category": "wings"
+    },
+    {
+      "dish_id": "D568",
+      "dish_name": "Tako Salad",
+      "ingredients": [
+        {
+          "name": "steamed octopus",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "steamed"
+        },
+        {
+          "name": "cucumber",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "mint",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "ginger",
+          "role": "flavoring",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tomato",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "peanuts",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "peanuts",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sesame ginger vinaigrette",
+          "role": "dressing",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Contains shellfish, peanuts, sesame",
+      "menu_price": "$15",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "salad"
+    },
+    {
+      "dish_id": "D569",
+      "dish_name": "Tuna Tataki",
+      "ingredients": [
+        {
+          "name": "seared tuna",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "seared"
+        },
+        {
+          "name": "wasabi aioli",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Contains fish, eggs",
+      "menu_price": "$19",
+      "core_clarity": 8,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 85,
+      "transparency_level": "High Transparency",
+      "notes": "GF marked on menu",
+      "category": "appetizer"
+    },
+    {
+      "dish_id": "D570",
+      "dish_name": "Seared Tuna",
+      "ingredients": [
+        {
+          "name": "seared tuna",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "seared"
+        },
+        {
+          "name": "calamansi ponzu",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "citrus",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "jalapeños",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Contains fish",
+      "menu_price": "$19",
+      "core_clarity": 8,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 85,
+      "transparency_level": "High Transparency",
+      "notes": "GF marked on menu",
+      "category": "appetizer"
+    },
+    {
+      "dish_id": "D571",
+      "dish_name": "Belly Dancer",
+      "ingredients": [
+        {
+          "name": "seared salmon belly",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "belly",
+          "preparation": "seared"
+        },
+        {
+          "name": "hiyashi wakame",
+          "role": "side",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Contains fish",
+      "menu_price": "$19",
+      "core_clarity": 8,
+      "sauce_disclosure": 6,
+      "allergen_transparency": 7,
+      "prep_clarity": 8,
+      "total_score": 77,
+      "transparency_level": "Moderate Transparency",
+      "notes": "GF marked on menu",
+      "category": "appetizer"
+    },
+    {
+      "dish_id": "D572",
+      "dish_name": "Unagi",
+      "ingredients": [
+        {
+          "name": "unagi",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish; eel sauce typically contains gluten",
+      "menu_price": "$16",
+      "core_clarity": 7,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 5,
+      "prep_clarity": 7,
+      "total_score": 62,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Eel sauce assumed but not listed",
+      "category": "appetizer"
+    },
+    {
+      "dish_id": "D573",
+      "dish_name": "Spicy Bangkok Salad",
+      "ingredients": [
+        {
+          "name": "organic mixed greens",
+          "role": "base",
+          "type": "organic",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tomatoes",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumbers",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "onions",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "Thai basil",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "mint",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "house citrus dressing",
+          "role": "dressing",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "citrus",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "peanuts",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "peanuts",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free",
+        "vegan"
+      ],
+      "allergen_summary": "Contains peanuts",
+      "menu_price": "",
+      "core_clarity": 9,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 8,
+      "prep_clarity": 8,
+      "total_score": 85,
+      "transparency_level": "High Transparency",
+      "notes": "Protein options: chicken/pork/beef/salmon/tofu",
+      "category": "salad"
+    },
+    {
+      "dish_id": "D574",
+      "dish_name": "Shrimp Salad",
+      "ingredients": [
+        {
+          "name": "organic mixed greens",
+          "role": "base",
+          "type": "organic",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shrimp",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "mint",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "ginger",
+          "role": "flavoring",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tomato",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "peanuts",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "peanuts",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sesame ginger vinaigrette",
+          "role": "dressing",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Contains shellfish, peanuts, sesame",
+      "menu_price": "$18",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "salad"
+    },
+    {
+      "dish_id": "D575",
+      "dish_name": "Abhi's Beer Battered Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tuna",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cream cheese",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "smoked salmon",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "smoked"
+        },
+        {
+          "name": "beer batter",
+          "role": "coating",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "aioli",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sriracha",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish, dairy, gluten, eggs",
+      "menu_price": "$17",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D576",
+      "dish_name": "Bama Crunch",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tuna",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cream cheese",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "masago",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tempura",
+          "role": "coating",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish, dairy, gluten",
+      "menu_price": "$15",
+      "core_clarity": 9,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 8,
+      "prep_clarity": 8,
+      "total_score": 83,
+      "transparency_level": "Moderate Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D577",
+      "dish_name": "Blazer",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "crab",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "Abhi aioli",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, eggs",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 7,
+      "prep_clarity": 8,
+      "total_score": 83,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Topped with avocado and Abhi aioli",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D578",
+      "dish_name": "California Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "crab",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish",
+      "menu_price": "$10",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 87,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D579",
+      "dish_name": "Crunchy Cali",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "crab",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tempura",
+          "role": "coating",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, gluten",
+      "menu_price": "$10",
+      "core_clarity": 9,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 85,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D580",
+      "dish_name": "Crunchy Shrimp",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shrimp tempura",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish, gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "masago",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, fish, gluten",
+      "menu_price": "$12",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D581",
+      "dish_name": "Diplomat",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shrimp tempura",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish, gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "spicy tuna",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "smoked salmon",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "smoked"
+        },
+        {
+          "name": "salmon",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tuna",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "wasabi aioli",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, fish, gluten, eggs",
+      "menu_price": "$17",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D582",
+      "dish_name": "Double Shrimp",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shrimp tempura",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish, gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "steamed shrimp",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "steamed"
+        },
+        {
+          "name": "avocado",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, gluten",
+      "menu_price": "$12",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D583",
+      "dish_name": "Dragons Breath",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "spicy tuna",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shrimp tempura",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish, gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "tuna",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "hot sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish, shellfish, gluten",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D584",
+      "dish_name": "Electric Eel",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "crab",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "smoked eel",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "smoked"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, fish, gluten",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D585",
+      "dish_name": "Wham Bham Birmingham",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shrimp tempura",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish, gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "seared salmon",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "seared"
+        },
+        {
+          "name": "wasabi aioli",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, fish, gluten, eggs",
+      "menu_price": "$17",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D586",
+      "dish_name": "Yuca Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "soy wrap",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "yuca",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "carrots",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "vegetarian",
+        "vegan"
+      ],
+      "allergen_summary": "Contains soy",
+      "menu_price": "$11",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 87,
+      "transparency_level": "High Transparency",
+      "notes": "Vegetarian roll with soy wrap",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D587",
+      "dish_name": "Everest",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "salmon",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tuna",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 87,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D588",
+      "dish_name": "Fire Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "spicy tuna",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "fresh tuna",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "Abhi aioli",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sriracha",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish, eggs",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D589",
+      "dish_name": "Hot Asian",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "crab",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tempura",
+          "role": "coating",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "spicy tuna",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sriracha",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, fish, gluten",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D590",
+      "dish_name": "Magic City Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tempura",
+          "role": "coating",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "cream cheese",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "masago",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "spicy tuna",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "jalapeno",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sriracha",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish, dairy, gluten",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D591",
+      "dish_name": "Rainbow Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "crab",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tuna",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "salmon",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "steamed shrimp",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "steamed"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, fish",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D592",
+      "dish_name": "Salmon, Avocado, Cucumber Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "salmon",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish",
+      "menu_price": "$12",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 87,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D593",
+      "dish_name": "Sexy Lady",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "spicy tuna",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tempura",
+          "role": "coating",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "crab",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "Abhi aioli",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish, shellfish, gluten, eggs",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D594",
+      "dish_name": "Spicy Salmon Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "crab",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "salmon",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sriracha",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, fish, gluten",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D595",
+      "dish_name": "Spicy Shrimp Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shrimp tempura",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish, gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "crab",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "masago",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sriracha",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, fish, gluten",
+      "menu_price": "$15",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D596",
+      "dish_name": "Spicy Tuna Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "seasoned tuna",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "Abhi aioli",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish, eggs",
+      "menu_price": "$10",
+      "core_clarity": 9,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 86,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D597",
+      "dish_name": "Summit",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "salmon",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tuna",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "hamachi",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tobiko",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 87,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D598",
+      "dish_name": "Super Cream Crunch",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cream cheese",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tempura",
+          "role": "coating",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "smoked salmon",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "smoked"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish, dairy, gluten",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D599",
+      "dish_name": "The Villager Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shrimp tempura",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish, gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "smoked salmon",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "smoked"
+        },
+        {
+          "name": "tataki tuna",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "seared"
+        },
+        {
+          "name": "honey sriracha",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "eel sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish, fish, gluten",
+      "menu_price": "$17",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D600",
+      "dish_name": "Tiger Roll",
+      "ingredients": [
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "nori",
+          "role": "wrapper",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "crab",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "filling",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "steamed shrimp",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "steamed"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains shellfish",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 87,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "roll"
+    },
+    {
+      "dish_id": "D601",
+      "dish_name": "Garlic Shrimp Sekuwa",
+      "ingredients": [
+        {
+          "name": "garlic",
+          "role": "flavoring",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shrimp",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "grilled"
+        },
+        {
+          "name": "Korean bbq sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten, soy",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Contains shellfish, soy; Korean BBQ sauce may contain gluten",
+      "menu_price": "$13",
+      "core_clarity": 7,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 6,
+      "prep_clarity": 7,
+      "total_score": 72,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Sekuwa = Nepalese grilled skewer",
+      "category": "sekuwa"
+    },
+    {
+      "dish_id": "D602",
+      "dish_name": "Buddha Bowl",
+      "ingredients": [
+        {
+          "name": "organic mixed greens",
+          "role": "base",
+          "type": "organic",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "edamame",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tomatoes",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "carrots",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tofu",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "ginger scallion sauce",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "premium jasmine rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free",
+        "vegan"
+      ],
+      "allergen_summary": "Contains soy",
+      "menu_price": "$16",
+      "core_clarity": 9,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 86,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "bowl"
+    },
+    {
+      "dish_id": "D603",
+      "dish_name": "Poke Bowl",
+      "ingredients": [
+        {
+          "name": "tuna",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "salmon",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tomato",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "serrano peppers",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shrimp chip",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Contains fish, shellfish",
+      "menu_price": "$18",
+      "core_clarity": 9,
+      "sauce_disclosure": 6,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 82,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Sauce not listed",
+      "category": "bowl"
+    },
+    {
+      "dish_id": "D604",
+      "dish_name": "Spicy Poke Bowl",
+      "ingredients": [
+        {
+          "name": "smoked salmon",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "smoked"
+        },
+        {
+          "name": "spicy tuna",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "avocado",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tomato",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cucumber",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "serrano peppers",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sushi rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "Abhi aioli",
+          "role": "sauce",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shrimp chip",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Contains fish, shellfish, eggs",
+      "menu_price": "$18",
+      "core_clarity": 9,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 87,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "bowl"
+    },
+    {
+      "dish_id": "D605",
+      "dish_name": "Pork Belly Bowl",
+      "ingredients": [
+        {
+          "name": "stir fried pork belly",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "belly",
+          "preparation": "stir-fried"
+        },
+        {
+          "name": "onions",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "bell peppers",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "jalapeno",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "premium jasmine rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Unknown",
+      "menu_price": "$18",
+      "core_clarity": 8,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 6,
+      "prep_clarity": 8,
+      "total_score": 73,
+      "transparency_level": "Moderate Transparency",
+      "notes": "GF marked on menu; sauce not listed",
+      "category": "bowl"
+    },
+    {
+      "dish_id": "D606",
+      "dish_name": "Bunless Burger Bowl Turkey",
+      "ingredients": [
+        {
+          "name": "turkey patty",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "grilled"
+        },
+        {
+          "name": "organic mixed greens",
+          "role": "base",
+          "type": "organic",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tomato",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "onions",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Unknown",
+      "menu_price": "$15",
+      "core_clarity": 8,
+      "sauce_disclosure": 6,
+      "allergen_transparency": 6,
+      "prep_clarity": 8,
+      "total_score": 75,
+      "transparency_level": "Moderate Transparency",
+      "notes": "GF marked on menu",
+      "category": "bowl"
+    },
+    {
+      "dish_id": "D607",
+      "dish_name": "Bulgogi Bowl",
+      "ingredients": [
+        {
+          "name": "Korean bbq sauce",
+          "role": "sauce",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten, soy",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "carrots",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "sesame seed",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "kimchi",
+          "role": "condiment",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "fermented"
+        },
+        {
+          "name": "premium jasmine rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Contains sesame, soy; Korean BBQ sauce may contain gluten",
+      "menu_price": "chicken $17 / beef $19",
+      "core_clarity": 8,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 6,
+      "prep_clarity": 8,
+      "total_score": 75,
+      "transparency_level": "Moderate Transparency",
+      "notes": "GF marked; protein choice chicken or beef",
+      "category": "bowl"
+    },
+    {
+      "dish_id": "D608",
+      "dish_name": "Thukpa",
+      "ingredients": [
+        {
+          "name": "rice noodles",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "chicken broth",
+          "role": "broth",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "carrots",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "spinach",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Unknown",
+      "menu_price": "$12",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 87,
+      "transparency_level": "High Transparency",
+      "notes": "GF marked; Nepalese noodle soup",
+      "category": "noodle bowl"
+    },
+    {
+      "dish_id": "D609",
+      "dish_name": "Ramen Bowl",
+      "ingredients": [
+        {
+          "name": "pork broth",
+          "role": "broth",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "wheat noodles",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "carrots",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "bean sprouts",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shiitake mushrooms",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tree ear mushroom",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "soft boiled egg",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "cut_type": "none",
+          "preparation": "soft boiled"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains gluten, eggs",
+      "menu_price": "$13",
+      "core_clarity": 9,
+      "sauce_disclosure": 9,
+      "allergen_transparency": 8,
+      "prep_clarity": 9,
+      "total_score": 88,
+      "transparency_level": "High Transparency",
+      "notes": "",
+      "category": "noodle bowl"
+    },
+    {
+      "dish_id": "D610",
+      "dish_name": "Vegetarian Ramen",
+      "ingredients": [
+        {
+          "name": "creamy veggie broth",
+          "role": "broth",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tofu",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "rice noodles",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "carrots",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "bean sprouts",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "shiitake mushrooms",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tree ear mushrooms",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "spinach",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free",
+        "vegan"
+      ],
+      "allergen_summary": "Contains soy",
+      "menu_price": "$14",
+      "core_clarity": 9,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 86,
+      "transparency_level": "High Transparency",
+      "notes": "GF marked on menu",
+      "category": "noodle bowl"
+    },
+    {
+      "dish_id": "D611",
+      "dish_name": "Spicy Miso Ramen",
+      "ingredients": [
+        {
+          "name": "bonito broth",
+          "role": "broth",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "wheat noodles",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "carrots",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "spinach",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish, gluten",
+      "menu_price": "$12",
+      "core_clarity": 8,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 7,
+      "prep_clarity": 8,
+      "total_score": 78,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Miso component implied but not detailed",
+      "category": "noodle bowl"
+    },
+    {
+      "dish_id": "D612",
+      "dish_name": "Miso Ramen",
+      "ingredients": [
+        {
+          "name": "bonito broth",
+          "role": "broth",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "wheat noodles",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "carrots",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "spinach",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains fish, gluten",
+      "menu_price": "$12",
+      "core_clarity": 8,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 7,
+      "prep_clarity": 8,
+      "total_score": 78,
+      "transparency_level": "Moderate Transparency",
+      "notes": "",
+      "category": "noodle bowl"
+    },
+    {
+      "dish_id": "D613",
+      "dish_name": "Iron Bowl",
+      "ingredients": [
+        {
+          "name": "spicy chicken broth",
+          "role": "broth",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "rice noodles",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "scallions",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "spinach",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "tree ear mushrooms",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "carrots",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Unknown",
+      "menu_price": "$12",
+      "core_clarity": 8,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 6,
+      "prep_clarity": 8,
+      "total_score": 78,
+      "transparency_level": "Moderate Transparency",
+      "notes": "GF marked on menu",
+      "category": "noodle bowl"
+    },
+    {
+      "dish_id": "D614",
+      "dish_name": "Khao Soi",
+      "ingredients": [
+        {
+          "name": "Northern Thai curry",
+          "role": "broth",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "egg noodles",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten, eggs",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "pickled mustard greens",
+          "role": "condiment",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "pickled"
+        },
+        {
+          "name": "onions",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "fried noodles",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "gluten",
+          "cut_type": "none",
+          "preparation": "fried"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains gluten, eggs",
+      "menu_price": "$15",
+      "core_clarity": 8,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 7,
+      "prep_clarity": 8,
+      "total_score": 77,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Protein not specified on menu",
+      "category": "noodle bowl"
+    },
+    {
+      "dish_id": "D615",
+      "dish_name": "Hangover Ramen",
+      "ingredients": [
+        {
+          "name": "spicy pork broth",
+          "role": "broth",
+          "type": "house",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "ground pork",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "ground",
+          "preparation": "none"
+        },
+        {
+          "name": "shredded pork belly",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "belly",
+          "preparation": "shredded"
+        },
+        {
+          "name": "bamboo shoots",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "pickled egg",
+          "role": "topping",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "cut_type": "none",
+          "preparation": "pickled"
+        },
+        {
+          "name": "scallions",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [],
+      "allergen_summary": "Contains gluten (noodles), eggs",
+      "menu_price": "$18",
+      "core_clarity": 9,
+      "sauce_disclosure": 8,
+      "allergen_transparency": 7,
+      "prep_clarity": 9,
+      "total_score": 86,
+      "transparency_level": "High Transparency",
+      "notes": "Noodle type not specified; assumed wheat ramen",
+      "category": "noodle bowl"
+    },
+    {
+      "dish_id": "D616",
+      "dish_name": "Bangkok Panang Curry",
+      "ingredients": [
+        {
+          "name": "coconut milk",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "bell peppers",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "Thai basil",
+          "role": "herb",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "premium jasmine rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Unknown",
+      "menu_price": "chicken $17 / pork $17 / beef $18 / pork belly $18 / shrimp $20 / tofu $15",
+      "core_clarity": 7,
+      "sauce_disclosure": 7,
+      "allergen_transparency": 6,
+      "prep_clarity": 7,
+      "total_score": 70,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Protein options listed; curry paste details not disclosed",
+      "category": "curry"
+    },
+    {
+      "dish_id": "D617",
+      "dish_name": "Sizzler",
+      "ingredients": [
+        {
+          "name": "red bell peppers",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "green bell peppers",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "onions",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "premium jasmine rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Unknown",
+      "menu_price": "chicken $17 / pork $17 / beef $18 / shrimp $20",
+      "core_clarity": 6,
+      "sauce_disclosure": 4,
+      "allergen_transparency": 5,
+      "prep_clarity": 6,
+      "total_score": 55,
+      "transparency_level": "Building Transparency",
+      "notes": "Sauce not disclosed; protein options listed",
+      "category": "plate"
+    },
+    {
+      "dish_id": "D618",
+      "dish_name": "Balinese Beef Rendang",
+      "ingredients": [
+        {
+          "name": "beef curry",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "braised"
+        },
+        {
+          "name": "premium jasmine rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Unknown",
+      "menu_price": "$22",
+      "core_clarity": 5,
+      "sauce_disclosure": 4,
+      "allergen_transparency": 5,
+      "prep_clarity": 7,
+      "total_score": 52,
+      "transparency_level": "Building Transparency",
+      "notes": "GF marked; curry spice blend not disclosed",
+      "category": "curry"
+    },
+    {
+      "dish_id": "D619",
+      "dish_name": "Nepalese Lamb Curry",
+      "ingredients": [
+        {
+          "name": "slow-cooked lamb",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "slow-cooked"
+        },
+        {
+          "name": "premium jasmine rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "cilantro",
+          "role": "garnish",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "onions",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Unknown",
+      "menu_price": "$26",
+      "core_clarity": 6,
+      "sauce_disclosure": 4,
+      "allergen_transparency": 5,
+      "prep_clarity": 7,
+      "total_score": 55,
+      "transparency_level": "Building Transparency",
+      "notes": "GF marked; curry spice blend not disclosed",
+      "category": "curry"
+    },
+    {
+      "dish_id": "D620",
+      "dish_name": "Royal Kari Malaysian Style Curry",
+      "ingredients": [
+        {
+          "name": "chicken",
+          "role": "protein",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "potatoes",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "carrots",
+          "role": "vegetable",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        },
+        {
+          "name": "premium jasmine rice",
+          "role": "base",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "cut_type": "none",
+          "preparation": "none"
+        }
+      ],
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "allergen_summary": "Unknown",
+      "menu_price": "$21",
+      "core_clarity": 7,
+      "sauce_disclosure": 4,
+      "allergen_transparency": 5,
+      "prep_clarity": 7,
+      "total_score": 58,
+      "transparency_level": "Building Transparency",
+      "notes": "GF assumed; curry sauce not disclosed",
+      "category": "curry"
+    }
+  ]
+}

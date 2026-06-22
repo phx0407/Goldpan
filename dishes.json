@@ -10575,7 +10575,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Contains gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10585,7 +10585,7 @@
       "dumpling wrapper",
       "Alabama tomato vinaigrette"
     ],
-    "category": "dumpling"
+    "category": ""
   },
   {
     "id": "D558",
@@ -10595,7 +10595,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Contains gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10605,7 +10605,7 @@
       "dumpling wrapper",
       "Alabama tomato vinaigrette"
     ],
-    "category": "dumpling"
+    "category": ""
   },
   {
     "id": "D559",
@@ -10615,7 +10615,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Contains gluten (wrapper)",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10639,7 +10639,7 @@
       "vegan"
     ],
     "allergens": "Contains soy",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10660,7 +10660,7 @@
       "vegan"
     ],
     "allergens": "Contains soy",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10680,7 +10680,7 @@
       "vegetarian"
     ],
     "allergens": "Contains gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10699,7 +10699,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Contains gluten (batter)",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10707,7 +10707,7 @@
       "chicken",
       "house sweet chili sauce"
     ],
-    "category": "chicken"
+    "category": ""
   },
   {
     "id": "D564",
@@ -10719,7 +10719,7 @@
       "vegetarian"
     ],
     "allergens": "Contains gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10741,7 +10741,7 @@
       "vegan"
     ],
     "allergens": "Contains gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10750,7 +10750,7 @@
       "shiitake mushrooms",
       "wrap"
     ],
-    "category": "wrap"
+    "category": ""
   },
   {
     "id": "D566",
@@ -10762,7 +10762,7 @@
       "vegetarian"
     ],
     "allergens": "Contains gluten; peanut sauce option contains peanuts",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10771,7 +10771,7 @@
       "ginger scallion sauce",
       "peanut sauce"
     ],
-    "category": "noodles"
+    "category": ""
   },
   {
     "id": "D567",
@@ -10781,7 +10781,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Unknown",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10792,7 +10792,7 @@
       "red bell peppers",
       "green bell peppers"
     ],
-    "category": "wings"
+    "category": ""
   },
   {
     "id": "D568",
@@ -10804,7 +10804,7 @@
       "gluten-free"
     ],
     "allergens": "Contains shellfish, peanuts, sesame",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10819,7 +10819,7 @@
       "cilantro",
       "sesame ginger vinaigrette"
     ],
-    "category": "salad"
+    "category": ""
   },
   {
     "id": "D569",
@@ -10831,7 +10831,7 @@
       "gluten-free"
     ],
     "allergens": "Contains fish, eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10839,7 +10839,7 @@
       "seared tuna",
       "wasabi aioli"
     ],
-    "category": "seafood"
+    "category": ""
   },
   {
     "id": "D570",
@@ -10851,7 +10851,7 @@
       "gluten-free"
     ],
     "allergens": "Contains fish",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10860,7 +10860,7 @@
       "calamansi ponzu",
       "jalapeños"
     ],
-    "category": "seafood"
+    "category": ""
   },
   {
     "id": "D571",
@@ -10872,7 +10872,7 @@
       "gluten-free"
     ],
     "allergens": "Contains fish",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10891,7 +10891,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Contains fish; eel sauce typically contains gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10913,7 +10913,7 @@
       "vegan"
     ],
     "allergens": "Contains peanuts",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10929,7 +10929,7 @@
       "house citrus dressing",
       "peanuts"
     ],
-    "category": "salad"
+    "category": ""
   },
   {
     "id": "D574",
@@ -10941,7 +10941,7 @@
       "gluten-free"
     ],
     "allergens": "Contains shellfish, peanuts, sesame",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10957,7 +10957,7 @@
       "cilantro",
       "sesame ginger vinaigrette"
     ],
-    "category": "salad"
+    "category": ""
   },
   {
     "id": "D575",
@@ -10967,7 +10967,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains fish, dairy, gluten, eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -10982,7 +10982,7 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D576",
@@ -10992,7 +10992,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Contains fish, dairy, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11014,7 +11014,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Contains shellfish, eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11036,7 +11036,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11047,7 +11047,7 @@
       "avocado",
       "cucumber"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D579",
@@ -11057,7 +11057,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11079,7 +11079,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish, fish, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11091,7 +11091,7 @@
       "masago",
       "eel sauce"
     ],
-    "category": "seafood"
+    "category": ""
   },
   {
     "id": "D581",
@@ -11101,7 +11101,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish, fish, gluten, eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11128,7 +11128,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11141,7 +11141,7 @@
       "avocado",
       "eel sauce"
     ],
-    "category": "seafood"
+    "category": ""
   },
   {
     "id": "D583",
@@ -11151,7 +11151,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains fish, shellfish, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11176,7 +11176,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish, fish, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11199,7 +11199,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish, fish, gluten, eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11226,7 +11226,7 @@
       "vegan"
     ],
     "allergens": "Contains soy",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11238,7 +11238,7 @@
       "cucumber",
       "carrots"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D587",
@@ -11248,7 +11248,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains fish",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11270,7 +11270,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains fish, eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11284,7 +11284,7 @@
       "Abhi aioli",
       "sriracha"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D589",
@@ -11294,7 +11294,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish, fish, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11318,7 +11318,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains fish, dairy, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11334,7 +11334,7 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D591",
@@ -11344,7 +11344,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish, fish",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11358,7 +11358,7 @@
       "salmon",
       "steamed shrimp"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D592",
@@ -11368,7 +11368,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains fish",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11379,7 +11379,7 @@
       "avocado",
       "cucumber"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D593",
@@ -11389,7 +11389,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains fish, shellfish, gluten, eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11413,7 +11413,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish, fish, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11427,7 +11427,7 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D595",
@@ -11437,7 +11437,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish, fish, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11452,7 +11452,7 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D596",
@@ -11462,7 +11462,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains fish, eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11474,7 +11474,7 @@
       "cucumber",
       "Abhi aioli"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D597",
@@ -11484,7 +11484,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains fish",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11508,7 +11508,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains fish, dairy, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11530,7 +11530,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish, fish, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11545,7 +11545,7 @@
       "eel sauce",
       "scallions"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D600",
@@ -11555,7 +11555,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains shellfish",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11567,7 +11567,7 @@
       "cucumber",
       "steamed shrimp"
     ],
-    "category": "roll"
+    "category": ""
   },
   {
     "id": "D601",
@@ -11579,7 +11579,7 @@
       "gluten-free"
     ],
     "allergens": "Contains shellfish, soy; Korean BBQ sauce may contain gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11588,7 +11588,7 @@
       "shrimp",
       "Korean bbq sauce"
     ],
-    "category": "sekuwa"
+    "category": ""
   },
   {
     "id": "D602",
@@ -11601,7 +11601,7 @@
       "vegan"
     ],
     "allergens": "Contains soy",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11617,7 +11617,7 @@
       "ginger scallion sauce",
       "premium jasmine rice"
     ],
-    "category": "bowl"
+    "category": ""
   },
   {
     "id": "D603",
@@ -11629,7 +11629,7 @@
       "gluten-free"
     ],
     "allergens": "Contains fish, shellfish",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11643,7 +11643,7 @@
       "sushi rice",
       "shrimp chip"
     ],
-    "category": "bowl"
+    "category": ""
   },
   {
     "id": "D604",
@@ -11655,7 +11655,7 @@
       "gluten-free"
     ],
     "allergens": "Contains fish, shellfish, eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11670,7 +11670,7 @@
       "Abhi aioli",
       "shrimp chip"
     ],
-    "category": "bowl"
+    "category": ""
   },
   {
     "id": "D605",
@@ -11682,7 +11682,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11694,7 +11694,7 @@
       "cilantro",
       "premium jasmine rice"
     ],
-    "category": "bowl"
+    "category": ""
   },
   {
     "id": "D606",
@@ -11706,7 +11706,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11716,7 +11716,7 @@
       "tomato",
       "onions"
     ],
-    "category": "bowl"
+    "category": ""
   },
   {
     "id": "D607",
@@ -11728,7 +11728,7 @@
       "gluten-free"
     ],
     "allergens": "Contains sesame, soy; Korean BBQ sauce may contain gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11740,7 +11740,7 @@
       "kimchi",
       "premium jasmine rice"
     ],
-    "category": "bowl"
+    "category": ""
   },
   {
     "id": "D608",
@@ -11752,7 +11752,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11774,7 +11774,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains gluten, eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11789,7 +11789,7 @@
       "tree ear mushroom",
       "soft boiled egg"
     ],
-    "category": "bowl"
+    "category": ""
   },
   {
     "id": "D610",
@@ -11802,7 +11802,7 @@
       "vegan"
     ],
     "allergens": "Contains soy",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11818,7 +11818,7 @@
       "tree ear mushrooms",
       "spinach"
     ],
-    "category": "noodles"
+    "category": ""
   },
   {
     "id": "D611",
@@ -11828,7 +11828,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Contains fish, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11840,7 +11840,7 @@
       "carrots",
       "spinach"
     ],
-    "category": "noodles"
+    "category": ""
   },
   {
     "id": "D612",
@@ -11850,7 +11850,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Contains fish, gluten",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11862,7 +11862,7 @@
       "carrots",
       "spinach"
     ],
-    "category": "noodles"
+    "category": ""
   },
   {
     "id": "D613",
@@ -11874,7 +11874,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11887,7 +11887,7 @@
       "tree ear mushrooms",
       "carrots"
     ],
-    "category": "bowl"
+    "category": ""
   },
   {
     "id": "D614",
@@ -11897,7 +11897,7 @@
     "level": "Moderate",
     "tags": [],
     "allergens": "Contains gluten, eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11919,7 +11919,7 @@
     "level": "High",
     "tags": [],
     "allergens": "Contains gluten (noodles), eggs",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11932,7 +11932,7 @@
       "scallions",
       "cilantro"
     ],
-    "category": "noodles"
+    "category": ""
   },
   {
     "id": "D616",
@@ -11944,7 +11944,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11954,7 +11954,7 @@
       "Thai basil",
       "premium jasmine rice"
     ],
-    "category": "curry"
+    "category": ""
   },
   {
     "id": "D617",
@@ -11966,7 +11966,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -11988,7 +11988,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -12009,7 +12009,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -12019,7 +12019,7 @@
       "cilantro",
       "onions"
     ],
-    "category": "lamb"
+    "category": ""
   },
   {
     "id": "D620",
@@ -12031,7 +12031,7 @@
       "gluten-free"
     ],
     "allergens": "Unknown",
-    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
     "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://www.abhieatery.com",
@@ -12041,7 +12041,7 @@
       "carrots",
       "premium jasmine rice"
     ],
-    "category": "curry"
+    "category": ""
   },
   {
     "id": "D621",
