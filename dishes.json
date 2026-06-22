@@ -8580,5 +8580,666 @@
       "rosé"
     ],
     "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D498",
+    "name": "Havana Latte",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains dairy (milk, condensed milk). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "condensed milk",
+      "vanilla",
+      "star anise",
+      "cinnamon"
+    ]
+  },
+  {
+    "id": "D499",
+    "name": "Monkey Mocha",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Contains dairy (milk). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "house-made mocha sauce",
+      "FM banana syrup"
+    ]
+  },
+  {
+    "id": "D500",
+    "name": "Golden Monkey Latte",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Contains dairy (milk). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "honey",
+      "turmeric blend"
+    ]
+  },
+  {
+    "id": "D501",
+    "name": "Rosemary Honey Latte",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Contains dairy (milk). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "house rosemary-infused honey"
+    ]
+  },
+  {
+    "id": "D502",
+    "name": "Biscuit Board",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains gluten (biscuit), dairy (butter, honey mascarpone, whipped feta). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "mini biscuits",
+      "butter",
+      "honey mascarpone",
+      "whipped feta",
+      "seasonal preserves"
+    ]
+  },
+  {
+    "id": "D503",
+    "name": "Breakfast Board",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten (sourdough), dairy (brie), eggs. Fish (smoked salmon) if selected. Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "smoked salmon",
+      "country ham",
+      "peppered hard boiled eggs",
+      "brie",
+      "blueberries",
+      "dill pickles",
+      "orange wedges",
+      "strawberry preserves",
+      "sourdough"
+    ]
+  },
+  {
+    "id": "D504",
+    "name": "Whiskey Trail Skewers",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description. Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "chicken",
+      "whiskey chai bbq sauce",
+      "dill pickles"
+    ]
+  },
+  {
+    "id": "D505",
+    "name": "Herb-Whipped Feta",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains dairy (feta), gluten (pita), tree nuts (walnuts). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "herb-whipped feta",
+      "seasonal preserves",
+      "walnuts",
+      "pepper toasted pita"
+    ]
+  },
+  {
+    "id": "D506",
+    "name": "Broadbent Omelette",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains eggs, dairy (cheddar), gluten (sourdough). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "KY Farm Fresh eggs",
+      "Broadbent bacon",
+      "cheddar",
+      "onions",
+      "red peppers",
+      "sourdough"
+    ]
+  },
+  {
+    "id": "D507",
+    "name": "Garden Omelette",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains eggs, dairy (feta), gluten (sourdough). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "KY Farm Fresh eggs",
+      "feta",
+      "mushrooms",
+      "kale",
+      "diced tomatoes",
+      "sourdough"
+    ]
+  },
+  {
+    "id": "D508",
+    "name": "Loaded Biscuits & Chorizo Gravy",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten (biscuit), eggs, dairy (cheddar). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "biscuit",
+      "chorizo gravy",
+      "KY Farm Fresh eggs",
+      "roasted red peppers",
+      "cheddar cheese"
+    ]
+  },
+  {
+    "id": "D509",
+    "name": "Brunch Sausage Burger",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten (bun), eggs, dairy (cheddar). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "smashed sausage patties",
+      "KY Farm Fresh egg",
+      "cheddar cheese",
+      "chorizo gravy",
+      "Broadbent bacon",
+      "grilled bun"
+    ]
+  },
+  {
+    "id": "D510",
+    "name": "Farm Breakfast",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-friendly"
+    ],
+    "allergens": "Contains eggs, dairy (Gouda), gluten (sourdough). Gluten-friendly bread available upon request. Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "KY Farm Fresh eggs",
+      "Broadbent bacon",
+      "smoked Gouda grits",
+      "orange wedges",
+      "sourdough"
+    ]
+  },
+  {
+    "id": "D511",
+    "name": "Vanilla-Cinnamon French Toast",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains gluten (brioche), eggs, dairy. Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "vanilla-cinnamon brioche",
+      "warm spiced peaches",
+      "powdered sugar",
+      "Vermont maple syrup"
+    ]
+  },
+  {
+    "id": "D512",
+    "name": "Quinoa & Black Bean Burger",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains gluten (bun). May contain dairy if mozzarella added. Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "house-made black bean and quinoa patty",
+      "tomato",
+      "lettuce",
+      "avocado mash",
+      "grilled bun"
+    ]
+  },
+  {
+    "id": "D513",
+    "name": "Smash Burger",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten (bun), dairy (mozzarella, cheddar). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "beef patties",
+      "mozzarella",
+      "cheddar",
+      "lettuce",
+      "tomato",
+      "caramelized onion bacon jam",
+      "grilled bun"
+    ]
+  },
+  {
+    "id": "D514",
+    "name": "Salmon Sandwich",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains fish (salmon), gluten (bun). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "grilled salmon",
+      "lemon dill dijon sauce",
+      "lettuce",
+      "tomato",
+      "grilled bun"
+    ]
+  },
+  {
+    "id": "D515",
+    "name": "Pesto Pasta & Chicken",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten (pasta), dairy (parmesan, cream), eggs (pasta). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "grilled chicken breasts",
+      "local pasta",
+      "tomatoes",
+      "red onions",
+      "kale",
+      "basil pesto cream",
+      "parmesan"
+    ]
+  },
+  {
+    "id": "D516",
+    "name": "Shrimp & Grits",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-friendly"
+    ],
+    "allergens": "Contains shellfish (shrimp), dairy (Gouda). Gluten-friendly as prepared. Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "blackened shrimp",
+      "local andouille sausage",
+      "tomatoes",
+      "red peppers",
+      "onions",
+      "smoked Gouda grits"
+    ]
+  },
+  {
+    "id": "D517",
+    "name": "Grilled Salmon",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-friendly"
+    ],
+    "allergens": "Contains fish (salmon). Gluten-friendly as prepared. Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "salmon",
+      "Loveless Cafe apple butter and sorghum glaze",
+      "broccoli chickpea quinoa",
+      "Loveless Cafe chow chow"
+    ]
+  },
+  {
+    "id": "D518",
+    "name": "Gail Salad",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains dairy (feta), tree nuts (walnuts), gluten (sourdough). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "grilled chicken breast",
+      "feta",
+      "avocado mash",
+      "cucumbers",
+      "walnuts",
+      "strawberry",
+      "lemon-garlic vinaigrette",
+      "mixed greens",
+      "sourdough"
+    ]
+  },
+  {
+    "id": "D519",
+    "name": "Salmon Arugula Salad",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains fish (salmon), dairy (parmesan), gluten (sourdough). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "grilled salmon",
+      "pickled onions",
+      "sun dried tomatoes",
+      "parmesan",
+      "pomegranate vinaigrette",
+      "arugula",
+      "sourdough"
+    ]
+  },
+  {
+    "id": "D520",
+    "name": "Caesar Salad",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains gluten (croutons), dairy (parmesan). Caesar dressing may contain egg and anchovy. Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "broccoli chickpea quinoa",
+      "brioche croutons",
+      "parmesan",
+      "kale",
+      "Caesar dressing"
+    ]
+  },
+  {
+    "id": "D521",
+    "name": "The BE Hive Quinoa Bowl",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan",
+      "gluten-friendly"
+    ],
+    "allergens": "Vegan as prepared. Gluten-friendly as prepared. Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "BE Hive vegan sausage",
+      "broccoli chickpea quinoa",
+      "marinated chickpeas",
+      "cucumbers",
+      "lemon dill dijon sauce",
+      "kale"
+    ]
+  },
+  {
+    "id": "D522",
+    "name": "Cali Toast",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains eggs, dairy (mozzarella), gluten (sourdough). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "KY Farm Fresh egg",
+      "balsamic Roma tomatoes",
+      "fresh mozzarella",
+      "avocado mash",
+      "sourdough"
+    ]
+  },
+  {
+    "id": "D523",
+    "name": "Egg, Feta & Tomato",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains eggs, dairy (feta), gluten (bun). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "KY Farm Fresh eggs",
+      "herb-whipped feta",
+      "tomato",
+      "grilled bun"
+    ]
+  },
+  {
+    "id": "D524",
+    "name": "Bacon, Egg & Cheddar Bagel",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Contains eggs, dairy (cheddar), gluten (bagel). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "KY Farm Fresh eggs",
+      "Broadbent bacon",
+      "cheddar cheese",
+      "plain bagel"
+    ]
+  },
+  {
+    "id": "D525",
+    "name": "Everything Lox Bagel",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains fish (salmon), dairy (cream cheese), gluten (bagel). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "smoked salmon",
+      "everything bagel",
+      "cream cheese",
+      "dill",
+      "cucumber",
+      "pickled onions"
+    ]
+  },
+  {
+    "id": "D526",
+    "name": "Maple Chicken Salad",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten (multigrain). May contain tree nuts. Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "Betsy's chicken salad",
+      "cranberries",
+      "celery",
+      "dijon mustard",
+      "maple",
+      "lettuce",
+      "tomato",
+      "multigrain bread"
+    ]
+  },
+  {
+    "id": "D527",
+    "name": "Egg Salad",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains eggs, gluten (honey white). Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "homemade egg salad",
+      "lettuce",
+      "tomato",
+      "honey white bread"
+    ]
+  },
+  {
+    "id": "D528",
+    "name": "Royale",
+    "restaurant": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten (multigrain), dairy. Contact restaurant to confirm.",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "ingredients": [
+      "smoked turkey",
+      "Swiss cheese",
+      "avocado mash",
+      "lettuce",
+      "tomato",
+      "basil mayo",
+      "multigrain bread"
+    ]
   }
 ]
