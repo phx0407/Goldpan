@@ -1,14 +1,16 @@
 """
 fetch_dishes.py — Goldpan Google Sheets sync
-Joins data from three sheet tabs and writes dishes.json.
+Joins data from four sheet tabs and writes dishes.json + restaurants.json.
 
 Tabs read (internal use only — nothing from these tabs leaks to output):
   - Transparency Scoring    → derives transparency level only
   - Ingredient Details      → ingredients list, location
   - Goldpan Dish Level Data → dietary tags, allergen summary
+  - Restaurant Claims       → public restaurant-level claims
 
-Public output fields per dish:
-  id, name, restaurant, location, level, tags, allergens, meal_period, ingredients
+Public output:
+  dishes.json      — one entry per dish
+  restaurants.json — one entry per restaurant, with claims array
 
 Usage:
     pip install gspread google-auth
@@ -22,9 +24,10 @@ from google.oauth2.service_account import Credentials
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
-KEY_FILE       = "service_account.json"
-SPREADSHEET_ID = "1-LiUlACSAmHLiPpF_o52gmN8AH6MfzTBktZn_R7fyQE"
-OUTPUT_FILE    = "dishes.json"
+KEY_FILE            = "service_account.json"
+SPREADSHEET_ID      = "1-LiUlACSAmHLiPpF_o52gmN8AH6MfzTBktZn_R7fyQE"
+OUTPUT_FILE         = "dishes.json"
+RESTAURANTS_FILE    = "restaurants.json"
 
 # ── END CONFIG ────────────────────────────────────────────────────────────────
 
@@ -60,6 +63,15 @@ def level_short(raw):
     return "Building"
 
 
+def normalize_restaurant_name(name):
+    """Normalize known restaurant name variants from the sheet."""
+    if name == "East West":
+        return "EastWest"
+    if name == "Brick & Tin Mountain Brook":
+        return "Brick & Tin"
+    return name
+
+
 def main():
     print("Connecting to Google Sheets...")
     creds  = Credentials.from_service_account_file(KEY_FILE, scopes=SCOPES)
@@ -73,10 +85,7 @@ def main():
         did = str(r.get("Dish_ID", "")).strip()
         if not did:
             continue
-        rest_name = str(r.get("Restaurant_Name", "")).strip()
-        # Normalize known name variants
-        if rest_name == "East West":
-            rest_name = "EastWest"
+        rest_name = normalize_restaurant_name(str(r.get("Restaurant_Name", "")).strip())
         scoring[did] = {
             "id":         did,
             "name":       str(r.get("Dish_Name", "")).strip(),
@@ -117,28 +126,49 @@ def main():
             "restaurant_website": str(r.get("Restaurant_Website", "")).strip(),
         }
 
-    # ── 4. Restaurant metadata (menu_statement, etc.) ──────────────────────
+    # ── 4. Restaurant Claims — public claims per restaurant ─────────────────
+    print("Reading Restaurant Claims...")
+    claims_by_restaurant = {}
+    try:
+        for r in ss.worksheet("Restaurant Claims").get_all_records():
+            rid   = str(r.get("Restaurant_ID", "")).strip()
+            rname = normalize_restaurant_name(str(r.get("Restaurant_Name", "")).strip())
+            if not rid and not rname:
+                continue
+            key = rname or rid
+            claim = {
+                "type":  str(r.get("Claim_Type", "")).strip(),
+                "scope": str(r.get("Claim_Scope", "")).strip(),
+                "text":  str(r.get("Claim_Text", "")).strip(),
+            }
+            if claim["text"]:
+                claims_by_restaurant.setdefault(key, []).append(claim)
+    except gspread.exceptions.WorksheetNotFound:
+        print("  (Restaurant Claims tab not found — skipping)")
+
+    # ── 5. Restaurant metadata (legacy menu_statement fallback) ─────────────
     rest_meta = {}
     meta_file = os.path.join(os.path.dirname(__file__), "restaurant_meta.json")
     if os.path.exists(meta_file):
         with open(meta_file, "r", encoding="utf-8") as f:
             rest_meta = json.load(f)
 
-    # ── 5. Assemble — Scoring is the master list ────────────────────────────
+    # ── 6. Assemble dishes — Scoring is the master list ─────────────────────
     dishes = []
     for did, s in scoring.items():
-        dl  = dish_level.get(did, {})
-        ing = ingredients_by_dish.get(did, [])
-        loc = location_by_dish.get(did, "Birmingham")
+        dl     = dish_level.get(did, {})
+        ing    = ingredients_by_dish.get(did, [])
+        loc    = location_by_dish.get(did, "Birmingham")
+        meta   = rest_meta.get(s["restaurant"], {})
+        claims = claims_by_restaurant.get(s["restaurant"], [])
 
         # Public output only — no scores, sub-scores, notes, or internal fields
-        meta = rest_meta.get(s["restaurant"], {})
         dish = {
-            "id":          s["id"],
-            "name":        s["name"],
-            "restaurant":  s["restaurant"],
-            "location":    loc,
-            "level":       s["level"],
+            "id":                 s["id"],
+            "name":               s["name"],
+            "restaurant":         s["restaurant"],
+            "location":           loc,
+            "level":              s["level"],
             "tags":               dl.get("tags", []),
             "allergens":          dl.get("allergens", "Unknown"),
             "hours":              dl.get("hours", ""),
@@ -147,8 +177,12 @@ def main():
             "restaurant_website": dl.get("restaurant_website", ""),
             "ingredients":        ing,
         }
+        # Legacy menu_statement from restaurant_meta.json
         if meta.get("menu_statement"):
             dish["menu_statement"] = meta["menu_statement"]
+        # Restaurant-level claims (sourcing, certifications, etc.)
+        if claims:
+            dish["restaurant_claims"] = claims
         dishes.append(dish)
 
     dishes.sort(key=lambda d: d["id"])
@@ -156,8 +190,34 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(dishes, f, indent=2, ensure_ascii=False)
 
-    print(f"\nDone. Wrote {len(dishes)} dishes to {OUTPUT_FILE}")
-    print(f"Restaurants: {len({d['restaurant'] for d in dishes})}")
+    print(f"\nWrote {len(dishes)} dishes to {OUTPUT_FILE}")
+
+    # ── 7. Assemble restaurants.json ────────────────────────────────────────
+    restaurants_map = {}
+    for dish in dishes:
+        rname = dish["restaurant"]
+        if rname not in restaurants_map:
+            restaurants_map[rname] = {
+                "name":               rname,
+                "location":           dish["location"],
+                "hours":              dish["hours"],
+                "menu_link":          dish["menu_link"],
+                "restaurant_address": dish["restaurant_address"],
+                "restaurant_website": dish["restaurant_website"],
+                "claims":             claims_by_restaurant.get(rname, []),
+            }
+            # Include legacy menu_statement if present
+            meta = rest_meta.get(rname, {})
+            if meta.get("menu_statement"):
+                restaurants_map[rname]["menu_statement"] = meta["menu_statement"]
+
+    restaurants = sorted(restaurants_map.values(), key=lambda r: r["name"])
+
+    with open(RESTAURANTS_FILE, "w", encoding="utf-8") as f:
+        json.dump(restaurants, f, indent=2, ensure_ascii=False)
+
+    print(f"Wrote {len(restaurants)} restaurants to {RESTAURANTS_FILE}")
+    print(f"Restaurants with claims: {sum(1 for r in restaurants if r['claims'])}")
 
 
 if __name__ == "__main__":

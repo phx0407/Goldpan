@@ -61,15 +61,6 @@
     "claims": []
   },
   {
-    "name": "Brick & Tin Mountain Brook",
-    "location": "Mountain Brook, AL",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "claims": []
-  },
-  {
     "name": "Cayo Coco Rum Bar & Restaurant",
     "location": "Birmingham, AL",
     "hours": "",
@@ -141,7 +132,13 @@
     "menu_link": "https://frothymonkey.com/food-drinks/",
     "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
     "restaurant_website": "https://frothymonkey.com",
-    "claims": []
+    "claims": [
+      {
+        "type": "sourcing",
+        "scope": "all ingredients",
+        "text": "Food and drinks are made from scratch using original recipes and thoughtfully-sourced ingredients from regional farmers and purveyors when possible."
+      }
+    ]
   },
   {
     "name": "Kale Me Crazy",
@@ -204,6 +201,15 @@
     "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
     "restaurant_address": "",
     "restaurant_website": "",
+    "claims": []
+  },
+  {
+    "name": "Urban Cookhouse",
+    "location": "Birmingham, AL",
+    "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
+    "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
+    "restaurant_address": "250 Summit Blvd #102, Birmingham, AL 35243",
+    "restaurant_website": "https://www.uc-birmingham.com",
     "claims": []
   },
   {
