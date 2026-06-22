@@ -34,7 +34,7 @@
     "id": "D002",
     "name": "Chicken Poppers Appetizer",
     "restaurant": "Real & Rosemary",
-    "location": "Birmingham",
+    "location": "Homewood, AL",
     "level": "Moderate",
     "tags": [],
     "allergens": "wheat (panko), egg (likely in breading)",
@@ -52,7 +52,7 @@
     "id": "D003",
     "name": "Impossible Burger",
     "restaurant": "Real & Rosemary",
-    "location": "Birmingham",
+    "location": "Homewood, AL",
     "level": "Building",
     "tags": [
       "vegan"
@@ -2318,7 +2318,7 @@
     "id": "D128",
     "name": "Sweet Potato Fries",
     "restaurant": "Real & Rosemary",
-    "location": "Birmingham",
+    "location": "Homewood, AL",
     "level": "High",
     "tags": [
       "vegetarian"
@@ -2337,7 +2337,7 @@
     "id": "D129",
     "name": "Fried Green Tomatoes",
     "restaurant": "Real & Rosemary",
-    "location": "Birmingham",
+    "location": "Homewood, AL",
     "level": "Moderate",
     "tags": [
       "vegetarian"
@@ -2556,7 +2556,7 @@
     "id": "D140",
     "name": "Fried Green Tomato BLT",
     "restaurant": "Real & Rosemary",
-    "location": "Birmingham",
+    "location": "Homewood, AL",
     "level": "Moderate",
     "tags": [],
     "allergens": "wheat (bread), egg (chipotle mayo)",
@@ -2597,7 +2597,7 @@
     "id": "D142",
     "name": "Beet, Fig, Goat Cheese Sandwich",
     "restaurant": "Real & Rosemary",
-    "location": "Birmingham",
+    "location": "Homewood, AL",
     "level": "High",
     "tags": [
       "vegetarian"
@@ -2670,7 +2670,7 @@
     "id": "D146",
     "name": "Flounder Cake Plate",
     "restaurant": "Real & Rosemary",
-    "location": "Birmingham",
+    "location": "Homewood, AL",
     "level": "Moderate",
     "tags": [],
     "allergens": "fish (flounder), wheat (panko), dairy (yogurt remoulade)",
@@ -7718,5 +7718,245 @@
       "linguine pasta",
       "basil and almond pesto"
     ]
+  },
+  {
+    "id": "D459",
+    "name": "Beef Picadillo Empanadas",
+    "restaurant": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (lime crema), Wheat (empanada dough). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "ingredients": [
+      "beef picadillo",
+      "empanada dough",
+      "pico de gallo",
+      "lime crema",
+      "pickled red onion"
+    ],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "id": "D460",
+    "name": "Collard Green Cornbread",
+    "restaurant": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (rum butter), Wheat (cornbread), Egg (likely in cornbread). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "ingredients": [
+      "cornbread",
+      "collard greens",
+      "Eastaboga Hot Honey",
+      "rum butter"
+    ],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "id": "D461",
+    "name": "Tostones",
+    "restaurant": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (cheese dip). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "ingredients": [
+      "green plantains",
+      "cheese dip",
+      "chili oil"
+    ],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "id": "D462",
+    "name": "Snapper Ceviche",
+    "restaurant": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Fish (red snapper). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "ingredients": [
+      "red snapper",
+      "coconut-lime",
+      "salsa criolla",
+      "sweet potato"
+    ],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "id": "D463",
+    "name": "Tamarind Caesar",
+    "restaurant": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Fish (anchovies), Dairy (1605 Manchego), Wheat (croutons), Egg (caesar dressing likely). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "ingredients": [
+      "romaine",
+      "tamarind caesar dressing",
+      "anchovies",
+      "croutons",
+      "1605 Manchego"
+    ],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "id": "D464",
+    "name": "Red Snapper",
+    "restaurant": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens based on visible menu description: Fish (red snapper). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "ingredients": [
+      "red snapper",
+      "collard green moqueca",
+      "charred scallion salsa verde",
+      "crispy plantains"
+    ],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "id": "D465",
+    "name": "Jerk Chicken",
+    "restaurant": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens based on visible menu description: No major allergens identified from menu description. Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "ingredients": [
+      "chicken",
+      "farro risotto",
+      "cherry tomato",
+      "jerk BBQ sauce",
+      "pineapple salsa"
+    ],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "id": "D466",
+    "name": "Cubano Sandwich",
+    "restaurant": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Wheat (Cuban bread), Dairy (Swiss cheese), Pork (ham, roasted pork). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "ingredients": [
+      "Cuban bread",
+      "roasted pork",
+      "ham",
+      "Swiss cheese",
+      "pickles",
+      "mustard",
+      "calypso sauce",
+      "yucca fries"
+    ],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "id": "D467",
+    "name": "Oxtail Fried Rice",
+    "restaurant": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Soy (likely in fried rice), Egg (likely in fried rice). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "ingredients": [
+      "oxtail",
+      "rice",
+      "sweet plantains",
+      "burnt onion yum yum sauce",
+      "candied oranges"
+    ],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "id": "D468",
+    "name": "Bistro Filet",
+    "restaurant": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (horseradish butter). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "ingredients": [
+      "beef filet",
+      "Dutchess potatoes",
+      "smoked mole",
+      "horseradish butter"
+    ],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "id": "D469",
+    "name": "Cayo Cheeseburger",
+    "restaurant": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Allergens based on visible menu description: Dairy (white cheddar), Wheat (bun), Egg (calypso sauce likely). Contact restaurant to confirm.",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "ingredients": [
+      "beef patty",
+      "white cheddar",
+      "rum onions",
+      "pickle",
+      "tamarind calypso sauce",
+      "furikake fries",
+      "burger bun"
+    ],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   }
 ]

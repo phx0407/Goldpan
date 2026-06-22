@@ -16,6 +16,7 @@ Usage:
 """
 
 import json
+import os
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -112,7 +113,14 @@ def main():
             "restaurant_website": str(r.get("Restaurant_Website", "")).strip(),
         }
 
-    # ── 4. Assemble — Scoring is the master list ────────────────────────────
+    # ── 4. Restaurant metadata (menu_statement, etc.) ──────────────────────
+    rest_meta = {}
+    meta_file = os.path.join(os.path.dirname(__file__), "restaurant_meta.json")
+    if os.path.exists(meta_file):
+        with open(meta_file, "r", encoding="utf-8") as f:
+            rest_meta = json.load(f)
+
+    # ── 5. Assemble — Scoring is the master list ────────────────────────────
     dishes = []
     for did, s in scoring.items():
         dl  = dish_level.get(did, {})
@@ -120,7 +128,8 @@ def main():
         loc = location_by_dish.get(did, "Birmingham")
 
         # Public output only — no scores, sub-scores, notes, or internal fields
-        dishes.append({
+        meta = rest_meta.get(s["restaurant"], {})
+        dish = {
             "id":          s["id"],
             "name":        s["name"],
             "restaurant":  s["restaurant"],
@@ -133,7 +142,10 @@ def main():
             "restaurant_address": dl.get("restaurant_address", ""),
             "restaurant_website": dl.get("restaurant_website", ""),
             "ingredients":        ing,
-        })
+        }
+        if meta.get("menu_statement"):
+            dish["menu_statement"] = meta["menu_statement"]
+        dishes.append(dish)
 
     dishes.sort(key=lambda d: d["id"])
 

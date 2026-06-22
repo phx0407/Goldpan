@@ -233,6 +233,7 @@ function buildRestaurants() {
     r.hasDietaryTags = r.dishes.some(function(d) { return (d.tags || []).length > 0; });
     r.hasAllergens   = r.dishes.some(function(d) { return d.allergens && d.allergens.toLowerCase() !== 'unknown' && d.allergens.trim(); });
     r.hasPrepDetails = r.high > 0;
+    r.menuStatement  = r.dishes[0] && r.dishes[0].menu_statement ? r.dishes[0].menu_statement : '';
   });
 }
 
@@ -320,6 +321,7 @@ function openRestaurantDetail(idx) {
       (r.high     ? '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#4CAF76;">' + r.high     + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">High</div></div>' : '') +
       (r.moderate ? '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#C9A84C;">' + r.moderate + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">Moderate</div></div>' : '') +
     '</div>' +
+    (r.menuStatement ? '<div style="font-size:11px;color:#555550;font-family:\'DM Mono\',monospace;letter-spacing:0.04em;margin-bottom:20px;padding:10px 14px;background:#111111;border:1px solid #1A1A1A;line-height:1.7;">ⓘ ' + r.menuStatement + '</div>' : '') +
     '<div class="detail-section-title">Why Goldpan Included This Restaurant</div>' +
     '<div class="why-box">' + whyGoldpan(r) + '</div>' +
     '<div class="detail-section-title">Transparency Attributes</div>' +
