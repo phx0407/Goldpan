@@ -157,6 +157,7 @@
     .dish-row:last-child { border-bottom: none; }
     .dish-row:hover .dish-row-name { color: #C9A84C; }
     .dish-row-name { font-size: 13px; color: #F5F2EC; transition: color 0.2s; }
+    .dish-row-cat { font-size: 11px; color: #555550; font-family: 'DM Mono', monospace; letter-spacing: 0.04em; }
     .dish-row-level { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; flex-shrink: 0; margin-left: 12px; }
 
     /* ── Footer ── */
@@ -486,7 +487,7 @@ function renderPanelDishes() {
       return '<span class="ctag ' + cls + '">' + t + '</span>';
     }).join(' ') + '</div>' : '';
     return '<div class="dish-row" onclick="openDishDetail(\'' + d.id + '\')">' +
-      '<div><div class="dish-row-name">' + d.name + '</div>' + tagsHtml + '</div>' +
+      '<div><div class="dish-row-name">' + d.name + (d.category ? ' <span class="dish-row-cat">(' + d.category + ')</span>' : '') + '</div>' + tagsHtml + '</div>' +
       '<span class="dish-row-level" style="color:' + col + '">' + levelLabel(lk).replace(' Transparency', '') + '</span>' +
       '</div>';
   }).join('');
@@ -587,7 +588,7 @@ function renderDishes() {
     }).join('') + '</div>' : '';
     return '<div class="card' + (selectedDishId === d.id ? ' selected' : '') + '" onclick="openDishDetail(\'' + d.id + '\')">' +
       '<div class="card-restaurant">' + d.restaurant + ' · ' + d.location + '</div>' +
-      '<div class="card-name">' + d.name + '</div>' +
+      '<div class="card-name">' + d.name + (d.category ? ' <span class="dish-row-cat">(' + d.category + ')</span>' : '') + '</div>' +
       '<div class="card-level ' + lk + '">' + levelLabel(lk) + '</div>' +
       '<div class="card-bar"><div class="card-bar-fill ' + lk + '" style="width:' + pct + '%"></div></div>' +
       tagsHtml + '</div>';

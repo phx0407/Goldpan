@@ -124,6 +124,7 @@ def main():
             "menu_link":          str(r.get("Menu_Link", "")).strip(),
             "restaurant_address": str(r.get("Restaurant_Address", "")).strip(),
             "restaurant_website": str(r.get("Restaurant_Website", "")).strip(),
+            "category":           str(r.get("Category", "")).strip().lower(),
         }
 
     # ── 4. Restaurant Claims — public claims per restaurant ─────────────────
@@ -176,6 +177,7 @@ def main():
             "restaurant_address": dl.get("restaurant_address", ""),
             "restaurant_website": dl.get("restaurant_website", ""),
             "ingredients":        ing,
+            "category":           dl.get("category", ""),
         }
         # Legacy menu_statement from restaurant_meta.json
         if meta.get("menu_statement"):

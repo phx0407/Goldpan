@@ -123,6 +123,7 @@ def build_dish_level_rows(data):
             dish.get("allergen_summary", "Unknown"),
             TODAY,                              # Last_Updated
             data.get("restaurant_website", ""), # Restaurant_Website
+            dish.get("category", ""),           # Category
         ])
     return rows
 
