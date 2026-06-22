@@ -6,6 +6,15 @@
   "restaurant_website": "https://frothymonkey.com",
   "menu_link": "https://frothymonkey.com/food-drinks/",
   "hours": "Daily 7am–8pm",
+  "claims": [
+    {
+      "claim_type": "sourcing",
+      "claim_scope": "all ingredients",
+      "claim_text": "Food and drinks are made from scratch using original recipes and thoughtfully-sourced ingredients from regional farmers and purveyors when possible.",
+      "verified": "website",
+      "source": "https://frothymonkey.com/food-drinks/"
+    }
+  ],
   "dishes": [
     {
       "dish_id": "D498",

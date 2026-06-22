@@ -1,13 +1,14 @@
 """
 upsert_dishes.py — Goldpan Sheet upsert
-Reads staging.json and upserts rows into three tabs:
+Reads staging.json and upserts rows into four tabs:
   - Ingredient Details
   - Transparency Scoring
   - Goldpan Dish Level Data
+  - Restaurant Claims
 
-For existing dishes (matched by Dish_ID):
+For existing dishes (matched by Dish_ID) or restaurants (matched by Restaurant_ID):
   Deletes old rows and writes fresh ones with today's date.
-For new dishes:
+For new records:
   Appends rows.
 
 This replaces add_dishes.py. Safe to run multiple times —
@@ -47,7 +48,7 @@ def load_staging():
         return json.load(f)
 
 
-# ── Row builders (same logic as add_dishes.py) ────────────────────────────────
+# ── Row builders ──────────────────────────────────────────────────────────────
 
 def build_ingredient_rows(data):
     rows = []
@@ -126,12 +127,61 @@ def build_dish_level_rows(data):
     return rows
 
 
+def build_claims_rows(data):
+    """
+    Builds rows for the Restaurant Claims tab.
+    One row per claim. Keyed by Restaurant_ID (col 0) for upsert.
+
+    Columns:
+      Restaurant_ID | Restaurant_Name | Claim_Type | Claim_Scope |
+      Claim_Text | Verified | Source | Date_Added
+    """
+    rows = []
+    rid   = data["restaurant_id"]
+    rname = data["restaurant_name"]
+    for claim in data.get("claims", []):
+        rows.append([
+            rid,
+            rname,
+            claim.get("claim_type", ""),
+            claim.get("claim_scope", ""),
+            claim.get("claim_text", ""),
+            claim.get("verified", "unverified"),
+            claim.get("source", ""),
+            TODAY,
+        ])
+    return rows
+
+
+CLAIMS_HEADERS = [
+    "Restaurant_ID", "Restaurant_Name", "Claim_Type", "Claim_Scope",
+    "Claim_Text", "Verified", "Source", "Date_Added",
+]
+
+
+def ensure_claims_tab(ss):
+    """Create the Restaurant Claims tab with headers if it doesn't exist."""
+    try:
+        ws = ss.worksheet("Restaurant Claims")
+        # Tab exists — make sure it has headers
+        existing = ws.row_values(1)
+        if not existing:
+            ws.append_row(CLAIMS_HEADERS)
+            print("  (added headers to existing Restaurant Claims tab)")
+        return ws
+    except gspread.exceptions.WorksheetNotFound:
+        ws = ss.add_worksheet(title="Restaurant Claims", rows=500, cols=len(CLAIMS_HEADERS))
+        ws.append_row(CLAIMS_HEADERS)
+        print("  (created Restaurant Claims tab with headers)")
+        return ws
+
+
 # ── Upsert helpers ────────────────────────────────────────────────────────────
 
 def index_by_dish_id(ws, did_col):
     """
     Returns {dish_id: [1-indexed row numbers]} for all data rows.
-    did_col is 0-indexed position of Dish_ID in the sheet.
+    did_col is 0-indexed position of the key column in the sheet.
     """
     all_values = ws.get_all_values()
     index = {}
@@ -177,29 +227,29 @@ def delete_rows_batch(ws, row_numbers):
     api_call_with_retry(ws.spreadsheet.batch_update, {"requests": requests})
 
 
-def upsert_tab(ws, new_rows_by_did, did_col, label):
+def upsert_tab(ws, new_rows_by_key, key_col, label):
     """
-    For each dish_id in new_rows_by_did:
+    For each key in new_rows_by_key:
       - If rows exist: delete them and append fresh rows.
       - If new: append rows.
     Returns (n_updated, n_added).
     """
-    existing = index_by_dish_id(ws, did_col) if not DRY_RUN else {}
+    existing = index_by_dish_id(ws, key_col) if not DRY_RUN else {}
     n_updated = 0
     n_added   = 0
     rows_to_append  = []
     all_rows_to_del = []
 
-    for did, rows in new_rows_by_did.items():
-        if did in existing:
+    for key, rows in new_rows_by_key.items():
+        if key in existing:
             if DRY_RUN:
-                print(f"  {label} [{did}]: would update (delete old rows, write {len(rows)} new)")
+                print(f"  {label} [{key}]: would update (delete old rows, write {len(rows)} new)")
             else:
-                all_rows_to_del.extend(existing[did])
+                all_rows_to_del.extend(existing[key])
             n_updated += 1
         else:
             if DRY_RUN:
-                print(f"  {label} [{did}]: new — would append {len(rows)} row(s)")
+                print(f"  {label} [{key}]: new — would append {len(rows)} row(s)")
             n_added += 1
         rows_to_append.extend(rows)
 
@@ -221,21 +271,25 @@ def main():
     rname    = data["restaurant_name"]
     n_dishes = len(data["dishes"])
     n_ing    = sum(len(d.get("ingredients", [])) for d in data["dishes"])
+    n_claims = len(data.get("claims", []))
     print(f"Restaurant : {rname}")
     print(f"Dishes     : {n_dishes}")
     print(f"Ingredients: {n_ing}")
+    print(f"Claims     : {n_claims}")
 
     if DRY_RUN:
         print("\n-- DRY RUN — no changes will be written --\n")
 
-    # Build rows grouped by Dish_ID
-    ing_by_did   = {}
-    score_by_did = {}
-    dish_by_did  = {}
+    # Build rows grouped by Dish_ID (or Restaurant_ID for claims)
+    ing_by_did    = {}
+    score_by_did  = {}
+    dish_by_did   = {}
+    claims_by_rid = {}
 
-    ing_rows   = build_ingredient_rows(data)
-    score_rows = build_scoring_rows(data)
-    dish_rows  = build_dish_level_rows(data)
+    ing_rows    = build_ingredient_rows(data)
+    score_rows  = build_scoring_rows(data)
+    dish_rows   = build_dish_level_rows(data)
+    claims_rows = build_claims_rows(data)
 
     # Group by Dish_ID (col index 3 for ing/dish, col index 2 for scoring)
     for row in ing_rows:
@@ -244,6 +298,10 @@ def main():
         score_by_did.setdefault(row[2], []).append(row)
     for row in dish_rows:
         dish_by_did.setdefault(row[3], []).append(row)
+    # Group claims by Restaurant_ID (col index 0) — all claims for a restaurant upserted together
+    rid = data["restaurant_id"]
+    if claims_rows:
+        claims_by_rid[rid] = claims_rows
 
     if not DRY_RUN:
         print("\nConnecting to Google Sheets...")
@@ -254,9 +312,11 @@ def main():
     print("\nUpserting...")
 
     if DRY_RUN:
-        upsert_tab(None, ing_by_did,   3, "Ingredient Details")
-        upsert_tab(None, score_by_did, 2, "Transparency Scoring")
-        upsert_tab(None, dish_by_did,  3, "Goldpan Dish Level Data")
+        upsert_tab(None, ing_by_did,    3, "Ingredient Details")
+        upsert_tab(None, score_by_did,  2, "Transparency Scoring")
+        upsert_tab(None, dish_by_did,   3, "Goldpan Dish Level Data")
+        if claims_by_rid:
+            upsert_tab(None, claims_by_rid, 0, "Restaurant Claims")
     else:
         u, a = upsert_tab(ss.worksheet("Ingredient Details"),      ing_by_did,   3, "Ingredient Details")
         print(f"  Ingredient Details      : {a} added, {u} updated")
@@ -266,6 +326,11 @@ def main():
         time.sleep(20)
         u, a = upsert_tab(ss.worksheet("Goldpan Dish Level Data"), dish_by_did,  3, "Goldpan Dish Level Data")
         print(f"  Goldpan Dish Level Data : {a} added, {u} updated")
+        if claims_by_rid:
+            time.sleep(20)
+            claims_ws = ensure_claims_tab(ss)
+            u, a = upsert_tab(claims_ws, claims_by_rid, 0, "Restaurant Claims")
+            print(f"  Restaurant Claims       : {a} added, {u} updated")
 
     print(f"\nDone. Run update.sh to regenerate dishes.json and push.")
 
