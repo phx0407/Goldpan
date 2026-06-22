@@ -28,7 +28,8 @@
       "mustard",
       "vinegar",
       "seasonal vegetables"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D002",
@@ -46,7 +47,8 @@
       "chicken",
       "panko breadcrumbs",
       "sorghum honey mustard"
-    ]
+    ],
+    "category": "appetizer"
   },
   {
     "id": "D003",
@@ -67,7 +69,8 @@
       "romaine",
       "tomato",
       "red onion"
-    ]
+    ],
+    "category": "burger"
   },
   {
     "id": "D004",
@@ -88,7 +91,8 @@
       "tomato",
       "lettuce",
       "multigrain bread"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D005",
@@ -107,7 +111,8 @@
       "meatballs",
       "marinara sauce",
       "parmesan"
-    ]
+    ],
+    "category": "pasta"
   },
   {
     "id": "D010",
@@ -128,7 +133,8 @@
       "parmesan cheese",
       "tortilla",
       "fries"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D011",
@@ -154,7 +160,8 @@
       "granola",
       "mint",
       "raw honey"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D012",
@@ -168,7 +175,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D013",
@@ -182,7 +190,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D014",
@@ -196,7 +205,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D015",
@@ -210,7 +220,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D016",
@@ -224,7 +235,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D017",
@@ -260,7 +272,8 @@
       "ricotta",
       "calabrian chilies",
       "burrata"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D018",
@@ -279,7 +292,8 @@
       "jalapeños",
       "pepperoni",
       "hot honey"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D019",
@@ -297,7 +311,8 @@
       "vodka sauce",
       "cheese blend",
       "basil"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D020",
@@ -315,7 +330,8 @@
       "cheese blend",
       "burrata",
       "basil"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D021",
@@ -333,7 +349,8 @@
       "brussels sprouts",
       "pickled red onion",
       "cashew"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D022",
@@ -356,7 +373,8 @@
       "avocado mash",
       "queso fresco",
       "poached egg"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D023",
@@ -381,7 +399,8 @@
       "royal red shrimp",
       "smoked pimento grits",
       "micro green"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D024",
@@ -403,7 +422,8 @@
       "micro green",
       "poached egg",
       "toast"
-    ]
+    ],
+    "category": "toast"
   },
   {
     "id": "D025",
@@ -426,7 +446,8 @@
       "2 day waffle",
       "jalapeno bacon wrapped quail",
       "eastaboga bee co. hot honey glaze"
-    ]
+    ],
+    "category": "waffle"
   },
   {
     "id": "D026",
@@ -448,7 +469,8 @@
       "roasted red pepper",
       "fresh herbs",
       "citrus tossed greens"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D028",
@@ -468,7 +490,8 @@
       "lettuce",
       "tomato",
       "slut sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D030",
@@ -491,7 +514,8 @@
       "tomato",
       "slut sauce",
       "vegan hawaiian bun"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D032",
@@ -515,7 +539,8 @@
       "onions",
       "lettuce",
       "diced tomatoes"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D033",
@@ -539,7 +564,8 @@
       "pickled red onion",
       "tortilla chips",
       "chipotle ranch"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D034",
@@ -562,7 +588,8 @@
       "crispy shallots",
       "creamy gochujang",
       "honey gochujang vinaigrette"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D035",
@@ -585,7 +612,8 @@
       "cotija cheese",
       "tortilla chips",
       "mexican goddess dressing"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D036",
@@ -609,7 +637,8 @@
       "red bell peppers",
       "crispy wontons",
       "creamy sesame dressing"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D037",
@@ -633,7 +662,8 @@
       "pepper jack cheese",
       "buttermilk ranch",
       "wrap"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D038",
@@ -656,7 +686,8 @@
       "Lettuce",
       "Chipotle and spicy mango sauce",
       "Vegan pita bread"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D039",
@@ -678,7 +709,8 @@
       "Roasted peppers",
       "Lettuce",
       "Chipotle pita bread"
-    ]
+    ],
+    "category": "tofu"
   },
   {
     "id": "D040",
@@ -699,7 +731,8 @@
       "Onions",
       "Pickled tomatoes",
       "Pita bread or sub bun"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D041",
@@ -719,7 +752,8 @@
       "Fresh mozzarella cheese",
       "Pesto",
       "Spinach"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D042",
@@ -742,7 +776,8 @@
       "Spinach or arugula",
       "Roasted pepper",
       "Pistachios"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D043",
@@ -768,7 +803,8 @@
       "Tortilla chips",
       "Lemon",
       "Lime cilantro jalapeño vinaigrette"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D044",
@@ -796,7 +832,8 @@
       "Tomatoes",
       "Shredded cabbage",
       "Lime cilantro jalapeño vinaigrette"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D045",
@@ -820,7 +857,8 @@
       "Roasted chicken",
       "Egg",
       "Blue cheese dressing"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D046",
@@ -844,7 +882,8 @@
       "Tortilla strips",
       "Impossible meat",
       "Chipotle honey vinaigrette"
-    ]
+    ],
+    "category": "taco"
   },
   {
     "id": "D047",
@@ -863,7 +902,8 @@
       "Roasted chicken",
       "Fresh lime squeeze",
       "Lime cilantro jalapeño vinaigrette"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D048",
@@ -885,6 +925,7 @@
       "Green onion",
       "Sesame seeds"
     ],
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -909,6 +950,7 @@
       "Onion",
       "Shiitakes"
     ],
+    "category": "wrap",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -929,6 +971,7 @@
       "Parmesan risotto",
       "Grilled asparagus"
     ],
+    "category": "seafood",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -951,6 +994,7 @@
       "Garlic mayo",
       "Curly fries"
     ],
+    "category": "burger",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -973,6 +1017,7 @@
       "Onions",
       "Jalapeños"
     ],
+    "category": "nachos",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -998,7 +1043,8 @@
       "crispy chickpeas",
       "smoked feta",
       "grilled chicken"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D054",
@@ -1024,7 +1070,8 @@
       "smoked feta",
       "pepitas",
       "seared sesame tuna"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D055",
@@ -1044,7 +1091,8 @@
       "edamame",
       "kale + broccoli slaw",
       "orange ginger soy"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D056",
@@ -1066,7 +1114,8 @@
       "smoked feta",
       "pickled red onion",
       "green tabasco sauce"
-    ]
+    ],
+    "category": "taco"
   },
   {
     "id": "D057",
@@ -1087,7 +1136,8 @@
       "pimento cheese",
       "green tomato jam",
       "pepper jelly"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D058",
@@ -1108,7 +1158,8 @@
       "mozzarella cheese",
       "peppers",
       "red onions"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D059",
@@ -1132,7 +1183,8 @@
       "corn",
       "black beans",
       "includes a side"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D060",
@@ -1156,7 +1208,8 @@
       "mushrooms",
       "lettuce",
       "includes a side"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D061",
@@ -1187,7 +1240,8 @@
       "sauce option - CE Marinara",
       "steamed broccoli",
       "sweet potato fries"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D062",
@@ -1217,7 +1271,8 @@
       "lettuce",
       "grilled mushrooms",
       "sweet potato fries"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D063",
@@ -1239,7 +1294,8 @@
       "Capers",
       "Cream cheese",
       "Red onions"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D064",
@@ -1255,7 +1311,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": "toast"
   },
   {
     "id": "D065",
@@ -1269,7 +1326,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D066",
@@ -1283,7 +1341,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": "wrap"
   },
   {
     "id": "D067",
@@ -1297,7 +1356,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": "wrap"
   },
   {
     "id": "D068",
@@ -1311,7 +1371,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": "sandwich"
   },
   {
     "id": "D069",
@@ -1325,7 +1386,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": "sandwich"
   },
   {
     "id": "D070",
@@ -1346,7 +1408,8 @@
       "Caramelized onions",
       "BBQ sauce",
       "Vegan pita bread"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D071",
@@ -1360,7 +1423,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D072",
@@ -1374,7 +1438,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D073",
@@ -1390,7 +1455,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": "dip"
   },
   {
     "id": "D074",
@@ -1413,7 +1479,8 @@
       "Lettuce",
       "Vegan chipotle mayonnaise",
       "Vegan pita bread"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D075",
@@ -1437,7 +1504,8 @@
       "Sliced apple",
       "Fresh lettuce",
       "Vegan pita bread"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D076",
@@ -1460,7 +1528,8 @@
       "Tomato",
       "Chipotle mayonnaise",
       "Vegan pita bread"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D077",
@@ -1476,7 +1545,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D078",
@@ -1492,7 +1562,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D079",
@@ -1508,7 +1579,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D080",
@@ -1522,7 +1594,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": "sandwich"
   },
   {
     "id": "D081",
@@ -1538,7 +1611,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": "sandwich"
   },
   {
     "id": "D082",
@@ -1554,7 +1628,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": "salad"
   },
   {
     "id": "D083",
@@ -1570,7 +1645,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": "salad"
   },
   {
     "id": "D084",
@@ -1591,7 +1667,8 @@
       "whipped yogurt",
       "coconut almond granola",
       "fresh fruit"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D085",
@@ -1612,7 +1689,8 @@
       "garlic breadcrumbs",
       "parmigiano",
       "caesar dressing"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D086",
@@ -1638,7 +1716,8 @@
       "farro",
       "barley",
       "wheat berry"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D087",
@@ -1661,7 +1740,8 @@
       "roasted peppers",
       "poached egg",
       "everything spice"
-    ]
+    ],
+    "category": "toast"
   },
   {
     "id": "D088",
@@ -1681,7 +1761,8 @@
       "housemade ham",
       "poached eggs",
       "hollandaise"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D089",
@@ -1702,7 +1783,8 @@
       "mascarpone",
       "walnut caramel",
       "strawberry compote"
-    ]
+    ],
+    "category": "toast"
   },
   {
     "id": "D090",
@@ -1723,7 +1805,8 @@
       "pancakes",
       "maple syrup",
       "eastaboga honey butter"
-    ]
+    ],
+    "category": "pancakes"
   },
   {
     "id": "D091",
@@ -1742,7 +1825,8 @@
       "buttermilk fried chicken breast",
       "spicy honey calabrian sauce",
       "ranch"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D092",
@@ -1765,7 +1849,8 @@
       "caramelized onions",
       "scrambled eggs",
       "salsa verde"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D093",
@@ -1788,7 +1873,8 @@
       "poached egg",
       "parmesan",
       "chives"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D094",
@@ -1807,7 +1893,8 @@
       "housemade chorizo",
       "tomato bolognese sauce",
       "manchego"
-    ]
+    ],
+    "category": "pasta"
   },
   {
     "id": "D095",
@@ -1829,7 +1916,8 @@
       "dijonaise",
       "shredded lettuce",
       "pickles"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D096",
@@ -1850,7 +1938,8 @@
       "eggs",
       "hollandaise",
       "salsa verde"
-    ]
+    ],
+    "category": "steak"
   },
   {
     "id": "D097",
@@ -1870,7 +1959,8 @@
       "crispy rice balls",
       "mozzarella",
       "calabrian chili sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D098",
@@ -1893,7 +1983,8 @@
       "Santa Cruz olive oil",
       "pickles",
       "sourdough bread"
-    ]
+    ],
+    "category": "dip"
   },
   {
     "id": "D099",
@@ -1914,7 +2005,8 @@
       "roasted local mushrooms",
       "creme fraiche",
       "thyme"
-    ]
+    ],
+    "category": "toast"
   },
   {
     "id": "D100",
@@ -1934,7 +2026,8 @@
       "capers",
       "beef tallow mayo",
       "semolina cracker"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D101",
@@ -1960,7 +2053,8 @@
       "charred cucumber",
       "yuzu",
       "dill"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D102",
@@ -1982,7 +2076,8 @@
       "Liuzi fior di latte mozzarella",
       "heirloom tomatoes",
       "basil oil"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D103",
@@ -2004,7 +2099,8 @@
       "goat cheese",
       "sungold tomato sauce",
       "saffron butter"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D104",
@@ -2025,7 +2121,8 @@
       "miso butter",
       "pecorino romano",
       "zanzibar peppercorns"
-    ]
+    ],
+    "category": "pasta"
   },
   {
     "id": "D105",
@@ -2047,7 +2144,8 @@
       "broccoli",
       "Shelburne aged cheddar",
       "herbed breadcrumbs"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D106",
@@ -2069,7 +2167,8 @@
       "summer squash",
       "fennel",
       "tomato ragu"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D107",
@@ -2090,7 +2189,8 @@
       "spinach and sorrel cream sauce",
       "Carolina Gold rice",
       "salsa seca"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D108",
@@ -2111,7 +2211,8 @@
       "ginger guajillo marinade",
       "peanut-lime gremolata",
       "fries"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D109",
@@ -2132,7 +2233,8 @@
       "Bear Creek bistro steak",
       "confit fingerling potatoes",
       "pearl onion balsamic sauce"
-    ]
+    ],
+    "category": "steak"
   },
   {
     "id": "D110",
@@ -2152,7 +2254,8 @@
       "tomato bolognese sauce",
       "creme fraiche",
       "manchego"
-    ]
+    ],
+    "category": "pasta"
   },
   {
     "id": "D111",
@@ -2168,7 +2271,8 @@
     "restaurant_website": "",
     "ingredients": [
       "certified angus braised beef brisket"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D115",
@@ -2186,7 +2290,8 @@
       "pecorino romano",
       "spinach",
       "focaccia"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D118",
@@ -2207,7 +2312,8 @@
       "cherry tomatoes",
       "croutons",
       "buttermilk ranch"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D120",
@@ -2231,7 +2337,8 @@
       "spring onions",
       "sugar snaps",
       "honey lemon vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D123",
@@ -2251,7 +2358,8 @@
       "red cabbage slaw",
       "sweet & spicy chili sauce",
       "bibb lettuce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D125",
@@ -2276,7 +2384,8 @@
       "spring onions",
       "sweet peas",
       "mint yogurt"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D126",
@@ -2298,7 +2407,8 @@
       "cashews",
       "broccoli",
       "savory teriyaki sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D127",
@@ -2317,7 +2427,8 @@
     "ingredients": [
       "okra",
       "breading"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D128",
@@ -2336,7 +2447,8 @@
     "ingredients": [
       "sweet potato",
       "chipotle mayo"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D129",
@@ -2356,7 +2468,8 @@
       "green tomatoes",
       "panko breadcrumbs",
       "chipotle mayo"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D130",
@@ -2373,7 +2486,8 @@
     "ingredients": [
       "panko breadcrumbs",
       "yogurt remoulade"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D131",
@@ -2395,7 +2509,8 @@
       "thyme",
       "apples",
       "baguette"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D132",
@@ -2413,7 +2528,8 @@
       "meatballs",
       "marinara sauce",
       "parmesan"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D133",
@@ -2436,7 +2552,8 @@
       "grilled chicken",
       "pumpkin seeds",
       "chickpeas"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D134",
@@ -2458,7 +2575,8 @@
       "oranges",
       "grapefruit",
       "lemon vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D135",
@@ -2480,7 +2598,8 @@
       "carrots",
       "sweet potato",
       "corn"
-    ]
+    ],
+    "category": "soup"
   },
   {
     "id": "D136",
@@ -2504,7 +2623,8 @@
       "avocado",
       "tortilla strips",
       "cherry tomatoes"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D137",
@@ -2520,7 +2640,8 @@
     "restaurant_website": "https://www.realandrosemary.com",
     "ingredients": [
       "turkey"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D138",
@@ -2537,7 +2658,8 @@
     "ingredients": [
       "sauerkraut",
       "marbled rye bread"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D139",
@@ -2555,7 +2677,8 @@
       "onion",
       "pickle",
       "housemade sauce"
-    ]
+    ],
+    "category": "burger"
   },
   {
     "id": "D140",
@@ -2575,7 +2698,8 @@
       "fried green tomatoes",
       "chipotle mayo",
       "bread"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D141",
@@ -2596,7 +2720,8 @@
       "arugula",
       "honey mustard",
       "multigrain bread"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D142",
@@ -2619,7 +2744,8 @@
       "goat cheese",
       "arugula",
       "balsamic glaze"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D143",
@@ -2635,7 +2761,8 @@
     "restaurant_website": "https://www.realandrosemary.com",
     "ingredients": [
       "garden sides (choice of four)"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D144",
@@ -2653,7 +2780,8 @@
       "grilled chicken",
       "sorghum honey mustard",
       "garden sides (choice of two)"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D145",
@@ -2669,7 +2797,8 @@
     "restaurant_website": "https://www.realandrosemary.com",
     "ingredients": [
       "spice rubbed chicken"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D146",
@@ -2688,7 +2817,8 @@
       "panko breadcrumbs",
       "yogurt remoulade",
       "garden sides"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D147",
@@ -2706,7 +2836,8 @@
       "marinara sauce",
       "parmesan",
       "garden sides (choice of two)"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D148",
@@ -2725,7 +2856,8 @@
       "panko breadcrumbs",
       "sorghum honey mustard",
       "garden sides (choice of two)"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D149",
@@ -2745,7 +2877,8 @@
       "mayo",
       "herbs",
       "garden sides (choice of two)"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D150",
@@ -2768,7 +2901,8 @@
       "mint",
       "pecan",
       "lemon vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D152",
@@ -2786,7 +2920,8 @@
       "whole chicken wings",
       "sweet potato waffles",
       "honey"
-    ]
+    ],
+    "category": "waffle"
   },
   {
     "id": "D154",
@@ -2802,7 +2937,8 @@
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
       "shrimp"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D156",
@@ -2820,7 +2956,8 @@
       "oxtails",
       "creamy grits",
       "house gravy"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D158",
@@ -2839,7 +2976,8 @@
       "bayou pico de gallo",
       "Louisiana spices",
       "chips"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D160",
@@ -2857,7 +2995,8 @@
       "jack cheese",
       "bayou lobster cream sauce",
       "fries"
-    ]
+    ],
+    "category": "burger"
   },
   {
     "id": "D162",
@@ -2876,7 +3015,8 @@
       "mozzarella cheese",
       "bell peppers",
       "onions"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D164",
@@ -2895,7 +3035,8 @@
       "cheddar jack cheese",
       "pico de gallo",
       "fries"
-    ]
+    ],
+    "category": "taco"
   },
   {
     "id": "D166",
@@ -2915,7 +3056,8 @@
       "lettuce",
       "tomatoes",
       "pickles"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D168",
@@ -2932,7 +3074,8 @@
     "ingredients": [
       "pork ribs",
       "marinade"
-    ]
+    ],
+    "category": "ribs"
   },
   {
     "id": "D170",
@@ -2948,7 +3091,8 @@
     "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
       "signature glaze"
-    ]
+    ],
+    "category": "chop"
   },
   {
     "id": "D172",
@@ -2965,7 +3109,8 @@
     "ingredients": [
       "chicken",
       "Yo Chef signature spices"
-    ]
+    ],
+    "category": "bbq"
   },
   {
     "id": "D174",
@@ -2984,7 +3129,8 @@
       "mozzarella cheese",
       "provolone cheese",
       "basil"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D176",
@@ -3007,7 +3153,8 @@
       "black olives",
       "banana peppers",
       "dressing (choice)"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D178",
@@ -3030,7 +3177,8 @@
       "pico de gallo",
       "black olives",
       "banana peppers"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D180",
@@ -3049,7 +3197,8 @@
     "ingredients": [
       "veggie wings",
       "sauce (choice)"
-    ]
+    ],
+    "category": "wings"
   },
   {
     "id": "D183",
@@ -3070,7 +3219,8 @@
       "coconut yogurt",
       "almond milk",
       "vanilla protein"
-    ]
+    ],
+    "category": "smoothie"
   },
   {
     "id": "D184",
@@ -3093,7 +3243,8 @@
       "walnuts",
       "almond milk",
       "chocolate protein"
-    ]
+    ],
+    "category": "smoothie"
   },
   {
     "id": "D185",
@@ -3116,7 +3267,8 @@
       "flax seeds",
       "almond milk",
       "vanilla protein"
-    ]
+    ],
+    "category": "smoothie"
   },
   {
     "id": "D186",
@@ -3140,7 +3292,8 @@
       "cinnamon",
       "almond milk",
       "raw honey"
-    ]
+    ],
+    "category": "smoothie"
   },
   {
     "id": "D187",
@@ -3160,7 +3313,8 @@
       "pineapple",
       "coconut yogurt",
       "coconut milk"
-    ]
+    ],
+    "category": "smoothie"
   },
   {
     "id": "D188",
@@ -3181,7 +3335,8 @@
       "apple",
       "mint leaves",
       "coconut water"
-    ]
+    ],
+    "category": "smoothie"
   },
   {
     "id": "D189",
@@ -3205,7 +3360,8 @@
       "oat milk",
       "vanilla extract",
       "agave"
-    ]
+    ],
+    "category": "smoothie"
   },
   {
     "id": "D190",
@@ -3227,7 +3383,8 @@
       "chia seeds",
       "agave",
       "almond milk"
-    ]
+    ],
+    "category": "smoothie"
   },
   {
     "id": "D191",
@@ -3245,7 +3402,8 @@
       "coffee",
       "maple syrup",
       "oat milk"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D192",
@@ -3264,7 +3422,8 @@
       "rose water",
       "maple syrup",
       "oat milk"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D193",
@@ -3287,7 +3446,8 @@
       "black pepper",
       "maple syrup",
       "oat milk"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D194",
@@ -3304,7 +3464,8 @@
     "ingredients": [
       "organic chai",
       "oat milk"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D195",
@@ -3324,7 +3485,8 @@
       "almond milk",
       "maple syrup",
       "cinnamon"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D196",
@@ -3345,7 +3507,8 @@
       "raw cacao",
       "maple syrup",
       "almond milk"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D197",
@@ -3364,7 +3527,8 @@
       "maple syrup",
       "almond milk",
       "goji berries"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D198",
@@ -3384,7 +3548,8 @@
       "almond milk",
       "maple syrup",
       "chocolate protein"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D199",
@@ -3410,7 +3575,8 @@
       "sliced almonds",
       "hemp seeds",
       "almond butter"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D200",
@@ -3434,7 +3600,8 @@
       "strawberries",
       "granola",
       "raw honey"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D201",
@@ -3456,7 +3623,8 @@
       "cucumbers",
       "fried shallots",
       "mustard dill vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D202",
@@ -3480,7 +3648,8 @@
       "crushed peanuts",
       "hemp seeds",
       "peanut dressing"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D203",
@@ -3502,7 +3671,8 @@
       "golden raisins",
       "shaved parmesan",
       "honey dijon dressing"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D204",
@@ -3527,7 +3697,8 @@
       "feta cheese",
       "za'atar",
       "lemon vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D205",
@@ -3552,7 +3723,8 @@
       "tomatoes",
       "scallion mix",
       "garbanzo beans"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D206",
@@ -3576,7 +3748,8 @@
       "lettuce",
       "spinach tortilla",
       "spicy mayo"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D207",
@@ -3598,7 +3771,8 @@
       "lettuce",
       "cucumber",
       "spinach tortilla"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D208",
@@ -3620,7 +3794,8 @@
       "lettuce",
       "sriracha",
       "spinach tortilla"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D209",
@@ -3642,7 +3817,8 @@
       "pickled red onions",
       "lettuce",
       "spinach tortilla"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D210",
@@ -3664,7 +3840,8 @@
       "mozzarella cheese",
       "arugula",
       "bagel"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D211",
@@ -3690,7 +3867,8 @@
       "hummus",
       "spinach tortilla",
       "tahini"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D212",
@@ -3711,7 +3889,8 @@
       "sun-dried tomatoes",
       "arugula",
       "spinach tortilla"
-    ]
+    ],
+    "category": "quesadilla"
   },
   {
     "id": "D213",
@@ -3734,7 +3913,8 @@
       "olives",
       "arugula",
       "spinach tortilla"
-    ]
+    ],
+    "category": "quesadilla"
   },
   {
     "id": "D214",
@@ -3755,7 +3935,8 @@
       "fresh buffalo mozzarella",
       "basil",
       "pinsa romana bread"
-    ]
+    ],
+    "category": "flatbread"
   },
   {
     "id": "D215",
@@ -3776,7 +3957,8 @@
       "truffle oil",
       "arugula",
       "pinsa romana bread"
-    ]
+    ],
+    "category": "flatbread"
   },
   {
     "id": "D216",
@@ -3796,7 +3978,8 @@
       "dijon",
       "scallion mix",
       "sourdough bread"
-    ]
+    ],
+    "category": "toast"
   },
   {
     "id": "D217",
@@ -3816,7 +3999,8 @@
       "pickled red onions",
       "dill",
       "sourdough bread"
-    ]
+    ],
+    "category": "toast"
   },
   {
     "id": "D218",
@@ -3836,7 +4020,8 @@
       "flax seeds",
       "honey",
       "sourdough bread"
-    ]
+    ],
+    "category": "toast"
   },
   {
     "id": "D219",
@@ -3860,7 +4045,8 @@
       "fried shallots",
       "spicy vegan mayo",
       "house marinade"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D220",
@@ -3884,7 +4070,8 @@
       "scallion mix",
       "spinach",
       "tortilla chips"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D221",
@@ -3907,7 +4094,8 @@
       "pickled onions",
       "spicy vegan mayo",
       "house marinade"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D222",
@@ -3927,7 +4115,8 @@
       "cucumber",
       "apple",
       "lemon"
-    ]
+    ],
+    "category": "juice"
   },
   {
     "id": "D223",
@@ -3947,7 +4136,8 @@
       "cucumber",
       "celery",
       "lemon"
-    ]
+    ],
+    "category": "juice"
   },
   {
     "id": "D224",
@@ -3966,7 +4156,8 @@
       "pineapple",
       "spinach",
       "ginger"
-    ]
+    ],
+    "category": "juice"
   },
   {
     "id": "D225",
@@ -3984,7 +4175,8 @@
       "pineapple",
       "grapefruit",
       "turmeric"
-    ]
+    ],
+    "category": "juice"
   },
   {
     "id": "D226",
@@ -4005,7 +4197,8 @@
       "carrot",
       "lemon",
       "ginger"
-    ]
+    ],
+    "category": "juice"
   },
   {
     "id": "D227",
@@ -4025,7 +4218,8 @@
       "lavender",
       "lemon",
       "agave"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D228",
@@ -4039,7 +4233,8 @@
     "menu_link": "https://kalemecrazy.net/menu/",
     "restaurant_address": "1831 28th Ave. South, Ste. 106, Homewood, AL 35209",
     "restaurant_website": "https://kalemecrazy.net",
-    "ingredients": []
+    "ingredients": [],
+    "category": "juice"
   },
   {
     "id": "D229",
@@ -4060,7 +4255,8 @@
       "turmeric",
       "cayenne",
       "lemon"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D230",
@@ -4079,7 +4275,8 @@
       "lime",
       "turmeric",
       "raw honey"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D231",
@@ -4098,7 +4295,8 @@
       "lemon",
       "ginger",
       "orange"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D233",
@@ -4112,7 +4310,8 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D235",
@@ -4126,7 +4325,8 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "side"
   },
   {
     "id": "D237",
@@ -4140,7 +4340,8 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "salad"
   },
   {
     "id": "D239",
@@ -4154,7 +4355,8 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D241",
@@ -4168,7 +4370,8 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "sandwich"
   },
   {
     "id": "D243",
@@ -4186,7 +4389,8 @@
       "Detroit-style dough",
       "house-made red sauce",
       "Emmy's cheese blend"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D245",
@@ -4203,7 +4407,8 @@
     "ingredients": [
       "red sauce",
       "Emmy's cheese blend"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D247",
@@ -4219,7 +4424,8 @@
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [
       "Emmy's cheese blend"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D249",
@@ -4233,7 +4439,8 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "pizza"
   },
   {
     "id": "D251",
@@ -4250,7 +4457,8 @@
     "ingredients": [
       "Detroit-style dough",
       "red sauce"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D253",
@@ -4267,7 +4475,8 @@
     "ingredients": [
       "Daily's thick-cut bacon",
       "shaved sirloin"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D255",
@@ -4284,7 +4493,8 @@
     "ingredients": [
       "Bama white sauce",
       "chopped pickles"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D256",
@@ -4302,7 +4512,8 @@
       "Detroit-style dough",
       "ricotta",
       "truffle cream"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D258",
@@ -4321,7 +4532,8 @@
       "west indie's mignonette",
       "lemon",
       "toast"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D259",
@@ -4341,7 +4553,8 @@
       "smoked tomato",
       "remoulade",
       "micro green"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D260",
@@ -4361,7 +4574,8 @@
       "candied jalapeno bacon",
       "smoked mariah bacon",
       "sausage balls"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D261",
@@ -4380,7 +4594,8 @@
       "cheddar",
       "conecuh country gravy",
       "poached egg"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D262",
@@ -4399,7 +4614,8 @@
       "baby croissant",
       "lemon-herb mascarpone",
       "fried capers"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D263",
@@ -4418,7 +4634,8 @@
       "cajun cocktail",
       "dirty tartar",
       "lemon"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D264",
@@ -4438,7 +4655,8 @@
       "pulled bacon",
       "al. wbbq",
       "poached egg"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D265",
@@ -4456,7 +4674,8 @@
       "smoked tenderloin",
       "scratch gouda biscuit",
       "béarnaise"
-    ]
+    ],
+    "category": "steak"
   },
   {
     "id": "D266",
@@ -4475,7 +4694,8 @@
       "wood fired okra",
       "smoked shallot jam",
       "al. wbbq"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D267",
@@ -4491,7 +4711,8 @@
     "restaurant_website": "https://www.sohostandard.bar/",
     "ingredients": [
       "Gulf crab claw"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D268",
@@ -4512,7 +4733,8 @@
       "baguette",
       "balsamic glaze",
       "honey"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D269",
@@ -4531,7 +4753,8 @@
       "marinated crab",
       "smoked tomato",
       "remoulade"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D270",
@@ -4552,7 +4775,8 @@
       "chili flake",
       "cilantro",
       "toast"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D271",
@@ -4574,7 +4798,8 @@
       "lemon",
       "compound butter",
       "parmesan"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D272",
@@ -4594,7 +4819,8 @@
       "fried capers",
       "pickled onion",
       "flatbread"
-    ]
+    ],
+    "category": "flatbread"
   },
   {
     "id": "D273",
@@ -4614,7 +4840,8 @@
       "wickle relish",
       "red pepper",
       "sourdough"
-    ]
+    ],
+    "category": "dip"
   },
   {
     "id": "D274",
@@ -4635,7 +4862,8 @@
       "baby tomato",
       "shallot",
       "citrus vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D275",
@@ -4659,7 +4887,8 @@
       "cornbread crouton",
       "jalapeno bacon",
       "buttermilk dressing"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D276",
@@ -4679,7 +4908,8 @@
       "cucumber",
       "toasted sesame seeds",
       "housemade fresh ginger dressing"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D277",
@@ -4698,7 +4928,8 @@
       "prosciutto",
       "bocconcini",
       "white balsamic honey vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D278",
@@ -4717,7 +4948,8 @@
       "marco's house bolognese",
       "parmesan",
       "fresh basil"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D279",
@@ -4737,7 +4969,8 @@
       "asiago",
       "blistered tomato",
       "toast"
-    ]
+    ],
+    "category": "pasta"
   },
   {
     "id": "D280",
@@ -4757,7 +4990,8 @@
       "garlic butter cream sauce",
       "lemon",
       "pinsa"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D281",
@@ -4776,7 +5010,8 @@
       "smashed potato",
       "asparagus",
       "compound herb butter"
-    ]
+    ],
+    "category": "steak"
   },
   {
     "id": "D282",
@@ -4794,7 +5029,8 @@
       "grouper",
       "smoked tomato spinach risotto",
       "beurre blanc"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D283",
@@ -4813,7 +5049,8 @@
       "creamed collards",
       "bloody mary rice",
       "pan sauce"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D284",
@@ -4835,7 +5072,8 @@
       "arugula",
       "slm sauce",
       "fries"
-    ]
+    ],
+    "category": "burger"
   },
   {
     "id": "D285",
@@ -4856,7 +5094,8 @@
       "chimichurri",
       "queso fresco",
       "rice"
-    ]
+    ],
+    "category": "taco"
   },
   {
     "id": "D286",
@@ -4877,7 +5116,8 @@
       "prosciutto",
       "balsamic",
       "micro basil"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D287",
@@ -4895,7 +5135,8 @@
       "date",
       "herb goat cheese",
       "jalapeno bacon"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D288",
@@ -4914,7 +5155,8 @@
       "cornmeal breading",
       "smoked paprika",
       "buttermilk dressing"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D289",
@@ -4935,7 +5177,8 @@
       "mixed herbs",
       "parmesan",
       "slm aioli"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D290",
@@ -4956,7 +5199,8 @@
       "fresh-cut fries",
       "cole slaw",
       "homemade tartar sauce"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D292",
@@ -4980,7 +5224,8 @@
       "black beans",
       "rice",
       "tortillas (flour or corn)"
-    ]
+    ],
+    "category": "taco"
   },
   {
     "id": "D293",
@@ -5006,7 +5251,8 @@
       "red bell pepper",
       "green bell pepper",
       "onions"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D294",
@@ -5027,7 +5273,8 @@
       "fresh-cut fries",
       "cole slaw",
       "homemade tartar sauce"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D295",
@@ -5049,7 +5296,8 @@
       "ranch sauce",
       "fresh-cut fries",
       "bread"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D296",
@@ -5069,7 +5317,8 @@
       "chicken wings (6)",
       "Belgian waffle",
       "homemade syrup"
-    ]
+    ],
+    "category": "waffle"
   },
   {
     "id": "D297",
@@ -5090,7 +5339,8 @@
       "fresh-cut fries",
       "cole slaw",
       "bread"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D298",
@@ -5113,7 +5363,8 @@
       "homemade BBQ sauce",
       "fresh-cut fries",
       "bun"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D299",
@@ -5133,7 +5384,8 @@
       "chicken wings (6)",
       "buttermilk pancakes (3)",
       "homemade syrup"
-    ]
+    ],
+    "category": "pancakes"
   },
   {
     "id": "D300",
@@ -5156,7 +5408,8 @@
       "asiago cheese",
       "cream cheese",
       "toast (optional)"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D301",
@@ -5178,7 +5431,8 @@
       "eggs (2)",
       "homestyle potatoes",
       "toast"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D302",
@@ -5199,7 +5453,8 @@
       "eggs (2)",
       "rice",
       "buttermilk biscuit"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D303",
@@ -5219,7 +5474,8 @@
       "buttermilk pancakes (3)",
       "bacon, sausage, or smoked sausage (choice)",
       "homemade syrup"
-    ]
+    ],
+    "category": "pancakes"
   },
   {
     "id": "D304",
@@ -5240,7 +5496,8 @@
       "sweet vanilla cream mix",
       "bacon, sausage, or smoked sausage (choice)",
       "homemade syrup"
-    ]
+    ],
+    "category": "toast"
   },
   {
     "id": "D305",
@@ -5260,7 +5517,8 @@
       "Belgian waffle",
       "bacon, sausage, or smoked sausage (choice)",
       "homemade syrup"
-    ]
+    ],
+    "category": "waffle"
   },
   {
     "id": "D306",
@@ -5281,7 +5539,8 @@
       "choice of 3 fillings (onions/bell peppers/mushrooms/spinach/cheddar/ham/sausage/bacon)",
       "cheese grits or homestyle potatoes (choice)",
       "toast"
-    ]
+    ],
+    "category": "omelette"
   },
   {
     "id": "D307",
@@ -5303,7 +5562,8 @@
       "onions",
       "spinach",
       "Gouda cheese"
-    ]
+    ],
+    "category": "omelette"
   },
   {
     "id": "D308",
@@ -5325,7 +5585,8 @@
       "parsley",
       "onions",
       "homemade pita"
-    ]
+    ],
+    "category": "soup"
   },
   {
     "id": "D309",
@@ -5350,7 +5611,8 @@
       "tomatoes",
       "onions",
       "homemade pita"
-    ]
+    ],
+    "category": "soup"
   },
   {
     "id": "D310",
@@ -5368,7 +5630,8 @@
       "matzah ball",
       "chicken vegetable broth",
       "homemade pita"
-    ]
+    ],
+    "category": "soup"
   },
   {
     "id": "D311",
@@ -5390,7 +5653,8 @@
       "chickpeas",
       "tahini",
       "lemon juice"
-    ]
+    ],
+    "category": "dip"
   },
   {
     "id": "D312",
@@ -5412,7 +5676,8 @@
       "hard-boiled egg",
       "chickpeas",
       "tahini"
-    ]
+    ],
+    "category": "dip"
   },
   {
     "id": "D313",
@@ -5435,7 +5700,8 @@
       "tahini",
       "lemon juice",
       "mushrooms"
-    ]
+    ],
+    "category": "dip"
   },
   {
     "id": "D314",
@@ -5458,7 +5724,8 @@
       "tahini",
       "lemon juice",
       "red bell peppers"
-    ]
+    ],
+    "category": "dip"
   },
   {
     "id": "D315",
@@ -5481,7 +5748,8 @@
       "tahini",
       "garlic",
       "seasonings"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D316",
@@ -5497,7 +5765,8 @@
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
       "pita bread"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D317",
@@ -5513,7 +5782,8 @@
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
       "pita chips"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D318",
@@ -5538,7 +5808,8 @@
       "parsley",
       "olive oil",
       "lemon juice"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D319",
@@ -5564,7 +5835,8 @@
       "cilantro",
       "olive oil",
       "lemon juice"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D320",
@@ -5585,7 +5857,8 @@
     "ingredients": [
       "homemade oregano vinaigrette dressing",
       "red cabbage"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D321",
@@ -5606,7 +5879,8 @@
     "ingredients": [
       "white cabbage",
       "homemade oregano vinaigrette dressing"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D322",
@@ -5628,7 +5902,8 @@
       "cucumber",
       "onions",
       "homemade lemon vinaigrette dressing"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D323",
@@ -5653,7 +5928,8 @@
       "olive oil",
       "Moroccan spice blend",
       "herbs"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D324",
@@ -5675,7 +5951,8 @@
       "blend of spices",
       "red beets",
       "lemon juice"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D325",
@@ -5698,7 +5975,8 @@
       "red bell peppers",
       "fresh garlic",
       "lemon juice"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D326",
@@ -5721,7 +5999,8 @@
       "oregano",
       "mixed vegetables",
       "blend of spices"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D327",
@@ -5745,7 +6024,8 @@
       "Moroccan carrots",
       "beet salad",
       "white cabbage salad"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D328",
@@ -5762,7 +6042,8 @@
     "ingredients": [
       "marinade",
       "organic chicken"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D329",
@@ -5780,7 +6061,8 @@
       "organic chicken",
       "garlic",
       "spices"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D330",
@@ -5797,7 +6079,8 @@
     "ingredients": [
       "marinade",
       "organic chicken breast"
-    ]
+    ],
+    "category": "kabob"
   },
   {
     "id": "D331",
@@ -5813,7 +6096,8 @@
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
       "organic chicken tenders"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D332",
@@ -5833,7 +6117,8 @@
       "organic chicken cutlet",
       "gluten-free breading",
       "seasoning"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D333",
@@ -5851,7 +6136,8 @@
       "grass-fed beef",
       "grass-fed lamb",
       "marinade"
-    ]
+    ],
+    "category": "lamb"
   },
   {
     "id": "D334",
@@ -5868,7 +6154,8 @@
     "ingredients": [
       "grass-fed beef",
       "marinade"
-    ]
+    ],
+    "category": "kabob"
   },
   {
     "id": "D335",
@@ -5885,7 +6172,8 @@
     "ingredients": [
       "grass-fed lamb",
       "marinade"
-    ]
+    ],
+    "category": "kabob"
   },
   {
     "id": "D336",
@@ -5903,7 +6191,8 @@
       "seasoning",
       "ground grass-fed beef",
       "ground grass-fed lamb"
-    ]
+    ],
+    "category": "kabob"
   },
   {
     "id": "D337",
@@ -5924,7 +6213,8 @@
     "ingredients": [
       "chickpeas",
       "herbs"
-    ]
+    ],
+    "category": "falafel"
   },
   {
     "id": "D338",
@@ -5943,7 +6233,8 @@
       "organic chicken",
       "grass-fed beef",
       "marinade"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D339",
@@ -5960,7 +6251,8 @@
     "ingredients": [
       "grass-fed lamb chops",
       "seasoning"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D340",
@@ -5980,7 +6272,8 @@
       "falafel",
       "grass-fed beef/lamb shawarma",
       "kefta kabob"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D341",
@@ -6003,7 +6296,8 @@
       "eggs",
       "garlic",
       "onions"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D342",
@@ -6027,7 +6321,8 @@
       "baba ghanoush",
       "tabouli salad",
       "red cabbage salad"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D343",
@@ -6047,7 +6342,8 @@
       "blend of spices",
       "homemade tomato sauce",
       "green cabbage leaves"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D344",
@@ -6067,7 +6363,8 @@
       "wild-caught Alaskan salmon",
       "olive oil",
       "blend of spices"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D345",
@@ -6089,7 +6386,8 @@
       "tomatoes",
       "garlic",
       "cilantro"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D346",
@@ -6110,7 +6408,8 @@
     "ingredients": [
       "olives",
       "Israeli pickles"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D347",
@@ -6129,7 +6428,8 @@
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
       "organic potatoes"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D348",
@@ -6148,7 +6448,8 @@
     "restaurant_website": "https://elisjerusalemgrill.com",
     "ingredients": [
       "organic sweet potatoes"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D349",
@@ -6168,7 +6469,8 @@
     "ingredients": [
       "cauliflower",
       "gluten-free breading"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D350",
@@ -6188,7 +6490,8 @@
       "filo pastry",
       "almonds",
       "homemade blossom citrus syrup"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D351",
@@ -6209,7 +6512,8 @@
       "filo pastry",
       "homemade blossom citrus syrup",
       "crushed pistachios"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D353",
@@ -6230,7 +6534,8 @@
       "egg mousse",
       "horseradish",
       "tallow croutons"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D354",
@@ -6246,7 +6551,8 @@
     "restaurant_website": "",
     "ingredients": [
       "shrimp"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D356",
@@ -6264,7 +6570,8 @@
       "walnuts",
       "bacon",
       "honey dijon vinaigrette"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D357",
@@ -6282,7 +6589,8 @@
       "romaine",
       "sourdough croutons",
       "caesar dressing"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D359",
@@ -6301,7 +6609,8 @@
       "sweet sausage",
       "aged cheddar",
       "focaccia"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D361",
@@ -6318,7 +6627,8 @@
     "ingredients": [
       "bone marrow",
       "smoked garlic butter"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D362",
@@ -6338,7 +6648,8 @@
       "red sauce",
       "fresh mozzarella",
       "basil"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D364",
@@ -6357,7 +6668,8 @@
       "fresh oregano",
       "honey",
       "oregano"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D365",
@@ -6376,7 +6688,8 @@
       "italian sausage",
       "cremini mushrooms",
       "red onion"
-    ]
+    ],
+    "category": "pizza"
   },
   {
     "id": "D366",
@@ -6396,7 +6709,8 @@
       "pesto",
       "gorgonzola",
       "bacon"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D367",
@@ -6413,7 +6727,8 @@
     "menu_link": "https://www.woodencitybirmingham.com/menu",
     "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
     "restaurant_website": "https://www.woodencitybirmingham.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "pizza"
   },
   {
     "id": "D369",
@@ -6434,7 +6749,8 @@
       "aged balsamic",
       "swiss cheese",
       "mushrooms"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D371",
@@ -6454,7 +6770,8 @@
       "arugula",
       "honey mustard",
       "chicken"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D372",
@@ -6471,7 +6788,8 @@
     "ingredients": [
       "rigatoni pasta",
       "lamb sausage"
-    ]
+    ],
+    "category": "pasta"
   },
   {
     "id": "D374",
@@ -6492,7 +6810,8 @@
       "carrot",
       "swiss chard",
       "potato"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D376",
@@ -6513,7 +6832,8 @@
       "pistachios",
       "shallot",
       "basil"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D377",
@@ -6532,7 +6852,8 @@
       "lemon caper butter sauce",
       "chicken schnitzel",
       "herbed rice"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D379",
@@ -6551,7 +6872,8 @@
       "caribbean spice",
       "cilantro",
       "jerk crema"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D380",
@@ -6570,7 +6892,8 @@
       "cranberries",
       "goat cheese",
       "almonds"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D381",
@@ -6589,7 +6912,8 @@
       "herbs",
       "fry sauce",
       "french fries"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D382",
@@ -6608,7 +6932,8 @@
       "steak butter",
       "chive crema",
       "parsley"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D383",
@@ -6627,7 +6952,8 @@
       "coffee",
       "demerara sugar",
       "whipped cream"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D384",
@@ -6647,7 +6973,8 @@
       "espresso",
       "coffee liqueur",
       "cream"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D385",
@@ -6667,7 +6994,8 @@
       "crème de cacao",
       "menta",
       "cream"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D386",
@@ -6684,7 +7012,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D388",
@@ -6701,7 +7030,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D391",
@@ -6718,7 +7048,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D395",
@@ -6735,7 +7066,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D398",
@@ -6753,7 +7085,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D399",
@@ -6767,7 +7100,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D401",
@@ -6784,7 +7118,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "chicken"
   },
   {
     "id": "D403",
@@ -6802,7 +7137,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "side"
   },
   {
     "id": "D404",
@@ -6818,7 +7154,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "salad"
   },
   {
     "id": "D406",
@@ -6836,7 +7173,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "bread"
   },
   {
     "id": "D407",
@@ -6854,7 +7192,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D409",
@@ -6872,7 +7211,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D411",
@@ -6890,7 +7230,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "smoothie"
   },
   {
     "id": "D412",
@@ -6908,7 +7249,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "smoothie"
   },
   {
     "id": "D413",
@@ -6924,7 +7266,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "toast"
   },
   {
     "id": "D414",
@@ -6940,7 +7283,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "toast"
   },
   {
     "id": "D416",
@@ -6954,7 +7298,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "toast"
   },
   {
     "id": "D417",
@@ -6970,7 +7315,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "toast"
   },
   {
     "id": "D419",
@@ -6987,7 +7333,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D420",
@@ -7005,7 +7352,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D421",
@@ -7019,7 +7367,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D423",
@@ -7033,7 +7382,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D424",
@@ -7051,7 +7401,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "dip"
   },
   {
     "id": "D426",
@@ -7065,7 +7416,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D427",
@@ -7082,7 +7434,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D428",
@@ -7096,7 +7449,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D429",
@@ -7113,7 +7467,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "chicken"
   },
   {
     "id": "D430",
@@ -7130,7 +7485,8 @@
     "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
-    "ingredients": []
+    "ingredients": [],
+    "category": "seafood"
   },
   {
     "id": "D431",
@@ -7144,7 +7500,8 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "ingredients": []
+    "ingredients": [],
+    "category": ""
   },
   {
     "id": "D432",
@@ -7164,7 +7521,8 @@
       "mozzarella",
       "breading",
       "vodka sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D433",
@@ -7184,7 +7542,8 @@
       "pickles",
       "batter",
       "ranch"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D434",
@@ -7206,7 +7565,8 @@
       "brussels sprouts",
       "goat cheese",
       "honey"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D435",
@@ -7222,7 +7582,8 @@
     "restaurant_website": "https://manthebattery.com",
     "ingredients": [
       "chicken wings"
-    ]
+    ],
+    "category": "wings"
   },
   {
     "id": "D436",
@@ -7243,7 +7604,8 @@
       "pimento peppers",
       "ranch chips",
       "fresh vegetables"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D437",
@@ -7264,7 +7626,8 @@
       "jalapeños",
       "tortilla chips",
       "white queso"
-    ]
+    ],
+    "category": "dip"
   },
   {
     "id": "D438",
@@ -7289,7 +7652,8 @@
       "cilantro",
       "yum yum sauce",
       "teriyaki sauce"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D439",
@@ -7311,7 +7675,8 @@
       "onions",
       "salsa",
       "sour cream"
-    ]
+    ],
+    "category": "quesadilla"
   },
   {
     "id": "D440",
@@ -7338,7 +7703,8 @@
       "avocado",
       "bacon",
       "green goddess dressing"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D441",
@@ -7364,7 +7730,8 @@
       "romaine",
       "ham",
       "turkey"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D442",
@@ -7388,7 +7755,8 @@
       "cherry tomato",
       "red onion",
       "blue cheese dressing"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D443",
@@ -7410,7 +7778,8 @@
       "okra croutons",
       "parmesan",
       "chives"
-    ]
+    ],
+    "category": "soup"
   },
   {
     "id": "D444",
@@ -7430,7 +7799,8 @@
       "okra croutons",
       "red chili flakes",
       "house caesar dressing"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D445",
@@ -7450,7 +7820,8 @@
       "parmesan fries",
       "honey mustard",
       "ranch"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D446",
@@ -7473,7 +7844,8 @@
       "garlic aioli",
       "tomato",
       "arugula"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D447",
@@ -7494,7 +7866,8 @@
       "garlic aioli",
       "cheese sauce",
       "hoagie roll"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D448",
@@ -7515,7 +7888,8 @@
       "pickles",
       "onions",
       "bun"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D449",
@@ -7536,7 +7910,8 @@
       "blue cheese crumbles",
       "ranch celery slaw",
       "bun"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D450",
@@ -7554,7 +7929,8 @@
       "brisket marmalade",
       "white American cheese",
       "sourdough"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D451",
@@ -7576,7 +7952,8 @@
       "cilantro",
       "lime",
       "taco shells"
-    ]
+    ],
+    "category": "taco"
   },
   {
     "id": "D452",
@@ -7597,7 +7974,8 @@
       "red onion",
       "garlic aioli",
       "bun"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D453",
@@ -7620,7 +7998,8 @@
       "tomato",
       "red onion",
       "bun"
-    ]
+    ],
+    "category": "burger"
   },
   {
     "id": "D454",
@@ -7640,7 +8019,8 @@
       "pork ribeye",
       "brussels sprouts",
       "mashed potatoes"
-    ]
+    ],
+    "category": "pork"
   },
   {
     "id": "D455",
@@ -7659,7 +8039,8 @@
       "Conecuh collard greens",
       "mashed potatoes",
       "sawmill gravy"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D456",
@@ -7681,7 +8062,8 @@
       "king salmon",
       "sweet potatoes",
       "broccolini"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D457",
@@ -7702,7 +8084,8 @@
       "Conecuh sausage",
       "Crystal cream sauce",
       "cheese grits"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D458",
@@ -7722,7 +8105,8 @@
       "toast points",
       "linguine pasta",
       "basil and almond pesto"
-    ]
+    ],
+    "category": "pasta"
   },
   {
     "id": "D459",
@@ -7743,6 +8127,7 @@
       "lime crema",
       "pickled red onion"
     ],
+    "category": "",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -7765,6 +8150,7 @@
       "Eastaboga Hot Honey",
       "rum butter"
     ],
+    "category": "",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -7786,6 +8172,7 @@
       "cheese dip",
       "chili oil"
     ],
+    "category": "",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -7806,6 +8193,7 @@
       "salsa criolla",
       "sweet potato"
     ],
+    "category": "",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -7827,6 +8215,7 @@
       "croutons",
       "1605 Manchego"
     ],
+    "category": "",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -7849,6 +8238,7 @@
       "charred scallion salsa verde",
       "crispy plantains"
     ],
+    "category": "",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -7872,6 +8262,7 @@
       "jerk BBQ sauce",
       "pineapple salsa"
     ],
+    "category": "chicken",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -7896,6 +8287,7 @@
       "calypso sauce",
       "yucca fries"
     ],
+    "category": "sandwich",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -7917,6 +8309,7 @@
       "burnt onion yum yum sauce",
       "candied oranges"
     ],
+    "category": "side",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -7939,6 +8332,7 @@
       "smoked mole",
       "horseradish butter"
     ],
+    "category": "",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -7962,6 +8356,7 @@
       "furikake fries",
       "burger bun"
     ],
+    "category": "",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -7985,6 +8380,7 @@
       "cotija cheese",
       "jalapeño slice"
     ],
+    "category": "nachos",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8008,6 +8404,7 @@
       "onion",
       "sweet chili sauce"
     ],
+    "category": "roll",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8030,6 +8427,7 @@
       "green onion",
       "sesame seeds"
     ],
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8051,6 +8449,7 @@
       "carrots",
       "carrot-ginger dressing"
     ],
+    "category": "salad",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8076,6 +8475,7 @@
       "onion",
       "shiitake mushrooms"
     ],
+    "category": "wrap",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8095,6 +8495,7 @@
       "yum-yum sauce",
       "ssamjang hot sauce"
     ],
+    "category": "wings",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8116,6 +8517,7 @@
       "lemon-flake salt",
       "sriracha yogurt"
     ],
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8136,6 +8538,7 @@
       "green onion",
       "sesame seeds"
     ],
+    "category": "ribs",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8157,6 +8560,7 @@
       "sweet-onion slaw",
       "jalapeño"
     ],
+    "category": "seafood",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8178,6 +8582,7 @@
       "pickles",
       "green onion"
     ],
+    "category": "bbq",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8198,6 +8603,7 @@
       "house sauce",
       "ginger-scallion relish"
     ],
+    "category": "ribs",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8220,6 +8626,7 @@
       "garlic mayo",
       "green onion"
     ],
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8242,6 +8649,7 @@
       "grilled asparagus",
       "parmesan risotto"
     ],
+    "category": "seafood",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8265,6 +8673,7 @@
       "pickled shiitakes",
       "curly fries"
     ],
+    "category": "burger",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8288,6 +8697,7 @@
       "red pepper paste",
       "mongolian sauce"
     ],
+    "category": "noodles",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8310,6 +8720,7 @@
       "mixed vegetables",
       "rice"
     ],
+    "category": "chicken",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8331,6 +8742,7 @@
       "green beans",
       "rice"
     ],
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8354,6 +8766,7 @@
       "green onion",
       "pineapple kimchi"
     ],
+    "category": "bowl",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8381,6 +8794,7 @@
       "shishito peppers",
       "yum-yum sauce"
     ],
+    "category": "bowl",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8404,6 +8818,7 @@
       "cabbage kimchi",
       "green onion"
     ],
+    "category": "bowl",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8429,6 +8844,7 @@
       "green onion",
       "sesame seeds"
     ],
+    "category": "bowl",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8454,6 +8870,7 @@
       "green onion",
       "sesame seeds"
     ],
+    "category": "bowl",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8474,6 +8891,7 @@
       "bitters",
       "lemon twist"
     ],
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8495,6 +8913,7 @@
       "lime",
       "jalapeño"
     ],
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8516,6 +8935,7 @@
       "lemon",
       "soda"
     ],
+    "category": "curry",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8537,6 +8957,7 @@
       "lime",
       "cava"
     ],
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8557,6 +8978,7 @@
       "lime",
       "angostura bitters"
     ],
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8579,6 +9001,7 @@
       "lemon",
       "rosé"
     ],
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -8601,6 +9024,7 @@
       "star anise",
       "cinnamon"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8627,6 +9051,7 @@
       "house-made mocha sauce",
       "FM banana syrup"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8653,6 +9078,7 @@
       "honey",
       "turmeric blend"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8678,6 +9104,7 @@
       "steamed milk",
       "house rosemary-infused honey"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8707,6 +9134,7 @@
       "whipped feta",
       "seasonal preserves"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8738,6 +9166,7 @@
       "strawberry preserves",
       "sourdough"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8763,6 +9192,7 @@
       "whiskey chai bbq sauce",
       "dill pickles"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8791,6 +9221,7 @@
       "walnuts",
       "pepper toasted pita"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8819,6 +9250,7 @@
       "red peppers",
       "sourdough"
     ],
+    "category": "omelette",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8849,6 +9281,7 @@
       "diced tomatoes",
       "sourdough"
     ],
+    "category": "omelette",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8876,6 +9309,7 @@
       "roasted red peppers",
       "cheddar cheese"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8904,6 +9338,7 @@
       "Broadbent bacon",
       "grilled bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8933,6 +9368,7 @@
       "orange wedges",
       "sourdough"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8961,6 +9397,7 @@
       "powdered sugar",
       "Vermont maple syrup"
     ],
+    "category": "toast",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -8990,6 +9427,7 @@
       "avocado mash",
       "grilled bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9019,6 +9457,7 @@
       "caramelized onion bacon jam",
       "grilled bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9046,6 +9485,7 @@
       "tomato",
       "grilled bun"
     ],
+    "category": "sandwich",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9075,6 +9515,7 @@
       "basil pesto cream",
       "parmesan"
     ],
+    "category": "pasta",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9105,6 +9546,7 @@
       "onions",
       "smoked Gouda grits"
     ],
+    "category": "seafood",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9133,6 +9575,7 @@
       "broccoli chickpea quinoa",
       "Loveless Cafe chow chow"
     ],
+    "category": "seafood",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9164,6 +9607,7 @@
       "mixed greens",
       "sourdough"
     ],
+    "category": "salad",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9193,6 +9637,7 @@
       "arugula",
       "sourdough"
     ],
+    "category": "salad",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9222,6 +9667,7 @@
       "kale",
       "Caesar dressing"
     ],
+    "category": "salad",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9253,6 +9699,7 @@
       "lemon dill dijon sauce",
       "kale"
     ],
+    "category": "bowl",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9282,6 +9729,7 @@
       "avocado mash",
       "sourdough"
     ],
+    "category": "toast",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9310,6 +9758,7 @@
       "tomato",
       "grilled bun"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9336,6 +9785,7 @@
       "cheddar cheese",
       "plain bagel"
     ],
+    "category": "sandwich",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9364,6 +9814,7 @@
       "cucumber",
       "pickled onions"
     ],
+    "category": "sandwich",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9394,6 +9845,7 @@
       "tomato",
       "multigrain bread"
     ],
+    "category": "salad",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9422,6 +9874,7 @@
       "tomato",
       "honey white bread"
     ],
+    "category": "salad",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9451,6 +9904,7 @@
       "basil mayo",
       "multigrain bread"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9479,7 +9933,8 @@
       "cucumbers",
       "vinegar",
       "sesame seeds"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D530",
@@ -9501,7 +9956,8 @@
       "cole slaw",
       "mango dressing",
       "mango"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D531",
@@ -9522,7 +9978,8 @@
       "sesame seeds",
       "unagi sauce",
       "spicy mayo"
-    ]
+    ],
+    "category": "nachos"
   },
   {
     "id": "D532",
@@ -9546,7 +10003,8 @@
       "cilantro",
       "jalapeno",
       "lime"
-    ]
+    ],
+    "category": "nachos"
   },
   {
     "id": "D533",
@@ -9569,7 +10027,8 @@
       "soy sauce",
       "cabbage",
       "sushi rice"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D534",
@@ -9592,7 +10051,8 @@
       "spicy mayo",
       "unagi sauce",
       "avocado"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D535",
@@ -9615,7 +10075,8 @@
       "spicy mayo",
       "cucumbers",
       "avocado"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D536",
@@ -9637,7 +10098,8 @@
       "spicy mayo",
       "Dorito crunch",
       "sriracha"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D537",
@@ -9659,7 +10121,8 @@
       "mango",
       "jalapeños",
       "sweet chili sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D538",
@@ -9679,7 +10142,8 @@
       "Hawaiian-style seasoned tuna",
       "macadamia nuts",
       "sesame"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D539",
@@ -9703,7 +10167,8 @@
       "cucumbers",
       "ninja sauce",
       "tortilla crunch"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D540",
@@ -9724,7 +10189,8 @@
       "cream cheese",
       "cucumbers",
       "spicy mango mayo"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D541",
@@ -9747,7 +10213,8 @@
       "ninja sauce",
       "unagi sauce",
       "Dorito crunch"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D542",
@@ -9769,7 +10236,8 @@
       "tuna",
       "apples",
       "avocado"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D543",
@@ -9791,7 +10259,8 @@
       "green bell peppers",
       "caramelized onions",
       "sweet fried plantains"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D544",
@@ -9818,7 +10287,8 @@
       "cucumber",
       "tomatoes",
       "cabbage"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D545",
@@ -9841,7 +10311,8 @@
       "avocado",
       "cream cheese",
       "sesame"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D546",
@@ -9863,7 +10334,8 @@
       "cream cheese",
       "avocado",
       "unagi sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D547",
@@ -9885,7 +10357,8 @@
       "spicy mayo",
       "cucumber",
       "avocado"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D548",
@@ -9908,7 +10381,8 @@
       "ninja sauce",
       "jalapeños",
       "tortilla crunch"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D549",
@@ -9931,7 +10405,8 @@
       "cilantro",
       "peanuts",
       "unagi sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D550",
@@ -9956,7 +10431,8 @@
       "tomatoes",
       "cabbage",
       "spicy mango mayo"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D551",
@@ -9976,7 +10452,8 @@
       "shrimp",
       "cream cheese",
       "unagi sauce"
-    ]
+    ],
+    "category": "appetizer"
   },
   {
     "id": "D552",
@@ -9998,7 +10475,8 @@
       "avocado",
       "cilantro",
       "lime"
-    ]
+    ],
+    "category": "taco"
   },
   {
     "id": "D553",
@@ -10018,7 +10496,8 @@
       "avocado",
       "mango slaw",
       "jalapeno"
-    ]
+    ],
+    "category": "taco"
   },
   {
     "id": "D554",
@@ -10039,7 +10518,8 @@
       "jalapeños",
       "ninja sauce",
       "sesame seeds"
-    ]
+    ],
+    "category": "taco"
   },
   {
     "id": "D555",
@@ -10061,7 +10541,8 @@
       "avocado",
       "mango slaw",
       "sesame seeds"
-    ]
+    ],
+    "category": "taco"
   },
   {
     "id": "D556",
@@ -10083,7 +10564,8 @@
       "guacamole",
       "cream cheese",
       "cilantro"
-    ]
+    ],
+    "category": "taco"
   },
   {
     "id": "D557",
@@ -10102,7 +10584,8 @@
       "pork",
       "dumpling wrapper",
       "Alabama tomato vinaigrette"
-    ]
+    ],
+    "category": "dumpling"
   },
   {
     "id": "D558",
@@ -10121,7 +10604,8 @@
       "pork",
       "dumpling wrapper",
       "Alabama tomato vinaigrette"
-    ]
+    ],
+    "category": "dumpling"
   },
   {
     "id": "D559",
@@ -10141,7 +10625,8 @@
       "celery",
       "water chestnuts",
       "house sweet chili sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D560",
@@ -10161,7 +10646,8 @@
     "ingredients": [
       "edamame",
       "Himalayan pink salt"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D561",
@@ -10181,7 +10667,8 @@
     "ingredients": [
       "edamame",
       "Himalayan pink salt"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D562",
@@ -10201,7 +10688,8 @@
       "green beans",
       "tempura batter",
       "togarashi sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D563",
@@ -10218,7 +10706,8 @@
     "ingredients": [
       "chicken",
       "house sweet chili sauce"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D564",
@@ -10238,7 +10727,8 @@
       "eggplant",
       "beer batter",
       "togarashi sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D565",
@@ -10259,7 +10749,8 @@
       "chickpeas",
       "shiitake mushrooms",
       "wrap"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D566",
@@ -10279,7 +10770,8 @@
       "udon noodles",
       "ginger scallion sauce",
       "peanut sauce"
-    ]
+    ],
+    "category": "noodles"
   },
   {
     "id": "D567",
@@ -10299,7 +10791,8 @@
       "onions",
       "red bell peppers",
       "green bell peppers"
-    ]
+    ],
+    "category": "wings"
   },
   {
     "id": "D568",
@@ -10325,7 +10818,8 @@
       "peanuts",
       "cilantro",
       "sesame ginger vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D569",
@@ -10344,7 +10838,8 @@
     "ingredients": [
       "seared tuna",
       "wasabi aioli"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D570",
@@ -10364,7 +10859,8 @@
       "seared tuna",
       "calamansi ponzu",
       "jalapeños"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D571",
@@ -10384,7 +10880,8 @@
       "seared salmon belly",
       "hiyashi wakame",
       "sushi rice"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D572",
@@ -10402,7 +10899,8 @@
       "unagi",
       "rice",
       "scallions"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D573",
@@ -10430,7 +10928,8 @@
       "cilantro",
       "house citrus dressing",
       "peanuts"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D574",
@@ -10457,7 +10956,8 @@
       "peanuts",
       "cilantro",
       "sesame ginger vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D575",
@@ -10481,7 +10981,8 @@
       "aioli",
       "sriracha",
       "eel sauce"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D576",
@@ -10502,7 +11003,8 @@
       "cream cheese",
       "masago",
       "tempura"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D577",
@@ -10523,7 +11025,8 @@
       "avocado",
       "cucumber",
       "Abhi aioli"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D578",
@@ -10543,7 +11046,8 @@
       "crab",
       "avocado",
       "cucumber"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D579",
@@ -10564,7 +11068,8 @@
       "avocado",
       "cucumber",
       "tempura"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D580",
@@ -10585,7 +11090,8 @@
       "cucumber",
       "masago",
       "eel sauce"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D581",
@@ -10611,7 +11117,8 @@
       "tuna",
       "wasabi aioli",
       "eel sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D582",
@@ -10633,7 +11140,8 @@
       "steamed shrimp",
       "avocado",
       "eel sauce"
-    ]
+    ],
+    "category": "seafood"
   },
   {
     "id": "D583",
@@ -10657,7 +11165,8 @@
       "tuna",
       "hot sauce",
       "eel sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D584",
@@ -10679,7 +11188,8 @@
       "cucumber",
       "smoked eel",
       "eel sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D585",
@@ -10702,7 +11212,8 @@
       "seared salmon",
       "wasabi aioli",
       "eel sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D586",
@@ -10726,7 +11237,8 @@
       "avocado",
       "cucumber",
       "carrots"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D587",
@@ -10747,7 +11259,8 @@
       "cucumber",
       "avocado",
       "tuna"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D588",
@@ -10770,7 +11283,8 @@
       "fresh tuna",
       "Abhi aioli",
       "sriracha"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D589",
@@ -10793,7 +11307,8 @@
       "spicy tuna",
       "sriracha",
       "eel sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D590",
@@ -10818,7 +11333,8 @@
       "jalapeno",
       "sriracha",
       "eel sauce"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D591",
@@ -10841,7 +11357,8 @@
       "tuna",
       "salmon",
       "steamed shrimp"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D592",
@@ -10861,7 +11378,8 @@
       "salmon",
       "avocado",
       "cucumber"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D593",
@@ -10884,7 +11402,8 @@
       "crab",
       "Abhi aioli",
       "eel sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D594",
@@ -10907,7 +11426,8 @@
       "salmon",
       "sriracha",
       "eel sauce"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D595",
@@ -10931,7 +11451,8 @@
       "avocado",
       "sriracha",
       "eel sauce"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D596",
@@ -10952,7 +11473,8 @@
       "avocado",
       "cucumber",
       "Abhi aioli"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D597",
@@ -10975,7 +11497,8 @@
       "tuna",
       "hamachi",
       "tobiko"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D598",
@@ -10996,7 +11519,8 @@
       "tempura",
       "smoked salmon",
       "eel sauce"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D599",
@@ -11020,7 +11544,8 @@
       "honey sriracha",
       "eel sauce",
       "scallions"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D600",
@@ -11041,7 +11566,8 @@
       "avocado",
       "cucumber",
       "steamed shrimp"
-    ]
+    ],
+    "category": "roll"
   },
   {
     "id": "D601",
@@ -11061,7 +11587,8 @@
       "garlic",
       "shrimp",
       "Korean bbq sauce"
-    ]
+    ],
+    "category": "sekuwa"
   },
   {
     "id": "D602",
@@ -11089,7 +11616,8 @@
       "tofu",
       "ginger scallion sauce",
       "premium jasmine rice"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D603",
@@ -11114,7 +11642,8 @@
       "serrano peppers",
       "sushi rice",
       "shrimp chip"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D604",
@@ -11140,7 +11669,8 @@
       "sushi rice",
       "Abhi aioli",
       "shrimp chip"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D605",
@@ -11163,7 +11693,8 @@
       "jalapeno",
       "cilantro",
       "premium jasmine rice"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D606",
@@ -11184,7 +11715,8 @@
       "organic mixed greens",
       "tomato",
       "onions"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D607",
@@ -11207,7 +11739,8 @@
       "sesame seed",
       "kimchi",
       "premium jasmine rice"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D608",
@@ -11230,7 +11763,8 @@
       "spinach",
       "scallions",
       "cilantro"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D609",
@@ -11254,7 +11788,8 @@
       "shiitake mushrooms",
       "tree ear mushroom",
       "soft boiled egg"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D610",
@@ -11282,7 +11817,8 @@
       "shiitake mushrooms",
       "tree ear mushrooms",
       "spinach"
-    ]
+    ],
+    "category": "noodles"
   },
   {
     "id": "D611",
@@ -11303,7 +11839,8 @@
       "cilantro",
       "carrots",
       "spinach"
-    ]
+    ],
+    "category": "noodles"
   },
   {
     "id": "D612",
@@ -11324,7 +11861,8 @@
       "cilantro",
       "carrots",
       "spinach"
-    ]
+    ],
+    "category": "noodles"
   },
   {
     "id": "D613",
@@ -11348,7 +11886,8 @@
       "spinach",
       "tree ear mushrooms",
       "carrots"
-    ]
+    ],
+    "category": "bowl"
   },
   {
     "id": "D614",
@@ -11369,7 +11908,8 @@
       "onions",
       "cilantro",
       "fried noodles"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D615",
@@ -11391,7 +11931,8 @@
       "pickled egg",
       "scallions",
       "cilantro"
-    ]
+    ],
+    "category": "noodles"
   },
   {
     "id": "D616",
@@ -11412,7 +11953,8 @@
       "bell peppers",
       "Thai basil",
       "premium jasmine rice"
-    ]
+    ],
+    "category": "curry"
   },
   {
     "id": "D617",
@@ -11433,7 +11975,8 @@
       "green bell peppers",
       "onions",
       "premium jasmine rice"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D618",
@@ -11453,7 +11996,8 @@
       "beef curry",
       "premium jasmine rice",
       "cilantro"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D619",
@@ -11474,7 +12018,8 @@
       "premium jasmine rice",
       "cilantro",
       "onions"
-    ]
+    ],
+    "category": "lamb"
   },
   {
     "id": "D620",
@@ -11495,7 +12040,8 @@
       "potatoes",
       "carrots",
       "premium jasmine rice"
-    ]
+    ],
+    "category": "curry"
   },
   {
     "id": "D621",
@@ -11521,6 +12067,7 @@
       "pickles",
       "Old Fashion Bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11558,6 +12105,7 @@
       "chipotle BBQ sauce",
       "Sweet Sourdough Bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11597,6 +12145,7 @@
       "mayo",
       "Old Fashion Bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11635,6 +12184,7 @@
       "tomato chutney",
       "Old Fashion Bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11675,6 +12225,7 @@
       "Taziki sauce",
       "Wheat Bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11717,6 +12268,7 @@
       "chipotle aioli",
       "Wheat Bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11756,6 +12308,7 @@
       "bleu cheese",
       "Sweet Sourdough Bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11792,6 +12345,7 @@
       "tropical salsa",
       "Wheat Bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11830,6 +12384,7 @@
       "iceberg lettuce",
       "Old Fashion Bun"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11868,6 +12423,7 @@
       "iceberg lettuce",
       "Old Fashion Bun"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11908,6 +12464,7 @@
       "mayonnaise",
       "Sourdough Bread"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11945,6 +12502,7 @@
       "ranch",
       "Old Fashion Bun"
     ],
+    "category": "",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -11981,6 +12539,7 @@
       "ranch",
       "BBQ sauce"
     ],
+    "category": "chicken",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -12019,6 +12578,7 @@
       "pickle",
       "Old Fashion Bun"
     ],
+    "category": "sandwich",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -12057,6 +12617,7 @@
       "pickle",
       "Old Fashion Bun"
     ],
+    "category": "sandwich",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -12094,6 +12655,7 @@
       "tomato",
       "Old Fashion Bun"
     ],
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -12134,6 +12696,7 @@
       "peperoncinis",
       "kalamata olives"
     ],
+    "category": "salad",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -12174,6 +12737,7 @@
       "grilled onions",
       "roasted red peppers"
     ],
+    "category": "salad",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -12214,6 +12778,7 @@
       "grilled onions",
       "roasted red peppers"
     ],
+    "category": "salad",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -12253,7 +12818,8 @@
       "pepper jack cheese",
       "roasted jalapeño vinaigrette",
       "white or wheat wrap"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D641",
@@ -12275,7 +12841,8 @@
       "feta cheese",
       "citrus vinaigrette",
       "white or wheat wrap"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D642",
@@ -12298,7 +12865,8 @@
       "cheddar cheese",
       "honey mustard vinaigrette",
       "white or wheat wrap"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D643",
@@ -12321,7 +12889,8 @@
       "avocado",
       "honey mustard vinaigrette",
       "white or wheat wrap"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D644",
@@ -12340,7 +12909,8 @@
       "housemade buffalo sauce",
       "cheddar cheese",
       "white wrap"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D645",
@@ -12364,7 +12934,8 @@
       "shredded carrots",
       "honey sesame dressing",
       "white or wheat wrap"
-    ]
+    ],
+    "category": "wrap"
   },
   {
     "id": "D646",
@@ -12385,7 +12956,8 @@
       "mixed greens",
       "fresh fruit",
       "citrus vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D647",
@@ -12409,7 +12981,8 @@
       "tomatoes",
       "pepper jack cheese",
       "roasted jalapeño vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D648",
@@ -12432,7 +13005,8 @@
       "red onion",
       "cheddar cheese",
       "honey mustard vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D649",
@@ -12455,7 +13029,8 @@
       "spiced pecans",
       "feta cheese",
       "citrus vinaigrette"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D650",
@@ -12479,7 +13054,8 @@
       "chow mein noodles",
       "shredded carrots",
       "honey sesame dressing"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D651",
@@ -12499,7 +13075,8 @@
       "pepper jack cheese",
       "bacon",
       "French roll"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D652",
@@ -12520,7 +13097,8 @@
       "pepper jack cheese",
       "aioli",
       "French roll"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D653",
@@ -12541,7 +13119,8 @@
       "marinated slaw",
       "hot-sweet mustard",
       "wheat bread"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D654",
@@ -12562,7 +13141,8 @@
       "provolone cheese",
       "mustard",
       "French roll"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D655",
@@ -12583,7 +13163,8 @@
       "provolone cheese",
       "aioli",
       "white bread"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D656",
@@ -12604,7 +13185,8 @@
       "tomatoes",
       "aioli",
       "white bread"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D657",
@@ -12623,7 +13205,8 @@
       "housemade pickles",
       "aioli",
       "yeast rolls"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D658",
@@ -12642,7 +13225,8 @@
       "lettuce",
       "tomatoes",
       "wheat bread"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D659",
@@ -12662,7 +13246,8 @@
       "tomato",
       "lettuce",
       "white bread"
-    ]
+    ],
+    "category": "sandwich"
   },
   {
     "id": "D660",
@@ -12682,7 +13267,8 @@
       "hot cheddar pasta",
       "broccoli salad",
       "orange roll"
-    ]
+    ],
+    "category": ""
   },
   {
     "id": "D661",
@@ -12701,7 +13287,8 @@
       "hot cheddar pasta",
       "broccoli salad",
       "white bread"
-    ]
+    ],
+    "category": "plate"
   },
   {
     "id": "D662",
@@ -12720,7 +13307,8 @@
       "rice pilaf",
       "garden salad",
       "orange roll"
-    ]
+    ],
+    "category": "chicken"
   },
   {
     "id": "D663",
@@ -12739,7 +13327,8 @@
       "rice pilaf",
       "garden salad",
       "orange roll"
-    ]
+    ],
+    "category": "steak"
   },
   {
     "id": "D664",
@@ -12758,7 +13347,8 @@
       "rice pilaf",
       "garden salad",
       "orange roll"
-    ]
+    ],
+    "category": "kabob"
   },
   {
     "id": "D665",
@@ -12781,7 +13371,8 @@
       "pepper jack cheese",
       "provolone cheese",
       "flour tortilla"
-    ]
+    ],
+    "category": "quesadilla"
   },
   {
     "id": "D666",
@@ -12804,7 +13395,8 @@
       "sour cream",
       "salsa",
       "flour tortilla"
-    ]
+    ],
+    "category": "quesadilla"
   },
   {
     "id": "D667",
@@ -12822,7 +13414,8 @@
     "restaurant_website": "https://www.uc-birmingham.com",
     "ingredients": [
       "rice pilaf"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D668",
@@ -12840,7 +13433,8 @@
     "restaurant_website": "https://www.uc-birmingham.com",
     "ingredients": [
       "broccoli salad"
-    ]
+    ],
+    "category": "salad"
   },
   {
     "id": "D669",
@@ -12859,7 +13453,8 @@
     "restaurant_website": "https://www.uc-birmingham.com",
     "ingredients": [
       "fresh seasonal fruit"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D670",
@@ -12877,7 +13472,8 @@
     "restaurant_website": "https://www.uc-birmingham.com",
     "ingredients": [
       "hot cheddar pasta"
-    ]
+    ],
+    "category": "pasta"
   },
   {
     "id": "D671",
@@ -12896,7 +13492,8 @@
     "restaurant_website": "https://www.uc-birmingham.com",
     "ingredients": [
       "roasted seasonal vegetables"
-    ]
+    ],
+    "category": "side"
   },
   {
     "id": "D672",
@@ -12915,6 +13512,7 @@
     "restaurant_website": "https://www.uc-birmingham.com",
     "ingredients": [
       "garden salad"
-    ]
+    ],
+    "category": "salad"
   }
 ]
