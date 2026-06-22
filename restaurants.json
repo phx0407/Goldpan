@@ -1,0 +1,245 @@
+[
+  {
+    "name": "Abhi Eatery and Bar",
+    "location": "Mountain Brook, AL",
+    "hours": "Mon-Thu 5-8:30pm | Fri 5-9pm | Sat 5-8pm | Sun 5-8:30pm",
+    "menu_link": "https://www.abhieatery.com/eat",
+    "restaurant_address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.abhieatery.com",
+    "claims": []
+  },
+  {
+    "name": "Adam and Eve Cafe",
+    "location": "Birmingham, AL",
+    "hours": "",
+    "menu_link": "",
+    "restaurant_address": "",
+    "restaurant_website": "",
+    "claims": []
+  },
+  {
+    "name": "Baha Burger",
+    "location": "Birmingham, AL",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "name": "Blue Root",
+    "location": "Birmingham",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "claims": []
+  },
+  {
+    "name": "Brick & Tin",
+    "location": "Birmingham",
+    "hours": "",
+    "menu_link": "",
+    "restaurant_address": "",
+    "restaurant_website": "",
+    "claims": []
+  },
+  {
+    "name": "Brick & Tin Mountain Brook",
+    "location": "Mountain Brook, AL",
+    "hours": "",
+    "menu_link": "",
+    "restaurant_address": "",
+    "restaurant_website": "",
+    "claims": []
+  },
+  {
+    "name": "Cayo Coco Rum Bar & Restaurant",
+    "location": "Birmingham, AL",
+    "hours": "",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://cayococorumbar.com",
+    "claims": [],
+    "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
+  },
+  {
+    "name": "Chop N Fresh",
+    "location": "Homewood, AL",
+    "hours": "",
+    "menu_link": "",
+    "restaurant_address": "",
+    "restaurant_website": "",
+    "claims": []
+  },
+  {
+    "name": "Chopt Creative Salad Co.",
+    "location": "Birmingham, AL",
+    "hours": "",
+    "menu_link": "",
+    "restaurant_address": "",
+    "restaurant_website": "",
+    "claims": []
+  },
+  {
+    "name": "Clean Eatz",
+    "location": "Hoover",
+    "hours": "",
+    "menu_link": "",
+    "restaurant_address": "",
+    "restaurant_website": "",
+    "claims": []
+  },
+  {
+    "name": "EastWest",
+    "location": "Birmingham, AL",
+    "hours": "",
+    "menu_link": "",
+    "restaurant_address": "",
+    "restaurant_website": "",
+    "claims": [],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "name": "Eli's Jerusalem Grill",
+    "location": "Birmingham, AL",
+    "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "restaurant_address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "restaurant_website": "https://elisjerusalemgrill.com",
+    "claims": []
+  },
+  {
+    "name": "Emmy Squared",
+    "location": "Birmingham, AL",
+    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
+    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
+    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
+    "restaurant_website": "https://www.emmysquaredpizza.com",
+    "claims": []
+  },
+  {
+    "name": "Frothy Monkey",
+    "location": "Homewood, AL",
+    "hours": "Daily 7am–8pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "restaurant_address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "restaurant_website": "https://frothymonkey.com",
+    "claims": []
+  },
+  {
+    "name": "Kale Me Crazy",
+    "location": "Birmingham, AL",
+    "hours": "",
+    "menu_link": "https://kalemecrazy.net/menu/",
+    "restaurant_address": "1831 28th Ave. South, Ste. 106, Homewood, AL 35209",
+    "restaurant_website": "https://kalemecrazy.net",
+    "claims": []
+  },
+  {
+    "name": "Real & Rosemary",
+    "location": "Homewood",
+    "hours": "Mon-Sat 11am-8pm",
+    "menu_link": "https://www.realandrosemary.com/menu/",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com",
+    "claims": []
+  },
+  {
+    "name": "Slutty Vegan",
+    "location": "Atlanta",
+    "hours": "",
+    "menu_link": "",
+    "restaurant_address": "",
+    "restaurant_website": "",
+    "claims": []
+  },
+  {
+    "name": "SoHo Social",
+    "location": "Birmingham",
+    "hours": "",
+    "menu_link": "",
+    "restaurant_address": "",
+    "restaurant_website": "",
+    "claims": []
+  },
+  {
+    "name": "SoHo Standard",
+    "location": "Homewood, AL",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "restaurant_address": "",
+    "restaurant_website": "https://www.sohostandard.bar/",
+    "claims": []
+  },
+  {
+    "name": "The Battery",
+    "location": "Homewood, AL",
+    "hours": "",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "restaurant_website": "https://manthebattery.com",
+    "claims": []
+  },
+  {
+    "name": "The Essential",
+    "location": "Birmingham, AL",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "restaurant_address": "",
+    "restaurant_website": "",
+    "claims": []
+  },
+  {
+    "name": "Wasabi Juan's",
+    "location": "Birmingham, AL",
+    "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
+    "menu_link": "https://wasabijuan.com/our-menu/",
+    "restaurant_address": "2201 2nd Ave S #105, Birmingham, AL 35233",
+    "restaurant_website": "https://wasabijuan.com",
+    "claims": []
+  },
+  {
+    "name": "Wooden City Birmingham",
+    "location": "Birmingham, AL",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
+    "claims": []
+  },
+  {
+    "name": "Yo Chef Surf & Turf Smokehouse",
+    "location": "Birmingham",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
+    "claims": []
+  },
+  {
+    "name": "Yo Mama's",
+    "location": "Birmingham, AL",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "restaurant_address": "2024 4th Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.yomamasrestaurant.com",
+    "claims": []
+  }
+]

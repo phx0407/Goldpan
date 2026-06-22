@@ -11279,5 +11279,740 @@
       "carrots",
       "premium jasmine rice"
     ]
+  },
+  {
+    "id": "D621",
+    "name": "Classic Burger",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten, dairy, eggs",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "Black Angus beef patty",
+      "American cheese",
+      "mayo",
+      "ketchup",
+      "mustard",
+      "onions",
+      "lettuce",
+      "tomato",
+      "pickles",
+      "Old Fashion Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D622",
+    "name": "The Farm Burger",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten, dairy",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "Black Angus beef patty",
+      "pineapple",
+      "pepper jack cheese",
+      "chipotle BBQ sauce",
+      "Sweet Sourdough Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D623",
+    "name": "Bacon Swiss Burger",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten, dairy, eggs",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "Black Angus beef patty",
+      "Swiss cheese",
+      "caramelized onions",
+      "sautéed mushrooms",
+      "bacon",
+      "mayo",
+      "Old Fashion Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D624",
+    "name": "Turkey Burger",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten, dairy, eggs",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "fresh ground turkey breast",
+      "American cheese",
+      "fried egg",
+      "hickory bacon",
+      "tomato chutney",
+      "Old Fashion Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D625",
+    "name": "Lamb Burger",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "High",
+    "tags": [],
+    "allergens": "Contains gluten, dairy",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "ground lamb",
+      "romaine lettuce",
+      "feta cheese",
+      "roasted red peppers",
+      "grilled onions",
+      "tomato",
+      "Taziki sauce",
+      "Wheat Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D626",
+    "name": "Portabella Mushroom Burger",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains gluten, dairy, eggs",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "portobello mushroom",
+      "grilled onions",
+      "roasted red peppers",
+      "Swiss cheese",
+      "arugula",
+      "tomato",
+      "chipotle aioli",
+      "Wheat Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D627",
+    "name": "Veggie Burger",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains gluten, dairy",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "veggie patty",
+      "mixed greens",
+      "peach chutney",
+      "bleu cheese",
+      "Sweet Sourdough Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D628",
+    "name": "Chicken Burger",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "grilled chicken",
+      "arugula",
+      "tropical salsa",
+      "Wheat Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D629",
+    "name": "The Crispy Chick",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten, eggs",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "fried chicken breast",
+      "mayo",
+      "tomato",
+      "pickles",
+      "iceberg lettuce",
+      "Old Fashion Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D630",
+    "name": "Grilled Chick",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "grilled chicken breast",
+      "honey mustard",
+      "tomato",
+      "pickles",
+      "iceberg lettuce",
+      "Old Fashion Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D631",
+    "name": "The Club",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "High",
+    "tags": [],
+    "allergens": "Contains gluten, dairy, eggs",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "chicken breast",
+      "Swiss cheese",
+      "cheddar cheese",
+      "bacon",
+      "romaine",
+      "tomato",
+      "mayonnaise",
+      "Sourdough Bread"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D632",
+    "name": "Bang! Bang! Buffalo",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten, dairy, eggs",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "crispy fried chicken breast",
+      "pepper jack cheese",
+      "homemade buffalo sauce",
+      "ranch",
+      "Old Fashion Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D633",
+    "name": "Chicken Tender Basket",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten; ranch contains dairy and eggs",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "chicken tenders",
+      "honey mustard",
+      "ranch",
+      "BBQ sauce"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D634",
+    "name": "Fried Catfish Sandwich",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains fish, gluten, eggs",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "catfish filet",
+      "tartar sauce",
+      "shredded lettuce",
+      "tomato",
+      "pickle",
+      "Old Fashion Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D635",
+    "name": "Blackened Fish Sandwich",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains fish, gluten, eggs",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "catfish filet",
+      "lemon dill aioli",
+      "shredded lettuce",
+      "tomato",
+      "pickle",
+      "Old Fashion Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D636",
+    "name": "Salmon Burger",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains fish, gluten, eggs",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "scratch-made salmon croquette",
+      "romaine lettuce",
+      "remoulade",
+      "tomato",
+      "Old Fashion Bun"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D637",
+    "name": "Baha Chicken Salad",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains dairy",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "chicken breast",
+      "mixed greens",
+      "tomato",
+      "red onion",
+      "feta cheese",
+      "cucumber",
+      "peperoncinis",
+      "kalamata olives"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D638",
+    "name": "Mediterranean Salad with Lamb",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Unknown",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "ground lamb",
+      "mixed greens",
+      "tomatoes",
+      "cucumber",
+      "grilled onions",
+      "roasted red peppers"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
+  },
+  {
+    "id": "D639",
+    "name": "Mediterranean Salad with Salmon",
+    "restaurant": "Baha Burger",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Contains fish",
+    "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "restaurant_address": "3060 Healthy Way, Birmingham, AL 35243",
+    "restaurant_website": "https://bahaburger.com",
+    "ingredients": [
+      "salmon filet",
+      "mixed greens",
+      "tomatoes",
+      "cucumber",
+      "grilled onions",
+      "roasted red peppers"
+    ],
+    "restaurant_claims": [
+      {
+        "type": "sourcing",
+        "scope": "all beef",
+        "text": "All beef is 100% Black Angus, born and raised in the USA, non-GMO, zero antibiotics or added hormones, USDA certified"
+      },
+      {
+        "type": "animal_welfare",
+        "scope": "all beef",
+        "text": "Dedicated to humane animal care; only family farmers and ranchers used"
+      },
+      {
+        "type": "sourcing",
+        "scope": "all catfish",
+        "text": "All catfish is farm-raised in the USA"
+      }
+    ]
   }
 ]
