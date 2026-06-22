@@ -73,10 +73,14 @@ def main():
         did = str(r.get("Dish_ID", "")).strip()
         if not did:
             continue
+        rest_name = str(r.get("Restaurant_Name", "")).strip()
+        # Normalize known name variants
+        if rest_name == "East West":
+            rest_name = "EastWest"
         scoring[did] = {
             "id":         did,
             "name":       str(r.get("Dish_Name", "")).strip(),
-            "restaurant": str(r.get("Restaurant_Name", "")).strip(),
+            "restaurant": rest_name,
             "level":      level_short(r.get("Transparency_Level", "")),
         }
 

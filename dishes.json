@@ -868,7 +868,7 @@
   {
     "id": "D048",
     "name": "Korean Fried Cauliflower",
-    "restaurant": "East West",
+    "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
@@ -884,12 +884,13 @@
       "Garlic-ginger sauce",
       "Green onion",
       "Sesame seeds"
-    ]
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
     "id": "D049",
     "name": "Tofu Lettuce Wraps",
-    "restaurant": "East West",
+    "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
@@ -907,12 +908,13 @@
       "Yum-yum sauce",
       "Onion",
       "Shiitakes"
-    ]
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
     "id": "D050",
     "name": "Pan-Seared Salmon",
-    "restaurant": "East West",
+    "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [],
@@ -926,12 +928,13 @@
       "Lemongrass butter",
       "Parmesan risotto",
       "Grilled asparagus"
-    ]
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
     "id": "D051",
     "name": "Kobe Burger",
-    "restaurant": "East West",
+    "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
@@ -947,12 +950,13 @@
       "Shiitakes",
       "Garlic mayo",
       "Curly fries"
-    ]
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
     "id": "D052",
     "name": "Chinese Duck Nachos",
-    "restaurant": "East West",
+    "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
@@ -968,7 +972,8 @@
       "Cilantro",
       "Onions",
       "Jalapeños"
-    ]
+    ],
+    "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
     "id": "D053",
