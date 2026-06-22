@@ -43,6 +43,7 @@
     /* ── Nav link ── */
     .nav-link { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #9A9488; text-decoration: none; transition: color 0.2s; }
     .nav-link:hover { color: #C9A84C; }
+    .nav-link.active { color: #C9A84C; }
 
     /* ── Hero ── */
     .hero { padding: 60px 48px 40px; border-bottom: 1px solid #1A1A1A; }
@@ -200,7 +201,8 @@
 <div class="app" id="app">
   <header>
     <div class="header-left">
-      <a href="https://goldpanapp.com" class="logo">Goldpan <span>DISCOVER</span></a>
+      <a href="https://goldpanapp.com" class="logo">Goldpan</a>
+      <a href="/discover/" class="nav-link active">Discover</a>
       <a href="/restaurants/" class="nav-link">Restaurants</a>
     </div>
     <div class="header-stats">
