@@ -10028,7 +10028,7 @@
       "cabbage",
       "sushi rice"
     ],
-    "category": ""
+    "category": "bowl"
   },
   {
     "id": "D534",
@@ -10052,7 +10052,7 @@
       "unagi sauce",
       "avocado"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D535",
@@ -10076,7 +10076,7 @@
       "cucumbers",
       "avocado"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D536",
@@ -10099,7 +10099,7 @@
       "Dorito crunch",
       "sriracha"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D537",
@@ -10122,7 +10122,7 @@
       "jalapeños",
       "sweet chili sauce"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D538",
@@ -10143,7 +10143,7 @@
       "macadamia nuts",
       "sesame"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D539",
@@ -10168,7 +10168,7 @@
       "ninja sauce",
       "tortilla crunch"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D540",
@@ -10190,7 +10190,7 @@
       "cucumbers",
       "spicy mango mayo"
     ],
-    "category": "seafood"
+    "category": "wrap"
   },
   {
     "id": "D541",
@@ -10214,7 +10214,7 @@
       "unagi sauce",
       "Dorito crunch"
     ],
-    "category": "roll"
+    "category": "wrap"
   },
   {
     "id": "D542",
@@ -10237,7 +10237,7 @@
       "apples",
       "avocado"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D543",
@@ -10260,7 +10260,7 @@
       "caramelized onions",
       "sweet fried plantains"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D544",
@@ -10288,7 +10288,7 @@
       "tomatoes",
       "cabbage"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D545",
@@ -10312,7 +10312,7 @@
       "cream cheese",
       "sesame"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D546",
@@ -10335,7 +10335,7 @@
       "avocado",
       "unagi sauce"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D547",
@@ -10358,7 +10358,7 @@
       "cucumber",
       "avocado"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D548",
@@ -10382,7 +10382,7 @@
       "jalapeños",
       "tortilla crunch"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D549",
@@ -10406,7 +10406,7 @@
       "peanuts",
       "unagi sauce"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D550",
@@ -10432,7 +10432,7 @@
       "cabbage",
       "spicy mango mayo"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D551",
@@ -10453,7 +10453,7 @@
       "cream cheese",
       "unagi sauce"
     ],
-    "category": "appetizer"
+    "category": "wrap"
   },
   {
     "id": "D552",
@@ -10585,7 +10585,7 @@
       "dumpling wrapper",
       "Alabama tomato vinaigrette"
     ],
-    "category": ""
+    "category": "dumpling"
   },
   {
     "id": "D558",
@@ -10605,7 +10605,7 @@
       "dumpling wrapper",
       "Alabama tomato vinaigrette"
     ],
-    "category": ""
+    "category": "dumpling"
   },
   {
     "id": "D559",
@@ -10626,7 +10626,7 @@
       "water chestnuts",
       "house sweet chili sauce"
     ],
-    "category": ""
+    "category": "appetizer"
   },
   {
     "id": "D560",
@@ -10647,7 +10647,7 @@
       "edamame",
       "Himalayan pink salt"
     ],
-    "category": ""
+    "category": "appetizer"
   },
   {
     "id": "D561",
@@ -10668,7 +10668,7 @@
       "edamame",
       "Himalayan pink salt"
     ],
-    "category": ""
+    "category": "appetizer"
   },
   {
     "id": "D562",
@@ -10689,7 +10689,7 @@
       "tempura batter",
       "togarashi sauce"
     ],
-    "category": ""
+    "category": "appetizer"
   },
   {
     "id": "D563",
@@ -10707,7 +10707,7 @@
       "chicken",
       "house sweet chili sauce"
     ],
-    "category": ""
+    "category": "appetizer"
   },
   {
     "id": "D564",
@@ -10728,7 +10728,7 @@
       "beer batter",
       "togarashi sauce"
     ],
-    "category": ""
+    "category": "appetizer"
   },
   {
     "id": "D565",
@@ -10750,7 +10750,7 @@
       "shiitake mushrooms",
       "wrap"
     ],
-    "category": ""
+    "category": "wrap"
   },
   {
     "id": "D566",
@@ -10771,7 +10771,7 @@
       "ginger scallion sauce",
       "peanut sauce"
     ],
-    "category": ""
+    "category": "noodles"
   },
   {
     "id": "D567",
@@ -10792,7 +10792,7 @@
       "red bell peppers",
       "green bell peppers"
     ],
-    "category": ""
+    "category": "wings"
   },
   {
     "id": "D568",
@@ -10819,7 +10819,7 @@
       "cilantro",
       "sesame ginger vinaigrette"
     ],
-    "category": ""
+    "category": "salad"
   },
   {
     "id": "D569",
@@ -10839,7 +10839,7 @@
       "seared tuna",
       "wasabi aioli"
     ],
-    "category": ""
+    "category": "appetizer"
   },
   {
     "id": "D570",
@@ -10860,7 +10860,7 @@
       "calamansi ponzu",
       "jalapeños"
     ],
-    "category": ""
+    "category": "appetizer"
   },
   {
     "id": "D571",
@@ -10881,7 +10881,7 @@
       "hiyashi wakame",
       "sushi rice"
     ],
-    "category": ""
+    "category": "appetizer"
   },
   {
     "id": "D572",
@@ -10900,7 +10900,7 @@
       "rice",
       "scallions"
     ],
-    "category": ""
+    "category": "appetizer"
   },
   {
     "id": "D573",
@@ -10929,7 +10929,7 @@
       "house citrus dressing",
       "peanuts"
     ],
-    "category": ""
+    "category": "salad"
   },
   {
     "id": "D574",
@@ -10957,7 +10957,7 @@
       "cilantro",
       "sesame ginger vinaigrette"
     ],
-    "category": ""
+    "category": "salad"
   },
   {
     "id": "D575",
@@ -10982,7 +10982,7 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D576",
@@ -11004,7 +11004,7 @@
       "masago",
       "tempura"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D577",
@@ -11026,7 +11026,7 @@
       "cucumber",
       "Abhi aioli"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D578",
@@ -11047,7 +11047,7 @@
       "avocado",
       "cucumber"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D579",
@@ -11069,7 +11069,7 @@
       "cucumber",
       "tempura"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D580",
@@ -11091,7 +11091,7 @@
       "masago",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D581",
@@ -11118,7 +11118,7 @@
       "wasabi aioli",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D582",
@@ -11141,7 +11141,7 @@
       "avocado",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D583",
@@ -11166,7 +11166,7 @@
       "hot sauce",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D584",
@@ -11189,7 +11189,7 @@
       "smoked eel",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D585",
@@ -11213,7 +11213,7 @@
       "wasabi aioli",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D586",
@@ -11238,7 +11238,7 @@
       "cucumber",
       "carrots"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D587",
@@ -11260,7 +11260,7 @@
       "avocado",
       "tuna"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D588",
@@ -11284,7 +11284,7 @@
       "Abhi aioli",
       "sriracha"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D589",
@@ -11308,7 +11308,7 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D590",
@@ -11334,7 +11334,7 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D591",
@@ -11358,7 +11358,7 @@
       "salmon",
       "steamed shrimp"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D592",
@@ -11379,7 +11379,7 @@
       "avocado",
       "cucumber"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D593",
@@ -11403,7 +11403,7 @@
       "Abhi aioli",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D594",
@@ -11427,7 +11427,7 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D595",
@@ -11452,7 +11452,7 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D596",
@@ -11474,7 +11474,7 @@
       "cucumber",
       "Abhi aioli"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D597",
@@ -11498,7 +11498,7 @@
       "hamachi",
       "tobiko"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D598",
@@ -11520,7 +11520,7 @@
       "smoked salmon",
       "eel sauce"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D599",
@@ -11545,7 +11545,7 @@
       "eel sauce",
       "scallions"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D600",
@@ -11567,7 +11567,7 @@
       "cucumber",
       "steamed shrimp"
     ],
-    "category": ""
+    "category": "roll"
   },
   {
     "id": "D601",
@@ -11588,7 +11588,7 @@
       "shrimp",
       "Korean bbq sauce"
     ],
-    "category": ""
+    "category": "sekuwa"
   },
   {
     "id": "D602",
@@ -11617,7 +11617,7 @@
       "ginger scallion sauce",
       "premium jasmine rice"
     ],
-    "category": ""
+    "category": "bowl"
   },
   {
     "id": "D603",
@@ -11643,7 +11643,7 @@
       "sushi rice",
       "shrimp chip"
     ],
-    "category": ""
+    "category": "bowl"
   },
   {
     "id": "D604",
@@ -11670,7 +11670,7 @@
       "Abhi aioli",
       "shrimp chip"
     ],
-    "category": ""
+    "category": "bowl"
   },
   {
     "id": "D605",
@@ -11694,7 +11694,7 @@
       "cilantro",
       "premium jasmine rice"
     ],
-    "category": ""
+    "category": "bowl"
   },
   {
     "id": "D606",
@@ -11716,7 +11716,7 @@
       "tomato",
       "onions"
     ],
-    "category": ""
+    "category": "bowl"
   },
   {
     "id": "D607",
@@ -11740,7 +11740,7 @@
       "kimchi",
       "premium jasmine rice"
     ],
-    "category": ""
+    "category": "bowl"
   },
   {
     "id": "D608",
@@ -11764,7 +11764,7 @@
       "scallions",
       "cilantro"
     ],
-    "category": ""
+    "category": "noodle bowl"
   },
   {
     "id": "D609",
@@ -11789,7 +11789,7 @@
       "tree ear mushroom",
       "soft boiled egg"
     ],
-    "category": ""
+    "category": "noodle bowl"
   },
   {
     "id": "D610",
@@ -11818,7 +11818,7 @@
       "tree ear mushrooms",
       "spinach"
     ],
-    "category": ""
+    "category": "noodle bowl"
   },
   {
     "id": "D611",
@@ -11840,7 +11840,7 @@
       "carrots",
       "spinach"
     ],
-    "category": ""
+    "category": "noodle bowl"
   },
   {
     "id": "D612",
@@ -11862,7 +11862,7 @@
       "carrots",
       "spinach"
     ],
-    "category": ""
+    "category": "noodle bowl"
   },
   {
     "id": "D613",
@@ -11887,7 +11887,7 @@
       "tree ear mushrooms",
       "carrots"
     ],
-    "category": ""
+    "category": "noodle bowl"
   },
   {
     "id": "D614",
@@ -11909,7 +11909,7 @@
       "cilantro",
       "fried noodles"
     ],
-    "category": ""
+    "category": "noodle bowl"
   },
   {
     "id": "D615",
@@ -11932,7 +11932,7 @@
       "scallions",
       "cilantro"
     ],
-    "category": ""
+    "category": "noodle bowl"
   },
   {
     "id": "D616",
@@ -11954,7 +11954,7 @@
       "Thai basil",
       "premium jasmine rice"
     ],
-    "category": ""
+    "category": "curry"
   },
   {
     "id": "D617",
@@ -11976,7 +11976,7 @@
       "onions",
       "premium jasmine rice"
     ],
-    "category": ""
+    "category": "plate"
   },
   {
     "id": "D618",
@@ -11997,7 +11997,7 @@
       "premium jasmine rice",
       "cilantro"
     ],
-    "category": ""
+    "category": "curry"
   },
   {
     "id": "D619",
@@ -12019,7 +12019,7 @@
       "cilantro",
       "onions"
     ],
-    "category": ""
+    "category": "curry"
   },
   {
     "id": "D620",
@@ -12041,7 +12041,7 @@
       "carrots",
       "premium jasmine rice"
     ],
-    "category": ""
+    "category": "curry"
   },
   {
     "id": "D621",
