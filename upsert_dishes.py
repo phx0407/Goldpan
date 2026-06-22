@@ -187,14 +187,15 @@ def upsert_tab(ws, new_rows_by_did, did_col, label):
     existing = index_by_dish_id(ws, did_col) if not DRY_RUN else {}
     n_updated = 0
     n_added   = 0
-    rows_to_append = []
+    rows_to_append  = []
+    all_rows_to_del = []
 
     for did, rows in new_rows_by_did.items():
         if did in existing:
             if DRY_RUN:
                 print(f"  {label} [{did}]: would update (delete old rows, write {len(rows)} new)")
             else:
-                delete_rows_batch(ws, existing[did])
+                all_rows_to_del.extend(existing[did])
             n_updated += 1
         else:
             if DRY_RUN:
@@ -202,8 +203,10 @@ def upsert_tab(ws, new_rows_by_did, did_col, label):
             n_added += 1
         rows_to_append.extend(rows)
 
-    if rows_to_append:
-        if not DRY_RUN:
+    if not DRY_RUN:
+        if all_rows_to_del:
+            delete_rows_batch(ws, all_rows_to_del)   # single batch — avoids stale-index shift
+        if rows_to_append:
             api_call_with_retry(ws.append_rows, rows_to_append, value_input_option="USER_ENTERED")
 
     return n_updated, n_added
