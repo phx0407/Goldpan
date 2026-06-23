@@ -103,9 +103,9 @@
     "tags": [],
     "allergens": "wheat (pasta), egg (likely in meatballs), dairy (parmesan)",
     "hours": "Mon-Sat 11am-8pm",
-    "menu_link": "https://www.realandrosemary.com/menu/",
-    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
-    "restaurant_website": "https://www.realandrosemary.com",
+    "menu_link": "https://kalemecrazy.net/menu/",
+    "restaurant_address": "1831 28th Ave. South, Ste. 106, Homewood, AL 35209",
+    "restaurant_website": "https://kalemecrazy.net",
     "ingredients": [
       "angel hair pasta",
       "meatballs",
@@ -804,106 +804,155 @@
       "Lemon",
       "Lime cilantro jalapeño vinaigrette"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
   },
   {
     "id": "D044",
     "name": "Mexican Elote Bowl",
     "restaurant": "Chop N Fresh",
-    "location": "Homewood, AL",
+    "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "vegetarian"
+      "vegetarian",
+      "gluten-free"
     ],
-    "allergens": "dairy (goat cheese), unknown (vinaigrette)",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Contains dairy (goat cheese). Gluten-free.",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
     "ingredients": [
-      "Warm quinoa",
-      "Arugula",
-      "Spring mix",
-      "Roasted corn",
-      "Roasted peppers",
-      "Goat cheese",
-      "Spicy sunflower seeds",
-      "Cilantro",
-      "Tomatoes",
-      "Shredded cabbage",
-      "Lime cilantro jalapeño vinaigrette"
+      "warm quinoa",
+      "arugula",
+      "spring mix",
+      "roasted corn",
+      "roasted peppers",
+      "goat cheese",
+      "spicy sunflower seeds",
+      "cilantro",
+      "tomatoes",
+      "shredded cabbage",
+      "lime cilantro jalapeño vinaigrette"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
   },
   {
     "id": "D045",
     "name": "Cobb Boom",
     "restaurant": "Chop N Fresh",
-    "location": "Homewood, AL",
+    "location": "Mountain Brook, AL",
     "level": "Moderate",
-    "tags": [],
-    "allergens": "dairy (blue cheese dressing), egg",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": [
-      "Shredded kale",
-      "Chopped romaine",
-      "Bacon",
-      "Tomatoes",
-      "Raw corn",
-      "Avocado",
-      "Roasted chicken",
-      "Egg",
-      "Blue cheese dressing"
+    "tags": [
+      "gluten-free"
     ],
-    "category": ""
+    "allergens": "Contains dairy (blue cheese dressing), eggs. Gluten-free.",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
+    "ingredients": [
+      "shredded kale",
+      "chopped romaine",
+      "bacon",
+      "roasted chicken",
+      "egg",
+      "tomatoes",
+      "raw corn",
+      "avocado",
+      "blue cheese dressing"
+    ],
+    "category": "salad",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
   },
   {
     "id": "D046",
     "name": "The Impossible Taco Salad",
     "restaurant": "Chop N Fresh",
-    "location": "Homewood, AL",
+    "location": "Mountain Brook, AL",
     "level": "Moderate",
-    "tags": [],
-    "allergens": "unknown (impossible meat, vinaigrette, tortilla strips)",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": [
-      "Roasted corn",
-      "Avocado",
-      "Tomatoes",
-      "Cilantro",
-      "Shredded cabbage",
-      "Red onion",
-      "Tortilla strips",
-      "Impossible meat",
-      "Chipotle honey vinaigrette"
+    "tags": [
+      "vegetarian",
+      "gluten-free"
     ],
-    "category": "taco"
+    "allergens": "Contains soy (Impossible meat). Gluten-free.",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
+    "ingredients": [
+      "chopped romaine",
+      "spring mix",
+      "Impossible meat",
+      "roasted corn",
+      "avocado",
+      "tomatoes",
+      "cilantro",
+      "shredded cabbage",
+      "red onion",
+      "tortilla strips",
+      "chipotle honey vinaigrette"
+    ],
+    "category": "salad",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
   },
   {
     "id": "D047",
     "name": "Wholey Moley",
     "restaurant": "Chop N Fresh",
-    "location": "Homewood, AL",
+    "location": "Mountain Brook, AL",
     "level": "Moderate",
-    "tags": [],
-    "allergens": "unknown (vinaigrette, tortilla chips)",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": [
-      "Spring mix",
-      "Roasted chicken",
-      "Fresh lime squeeze",
-      "Lime cilantro jalapeño vinaigrette"
+    "tags": [
+      "gluten-free"
     ],
-    "category": ""
+    "allergens": "No major allergens. Gluten-free.",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
+    "ingredients": [
+      "spring mix",
+      "roasted chicken",
+      "tomatoes",
+      "red onion",
+      "tortilla chips",
+      "avocado",
+      "fresh lime squeeze",
+      "lime cilantro jalapeño vinaigrette"
+    ],
+    "category": "salad",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
   },
   {
     "id": "D048",
@@ -13514,5 +13563,276 @@
       "garden salad"
     ],
     "category": "salad"
+  },
+  {
+    "id": "D673",
+    "name": "Honey Mustard & Chill",
+    "restaurant": "Chop N Fresh",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Contains tree nuts (almonds). Gluten-free.",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
+    "ingredients": [
+      "spring mix",
+      "chopped romaine",
+      "roasted chicken",
+      "craisins",
+      "tomatoes",
+      "avocado",
+      "red onions",
+      "carrots",
+      "toasted almonds",
+      "honey mustard lemon vinaigrette"
+    ],
+    "category": "salad",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
+  },
+  {
+    "id": "D674",
+    "name": "Red, White, & Blue",
+    "restaurant": "Chop N Fresh",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "allergens": "Contains tree nuts (walnuts). Gluten-free.",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
+    "ingredients": [
+      "arugula",
+      "shredded kale",
+      "local strawberries",
+      "apples",
+      "blueberries",
+      "raw walnuts"
+    ],
+    "category": "salad",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
+  },
+  {
+    "id": "D675",
+    "name": "Strawberry Bae",
+    "restaurant": "Chop N Fresh",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Contains dairy (goat cheese), tree nuts (almonds). Gluten-free.",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
+    "ingredients": [
+      "baby spinach",
+      "spring mix",
+      "strawberries",
+      "toasted almonds",
+      "bacon",
+      "goat cheese",
+      "mint",
+      "raisins",
+      "cucumbers",
+      "lemon poppy seed vinaigrette"
+    ],
+    "category": "salad",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
+  },
+  {
+    "id": "D676",
+    "name": "Chicken Pesto Bowl",
+    "restaurant": "Chop N Fresh",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Contains dairy (parmesan). Pesto may contain tree nuts. Gluten-free.",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
+    "ingredients": [
+      "warm quinoa",
+      "baby spinach",
+      "roasted chicken",
+      "tomatoes",
+      "raw corn",
+      "spicy broccoli",
+      "shredded parmesan",
+      "roasted chickpeas",
+      "pesto vinaigrette"
+    ],
+    "category": "bowl",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
+  },
+  {
+    "id": "D677",
+    "name": "Sweet Bowl Alabama",
+    "restaurant": "Chop N Fresh",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Contains dairy (goat cheese), tree nuts (almonds). Gluten-free.",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
+    "ingredients": [
+      "wild rice blend",
+      "shredded kale",
+      "roasted chicken",
+      "roasted sweet potatoes",
+      "apples",
+      "almonds",
+      "goat cheese",
+      "balsamic vinaigrette"
+    ],
+    "category": "bowl",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
+  },
+  {
+    "id": "D678",
+    "name": "Falafel N Love",
+    "restaurant": "Chop N Fresh",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": "Contains gluten (pita chips*), dairy (feta, yogurt).",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
+    "ingredients": [
+      "shredded kale",
+      "chopped romaine",
+      "baked falafel",
+      "tomatoes",
+      "cucumbers",
+      "feta",
+      "pita chips",
+      "red onion",
+      "housemade hummus",
+      "cucumber tahini yogurt"
+    ],
+    "category": "salad",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
+  },
+  {
+    "id": "D679",
+    "name": "Kale Caesar",
+    "restaurant": "Chop N Fresh",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [],
+    "allergens": "Contains gluten (parmesan crisps*), dairy (parmesan, caesar dressing), eggs.",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
+    "ingredients": [
+      "shredded kale",
+      "chopped romaine",
+      "roasted chicken",
+      "tomatoes",
+      "shredded parmesan",
+      "parmesan crisps",
+      "fresh lime squeeze",
+      "caesar dressing"
+    ],
+    "category": "salad",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
+  },
+  {
+    "id": "D680",
+    "name": "Southwestern",
+    "restaurant": "Chop N Fresh",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "allergens": "Contains dairy (white cheddar). Gluten-free.",
+    "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
+    "menu_link": "https://www.chopnfresh.com/menu",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://www.chopnfresh.com",
+    "ingredients": [
+      "chopped romaine",
+      "spring mix",
+      "roasted chicken",
+      "roasted corn",
+      "cilantro",
+      "tomatoes",
+      "spicy sunflower seeds",
+      "white cheddar",
+      "tortilla strips",
+      "chipotle honey vinaigrette"
+    ],
+    "category": "salad",
+    "restaurant_claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
   }
 ]

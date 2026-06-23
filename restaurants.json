@@ -77,7 +77,13 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "claims": []
+    "claims": [
+      {
+        "type": "dietary",
+        "scope": "menu",
+        "text": "All menu items are gluten-free except those marked with an asterisk (*)"
+      }
+    ]
   },
   {
     "name": "Chopt Creative Salad Co.",
