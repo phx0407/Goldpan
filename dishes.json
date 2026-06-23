@@ -6,7 +6,8 @@
     "location": "Homewood",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "mustard (sorghum honey mustard)",
     "hours": "Mon-Sat 11am-8pm",
@@ -78,7 +79,9 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "egg (mayo), wheat (multigrain bread), dairy (greek yogurt)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
@@ -120,7 +123,9 @@
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "wheat (tortilla, croutons), dairy (parmesan, likely in dressing), egg/fish (likely in caesar dressing)",
     "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
     "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
@@ -383,7 +388,8 @@
     "location": "Homewood, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "shellfish (royal red shrimp), dairy (likely in grits and cream sauce)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
@@ -431,7 +437,9 @@
     "restaurant": "SoHo Standard",
     "location": "Homewood, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "wheat (waffle), egg (waffle), dairy (bourbon butter), unknown (hot honey glaze ingredients beyond honey)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
@@ -548,7 +556,9 @@
     "restaurant": "Chopt Creative Salad Co.",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Unknown",
     "hours": "",
     "menu_link": "",
@@ -573,7 +583,9 @@
     "restaurant": "Chopt Creative Salad Co.",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish",
     "hours": "",
     "menu_link": "",
@@ -597,7 +609,9 @@
     "restaurant": "Chopt Creative Salad Co.",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy",
     "hours": "",
     "menu_link": "",
@@ -621,7 +635,9 @@
     "restaurant": "Chopt Creative Salad Co.",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "shellfish",
     "hours": "",
     "menu_link": "",
@@ -646,7 +662,9 @@
     "restaurant": "Chopt Creative Salad Co.",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy, gluten",
     "hours": "",
     "menu_link": "",
@@ -718,7 +736,9 @@
     "restaurant": "Adam and Eve Cafe",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (cheese), wheat (bread), unknown (tuna salad)",
     "hours": "",
     "menu_link": "",
@@ -740,7 +760,9 @@
     "restaurant": "Adam and Eve Cafe",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (mozzarella), tree nuts (pesto)",
     "hours": "",
     "menu_link": "",
@@ -785,7 +807,9 @@
     "restaurant": "Chop N Fresh",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish (salmon), unknown (vinaigrette, tortilla chips)",
     "hours": "",
     "menu_link": "",
@@ -857,7 +881,8 @@
     "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains dairy (blue cheese dressing), eggs. Gluten-free.",
     "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
@@ -892,7 +917,8 @@
     "level": "Moderate",
     "tags": [
       "vegetarian",
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains soy (Impossible meat). Gluten-free.",
     "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
@@ -928,7 +954,8 @@
     "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "No major allergens. Gluten-free.",
     "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
@@ -1008,7 +1035,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish (salmon), dairy (butter, risotto)",
     "hours": "",
     "menu_link": "",
@@ -1029,7 +1058,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (muenster), egg (garlic mayo)",
     "hours": "",
     "menu_link": "",
@@ -1128,7 +1159,9 @@
     "restaurant": "SoHo Social",
     "location": "Birmingham",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish (tuna), soy (orange ginger soy, edamame)",
     "hours": "",
     "menu_link": "",
@@ -1149,7 +1182,9 @@
     "restaurant": "SoHo Social",
     "location": "Birmingham",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (smoked feta), wheat (flour tortillas)",
     "hours": "",
     "menu_link": "",
@@ -1194,7 +1229,9 @@
     "restaurant": "Clean Eatz",
     "location": "Hoover",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "wheat (flatbread), dairy (mozzarella, CE Chipotle Ranch), egg (CE Chipotle Ranch)",
     "hours": "",
     "menu_link": "",
@@ -1216,7 +1253,9 @@
     "restaurant": "Clean Eatz",
     "location": "Hoover",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "wheat (whole wheat wrap), dairy (mozzarella), soy (CE Sweet Chili)",
     "hours": "",
     "menu_link": "",
@@ -1241,7 +1280,9 @@
     "restaurant": "Clean Eatz",
     "location": "Hoover",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "wheat (whole wheat wrap), dairy (mozzarella, CE Buffalo), egg (CE Buffalo)",
     "hours": "",
     "menu_link": "",
@@ -1267,7 +1308,8 @@
     "location": "Hoover",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "multiple allergens possible by sauce selection (egg, dairy, peanut, soy, sesame)",
     "hours": "",
@@ -1298,7 +1340,9 @@
     "restaurant": "Clean Eatz",
     "location": "Hoover",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "multiple allergens possible by protein selection (soy/wheat, fish, shellfish); egg (CE Epic Sauce), dairy (mozzarella)",
     "hours": "",
     "menu_link": "",
@@ -1329,7 +1373,9 @@
     "restaurant": "Adam and Eve Cafe",
     "location": "Birmingham AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish (smoked salmon), dairy (cream cheese)",
     "hours": "",
     "menu_link": "",
@@ -1444,7 +1490,9 @@
     "restaurant": "Adam and Eve Cafe",
     "location": "Birmingham AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (Swiss), wheat (pita), unknown (BBQ sauce)",
     "hours": "",
     "menu_link": "",
@@ -1538,7 +1586,8 @@
     "location": "Birmingham AL",
     "level": "Moderate",
     "tags": [
-      "vegan"
+      "vegan",
+      "high-protein"
     ],
     "allergens": "unknown (house-made vegan chicken, vegan cheese, vegan mayo)",
     "hours": "",
@@ -2587,7 +2636,8 @@
     "location": "Homewood, AL",
     "level": "High",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "dairy (feta)",
     "hours": "Mon-Sat 11am-8pm",
@@ -2656,7 +2706,9 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "High",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (pepperjack), wheat (tortilla strips)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
@@ -2681,7 +2733,9 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "High",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (swiss), wheat (multigrain bread), egg (Duke's mayo)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
@@ -2716,7 +2770,9 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "wheat (brioche bun), unknown (housemade sauce)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
@@ -2756,7 +2812,9 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "High",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (goat cheese), wheat (multigrain bread)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
@@ -2819,7 +2877,9 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "unknown (sides variable)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
@@ -2838,7 +2898,9 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "unknown (spice rub, sides variable)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
@@ -2855,7 +2917,9 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish (flounder), wheat (panko), dairy (yogurt remoulade)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
@@ -2875,7 +2939,9 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (parmesan), wheat (likely in meatballs), egg (likely in meatballs)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
@@ -2894,7 +2960,9 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "wheat (panko), egg (likely in breading)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
@@ -2914,7 +2982,9 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "egg (mayo), dairy (greek yogurt)",
     "hours": "Mon-Sat 11am-8pm",
     "menu_link": "https://www.realandrosemary.com/menu/",
@@ -2978,7 +3048,9 @@
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "shellfish (shrimp), dairy (mozzarella), unknown (bayou cream sauce)",
     "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
     "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
@@ -2995,7 +3067,9 @@
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "unknown (house gravy, creamy grits)",
     "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
     "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
@@ -3034,7 +3108,9 @@
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "shellfish (shrimp), dairy (jack cheese), unknown (bayou lobster cream sauce, bun)",
     "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
     "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
@@ -3053,7 +3129,9 @@
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (mozzarella), unknown (bread type)",
     "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
     "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
@@ -3073,7 +3151,9 @@
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (cheddar jack cheese), unknown (taco shell type)",
     "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
     "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
@@ -3093,7 +3173,9 @@
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish (catfish), unknown (remoulade, bread type)",
     "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
     "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
@@ -3114,7 +3196,9 @@
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "unknown (marinade, signature BBQ glaze)",
     "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
     "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
@@ -3132,7 +3216,9 @@
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "unknown (signature sweet-and-savory glaze)",
     "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
     "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
@@ -3149,7 +3235,9 @@
     "restaurant": "Yo Chef Surf & Turf Smokehouse",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "unknown (Yo Chef signature spices)",
     "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
     "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
@@ -3658,7 +3746,9 @@
     "restaurant": "Kale Me Crazy",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish (salmon), unknown (mustard dill vinaigrette)",
     "hours": "",
     "menu_link": "https://kalemecrazy.net/menu/",
@@ -3781,7 +3871,9 @@
     "restaurant": "Kale Me Crazy",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish (salmon), wheat (spinach tortilla), unknown (spicy mayo)",
     "hours": "",
     "menu_link": "https://kalemecrazy.net/menu/",
@@ -3806,7 +3898,9 @@
     "restaurant": "Kale Me Crazy",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (mozzarella), wheat (spinach tortilla), unknown (basil pesto)",
     "hours": "",
     "menu_link": "https://kalemecrazy.net/menu/",
@@ -3829,7 +3923,9 @@
     "restaurant": "Kale Me Crazy",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish (tuna), wheat (spinach tortilla), unknown (house-made tuna salad, vegan mayonnaise)",
     "hours": "",
     "menu_link": "https://kalemecrazy.net/menu/",
@@ -3852,7 +3948,9 @@
     "restaurant": "Kale Me Crazy",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "wheat (spinach tortilla), unknown (hummus)",
     "hours": "",
     "menu_link": "https://kalemecrazy.net/menu/",
@@ -3925,7 +4023,9 @@
     "restaurant": "Kale Me Crazy",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (mozzarella, feta), wheat (spinach tortilla)",
     "hours": "",
     "menu_link": "https://kalemecrazy.net/menu/",
@@ -4036,7 +4136,9 @@
     "restaurant": "Kale Me Crazy",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish (smoked salmon), wheat (sourdough bread)",
     "hours": "",
     "menu_link": "https://kalemecrazy.net/menu/",
@@ -4078,7 +4180,9 @@
     "restaurant": "Kale Me Crazy",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "fish (wild caught tuna), unknown (spicy vegan mayo, house marinade)",
     "hours": "",
     "menu_link": "https://kalemecrazy.net/menu/",
@@ -4570,7 +4674,9 @@
     "restaurant": "SoHo Standard",
     "location": "Homewood, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "shellfish (oysters), wheat (toast), unknown (west indie's mignonette ingredients)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
@@ -4672,7 +4778,9 @@
     "restaurant": "SoHo Standard",
     "location": "Homewood, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "unknown (cajun cocktail — ingredients not disclosed; dirty tartar — likely egg-based)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
@@ -4713,7 +4821,9 @@
     "restaurant": "SoHo Standard",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "wheat (biscuits), dairy (gouda), egg (likely in béarnaise)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
@@ -4811,7 +4921,9 @@
     "restaurant": "SoHo Standard",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "shellfish (shrimp), wheat (toast)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
@@ -4833,7 +4945,9 @@
     "restaurant": "SoHo Standard",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "shellfish (oysters), wheat (sourdough), dairy (parmesan and compound butter in chargrilled style)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
@@ -5027,7 +5141,9 @@
     "restaurant": "SoHo Standard",
     "location": "Homewood, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "shellfish (lobster, shrimp), dairy (butter in cream sauce), wheat (pasta, pinsa)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
@@ -5048,7 +5164,9 @@
     "restaurant": "SoHo Standard",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (compound herb butter)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
@@ -5068,7 +5186,9 @@
     "restaurant": "SoHo Standard",
     "location": "Homewood, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (beurre blanc — butter-based), unknown (smoked tomato spinach risotto full ingredients)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
@@ -5087,7 +5207,9 @@
     "restaurant": "SoHo Standard",
     "location": "Homewood, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "unknown (pan sauce, bloody mary rice — ingredients not disclosed)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
@@ -5130,7 +5252,9 @@
     "restaurant": "SoHo Standard",
     "location": "Homewood, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "dairy (queso fresco), wheat (tortilla)",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
@@ -5236,7 +5360,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Fish (tilapia). GF option available. Cross-contamination possible in shared fryer.",
     "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
@@ -5258,7 +5383,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Shellfish (shrimp). Tree nuts (almonds in POE Sauce). Wheat (flour tortilla option).",
     "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
@@ -5283,7 +5409,8 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Shellfish (shrimp). Dairy (white cheddar, asiago, cream cheese). Sausage allergens unknown.",
     "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
@@ -5310,7 +5437,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Shellfish (shrimp). Cross-contamination possible in shared fryer.",
     "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
@@ -5332,7 +5460,8 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Poultry. Dairy (ranch sauce). Sauce allergens unknown (house-made).",
     "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
@@ -5376,7 +5505,8 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Poultry. Wheat (bread). Cross-contamination possible in shared fryer.",
     "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
@@ -5398,7 +5528,8 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Wheat (bun). Dairy (cheddar cheese). Beef.",
     "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
@@ -5443,7 +5574,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Fish (tilapia). Dairy (white cheddar, asiago, cream cheese). Wheat (toast, optional).",
     "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
@@ -5490,7 +5622,8 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Fish (salmon). Eggs. Wheat (biscuit). Binder in croquettes unknown.",
     "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
@@ -5597,7 +5730,9 @@
     "restaurant": "Yo Mama's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Shellfish (shrimp, lump crab). Eggs. Dairy (Gouda cheese).",
     "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
     "menu_link": "https://www.yomamasrestaurant.com/food/",
@@ -5620,7 +5755,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "May contain gluten (wheat from shared pita). No common allergens in soup itself.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6082,7 +6219,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita/laffa). Sesame (tahini in hummus, served on sandwich). Organic chicken.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6100,7 +6239,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita/laffa). Sesame (tahini in hummus, served on sandwich). Organic chicken.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6119,7 +6260,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita/laffa). Sesame (tahini in hummus, served on sandwich). Organic chicken.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6137,7 +6280,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita/laffa). Sesame (hummus on sandwich). Organic chicken.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6155,7 +6300,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "No gluten (GF breading, non-GMO sunflower oil). Organic chicken. Wheat in pita/laffa if ordered as sandwich.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
@@ -6175,7 +6321,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed beef and lamb.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6194,7 +6342,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed beef.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6212,7 +6362,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed lamb.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6230,7 +6382,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita/laffa). Sesame (hummus on sandwich). Grass-fed beef and lamb.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6271,7 +6425,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita served with plate). Sesame (hummus). Organic chicken and grass-fed beef and lamb.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6291,7 +6447,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita served with plate). Sesame (hummus). Grass-fed lamb.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6309,7 +6467,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita). Sesame (hummus/tahini in falafel). Organic chicken and grass-fed beef and lamb.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6379,7 +6539,9 @@
     "restaurant": "Eli's Jerusalem Grill",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Wheat (pita served with plate). Grass-fed ground beef.",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
     "menu_link": "https://elisjerusalemgrill.com",
@@ -6401,7 +6563,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Fish (wild-caught Alaskan salmon).",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
@@ -6422,7 +6585,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Fish (wild, line-caught Pacific grouper).",
     "hours": "Sun 11am-7pm | Mon, Wed-Sat 10:30am-8pm | Tue Closed",
@@ -6570,7 +6734,9 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Eggs (egg mousse), Wheat (tallow croutons). Contains raw beef. Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
     "menu_link": "https://www.woodencitybirmingham.com/menu",
@@ -6807,7 +6973,9 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Wheat (bun, breading), Eggs (honey mustard may contain). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
     "menu_link": "https://www.woodencitybirmingham.com/menu",
@@ -6828,7 +6996,9 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Dairy (parmesan), Wheat (rigatoni pasta). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
     "menu_link": "https://www.woodencitybirmingham.com/menu",
@@ -6890,7 +7060,9 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Wheat (breading), Dairy (lemon caper butter sauce). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
     "menu_link": "https://www.woodencitybirmingham.com/menu",
@@ -7160,7 +7332,8 @@
     "level": "Building",
     "tags": [
       "gluten-free",
-      "dairy-free"
+      "dairy-free",
+      "high-protein"
     ],
     "allergens": "Allergens sourced from Blue Root's published nutrition document: Sesame Seeds. Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
@@ -7509,7 +7682,8 @@
     "level": "Building",
     "tags": [
       "gluten-free",
-      "dairy-free"
+      "dairy-free",
+      "high-protein"
     ],
     "allergens": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
@@ -7527,7 +7701,8 @@
     "level": "Building",
     "tags": [
       "gluten-free",
-      "dairy-free"
+      "dairy-free",
+      "high-protein"
     ],
     "allergens": "Allergens sourced from Blue Root's published nutrition document: Fish. Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
@@ -7623,7 +7798,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Peanuts (Korean BBQ Peanut Togarashi option), Dairy (Alabama White sauce option). Allergens vary by sauce choice — contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -7684,7 +7861,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Fish (ahi tuna), Soy (edamame, teriyaki sauce), Sesame (sesame seeds), Eggs (yum yum sauce). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -7857,7 +8036,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Wheat (hand breading), Eggs (breading may contain), Dairy (ranch). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -7902,7 +8083,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Dairy (cheese sauce), Eggs (garlic aioli), Wheat (hoagie roll). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -7924,7 +8107,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Dairy (white American cheese), Wheat (bun). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -7946,7 +8131,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Dairy (buttermilk ranch, blue cheese), Wheat (bun, breading if fried), Eggs (ranch may contain). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -7968,7 +8155,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Dairy (white American cheese), Wheat (sourdough). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -7987,7 +8176,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Peanuts (peanut Togarashi), Wheat (taco shells), Shellfish (shrimp option), Soy (Korean BBQ sauce). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -8010,7 +8201,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Fish (species not disclosed), Wheat (bun), Eggs (garlic aioli). Contact restaurant to confirm fish species.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -8032,7 +8225,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Dairy (blue cheese), Eggs (garlic aioli), Wheat (bun). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -8056,7 +8251,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Dairy (mashed potatoes). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -8077,7 +8274,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Dairy (mashed potatoes, sawmill gravy), Wheat (breading, sawmill gravy). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -8098,7 +8297,8 @@
     "location": "Homewood, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Allergens based on visible menu description: Fish (king salmon), Eggs (garlic aioli). Contact restaurant to confirm.",
     "hours": "",
@@ -8120,7 +8320,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Shellfish (shrimp), Dairy (cheese grits, Crystal cream sauce). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -8142,7 +8344,9 @@
     "restaurant": "The Battery",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Wheat (linguine, grilled toast points), Tree Nuts (almonds in pesto). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
@@ -8230,7 +8434,9 @@
     "restaurant": "Cayo Coco Rum Bar & Restaurant",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Fish (red snapper). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
@@ -8274,7 +8480,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Allergens based on visible menu description: Fish (red snapper). Contact restaurant to confirm.",
     "hours": "",
@@ -8297,7 +8504,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Allergens based on visible menu description: No major allergens identified from menu description. Contact restaurant to confirm.",
     "hours": "",
@@ -8320,7 +8528,9 @@
     "restaurant": "Cayo Coco Rum Bar & Restaurant",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Wheat (Cuban bread), Dairy (Swiss cheese), Pork (ham, roasted pork). Contact restaurant to confirm.",
     "hours": "",
     "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
@@ -8368,7 +8578,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Allergens based on visible menu description: Dairy (horseradish butter). Contact restaurant to confirm.",
     "hours": "",
@@ -8533,7 +8744,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Wheat/Soy (ssamjang). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
     "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
@@ -8575,7 +8788,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Soy (house sauce likely). Sesame (sesame seeds). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
     "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
@@ -8640,7 +8855,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Wheat (bao bun), Soy (house sauce likely). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
     "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
@@ -8685,7 +8902,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Allergens based on visible menu description: Fish (salmon), Dairy (lemongrass-soy butter, parmesan risotto). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -8707,7 +8925,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Wheat (bun), Dairy (muenster cheese), Egg (garlic mayo). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
     "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
@@ -8731,7 +8951,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Shellfish (shrimp), Wheat (noodles), Soy (mongolian sauce). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
     "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
@@ -8755,7 +8977,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Wheat (katsu breading). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
     "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
@@ -8779,7 +9003,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Allergens based on visible menu description: Soy (mongolian sauce). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -8800,7 +9025,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Soy (teriyaki sauce). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
     "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
@@ -8852,7 +9079,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Soy (mongolian sauce). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
     "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
@@ -8876,7 +9105,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Shellfish (shrimp), Wheat (tempura batter). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
     "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
@@ -8902,7 +9133,9 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Allergens based on visible menu description: Shellfish (soft shell crab), Wheat (tempura batter). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
     "menu_link": "https://eastwestbham.s3.us-east-2.amazonaws.com/dinner-05-30-25%7C11%3A05%3A04PM.pdf",
@@ -9521,7 +9754,9 @@
     "restaurant": "Frothy Monkey",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (salmon), gluten (bun). Contact restaurant to confirm.",
     "hours": "Daily 7am–8pm",
     "menu_link": "https://frothymonkey.com/food-drinks/",
@@ -9549,7 +9784,9 @@
     "restaurant": "Frothy Monkey",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten (pasta), dairy (parmesan, cream), eggs (pasta). Contact restaurant to confirm.",
     "hours": "Daily 7am–8pm",
     "menu_link": "https://frothymonkey.com/food-drinks/",
@@ -9580,7 +9817,8 @@
     "location": "Homewood, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-friendly"
+      "gluten-friendly",
+      "high-protein"
     ],
     "allergens": "Contains shellfish (shrimp), dairy (Gouda). Gluten-friendly as prepared. Contact restaurant to confirm.",
     "hours": "Daily 7am–8pm",
@@ -9611,7 +9849,8 @@
     "location": "Homewood, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-friendly"
+      "gluten-friendly",
+      "high-protein"
     ],
     "allergens": "Contains fish (salmon). Gluten-friendly as prepared. Contact restaurant to confirm.",
     "hours": "Daily 7am–8pm",
@@ -9639,7 +9878,9 @@
     "restaurant": "Frothy Monkey",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains dairy (feta), tree nuts (walnuts), gluten (sourdough). Contact restaurant to confirm.",
     "hours": "Daily 7am–8pm",
     "menu_link": "https://frothymonkey.com/food-drinks/",
@@ -9671,7 +9912,9 @@
     "restaurant": "Frothy Monkey",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (salmon), dairy (parmesan), gluten (sourdough). Contact restaurant to confirm.",
     "hours": "Daily 7am–8pm",
     "menu_link": "https://frothymonkey.com/food-drinks/",
@@ -9822,7 +10065,9 @@
     "restaurant": "Frothy Monkey",
     "location": "Homewood, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains eggs, dairy (cheddar), gluten (bagel). Contact restaurant to confirm.",
     "hours": "Daily 7am–8pm",
     "menu_link": "https://frothymonkey.com/food-drinks/",
@@ -9849,7 +10094,9 @@
     "restaurant": "Frothy Monkey",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (salmon), dairy (cream cheese), gluten (bagel). Contact restaurant to confirm.",
     "hours": "Daily 7am–8pm",
     "menu_link": "https://frothymonkey.com/food-drinks/",
@@ -9878,7 +10125,9 @@
     "restaurant": "Frothy Monkey",
     "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten (multigrain). May contain tree nuts. Contact restaurant to confirm.",
     "hours": "Daily 7am–8pm",
     "menu_link": "https://frothymonkey.com/food-drinks/",
@@ -10061,7 +10310,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (tuna), soy, tree nuts (macadamia nuts), sesame. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10085,7 +10336,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (tuna), shellfish (shrimp), dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce), egg (mayo). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10101,7 +10354,7 @@
       "unagi sauce",
       "avocado"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D535",
@@ -10109,7 +10362,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (tuna, salmon), shellfish (crab), sesame (seaweed wrap), egg (spicy mayo). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10125,7 +10380,7 @@
       "cucumbers",
       "avocado"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D536",
@@ -10133,7 +10388,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (tuna), gluten (Doritos, seaweed wrap), egg (spicy mayo). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10148,7 +10405,7 @@
       "Dorito crunch",
       "sriracha"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D537",
@@ -10156,7 +10413,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (salmon), shellfish (crab), sesame (seaweed wrap). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10171,7 +10430,7 @@
       "jalapeños",
       "sweet chili sauce"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D538",
@@ -10179,7 +10438,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (tuna), tree nuts (macadamia nuts), sesame. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10192,7 +10453,7 @@
       "macadamia nuts",
       "sesame"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D539",
@@ -10201,7 +10462,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains fish (salmon), sesame (seaweed wrap). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10217,7 +10479,7 @@
       "ninja sauce",
       "tortilla crunch"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D540",
@@ -10225,7 +10487,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (tuna), dairy (cream cheese), sesame (seaweed wrap), egg (mayo). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10239,7 +10503,7 @@
       "cucumbers",
       "spicy mango mayo"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D541",
@@ -10247,7 +10511,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (tuna), beef, dairy (cream cheese), gluten (Doritos), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10263,7 +10529,7 @@
       "unagi sauce",
       "Dorito crunch"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D542",
@@ -10272,7 +10538,8 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains fish (tuna), sesame (seaweed wrap). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10286,7 +10553,7 @@
       "apples",
       "avocado"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D543",
@@ -10294,7 +10561,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten (seaweed wrap), dairy (cream cheese). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10309,7 +10578,7 @@
       "caramelized onions",
       "sweet fried plantains"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D544",
@@ -10337,7 +10606,7 @@
       "tomatoes",
       "cabbage"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D545",
@@ -10346,7 +10615,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains dairy (cream cheese), sesame. Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10361,7 +10631,7 @@
       "cream cheese",
       "sesame"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D546",
@@ -10369,7 +10639,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains shellfish (shrimp), dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10384,7 +10656,7 @@
       "avocado",
       "unagi sauce"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D547",
@@ -10392,7 +10664,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains shellfish (crab, shrimp), sesame (seaweed wrap), egg (spicy mayo). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10407,7 +10681,7 @@
       "cucumber",
       "avocado"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D548",
@@ -10416,7 +10690,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains shellfish (shrimp), sesame (seaweed wrap). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10431,7 +10706,7 @@
       "jalapeños",
       "tortilla crunch"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D549",
@@ -10439,7 +10714,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains shellfish (shrimp), peanuts, dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10455,7 +10732,7 @@
       "peanuts",
       "unagi sauce"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D550",
@@ -10464,7 +10741,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains dairy (cream cheese), sesame (seaweed wrap), egg (mayo). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10481,7 +10759,7 @@
       "cabbage",
       "spicy mango mayo"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D551",
@@ -10489,7 +10767,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains shellfish (shrimp), dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10502,7 +10782,7 @@
       "cream cheese",
       "unagi sauce"
     ],
-    "category": "wrap"
+    "category": "sushi burrito"
   },
   {
     "id": "D552",
@@ -10511,7 +10791,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains shellfish (shrimp). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10533,7 +10814,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish (tuna), sesame (taco shell). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10554,7 +10837,9 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains dairy (cream cheese), sesame. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10577,7 +10862,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains shellfish (shrimp), sesame. Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10600,7 +10886,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains dairy (cream cheese). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10746,7 +11033,9 @@
     "restaurant": "Abhi Eatery and Bar",
     "location": "Mountain Brook, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten (batter)",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
@@ -10828,7 +11117,9 @@
     "restaurant": "Abhi Eatery and Bar",
     "location": "Mountain Brook, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Unknown",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
@@ -10850,7 +11141,8 @@
     "location": "Mountain Brook, AL",
     "level": "High",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains shellfish, peanuts, sesame",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -10877,7 +11169,8 @@
     "location": "Mountain Brook, AL",
     "level": "High",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains fish, eggs",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -10897,7 +11190,8 @@
     "location": "Mountain Brook, AL",
     "level": "High",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains fish",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -10918,7 +11212,8 @@
     "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains fish",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -10938,7 +11233,9 @@
     "restaurant": "Abhi Eatery and Bar",
     "location": "Mountain Brook, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish; eel sauce typically contains gluten",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
@@ -10987,7 +11284,8 @@
     "location": "Mountain Brook, AL",
     "level": "High",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains shellfish, peanuts, sesame",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -11625,7 +11923,8 @@
     "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains shellfish, soy; Korean BBQ sauce may contain gluten",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -11675,7 +11974,8 @@
     "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains fish, shellfish",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -11701,7 +12001,8 @@
     "location": "Mountain Brook, AL",
     "level": "High",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains fish, shellfish, eggs",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -11728,7 +12029,8 @@
     "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Unknown",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -11774,7 +12076,8 @@
     "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains sesame, soy; Korean BBQ sauce may contain gluten",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -11966,7 +12269,9 @@
     "restaurant": "Abhi Eatery and Bar",
     "location": "Mountain Brook, AL",
     "level": "High",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten (noodles), eggs",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
     "menu_link": "https://www.abhieatery.com/eat",
@@ -12034,7 +12339,8 @@
     "location": "Mountain Brook, AL",
     "level": "Building",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Unknown",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -12055,7 +12361,8 @@
     "location": "Mountain Brook, AL",
     "level": "Building",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Unknown",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -12077,7 +12384,8 @@
     "location": "Mountain Brook, AL",
     "level": "Building",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Unknown",
     "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
@@ -12098,7 +12406,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy, eggs",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12141,7 +12451,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12179,7 +12491,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy, eggs",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12219,7 +12533,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy, eggs",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12258,7 +12574,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "High",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12382,7 +12700,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12419,7 +12739,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, eggs",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12458,7 +12780,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12497,7 +12821,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "High",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy, eggs",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12538,7 +12864,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy, eggs",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12576,7 +12904,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten; ranch contains dairy and eggs",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12613,7 +12943,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish, gluten, eggs",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12652,7 +12984,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish, gluten, eggs",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12691,7 +13025,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains fish, gluten, eggs",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12729,7 +13065,9 @@
     "restaurant": "Baha Burger",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains dairy",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
     "menu_link": "https://bahaburger.com/images/menu.pdf",
@@ -12771,7 +13109,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Unknown",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
@@ -12812,7 +13151,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains fish",
     "hours": "Mon Closed | Tue-Sat 11am-9pm | Sun 11am-8pm",
@@ -12852,7 +13192,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -12876,7 +13218,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy, tree nuts",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -12899,7 +13243,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy, eggs",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -12923,7 +13269,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -12947,7 +13295,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -12967,7 +13317,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, sesame",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -12993,7 +13345,8 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains eggs (mayo in chicken salad)",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
@@ -13112,7 +13465,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -13133,7 +13488,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy, eggs",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -13177,7 +13534,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "High",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -13199,7 +13558,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy, eggs",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -13263,7 +13624,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, eggs (mayo in chicken salad)",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -13325,7 +13688,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten, dairy",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -13345,7 +13710,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -13365,7 +13732,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -13385,7 +13754,9 @@
     "restaurant": "Urban Cookhouse",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains shellfish, gluten",
     "hours": "Sun-Thu 10am-8pm | Fri-Sat 10am-9pm",
     "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
@@ -13571,7 +13942,8 @@
     "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains tree nuts (almonds). Gluten-free.",
     "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
@@ -13674,7 +14046,8 @@
     "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains dairy (parmesan). Pesto may contain tree nuts. Gluten-free.",
     "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
@@ -13708,7 +14081,8 @@
     "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains dairy (goat cheese), tree nuts (almonds). Gluten-free.",
     "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
@@ -13775,7 +14149,9 @@
     "restaurant": "Chop N Fresh",
     "location": "Mountain Brook, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "high-protein"
+    ],
     "allergens": "Contains gluten (parmesan crisps*), dairy (parmesan, caesar dressing), eggs.",
     "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
     "menu_link": "https://www.chopnfresh.com/menu",
@@ -13807,7 +14183,8 @@
     "location": "Mountain Brook, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free"
+      "gluten-free",
+      "high-protein"
     ],
     "allergens": "Contains dairy (white cheddar). Gluten-free.",
     "hours": "Mon-Sat 10:30am-8pm | Sun 10:30am-7pm",
