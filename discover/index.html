@@ -549,7 +549,7 @@ function submitDishQuestion(id, name, restaurant) {
   if (!q) { ta.focus(); return; }
   var subject = encodeURIComponent('Dish question: ' + name + ' @ ' + restaurant);
   var body = encodeURIComponent('Dish: ' + name + '\nRestaurant: ' + restaurant + '\n\nQuestion:\n' + q);
-  window.open('mailto:bradcad1@gmail.com?subject=' + subject + '&body=' + body);
+  window.open('mailto:bradford@goldpanapp.com,myles@goldpanapp.com?subject=' + subject + '&body=' + body);
   ta.value = '';
   var thanks = document.getElementById('qt-' + id);
   if (thanks) { thanks.style.display = 'block'; setTimeout(function() { thanks.style.display = 'none'; }, 4000); }
