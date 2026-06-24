@@ -101,7 +101,13 @@
     "menu_link": "",
     "restaurant_address": "",
     "restaurant_website": "",
-    "claims": []
+    "claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
   },
   {
     "name": "EastWest",
@@ -166,20 +172,20 @@
   },
   {
     "name": "Slutty Vegan",
-    "location": "Atlanta",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "location": "Birmingham, AL",
+    "hours": "Tue–Thu 12:00 PM–8:00 PM | Fri–Sat 12:00 PM–9:00 PM | Sun–Mon Closed",
+    "menu_link": "https://sluttyveganatl.com/#menu",
+    "restaurant_address": "7 55th Pl S, Birmingham, AL 35212",
+    "restaurant_website": "https://sluttyveganatl.com/birmingham/",
     "claims": []
   },
   {
     "name": "SoHo Social",
-    "location": "Birmingham",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "location": "Homewood, AL",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
     "claims": []
   },
   {

@@ -526,74 +526,88 @@
     "id": "D028",
     "name": "One Night Stand",
     "restaurant": "Slutty Vegan",
-    "location": "Atlanta",
-    "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "options": [
+      "comes with slutty fries"
+    ],
+    "allergens": "Contains gluten (bun), soy (plant-based patty, vegan bacon). Fully vegan.",
+    "hours": "Tue–Thu 12:00 PM–8:00 PM | Fri–Sat 12:00 PM–9:00 PM | Sun–Mon Closed",
+    "menu_link": "https://sluttyveganatl.com/#menu",
+    "restaurant_address": "7 55th Pl S, Birmingham, AL 35212",
+    "restaurant_website": "https://sluttyveganatl.com/birmingham/",
     "ingredients": [
+      "plant-based patty",
+      "Slutty Strips vegan bacon",
       "vegan cheese",
       "onions",
       "lettuce",
       "tomato",
-      "slut sauce"
+      "Slut Sauce",
+      "vegan Hawaiian bun"
     ],
-    "category": ""
+    "category": "burger"
   },
   {
     "id": "D030",
     "name": "Sloppy Toppy",
     "restaurant": "Slutty Vegan",
-    "location": "Atlanta",
-    "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "options": [
+      "comes with slutty fries"
+    ],
+    "allergens": "Contains gluten (bun), soy (plant-based patty). Fully vegan.",
+    "hours": "Tue–Thu 12:00 PM–8:00 PM | Fri–Sat 12:00 PM–9:00 PM | Sun–Mon Closed",
+    "menu_link": "https://sluttyveganatl.com/#menu",
+    "restaurant_address": "7 55th Pl S, Birmingham, AL 35212",
+    "restaurant_website": "https://sluttyveganatl.com/birmingham/",
     "ingredients": [
       "plant-based patty",
-      "jalapenos",
+      "jalapeños",
       "vegan cheese",
       "onions",
       "lettuce",
       "tomato",
-      "slut sauce",
-      "vegan hawaiian bun"
+      "Slut Sauce",
+      "vegan Hawaiian bun"
     ],
-    "category": ""
+    "category": "burger"
   },
   {
     "id": "D032",
     "name": "Hooker Fries",
     "restaurant": "Slutty Vegan",
-    "location": "Atlanta",
-    "level": "Building",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
     "tags": [
-      "vegan"
+      "vegan",
+      "vegetarian"
     ],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Contains soy (vegan beef). Fully vegan. Participating locations only.",
+    "hours": "Tue–Thu 12:00 PM–8:00 PM | Fri–Sat 12:00 PM–9:00 PM | Sun–Mon Closed",
+    "menu_link": "https://sluttyveganatl.com/#menu",
+    "restaurant_address": "7 55th Pl S, Birmingham, AL 35212",
+    "restaurant_website": "https://sluttyveganatl.com/birmingham/",
     "ingredients": [
-      "fries",
+      "french fries",
       "vegan beef",
       "vegan cheese",
-      "jalapenos",
+      "jalapeños",
       "onions",
       "lettuce",
       "diced tomatoes"
     ],
-    "category": "side"
+    "category": "plate"
   },
   {
     "id": "D033",
@@ -1121,9 +1135,7 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Wheat (bun), Dairy (muenster cheese), Egg (garlic mayo). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -1139,7 +1151,7 @@
       "pickled shiitakes",
       "curly fries"
     ],
-    "category": "burger",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -1164,22 +1176,24 @@
       "cotija cheese",
       "jalapeño slice"
     ],
-    "category": "nachos",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
     "id": "D053",
     "name": "TGIF Bowl",
     "restaurant": "SoHo Social",
-    "location": "Birmingham",
+    "location": "Homewood, AL",
     "level": "Moderate",
     "tags": [],
-    "options": [],
-    "allergens": "dairy (smoked feta), wheat (pasta), unknown (balsamic glaze)",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "options": [
+      "protein substitutions available"
+    ],
+    "allergens": "Contains gluten (pasta), dairy (smoked feta)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
     "ingredients": [
       "pasta",
       "artisanal lettuces",
@@ -1198,27 +1212,30 @@
     "id": "D054",
     "name": "G.G.G. Bowl",
     "restaurant": "SoHo Social",
-    "location": "Birmingham",
+    "location": "Homewood, AL",
     "level": "Moderate",
     "tags": [],
-    "options": [],
-    "allergens": "dairy (smoked feta), soy (edamame), fish (tuna), sesame (tuna), unknown (Green Goddess dressing)",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "options": [
+      "protein substitutions available"
+    ],
+    "allergens": "Contains fish (tuna), sesame, soy (edamame), dairy (smoked feta)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
     "ingredients": [
       "quinoa",
-      "kale + broccoli slaw",
+      "kale",
+      "broccoli slaw",
       "green garbanzo beans",
       "radish",
       "edamame",
       "cucumber",
       "avocado",
-      "Green Goddess dressing",
+      "green goddess dressing",
       "smoked feta",
       "pepitas",
-      "seared sesame tuna"
+      "sesame seared tuna"
     ],
     "category": "bowl"
   },
@@ -1226,41 +1243,40 @@
     "id": "D055",
     "name": "Tuna Tataki",
     "restaurant": "SoHo Social",
-    "location": "Birmingham",
+    "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
-    "allergens": "fish (tuna), soy (orange ginger soy, edamame)",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Contains fish (tuna), soy (edamame, orange ginger soy sauce), sesame",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
     "ingredients": [
       "tuna",
       "quinoa",
       "edamame",
-      "kale + broccoli slaw",
-      "orange ginger soy"
+      "kale",
+      "broccoli slaw",
+      "orange ginger soy sauce"
     ],
-    "category": "seafood"
+    "category": "appetizer"
   },
   {
     "id": "D056",
     "name": "Steak & Feta Tacos",
     "restaurant": "SoHo Social",
-    "location": "Birmingham",
+    "location": "Homewood, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
+    "tags": [],
+    "options": [
+      "lettuce wrap option available"
     ],
-    "options": [],
-    "allergens": "dairy (smoked feta), wheat (flour tortillas)",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Contains gluten (flour tortillas), dairy (smoked feta)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
     "ingredients": [
       "flour tortillas",
       "flank steak",
@@ -1268,7 +1284,7 @@
       "grilled sweet corn",
       "smoked feta",
       "pickled red onion",
-      "green tabasco sauce"
+      "green tobasco sauce"
     ],
     "category": "taco"
   },
@@ -1276,24 +1292,24 @@
     "id": "D057",
     "name": "Whistle Stop Egg Rolls",
     "restaurant": "SoHo Social",
-    "location": "Birmingham",
-    "level": "Building",
+    "location": "Homewood, AL",
+    "level": "Moderate",
     "tags": [],
     "options": [],
-    "allergens": "dairy (pimento cheese), wheat (egg roll wrapper)",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Contains gluten (egg roll wrappers), dairy (pimento cheese), eggs",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
     "ingredients": [
-      "egg roll wrapper",
+      "egg roll wrappers",
       "Conecuh sausage",
       "collards",
       "pimento cheese",
       "green tomato jam",
       "pepper jelly"
     ],
-    "category": "roll"
+    "category": "appetizer"
   },
   {
     "id": "D058",
@@ -1318,7 +1334,14 @@
       "peppers",
       "red onions"
     ],
-    "category": ""
+    "category": "",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
   },
   {
     "id": "D059",
@@ -1346,7 +1369,14 @@
       "black beans",
       "includes a side"
     ],
-    "category": ""
+    "category": "",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
   },
   {
     "id": "D060",
@@ -1374,7 +1404,14 @@
       "lettuce",
       "includes a side"
     ],
-    "category": ""
+    "category": "",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
   },
   {
     "id": "D061",
@@ -1408,7 +1445,14 @@
       "steamed broccoli",
       "sweet potato fries"
     ],
-    "category": ""
+    "category": "",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
   },
   {
     "id": "D062",
@@ -1442,7 +1486,14 @@
       "grilled mushrooms",
       "sweet potato fries"
     ],
-    "category": ""
+    "category": "",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
   },
   {
     "id": "D063",
@@ -9237,7 +9288,7 @@
       "onion",
       "sweet chili sauce"
     ],
-    "category": "roll",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9261,7 +9312,7 @@
       "green onion",
       "sesame seeds"
     ],
-    "category": "side",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9284,7 +9335,7 @@
       "carrots",
       "carrot-ginger dressing"
     ],
-    "category": "salad",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9313,7 +9364,7 @@
       "onion",
       "shiitake mushrooms"
     ],
-    "category": "wrap",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9322,9 +9373,7 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Wheat/Soy (ssamjang). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -9336,7 +9385,7 @@
       "yum-yum sauce",
       "ssamjang hot sauce"
     ],
-    "category": "wings",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9359,7 +9408,7 @@
       "lemon-flake salt",
       "sriracha yogurt"
     ],
-    "category": "side",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9368,9 +9417,7 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Soy (house sauce likely). Sesame (sesame seeds). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -9383,7 +9430,7 @@
       "green onion",
       "sesame seeds"
     ],
-    "category": "ribs",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9406,7 +9453,7 @@
       "sweet-onion slaw",
       "jalapeño"
     ],
-    "category": "seafood",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9429,7 +9476,7 @@
       "pickles",
       "green onion"
     ],
-    "category": "bbq",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9438,9 +9485,7 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Wheat (bao bun), Soy (house sauce likely). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -9453,7 +9498,7 @@
       "house sauce",
       "ginger-scallion relish"
     ],
-    "category": "ribs",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9477,7 +9522,7 @@
       "garlic mayo",
       "green onion"
     ],
-    "category": "appetizer",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9486,9 +9531,7 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Shellfish (shrimp), Wheat (noodles), Soy (mongolian sauce). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -9504,7 +9547,7 @@
       "red pepper paste",
       "mongolian sauce"
     ],
-    "category": "noodles",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9513,9 +9556,7 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Wheat (katsu breading). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -9530,7 +9571,7 @@
       "mixed vegetables",
       "rice"
     ],
-    "category": "chicken",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9540,8 +9581,7 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free",
-      "high-protein"
+      "gluten-free"
     ],
     "options": [],
     "allergens": "Allergens based on visible menu description: Soy (mongolian sauce). Contact restaurant to confirm.",
@@ -9554,7 +9594,7 @@
       "green beans",
       "rice"
     ],
-    "category": "steak",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9563,9 +9603,7 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Soy (teriyaki sauce). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -9581,7 +9619,7 @@
       "green onion",
       "pineapple kimchi"
     ],
-    "category": "bowl",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9610,7 +9648,7 @@
       "shishito peppers",
       "yum-yum sauce"
     ],
-    "category": "bowl",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9619,9 +9657,7 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Soy (mongolian sauce). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -9637,7 +9673,7 @@
       "cabbage kimchi",
       "green onion"
     ],
-    "category": "bowl",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9646,9 +9682,7 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Shellfish (shrimp), Wheat (tempura batter). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -9666,7 +9700,7 @@
       "green onion",
       "sesame seeds"
     ],
-    "category": "bowl",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9675,9 +9709,7 @@
     "restaurant": "EastWest",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Shellfish (soft shell crab), Wheat (tempura batter). Contact restaurant to confirm.",
     "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
@@ -9695,7 +9727,7 @@
       "green onion",
       "sesame seeds"
     ],
-    "category": "bowl",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9717,7 +9749,7 @@
       "bitters",
       "lemon twist"
     ],
-    "category": "cocktail",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9740,7 +9772,7 @@
       "lime",
       "jalapeño"
     ],
-    "category": "cocktail",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9763,7 +9795,7 @@
       "lemon",
       "soda"
     ],
-    "category": "curry",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9786,7 +9818,7 @@
       "lime",
       "cava"
     ],
-    "category": "cocktail",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9808,7 +9840,7 @@
       "lime",
       "angostura bitters"
     ],
-    "category": "cocktail",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9832,7 +9864,7 @@
       "lemon",
       "rosé"
     ],
-    "category": "cocktail",
+    "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -14939,5 +14971,2152 @@
         "text": "All menu items are gluten-free except those marked with an asterisk (*)"
       }
     ]
+  },
+  {
+    "id": "D681",
+    "name": "Fussy Hussy",
+    "restaurant": "Slutty Vegan",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "options": [
+      "comes with slutty fries"
+    ],
+    "allergens": "Contains gluten (bun), soy (plant-based patty). Fully vegan.",
+    "hours": "Tue–Thu 12:00 PM–8:00 PM | Fri–Sat 12:00 PM–9:00 PM | Sun–Mon Closed",
+    "menu_link": "https://sluttyveganatl.com/#menu",
+    "restaurant_address": "7 55th Pl S, Birmingham, AL 35212",
+    "restaurant_website": "https://sluttyveganatl.com/birmingham/",
+    "ingredients": [
+      "plant-based patty",
+      "pickle",
+      "vegan cheese",
+      "onions",
+      "lettuce",
+      "tomato",
+      "Slut Sauce",
+      "vegan Hawaiian bun"
+    ],
+    "category": "burger"
+  },
+  {
+    "id": "D682",
+    "name": "Dancehall Queen",
+    "restaurant": "Slutty Vegan",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "options": [
+      "comes with slutty fries"
+    ],
+    "allergens": "Contains gluten (bun), soy (plant-based patty). Fully vegan.",
+    "hours": "Tue–Thu 12:00 PM–8:00 PM | Fri–Sat 12:00 PM–9:00 PM | Sun–Mon Closed",
+    "menu_link": "https://sluttyveganatl.com/#menu",
+    "restaurant_address": "7 55th Pl S, Birmingham, AL 35212",
+    "restaurant_website": "https://sluttyveganatl.com/birmingham/",
+    "ingredients": [
+      "plant-based patty",
+      "sweet jerk plantains",
+      "vegan cheese",
+      "onions",
+      "lettuce",
+      "tomato",
+      "Slut Sauce",
+      "vegan Hawaiian bun"
+    ],
+    "category": "burger"
+  },
+  {
+    "id": "D683",
+    "name": "Hollywood Hooker",
+    "restaurant": "Slutty Vegan",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "options": [
+      "comes with slutty fries; also available as hooker fries (served over fries)"
+    ],
+    "allergens": "Contains gluten (hoagie roll), soy (vegan Philly). Fully vegan. Participating locations only.",
+    "hours": "Tue–Thu 12:00 PM–8:00 PM | Fri–Sat 12:00 PM–9:00 PM | Sun–Mon Closed",
+    "menu_link": "https://sluttyveganatl.com/#menu",
+    "restaurant_address": "7 55th Pl S, Birmingham, AL 35212",
+    "restaurant_website": "https://sluttyveganatl.com/birmingham/",
+    "ingredients": [
+      "vegan chopped Philly",
+      "jalapeños",
+      "bell peppers",
+      "onions",
+      "vegan provolone",
+      "lettuce",
+      "tomato",
+      "ketchup",
+      "vegan mayo",
+      "hoagie roll"
+    ],
+    "category": "sandwich"
+  },
+  {
+    "id": "D684",
+    "name": "Big Meat",
+    "restaurant": "Slutty Vegan",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "options": [
+      "comes with slutty fries"
+    ],
+    "allergens": "Contains gluten (bun), soy (vegan brisket). Fully vegan.",
+    "hours": "Tue–Thu 12:00 PM–8:00 PM | Fri–Sat 12:00 PM–9:00 PM | Sun–Mon Closed",
+    "menu_link": "https://sluttyveganatl.com/#menu",
+    "restaurant_address": "7 55th Pl S, Birmingham, AL 35212",
+    "restaurant_website": "https://sluttyveganatl.com/birmingham/",
+    "ingredients": [
+      "vegan pulled brisket",
+      "coleslaw",
+      "barbecue sauce",
+      "pickles",
+      "vegan Hawaiian bun"
+    ],
+    "category": "sandwich"
+  },
+  {
+    "id": "D685",
+    "name": "Slutty Fries",
+    "restaurant": "Slutty Vegan",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Fully vegan. No major allergens declared.",
+    "hours": "Tue–Thu 12:00 PM–8:00 PM | Fri–Sat 12:00 PM–9:00 PM | Sun–Mon Closed",
+    "menu_link": "https://sluttyveganatl.com/#menu",
+    "restaurant_address": "7 55th Pl S, Birmingham, AL 35212",
+    "restaurant_website": "https://sluttyveganatl.com/birmingham/",
+    "ingredients": [
+      "french fries",
+      "Slut Dust"
+    ],
+    "category": "side"
+  },
+  {
+    "id": "D686",
+    "name": "Summer Corn Caesar Salad",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (croutons), dairy (parmesan, dressing)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "grilled chicken",
+      "corn",
+      "aged parmesan",
+      "artisan croutons",
+      "jalapeño peppers",
+      "romaine",
+      "basil caesar dressing"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D687",
+    "name": "Sweet Peach Burrata Bowl",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (farro), dairy (burrata), tree nuts (pistachios)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "fresh peaches",
+      "roasted pistachios",
+      "burrata",
+      "grape tomatoes",
+      "pickled red onion",
+      "farro",
+      "arugula",
+      "basil vinaigrette",
+      "hot honey drizzle"
+    ],
+    "category": "bowl"
+  },
+  {
+    "id": "D688",
+    "name": "Summer Corn Caesar Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (croutons, tortilla), dairy (parmesan, dressing)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "grilled chicken",
+      "corn",
+      "aged parmesan",
+      "artisan croutons",
+      "jalapeño peppers",
+      "romaine",
+      "whole wheat tortilla",
+      "basil caesar dressing"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D690",
+    "name": "Kale Caesar Salad",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (croutons), dairy (parmesan, caesar dressing), eggs (caesar dressing)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "aged parmesan",
+      "artisan croutons",
+      "romaine",
+      "kale",
+      "creamy caesar dressing"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D691",
+    "name": "Mexican Caesar Salad",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (tortilla chips), dairy (cotija, dressing)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "cotija cheese",
+      "jalapeño peppers",
+      "tortilla chips",
+      "romaine",
+      "mexican caesar dressing"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D693",
+    "name": "Classic Cobb Salad",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains dairy (blue cheese, ranch), eggs (hard boiled egg, ranch dressing)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "grilled chicken",
+      "avocado",
+      "smoked bacon",
+      "hard boiled egg",
+      "blue cheese",
+      "grape tomatoes",
+      "romaine",
+      "buttermilk ranch dressing"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D694",
+    "name": "Santa Fe Salad",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains dairy (pepper jack cheese)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "avocado",
+      "grape tomatoes",
+      "corn",
+      "pepper jack cheese",
+      "crispy shallots",
+      "romaine",
+      "sweet & smoky chipotle vinaigrette"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D695",
+    "name": "The Chopt Greek Salad",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (pita chips), dairy (feta)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "feta",
+      "english cucumber",
+      "grape tomatoes",
+      "olives",
+      "pita chips",
+      "chickpeas",
+      "romaine",
+      "chopt vinaigrette"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D696",
+    "name": "Crispy Chicken Ranch Salad",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (panko chicken), dairy (pepper jack, ranch), eggs (ranch dressing)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "panko fried chicken",
+      "pepper jack cheese",
+      "corn",
+      "grape tomatoes",
+      "pickled red onion",
+      "carrots",
+      "romaine",
+      "buttermilk ranch dressing"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D697",
+    "name": "Sweet Apple Orchard Salad",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains dairy (goat cheese), tree nuts (almonds)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "seasonal apples",
+      "dried cranberries",
+      "crumbled goat cheese",
+      "roasted almonds",
+      "romaine & chopt lettuce blend",
+      "white balsamic vinaigrette"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D699",
+    "name": "Salmon Avocado Bowl",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [
+      "choice of base: farro",
+      "brown rice",
+      "white rice",
+      "or cauliflower rice"
+    ],
+    "allergens": "Contains fish (salmon), gluten (wontons, farro if selected), sesame (dressings)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "Norwegian salmon",
+      "avocado",
+      "english cucumber",
+      "carrots",
+      "pickled red onion",
+      "crispy wontons",
+      "cabbage & cilantro blend",
+      "carrot miso dressing",
+      "creamy sesame dressing"
+    ],
+    "category": "bowl"
+  },
+  {
+    "id": "D700",
+    "name": "Mediterranean Hummus Bowl",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [
+      "choice of base: farro",
+      "brown rice",
+      "white rice",
+      "or cauliflower rice"
+    ],
+    "allergens": "Contains gluten (pita chips, farro if selected), dairy (feta, fiery feta dressing), sesame (hummus)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "warm roasted chicken",
+      "grape tomatoes",
+      "english cucumber",
+      "pickled red onion",
+      "feta",
+      "hummus",
+      "pita chips",
+      "arugula & spinach blend",
+      "chopt vinaigrette",
+      "fiery feta dressing"
+    ],
+    "category": "bowl"
+  },
+  {
+    "id": "D701",
+    "name": "Harvest Bowl",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [
+      "choice of base: farro",
+      "brown rice",
+      "white rice",
+      "or cauliflower rice"
+    ],
+    "allergens": "Contains gluten (farro if selected), dairy (goat cheese), tree nuts (almonds)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "warm roasted chicken",
+      "seasonal apples",
+      "crumbled goat cheese",
+      "roasted sweet potatoes",
+      "dried cranberries",
+      "roasted almonds",
+      "kale",
+      "white balsamic vinaigrette",
+      "balsamic vinaigrette"
+    ],
+    "category": "bowl"
+  },
+  {
+    "id": "D702",
+    "name": "Salmon Avocado Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains fish (salmon), gluten (wontons, tortilla), sesame (dressings)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "Norwegian salmon",
+      "avocado",
+      "crispy wontons",
+      "english cucumber",
+      "carrots",
+      "pickled red onion",
+      "cabbage & cilantro blend",
+      "whole wheat tortilla",
+      "carrot miso dressing",
+      "creamy sesame dressing"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D703",
+    "name": "Hummus Crunch Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegan"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (falafel, pita chips, tortilla), sesame (hummus)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "falafel",
+      "hummus",
+      "pita chips",
+      "english cucumber",
+      "jalapeño peppers",
+      "carrots",
+      "cabbage & cilantro blend",
+      "whole wheat tortilla",
+      "chopt vinaigrette"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D704",
+    "name": "Chicken Club Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (tortilla)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "grilled chicken",
+      "smoked bacon",
+      "avocado",
+      "grape tomatoes",
+      "romaine",
+      "cabbage & cilantro blend",
+      "whole wheat tortilla",
+      "smoky bacon russian dressing"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D705",
+    "name": "Kale Caesar Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (croutons, tortilla), dairy (parmesan, caesar dressing), eggs (caesar dressing)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "aged parmesan",
+      "artisan croutons",
+      "kale",
+      "romaine",
+      "whole wheat tortilla",
+      "creamy caesar dressing"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D706",
+    "name": "Mexican Caesar Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (tortilla chips, tortilla), dairy (cotija, dressing)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "cotija cheese",
+      "jalapeño peppers",
+      "tortilla chips",
+      "romaine",
+      "whole wheat tortilla",
+      "mexican caesar dressing"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D707",
+    "name": "Chicken Tinga Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [
+      "choice of grains or cauliflower rice as base"
+    ],
+    "allergens": "Contains gluten (tortilla chips, tortilla, grains if selected), dairy (cotija cheese)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "braised chicken tinga",
+      "avocado",
+      "black beans",
+      "tortilla chips",
+      "scallions",
+      "cotija cheese",
+      "kale",
+      "whole wheat tortilla",
+      "mexican goddess dressing"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D708",
+    "name": "Classic Cobb Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (tortilla), dairy (blue cheese, ranch), eggs (hard boiled egg, ranch dressing)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "grilled chicken",
+      "avocado",
+      "smoked bacon",
+      "hard boiled egg",
+      "blue cheese",
+      "grape tomatoes",
+      "romaine",
+      "whole wheat tortilla",
+      "buttermilk ranch dressing"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D709",
+    "name": "Santa Fe Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (tortilla), dairy (pepper jack cheese)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "avocado",
+      "grape tomatoes",
+      "corn",
+      "pepper jack cheese",
+      "crispy shallots",
+      "romaine",
+      "whole wheat tortilla",
+      "sweet & smoky chipotle vinaigrette"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D710",
+    "name": "The Chopt Greek Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (pita chips, tortilla), dairy (feta)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "feta",
+      "english cucumber",
+      "grape tomatoes",
+      "olives",
+      "pita chips",
+      "chickpeas",
+      "romaine",
+      "whole wheat tortilla",
+      "chopt vinaigrette"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D712",
+    "name": "Sweet Apple Orchard Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (tortilla), dairy (goat cheese), tree nuts (almonds)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "seasonal apples",
+      "dried cranberries",
+      "crumbled goat cheese",
+      "roasted almonds",
+      "romaine & chopt lettuce blend",
+      "whole wheat tortilla",
+      "white balsamic vinaigrette"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D713",
+    "name": "Southwest Steak Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (tortilla chips, tortilla), dairy (chipotle ranch)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "seared sirloin steak",
+      "tortilla chips",
+      "corn",
+      "black beans",
+      "pickled red onion",
+      "jalapeño peppers",
+      "romaine",
+      "cabbage & cilantro blend",
+      "whole wheat tortilla",
+      "chipotle ranch dressing"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D714",
+    "name": "Shrimp Spring Roll Wrap",
+    "restaurant": "Chopt Creative Salad Co.",
+    "location": "Vestavia Hills, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains shellfish (shrimp), gluten (wontons, tortilla), sesame (dressing)",
+    "hours": "Mon–Sat 10:30 AM–8 PM | Sun 11 AM–8 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "restaurant_address": "708 Montgomery Hwy Ste 108, Vestavia Hills, AL 35216",
+    "restaurant_website": "https://www.choptsalad.com",
+    "ingredients": [
+      "shrimp",
+      "red bell peppers",
+      "crispy wontons",
+      "carrots",
+      "english cucumber",
+      "pickled red onion",
+      "romaine",
+      "cabbage & cilantro blend",
+      "whole wheat tortilla",
+      "creamy sesame dressing"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D715",
+    "name": "Buffalo Chicken Wrap",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "High",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (wrap), dairy (blue cheese), eggs (buffalo sauce)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "gluten-free breaded chicken",
+      "CE Buffalo sauce",
+      "blue cheese crumbles",
+      "tomato",
+      "lettuce",
+      "tomato basil wrap"
+    ],
+    "category": "wrap",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D716",
+    "name": "Chicken Pesto Wrap",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (wrap), dairy (kale pesto)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "chicken",
+      "spinach",
+      "tomato",
+      "cucumber",
+      "turkey bacon",
+      "kale pesto",
+      "whole wheat wrap"
+    ],
+    "category": "wrap",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D717",
+    "name": "Bang Bang Shrimp Wrap",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains shellfish (shrimp), gluten (wrap), soy (sweet chili sauce)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "shrimp",
+      "CE Sweet Chili sauce",
+      "carrots",
+      "cucumber",
+      "spinach",
+      "tomato basil wrap"
+    ],
+    "category": "wrap",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D718",
+    "name": "Blackened Salmon Wrap",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "High",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains fish (salmon), gluten (wrap), dairy (tzatziki)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "salmon",
+      "tzatziki sauce",
+      "tomato",
+      "lettuce",
+      "cucumbers",
+      "whole wheat wrap"
+    ],
+    "category": "wrap",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D719",
+    "name": "Epic Chicken Wrap",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "High",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (wrap), dairy (Monterey Jack), eggs (CE Epic sauce)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "gluten-free breaded chicken",
+      "CE Epic sauce",
+      "Monterey Jack cheese blend",
+      "tomato",
+      "lettuce",
+      "tomato basil wrap"
+    ],
+    "category": "wrap",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D720",
+    "name": "Southwest Bison Wrap",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "High",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (wrap), dairy (chipotle ranch, queso), eggs (chipotle ranch)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "bison",
+      "CE Chipotle Ranch sauce",
+      "queso sauce",
+      "corn & black bean blend",
+      "tomato",
+      "lettuce",
+      "whole wheat wrap"
+    ],
+    "category": "wrap",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D721",
+    "name": "Clean Eatz Burger",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (potato bun), dairy (American cheese)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "turkey burger patty",
+      "turkey bacon",
+      "American cheese",
+      "tomato",
+      "lettuce",
+      "potato bun"
+    ],
+    "category": "burger",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D722",
+    "name": "BBQ Swiss Burger",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "High",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (potato bun), dairy (Swiss cheese)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "turkey burger patty",
+      "no sugar added BBQ sauce",
+      "Swiss cheese",
+      "tomato",
+      "lettuce",
+      "grilled red onions",
+      "pickles",
+      "potato bun"
+    ],
+    "category": "burger",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D723",
+    "name": "Bunless Burger",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains dairy (mozzarella), eggs (CE Epic sauce), soy (Epic sauce)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "turkey burger patty",
+      "CE Epic sauce",
+      "mozzarella cheese",
+      "tomato",
+      "lettuce",
+      "grilled mushrooms"
+    ],
+    "category": "burger",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D724",
+    "name": "BBQ Chicken Flatbread",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (flatbread), dairy (mozzarella), soy (BBQ sauce)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "chicken",
+      "no sugar added BBQ sauce",
+      "mozzarella cheese",
+      "green peppers",
+      "red onions"
+    ],
+    "category": "plate",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D725",
+    "name": "Bacon Chicken Ranch Flatbread",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (flatbread), dairy (ranch, mozzarella), eggs (ranch), soy",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "chicken",
+      "turkey bacon",
+      "CE Ranch",
+      "mozzarella cheese"
+    ],
+    "category": "plate",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D726",
+    "name": "Philly Flatbread",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (flatbread), dairy (mozzarella, chipotle ranch), eggs (chipotle ranch), soy",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "shredded beef",
+      "CE Chipotle Ranch sauce",
+      "mozzarella cheese",
+      "peppers",
+      "red onions"
+    ],
+    "category": "plate",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D727",
+    "name": "Turkey Burnt End Cuban Flatbread",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (flatbread), dairy (Swiss cheese), eggs (CE Epic sauce), soy (turkey burnt ends, Epic sauce)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "turkey burnt ends",
+      "CE Epic sauce",
+      "Swiss cheese",
+      "pickles"
+    ],
+    "category": "plate",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D731",
+    "name": "Berry Berry Good Smoothie",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [
+      "available in 16 oz or 24 oz"
+    ],
+    "allergens": "Contains dairy (whey protein)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "strawberry whey protein",
+      "strawberry",
+      "raspberry",
+      "blueberry"
+    ],
+    "category": "drink",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D732",
+    "name": "Chocolate Covered Strawberry Smoothie",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [
+      "available in 16 oz or 24 oz"
+    ],
+    "allergens": "Contains dairy (whey protein, chocolate)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "chocolate whey protein",
+      "chocolate",
+      "strawberry"
+    ],
+    "category": "drink",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D733",
+    "name": "Dirty Peanut Smoothie",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [
+      "available in 16 oz or 24 oz"
+    ],
+    "allergens": "Contains dairy (whey protein, chocolate), peanuts (peanut butter)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "chocolate whey protein",
+      "chocolate",
+      "peanut butter"
+    ],
+    "category": "drink",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D734",
+    "name": "Frozen Chocolate Banana Smoothie",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [
+      "available in 16 oz or 24 oz"
+    ],
+    "allergens": "Contains dairy (whey protein, chocolate)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "chocolate whey protein",
+      "chocolate",
+      "banana"
+    ],
+    "category": "drink",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D735",
+    "name": "Straw-Nana Blast Smoothie",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [
+      "available in 16 oz or 24 oz"
+    ],
+    "allergens": "Contains dairy (whey protein)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "strawberry whey protein",
+      "strawberry",
+      "banana"
+    ],
+    "category": "drink",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D736",
+    "name": "Raspberry Lemonade Smoothie",
+    "restaurant": "Clean Eatz",
+    "location": "Hoover, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [
+      "available in 16 oz or 24 oz"
+    ],
+    "allergens": "Contains dairy (whey protein)",
+    "hours": "Mon–Fri 11 AM–7 PM | Sat 11 AM–3 PM | Sun Closed",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "restaurant_address": "1021 Brocks Gap Pkwy, Ste 141, Hoover, AL 35244",
+    "restaurant_website": "https://cleaneatz.com",
+    "ingredients": [
+      "vanilla whey protein",
+      "raspberry",
+      "lemonade"
+    ],
+    "category": "drink",
+    "restaurant_claims": [
+      {
+        "type": "allergen-policy",
+        "scope": "restaurant",
+        "text": "Before placing your order, please inform your server if a person in your party has a food allergy. Please consult with an associate in your store for help with any dietary restrictions."
+      }
+    ]
+  },
+  {
+    "id": "D737",
+    "name": "Fried Pimento Cheese",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (breading), dairy (pimento cheese, ranch), eggs (ranch)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "pimento cheese",
+      "chopped bacon",
+      "breading",
+      "cahaba buffalo sauce",
+      "ranch"
+    ],
+    "category": "appetizer"
+  },
+  {
+    "id": "D738",
+    "name": "Cahaba Chicken Dip",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (naan bread)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "smoked chicken",
+      "jalapeno bacon",
+      "cahaba buffalo sauce",
+      "grilled naan bread",
+      "celery",
+      "cucumber",
+      "radish",
+      "tortilla chips"
+    ],
+    "category": "appetizer"
+  },
+  {
+    "id": "D739",
+    "name": "Tallulah Wings",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [
+      "choice of sauce: cahaba buffalo + ranch",
+      "verde hot honey + ranch",
+      "chipotle adobo bbq + al white bbq",
+      "sweet heat dry rub + al white bbq"
+    ],
+    "allergens": "Contains dairy, eggs (ranch or AL white bbq depending on choice)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "chicken wings",
+      "sauce (choice of)",
+      "vegetables",
+      "dipping sauce"
+    ],
+    "category": "appetizer"
+  },
+  {
+    "id": "D740",
+    "name": "Harvest Bowl",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [
+      "protein substitutions available"
+    ],
+    "allergens": "Contains gluten (ancient grains), dairy (goat cheese), sesame (bacon tahini vin)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "ancient grains",
+      "brussels sprouts",
+      "kale",
+      "broccoli slaw",
+      "sweet potato",
+      "goat cheese",
+      "pepitas",
+      "bacon tahini vinaigrette",
+      "grilled chicken"
+    ],
+    "category": "bowl"
+  },
+  {
+    "id": "D741",
+    "name": "Social House",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [
+      "add grilled shrimp"
+    ],
+    "allergens": "Contains dairy (goat cheese), tree nuts (candied pecans)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "artisanal lettuces",
+      "roasted red peppers",
+      "goat cheese",
+      "candied pecans",
+      "fresh berries",
+      "lemon rosemary balsamic vinaigrette"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D742",
+    "name": "The Basics",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (fried chicken, cornbread croutons), dairy (cheddar, ranch), eggs (ranch)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "fried chicken fingers",
+      "artisanal lettuces",
+      "avocado",
+      "cheddar",
+      "red onion",
+      "cucumber",
+      "baby tomatoes",
+      "cornbread croutons",
+      "ranch"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D743",
+    "name": "The Wedge",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [
+      "add sesame seared tuna tataki; substitute ranch + gorgonzola crumbles"
+    ],
+    "allergens": "Contains dairy (smoked feta), tree nuts (candied pecans), gluten (cornbread croutons)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "baby iceberg",
+      "green goddess dressing",
+      "baby tomatoes",
+      "smoked feta",
+      "candied pecans",
+      "chopped bacon",
+      "cornbread croutons"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D744",
+    "name": "Pear & Gorgonzola",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [
+      "add grilled or fried chicken"
+    ],
+    "allergens": "Contains dairy (gorgonzola), tree nuts (candied pecans), sesame (bacon tahini vin)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "artisanal lettuces",
+      "asian pear",
+      "candied pecans",
+      "gorgonzola crumbles",
+      "bacon tahini vinaigrette"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D745",
+    "name": "Flank Steak Caesar",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [
+      "substitute cahaba fried chicken"
+    ],
+    "allergens": "Contains dairy (parmesan, caesar dressing, parm crisps), eggs (caesar dressing), fish (caesar dressing)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "flank steak",
+      "romaine",
+      "shaved parmesan",
+      "red onion",
+      "chopped bacon",
+      "scratch caesar dressing",
+      "parmesan crisps"
+    ],
+    "category": "salad"
+  },
+  {
+    "id": "D746",
+    "name": "Buffalo Mac",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (mac & cheese, chicken fingers), dairy (mac & cheese, gorgonzola, spiced ranch), eggs (spiced ranch)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "shoestring fries",
+      "four cheese mac and cheese",
+      "chicken fingers",
+      "cahaba buffalo sauce",
+      "spiced ranch",
+      "gorgonzola crumbles",
+      "jalapeno bacon"
+    ],
+    "category": "plate"
+  },
+  {
+    "id": "D747",
+    "name": "Grilled Shrimp",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains shellfish (shrimp), dairy (garlic herb butter, street corn)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "gulf shrimp",
+      "garlic herb butter",
+      "mexican street corn",
+      "kale broccoli slaw"
+    ],
+    "category": "plate"
+  },
+  {
+    "id": "D748",
+    "name": "Soho Soul Plate",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (chicken fingers, hoe cakes), dairy (pimento cheese grits, hoe cakes), eggs (AL white bbq, hoe cakes)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "pimento cheese grits",
+      "conecuh collards",
+      "pulled bacon",
+      "chicken fingers",
+      "smokey adobo sauce",
+      "al white bbq sauce",
+      "sweet griddled hoe cakes"
+    ],
+    "category": "plate"
+  },
+  {
+    "id": "D749",
+    "name": "Southern Shrimp Tacos",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [
+      "lettuce wrap option available"
+    ],
+    "allergens": "Contains gluten (flour tortillas), shellfish (shrimp), eggs (AL white bbq)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "flour tortillas",
+      "gulf shrimp",
+      "arugula",
+      "avocado",
+      "chopped bacon",
+      "pickled red onion",
+      "al white bbq sauce"
+    ],
+    "category": "taco"
+  },
+  {
+    "id": "D750",
+    "name": "Gringo Loco",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (fried chicken), dairy (queso, spiced ranch), eggs (spiced ranch)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "fried chicken",
+      "french fries",
+      "cahaba buffalo sauce",
+      "queso",
+      "chopped bacon",
+      "spiced ranch"
+    ],
+    "category": "taco"
+  },
+  {
+    "id": "D751",
+    "name": "Tuna Wrap",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [
+      "taco option available"
+    ],
+    "allergens": "Contains gluten (whole wheat wrap), fish (tuna), sesame, soy (edamame, orange ginger soy sauce)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "whole wheat wrap",
+      "sesame seared tuna",
+      "avocado",
+      "quinoa",
+      "edamame",
+      "kale broccoli slaw",
+      "orange ginger soy sauce"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D752",
+    "name": "Cahaba Chicken Caesar Wrap",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [
+      "choice of grilled or fried chicken"
+    ],
+    "allergens": "Contains gluten (whole wheat wrap), dairy (parmesan, caesar dressing), eggs (caesar dressing), fish (caesar dressing)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "whole wheat wrap",
+      "chicken",
+      "cahaba buffalo sauce",
+      "romaine",
+      "chopped bacon",
+      "parmesan",
+      "red onion",
+      "scratch caesar dressing"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D753",
+    "name": "3B Honey Mustard Chicken Wrap",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [
+      "choice of grilled or fried chicken; spiced ranch as alternative dressing"
+    ],
+    "allergens": "Contains gluten (whole wheat wrap), dairy (cheddar)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "whole wheat wrap",
+      "chicken",
+      "3B honey mustard",
+      "tomato",
+      "cheddar",
+      "chopped bacon",
+      "red onion",
+      "kale broccoli slaw"
+    ],
+    "category": "wrap"
+  },
+  {
+    "id": "D754",
+    "name": "Jamn Gouda",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (bun), dairy (gouda), eggs (smoked mayo)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "beef patty",
+      "bacon jam",
+      "gouda cheese",
+      "smoked mayo",
+      "greens",
+      "pickled red onion",
+      "bun"
+    ],
+    "category": "burger"
+  },
+  {
+    "id": "D755",
+    "name": "Garlic Butter Bacon",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (bun), dairy (garlic herb creme), eggs (smoked mayo)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "beef patty",
+      "garlic herb creme",
+      "jalapeno bacon",
+      "smoked mayo",
+      "arugula",
+      "red onion",
+      "bun"
+    ],
+    "category": "burger"
+  },
+  {
+    "id": "D756",
+    "name": "Black Bean",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [],
+    "allergens": "Contains gluten (naan bread). Menu labels as vegetarian.",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "black bean patty",
+      "grilled naan bread",
+      "kale broccoli slaw",
+      "sauce",
+      "greens",
+      "tomato",
+      "wickles pickles",
+      "onion"
+    ],
+    "category": "burger"
+  },
+  {
+    "id": "D757",
+    "name": "SoHo",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (bun), dairy (cheddar)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "beef patty",
+      "cheddar",
+      "lettuce",
+      "tomato",
+      "onion",
+      "wickles pickles",
+      "sauce",
+      "bun"
+    ],
+    "category": "burger"
+  },
+  {
+    "id": "D758",
+    "name": "Triple Bacon Cheese",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (bun), dairy (American cheese)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "beef patties (triple stacked)",
+      "American cheese",
+      "hickory bacon",
+      "mustard",
+      "pickle",
+      "onion",
+      "bun"
+    ],
+    "category": "burger"
+  },
+  {
+    "id": "D759",
+    "name": "Maple Bacon Burger",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (bun), dairy (gouda), eggs (whiskey aioli)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "smashed beef patties",
+      "maple brown sugar bacon",
+      "shallot jam",
+      "gouda cheese",
+      "arugula",
+      "Old Forester maple whiskey aioli",
+      "bun"
+    ],
+    "category": "burger"
+  },
+  {
+    "id": "D760",
+    "name": "The Melt",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (potato roll), dairy (cheddar, gouda), eggs (smoked mayo)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "beef patty",
+      "grilled onions",
+      "smoked mayo",
+      "cheddar",
+      "gouda",
+      "toasted potato roll"
+    ],
+    "category": "burger"
+  },
+  {
+    "id": "D761",
+    "name": "Turkey",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (bun), dairy (goat cheese)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "all white meat turkey patty",
+      "goat cheese",
+      "pepper jelly",
+      "jalapeno bacon",
+      "greens",
+      "sauce",
+      "bun"
+    ],
+    "category": "burger"
+  },
+  {
+    "id": "D762",
+    "name": "Verde Hot Honey",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (potato roll), eggs (smoked mayo)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "Martin's potato roll",
+      "grilled chicken",
+      "verde hot honey sauce",
+      "jalapeno bacon",
+      "smoked mayo",
+      "arugula",
+      "red onion"
+    ],
+    "category": "sandwich"
+  },
+  {
+    "id": "D763",
+    "name": "The Chicken Sandwich",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Building",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (fried chicken, bun)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "chicken fingers",
+      "sauce",
+      "wickles pickles",
+      "bun"
+    ],
+    "category": "sandwich"
+  },
+  {
+    "id": "D764",
+    "name": "Southern King",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (fried chicken, bun), dairy (pimento cheese), eggs (smoked mayo)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "fried chicken fingers",
+      "pimento cheese",
+      "jalapeno bacon",
+      "smoked mayo",
+      "green tomato jam",
+      "bun"
+    ],
+    "category": "sandwich"
+  },
+  {
+    "id": "D765",
+    "name": "Oh Susannah",
+    "restaurant": "SoHo Social",
+    "location": "Homewood, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Contains gluten (bun), dairy (pimento cheese), eggs (AL white bbq)",
+    "hours": "Mon–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "restaurant_address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "restaurant_website": "https://www.sohohomewood.bar",
+    "ingredients": [
+      "grilled chicken",
+      "pimento cheese",
+      "jalapeno bacon",
+      "al white bbq sauce",
+      "wickles pickles",
+      "greens",
+      "bun"
+    ],
+    "category": "sandwich"
   }
 ]
