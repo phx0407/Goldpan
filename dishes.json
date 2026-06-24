@@ -10310,9 +10310,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains fish (tuna), soy, tree nuts (macadamia nuts), sesame. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10336,9 +10334,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains fish (tuna), shellfish (shrimp), dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce), egg (mayo). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10362,9 +10358,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains fish (tuna, salmon), shellfish (crab), sesame (seaweed wrap), egg (spicy mayo). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10388,9 +10382,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains fish (tuna), gluten (Doritos, seaweed wrap), egg (spicy mayo). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10413,9 +10405,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains fish (salmon), shellfish (crab), sesame (seaweed wrap). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10438,9 +10428,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains fish (tuna), tree nuts (macadamia nuts), sesame. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10462,8 +10450,7 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free",
-      "high-protein"
+      "gluten-free"
     ],
     "allergens": "Contains fish (salmon), sesame (seaweed wrap). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10487,9 +10474,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains fish (tuna), dairy (cream cheese), sesame (seaweed wrap), egg (mayo). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10511,9 +10496,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains fish (tuna), beef, dairy (cream cheese), gluten (Doritos), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10538,8 +10521,7 @@
     "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
-      "gluten-free",
-      "high-protein"
+      "gluten-free"
     ],
     "allergens": "Contains fish (tuna), sesame (seaweed wrap). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10561,9 +10543,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains gluten (seaweed wrap), dairy (cream cheese). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10615,8 +10595,7 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free",
-      "high-protein"
+      "gluten-free"
     ],
     "allergens": "Contains dairy (cream cheese), sesame. Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10639,9 +10618,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains shellfish (shrimp), dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10664,9 +10641,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains shellfish (crab, shrimp), sesame (seaweed wrap), egg (spicy mayo). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10690,8 +10665,7 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free",
-      "high-protein"
+      "gluten-free"
     ],
     "allergens": "Contains shellfish (shrimp), sesame (seaweed wrap). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10714,9 +10688,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains shellfish (shrimp), peanuts, dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10741,8 +10713,7 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free",
-      "high-protein"
+      "gluten-free"
     ],
     "allergens": "Contains dairy (cream cheese), sesame (seaweed wrap), egg (mayo). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10767,9 +10738,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains shellfish (shrimp), dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10791,8 +10760,7 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free",
-      "high-protein"
+      "gluten-free"
     ],
     "allergens": "Contains shellfish (shrimp). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10814,9 +10782,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains fish (tuna), sesame (taco shell). Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10837,9 +10803,7 @@
     "restaurant": "Wasabi Juan's",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "allergens": "Contains dairy (cream cheese), sesame. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
     "menu_link": "https://wasabijuan.com/our-menu/",
@@ -10862,8 +10826,7 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free",
-      "high-protein"
+      "gluten-free"
     ],
     "allergens": "Contains shellfish (shrimp), sesame. Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
@@ -10886,8 +10849,7 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
-      "gluten-free",
-      "high-protein"
+      "gluten-free"
     ],
     "allergens": "Contains dairy (cream cheese). Gluten-free as prepared. Contact restaurant to confirm.",
     "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
