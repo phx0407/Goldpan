@@ -353,7 +353,7 @@
   },
   {
     "id": "D020",
-    "name": "Margherita",
+    "name": "Margherita Pizza",
     "restaurant": "Emmy Squared",
     "location": "Birmingham, AL",
     "level": "Building",
@@ -4727,28 +4727,6 @@
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [],
     "category": "sandwich"
-  },
-  {
-    "id": "D245",
-    "name": "Margherita Pizza",
-    "restaurant": "Emmy Squared",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [],
-    "options": [
-      "gluten-free crust (+$4)",
-      "vegan cheese (+$4) — available on sixer [8×10 | 6 slices] upon request"
-    ],
-    "allergens": "dairy (cheese blend, burrata), wheat (Detroit-style dough)",
-    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
-    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
-    "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
-    "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [
-      "red sauce",
-      "Emmy's cheese blend"
-    ],
-    "category": "pizza"
   },
   {
     "id": "D247",
