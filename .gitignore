@@ -1,1 +1,17 @@
 service_account.json
+
+# Internal pipeline scripts
+upsert_dishes.py
+patch_*.py
+add_dishes.py
+
+# Staging files
+staging*.json
+
+# Internal docs
+UPSERT_GUIDE.md
+high_protein_proposal.md
+
+# Python cache
+__pycache__/
+*.pyc
