@@ -547,9 +547,15 @@ function submitDishQuestion(id, name, restaurant) {
   if (!ta) return;
   var q = ta.value.trim();
   if (!q) { ta.focus(); return; }
-  var subject = encodeURIComponent('Dish question: ' + name + ' @ ' + restaurant);
-  var body = encodeURIComponent('Dish: ' + name + '\nRestaurant: ' + restaurant + '\n\nQuestion:\n' + q);
-  window.open('mailto:bradford@goldpanapp.com,myles@goldpanapp.com?subject=' + subject + '&body=' + body);
+
+  // Submit to Google Form (writes to Goldpan Questions sheet)
+  var formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScwKNtnPcUkxcXgj6dg8Y2mHfKcEP2Ssw5oaiEaDFy_h8zBxg/formResponse';
+  var formData = new FormData();
+  formData.append('entry.1470712163', name);
+  formData.append('entry.713733321', restaurant);
+  formData.append('entry.1986237168', q);
+  fetch(formUrl, { method: 'POST', mode: 'no-cors', body: formData });
+
   ta.value = '';
   var thanks = document.getElementById('qt-' + id);
   if (thanks) { thanks.style.display = 'block'; setTimeout(function() { thanks.style.display = 'none'; }, 4000); }
