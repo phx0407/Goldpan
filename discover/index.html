@@ -244,6 +244,7 @@
       <button class="fbtn"                                 onclick="setDishFilter('no-eggs',         this)">No Eggs</button>
       <button class="fbtn"                                 onclick="setDishFilter('no-soy',          this)">No Soy</button>
       <button class="fbtn"                                 onclick="setDishFilter('no-pork',         this)">No Pork</button>
+      <button class="fbtn"                                 onclick="setDishFilter('high-protein',    this)">High Protein</button>
       <button class="fbtn"                                 onclick="setDishFilter('60plus',          this)">Moderate+</button>
       <button class="fbtn"                                 onclick="setDishFilter('has-ingredients', this)">Has Ingredients</button>
       <button class="fbtn"                                 onclick="setDishFilter('has-allergens',   this)">Has Allergen Info</button>
@@ -527,7 +528,7 @@ function updateActiveFiltersBar() {
   var bar = document.getElementById('active-filters-bar');
   if (dishActiveFilters.length === 0) { bar.classList.remove('visible'); bar.innerHTML = ''; return; }
   bar.classList.add('visible');
-  var labels = { 'vegan':'Vegan','vegetarian':'Vegetarian','gluten-free':'Gluten Free','no-dairy':'No Dairy','no-nuts':'No Nuts','no-shellfish':'No Shellfish','no-fish':'No Fish','no-eggs':'No Eggs','no-soy':'No Soy','no-pork':'No Pork','60plus':'Moderate+','has-ingredients':'Has Ingredients','has-allergens':'Has Allergen Info','has-dietary':'Has Dietary Info' };
+  var labels = { 'vegan':'Vegan','vegetarian':'Vegetarian','gluten-free':'Gluten Free','no-dairy':'No Dairy','no-nuts':'No Nuts','no-shellfish':'No Shellfish','no-fish':'No Fish','no-eggs':'No Eggs','no-soy':'No Soy','no-pork':'No Pork','high-protein':'High Protein','60plus':'Moderate+','has-ingredients':'Has Ingredients','has-allergens':'Has Allergen Info','has-dietary':'Has Dietary Info' };
   bar.innerHTML = '<span style="font-size:11px;color:#9A9488;letter-spacing:0.08em;text-transform:uppercase;">Active filters:</span>' +
     dishActiveFilters.map(function(f) { return '<span class="active-filter-tag">' + (labels[f] || f) + '</span>'; }).join('') +
     '<button class="clear-all" onclick="clearDishFilters()">Clear All</button>';
@@ -585,6 +586,7 @@ function getFilteredDishes() {
       if (f === 'no-eggs')          return (d.allergens || '').toLowerCase().indexOf('egg') === -1;
       if (f === 'no-soy')           return (d.allergens || '').toLowerCase().indexOf('soy') === -1;
       if (f === 'no-pork')          { var al = (d.allergens || '').toLowerCase(); var ing = (d.ingredients || []).join(' ').toLowerCase(); return al.indexOf('pork') === -1 && ing.indexOf('pork') === -1 && ing.indexOf('bacon') === -1 && ing.indexOf('ham') === -1 && ing.indexOf('prosciutto') === -1 && ing.indexOf('pancetta') === -1; }
+      if (f === 'high-protein')     return (d.tags || []).indexOf('high-protein') !== -1;
       if (f === '60plus')           { var l = (d.level || '').toLowerCase(); return l === 'high' || l === 'moderate'; }
       if (f === 'has-ingredients')  return (d.ingredients || []).length > 0;
       if (f === 'has-allergens')    return d.allergens && d.allergens.toLowerCase() !== 'unknown' && d.allergens.trim() !== '';
