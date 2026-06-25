@@ -12,9 +12,9 @@
     "name": "Adam and Eve Cafe",
     "location": "Birmingham, AL",
     "hours": "",
-    "menu_link": "",
+    "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_website": "https://www.adamandevecafe.com/",
     "claims": []
   },
   {
@@ -89,18 +89,18 @@
     "name": "Chopt Creative Salad Co.",
     "location": "Birmingham, AL",
     "hours": "",
-    "menu_link": "",
+    "menu_link": "https://www.choptsalad.com/menu",
     "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_website": "https://www.choptsalad.com/",
     "claims": []
   },
   {
     "name": "Clean Eatz",
     "location": "Hoover",
     "hours": "",
-    "menu_link": "",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
     "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_website": "https://cleaneatz.com/",
     "claims": [
       {
         "type": "allergen-policy",
@@ -210,9 +210,9 @@
     "name": "The Essential",
     "location": "Birmingham, AL",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
-    "menu_link": "https://static1.squarespace.com/static/68f90c9c8dee4f26bb8f8900/t/6a1469d7bbac59541f624bb8/1779722711527/BrunchMenu5.27.26.pdf",
+    "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "",
-    "restaurant_website": "",
+    "restaurant_website": "https://essentialbham.com/",
     "claims": []
   },
   {
