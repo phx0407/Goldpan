@@ -196,6 +196,39 @@
     .survey-dismiss:hover { color: #F5F2EC; }
     .survey-thanks { font-size: 13px; color: #4CAF76; margin-top: 12px; display: none; font-style: italic; }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <style>
+    /* ── View toggle ── */
+    .view-toggle { display: flex; gap: 0; }
+    .vtbtn { padding: 8px 16px; border: 1px solid #222222; background: transparent; color: #9A9488; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: all 0.2s; }
+    .vtbtn:first-child { border-right: none; }
+    .vtbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; }
+    .vtbtn:hover:not(.active) { border-color: #8B6F2E; color: #C9A84C; }
+
+    /* ── Map view ── */
+    #map-view { display: none; height: 600px; margin: 0; position: relative; }
+    #map-view.active { display: block; }
+    #goldpan-map { height: 100%; width: 100%; background: #0A0A0A; }
+    @media (max-width: 768px) { #map-view { height: 420px; } }
+
+    /* Leaflet dark theme overrides */
+    .leaflet-container { background: #111111 !important; }
+    .leaflet-tile-pane { filter: brightness(0.75) saturate(0.7) hue-rotate(5deg); }
+    .leaflet-control-zoom a { background: #1A1A1A !important; color: #C9A84C !important; border-color: #222222 !important; }
+    .leaflet-control-zoom a:hover { background: #222222 !important; }
+    .leaflet-control-attribution { background: rgba(10,10,10,0.7) !important; color: #555550 !important; font-size: 9px !important; }
+    .leaflet-control-attribution a { color: #9A9488 !important; }
+    .gp-popup .leaflet-popup-content-wrapper { background: #111111; border: 1px solid #C9A84C; border-radius: 0; color: #F5F2EC; box-shadow: 0 4px 24px rgba(0,0,0,0.6); }
+    .gp-popup .leaflet-popup-tip { background: #111111; }
+    .gp-popup .leaflet-popup-close-button { color: #9A9488 !important; }
+    .gp-popup .leaflet-popup-close-button:hover { color: #C9A84C !important; }
+    .map-popup-name { font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 2px; }
+    .map-popup-loc { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #C9A84C; margin-bottom: 6px; }
+    .map-popup-hours { font-size: 11px; color: #9A9488; margin-bottom: 8px; line-height: 1.4; }
+    .map-popup-btn { display: inline-block; background: #C9A84C; color: #0A0A0A; border: none; padding: 6px 14px; font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; width: 100%; text-align: center; transition: background 0.2s; }
+    .map-popup-btn:hover { background: #E8C97A; }
+  </style>
   <script src="/consent.js" defer></script>
 </head>
 <body>
@@ -269,10 +302,17 @@
 
   <div class="results-bar">
     <span class="results-count" id="dish-results-count">–</span>
-    <button class="sort-btn" onclick="toggleSort()">Sort: <span id="sort-label">Highest First</span></button>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <button class="sort-btn" onclick="toggleSort()">Sort: <span id="sort-label">Highest First</span></button>
+      <div class="view-toggle">
+        <button class="vtbtn active" id="vtbtn-list" onclick="setView('list')">List</button>
+        <button class="vtbtn" id="vtbtn-map" onclick="setView('map')">Map</button>
+      </div>
+    </div>
   </div>
 
   <div class="grid" id="dish-grid"></div>
+  <div id="map-view"><div id="goldpan-map"></div></div>
 
   <footer class="site-footer">
     <div class="footer-logo">Goldpan™</div>
@@ -693,6 +733,89 @@ function closeDetail() {
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') { closeDetail(); }
 });
+
+// ── Map view ──────────────────────────────────────────────────────────────────
+
+var currentView = 'list';
+var gpMap = null;
+var coordsData = null;
+
+function setView(v) {
+  currentView = v;
+  var grid = document.getElementById('dish-grid');
+  var mapView = document.getElementById('map-view');
+  var listBtn = document.getElementById('vtbtn-list');
+  var mapBtn  = document.getElementById('vtbtn-map');
+  if (v === 'map') {
+    grid.style.display = 'none';
+    mapView.classList.add('active');
+    listBtn.classList.remove('active');
+    mapBtn.classList.add('active');
+    initMap();
+  } else {
+    grid.style.display = '';
+    mapView.classList.remove('active');
+    listBtn.classList.add('active');
+    mapBtn.classList.remove('active');
+  }
+}
+
+function initMap() {
+  if (gpMap) { gpMap.invalidateSize(); return; }
+
+  gpMap = L.map('goldpan-map', {
+    center: [33.49, -86.79],
+    zoom: 12,
+    zoomControl: true,
+    attributionControl: true,
+  });
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 19,
+  }).addTo(gpMap);
+
+  function addMarkers(coords) {
+    var goldIcon = L.divIcon({
+      className: '',
+      html: '<div style="width:14px;height:14px;border-radius:50%;background:#C9A84C;border:2px solid #0A0A0A;box-shadow:0 2px 6px rgba(0,0,0,0.5);"></div>',
+      iconSize: [14, 14],
+      iconAnchor: [7, 7],
+      popupAnchor: [0, -10],
+    });
+
+    Object.keys(coords).forEach(function(name) {
+      var c = coords[name];
+      var rIdx = restaurants.findIndex(function(r) { return r.name === name; });
+      var marker = L.marker([c.lat, c.lng], { icon: goldIcon }).addTo(gpMap);
+      var hoursHtml = c.hours ? '<div class="map-popup-hours">' + c.hours + '</div>' : '';
+      var popupHtml =
+        '<div class="map-popup-name">' + name + '</div>' +
+        '<div class="map-popup-loc">' + (c.location || '') + '</div>' +
+        hoursHtml +
+        '<button class="map-popup-btn" onclick="gpMapOpenRestaurant(' + rIdx + ')">View Dishes</button>';
+      marker.bindPopup(popupHtml, { className: 'gp-popup', maxWidth: 220, minWidth: 180 });
+    });
+  }
+
+  if (coordsData) {
+    addMarkers(coordsData);
+  } else {
+    fetch('../restaurant_coords.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        coordsData = data;
+        addMarkers(data);
+      });
+  }
+}
+
+function gpMapOpenRestaurant(idx) {
+  if (idx < 0) return;
+  // Close any open popup, then open the detail panel
+  if (gpMap) gpMap.closePopup();
+  openRestaurantDetail(idx);
+}
 
 // Auto-unlock if already authenticated in this session
 (function() {
