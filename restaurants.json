@@ -11,9 +11,9 @@
   {
     "name": "Adam and Eve Cafe",
     "location": "Birmingham, AL",
-    "hours": "",
+    "hours": "Mon–Sat 7:00 AM–11:00 PM",
     "menu_link": "https://www.adamandevecafe.com/",
-    "restaurant_address": "",
+    "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "claims": []
   },
@@ -63,7 +63,7 @@
   {
     "name": "Cayo Coco Rum Bar & Restaurant",
     "location": "Birmingham, AL",
-    "hours": "",
+    "hours": "Mon–Thu 5:00 PM–9:00 PM | Fri–Sat 5:00 PM–10:00 PM | Sun Closed",
     "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
     "restaurant_address": "2015 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://cayococorumbar.com",
@@ -73,10 +73,10 @@
   {
     "name": "Chop N Fresh",
     "location": "Homewood, AL",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "hours": "Mon–Sat 10:30 AM–8:00 PM | Sun 10:30 AM–7:00 PM",
+    "menu_link": "https://chopnfreshbhm.com/",
+    "restaurant_address": "291 Rele St, Mountain Brook, AL 35223",
+    "restaurant_website": "https://chopnfreshbhm.com/",
     "claims": [
       {
         "type": "dietary",
@@ -88,18 +88,18 @@
   {
     "name": "Chopt Creative Salad Co.",
     "location": "Birmingham, AL",
-    "hours": "",
+    "hours": "Mon–Sat 10:30 AM–8:00 PM | Sun 11:00 AM–8:00 PM",
     "menu_link": "https://www.choptsalad.com/menu",
-    "restaurant_address": "",
+    "restaurant_address": "331 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.choptsalad.com/",
     "claims": []
   },
   {
     "name": "Clean Eatz",
     "location": "Hoover",
-    "hours": "",
+    "hours": "Mon–Fri 11:00 AM–7:00 PM | Sat–Sun 11:00 AM–3:00 PM",
     "menu_link": "https://cleaneatz.com/cafe-menu",
-    "restaurant_address": "",
+    "restaurant_address": "1021 Brocks Gap Pkwy Ste 141, Hoover, AL 35244",
     "restaurant_website": "https://cleaneatz.com/",
     "claims": [
       {
@@ -155,7 +155,7 @@
   {
     "name": "Kale Me Crazy",
     "location": "Birmingham, AL",
-    "hours": "",
+    "hours": "Mon–Fri 7:00 AM–6:00 PM | Sat 9:00 AM–5:00 PM",
     "menu_link": "https://kalemecrazy.net/menu/",
     "restaurant_address": "1831 28th Ave. South, Ste. 106, Homewood, AL 35209",
     "restaurant_website": "https://kalemecrazy.net",
@@ -193,14 +193,14 @@
     "location": "Homewood, AL",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
-    "restaurant_address": "",
+    "restaurant_address": "1830 29th Ave S #175, Homewood, AL 35209",
     "restaurant_website": "https://www.sohostandard.bar/",
     "claims": []
   },
   {
     "name": "The Battery",
     "location": "Homewood, AL",
-    "hours": "",
+    "hours": "Mon 11:00 AM–9:00 PM | Tue Closed | Wed–Thu 11:00 AM–9:00 PM | Fri–Sat 11:00 AM–10:00 PM | Sun 11:00 AM–9:00 PM",
     "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
     "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
     "restaurant_website": "https://manthebattery.com",
@@ -211,7 +211,7 @@
     "location": "Birmingham, AL",
     "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://essentialbham.com/menus",
-    "restaurant_address": "",
+    "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
     "claims": []
   },
