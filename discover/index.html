@@ -55,15 +55,15 @@
     @media (max-width: 768px) { .hero { padding: 40px 20px 30px; } }
 
     /* ── Search + filters ── */
-    .search-bar { padding: 24px 48px; border-bottom: 1px solid #1A1A1A; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
-    .search-input { flex: 1; min-width: 200px; background: #1A1A1A; border: 1px solid #222222; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 14px; padding: 12px 18px; outline: none; transition: border-color 0.2s; }
-    .search-input::placeholder { color: #9A9488; }
-    .search-input:focus { border-color: #8B6F2E; }
+    .search-bar { padding: 24px 48px 16px; border-bottom: none; display: flex; flex-direction: column; gap: 12px; }
+    .search-input { width: 100%; background: #111111; border: 1px solid #2A2A2A; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 17px; padding: 18px 24px; outline: none; transition: border-color 0.25s, box-shadow 0.25s; }
+    .search-input::placeholder { color: #555550; }
+    .search-input:focus { border-color: #C9A84C; box-shadow: 0 0 0 1px #C9A84C; }
     .filter-btns { display: flex; gap: 8px; flex-wrap: wrap; }
     .fbtn { padding: 10px 18px; border: 1px solid #222222; background: transparent; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: all 0.2s; }
     .fbtn:hover { border-color: #C9A84C; color: #C9A84C; }
     .fbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; }
-    @media (max-width: 768px) { .search-bar { padding: 16px 20px; } }
+    @media (max-width: 768px) { .search-bar { padding: 16px 20px 12px; } }
 
     /* ── Active filters ── */
     .active-filters-bar { padding: 10px 48px; border-bottom: 1px solid #1A1A1A; display: none; gap: 8px; flex-wrap: wrap; align-items: center; }
@@ -688,7 +688,7 @@ function renderDishes() {
     return;
   }
   var filtered = getFilteredDishes();
-  countEl.textContent = filtered.length + ' dish' + (filtered.length !== 1 ? 'es' : '');
+  countEl.textContent = filtered.length + ' dish' + (filtered.length !== 1 ? 'es' : '') + ' available';
   if (!filtered.length) { grid.innerHTML = '<div class="empty"><div class="empty-title">No dishes found</div><p>Try adjusting your search or filters.</p></div>'; return; }
   grid.innerHTML = filtered.map(function(d) {
     var lk = levelKey(d);
