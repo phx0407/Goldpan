@@ -87,6 +87,12 @@
     .sort-btn { font-size: 11px; color: #9A9488; background: none; border: none; cursor: pointer; letter-spacing: 0.1em; text-transform: uppercase; }
     @media (max-width: 768px) { .results-bar { padding: 12px 20px; } }
 
+    /* ── Map mode: hide list-only UI ── */
+    .map-mode .hero { display: none !important; }
+    .map-mode .sort-btn { display: none !important; }
+    .map-mode .results-bar { border-bottom: none; }
+    @media (max-width: 768px) { .map-mode .results-bar { padding: 12px 20px; } }
+
     /* ── Dish grid ── */
     .grid { padding: 32px 48px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
     @media (max-width: 768px) { .grid { padding: 20px; grid-template-columns: 1fr; } }
@@ -277,7 +283,7 @@
   </div>
 
   <div class="search-bar">
-    <input class="search-input" id="dish-search" placeholder="Search dishes, restaurants, ingredients..." oninput="renderDishes()" />
+    <input class="search-input" id="dish-search" placeholder="Search dishes, restaurants, ingredients..." oninput="currentView==='map' ? updateMapMarkers() : renderDishes()" />
     <div class="filter-btns">
       <button class="fbtn active" id="dbtn-all"            onclick="setDishFilter('all',             this)">All</button>
       <button class="fbtn"                                 onclick="setDishFilter('vegan',           this)">Vegan</button>
@@ -580,7 +586,7 @@ function setDishFilter(f, btn) {
     if (dishActiveFilters.length === 0) document.getElementById('dbtn-all').classList.add('active');
   }
   updateActiveFiltersBar();
-  renderDishes();
+  if (currentView === 'map') { updateMapMarkers(); } else { renderDishes(); }
   try { localStorage.setItem('gp_filters', JSON.stringify(dishActiveFilters)); } catch(e) {}
 }
 
@@ -761,17 +767,20 @@ function setView(v) {
   var mapView = document.getElementById('map-view');
   var listBtn = document.getElementById('vtbtn-list');
   var mapBtn  = document.getElementById('vtbtn-map');
+  var app = document.getElementById('app');
   if (v === 'map') {
     grid.style.display = 'none';
     mapView.classList.add('active');
     listBtn.classList.remove('active');
     mapBtn.classList.add('active');
+    app.classList.add('map-mode');
     initMap();
   } else {
     grid.style.display = '';
     mapView.classList.remove('active');
     listBtn.classList.add('active');
     mapBtn.classList.remove('active');
+    app.classList.remove('map-mode');
   }
 }
 
@@ -819,14 +828,37 @@ function initMap() {
 
   if (coordsData) {
     addMarkers(coordsData);
+    updateMapMarkers();
   } else {
     fetch('../restaurant_coords.json')
       .then(function(r) { return r.json(); })
       .then(function(data) {
         coordsData = data;
         addMarkers(data);
+        updateMapMarkers();
       });
   }
+}
+
+function updateMapMarkers() {
+  if (!gpMap || !coordsData) return;
+  var filtered = getFilteredDishes();
+  // Build set of restaurant names that have at least one matching dish
+  var visibleRestaurants = new Set(filtered.map(function(d) { return d.restaurant; }));
+  // If no filters active, show all
+  var showAll = dishActiveFilters.length === 0 && !(document.getElementById('dish-search') || {}).value;
+  var count = 0;
+  Object.keys(gpMarkers).forEach(function(name) {
+    var marker = gpMarkers[name];
+    if (showAll || visibleRestaurants.has(name)) {
+      if (!gpMap.hasLayer(marker)) marker.addTo(gpMap);
+      count++;
+    } else {
+      if (gpMap.hasLayer(marker)) marker.remove();
+    }
+  });
+  var countEl = document.getElementById('dish-results-count');
+  if (countEl) countEl.textContent = count + ' restaurant' + (count !== 1 ? 's' : '') + ' on map';
 }
 
 function gpMapOpenRestaurant(idx) {
