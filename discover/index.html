@@ -545,7 +545,13 @@ function setPanelFilter(f, btn) {
 function renderPanelDishes() {
   var r = restaurants[currentRestaurantIdx];
   if (!r) return;
+  // Build set of globally-filtered dish IDs so panel respects active filters
+  var globalIds = null;
+  if (dishActiveFilters.length > 0 || (document.getElementById('dish-search') || {}).value) {
+    globalIds = new Set(getFilteredDishes().map(function(d) { return d.id; }));
+  }
   var filtered = r.dishes.filter(function(d) {
+    if (globalIds && !globalIds.has(d.id)) return false;
     if (panelDishSearch && d.name.toLowerCase().indexOf(panelDishSearch) === -1) return false;
     if (panelDishFilter === 'all') return true;
     if (panelDishFilter === 'high') return levelKey(d) === 'high';
@@ -605,7 +611,7 @@ function clearDishFilters() {
   document.querySelectorAll('.filter-btns .fbtn').forEach(function(b) { b.classList.remove('active'); });
   document.getElementById('dbtn-all').classList.add('active');
   updateActiveFiltersBar();
-  renderDishes();
+  if (currentView === 'map') { updateMapMarkers(); } else { renderDishes(); }
   try { localStorage.removeItem('gp_filters'); } catch(e) {}
 }
 
@@ -781,6 +787,7 @@ function setView(v) {
     listBtn.classList.add('active');
     mapBtn.classList.remove('active');
     app.classList.remove('map-mode');
+    renderDishes();
   }
 }
 
