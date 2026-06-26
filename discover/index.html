@@ -502,12 +502,19 @@ function openRestaurantDetail(idx) {
   if (r.website)   metaHtml += '<div style="font-size:12px;margin-bottom:6px;"><a href="' + r.website + '" target="_blank" style="color:#C9A84C;text-decoration:none;">Restaurant Website ↗</a></div>';
   if (r.menu_link) metaHtml += '<div style="font-size:12px;margin-bottom:20px;"><a href="' + r.menu_link + '" target="_blank" style="color:#C9A84C;text-decoration:none;">View Menu ↗</a></div>';
 
+  // Count only dishes that pass active global filters
+  var filteredIds = (dishActiveFilters.length > 0 || (document.getElementById('dish-search') || {}).value)
+    ? new Set(getFilteredDishes().map(function(d) { return d.id; }))
+    : null;
+  var visibleCount = filteredIds ? r.dishes.filter(function(d) { return filteredIds.has(d.id); }).length : r.dishes.length;
+  var dishCountLabel = filteredIds ? (visibleCount + ' of ' + r.dishes.length) : r.dishes.length;
+
   document.getElementById('detail-content').innerHTML =
     '<div class="detail-restaurant">' + r.location + '</div>' +
     '<div class="detail-name">' + r.name + '</div>' +
     '<button class="view-on-map-btn" onclick="viewOnMap(\'' + r.name.replace(/'/g, "\\'") + '\')">⊕ View on Map</button>' +
     '<div style="display:flex;gap:20px;margin-bottom:20px;">' +
-      '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#F5F2EC;">' + r.dishes.length + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">Dishes</div></div>' +
+      '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#F5F2EC;">' + dishCountLabel + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">Dishes</div></div>' +
       (r.high     ? '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#4CAF76;">' + r.high     + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">High</div></div>' : '') +
       (r.moderate ? '<div><div style="font-family:\'Bebas Neue\',sans-serif;font-size:36px;color:#C9A84C;">' + r.moderate + '</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#9A9488;">Moderate</div></div>' : '') +
     '</div>' +
