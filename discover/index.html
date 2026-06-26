@@ -309,8 +309,8 @@
     <div style="display:flex;align-items:center;gap:16px;">
       <button class="sort-btn" onclick="toggleSort()">Sort: <span id="sort-label">Highest First</span></button>
       <div class="view-toggle">
-        <button class="vtbtn active" id="vtbtn-list" onclick="setView('list')">List</button>
-        <button class="vtbtn" id="vtbtn-map" onclick="setView('map')">Map</button>
+        <button class="vtbtn" id="vtbtn-list" onclick="setView('list')">List</button>
+        <button class="vtbtn active" id="vtbtn-map" onclick="setView('map')">Map</button>
       </div>
     </div>
   </div>
@@ -465,6 +465,7 @@ function checkPassword() {
     document.getElementById('app').classList.add('unlocked');
     sessionStorage.setItem('gp_unlocked','1');
     renderDishes();
+    setView('map');
   } else {
     input.classList.add('error');
     err.classList.add('visible');
@@ -741,7 +742,7 @@ document.addEventListener('keydown', function(e) {
 
 // ── Map view ──────────────────────────────────────────────────────────────────
 
-var currentView = 'list';
+var currentView = 'map';
 var gpMap = null;
 var coordsData = null;
 var gpMarkers = {}; // name → L.marker
@@ -785,7 +786,7 @@ function initMap() {
   function addMarkers(coords) {
     var goldIcon = L.divIcon({
       className: '',
-      html: '<div style="width:14px;height:14px;border-radius:50%;background:#C9A84C;border:2px solid #0A0A0A;box-shadow:0 2px 6px rgba(0,0,0,0.5);"></div>',
+      html: '<div style="width:14px;height:14px;border-radius:50%;background:#FFFFFF;border:2px solid #C9A84C;box-shadow:0 0 8px rgba(255,255,255,0.35),0 2px 6px rgba(0,0,0,0.6);"></div>',
       iconSize: [14, 14],
       iconAnchor: [7, 7],
       popupAnchor: [0, -10],
@@ -842,6 +843,7 @@ function viewOnMap(restaurantName) {
     document.getElementById('gate').style.display = 'none';
     document.getElementById('app').classList.add('unlocked');
     renderDishes();
+    setView('map');
   }
 })();
 
