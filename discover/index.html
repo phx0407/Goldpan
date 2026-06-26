@@ -218,7 +218,7 @@
 
     /* Leaflet dark theme overrides */
     .leaflet-container { background: #111111 !important; }
-    .leaflet-tile-pane { filter: none; }
+    .leaflet-tile-pane { filter: brightness(1.3) sepia(1) hue-rotate(145deg) saturate(4) contrast(1.4); }
     .leaflet-control-zoom a { background: #1A1A1A !important; color: #C9A84C !important; border-color: #222222 !important; }
     .leaflet-control-zoom a:hover { background: #222222 !important; }
     .leaflet-control-attribution { background: rgba(10,10,10,0.7) !important; color: #555550 !important; font-size: 9px !important; }
@@ -232,6 +232,11 @@
     .map-popup-hours { font-size: 11px; color: #9A9488; margin-bottom: 8px; line-height: 1.4; }
     .map-popup-btn { display: inline-block; background: #C9A84C; color: #0A0A0A; border: none; padding: 6px 14px; font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; width: 100%; text-align: center; transition: background 0.2s; }
     .map-popup-btn:hover { background: #E8C97A; }
+    .map-popup-dir { display: block; text-align: center; margin-top: 6px; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: #9A9488; text-decoration: none; transition: color 0.2s; }
+    .map-popup-dir:hover { color: #C9A84C; }
+    /* locate-me button */
+    .locate-btn { position: absolute; bottom: 16px; right: 16px; z-index: 999; background: #111111; border: 1px solid #C9A84C; color: #C9A84C; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding: 8px 14px; cursor: pointer; transition: all 0.2s; }
+    .locate-btn:hover { background: #C9A84C; color: #0A0A0A; }
   </style>
   <script src="/consent.js" defer></script>
 </head>
@@ -316,7 +321,10 @@
   </div>
 
   <div class="grid" id="dish-grid"></div>
-  <div id="map-view"><div id="goldpan-map"></div></div>
+  <div id="map-view">
+    <div id="goldpan-map"></div>
+    <button class="locate-btn" onclick="locateMe()" title="Find my location">⊕ Near Me</button>
+  </div>
 
   <footer class="site-footer">
     <div class="footer-logo">Goldpan™</div>
@@ -798,11 +806,13 @@ function initMap() {
       var marker = L.marker([c.lat, c.lng], { icon: goldIcon }).addTo(gpMap);
       gpMarkers[name] = marker;
       var hoursHtml = c.hours ? '<div class="map-popup-hours">' + c.hours + '</div>' : '';
+      var directionsUrl = 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(c.address || name + ' Birmingham AL');
       var popupHtml =
         '<div class="map-popup-name">' + name + '</div>' +
         '<div class="map-popup-loc">' + (c.location || '') + '</div>' +
         hoursHtml +
-        '<button class="map-popup-btn" onclick="gpMapOpenRestaurant(' + rIdx + ')">View Dishes</button>';
+        '<button class="map-popup-btn" onclick="gpMapOpenRestaurant(' + rIdx + ')">View Dishes</button>' +
+        '<a class="map-popup-dir" href="' + directionsUrl + '" target="_blank">Get Directions ↗</a>';
       marker.bindPopup(popupHtml, { className: 'gp-popup', maxWidth: 220, minWidth: 180 });
     });
   }
@@ -823,6 +833,30 @@ function gpMapOpenRestaurant(idx) {
   if (idx < 0) return;
   if (gpMap) gpMap.closePopup();
   openRestaurantDetail(idx);
+}
+
+var userLocationMarker = null;
+
+function locateMe() {
+  if (!navigator.geolocation) return;
+  navigator.geolocation.getCurrentPosition(function(pos) {
+    var lat = pos.coords.latitude;
+    var lng = pos.coords.longitude;
+    if (!gpMap) return;
+    // Remove old marker
+    if (userLocationMarker) { userLocationMarker.remove(); }
+    var userIcon = L.divIcon({
+      className: '',
+      html: '<div style="width:14px;height:14px;border-radius:50%;background:#4A90E2;border:2px solid #FFFFFF;box-shadow:0 0 10px rgba(74,144,226,0.6),0 2px 6px rgba(0,0,0,0.5);"></div>',
+      iconSize: [14, 14],
+      iconAnchor: [7, 7],
+    });
+    userLocationMarker = L.marker([lat, lng], { icon: userIcon }).addTo(gpMap);
+    userLocationMarker.bindPopup('<div style="font-family:\'DM Mono\',monospace;font-size:12px;color:#F5F2EC;">You are here</div>', { className: 'gp-popup', maxWidth: 140 });
+    gpMap.setView([lat, lng], 13, { animate: true });
+  }, function() {
+    alert('Location access was denied or unavailable.');
+  });
 }
 
 function viewOnMap(restaurantName) {
