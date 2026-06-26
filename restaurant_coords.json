@@ -1,0 +1,227 @@
+{
+  "Abhi Eatery and Bar": {
+    "lat": 33.4843609,
+    "lng": -86.7737673,
+    "address": "2721 Cahaba Rd, Mountain Brook, AL 35223",
+    "location": "Mountain Brook, AL",
+    "hours": "Mon-Thu 5-8:30pm | Fri-Sun 5-9pm",
+    "menu_link": "https://www.abhieatery.com/eat",
+    "website": "https://www.abhieatery.com"
+  },
+  "Adam and Eve Cafe": {
+    "lat": 33.5017065,
+    "lng": -86.7971549,
+    "address": "1022 20th St S, Birmingham, AL 35205",
+    "location": "Birmingham, AL",
+    "hours": "Mon\u2013Sat 7:00 AM\u201311:00 PM",
+    "menu_link": "https://www.adamandevecafe.com/",
+    "website": "https://www.adamandevecafe.com/"
+  },
+  "Blue Root": {
+    "lat": 33.5162644,
+    "lng": -86.7917821,
+    "address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "location": "Birmingham",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://media-cdn.getbento.com/accounts/fc1d22826aaad1786b15c971c7a95214/media/OqW1YgHOS9u4J1ta1Drn_Blueroot%20Nutrition%20Facts.pdf",
+    "website": "https://bluerootco.com"
+  },
+  "Brick & Tin": {
+    "lat": 33.4821076,
+    "lng": -86.7723126,
+    "address": "2901 Cahaba Rd, Mountain Brook, AL 35223",
+    "location": "Mountain Brook, AL",
+    "hours": "Mon\u2013Sun 10:30 AM\u20138:00 PM",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-menus",
+    "website": "https://brickandtin.com/"
+  },
+  "Cayo Coco Rum Bar & Restaurant": {
+    "lat": 33.5145099,
+    "lng": -86.8053271,
+    "address": "2015 1st Ave N, Birmingham, AL 35203",
+    "location": "Birmingham, AL",
+    "hours": "Mon\u2013Thu 5:00 PM\u20139:00 PM | Fri\u2013Sat 5:00 PM\u201310:00 PM | Sun Closed",
+    "menu_link": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+    "website": "https://cayococorumbar.com"
+  },
+  "Chopt Creative Salad Co.": {
+    "lat": 33.4516594,
+    "lng": -86.7304111,
+    "address": "331 Summit Blvd, Birmingham, AL 35243",
+    "location": "Birmingham, AL",
+    "hours": "Mon\u2013Sat 10:30 AM\u20138:00 PM | Sun 11:00 AM\u20138:00 PM",
+    "menu_link": "https://www.choptsalad.com/menu",
+    "website": "https://www.choptsalad.com/"
+  },
+  "EastWest": {
+    "lat": 33.5176142,
+    "lng": -86.8019584,
+    "address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "location": "Birmingham, AL",
+    "hours": "Tue\u2013Thu 5:00 PM\u20139:00 PM | Fri\u2013Sat 5:00 PM\u201310:00 PM | Mon & Sun Closed",
+    "menu_link": "https://www.eastwestbirmingham.com/menus",
+    "website": "https://www.eastwestbirmingham.com/"
+  },
+  "Emmy Squared": {
+    "lat": 33.4498261,
+    "lng": -86.7300142,
+    "address": "300 Summit Blvd, Birmingham, AL 35243",
+    "location": "Birmingham, AL",
+    "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
+    "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
+    "website": "https://www.emmysquaredpizza.com"
+  },
+  "Frothy Monkey": {
+    "lat": 33.4738383,
+    "lng": -86.8089111,
+    "address": "930 Oxmoor Rd, Homewood, AL 35209",
+    "location": "Homewood, AL",
+    "hours": "Daily 7am\u20138pm",
+    "menu_link": "https://frothymonkey.com/food-drinks/",
+    "website": "https://frothymonkey.com"
+  },
+  "Real & Rosemary": {
+    "lat": 33.4797951,
+    "lng": -86.7881952,
+    "address": "1922 29th Ave S, Homewood, AL 35209",
+    "location": "Homewood",
+    "hours": "Mon-Sat 11am-8pm",
+    "menu_link": "https://www.realandrosemary.com/menu/",
+    "website": "https://www.realandrosemary.com"
+  },
+  "Slutty Vegan": {
+    "lat": 33.5393909,
+    "lng": -86.7510461,
+    "address": "7 55th Pl S, Birmingham, AL 35212",
+    "location": "Birmingham, AL",
+    "hours": "Tue\u2013Thu 12:00 PM\u20138:00 PM | Fri\u2013Sat 12:00 PM\u20139:00 PM | Sun\u2013Mon Closed",
+    "menu_link": "https://sluttyveganatl.com/#menu",
+    "website": "https://www.sluttyveganbham.net"
+  },
+  "The Essential": {
+    "lat": 33.5158201,
+    "lng": -86.8025679,
+    "address": "2215 1st Ave N, Birmingham, AL 35203",
+    "location": "Birmingham, AL",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "menu_link": "https://essentialbham.com/menus",
+    "website": "https://essentialbham.com/"
+  },
+  "Wooden City Birmingham": {
+    "lat": 33.5162007,
+    "lng": -86.7999527,
+    "address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "location": "Birmingham, AL",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "website": "https://www.woodencitybirmingham.com"
+  },
+  "Yo Chef Surf & Turf Smokehouse": {
+    "lat": 33.5332663,
+    "lng": -86.8442403,
+    "address": "2201 4th Place W, Birmingham, AL 35204",
+    "location": "Birmingham",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "website": "https://yochefsurfandturf.net/"
+  },
+  "Yo Mama's": {
+    "lat": 33.5174767,
+    "lng": -86.8071493,
+    "address": "2024 4th Ave N, Birmingham, AL 35203",
+    "location": "Birmingham, AL",
+    "hours": "Mon-Fri 10:30am-2:30pm | Sat Brunch 9am-1pm (2nd & last Sat)",
+    "menu_link": "https://www.yomamasrestaurant.com/food/",
+    "website": "https://www.yomamasrestaurant.com"
+  },
+  "Baha Burger": {
+    "lat": 33.4014,
+    "lng": -86.7241,
+    "address": "3060 Healthy Way, Birmingham, AL 35243",
+    "location": "Birmingham, AL",
+    "hours": "Mon\u2013Sun 10:30 AM\u20139:00 PM",
+    "menu_link": "https://bahaburger.com/images/menu.pdf",
+    "website": "https://bahaburger.com"
+  },
+  "Chop N Fresh": {
+    "lat": 33.482,
+    "lng": -86.7243,
+    "address": "291 Rele St, Mountain Brook, AL 35223",
+    "location": "Homewood, AL",
+    "hours": "Mon\u2013Sat 10:30 AM\u20138:00 PM | Sun 10:30 AM\u20137:00 PM",
+    "menu_link": "https://chopnfreshbhm.com/",
+    "website": "https://chopnfreshbhm.com/"
+  },
+  "Clean Eatz": {
+    "lat": 33.3614,
+    "lng": -86.8072,
+    "address": "1021 Brocks Gap Pkwy Ste 141, Hoover, AL 35244",
+    "location": "Hoover",
+    "hours": "Mon\u2013Fri 11:00 AM\u20137:00 PM | Sat\u2013Sun 11:00 AM\u20133:00 PM",
+    "menu_link": "https://cleaneatz.com/cafe-menu",
+    "website": "https://cleaneatz.com/"
+  },
+  "Eli's Jerusalem Grill": {
+    "lat": 33.4499,
+    "lng": -86.6872,
+    "address": "4673 US Highway 280 W, Birmingham, AL 35242",
+    "location": "Birmingham, AL",
+    "hours": "Mon\u2013Thu 11am\u20139pm | Fri\u2013Sat 11am\u201310pm | Sun 11am\u20138pm",
+    "menu_link": "https://elisjerusalemgrill.com",
+    "website": "https://elisjerusalemgrill.com"
+  },
+  "Kale Me Crazy": {
+    "lat": 33.474,
+    "lng": -86.7975,
+    "address": "1831 28th Ave S #106, Homewood, AL 35209",
+    "location": "Birmingham, AL",
+    "hours": "Mon\u2013Fri 7:00 AM\u20136:00 PM | Sat 9:00 AM\u20135:00 PM",
+    "menu_link": "https://kalemecrazy.net/menu/",
+    "website": "https://kalemecrazy.net"
+  },
+  "SoHo Social": {
+    "lat": 33.475,
+    "lng": -86.799,
+    "address": "1830 29th Ave S #160, Homewood, AL 35209",
+    "location": "Homewood, AL",
+    "hours": "Mon\u2013Sat 11:00 AM\u201310:00 PM | Sun 11:00 AM\u20139:00 PM",
+    "menu_link": "https://www.sohohomewood.bar/soho-social-menus/",
+    "website": "https://www.sohohomewood.bar"
+  },
+  "SoHo Standard": {
+    "lat": 33.4748,
+    "lng": -86.7987,
+    "address": "1830 29th Ave S #175, Homewood, AL 35209",
+    "location": "Homewood, AL",
+    "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
+    "menu_link": "https://www.sohostandard.bar/menus/",
+    "website": "https://www.sohostandard.bar/"
+  },
+  "The Battery": {
+    "lat": 33.4712,
+    "lng": -86.8057,
+    "address": "2821 Central Ave Ste 101, Homewood, AL 35209",
+    "location": "Homewood, AL",
+    "hours": "Mon 11AM\u20139PM | Tue Closed | Wed\u2013Thu 11AM\u20139PM | Fri\u2013Sat 11AM\u201310PM | Sun 11AM\u20139PM",
+    "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+    "website": "https://manthebattery.com"
+  },
+  "Urban Cookhouse": {
+    "lat": 33.4505,
+    "lng": -86.7305,
+    "address": "250 Summit Blvd #102, Birmingham, AL 35243",
+    "location": "Birmingham, AL",
+    "hours": "Mon\u2013Sat 10:30 AM\u20138:30 PM | Sun 11:00 AM\u20137:00 PM",
+    "menu_link": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
+    "website": "https://www.uc-birmingham.com"
+  },
+  "Wasabi Juan's": {
+    "lat": 33.5063,
+    "lng": -86.7981,
+    "address": "2201 2nd Ave S #105, Birmingham, AL 35233",
+    "location": "Birmingham, AL",
+    "hours": "Tue\u2013Thu 11am\u20139pm | Fri\u2013Sat 11am\u201310pm | Sun\u2013Mon Closed",
+    "menu_link": "https://wasabijuan.com/our-menu/",
+    "website": "https://wasabijuan.com"
+  }
+}
