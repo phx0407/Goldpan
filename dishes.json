@@ -1290,7 +1290,7 @@
       "peppers",
       "red onions"
     ],
-    "category": "",
+    "category": "sandwich",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -1325,7 +1325,7 @@
       "black beans",
       "includes a side"
     ],
-    "category": "",
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -1360,7 +1360,7 @@
       "lettuce",
       "includes a side"
     ],
-    "category": "",
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -1401,7 +1401,7 @@
       "steamed broccoli",
       "sweet potato fries"
     ],
-    "category": "",
+    "category": "plate",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -1442,7 +1442,7 @@
       "grilled mushrooms",
       "sweet potato fries"
     ],
-    "category": "",
+    "category": "burger",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
