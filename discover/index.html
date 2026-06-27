@@ -190,6 +190,15 @@
     .question-submit:hover { border-color: #C9A84C; color: #C9A84C; }
     .question-thanks { font-size: 12px; color: #4CAF76; margin-top: 8px; display: none; }
 
+    /* ── Directions toast ── */
+    .directions-toast { position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%); z-index: 9000; background: #111111; border: 1px solid #C9A84C; padding: 16px 24px; display: flex; align-items: center; gap: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.6); opacity: 0; pointer-events: none; transition: opacity 0.2s; white-space: nowrap; }
+    .directions-toast.visible { opacity: 1; pointer-events: auto; }
+    .directions-toast-msg { font-size: 12px; color: #9A9488; font-family: 'DM Mono', monospace; letter-spacing: 0.04em; }
+    .directions-toast-link { font-size: 12px; color: #C9A84C; font-family: 'DM Mono', monospace; letter-spacing: 0.06em; text-decoration: none; text-transform: uppercase; border-bottom: 1px solid rgba(201,168,76,0.4); }
+    .directions-toast-link:hover { border-color: #C9A84C; }
+    .directions-toast-close { background: none; border: none; color: #555550; font-size: 16px; cursor: pointer; padding: 0 0 0 8px; line-height: 1; }
+    .directions-toast-close:hover { color: #F5F2EC; }
+
     /* ── Footer ── */
     .site-footer { border-top: 1px solid #1A1A1A; padding: 32px 48px; display: flex; flex-direction: column; gap: 12px; }
     .footer-disclaimer { font-size: 11px; color: #555550; line-height: 1.6; letter-spacing: 0.02em; }
@@ -346,6 +355,12 @@
     <p class="footer-disclaimer"><strong>Not Medical or Dietary Advice.</strong> Nothing on Goldpan constitutes medical, nutritional, or dietary advice. Consult a qualified professional for guidance related to your health.</p>
     <p class="footer-disclaimer" style="margin-top:8px;">© Goldpan™ · <a href="/privacy.html" style="color:#555550;text-decoration:underline;">Privacy Policy</a></p>
   </footer>
+
+  <div class="directions-toast" id="directions-toast">
+    <span class="directions-toast-msg">Popup blocked —</span>
+    <a class="directions-toast-link" id="directions-toast-link" target="_blank">Open Directions ↗</a>
+    <button class="directions-toast-close" onclick="document.getElementById('directions-toast').classList.remove('visible')">✕</button>
+  </div>
 
   <div class="detail-backdrop" id="detail-backdrop" onclick="closeDetail()"></div>
   <div class="detail-panel" id="detail-panel">
@@ -1045,17 +1060,32 @@ function gpMapOpenRestaurant(idx) {
 
 var userLocationMarker = null;
 
+function showDirectionsToast(url) {
+  var toast = document.getElementById('directions-toast');
+  var link  = document.getElementById('directions-toast-link');
+  if (!toast || !link) { window.location.href = url; return; }
+  link.href = url;
+  toast.classList.add('visible');
+  clearTimeout(showDirectionsToast._timer);
+  showDirectionsToast._timer = setTimeout(function() { toast.classList.remove('visible'); }, 8000);
+}
+
 function getDirections(address) {
   var dest = encodeURIComponent(address);
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(pos) {
-      var origin = pos.coords.latitude + ',' + pos.coords.longitude;
-      window.open('https://www.google.com/maps/dir/?api=1&origin=' + origin + '&destination=' + dest, '_blank');
+      var url = 'https://www.google.com/maps/dir/?api=1&origin=' + pos.coords.latitude + ',' + pos.coords.longitude + '&destination=' + dest;
+      var w = window.open(url, '_blank');
+      if (!w) showDirectionsToast(url);
     }, function() {
-      window.open('https://www.google.com/maps/dir/?api=1&destination=' + dest, '_blank');
+      var url = 'https://www.google.com/maps/dir/?api=1&destination=' + dest;
+      var w = window.open(url, '_blank');
+      if (!w) showDirectionsToast(url);
     });
   } else {
-    window.open('https://www.google.com/maps/dir/?api=1&destination=' + dest, '_blank');
+    var url = 'https://www.google.com/maps/dir/?api=1&destination=' + dest;
+    var w = window.open(url, '_blank');
+    if (!w) showDirectionsToast(url);
   }
 }
 
