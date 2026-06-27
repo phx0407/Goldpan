@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Transparency Levels Work — Goldpan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --gold: #C9A84C; --gold-light: #E8C97A; --gold-dim: #8B6F2E;
+      --black: #0A0A0A; --black-2: #111111; --black-3: #1A1A1A; --black-4: #222222;
+      --white: #F5F2EC; --white-dim: #9A9488;
+      --green: #4CAF76; --amber: #E8A020; --red: #C94C4C;
+    }
+    html { scroll-behavior: smooth; background: #0A0A0A; }
+    body { background: #0A0A0A; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-weight: 300; overflow-x: hidden; }
+
+    /* ── Nav ── */
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 22px 48px; border-bottom: 1px solid rgba(201,168,76,0.12); background: rgba(10,10,10,0.94); backdrop-filter: blur(14px); }
+    .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 0.08em; color: #C9A84C; text-decoration: none; }
+    .nav-links { display: flex; gap: 36px; list-style: none; }
+    .nav-links a { color: #9A9488; text-decoration: none; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: #C9A84C; }
+    .nav-cta { background: #C9A84C !important; color: #0A0A0A !important; padding: 9px 22px; font-weight: 500 !important; }
+    .nav-cta:hover { background: #E8C97A !important; }
+    @media (max-width: 768px) { nav { padding: 18px 24px; } .nav-links { display: none; } }
+
+    /* ── Page layout ── */
+    .page { padding: 140px 48px 100px; max-width: 1100px; margin: 0 auto; }
+    @media (max-width: 768px) { .page { padding: 100px 24px 72px; } }
+
+    /* ── Header ── */
+    .page-eyebrow { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 20px; }
+    .page-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(44px, 7vw, 88px); line-height: 0.95; letter-spacing: 0.02em; margin-bottom: 24px; }
+    .page-sub { font-size: 16px; line-height: 1.7; color: #9A9488; max-width: 580px; margin-bottom: 72px; }
+
+    /* ── Level cards ── */
+    .levels { display: flex; flex-direction: column; gap: 2px; margin-bottom: 80px; }
+    .level-card { display: grid; grid-template-columns: 220px 1fr; gap: 0; border: 1px solid #1A1A1A; }
+    .level-card:hover { border-color: #2A2A2A; }
+    .level-badge-col { padding: 40px 36px; display: flex; flex-direction: column; justify-content: center; border-right: 1px solid #1A1A1A; }
+    .level-badge { display: inline-block; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; padding: 5px 12px; border: 1px solid; margin-bottom: 14px; width: fit-content; }
+    .badge-building { border-color: #9A9488; color: #9A9488; }
+    .badge-moderate { border-color: #E8A020; color: #E8A020; }
+    .badge-high     { border-color: #4CAF76; color: #4CAF76; }
+    .level-label { font-family: 'Bebas Neue', sans-serif; font-size: 32px; letter-spacing: 0.04em; line-height: 1; }
+    .label-building { color: #9A9488; }
+    .label-moderate { color: #E8A020; }
+    .label-high     { color: #4CAF76; }
+    .level-body-col { padding: 40px 44px; background: #111111; }
+    .level-desc { font-size: 15px; line-height: 1.75; color: #9A9488; margin-bottom: 24px; }
+    .level-what { display: flex; flex-direction: column; gap: 10px; }
+    .level-what-row { display: flex; align-items: flex-start; gap: 12px; font-size: 13px; line-height: 1.55; color: #9A9488; }
+    .level-what-dot { width: 5px; height: 5px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
+    .dot-building { background: #9A9488; }
+    .dot-moderate { background: #E8A020; }
+    .dot-high     { background: #4CAF76; }
+    .level-example { margin-top: 24px; padding-top: 20px; border-top: 1px solid #1A1A1A; }
+    .level-example-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #555550; margin-bottom: 8px; }
+    .level-example-text { font-size: 12px; color: #7A7468; line-height: 1.6; font-style: italic; }
+    @media (max-width: 768px) {
+      .level-card { grid-template-columns: 1fr; }
+      .level-badge-col { border-right: none; border-bottom: 1px solid #1A1A1A; padding: 28px 24px; }
+      .level-body-col { padding: 28px 24px; }
+    }
+
+    /* ── Divider ── */
+    .divider { border: none; border-top: 1px solid #1A1A1A; margin: 80px 0; }
+
+    /* ── Dimensions ── */
+    .section-label { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 20px; }
+    .section-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(32px, 4vw, 52px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 16px; }
+    .section-sub { font-size: 15px; line-height: 1.7; color: #9A9488; max-width: 540px; margin-bottom: 48px; }
+    .dims { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; }
+    .dim-card { background: #111111; padding: 36px 32px; border: 1px solid #1A1A1A; }
+    .dim-num { font-family: 'Bebas Neue', sans-serif; font-size: 52px; color: rgba(201,168,76,0.1); line-height: 1; margin-bottom: 8px; }
+    .dim-title { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 10px; }
+    .dim-desc { font-size: 13px; line-height: 1.7; color: #9A9488; margin-bottom: 20px; }
+    .dim-bar-wrap { display: flex; align-items: center; gap: 12px; }
+    .dim-bar-track { flex: 1; height: 3px; background: #222222; position: relative; }
+    .dim-bar-fill { position: absolute; left: 0; top: 0; bottom: 0; background: #C9A84C; }
+    .dim-bar-max { font-family: 'DM Mono', monospace; font-size: 11px; color: #C9A84C; white-space: nowrap; }
+    .dim-signals { margin-top: 16px; display: flex; flex-direction: column; gap: 7px; }
+    .dim-signal { font-size: 12px; color: #555550; line-height: 1.5; padding-left: 14px; position: relative; }
+    .dim-signal::before { content: '—'; position: absolute; left: 0; color: #333330; }
+    @media (max-width: 768px) { .dims { grid-template-columns: 1fr; } }
+
+    /* ── FAQ / notes ── */
+    .faq { margin-top: 80px; }
+    .faq-item { border-top: 1px solid #1A1A1A; padding: 28px 0; }
+    .faq-q { font-size: 15px; font-weight: 500; color: #F5F2EC; margin-bottom: 10px; }
+    .faq-a { font-size: 13px; line-height: 1.75; color: #9A9488; max-width: 680px; }
+
+    /* ── CTA ── */
+    .page-cta { margin-top: 80px; border: 1px solid #1A1A1A; background: #111111; padding: 52px 48px; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+    .page-cta-text h3 { font-family: 'Bebas Neue', sans-serif; font-size: 32px; letter-spacing: 0.04em; color: #F5F2EC; margin-bottom: 8px; }
+    .page-cta-text p { font-size: 14px; color: #9A9488; line-height: 1.6; }
+    .btn-primary { background: #C9A84C; color: #0A0A0A; border: none; padding: 15px 34px; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; text-decoration: none; display: inline-block; white-space: nowrap; transition: background 0.2s; }
+    .btn-primary:hover { background: #E8C97A; }
+    @media (max-width: 768px) { .page-cta { flex-direction: column; align-items: flex-start; padding: 36px 28px; } }
+
+    /* ── Footer ── */
+    footer { border-top: 1px solid #1A1A1A; padding: 44px 48px; display: flex; justify-content: space-between; align-items: center; }
+    .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.1em; color: #C9A84C; }
+    .footer-copy { font-size: 11px; color: #9A9488; letter-spacing: 0.05em; }
+    @media (max-width: 768px) { footer { padding: 32px 24px; flex-direction: column; gap: 16px; text-align: center; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Goldpan</a>
+  <ul class="nav-links">
+    <li><a href="/#how">How It Works</a></li>
+    <li><a href="/transparency" class="active">Transparency Levels</a></li>
+    <li><a href="/discover">Discover</a></li>
+    <li><a href="/partners">For Restaurants</a></li>
+    <li><a href="/#waitlist" class="nav-cta">Join Waitlist</a></li>
+  </ul>
+</nav>
+
+<div class="page">
+
+  <!-- Header -->
+  <p class="page-eyebrow">The Scoring System</p>
+  <h1 class="page-headline">What the<br />Levels Mean</h1>
+  <p class="page-sub">Every dish on Goldpan receives a transparency level based on how clearly the restaurant communicates what is in that dish. Here is exactly what each level means — and how we determine it.</p>
+
+  <!-- Level Cards -->
+  <div class="levels">
+
+    <!-- Building -->
+    <div class="level-card">
+      <div class="level-badge-col">
+        <span class="level-badge badge-building">Level 1</span>
+        <div class="level-label label-building">Building<br />Transparency</div>
+      </div>
+      <div class="level-body-col">
+        <p class="level-desc">The restaurant names the dish but provides limited detail about what is actually in it. Core proteins or main components may be listed, but sauces, dressings, preparation methods, and potential allergens are largely undisclosed.</p>
+        <div class="level-what">
+          <div class="level-what-row"><span class="level-what-dot dot-building"></span><span>Dish name and main protein may be stated, but ingredient breakdown is minimal</span></div>
+          <div class="level-what-row"><span class="level-what-dot dot-building"></span><span>Sauces and dressings are not identified or listed only as "sauce" or "dressing"</span></div>
+          <div class="level-what-row"><span class="level-what-dot dot-building"></span><span>No allergen information provided on the menu</span></div>
+          <div class="level-what-row"><span class="level-what-dot dot-building"></span><span>Preparation method (fried, grilled, raw) is not specified</span></div>
+        </div>
+        <div class="level-example">
+          <div class="level-example-label">Example menu description</div>
+          <div class="level-example-text">"Chicken Bowl — served with vegetables and house sauce" — leaves almost everything unstated.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Moderate -->
+    <div class="level-card">
+      <div class="level-badge-col">
+        <span class="level-badge badge-moderate">Level 2</span>
+        <div class="level-label label-moderate">Moderate<br />Transparency</div>
+      </div>
+      <div class="level-body-col">
+        <p class="level-desc">The restaurant names the key ingredients and identifies the major sauces or dressings. Some preparation detail is present. Allergens may be implied by ingredient names even if not explicitly called out. A meaningful step forward.</p>
+        <div class="level-what">
+          <div class="level-what-row"><span class="level-what-dot dot-moderate"></span><span>Core components are named — protein, produce, and starches identified</span></div>
+          <div class="level-what-row"><span class="level-what-dot dot-moderate"></span><span>Primary sauces and dressings are named (e.g., "buttermilk ranch," "teriyaki glaze")</span></div>
+          <div class="level-what-row"><span class="level-what-dot dot-moderate"></span><span>Allergens can be partially inferred from listed ingredients</span></div>
+          <div class="level-what-row"><span class="level-what-dot dot-moderate"></span><span>At least one preparation method is stated or strongly implied</span></div>
+        </div>
+        <div class="level-example">
+          <div class="level-example-label">Example menu description</div>
+          <div class="level-example-text">"Sesame Chicken Bowl — grilled chicken, sushi rice, edamame, broccoli, cashews, savory teriyaki sauce" — good detail, though allergen disclosure is inferred rather than stated.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- High -->
+    <div class="level-card">
+      <div class="level-badge-col">
+        <span class="level-badge badge-high">Level 3</span>
+        <div class="level-label label-high">High<br />Transparency</div>
+      </div>
+      <div class="level-body-col">
+        <p class="level-desc">The restaurant provides comprehensive disclosure across all four dimensions: every significant ingredient is named, sauces and dressings are fully identified, common allergens are explicitly stated, and preparation methods are clear. This is what excellent menu communication looks like.</p>
+        <div class="level-what">
+          <div class="level-what-row"><span class="level-what-dot dot-high"></span><span>Full ingredient list provided, including minor components and garnishes</span></div>
+          <div class="level-what-row"><span class="level-what-dot dot-high"></span><span>All sauces, dressings, and condiments are named and described</span></div>
+          <div class="level-what-row"><span class="level-what-dot dot-high"></span><span>Common allergens explicitly called out (dairy, gluten, nuts, shellfish, etc.)</span></div>
+          <div class="level-what-row"><span class="level-what-dot dot-high"></span><span>Preparation method is clearly stated for the protein and key components</span></div>
+        </div>
+        <div class="level-example">
+          <div class="level-example-label">Example menu description</div>
+          <div class="level-example-text">"Pan-seared salmon, roasted fingerling potatoes, wilted spinach, lemon caper butter sauce. Contains: fish, dairy. Gluten-free." — leaves nothing to guesswork.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="divider" />
+
+  <!-- Four Dimensions -->
+  <p class="section-label">How The Score Is Calculated</p>
+  <h2 class="section-headline">Four Dimensions,<br />One Score</h2>
+  <p class="section-sub">Each dish is assessed across four categories. Every category contributes up to 25 points, for a maximum total of 100. The total determines the transparency level.</p>
+
+  <div class="dims">
+
+    <div class="dim-card">
+      <div class="dim-num">01</div>
+      <div class="dim-title">Core Ingredients</div>
+      <p class="dim-desc">Are the main building blocks of the dish actually named? A dish that says "served with vegetables" scores lower than one that says "roasted carrots, blistered cherry tomatoes, wilted spinach."</p>
+      <div class="dim-bar-wrap">
+        <div class="dim-bar-track"><div class="dim-bar-fill" style="width:100%"></div></div>
+        <span class="dim-bar-max">up to 25 pts</span>
+      </div>
+      <div class="dim-signals">
+        <div class="dim-signal">0 pts — dish name only, no components listed</div>
+        <div class="dim-signal">15 pts — main protein named, other components vague</div>
+        <div class="dim-signal">25 pts — all key components clearly named</div>
+      </div>
+    </div>
+
+    <div class="dim-card">
+      <div class="dim-num">02</div>
+      <div class="dim-title">Sauce Disclosure</div>
+      <p class="dim-desc">Sauces, dressings, glazes, and condiments are the most common hidden allergen carriers. Naming them — "white barbecue sauce," "miso dressing," "lemon aioli" — earns full credit. "House sauce" earns none.</p>
+      <div class="dim-bar-wrap">
+        <div class="dim-bar-track"><div class="dim-bar-fill" style="width:100%"></div></div>
+        <span class="dim-bar-max">up to 25 pts</span>
+      </div>
+      <div class="dim-signals">
+        <div class="dim-signal">0 pts — no sauce mentioned or listed as "sauce"</div>
+        <div class="dim-signal">15 pts — sauce is named but not described</div>
+        <div class="dim-signal">25 pts — sauce is named and key components identified</div>
+      </div>
+    </div>
+
+    <div class="dim-card">
+      <div class="dim-num">03</div>
+      <div class="dim-title">Allergen Transparency</div>
+      <p class="dim-desc">Does the restaurant explicitly call out common allergens — dairy, gluten, tree nuts, shellfish, eggs, soy, sesame? Points are earned even when allergens are only inferable from listed ingredients, but explicit callouts score higher.</p>
+      <div class="dim-bar-wrap">
+        <div class="dim-bar-track"><div class="dim-bar-fill" style="width:100%"></div></div>
+        <span class="dim-bar-max">up to 25 pts</span>
+      </div>
+      <div class="dim-signals">
+        <div class="dim-signal">0–5 pts — allergens inferable only from ingredient names</div>
+        <div class="dim-signal">15 pts — some allergens explicitly flagged</div>
+        <div class="dim-signal">25 pts — all major allergens explicitly stated</div>
+      </div>
+    </div>
+
+    <div class="dim-card">
+      <div class="dim-num">04</div>
+      <div class="dim-title">Prep Clarity</div>
+      <p class="dim-desc">How a dish is prepared matters — especially for diners managing dietary needs. "Grilled chicken" is meaningfully different from "breaded and fried chicken." Stating preparation methods clearly earns full credit.</p>
+      <div class="dim-bar-wrap">
+        <div class="dim-bar-track"><div class="dim-bar-fill" style="width:100%"></div></div>
+        <span class="dim-bar-max">up to 25 pts</span>
+      </div>
+      <div class="dim-signals">
+        <div class="dim-signal">0–5 pts — no preparation method stated</div>
+        <div class="dim-signal">15 pts — preparation partially described</div>
+        <div class="dim-signal">25 pts — preparation method explicitly stated for key components</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq">
+    <div class="faq-item">
+      <p class="faq-q">Do scores reflect food quality or taste?</p>
+      <p class="faq-a">No. Goldpan scores only measure how clearly a restaurant communicates what is in a dish. A restaurant can have excellent food and a Building transparency score, or mediocre food and a High transparency score. The score is purely about information disclosure.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Where does the information come from?</p>
+      <p class="faq-a">Every dish is assessed directly from the restaurant's published menu — their website, printed menu, or in-restaurant display. We do not call restaurants or rely on third-party data. What you see on Goldpan is what the restaurant publicly discloses.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">How often are dishes re-assessed?</p>
+      <p class="faq-a">We review menus regularly and update scores when restaurants change their descriptions. Each dish panel shows a "Last canvassed" date so you know when it was last reviewed. Restaurants frequently update menus — always confirm directly with the restaurant for the most current information.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Can a restaurant improve its score?</p>
+      <p class="faq-a">Yes — by updating their menu to include more detail. When a restaurant adds clear ingredient descriptions, names their sauces, or explicitly calls out allergens, their score improves on the next canvass cycle. We track this over time.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Is Goldpan a substitute for asking the restaurant directly?</p>
+      <p class="faq-a">No. Goldpan reflects what restaurants publicly disclose, but menus change and preparation can vary. If you have a severe allergy or strict dietary requirement, always confirm directly with the restaurant before ordering.</p>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="page-cta">
+    <div class="page-cta-text">
+      <h3>See the Scores in Action</h3>
+      <p>Browse Birmingham restaurants and filter dishes by transparency level, dietary tag, or allergen.</p>
+    </div>
+    <a href="/discover" class="btn-primary">Explore Dishes</a>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-logo">Goldpan</div>
+  <div class="footer-copy">© 2026 Goldpan. Birmingham, AL.</div>
+</footer>
+
+</body>
+</html>
