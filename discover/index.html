@@ -59,10 +59,10 @@
     .search-input { width: 100%; background: #111111; border: 1px solid #2A2A2A; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 17px; padding: 18px 24px; outline: none; transition: border-color 0.25s, box-shadow 0.25s; }
     .search-input::placeholder { color: #555550; }
     .search-input:focus { border-color: #C9A84C; box-shadow: 0 0 0 1px #C9A84C; }
-    .filter-btns { display: flex; gap: 8px; flex-wrap: wrap; }
-    .fbtn { padding: 10px 18px; border: 1px solid #222222; background: transparent; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: all 0.2s; }
-    .fbtn:hover { border-color: #C9A84C; color: #C9A84C; }
-    .fbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; }
+    .filter-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+    .fbtn { padding: 8px 20px; border: 1px solid rgba(201,168,76,0.25); background: #141414; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; border-radius: 999px; transition: background 0.18s, border-color 0.18s, color 0.18s, box-shadow 0.18s; }
+    .fbtn:hover { border-color: rgba(201,168,76,0.6); color: #F5F2EC; background: #1C1C1C; }
+    .fbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; box-shadow: 0 2px 10px rgba(201,168,76,0.25); }
     @media (max-width: 768px) { .search-bar { padding: 16px 20px 12px; } }
 
     /* ── Active filters ── */
