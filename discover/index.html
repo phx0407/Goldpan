@@ -282,9 +282,8 @@
     <a class="hero-browse" href="/restaurants/">Browse Restaurants →</a>
   </div>
 
-  <div style="padding: 11px 48px; border-bottom: 1px solid #1A1A1A; display: flex; align-items: center; justify-content: space-between;">
-    <span style="font-family:'Bebas Neue',sans-serif; font-size:18px; letter-spacing:0.06em; color:#F5F2EC;">Birmingham's food transparency layer.</span>
-    <span style="font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.12em; color:#C9A84C;" id="strip-count"></span>
+  <div style="padding: 14px 48px; border-bottom: 1px solid #1A1A1A;">
+    <span style="font-family:'Bebas Neue',sans-serif; font-size:32px; letter-spacing:0.06em; color:#F5F2EC;">Birmingham's food transparency layer.</span>
   </div>
 
   <div class="search-bar">
@@ -453,8 +452,6 @@ function updateStats() {
   if (el) el.textContent = dishes.length;
   el = document.getElementById('hero-sub');
   if (el) el.textContent = 'Discover ' + restaurants.length + ' Birmingham restaurants with greater ingredient transparency, dietary information, and menu clarity.';
-  el = document.getElementById('strip-count');
-  if (el) el.textContent = dishes.length + ' dishes · ' + restaurants.length + ' restaurants';
 }
 
 function loadDishes() {
