@@ -59,19 +59,28 @@
     .search-input { width: 100%; background: #111111; border: 1px solid #2A2A2A; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 17px; padding: 18px 24px; outline: none; transition: border-color 0.25s, box-shadow 0.25s; }
     .search-input::placeholder { color: #555550; }
     .search-input:focus { border-color: #C9A84C; box-shadow: 0 0 0 1px #C9A84C; }
-    .filter-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+    .filter-btns { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
     .fbtn { padding: 8px 20px; border: 1px solid rgba(201,168,76,0.25); background: #141414; color: #F5F2EC; font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; border-radius: 999px; transition: background 0.18s, border-color 0.18s, color 0.18s, box-shadow 0.18s; }
     .fbtn:hover { border-color: rgba(201,168,76,0.6); color: #F5F2EC; background: #1C1C1C; }
     .fbtn.active { border-color: #C9A84C; background: #C9A84C; color: #0A0A0A; font-weight: 500; box-shadow: 0 2px 10px rgba(201,168,76,0.25); }
+    .fbtn.active::after { content: ' ✓'; font-size: 11px; }
+    .clear-all-pill { display: none; margin-left: 6px; padding: 8px 18px; border: 1px solid rgba(201,168,76,0.35); background: transparent; color: #9A9488; font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; border-radius: 999px; transition: all 0.18s; white-space: nowrap; }
+    .clear-all-pill:hover { border-color: #C9A84C; color: #C9A84C; }
+    .clear-all-pill.visible { display: inline-flex; align-items: center; gap: 6px; }
     @media (max-width: 768px) { .search-bar { padding: 16px 20px 12px; } }
 
-    /* ── Active filters ── */
-    .active-filters-bar { padding: 10px 48px; border-bottom: 1px solid #1A1A1A; display: none; gap: 8px; flex-wrap: wrap; align-items: center; }
-    .active-filters-bar.visible { display: flex; }
-    .active-filter-tag { font-size: 11px; padding: 4px 10px; background: rgba(201,168,76,0.1); border: 1px solid #C9A84C; color: #C9A84C; letter-spacing: 0.08em; }
-    .clear-all { font-size: 11px; color: #F5F2EC; background: #C94C4C; border: none; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; margin-left: 8px; padding: 4px 12px; }
-    .clear-all:hover { background: #E05555; }
-    @media (max-width: 768px) { .active-filters-bar { padding: 10px 20px; } }
+    /* ── Active filters bar (hidden — replaced by inline Clear All pill) ── */
+    .active-filters-bar { display: none !important; }
+
+    /* ── Map filter legend ── */
+    .map-filter-legend { display: none; position: absolute; top: 16px; left: 16px; z-index: 500; background: rgba(10,10,10,0.88); border: 1px solid rgba(201,168,76,0.25); backdrop-filter: blur(8px); padding: 14px 18px; min-width: 210px; }
+    .map-filter-legend.visible { display: block; }
+    .mfl-title { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 12px; }
+    .mfl-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 12px; color: #F5F2EC; }
+    .mfl-row:last-of-type { margin-bottom: 10px; }
+    .mfl-dot-match { width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 2px solid #C9A84C; box-shadow: 0 0 8px rgba(255,255,255,0.5), 0 0 16px rgba(201,168,76,0.4); flex-shrink: 0; }
+    .mfl-dot-dim { width: 14px; height: 14px; border-radius: 50%; background: #0A0A0A; border: 2px solid rgba(201,168,76,0.6); flex-shrink: 0; }
+    .mfl-note { font-size: 10px; color: #555550; font-family: 'DM Mono', monospace; letter-spacing: 0.04em; border-top: 1px solid #1A1A1A; padding-top: 8px; }
 
     /* ── Legend ── */
     .legend-bar { padding: 12px 48px; border-bottom: 1px solid #1A1A1A; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
@@ -290,6 +299,7 @@
     <input class="search-input" id="dish-search" placeholder="Search dishes, restaurants, ingredients..." oninput="currentView==='map' ? updateMapMarkers() : renderDishes()" />
     <div class="filter-btns" id="filter-btns-container">
       <button class="fbtn active" id="dbtn-all" onclick="setDishFilter('all', this)">All</button>
+      <button class="clear-all-pill" id="filter-clear-all-btn" onclick="clearDishFilters()">Clear All ↺</button>
     </div>
   </div>
 
@@ -318,6 +328,12 @@
   <div class="grid" id="dish-grid"></div>
   <div id="map-view">
     <div id="goldpan-map"></div>
+    <div class="map-filter-legend" id="map-filter-legend">
+      <div class="mfl-title">Map Legend</div>
+      <div class="mfl-row"><span class="mfl-dot-match"></span>Matches current filters</div>
+      <div class="mfl-row"><span class="mfl-dot-dim"></span>Doesn't match current filters</div>
+      <div class="mfl-note">Legend shown when filters are active</div>
+    </div>
     <button class="locate-btn" onclick="locateMe()" title="Find my location">⊕ Near Me</button>
   </div>
 
@@ -645,12 +661,16 @@ function setDishFilter(f, btn) {
 }
 
 function updateActiveFiltersBar() {
-  var bar = document.getElementById('active-filters-bar');
-  if (dishActiveFilters.length === 0) { bar.classList.remove('visible'); bar.innerHTML = ''; return; }
-  bar.classList.add('visible');
-  bar.innerHTML = '<span style="font-size:11px;color:#9A9488;letter-spacing:0.08em;text-transform:uppercase;">Active filters:</span>' +
-    dishActiveFilters.map(function(f) { return '<span class="active-filter-tag">' + (filterLabels[f] || f) + '</span>'; }).join('') +
-    '<button class="clear-all" onclick="clearDishFilters()">Clear All</button>';
+  var clearBtn = document.getElementById('filter-clear-all-btn');
+  if (clearBtn) {
+    if (dishActiveFilters.length > 0) clearBtn.classList.add('visible');
+    else clearBtn.classList.remove('visible');
+  }
+  // Legend visibility is updated by updateMapMarkers when in map view
+  if (currentView !== 'map') {
+    var legend = document.getElementById('map-filter-legend');
+    if (legend) legend.classList.remove('visible');
+  }
 }
 
 function clearDishFilters() {
@@ -877,10 +897,10 @@ function initMap() {
   });
   gpDimIcon = L.divIcon({
     className: '',
-    html: '<div style="width:12px;height:12px;border-radius:50%;background:#4A4844;border:1.5px solid #6B6860;"></div>',
-    iconSize: [12, 12],
-    iconAnchor: [6, 6],
-    popupAnchor: [0, -8],
+    html: '<div style="width:14px;height:14px;border-radius:50%;background:#0A0A0A;border:2px solid rgba(201,168,76,0.55);"></div>',
+    iconSize: [14, 14],
+    iconAnchor: [7, 7],
+    popupAnchor: [0, -10],
   });
 
   function addMarkers(coords) {
@@ -936,9 +956,14 @@ function updateMapMarkers() {
       matchCount++;
     } else {
       if (gpDimIcon) marker.setIcon(gpDimIcon);
-      marker.setOpacity(0.75);
+      marker.setOpacity(1);
     }
   });
+  var legend = document.getElementById('map-filter-legend');
+  if (legend) {
+    if (hasFilters) legend.classList.add('visible');
+    else legend.classList.remove('visible');
+  }
   var countEl = document.getElementById('dish-results-count');
   if (countEl) {
     if (hasFilters) {
