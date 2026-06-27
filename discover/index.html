@@ -780,15 +780,45 @@ function renderDishes() {
   var q = (document.getElementById('dish-search') || {}).value || '';
   var grid = document.getElementById('dish-grid');
   var countEl = document.getElementById('dish-results-count');
-  if (!q.trim() && dishActiveFilters.length === 0) {
+  var hasFilters = dishActiveFilters.length > 0;
+
+  if (!q.trim() && !hasFilters) {
     countEl.textContent = dishes.length + ' dishes available';
     grid.innerHTML = '<div class="empty"><div class="empty-title">Start searching</div><p>Type a dish name, ingredient, or restaurant — or select a filter above.</p></div>';
     return;
   }
+
   var filtered = getFilteredDishes();
-  countEl.textContent = filtered.length + ' dish' + (filtered.length !== 1 ? 'es' : '') + ' available';
-  if (!filtered.length) { grid.innerHTML = '<div class="empty"><div class="empty-title">No dishes found</div><p>Try adjusting your search or filters.</p></div>'; return; }
-  grid.innerHTML = filtered.map(function(d) {
+
+  // Count text
+  if (hasFilters) {
+    countEl.textContent = filtered.length + ' dish' + (filtered.length !== 1 ? 'es' : '') + ' meet your criteria';
+  } else {
+    countEl.textContent = filtered.length + ' dish' + (filtered.length !== 1 ? 'es' : '') + ' available';
+  }
+
+  // Empty state
+  if (!filtered.length) {
+    var emptyMsg = hasFilters
+      ? '<div class="empty"><div class="empty-title">No dishes meet your current criteria.</div><p style="margin-top:8px;color:#555550;font-family:\'DM Mono\',monospace;font-size:12px;letter-spacing:0.04em;">Try removing one or more filters.</p></div>'
+      : '<div class="empty"><div class="empty-title">No dishes found</div><p>Try adjusting your search or filters.</p></div>';
+    grid.innerHTML = emptyMsg;
+    return;
+  }
+
+  // Context banner when filters are active
+  var bannerHtml = '';
+  if (hasFilters) {
+    var chipHtml = dishActiveFilters.map(function(f) {
+      return '<span style="font-size:10px;padding:3px 10px;border:1px solid #C9A84C;border-radius:999px;color:#C9A84C;letter-spacing:0.08em;text-transform:uppercase;white-space:nowrap;">' + (filterLabels[f] || f) + '</span>';
+    }).join('');
+    bannerHtml = '<div style="grid-column:1/-1;padding:14px 0 4px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;border-bottom:1px solid #1A1A1A;margin-bottom:4px;">' +
+      '<span style="font-size:11px;color:#9A9488;font-family:\'DM Mono\',monospace;letter-spacing:0.06em;white-space:nowrap;">Filtered by:</span>' +
+      chipHtml +
+    '</div>';
+  }
+
+  grid.innerHTML = bannerHtml + filtered.map(function(d) {
     var lk = levelKey(d);
     var pct = displayPct(d.level);
     var tagsHtml = (d.tags || []).length ? '<div class="card-tags">' + d.tags.map(function(t) {
