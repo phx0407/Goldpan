@@ -873,10 +873,12 @@ function initMap() {
   gpMap = L.map('goldpan-map', {
     center: [33.49, -86.79],
     zoom: 12,
-    zoomControl: true,
+    zoomControl: false,
     attributionControl: true,
     scrollWheelZoom: false,
   });
+
+  L.control.zoom({ position: 'topright' }).addTo(gpMap);
 
   // Only zoom on scroll when user has clicked into the map
   gpMap.on('click', function() { gpMap.scrollWheelZoom.enable(); });
