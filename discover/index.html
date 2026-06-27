@@ -948,9 +948,17 @@ function gpMapOpenRestaurant(idx) {
 var userLocationMarker = null;
 
 function getDirections(address) {
-  // Open synchronously so browsers don't block it as a popup.
-  // Google Maps will detect the user's current location as the origin natively.
-  window.open('https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(address), '_blank');
+  var dest = encodeURIComponent(address);
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(pos) {
+      var origin = pos.coords.latitude + ',' + pos.coords.longitude;
+      window.open('https://www.google.com/maps/dir/?api=1&origin=' + origin + '&destination=' + dest, '_blank');
+    }, function() {
+      window.open('https://www.google.com/maps/dir/?api=1&destination=' + dest, '_blank');
+    });
+  } else {
+    window.open('https://www.google.com/maps/dir/?api=1&destination=' + dest, '_blank');
+  }
 }
 
 function locateMe() {
