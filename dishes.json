@@ -1130,58 +1130,6 @@
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
-    "id": "D483",
-    "name": "Kobe Burger",
-    "restaurant": "EastWest",
-    "location": "Birmingham, AL",
-    "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
-    "options": [],
-    "allergens": "Allergens based on visible menu description: Wheat (bun), Dairy (muenster cheese), Egg (garlic mayo). Contact restaurant to confirm.",
-    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
-    "menu_link": "https://www.eastwestbirmingham.com/menus",
-    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
-    "restaurant_website": "https://www.eastwestbirmingham.com/",
-    "ingredients": [
-      "beef patty",
-      "burger bun",
-      "onion-jam",
-      "garlic mayo",
-      "muenster cheese",
-      "pickled shiitakes",
-      "curly fries"
-    ],
-    "category": "",
-    "menu_statement": "Made cooked to order or may include raw ingredients."
-  },
-  {
-    "id": "D470",
-    "name": "Chinese Duck Nachos",
-    "restaurant": "EastWest",
-    "location": "Birmingham, AL",
-    "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Allergens based on visible menu description: Wheat (wontons), Dairy (kimchi queso, cotija cheese). Contact restaurant to confirm.",
-    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
-    "menu_link": "https://www.eastwestbirmingham.com/menus",
-    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
-    "restaurant_website": "https://www.eastwestbirmingham.com/",
-    "ingredients": [
-      "wontons",
-      "duck",
-      "kimchi queso",
-      "cilantro",
-      "onion",
-      "cotija cheese",
-      "jalapeño slice"
-    ],
-    "category": "",
-    "menu_statement": "Made cooked to order or may include raw ingredients."
-  },
-  {
     "id": "D053",
     "name": "TGIF Bowl",
     "restaurant": "SoHo Social",
@@ -9275,6 +9223,31 @@
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
+    "id": "D470",
+    "name": "Chinese Duck Nachos",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "options": [],
+    "allergens": "Allergens based on visible menu description: Wheat (wontons), Dairy (kimchi queso, cotija cheese). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://www.eastwestbirmingham.com/menus",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com/",
+    "ingredients": [
+      "wontons",
+      "duck",
+      "kimchi queso",
+      "cilantro",
+      "onion",
+      "cotija cheese",
+      "jalapeño slice"
+    ],
+    "category": "",
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
     "id": "D471",
     "name": "Fried Spring Rolls",
     "restaurant": "EastWest",
@@ -9535,6 +9508,33 @@
       "portobello mushroom",
       "garlic mayo",
       "green onion"
+    ],
+    "category": "",
+    "menu_statement": "Made cooked to order or may include raw ingredients."
+  },
+  {
+    "id": "D483",
+    "name": "Kobe Burger",
+    "restaurant": "EastWest",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "high-protein"
+    ],
+    "options": [],
+    "allergens": "Allergens based on visible menu description: Wheat (bun), Dairy (muenster cheese), Egg (garlic mayo). Contact restaurant to confirm.",
+    "hours": "Tue-Thu 5pm-9pm, Fri-Sat 11am-10pm",
+    "menu_link": "https://www.eastwestbirmingham.com/menus",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com/",
+    "ingredients": [
+      "beef patty",
+      "burger bun",
+      "onion-jam",
+      "garlic mayo",
+      "muenster cheese",
+      "pickled shiitakes",
+      "curly fries"
     ],
     "category": "",
     "menu_statement": "Made cooked to order or may include raw ingredients."
