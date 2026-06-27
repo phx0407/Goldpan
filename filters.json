@@ -1,0 +1,143 @@
+{
+  "updated": "2026-06-26",
+  "total_active": 16,
+  "categories": [
+    {
+      "name": "Dietary Preferences",
+      "filters": [
+        {
+          "id": "vegan",
+          "label": "Vegan",
+          "definition": "Dish contains no animal products whatsoever \u2014 no meat, poultry, seafood, dairy, eggs, honey, or animal-derived additives.",
+          "requires_verification": false,
+          "priority": ""
+        },
+        {
+          "id": "vegetarian",
+          "label": "Vegetarian",
+          "definition": "Dish contains no meat, poultry, or seafood but may include dairy and/or eggs.",
+          "requires_verification": false,
+          "priority": ""
+        }
+      ]
+    },
+    {
+      "name": "Religious & Cultural",
+      "filters": [
+        {
+          "id": "no-pork",
+          "label": "No Pork",
+          "definition": "Dish contains no pork, ham, bacon, lard, prosciutto, pancetta, or any other porcine ingredient.",
+          "requires_verification": false,
+          "priority": ""
+        }
+      ]
+    },
+    {
+      "name": "Allergens & Sensitivities",
+      "filters": [
+        {
+          "id": "gluten-free",
+          "label": "Gluten Free",
+          "definition": "Dish contains no gluten-containing ingredients (wheat, barley, rye, most oats) and is prepared to avoid cross-contamination.",
+          "requires_verification": false,
+          "priority": ""
+        },
+        {
+          "id": "dairy-free",
+          "label": "Dairy Free",
+          "definition": "Dish contains no milk, cheese, butter, cream, yogurt, or any other dairy-derived ingredient.",
+          "requires_verification": false,
+          "priority": ""
+        },
+        {
+          "id": "egg-free",
+          "label": "Egg Free",
+          "definition": "Dish contains no eggs or egg-derived ingredients, including mayonnaise, egg wash, or albumin.",
+          "requires_verification": false,
+          "priority": ""
+        },
+        {
+          "id": "soy-free",
+          "label": "Soy Free",
+          "definition": "Dish contains no soy or soy-derived ingredients, including soy sauce, tofu, tempeh, edamame, or soybean oil.",
+          "requires_verification": false,
+          "priority": ""
+        },
+        {
+          "id": "fish-free",
+          "label": "Fish Free",
+          "definition": "Dish contains no fish or fish-derived ingredients, including fish sauce, Worcestershire sauce, and anchovies.",
+          "requires_verification": false,
+          "priority": ""
+        },
+        {
+          "id": "shellfish-free",
+          "label": "Shellfish Free",
+          "definition": "Dish contains no shellfish (shrimp, crab, lobster, clams, oysters, scallops) or shellfish-derived ingredients.",
+          "requires_verification": false,
+          "priority": ""
+        }
+      ]
+    },
+    {
+      "name": "Nutrition Goals",
+      "filters": [
+        {
+          "id": "high-protein",
+          "label": "High Protein",
+          "definition": "Dish provides a high amount of protein per serving, generally 25g or more.",
+          "requires_verification": false,
+          "priority": 13
+        }
+      ]
+    },
+    {
+      "name": "Transparency",
+      "filters": [
+        {
+          "id": "has-ingredients",
+          "label": "Has Full Ingredient List",
+          "definition": "Dish has a complete list of ingredients publicly disclosed on the menu or by the restaurant.",
+          "requires_verification": false,
+          "priority": ""
+        },
+        {
+          "id": "has-allergens",
+          "label": "Has Allergen Information",
+          "definition": "Restaurant has disclosed allergen information for this dish.",
+          "requires_verification": false,
+          "priority": ""
+        },
+        {
+          "id": "has-dietary",
+          "label": "Has Dietary Information",
+          "definition": "Restaurant has disclosed dietary classification information for this dish (vegan, gluten-free, etc.).",
+          "requires_verification": false,
+          "priority": ""
+        },
+        {
+          "id": "high-transparency",
+          "label": "High Transparency",
+          "definition": "Dish meets Goldpan's High Transparency standard across all four dimensions: ingredients, sauces, allergens, and preparation.",
+          "requires_verification": false,
+          "priority": ""
+        },
+        {
+          "id": "moderate-transparency",
+          "label": "Moderate Transparency",
+          "definition": "Dish meets Goldpan's Moderate Transparency standard with strong but incomplete disclosure.",
+          "requires_verification": false,
+          "priority": ""
+        },
+        {
+          "id": "building-transparency",
+          "label": "Building Transparency",
+          "definition": "Dish is at the Building Transparency level \u2014 partial disclosure with significant gaps remaining.",
+          "requires_verification": false,
+          "priority": ""
+        }
+      ]
+    }
+  ]
+}
