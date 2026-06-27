@@ -70,23 +70,6 @@
     /* ── Divider ── */
     .divider { border: none; border-top: 1px solid #1A1A1A; margin: 80px 0; }
 
-    /* ── Dimensions ── */
-    .section-label { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 20px; }
-    .section-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(32px, 4vw, 52px); line-height: 1; letter-spacing: 0.02em; margin-bottom: 16px; }
-    .section-sub { font-size: 15px; line-height: 1.7; color: #9A9488; max-width: 540px; margin-bottom: 48px; }
-    .dims { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; }
-    .dim-card { background: #111111; padding: 36px 32px; border: 1px solid #1A1A1A; }
-    .dim-num { font-family: 'Bebas Neue', sans-serif; font-size: 52px; color: rgba(201,168,76,0.1); line-height: 1; margin-bottom: 8px; }
-    .dim-title { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.04em; color: #C9A84C; margin-bottom: 10px; }
-    .dim-desc { font-size: 13px; line-height: 1.7; color: #9A9488; margin-bottom: 20px; }
-    .dim-bar-wrap { display: flex; align-items: center; gap: 12px; }
-    .dim-bar-track { flex: 1; height: 3px; background: #222222; position: relative; }
-    .dim-bar-fill { position: absolute; left: 0; top: 0; bottom: 0; background: #C9A84C; }
-    .dim-bar-max { font-family: 'DM Mono', monospace; font-size: 11px; color: #C9A84C; white-space: nowrap; }
-    .dim-signals { margin-top: 16px; display: flex; flex-direction: column; gap: 7px; }
-    .dim-signal { font-size: 12px; color: #555550; line-height: 1.5; padding-left: 14px; position: relative; }
-    .dim-signal::before { content: '—'; position: absolute; left: 0; color: #333330; }
-    @media (max-width: 768px) { .dims { grid-template-columns: 1fr; } }
 
     /* ── FAQ / notes ── */
     .faq { margin-top: 80px; }
@@ -198,75 +181,6 @@
   </div>
 
   <hr class="divider" />
-
-  <!-- Four Dimensions -->
-  <p class="section-label">How The Score Is Calculated</p>
-  <h2 class="section-headline">Four Dimensions,<br />One Score</h2>
-  <p class="section-sub">Each dish is assessed across four categories. Every category contributes up to 25 points, for a maximum total of 100. The total determines the transparency level.</p>
-
-  <div class="dims">
-
-    <div class="dim-card">
-      <div class="dim-num">01</div>
-      <div class="dim-title">Core Ingredients</div>
-      <p class="dim-desc">Are the main building blocks of the dish actually named? A dish that says "served with vegetables" scores lower than one that says "roasted carrots, blistered cherry tomatoes, wilted spinach."</p>
-      <div class="dim-bar-wrap">
-        <div class="dim-bar-track"><div class="dim-bar-fill" style="width:100%"></div></div>
-        <span class="dim-bar-max">up to 25 pts</span>
-      </div>
-      <div class="dim-signals">
-        <div class="dim-signal">0 pts — dish name only, no components listed</div>
-        <div class="dim-signal">15 pts — main protein named, other components vague</div>
-        <div class="dim-signal">25 pts — all key components clearly named</div>
-      </div>
-    </div>
-
-    <div class="dim-card">
-      <div class="dim-num">02</div>
-      <div class="dim-title">Sauce Disclosure</div>
-      <p class="dim-desc">Sauces, dressings, glazes, and condiments are the most common hidden allergen carriers. Naming them — "white barbecue sauce," "miso dressing," "lemon aioli" — earns full credit. "House sauce" earns none.</p>
-      <div class="dim-bar-wrap">
-        <div class="dim-bar-track"><div class="dim-bar-fill" style="width:100%"></div></div>
-        <span class="dim-bar-max">up to 25 pts</span>
-      </div>
-      <div class="dim-signals">
-        <div class="dim-signal">0 pts — no sauce mentioned or listed as "sauce"</div>
-        <div class="dim-signal">15 pts — sauce is named but not described</div>
-        <div class="dim-signal">25 pts — sauce is named and key components identified</div>
-      </div>
-    </div>
-
-    <div class="dim-card">
-      <div class="dim-num">03</div>
-      <div class="dim-title">Allergen Transparency</div>
-      <p class="dim-desc">Does the restaurant explicitly call out common allergens — dairy, gluten, tree nuts, shellfish, eggs, soy, sesame? Points are earned even when allergens are only inferable from listed ingredients, but explicit callouts score higher.</p>
-      <div class="dim-bar-wrap">
-        <div class="dim-bar-track"><div class="dim-bar-fill" style="width:100%"></div></div>
-        <span class="dim-bar-max">up to 25 pts</span>
-      </div>
-      <div class="dim-signals">
-        <div class="dim-signal">0–5 pts — allergens inferable only from ingredient names</div>
-        <div class="dim-signal">15 pts — some allergens explicitly flagged</div>
-        <div class="dim-signal">25 pts — all major allergens explicitly stated</div>
-      </div>
-    </div>
-
-    <div class="dim-card">
-      <div class="dim-num">04</div>
-      <div class="dim-title">Prep Clarity</div>
-      <p class="dim-desc">How a dish is prepared matters — especially for diners managing dietary needs. "Grilled chicken" is meaningfully different from "breaded and fried chicken." Stating preparation methods clearly earns full credit.</p>
-      <div class="dim-bar-wrap">
-        <div class="dim-bar-track"><div class="dim-bar-fill" style="width:100%"></div></div>
-        <span class="dim-bar-max">up to 25 pts</span>
-      </div>
-      <div class="dim-signals">
-        <div class="dim-signal">0–5 pts — no preparation method stated</div>
-        <div class="dim-signal">15 pts — preparation partially described</div>
-        <div class="dim-signal">25 pts — preparation method explicitly stated for key components</div>
-      </div>
-    </div>
-
-  </div>
 
   <!-- FAQ -->
   <div class="faq">
