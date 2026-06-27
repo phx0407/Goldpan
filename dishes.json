@@ -9244,7 +9244,7 @@
       "cotija cheese",
       "jalapeño slice"
     ],
-    "category": "",
+    "category": "nachos",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9269,7 +9269,7 @@
       "onion",
       "sweet chili sauce"
     ],
-    "category": "",
+    "category": "appetizer",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9293,7 +9293,7 @@
       "green onion",
       "sesame seeds"
     ],
-    "category": "",
+    "category": "appetizer",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9316,7 +9316,7 @@
       "carrots",
       "carrot-ginger dressing"
     ],
-    "category": "",
+    "category": "salad",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9345,7 +9345,7 @@
       "onion",
       "shiitake mushrooms"
     ],
-    "category": "",
+    "category": "wrap",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9368,7 +9368,7 @@
       "yum-yum sauce",
       "ssamjang hot sauce"
     ],
-    "category": "",
+    "category": "wings",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9391,7 +9391,7 @@
       "lemon-flake salt",
       "sriracha yogurt"
     ],
-    "category": "",
+    "category": "appetizer",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9415,7 +9415,7 @@
       "green onion",
       "sesame seeds"
     ],
-    "category": "",
+    "category": "plate",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9438,7 +9438,7 @@
       "sweet-onion slaw",
       "jalapeño"
     ],
-    "category": "",
+    "category": "appetizer",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9461,7 +9461,7 @@
       "pickles",
       "green onion"
     ],
-    "category": "",
+    "category": "appetizer",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9485,7 +9485,7 @@
       "house sauce",
       "ginger-scallion relish"
     ],
-    "category": "",
+    "category": "appetizer",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9509,7 +9509,7 @@
       "garlic mayo",
       "green onion"
     ],
-    "category": "",
+    "category": "appetizer",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9536,7 +9536,7 @@
       "pickled shiitakes",
       "curly fries"
     ],
-    "category": "",
+    "category": "burger",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9563,7 +9563,7 @@
       "red pepper paste",
       "mongolian sauce"
     ],
-    "category": "",
+    "category": "noodles",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9589,7 +9589,7 @@
       "mixed vegetables",
       "rice"
     ],
-    "category": "",
+    "category": "chicken",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9613,7 +9613,7 @@
       "green beans",
       "rice"
     ],
-    "category": "",
+    "category": "steak",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9640,7 +9640,7 @@
       "green onion",
       "pineapple kimchi"
     ],
-    "category": "",
+    "category": "bowl",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9669,7 +9669,7 @@
       "shishito peppers",
       "yum-yum sauce"
     ],
-    "category": "",
+    "category": "bowl",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9696,7 +9696,7 @@
       "cabbage kimchi",
       "green onion"
     ],
-    "category": "",
+    "category": "bowl",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9725,7 +9725,7 @@
       "green onion",
       "sesame seeds"
     ],
-    "category": "",
+    "category": "bowl",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9754,7 +9754,7 @@
       "green onion",
       "sesame seeds"
     ],
-    "category": "",
+    "category": "bowl",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9776,7 +9776,7 @@
       "bitters",
       "lemon twist"
     ],
-    "category": "",
+    "category": "cocktail",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9799,7 +9799,7 @@
       "lime",
       "jalapeño"
     ],
-    "category": "",
+    "category": "cocktail",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9822,7 +9822,7 @@
       "lemon",
       "soda"
     ],
-    "category": "",
+    "category": "cocktail",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9845,7 +9845,7 @@
       "lime",
       "cava"
     ],
-    "category": "",
+    "category": "cocktail",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9867,7 +9867,7 @@
       "lime",
       "angostura bitters"
     ],
-    "category": "",
+    "category": "cocktail",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9891,7 +9891,7 @@
       "lemon",
       "rosé"
     ],
-    "category": "",
+    "category": "cocktail",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
