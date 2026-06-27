@@ -316,7 +316,7 @@
       <span class="legend-item"><span class="legend-dot" style="background:#C9A84C"></span>Moderate Transparency</span>
       <span class="legend-item"><span class="legend-dot" style="background:#9A9488"></span>Building Transparency</span>
     </div>
-    <span class="legend-note">Results based on publicly disclosed menu information only.</span>
+    <span class="legend-note">Transparency based on publicly disclosed menu information.</span>
   </div>
 
   <div class="results-bar">
@@ -838,13 +838,13 @@ function initMap() {
       var marker = L.marker([c.lat, c.lng], { icon: goldIcon }).addTo(gpMap);
       gpMarkers[name] = marker;
       var hoursHtml = c.hours ? '<div class="map-popup-hours">' + c.hours + '</div>' : '';
-      var directionsUrl = 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(c.address || name + ' Birmingham AL');
+      var address = c.address || name + ' Birmingham AL';
       var popupHtml =
         '<div class="map-popup-name">' + name + '</div>' +
         '<div class="map-popup-loc">' + (c.location || '') + '</div>' +
         hoursHtml +
         '<button class="map-popup-btn" onclick="gpMapOpenRestaurant(' + rIdx + ')">View Dishes</button>' +
-        '<a class="map-popup-dir" href="' + directionsUrl + '" target="_blank">Get Directions ↗</a>';
+        '<button class="map-popup-dir" style="background:none;border:none;cursor:pointer;width:100%;text-align:center;" onclick="getDirections(\'' + address.replace(/'/g, "\\'") + '\')">Get Directions ↗</button>';
       marker.bindPopup(popupHtml, { className: 'gp-popup', maxWidth: 220, minWidth: 180 });
     });
   }
@@ -891,6 +891,20 @@ function gpMapOpenRestaurant(idx) {
 }
 
 var userLocationMarker = null;
+
+function getDirections(address) {
+  var dest = encodeURIComponent(address);
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(pos) {
+      var origin = pos.coords.latitude + ',' + pos.coords.longitude;
+      window.open('https://www.google.com/maps/dir/?api=1&origin=' + origin + '&destination=' + dest, '_blank');
+    }, function() {
+      window.open('https://www.google.com/maps/dir/?api=1&destination=' + dest, '_blank');
+    });
+  } else {
+    window.open('https://www.google.com/maps/dir/?api=1&destination=' + dest, '_blank');
+  }
+}
 
 function locateMe() {
   if (!navigator.geolocation) return;
