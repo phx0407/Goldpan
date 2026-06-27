@@ -188,13 +188,15 @@
     "restaurant": "Brick & Tin",
     "location": "Mountain Brook, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "gluten-free"
+    ],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Tree Nuts (cashews), Sesame, Soy (teriyaki, edamame). Contact restaurant to confirm.",
+    "hours": "Mon–Sun 10:30 AM–8:00 PM",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-menus",
+    "restaurant_address": "2901 Cahaba Rd, Mountain Brook, AL 35223",
+    "restaurant_website": "https://brickandtin.com/",
     "ingredients": [
       "sesame chicken",
       "edamame",
@@ -204,8 +206,8 @@
       "broccoli",
       "savory teriyaki sauce"
     ],
-    "category": "",
-    "last_updated": ""
+    "category": "bowl",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D013",
@@ -247,16 +249,19 @@
     "restaurant": "Brick & Tin",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "vegan",
+      "gluten-free"
+    ],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "None identified. Contact restaurant to confirm.",
+    "hours": "Mon–Sun 10:30 AM–8:00 PM",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-menus",
+    "restaurant_address": "2901 Cahaba Rd, Mountain Brook, AL 35223",
+    "restaurant_website": "https://brickandtin.com/",
     "ingredients": [],
-    "category": "",
-    "last_updated": ""
+    "category": "salad",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D016",
@@ -2601,16 +2606,16 @@
     "level": "High",
     "tags": [],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Wheat (pain de mie flatbread). Contact restaurant to confirm.",
+    "hours": "Mon–Sun 10:30 AM–8:00 PM",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-menus",
+    "restaurant_address": "2901 Cahaba Rd, Mountain Brook, AL 35223",
+    "restaurant_website": "https://brickandtin.com/",
     "ingredients": [
       "certified angus braised beef brisket"
     ],
-    "category": "",
-    "last_updated": ""
+    "category": "sandwich",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D115",
@@ -2639,13 +2644,15 @@
     "restaurant": "Brick & Tin",
     "location": "Mountain Brook, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "vegetarian"
+    ],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Dairy (cheddar, buttermilk ranch), Wheat (croutons). Contact restaurant to confirm.",
+    "hours": "Mon–Sun 10:30 AM–8:00 PM",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-menus",
+    "restaurant_address": "2901 Cahaba Rd, Mountain Brook, AL 35223",
+    "restaurant_website": "https://brickandtin.com/",
     "ingredients": [
       "carrots",
       "cheddar",
@@ -2654,8 +2661,8 @@
       "croutons",
       "buttermilk ranch"
     ],
-    "category": "",
-    "last_updated": ""
+    "category": "salad",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D120",
@@ -2690,13 +2697,15 @@
     "restaurant": "Brick & Tin",
     "location": "Mountain Brook, AL",
     "level": "High",
-    "tags": [],
+    "tags": [
+      "gluten-free"
+    ],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Sesame (sesame glaze), Soy (chili sauce). Contact restaurant to confirm.",
+    "hours": "Mon–Sun 10:30 AM–8:00 PM",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-menus",
+    "restaurant_address": "2901 Cahaba Rd, Mountain Brook, AL 35223",
+    "restaurant_website": "https://brickandtin.com/",
     "ingredients": [
       "spice-crusted slow-roasted pork belly",
       "sesame glaze",
@@ -2704,8 +2713,8 @@
       "sweet & spicy chili sauce",
       "bibb lettuce"
     ],
-    "category": "",
-    "last_updated": ""
+    "category": "wrap",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D125",
@@ -7464,14 +7473,34 @@
     "last_updated": "2026-06-27"
   },
   {
+    "id": "D352",
+    "name": "Bread & Butter",
+    "restaurant": "Wooden City Birmingham",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Allergens based on visible menu description: Wheat (house-made focaccia), Dairy (rosemary butter). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
+    "ingredients": [
+      "focaccia",
+      "onion",
+      "rosemary butter",
+      "olive oil"
+    ],
+    "category": "",
+    "last_updated": "6/27/2026"
+  },
+  {
     "id": "D353",
     "name": "Beef Tartare",
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [
       "contains raw beef."
     ],
@@ -7482,14 +7511,14 @@
     "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
       "beef",
-      "chives",
       "lemon aioli",
       "egg mousse",
+      "chives",
       "horseradish",
       "tallow croutons"
     ],
-    "category": "appetizer",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D354",
@@ -7499,16 +7528,43 @@
     "level": "Moderate",
     "tags": [],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Shellfish (shrimp), Dairy (drawn butter). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
-      "shrimp"
+      "shrimp",
+      "spices",
+      "drawn butter",
+      "cocktail sauce"
     ],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
+  },
+  {
+    "id": "D355",
+    "name": "Fresh Burrata",
+    "restaurant": "Wooden City Birmingham",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Allergens based on visible menu description: Dairy (burrata), Tree Nuts (pecans), Wheat (bread pudding). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
+    "ingredients": [
+      "burrata",
+      "carrots",
+      "sage bread pudding",
+      "aged balsamic",
+      "oregano",
+      "pecans"
+    ],
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D356",
@@ -7518,18 +7574,21 @@
     "level": "Moderate",
     "tags": [],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (aged white cheddar), Tree Nuts (walnuts). Contains bacon. Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
+      "brussels sprouts leaves",
+      "green apple",
+      "aged white cheddar",
       "walnuts",
       "bacon",
       "honey dijon vinaigrette"
     ],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D357",
@@ -7547,10 +7606,34 @@
     "ingredients": [
       "romaine",
       "sourdough croutons",
+      "parmesan",
+      "lemon",
       "caesar dressing"
     ],
-    "category": "salad",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
+  },
+  {
+    "id": "D358",
+    "name": "French Onion Soup",
+    "restaurant": "Wooden City Birmingham",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "options": [],
+    "allergens": "Allergens based on visible menu description: Dairy (melted swiss cheese), Wheat (sourdough croutons). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
+    "ingredients": [
+      "bone broth",
+      "sourdough croutons",
+      "swiss cheese",
+      "aged balsamic"
+    ],
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D359",
@@ -7560,19 +7643,46 @@
     "level": "Moderate",
     "tags": [],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (aged cheddar), Wheat (house focaccia). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
-      "olive oil",
+      "hungarian peppers",
       "sweet sausage",
       "aged cheddar",
+      "olive oil",
       "focaccia"
     ],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
+  },
+  {
+    "id": "D360",
+    "name": "Chicken Wings",
+    "restaurant": "Wooden City Birmingham",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [],
+    "options": [
+      "sauce choice: bbq",
+      "buffalo",
+      "caribbean spice",
+      "or naked"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (ranch). Sauce allergens vary by choice — contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
+    "ingredients": [
+      "chicken wings",
+      "ranch",
+      "vegetables"
+    ],
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D361",
@@ -7581,18 +7691,23 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "options": [
+      "add sherry luge +$5"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (smoked garlic butter), Wheat (toasted sourdough). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
       "bone marrow",
-      "smoked garlic butter"
+      "smoked garlic butter",
+      "onion jam",
+      "cornichons",
+      "sourdough"
     ],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D362",
@@ -7600,9 +7715,7 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "vegetarian"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Dairy (mozzarella, parmesan), Wheat (pizza dough). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
@@ -7610,14 +7723,42 @@
     "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
     "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
-      "parmesan",
       "pizza dough",
       "red sauce",
       "fresh mozzarella",
-      "basil"
+      "parmesan",
+      "basil",
+      "olive oil"
     ],
-    "category": "pizza",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
+  },
+  {
+    "id": "D363",
+    "name": "Veggie Pizza",
+    "restaurant": "Wooden City Birmingham",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [
+      "vegetarian"
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (mozzarella, parmesan), Wheat (pizza dough). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
+    "ingredients": [
+      "pizza dough",
+      "red sauce",
+      "mozzarella",
+      "parmesan",
+      "vegetables"
+    ],
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D364",
@@ -7627,19 +7768,22 @@
     "level": "Moderate",
     "tags": [],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (mozzarella), Wheat (pizza dough). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
+      "pizza dough",
       "red sauce",
-      "fresh oregano",
+      "mozzarella",
+      "pepperoni",
+      "marinated peppers",
       "honey",
       "oregano"
     ],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D365",
@@ -7658,10 +7802,12 @@
       "pizza dough",
       "italian sausage",
       "cremini mushrooms",
-      "red onion"
+      "red onion",
+      "garlic",
+      "herbs"
     ],
-    "category": "pizza",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D366",
@@ -7671,26 +7817,29 @@
     "level": "Moderate",
     "tags": [],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (mozzarella, gorgonzola), Wheat (pizza dough). Pesto may contain tree nuts — contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
-      "mozzarella",
+      "pizza dough",
       "white sauce",
       "pesto",
+      "bacon",
+      "mozzarella",
       "gorgonzola",
-      "bacon"
+      "red onion",
+      "aged balsamic"
     ],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D367",
     "name": "Vegan Pizza",
     "restaurant": "Wooden City Birmingham",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [
       "vegan",
@@ -7705,9 +7854,41 @@
     "menu_link": "https://www.woodencitybirmingham.com/menu",
     "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
     "restaurant_website": "https://www.woodencitybirmingham.com",
-    "ingredients": [],
-    "category": "pizza",
-    "last_updated": "2026-06-27"
+    "ingredients": [
+      "pizza dough",
+      "vegan garlic and sweet pepper aioli",
+      "roasted vegetables"
+    ],
+    "category": "",
+    "last_updated": "6/27/2026"
+  },
+  {
+    "id": "D368",
+    "name": "Tavern Burger",
+    "restaurant": "Wooden City Birmingham",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "options": [
+      "gf bun available (+$1). no modifications."
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (american cheese), Wheat (bun — GF bun available +$1). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
+    "ingredients": [
+      "beef patty",
+      "american cheese",
+      "iceberg lettuce",
+      "onion",
+      "dill pickle",
+      "bun"
+    ],
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D369",
@@ -7717,21 +7898,47 @@
     "level": "Moderate",
     "tags": [],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (swiss, garlic aioli), Wheat (bun). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
       "beef patty",
+      "swiss cheese",
+      "mushrooms",
+      "onion jam",
       "arugula",
       "garlic aioli",
       "aged balsamic",
-      "swiss cheese",
-      "mushrooms"
+      "bun"
     ],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
+  },
+  {
+    "id": "D370",
+    "name": "Veggie Burger",
+    "restaurant": "Wooden City Birmingham",
+    "location": "Birmingham, AL",
+    "level": "Building",
+    "tags": [
+      "vegetarian"
+    ],
+    "options": [
+      "vegetarian. available as fancy or tavern style."
+    ],
+    "allergens": "Allergens based on visible menu description: Wheat (bun). Patty ingredients not listed — contact restaurant to confirm allergens.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
+    "ingredients": [
+      "veggie patty",
+      "bun"
+    ],
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D371",
@@ -7739,9 +7946,7 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Wheat (bun, breading), Eggs (honey mustard may contain). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
@@ -7749,14 +7954,15 @@
     "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
     "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
-      "bun",
+      "chicken",
+      "citrus slaw",
       "pickles",
       "arugula",
       "honey mustard",
-      "chicken"
+      "bun"
     ],
-    "category": "sandwich",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D372",
@@ -7764,9 +7970,7 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Dairy (parmesan), Wheat (rigatoni pasta). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
@@ -7775,10 +7979,39 @@
     "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
       "rigatoni pasta",
-      "lamb sausage"
+      "lamb sausage",
+      "calabrian chili",
+      "preserved lemon",
+      "vodka sauce",
+      "parmesan"
     ],
-    "category": "pasta",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
+  },
+  {
+    "id": "D373",
+    "name": "Country-Style Pork Chop",
+    "restaurant": "Wooden City Birmingham",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Allergens based on visible menu description: Dairy (parmesan fonduta), Tree Nuts (candied walnut). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
+    "ingredients": [
+      "pork chop",
+      "sweet potato",
+      "walnuts",
+      "salsa verde",
+      "parmesan fonduta",
+      "brussels sprouts leaves",
+      "aged balsamic"
+    ],
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D374",
@@ -7788,11 +8021,11 @@
     "level": "Moderate",
     "tags": [],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Shellfish (scallops), Dairy (implied in risotto and gravy). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
       "scallops",
       "herbed risotto",
@@ -7802,7 +8035,31 @@
       "potato"
     ],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
+  },
+  {
+    "id": "D375",
+    "name": "Wooden City Surf & Turf",
+    "restaurant": "Wooden City Birmingham",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Allergens based on visible menu description: Shellfish (lobster), Dairy (chive butter sauce), Wheat (dumpling wrapper). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
+    "ingredients": [
+      "filet mignon",
+      "lobster tail",
+      "lobster dumpling",
+      "mushrooms",
+      "chive butter sauce",
+      "chili oil"
+    ],
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D376",
@@ -7812,11 +8069,11 @@
     "level": "Moderate",
     "tags": [],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (goat cheese, chive cream), Wheat (ravioli pasta), Tree Nuts (pistachio). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
       "beet ravioli",
       "goat cheese",
@@ -7826,7 +8083,7 @@
       "basil"
     ],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D377",
@@ -7834,9 +8091,7 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "high-protein"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Wheat (breading), Dairy (lemon caper butter sauce). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
@@ -7844,13 +8099,36 @@
     "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
     "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
-      "chicory",
-      "lemon caper butter sauce",
       "chicken schnitzel",
-      "herbed rice"
+      "herbed rice",
+      "chicory",
+      "lemon caper butter sauce"
     ],
-    "category": "chicken",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
+  },
+  {
+    "id": "D378",
+    "name": "New York Strip",
+    "restaurant": "Wooden City Birmingham",
+    "location": "Birmingham, AL",
+    "level": "Moderate",
+    "tags": [],
+    "options": [],
+    "allergens": "Allergens based on visible menu description: Dairy (aged cheddar, horseradish crema, potato gratin). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
+    "ingredients": [
+      "New York strip",
+      "chimichurri",
+      "aged cheddar",
+      "potato gratin",
+      "horseradish crema"
+    ],
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D379",
@@ -7860,19 +8138,19 @@
     "level": "Building",
     "tags": [],
     "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "allergens": "Allergens based on visible menu description: Dairy (jerk crema). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
       "cauliflower",
       "caribbean spice",
-      "cilantro",
-      "jerk crema"
+      "jerk crema",
+      "cilantro"
     ],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D380",
@@ -7880,9 +8158,7 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "vegetarian"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Dairy (goat cheese), Tree Nuts (almonds). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
@@ -7895,8 +8171,8 @@
       "goat cheese",
       "almonds"
     ],
-    "category": "side",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D381",
@@ -7904,9 +8180,7 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [
-      "vegetarian"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Dairy (fry sauce may contain). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
@@ -7914,13 +8188,13 @@
     "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
     "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
-      "ketchup",
+      "french fries",
       "herbs",
-      "fry sauce",
-      "french fries"
+      "ketchup",
+      "fry sauce"
     ],
-    "category": "side",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D382",
@@ -7928,9 +8202,7 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [
-      "vegetarian"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "Allergens based on visible menu description: Dairy (steak butter, chive crema). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
@@ -7943,8 +8215,8 @@
       "chive crema",
       "parsley"
     ],
-    "category": "side",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D383",
@@ -7967,8 +8239,8 @@
       "demerara sugar",
       "whipped cream"
     ],
-    "category": "cocktail",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D384",
@@ -7977,21 +8249,23 @@
     "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "options": [
+      "house-made cocktail. contains alcohol."
+    ],
+    "allergens": "Allergens based on visible menu description: Dairy (cream). Contains alcohol (vodka, coffee liqueur). Contact restaurant to confirm.",
+    "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
+    "menu_link": "https://www.woodencitybirmingham.com/menu",
+    "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
+    "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
-      "sugar",
       "vodka",
       "espresso",
       "coffee liqueur",
-      "cream"
+      "cream",
+      "sugar"
     ],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D385",
@@ -8009,14 +8283,14 @@
     "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
     "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [
-      "Valrhona chocolate",
       "crème de menthe",
       "crème de cacao",
       "menta",
-      "cream"
+      "cream",
+      "Valrhona chocolate"
     ],
-    "category": "cocktail",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D386",
