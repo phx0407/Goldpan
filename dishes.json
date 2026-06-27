@@ -396,7 +396,9 @@
     "restaurant": "Emmy Squared",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "vegetarian"
+    ],
     "options": [],
     "allergens": "Dairy (blue cheese), Tree Nuts (cashew), Soy (miso dressing). Contact restaurant to confirm.",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
@@ -4872,7 +4874,9 @@
     "restaurant": "Emmy Squared",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "vegetarian"
+    ],
     "options": [],
     "allergens": "Wheat (breadsticks), Dairy (cheese, pesto), Tree Nuts (pesto may contain pine nuts). Contact restaurant to confirm.",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
@@ -7596,7 +7600,9 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "vegetarian"
+    ],
     "options": [],
     "allergens": "Allergens based on visible menu description: Dairy (mozzarella, parmesan), Wheat (pizza dough). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
@@ -7874,7 +7880,9 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "vegetarian"
+    ],
     "options": [],
     "allergens": "Allergens based on visible menu description: Dairy (goat cheese), Tree Nuts (almonds). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
@@ -7896,7 +7904,9 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Building",
-    "tags": [],
+    "tags": [
+      "vegetarian"
+    ],
     "options": [],
     "allergens": "Allergens based on visible menu description: Dairy (fry sauce may contain). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
@@ -7918,7 +7928,9 @@
     "restaurant": "Wooden City Birmingham",
     "location": "Birmingham, AL",
     "level": "Moderate",
-    "tags": [],
+    "tags": [
+      "vegetarian"
+    ],
     "options": [],
     "allergens": "Allergens based on visible menu description: Dairy (steak butter, chive crema). Contact restaurant to confirm.",
     "hours": "Daily 5pm-10pm | Fri-Sat bar open until 11pm",
