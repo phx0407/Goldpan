@@ -54,10 +54,10 @@
   {
     "name": "Brick & Tin",
     "location": "Mountain Brook, AL",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "hours": "Mon–Sun 10:30 AM–8:00 PM",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-menus",
+    "restaurant_address": "2901 Cahaba Rd, Mountain Brook, AL 35223",
+    "restaurant_website": "https://brickandtin.com/",
     "claims": []
   },
   {
@@ -112,10 +112,10 @@
   {
     "name": "EastWest",
     "location": "Birmingham, AL",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "hours": "Tue–Thu 5:00 PM–9:00 PM | Fri–Sat 5:00 PM–10:00 PM | Mon & Sun Closed",
+    "menu_link": "https://www.eastwestbirmingham.com/menus",
+    "restaurant_address": "2306 2nd Ave N, Birmingham, AL 35203",
+    "restaurant_website": "https://www.eastwestbirmingham.com/",
     "claims": [],
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
