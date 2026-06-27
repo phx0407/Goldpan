@@ -288,23 +288,8 @@
 
   <div class="search-bar">
     <input class="search-input" id="dish-search" placeholder="Search dishes, restaurants, ingredients..." oninput="currentView==='map' ? updateMapMarkers() : renderDishes()" />
-    <div class="filter-btns">
-      <button class="fbtn active" id="dbtn-all"            onclick="setDishFilter('all',             this)">All</button>
-      <button class="fbtn"                                 onclick="setDishFilter('vegan',           this)">Vegan</button>
-      <button class="fbtn"                                 onclick="setDishFilter('vegetarian',      this)">Vegetarian</button>
-      <button class="fbtn"                                 onclick="setDishFilter('gluten-free',     this)">Gluten Free</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-dairy',        this)">No Dairy</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-nuts',         this)">No Nuts</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-shellfish',    this)">No Shellfish</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-fish',         this)">No Fish</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-eggs',         this)">No Eggs</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-soy',          this)">No Soy</button>
-      <button class="fbtn"                                 onclick="setDishFilter('no-pork',         this)">No Pork</button>
-      <button class="fbtn"                                 onclick="setDishFilter('high-protein',    this)">High Protein</button>
-      <button class="fbtn"                                 onclick="setDishFilter('60plus',          this)">Moderate+</button>
-      <button class="fbtn"                                 onclick="setDishFilter('has-ingredients', this)">Has Ingredients</button>
-      <button class="fbtn"                                 onclick="setDishFilter('has-allergens',   this)">Has Allergen Info</button>
-      <button class="fbtn"                                 onclick="setDishFilter('has-dietary',     this)">Has Dietary Info</button>
+    <div class="filter-btns" id="filter-btns-container">
+      <button class="fbtn active" id="dbtn-all" onclick="setDishFilter('all', this)">All</button>
     </div>
   </div>
 
@@ -358,6 +343,7 @@
 var dishes = [];
 var restaurants = [];
 var dishActiveFilters = [];
+var filterLabels = {};
 var sortHigh = true;
 var selectedDishId = null;
 var currentRestaurantIdx = null;
@@ -471,6 +457,47 @@ function loadDishes() {
     });
 }
 loadDishes();
+
+function loadFilters() {
+  fetch('../filters.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var container = document.getElementById('filter-btns-container');
+      if (!container) return;
+      // Build label lookup and render buttons per category
+      (data.categories || []).forEach(function(cat) {
+        (cat.filters || []).forEach(function(f) {
+          filterLabels[f.id] = f.label;
+          var btn = document.createElement('button');
+          btn.className = 'fbtn';
+          btn.textContent = f.label;
+          btn.setAttribute('onclick', 'setDishFilter("' + f.id + '", this)');
+          container.appendChild(btn);
+        });
+      });
+    })
+    .catch(function() {
+      // filters.json not yet generated — fall back to core static buttons
+      var container = document.getElementById('filter-btns-container');
+      if (!container) return;
+      var fallback = [
+        ['vegan','Vegan'],['vegetarian','Vegetarian'],['gluten-free','Gluten Free'],
+        ['dairy-free','Dairy Free'],['egg-free','Egg Free'],['soy-free','Soy Free'],
+        ['fish-free','Fish Free'],['shellfish-free','Shellfish Free'],['no-pork','No Pork'],
+        ['high-protein','High Protein'],['has-ingredients','Has Ingredients'],
+        ['has-allergens','Has Allergen Info'],['has-dietary','Has Dietary Info']
+      ];
+      fallback.forEach(function(pair) {
+        filterLabels[pair[0]] = pair[1];
+        var btn = document.createElement('button');
+        btn.className = 'fbtn';
+        btn.textContent = pair[1];
+        btn.setAttribute('onclick', 'setDishFilter("' + pair[0] + '", this)');
+        container.appendChild(btn);
+      });
+    });
+}
+loadFilters();
 
 // ── Gate ─────────────────────────────────────────────────────────────────────
 
@@ -611,9 +638,8 @@ function updateActiveFiltersBar() {
   var bar = document.getElementById('active-filters-bar');
   if (dishActiveFilters.length === 0) { bar.classList.remove('visible'); bar.innerHTML = ''; return; }
   bar.classList.add('visible');
-  var labels = { 'vegan':'Vegan','vegetarian':'Vegetarian','gluten-free':'Gluten Free','no-dairy':'No Dairy','no-nuts':'No Nuts','no-shellfish':'No Shellfish','no-fish':'No Fish','no-eggs':'No Eggs','no-soy':'No Soy','no-pork':'No Pork','high-protein':'High Protein','60plus':'Moderate+','has-ingredients':'Has Ingredients','has-allergens':'Has Allergen Info','has-dietary':'Has Dietary Info' };
   bar.innerHTML = '<span style="font-size:11px;color:#9A9488;letter-spacing:0.08em;text-transform:uppercase;">Active filters:</span>' +
-    dishActiveFilters.map(function(f) { return '<span class="active-filter-tag">' + (labels[f] || f) + '</span>'; }).join('') +
+    dishActiveFilters.map(function(f) { return '<span class="active-filter-tag">' + (filterLabels[f] || f) + '</span>'; }).join('') +
     '<button class="clear-all" onclick="clearDishFilters()">Clear All</button>';
 }
 
@@ -659,22 +685,29 @@ function getFilteredDishes() {
     if (q && d.name.toLowerCase().indexOf(q) === -1 && d.restaurant.toLowerCase().indexOf(q) === -1 && ingText.indexOf(q) === -1) return false;
     if (dishActiveFilters.length === 0) return true;
     return dishActiveFilters.every(function(f) {
-      if (f === 'vegan')            return (d.tags || []).indexOf('vegan') > -1;
-      if (f === 'vegetarian')       return (d.tags || []).indexOf('vegetarian') > -1 || (d.tags || []).indexOf('vegan') > -1;
-      if (f === 'gluten-free')      return (d.tags || []).indexOf('gluten-free') > -1;
-      if (f === 'no-dairy')         return (d.allergens || '').toLowerCase().indexOf('dairy') === -1;
-      if (f === 'no-nuts')          return (d.allergens || '').toLowerCase().indexOf('tree nuts') === -1 && (d.allergens || '').toLowerCase().indexOf('nuts') === -1;
-      if (f === 'no-shellfish')     return (d.allergens || '').toLowerCase().indexOf('shellfish') === -1;
-      if (f === 'no-fish')          return (d.allergens || '').toLowerCase().indexOf('fish') === -1;
-      if (f === 'no-eggs')          return (d.allergens || '').toLowerCase().indexOf('egg') === -1;
-      if (f === 'no-soy')           return (d.allergens || '').toLowerCase().indexOf('soy') === -1;
+      // Allergen-based exclusion filters
+      if (f === 'dairy-free')       return (d.allergens || '').toLowerCase().indexOf('dairy') === -1;
+      if (f === 'egg-free')         return (d.allergens || '').toLowerCase().indexOf('egg') === -1;
+      if (f === 'soy-free')         return (d.allergens || '').toLowerCase().indexOf('soy') === -1;
+      if (f === 'fish-free')        return (d.allergens || '').toLowerCase().indexOf('fish') === -1;
+      if (f === 'shellfish-free')   return (d.allergens || '').toLowerCase().indexOf('shellfish') === -1;
+      if (f === 'peanut-free')      return (d.allergens || '').toLowerCase().indexOf('peanut') === -1;
+      if (f === 'tree-nut-free')    return (d.allergens || '').toLowerCase().indexOf('tree nut') === -1 && (d.allergens || '').toLowerCase().indexOf('nuts') === -1;
+      if (f === 'sesame-free')      return (d.allergens || '').toLowerCase().indexOf('sesame') === -1;
+      // Pork: check both allergens and ingredients
       if (f === 'no-pork')          { var al = (d.allergens || '').toLowerCase(); var ing = (d.ingredients || []).join(' ').toLowerCase(); return al.indexOf('pork') === -1 && ing.indexOf('pork') === -1 && ing.indexOf('bacon') === -1 && ing.indexOf('ham') === -1 && ing.indexOf('prosciutto') === -1 && ing.indexOf('pancetta') === -1; }
-      if (f === 'high-protein')     return (d.tags || []).indexOf('high-protein') !== -1;
-      if (f === '60plus')           { var l = (d.level || '').toLowerCase(); return l === 'high' || l === 'moderate'; }
+      // Transparency level filters
+      if (f === 'high-transparency')     return (d.level || '').toLowerCase() === 'high';
+      if (f === 'moderate-transparency') return (d.level || '').toLowerCase() === 'moderate';
+      if (f === 'building-transparency') { var lv = (d.level || '').toLowerCase(); return lv !== 'high' && lv !== 'moderate'; }
+      // Transparency availability filters
       if (f === 'has-ingredients')  return (d.ingredients || []).length > 0;
       if (f === 'has-allergens')    return d.allergens && d.allergens.toLowerCase() !== 'unknown' && d.allergens.trim() !== '';
       if (f === 'has-dietary')      return (d.tags || []).length > 0;
-      return true;
+      // Vegetarian includes vegan
+      if (f === 'vegetarian')       return (d.tags || []).indexOf('vegetarian') > -1 || (d.tags || []).indexOf('vegan') > -1;
+      // Default: check tags array
+      return (d.tags || []).indexOf(f) > -1;
     });
   }).sort(function(a, b) {
     var wa = levelWeight(a.level), wb = levelWeight(b.level);
@@ -777,6 +810,8 @@ var currentView = 'map';
 var gpMap = null;
 var coordsData = null;
 var gpMarkers = {}; // name → L.marker
+var gpMatchIcon = null;
+var gpDimIcon = null;
 
 function setView(v) {
   currentView = v;
@@ -823,19 +858,26 @@ function initMap() {
     maxZoom: 20,
   }).addTo(gpMap);
 
-  function addMarkers(coords) {
-    var goldIcon = L.divIcon({
-      className: '',
-      html: '<div style="width:14px;height:14px;border-radius:50%;background:#FFFFFF;border:2px solid #C9A84C;box-shadow:0 0 8px rgba(255,255,255,0.35),0 2px 6px rgba(0,0,0,0.6);"></div>',
-      iconSize: [14, 14],
-      iconAnchor: [7, 7],
-      popupAnchor: [0, -10],
-    });
+  gpMatchIcon = L.divIcon({
+    className: '',
+    html: '<div style="width:14px;height:14px;border-radius:50%;background:#FFFFFF;border:2px solid #C9A84C;box-shadow:0 0 8px rgba(255,255,255,0.35),0 2px 6px rgba(0,0,0,0.6);"></div>',
+    iconSize: [14, 14],
+    iconAnchor: [7, 7],
+    popupAnchor: [0, -10],
+  });
+  gpDimIcon = L.divIcon({
+    className: '',
+    html: '<div style="width:10px;height:10px;border-radius:50%;background:#1E1E1E;border:1.5px solid #333333;"></div>',
+    iconSize: [10, 10],
+    iconAnchor: [5, 5],
+    popupAnchor: [0, -8],
+  });
 
+  function addMarkers(coords) {
     Object.keys(coords).forEach(function(name) {
       var c = coords[name];
       var rIdx = restaurants.findIndex(function(r) { return r.name === name; });
-      var marker = L.marker([c.lat, c.lng], { icon: goldIcon }).addTo(gpMap);
+      var marker = L.marker([c.lat, c.lng], { icon: gpMatchIcon }).addTo(gpMap);
       gpMarkers[name] = marker;
       var hoursHtml = c.hours ? '<div class="map-popup-hours">' + c.hours + '</div>' : '';
       var address = c.address || name + ' Birmingham AL';
@@ -865,23 +907,36 @@ function initMap() {
 
 function updateMapMarkers() {
   if (!gpMap || !coordsData) return;
-  var filtered = getFilteredDishes();
-  // Build set of restaurant names that have at least one matching dish
-  var visibleRestaurants = new Set(filtered.map(function(d) { return d.restaurant; }));
-  // If no filters active, show all
-  var showAll = dishActiveFilters.length === 0 && !(document.getElementById('dish-search') || {}).value;
-  var count = 0;
+  var searchVal = ((document.getElementById('dish-search') || {}).value || '').trim();
+  var hasFilters = dishActiveFilters.length > 0 || searchVal;
+  var matchSet = null;
+  if (hasFilters) {
+    var filtered = getFilteredDishes();
+    matchSet = new Set(filtered.map(function(d) { return d.restaurant; }));
+  }
+  var matchCount = 0;
+  var totalCount = Object.keys(gpMarkers).length;
   Object.keys(gpMarkers).forEach(function(name) {
     var marker = gpMarkers[name];
-    if (showAll || visibleRestaurants.has(name)) {
-      if (!gpMap.hasLayer(marker)) marker.addTo(gpMap);
-      count++;
+    if (!gpMap.hasLayer(marker)) marker.addTo(gpMap);
+    var isMatch = !matchSet || matchSet.has(name);
+    if (isMatch) {
+      if (gpMatchIcon) marker.setIcon(gpMatchIcon);
+      marker.setOpacity(1);
+      matchCount++;
     } else {
-      if (gpMap.hasLayer(marker)) marker.remove();
+      if (gpDimIcon) marker.setIcon(gpDimIcon);
+      marker.setOpacity(0.35);
     }
   });
   var countEl = document.getElementById('dish-results-count');
-  if (countEl) countEl.textContent = count + ' restaurant' + (count !== 1 ? 's' : '') + ' on map';
+  if (countEl) {
+    if (hasFilters) {
+      countEl.textContent = matchCount + ' restaurant' + (matchCount !== 1 ? 's' : '') + ' match your filters';
+    } else {
+      countEl.textContent = totalCount + ' restaurant' + (totalCount !== 1 ? 's' : '');
+    }
+  }
 }
 
 function gpMapOpenRestaurant(idx) {
