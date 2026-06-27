@@ -75,7 +75,9 @@
     /* ── Map filter legend ── */
     .map-filter-legend { display: none; position: absolute; top: 16px; left: 16px; z-index: 500; background: rgba(10,10,10,0.88); border: 1px solid rgba(201,168,76,0.25); backdrop-filter: blur(8px); padding: 14px 18px; min-width: 210px; }
     .map-filter-legend.visible { display: block; }
-    .mfl-title { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 12px; }
+    .mfl-title { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.25em; text-transform: uppercase; color: #C9A84C; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; }
+    .mfl-close { background: none; border: none; color: #555550; font-size: 14px; cursor: pointer; padding: 0; line-height: 1; transition: color 0.2s; }
+    .mfl-close:hover { color: #C9A84C; }
     .mfl-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 12px; color: #F5F2EC; }
     .mfl-row:last-of-type { margin-bottom: 10px; }
     .mfl-dot-match { width: 14px; height: 14px; border-radius: 50%; background: #C9A84C; border: 2px solid #E8C97A; box-shadow: 0 0 8px rgba(201,168,76,0.75), 0 0 16px rgba(201,168,76,0.4); flex-shrink: 0; }
@@ -338,10 +340,10 @@
   <div id="map-view">
     <div id="goldpan-map"></div>
     <div class="map-filter-legend" id="map-filter-legend">
-      <div class="mfl-title">Map Legend</div>
+      <div class="mfl-title">Map Legend <button class="mfl-close" onclick="dismissMapLegend()" title="Close">✕</button></div>
       <div class="mfl-row"><span class="mfl-dot-match"></span>Matches current filters</div>
       <div class="mfl-row"><span class="mfl-dot-dim"></span>Doesn't match current filters</div>
-      <div class="mfl-note">Legend shown when filters are active</div>
+      <div class="mfl-note">Click ✕ to dismiss</div>
     </div>
     <button class="locate-btn" onclick="locateMe()" title="Find my location">⊕ Near Me</button>
   </div>
@@ -706,6 +708,12 @@ function setDishFilter(f, btn) {
   try { localStorage.setItem('gp_filters', JSON.stringify(dishActiveFilters)); } catch(e) {}
 }
 
+function dismissMapLegend() {
+  legendDismissed = true;
+  var legend = document.getElementById('map-filter-legend');
+  if (legend) legend.classList.remove('visible');
+}
+
 function updateActiveFiltersBar() {
   var clearBtn = document.getElementById('filter-clear-all-btn');
   if (clearBtn) {
@@ -721,6 +729,7 @@ function updateActiveFiltersBar() {
 
 function clearDishFilters() {
   dishActiveFilters = [];
+  legendDismissed = false;
   document.querySelectorAll('.filter-btns .fbtn').forEach(function(b) { b.classList.remove('active'); });
   document.getElementById('dbtn-all').classList.add('active');
   updateActiveFiltersBar();
@@ -872,6 +881,7 @@ function openDishDetail(id) {
   if (d.restaurant_address) metaHtml += '<div style="font-size:12px;color:#9A9488;margin-bottom:6px;">' + d.restaurant_address + '</div>';
   if (d.restaurant_website) metaHtml += '<div style="font-size:12px;margin-bottom:8px;"><a href="' + d.restaurant_website + '" target="_blank" style="color:#C9A84C;text-decoration:none;">Restaurant Website ↗</a></div>';
   if (d.menu_link)          metaHtml += '<div style="font-size:12px;margin-bottom:20px;"><a href="' + d.menu_link + '" target="_blank" style="color:#C9A84C;text-decoration:none;">View Menu ↗</a></div>';
+  var lastUpdatedHtml = d.last_updated ? '<div style="margin-top:24px;font-family:\'DM Mono\',monospace;font-size:10px;letter-spacing:0.1em;color:#333330;">Last canvassed: ' + d.last_updated + '</div>' : '';
   var backBtn = document.getElementById('detail-back');
   if (currentRestaurantIdx !== null) { backBtn.textContent = '← ' + restaurants[currentRestaurantIdx].name; backBtn.classList.add('visible'); }
   else { backBtn.classList.remove('visible'); }
@@ -886,6 +896,7 @@ function openDishDetail(id) {
     '<div class="detail-section-title">Ingredients on Record</div>' +
     '<div class="detail-ingredients">' + ingHtml + '</div>' +
     (metaHtml ? '<div class="detail-section-title">Restaurant Info</div>' + metaHtml : '') +
+    lastUpdatedHtml +
     '<div class="question-section">' +
     '<div class="question-section-title">Got a question about this dish?</div>' +
     '<div class="question-section-sub">We\'ll follow up with the restaurant and add the answer here.</div>' +
@@ -913,6 +924,7 @@ document.addEventListener('keydown', function(e) {
 // ── Map view ──────────────────────────────────────────────────────────────────
 
 var currentView = 'map';
+var legendDismissed = false;
 var gpMap = null;
 var coordsData = null;
 var gpMarkers = {}; // name → L.marker
@@ -1039,7 +1051,7 @@ function updateMapMarkers() {
   });
   var legend = document.getElementById('map-filter-legend');
   if (legend) {
-    if (hasFilters) legend.classList.add('visible');
+    if (hasFilters && !legendDismissed) legend.classList.add('visible');
     else legend.classList.remove('visible');
   }
   var countEl = document.getElementById('dish-results-count');
