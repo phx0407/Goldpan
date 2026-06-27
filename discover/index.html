@@ -465,6 +465,7 @@ function loadFilters() {
       var container = document.getElementById('filter-btns-container');
       if (!container) return;
       // Build label lookup and render buttons per category
+      var allBtn = document.getElementById('dbtn-all');
       (data.categories || []).forEach(function(cat) {
         (cat.filters || []).forEach(function(f) {
           filterLabels[f.id] = f.label;
@@ -472,6 +473,10 @@ function loadFilters() {
           btn.className = 'fbtn';
           btn.textContent = f.label;
           btn.setAttribute('onclick', 'setDishFilter("' + f.id + '", this)');
+          if (dishActiveFilters.indexOf(f.id) > -1) {
+            btn.classList.add('active');
+            if (allBtn) allBtn.classList.remove('active');
+          }
           container.appendChild(btn);
         });
       });
@@ -487,12 +492,17 @@ function loadFilters() {
         ['high-protein','High Protein'],['has-ingredients','Has Ingredients'],
         ['has-allergens','Has Allergen Info'],['has-dietary','Has Dietary Info']
       ];
+      var allBtn = document.getElementById('dbtn-all');
       fallback.forEach(function(pair) {
         filterLabels[pair[0]] = pair[1];
         var btn = document.createElement('button');
         btn.className = 'fbtn';
         btn.textContent = pair[1];
         btn.setAttribute('onclick', 'setDishFilter("' + pair[0] + '", this)');
+        if (dishActiveFilters.indexOf(pair[0]) > -1) {
+          btn.classList.add('active');
+          if (allBtn) allBtn.classList.remove('active');
+        }
         container.appendChild(btn);
       });
     });
@@ -1009,7 +1019,13 @@ function viewOnMap(restaurantName) {
 (function() {
   try {
     var saved = localStorage.getItem('gp_filters');
-    if (saved) { var p = JSON.parse(saved); if (Array.isArray(p) && p.length) dishActiveFilters = p; }
+    if (saved) {
+      var p = JSON.parse(saved);
+      if (Array.isArray(p) && p.length) {
+        dishActiveFilters = p;
+        updateActiveFiltersBar(); // show Clear All bar immediately
+      }
+    }
   } catch(e) {}
 })();
 </script>
