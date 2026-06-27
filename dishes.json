@@ -31,7 +31,8 @@
       "vinegar",
       "seasonal vegetables"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D002",
@@ -51,7 +52,8 @@
       "panko breadcrumbs",
       "sorghum honey mustard"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D003",
@@ -74,7 +76,8 @@
       "tomato",
       "red onion"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D004",
@@ -99,7 +102,8 @@
       "lettuce",
       "multigrain bread"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D005",
@@ -120,7 +124,8 @@
       "marinara sauce",
       "parmesan"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D010",
@@ -145,7 +150,8 @@
       "tortilla",
       "fries"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D011",
@@ -173,7 +179,8 @@
       "mint",
       "raw honey"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D126",
@@ -197,7 +204,8 @@
       "broccoli",
       "savory teriyaki sauce"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D013",
@@ -213,7 +221,8 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D014",
@@ -229,7 +238,8 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D015",
@@ -245,7 +255,8 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D016",
@@ -261,7 +272,8 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D017",
@@ -302,7 +314,8 @@
       "calabrian chilies",
       "burrata"
     ],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D018",
@@ -326,7 +339,8 @@
       "pepperoni",
       "hot honey"
     ],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D019",
@@ -349,7 +363,8 @@
       "cheese blend",
       "basil"
     ],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D020",
@@ -372,7 +387,8 @@
       "burrata",
       "basil"
     ],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D021",
@@ -392,7 +408,8 @@
       "pickled red onion",
       "cashew"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D022",
@@ -417,7 +434,8 @@
       "queso fresco",
       "poached egg"
     ],
-    "category": "eggs"
+    "category": "eggs",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D023",
@@ -445,7 +463,8 @@
       "smoked pimento grits",
       "micro green"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D024",
@@ -469,7 +488,8 @@
       "poached egg",
       "toast"
     ],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D025",
@@ -496,7 +516,8 @@
       "jalapeno bacon wrapped quail",
       "eastaboga bee co. hot honey glaze"
     ],
-    "category": "waffle"
+    "category": "waffle",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D026",
@@ -520,7 +541,8 @@
       "fresh herbs",
       "citrus tossed greens"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D028",
@@ -550,7 +572,8 @@
       "Slut Sauce",
       "vegan Hawaiian bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D030",
@@ -580,7 +603,8 @@
       "Slut Sauce",
       "vegan Hawaiian bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D032",
@@ -607,7 +631,8 @@
       "lettuce",
       "diced tomatoes"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D033",
@@ -635,7 +660,8 @@
       "tortilla chips",
       "chipotle ranch"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D034",
@@ -662,7 +688,8 @@
       "creamy gochujang",
       "honey gochujang vinaigrette"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D035",
@@ -689,7 +716,8 @@
       "tortilla chips",
       "mexican goddess dressing"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D036",
@@ -717,7 +745,8 @@
       "crispy wontons",
       "creamy sesame dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D037",
@@ -745,7 +774,8 @@
       "buttermilk ranch",
       "wrap"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D038",
@@ -770,7 +800,8 @@
       "Chipotle and spicy mango sauce",
       "Vegan pita bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D039",
@@ -794,7 +825,8 @@
       "Lettuce",
       "Chipotle pita bread"
     ],
-    "category": "tofu"
+    "category": "tofu",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D040",
@@ -819,7 +851,8 @@
       "Pickled tomatoes",
       "Pita bread or sub bun"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D041",
@@ -843,7 +876,8 @@
       "Pesto",
       "Spinach"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D042",
@@ -868,7 +902,8 @@
       "Roasted pepper",
       "Pistachios"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D043",
@@ -899,6 +934,7 @@
       "Lime cilantro jalapeño vinaigrette"
     ],
     "category": "bowl",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -937,6 +973,7 @@
       "lime cilantro jalapeño vinaigrette"
     ],
     "category": "bowl",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -973,6 +1010,7 @@
       "blue cheese dressing"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -1012,6 +1050,7 @@
       "chipotle honey vinaigrette"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -1047,6 +1086,7 @@
       "lime cilantro jalapeño vinaigrette"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -1077,6 +1117,7 @@
       "Sesame seeds"
     ],
     "category": "side",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -1103,6 +1144,7 @@
       "Shiitakes"
     ],
     "category": "wrap",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -1127,6 +1169,7 @@
       "Grilled asparagus"
     ],
     "category": "seafood",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -1156,7 +1199,8 @@
       "smoked feta",
       "grilled chicken"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D054",
@@ -1189,7 +1233,8 @@
       "pepitas",
       "sesame seared tuna"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D055",
@@ -1214,7 +1259,8 @@
       "broccoli slaw",
       "orange ginger soy sauce"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D056",
@@ -1242,7 +1288,8 @@
       "pickled red onion",
       "green tobasco sauce"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D057",
@@ -1265,7 +1312,8 @@
       "green tomato jam",
       "pepper jelly"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D058",
@@ -1291,6 +1339,7 @@
       "red onions"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -1326,6 +1375,7 @@
       "includes a side"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -1361,6 +1411,7 @@
       "includes a side"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -1402,6 +1453,7 @@
       "sweet potato fries"
     ],
     "category": "plate",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -1443,6 +1495,7 @@
       "sweet potato fries"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -1475,7 +1528,8 @@
       "Cream cheese",
       "Red onions"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D064",
@@ -1493,7 +1547,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D065",
@@ -1512,7 +1567,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D066",
@@ -1528,7 +1584,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D067",
@@ -1544,7 +1601,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D068",
@@ -1560,7 +1618,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D069",
@@ -1576,7 +1635,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D070",
@@ -1601,7 +1661,8 @@
       "BBQ sauce",
       "Vegan pita bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D071",
@@ -1617,7 +1678,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D072",
@@ -1633,7 +1695,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D073",
@@ -1651,7 +1714,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "dip"
+    "category": "dip",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D074",
@@ -1676,7 +1740,8 @@
       "Vegan chipotle mayonnaise",
       "Vegan pita bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D075",
@@ -1703,7 +1768,8 @@
       "Fresh lettuce",
       "Vegan pita bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D076",
@@ -1728,7 +1794,8 @@
       "Chipotle mayonnaise",
       "Vegan pita bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D077",
@@ -1746,7 +1813,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D078",
@@ -1764,7 +1832,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D079",
@@ -1782,7 +1851,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D080",
@@ -1798,7 +1868,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D081",
@@ -1816,7 +1887,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D082",
@@ -1834,7 +1906,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D083",
@@ -1852,7 +1925,8 @@
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
     "ingredients": [],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D084",
@@ -1875,7 +1949,8 @@
       "coconut almond granola",
       "fresh fruit"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D085",
@@ -1898,7 +1973,8 @@
       "parmigiano",
       "caesar dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D086",
@@ -1926,7 +2002,8 @@
       "barley",
       "wheat berry"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D087",
@@ -1951,7 +2028,8 @@
       "poached egg",
       "everything spice"
     ],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D088",
@@ -1973,7 +2051,8 @@
       "poached eggs",
       "hollandaise"
     ],
-    "category": "eggs"
+    "category": "eggs",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D089",
@@ -1996,7 +2075,8 @@
       "walnut caramel",
       "strawberry compote"
     ],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D090",
@@ -2019,7 +2099,8 @@
       "maple syrup",
       "eastaboga honey butter"
     ],
-    "category": "pancakes"
+    "category": "pancakes",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D091",
@@ -2040,7 +2121,8 @@
       "spicy honey calabrian sauce",
       "ranch"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D092",
@@ -2065,7 +2147,8 @@
       "scrambled eggs",
       "salsa verde"
     ],
-    "category": "eggs"
+    "category": "eggs",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D093",
@@ -2090,7 +2173,8 @@
       "parmesan",
       "chives"
     ],
-    "category": "eggs"
+    "category": "eggs",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D094",
@@ -2111,7 +2195,8 @@
       "tomato bolognese sauce",
       "manchego"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D095",
@@ -2135,7 +2220,8 @@
       "shredded lettuce",
       "pickles"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D096",
@@ -2158,7 +2244,8 @@
       "hollandaise",
       "salsa verde"
     ],
-    "category": "steak"
+    "category": "steak",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D097",
@@ -2180,7 +2267,8 @@
       "mozzarella",
       "calabrian chili sauce"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D098",
@@ -2205,7 +2293,8 @@
       "pickles",
       "sourdough bread"
     ],
-    "category": "dip"
+    "category": "dip",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D099",
@@ -2228,7 +2317,8 @@
       "creme fraiche",
       "thyme"
     ],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D100",
@@ -2250,7 +2340,8 @@
       "beef tallow mayo",
       "semolina cracker"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D101",
@@ -2278,7 +2369,8 @@
       "yuzu",
       "dill"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D102",
@@ -2302,7 +2394,8 @@
       "heirloom tomatoes",
       "basil oil"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D103",
@@ -2326,7 +2419,8 @@
       "sungold tomato sauce",
       "saffron butter"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D104",
@@ -2349,7 +2443,8 @@
       "pecorino romano",
       "zanzibar peppercorns"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D105",
@@ -2373,7 +2468,8 @@
       "Shelburne aged cheddar",
       "herbed breadcrumbs"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D106",
@@ -2397,7 +2493,8 @@
       "fennel",
       "tomato ragu"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D107",
@@ -2420,7 +2517,8 @@
       "Carolina Gold rice",
       "salsa seca"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D108",
@@ -2443,7 +2541,8 @@
       "peanut-lime gremolata",
       "fries"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D109",
@@ -2466,7 +2565,8 @@
       "confit fingerling potatoes",
       "pearl onion balsamic sauce"
     ],
-    "category": "steak"
+    "category": "steak",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D110",
@@ -2488,7 +2588,8 @@
       "creme fraiche",
       "manchego"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D111",
@@ -2506,7 +2607,8 @@
     "ingredients": [
       "certified angus braised beef brisket"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D115",
@@ -2526,7 +2628,8 @@
       "spinach",
       "focaccia"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D118",
@@ -2549,7 +2652,8 @@
       "croutons",
       "buttermilk ranch"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D120",
@@ -2575,7 +2679,8 @@
       "sugar snaps",
       "honey lemon vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D123",
@@ -2597,7 +2702,8 @@
       "sweet & spicy chili sauce",
       "bibb lettuce"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D125",
@@ -2624,7 +2730,8 @@
       "sweet peas",
       "mint yogurt"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D127",
@@ -2645,7 +2752,8 @@
       "okra",
       "breading"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D128",
@@ -2668,7 +2776,8 @@
       "sweet potato",
       "chipotle mayo"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D129",
@@ -2690,7 +2799,8 @@
       "panko breadcrumbs",
       "chipotle mayo"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D130",
@@ -2709,7 +2819,8 @@
       "panko breadcrumbs",
       "yogurt remoulade"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D131",
@@ -2733,7 +2844,8 @@
       "apples",
       "baguette"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D132",
@@ -2753,7 +2865,8 @@
       "marinara sauce",
       "parmesan"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D133",
@@ -2779,7 +2892,8 @@
       "pumpkin seeds",
       "chickpeas"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D134",
@@ -2805,7 +2919,8 @@
       "grapefruit",
       "lemon vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D135",
@@ -2829,7 +2944,8 @@
       "sweet potato",
       "corn"
     ],
-    "category": "soup"
+    "category": "soup",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D136",
@@ -2859,7 +2975,8 @@
       "tortilla strips",
       "cherry tomatoes"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D137",
@@ -2879,7 +2996,8 @@
     "ingredients": [
       "turkey"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D138",
@@ -2898,7 +3016,8 @@
       "sauerkraut",
       "marbled rye bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D139",
@@ -2920,7 +3039,8 @@
       "pickle",
       "housemade sauce"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D140",
@@ -2942,7 +3062,8 @@
       "chipotle mayo",
       "bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D141",
@@ -2967,7 +3088,8 @@
       "honey mustard",
       "multigrain bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D142",
@@ -2992,7 +3114,8 @@
       "arugula",
       "balsamic glaze"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D143",
@@ -3012,7 +3135,8 @@
     "ingredients": [
       "garden sides (choice of four)"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D144",
@@ -3036,7 +3160,8 @@
       "sorghum honey mustard",
       "garden sides (choice of two)"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D145",
@@ -3058,7 +3183,8 @@
     "ingredients": [
       "spice rubbed chicken"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D146",
@@ -3081,7 +3207,8 @@
       "yogurt remoulade",
       "garden sides"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D147",
@@ -3103,7 +3230,8 @@
       "parmesan",
       "garden sides (choice of two)"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D148",
@@ -3126,7 +3254,8 @@
       "sorghum honey mustard",
       "garden sides (choice of two)"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D149",
@@ -3150,7 +3279,8 @@
       "herbs",
       "garden sides (choice of two)"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D150",
@@ -3177,7 +3307,8 @@
       "pecan",
       "lemon vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D152",
@@ -3197,7 +3328,8 @@
       "sweet potato waffles",
       "honey"
     ],
-    "category": "waffle"
+    "category": "waffle",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D154",
@@ -3217,7 +3349,8 @@
     "ingredients": [
       "shrimp"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D156",
@@ -3239,7 +3372,8 @@
       "creamy grits",
       "house gravy"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D158",
@@ -3260,7 +3394,8 @@
       "Louisiana spices",
       "chips"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D160",
@@ -3282,7 +3417,8 @@
       "bayou lobster cream sauce",
       "fries"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D162",
@@ -3305,7 +3441,8 @@
       "bell peppers",
       "onions"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D164",
@@ -3328,7 +3465,8 @@
       "pico de gallo",
       "fries"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D166",
@@ -3352,7 +3490,8 @@
       "tomatoes",
       "pickles"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D168",
@@ -3373,7 +3512,8 @@
       "pork ribs",
       "marinade"
     ],
-    "category": "ribs"
+    "category": "ribs",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D170",
@@ -3393,7 +3533,8 @@
     "ingredients": [
       "signature glaze"
     ],
-    "category": "chop"
+    "category": "chop",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D172",
@@ -3414,7 +3555,8 @@
       "chicken",
       "Yo Chef signature spices"
     ],
-    "category": "bbq"
+    "category": "bbq",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D174",
@@ -3435,7 +3577,8 @@
       "provolone cheese",
       "basil"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D176",
@@ -3460,7 +3603,8 @@
       "banana peppers",
       "dressing (choice)"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D178",
@@ -3485,7 +3629,8 @@
       "black olives",
       "banana peppers"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D180",
@@ -3506,7 +3651,8 @@
       "veggie wings",
       "sauce (choice)"
     ],
-    "category": "wings"
+    "category": "wings",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D183",
@@ -3529,7 +3675,8 @@
       "almond milk",
       "vanilla protein"
     ],
-    "category": "smoothie"
+    "category": "smoothie",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D184",
@@ -3554,7 +3701,8 @@
       "almond milk",
       "chocolate protein"
     ],
-    "category": "smoothie"
+    "category": "smoothie",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D185",
@@ -3579,7 +3727,8 @@
       "almond milk",
       "vanilla protein"
     ],
-    "category": "smoothie"
+    "category": "smoothie",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D186",
@@ -3605,7 +3754,8 @@
       "almond milk",
       "raw honey"
     ],
-    "category": "smoothie"
+    "category": "smoothie",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D187",
@@ -3627,7 +3777,8 @@
       "coconut yogurt",
       "coconut milk"
     ],
-    "category": "smoothie"
+    "category": "smoothie",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D188",
@@ -3650,7 +3801,8 @@
       "mint leaves",
       "coconut water"
     ],
-    "category": "smoothie"
+    "category": "smoothie",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D189",
@@ -3676,7 +3828,8 @@
       "vanilla extract",
       "agave"
     ],
-    "category": "smoothie"
+    "category": "smoothie",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D190",
@@ -3700,7 +3853,8 @@
       "agave",
       "almond milk"
     ],
-    "category": "smoothie"
+    "category": "smoothie",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D191",
@@ -3720,7 +3874,8 @@
       "maple syrup",
       "oat milk"
     ],
-    "category": "coffee"
+    "category": "coffee",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D192",
@@ -3741,7 +3896,8 @@
       "maple syrup",
       "oat milk"
     ],
-    "category": "coffee"
+    "category": "coffee",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D193",
@@ -3766,7 +3922,8 @@
       "maple syrup",
       "oat milk"
     ],
-    "category": "coffee"
+    "category": "coffee",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D194",
@@ -3785,7 +3942,8 @@
       "organic chai",
       "oat milk"
     ],
-    "category": "coffee"
+    "category": "coffee",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D195",
@@ -3807,7 +3965,8 @@
       "maple syrup",
       "cinnamon"
     ],
-    "category": "coffee"
+    "category": "coffee",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D196",
@@ -3830,7 +3989,8 @@
       "maple syrup",
       "almond milk"
     ],
-    "category": "coffee"
+    "category": "coffee",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D197",
@@ -3851,7 +4011,8 @@
       "almond milk",
       "goji berries"
     ],
-    "category": "coffee"
+    "category": "coffee",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D198",
@@ -3873,7 +4034,8 @@
       "maple syrup",
       "chocolate protein"
     ],
-    "category": "coffee"
+    "category": "coffee",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D199",
@@ -3901,7 +4063,8 @@
       "hemp seeds",
       "almond butter"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D200",
@@ -3927,7 +4090,8 @@
       "granola",
       "raw honey"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D201",
@@ -3953,7 +4117,8 @@
       "fried shallots",
       "mustard dill vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D202",
@@ -3979,7 +4144,8 @@
       "hemp seeds",
       "peanut dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D203",
@@ -4003,7 +4169,8 @@
       "shaved parmesan",
       "honey dijon dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D204",
@@ -4030,7 +4197,8 @@
       "za'atar",
       "lemon vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D205",
@@ -4057,7 +4225,8 @@
       "scallion mix",
       "garbanzo beans"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D206",
@@ -4085,7 +4254,8 @@
       "spinach tortilla",
       "spicy mayo"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D207",
@@ -4111,7 +4281,8 @@
       "cucumber",
       "spinach tortilla"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D208",
@@ -4137,7 +4308,8 @@
       "sriracha",
       "spinach tortilla"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D209",
@@ -4163,7 +4335,8 @@
       "lettuce",
       "spinach tortilla"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D210",
@@ -4187,7 +4360,8 @@
       "arugula",
       "bagel"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D211",
@@ -4215,7 +4389,8 @@
       "spinach tortilla",
       "tahini"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D212",
@@ -4240,7 +4415,8 @@
       "arugula",
       "spinach tortilla"
     ],
-    "category": "quesadilla"
+    "category": "quesadilla",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D213",
@@ -4265,7 +4441,8 @@
       "arugula",
       "spinach tortilla"
     ],
-    "category": "quesadilla"
+    "category": "quesadilla",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D214",
@@ -4288,7 +4465,8 @@
       "basil",
       "pinsa romana bread"
     ],
-    "category": "flatbread"
+    "category": "flatbread",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D215",
@@ -4311,7 +4489,8 @@
       "arugula",
       "pinsa romana bread"
     ],
-    "category": "flatbread"
+    "category": "flatbread",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D216",
@@ -4333,7 +4512,8 @@
       "scallion mix",
       "sourdough bread"
     ],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D217",
@@ -4357,7 +4537,8 @@
       "dill",
       "sourdough bread"
     ],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D218",
@@ -4379,7 +4560,8 @@
       "honey",
       "sourdough bread"
     ],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D219",
@@ -4407,7 +4589,8 @@
       "spicy vegan mayo",
       "house marinade"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D220",
@@ -4433,7 +4616,8 @@
       "spinach",
       "tortilla chips"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D221",
@@ -4458,7 +4642,8 @@
       "spicy vegan mayo",
       "house marinade"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D222",
@@ -4480,7 +4665,8 @@
       "apple",
       "lemon"
     ],
-    "category": "juice"
+    "category": "juice",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D223",
@@ -4502,7 +4688,8 @@
       "celery",
       "lemon"
     ],
-    "category": "juice"
+    "category": "juice",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D224",
@@ -4523,7 +4710,8 @@
       "spinach",
       "ginger"
     ],
-    "category": "juice"
+    "category": "juice",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D225",
@@ -4543,7 +4731,8 @@
       "grapefruit",
       "turmeric"
     ],
-    "category": "juice"
+    "category": "juice",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D226",
@@ -4566,7 +4755,8 @@
       "lemon",
       "ginger"
     ],
-    "category": "juice"
+    "category": "juice",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D227",
@@ -4588,7 +4778,8 @@
       "lemon",
       "agave"
     ],
-    "category": "drink"
+    "category": "drink",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D228",
@@ -4604,7 +4795,8 @@
     "restaurant_address": "1831 28th Ave. South, Ste. 106, Homewood, AL 35209",
     "restaurant_website": "https://kalemecrazy.net",
     "ingredients": [],
-    "category": "juice"
+    "category": "juice",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D229",
@@ -4627,7 +4819,8 @@
       "cayenne",
       "lemon"
     ],
-    "category": "shot"
+    "category": "shot",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D230",
@@ -4648,7 +4841,8 @@
       "turmeric",
       "raw honey"
     ],
-    "category": "shot"
+    "category": "shot",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D231",
@@ -4669,7 +4863,8 @@
       "ginger",
       "orange"
     ],
-    "category": "shot"
+    "category": "shot",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D233",
@@ -4685,7 +4880,8 @@
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D235",
@@ -4701,7 +4897,8 @@
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D239",
@@ -4717,7 +4914,8 @@
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D241",
@@ -4733,7 +4931,8 @@
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D247",
@@ -4754,7 +4953,8 @@
     "ingredients": [
       "Emmy's cheese blend"
     ],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D249",
@@ -4773,7 +4973,8 @@
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
     "ingredients": [],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D251",
@@ -4795,7 +4996,8 @@
       "Detroit-style dough",
       "red sauce"
     ],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D253",
@@ -4817,7 +5019,8 @@
       "Daily's thick-cut bacon",
       "shaved sirloin"
     ],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D255",
@@ -4839,7 +5042,8 @@
       "Bama white sauce",
       "chopped pickles"
     ],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D256",
@@ -4862,7 +5066,8 @@
       "ricotta",
       "truffle cream"
     ],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D258",
@@ -4885,7 +5090,8 @@
       "lemon",
       "toast"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D259",
@@ -4907,7 +5113,8 @@
       "remoulade",
       "micro green"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D260",
@@ -4929,7 +5136,8 @@
       "smoked mariah bacon",
       "sausage balls"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D261",
@@ -4950,7 +5158,8 @@
       "conecuh country gravy",
       "poached egg"
     ],
-    "category": "bread"
+    "category": "bread",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D262",
@@ -4971,7 +5180,8 @@
       "lemon-herb mascarpone",
       "fried capers"
     ],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D263",
@@ -4994,7 +5204,8 @@
       "dirty tartar",
       "lemon"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D264",
@@ -5016,7 +5227,8 @@
       "al. wbbq",
       "poached egg"
     ],
-    "category": "eggs"
+    "category": "eggs",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D265",
@@ -5038,7 +5250,8 @@
       "scratch gouda biscuit",
       "béarnaise"
     ],
-    "category": "steak"
+    "category": "steak",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D266",
@@ -5059,7 +5272,8 @@
       "smoked shallot jam",
       "al. wbbq"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D267",
@@ -5077,7 +5291,8 @@
     "ingredients": [
       "Gulf crab claw"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D268",
@@ -5100,7 +5315,8 @@
       "balsamic glaze",
       "honey"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D269",
@@ -5121,7 +5337,8 @@
       "smoked tomato",
       "remoulade"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D270",
@@ -5146,7 +5363,8 @@
       "cilantro",
       "toast"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D271",
@@ -5172,7 +5390,8 @@
       "compound butter",
       "parmesan"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D272",
@@ -5194,7 +5413,8 @@
       "pickled onion",
       "flatbread"
     ],
-    "category": "flatbread"
+    "category": "flatbread",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D273",
@@ -5216,7 +5436,8 @@
       "red pepper",
       "sourdough"
     ],
-    "category": "dip"
+    "category": "dip",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D274",
@@ -5239,7 +5460,8 @@
       "shallot",
       "citrus vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D275",
@@ -5265,7 +5487,8 @@
       "jalapeno bacon",
       "buttermilk dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D276",
@@ -5287,7 +5510,8 @@
       "toasted sesame seeds",
       "housemade fresh ginger dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D277",
@@ -5308,7 +5532,8 @@
       "bocconcini",
       "white balsamic honey vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D278",
@@ -5329,7 +5554,8 @@
       "parmesan",
       "fresh basil"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D279",
@@ -5351,7 +5577,8 @@
       "blistered tomato",
       "toast"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D280",
@@ -5375,7 +5602,8 @@
       "lemon",
       "pinsa"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D281",
@@ -5398,7 +5626,8 @@
       "asparagus",
       "compound herb butter"
     ],
-    "category": "steak"
+    "category": "steak",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D282",
@@ -5420,7 +5649,8 @@
       "smoked tomato spinach risotto",
       "beurre blanc"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D283",
@@ -5443,7 +5673,8 @@
       "bloody mary rice",
       "pan sauce"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D284",
@@ -5467,7 +5698,8 @@
       "slm sauce",
       "fries"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D285",
@@ -5492,7 +5724,8 @@
       "queso fresco",
       "rice"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D286",
@@ -5515,7 +5748,8 @@
       "balsamic",
       "micro basil"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D287",
@@ -5535,7 +5769,8 @@
       "herb goat cheese",
       "jalapeno bacon"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D288",
@@ -5556,7 +5791,8 @@
       "smoked paprika",
       "buttermilk dressing"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D289",
@@ -5579,7 +5815,8 @@
       "parmesan",
       "slm aioli"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D290",
@@ -5605,7 +5842,8 @@
       "cole slaw",
       "homemade tartar sauce"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D292",
@@ -5634,7 +5872,8 @@
       "rice",
       "tortillas (flour or corn)"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D293",
@@ -5665,7 +5904,8 @@
       "green bell pepper",
       "onions"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D294",
@@ -5691,7 +5931,8 @@
       "cole slaw",
       "homemade tartar sauce"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D295",
@@ -5718,7 +5959,8 @@
       "fresh-cut fries",
       "bread"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D296",
@@ -5742,7 +5984,8 @@
       "Belgian waffle",
       "homemade syrup"
     ],
-    "category": "waffle"
+    "category": "waffle",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D297",
@@ -5768,7 +6011,8 @@
       "cole slaw",
       "bread"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D298",
@@ -5796,7 +6040,8 @@
       "fresh-cut fries",
       "bun"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D299",
@@ -5820,7 +6065,8 @@
       "buttermilk pancakes (3)",
       "homemade syrup"
     ],
-    "category": "pancakes"
+    "category": "pancakes",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D300",
@@ -5849,7 +6095,8 @@
       "cream cheese",
       "toast (optional)"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D301",
@@ -5875,7 +6122,8 @@
       "homestyle potatoes",
       "toast"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D302",
@@ -5901,7 +6149,8 @@
       "rice",
       "buttermilk biscuit"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D303",
@@ -5925,7 +6174,8 @@
       "bacon, sausage, or smoked sausage (choice)",
       "homemade syrup"
     ],
-    "category": "pancakes"
+    "category": "pancakes",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D304",
@@ -5950,7 +6200,8 @@
       "bacon, sausage, or smoked sausage (choice)",
       "homemade syrup"
     ],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D305",
@@ -5974,7 +6225,8 @@
       "bacon, sausage, or smoked sausage (choice)",
       "homemade syrup"
     ],
-    "category": "waffle"
+    "category": "waffle",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D306",
@@ -5999,7 +6251,8 @@
       "cheese grits or homestyle potatoes (choice)",
       "toast"
     ],
-    "category": "omelette"
+    "category": "omelette",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D307",
@@ -6027,7 +6280,8 @@
       "spinach",
       "Gouda cheese"
     ],
-    "category": "omelette"
+    "category": "omelette",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D308",
@@ -6053,7 +6307,8 @@
       "onions",
       "homemade pita"
     ],
-    "category": "soup"
+    "category": "soup",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D309",
@@ -6083,7 +6338,8 @@
       "onions",
       "homemade pita"
     ],
-    "category": "soup"
+    "category": "soup",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D310",
@@ -6103,7 +6359,8 @@
       "chicken vegetable broth",
       "homemade pita"
     ],
-    "category": "soup"
+    "category": "soup",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D311",
@@ -6129,7 +6386,8 @@
       "tahini",
       "lemon juice"
     ],
-    "category": "dip"
+    "category": "dip",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D312",
@@ -6155,7 +6413,8 @@
       "chickpeas",
       "tahini"
     ],
-    "category": "dip"
+    "category": "dip",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D313",
@@ -6182,7 +6441,8 @@
       "lemon juice",
       "mushrooms"
     ],
-    "category": "dip"
+    "category": "dip",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D314",
@@ -6209,7 +6469,8 @@
       "lemon juice",
       "red bell peppers"
     ],
-    "category": "dip"
+    "category": "dip",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D315",
@@ -6236,7 +6497,8 @@
       "garlic",
       "seasonings"
     ],
-    "category": "dip"
+    "category": "dip",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D316",
@@ -6254,7 +6516,8 @@
     "ingredients": [
       "pita bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D317",
@@ -6272,7 +6535,8 @@
     "ingredients": [
       "pita chips"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D318",
@@ -6302,7 +6566,8 @@
       "olive oil",
       "lemon juice"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D319",
@@ -6333,7 +6598,8 @@
       "olive oil",
       "lemon juice"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D320",
@@ -6359,7 +6625,8 @@
       "homemade oregano vinaigrette dressing",
       "red cabbage"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D321",
@@ -6385,7 +6652,8 @@
       "white cabbage",
       "homemade oregano vinaigrette dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D322",
@@ -6412,7 +6680,8 @@
       "onions",
       "homemade lemon vinaigrette dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D323",
@@ -6442,7 +6711,8 @@
       "Moroccan spice blend",
       "herbs"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D324",
@@ -6469,7 +6739,8 @@
       "red beets",
       "lemon juice"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D325",
@@ -6497,7 +6768,8 @@
       "fresh garlic",
       "lemon juice"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D326",
@@ -6525,7 +6797,8 @@
       "mixed vegetables",
       "blend of spices"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D327",
@@ -6554,7 +6827,8 @@
       "beet salad",
       "white cabbage salad"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D328",
@@ -6579,7 +6853,8 @@
       "marinade",
       "organic chicken"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D329",
@@ -6605,7 +6880,8 @@
       "garlic",
       "spices"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D330",
@@ -6630,7 +6906,8 @@
       "marinade",
       "organic chicken breast"
     ],
-    "category": "kabob"
+    "category": "kabob",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D331",
@@ -6654,7 +6931,8 @@
     "ingredients": [
       "organic chicken tenders"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D332",
@@ -6679,7 +6957,8 @@
       "gluten-free breading",
       "seasoning"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D333",
@@ -6705,7 +6984,8 @@
       "grass-fed lamb",
       "marinade"
     ],
-    "category": "lamb"
+    "category": "lamb",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D334",
@@ -6730,7 +7010,8 @@
       "grass-fed beef",
       "marinade"
     ],
-    "category": "kabob"
+    "category": "kabob",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D335",
@@ -6755,7 +7036,8 @@
       "grass-fed lamb",
       "marinade"
     ],
-    "category": "kabob"
+    "category": "kabob",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D336",
@@ -6781,7 +7063,8 @@
       "ground grass-fed beef",
       "ground grass-fed lamb"
     ],
-    "category": "kabob"
+    "category": "kabob",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D337",
@@ -6807,7 +7090,8 @@
       "chickpeas",
       "herbs"
     ],
-    "category": "falafel"
+    "category": "falafel",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D338",
@@ -6832,7 +7116,8 @@
       "grass-fed beef",
       "marinade"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D339",
@@ -6855,7 +7140,8 @@
       "grass-fed lamb chops",
       "seasoning"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D340",
@@ -6881,7 +7167,8 @@
       "grass-fed beef/lamb shawarma",
       "kefta kabob"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D341",
@@ -6909,7 +7196,8 @@
       "garlic",
       "onions"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D342",
@@ -6939,7 +7227,8 @@
       "tabouli salad",
       "red cabbage salad"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D343",
@@ -6965,7 +7254,8 @@
       "homemade tomato sauce",
       "green cabbage leaves"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D344",
@@ -6990,7 +7280,8 @@
       "olive oil",
       "blend of spices"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D345",
@@ -7017,7 +7308,8 @@
       "garlic",
       "cilantro"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D346",
@@ -7043,7 +7335,8 @@
       "olives",
       "Israeli pickles"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D347",
@@ -7066,7 +7359,8 @@
     "ingredients": [
       "organic potatoes"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D348",
@@ -7089,7 +7383,8 @@
     "ingredients": [
       "organic sweet potatoes"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D349",
@@ -7114,7 +7409,8 @@
       "cauliflower",
       "gluten-free breading"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D350",
@@ -7136,7 +7432,8 @@
       "almonds",
       "homemade blossom citrus syrup"
     ],
-    "category": "dessert"
+    "category": "dessert",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D351",
@@ -7159,7 +7456,8 @@
       "homemade blossom citrus syrup",
       "crushed pistachios"
     ],
-    "category": "dessert"
+    "category": "dessert",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D353",
@@ -7186,7 +7484,8 @@
       "horseradish",
       "tallow croutons"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D354",
@@ -7204,7 +7503,8 @@
     "ingredients": [
       "shrimp"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D356",
@@ -7224,7 +7524,8 @@
       "bacon",
       "honey dijon vinaigrette"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D357",
@@ -7244,7 +7545,8 @@
       "sourdough croutons",
       "caesar dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D359",
@@ -7265,7 +7567,8 @@
       "aged cheddar",
       "focaccia"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D361",
@@ -7284,7 +7587,8 @@
       "bone marrow",
       "smoked garlic butter"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D362",
@@ -7306,7 +7610,8 @@
       "fresh mozzarella",
       "basil"
     ],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D364",
@@ -7327,7 +7632,8 @@
       "honey",
       "oregano"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D365",
@@ -7348,7 +7654,8 @@
       "cremini mushrooms",
       "red onion"
     ],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D366",
@@ -7370,7 +7677,8 @@
       "gorgonzola",
       "bacon"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D367",
@@ -7392,7 +7700,8 @@
     "restaurant_address": "2335 Morris Avenue, Birmingham, AL 35203",
     "restaurant_website": "https://www.woodencitybirmingham.com",
     "ingredients": [],
-    "category": "pizza"
+    "category": "pizza",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D369",
@@ -7415,7 +7724,8 @@
       "swiss cheese",
       "mushrooms"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D371",
@@ -7439,7 +7749,8 @@
       "honey mustard",
       "chicken"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D372",
@@ -7460,7 +7771,8 @@
       "rigatoni pasta",
       "lamb sausage"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D374",
@@ -7483,7 +7795,8 @@
       "swiss chard",
       "potato"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D376",
@@ -7506,7 +7819,8 @@
       "shallot",
       "basil"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D377",
@@ -7529,7 +7843,8 @@
       "chicken schnitzel",
       "herbed rice"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D379",
@@ -7550,7 +7865,8 @@
       "cilantro",
       "jerk crema"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D380",
@@ -7571,7 +7887,8 @@
       "goat cheese",
       "almonds"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D381",
@@ -7592,7 +7909,8 @@
       "fry sauce",
       "french fries"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D382",
@@ -7613,7 +7931,8 @@
       "chive crema",
       "parsley"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D383",
@@ -7636,7 +7955,8 @@
       "demerara sugar",
       "whipped cream"
     ],
-    "category": "cocktail"
+    "category": "cocktail",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D384",
@@ -7658,7 +7978,8 @@
       "coffee liqueur",
       "cream"
     ],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D385",
@@ -7682,7 +8003,8 @@
       "menta",
       "cream"
     ],
-    "category": "cocktail"
+    "category": "cocktail",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D386",
@@ -7701,7 +8023,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D388",
@@ -7720,7 +8043,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D391",
@@ -7739,7 +8063,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D395",
@@ -7758,7 +8083,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D398",
@@ -7778,7 +8104,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "curry"
+    "category": "curry",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D399",
@@ -7794,7 +8121,8 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D401",
@@ -7814,7 +8142,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D403",
@@ -7834,7 +8163,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D404",
@@ -7852,7 +8182,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D406",
@@ -7872,7 +8203,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "bread"
+    "category": "bread",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D407",
@@ -7892,7 +8224,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "dessert"
+    "category": "dessert",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D409",
@@ -7912,7 +8245,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "oats"
+    "category": "oats",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D411",
@@ -7932,7 +8266,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "smoothie"
+    "category": "smoothie",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D412",
@@ -7952,7 +8287,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "smoothie"
+    "category": "smoothie",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D413",
@@ -7970,7 +8306,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D414",
@@ -7988,7 +8325,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D416",
@@ -8004,7 +8342,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D417",
@@ -8022,7 +8361,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "toast"
+    "category": "toast",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D419",
@@ -8044,7 +8384,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "dessert"
+    "category": "dessert",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D420",
@@ -8068,7 +8409,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "dessert"
+    "category": "dessert",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D421",
@@ -8084,7 +8426,8 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D423",
@@ -8100,7 +8443,8 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D424",
@@ -8124,7 +8468,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "dip"
+    "category": "dip",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D426",
@@ -8140,7 +8485,8 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D427",
@@ -8162,7 +8508,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "eggs"
+    "category": "eggs",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D428",
@@ -8178,7 +8525,8 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D429",
@@ -8201,7 +8549,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D430",
@@ -8224,7 +8573,8 @@
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D431",
@@ -8240,7 +8590,8 @@
     "restaurant_address": "",
     "restaurant_website": "",
     "ingredients": [],
-    "category": ""
+    "category": "",
+    "last_updated": ""
   },
   {
     "id": "D432",
@@ -8264,7 +8615,8 @@
       "breading",
       "vodka sauce"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D433",
@@ -8288,7 +8640,8 @@
       "batter",
       "ranch"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D434",
@@ -8314,7 +8667,8 @@
       "goat cheese",
       "honey"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D435",
@@ -8338,7 +8692,8 @@
     "ingredients": [
       "chicken wings"
     ],
-    "category": "wings"
+    "category": "wings",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D436",
@@ -8363,7 +8718,8 @@
       "ranch chips",
       "fresh vegetables"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D437",
@@ -8388,7 +8744,8 @@
       "tortilla chips",
       "white queso"
     ],
-    "category": "dip"
+    "category": "dip",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D438",
@@ -8417,7 +8774,8 @@
       "yum yum sauce",
       "teriyaki sauce"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D439",
@@ -8445,7 +8803,8 @@
       "salsa",
       "sour cream"
     ],
-    "category": "quesadilla"
+    "category": "quesadilla",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D440",
@@ -8476,7 +8835,8 @@
       "bacon",
       "green goddess dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D441",
@@ -8506,7 +8866,8 @@
       "ham",
       "turkey"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D442",
@@ -8534,7 +8895,8 @@
       "red onion",
       "blue cheese dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D443",
@@ -8560,7 +8922,8 @@
       "parmesan",
       "chives"
     ],
-    "category": "soup"
+    "category": "soup",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D444",
@@ -8582,7 +8945,8 @@
       "red chili flakes",
       "house caesar dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D445",
@@ -8608,7 +8972,8 @@
       "honey mustard",
       "ranch"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D446",
@@ -8635,7 +9000,8 @@
       "tomato",
       "arugula"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D447",
@@ -8662,7 +9028,8 @@
       "cheese sauce",
       "hoagie roll"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D448",
@@ -8689,7 +9056,8 @@
       "onions",
       "bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D449",
@@ -8716,7 +9084,8 @@
       "ranch celery slaw",
       "bun"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D450",
@@ -8740,7 +9109,8 @@
       "white American cheese",
       "sourdough"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D451",
@@ -8770,7 +9140,8 @@
       "lime",
       "taco shells"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D452",
@@ -8797,7 +9168,8 @@
       "garlic aioli",
       "bun"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D453",
@@ -8826,7 +9198,8 @@
       "red onion",
       "bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D454",
@@ -8850,7 +9223,8 @@
       "brussels sprouts",
       "mashed potatoes"
     ],
-    "category": "pork"
+    "category": "pork",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D455",
@@ -8873,7 +9247,8 @@
       "mashed potatoes",
       "sawmill gravy"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D456",
@@ -8900,7 +9275,8 @@
       "sweet potatoes",
       "broccolini"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D457",
@@ -8925,7 +9301,8 @@
       "Crystal cream sauce",
       "cheese grits"
     ],
-    "category": "seafood"
+    "category": "seafood",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D458",
@@ -8949,7 +9326,8 @@
       "linguine pasta",
       "basil and almond pesto"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D459",
@@ -8972,6 +9350,7 @@
       "pickled red onion"
     ],
     "category": "appetizer",
+    "last_updated": "2026-06-27",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -8996,6 +9375,7 @@
       "rum butter"
     ],
     "category": "side",
+    "last_updated": "2026-06-27",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -9019,6 +9399,7 @@
       "chili oil"
     ],
     "category": "side",
+    "last_updated": "2026-06-27",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -9043,6 +9424,7 @@
       "sweet potato"
     ],
     "category": "seafood",
+    "last_updated": "2026-06-27",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -9066,6 +9448,7 @@
       "1605 Manchego"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -9091,6 +9474,7 @@
       "crispy plantains"
     ],
     "category": "seafood",
+    "last_updated": "2026-06-27",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -9117,6 +9501,7 @@
       "pineapple salsa"
     ],
     "category": "chicken",
+    "last_updated": "2026-06-27",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -9145,6 +9530,7 @@
       "yucca fries"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -9168,6 +9554,7 @@
       "candied oranges"
     ],
     "category": "side",
+    "last_updated": "2026-06-27",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -9193,6 +9580,7 @@
       "horseradish butter"
     ],
     "category": "steak",
+    "last_updated": "2026-06-27",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -9220,6 +9608,7 @@
       "burger bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "menu_statement": "Dishes may include items not listed. Substitutions are politely declined. We are happy to omit any items for dietary restrictions."
   },
   {
@@ -9245,6 +9634,7 @@
       "jalapeño slice"
     ],
     "category": "nachos",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9270,6 +9660,7 @@
       "sweet chili sauce"
     ],
     "category": "appetizer",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9294,6 +9685,7 @@
       "sesame seeds"
     ],
     "category": "appetizer",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9317,6 +9709,7 @@
       "carrot-ginger dressing"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9346,6 +9739,7 @@
       "shiitake mushrooms"
     ],
     "category": "wrap",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9369,6 +9763,7 @@
       "ssamjang hot sauce"
     ],
     "category": "wings",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9392,6 +9787,7 @@
       "sriracha yogurt"
     ],
     "category": "appetizer",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9416,6 +9812,7 @@
       "sesame seeds"
     ],
     "category": "plate",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9439,6 +9836,7 @@
       "jalapeño"
     ],
     "category": "appetizer",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9462,6 +9860,7 @@
       "green onion"
     ],
     "category": "appetizer",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9486,6 +9885,7 @@
       "ginger-scallion relish"
     ],
     "category": "appetizer",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9510,6 +9910,7 @@
       "green onion"
     ],
     "category": "appetizer",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9537,6 +9938,7 @@
       "curly fries"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9564,6 +9966,7 @@
       "mongolian sauce"
     ],
     "category": "noodles",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9590,6 +9993,7 @@
       "rice"
     ],
     "category": "chicken",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9614,6 +10018,7 @@
       "rice"
     ],
     "category": "steak",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9641,6 +10046,7 @@
       "pineapple kimchi"
     ],
     "category": "bowl",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9670,6 +10076,7 @@
       "yum-yum sauce"
     ],
     "category": "bowl",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9697,6 +10104,7 @@
       "green onion"
     ],
     "category": "bowl",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9726,6 +10134,7 @@
       "sesame seeds"
     ],
     "category": "bowl",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9755,6 +10164,7 @@
       "sesame seeds"
     ],
     "category": "bowl",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9777,6 +10187,7 @@
       "lemon twist"
     ],
     "category": "cocktail",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9800,6 +10211,7 @@
       "jalapeño"
     ],
     "category": "cocktail",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9823,6 +10235,7 @@
       "soda"
     ],
     "category": "cocktail",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9846,6 +10259,7 @@
       "cava"
     ],
     "category": "cocktail",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9868,6 +10282,7 @@
       "angostura bitters"
     ],
     "category": "cocktail",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9892,6 +10307,7 @@
       "rosé"
     ],
     "category": "cocktail",
+    "last_updated": "2026-06-27",
     "menu_statement": "Made cooked to order or may include raw ingredients."
   },
   {
@@ -9916,6 +10332,7 @@
       "cinnamon"
     ],
     "category": "coffee",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9944,6 +10361,7 @@
       "FM banana syrup"
     ],
     "category": "coffee",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9972,6 +10390,7 @@
       "turmeric blend"
     ],
     "category": "coffee",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -9999,6 +10418,7 @@
       "house rosemary-infused honey"
     ],
     "category": "coffee",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10030,6 +10450,7 @@
       "seasonal preserves"
     ],
     "category": "appetizer",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10065,6 +10486,7 @@
       "sourdough"
     ],
     "category": "plate",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10092,6 +10514,7 @@
       "dill pickles"
     ],
     "category": "appetizer",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10122,6 +10545,7 @@
       "pepper toasted pita"
     ],
     "category": "appetizer",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10154,6 +10578,7 @@
       "sourdough"
     ],
     "category": "omelette",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10188,6 +10613,7 @@
       "sourdough"
     ],
     "category": "omelette",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10219,6 +10645,7 @@
       "cheddar cheese"
     ],
     "category": "plate",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10251,6 +10678,7 @@
       "grilled bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10284,6 +10712,7 @@
       "sourdough"
     ],
     "category": "plate",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10314,6 +10743,7 @@
       "Vermont maple syrup"
     ],
     "category": "toast",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10347,6 +10777,7 @@
       "grilled bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10380,6 +10811,7 @@
       "grilled bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10413,6 +10845,7 @@
       "grilled bun"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10446,6 +10879,7 @@
       "parmesan"
     ],
     "category": "pasta",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10479,6 +10913,7 @@
       "smoked Gouda grits"
     ],
     "category": "seafood",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10510,6 +10945,7 @@
       "Loveless Cafe chow chow"
     ],
     "category": "seafood",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10545,6 +10981,7 @@
       "sourdough"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10580,6 +11017,7 @@
       "sourdough"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10613,6 +11051,7 @@
       "Caesar dressing"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10648,6 +11087,7 @@
       "kale"
     ],
     "category": "bowl",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10681,6 +11121,7 @@
       "sourdough"
     ],
     "category": "toast",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10713,6 +11154,7 @@
       "grilled bun"
     ],
     "category": "eggs",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10745,6 +11187,7 @@
       "plain bagel"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10777,6 +11220,7 @@
       "pickled onions"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10811,6 +11255,7 @@
       "multigrain bread"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10843,6 +11288,7 @@
       "honey white bread"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10876,6 +11322,7 @@
       "multigrain bread"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -10906,7 +11353,8 @@
       "vinegar",
       "sesame seeds"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D530",
@@ -10930,7 +11378,8 @@
       "mango dressing",
       "mango"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D531",
@@ -10953,7 +11402,8 @@
       "unagi sauce",
       "spicy mayo"
     ],
-    "category": "nachos"
+    "category": "nachos",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D532",
@@ -10979,7 +11429,8 @@
       "jalapeno",
       "lime"
     ],
-    "category": "nachos"
+    "category": "nachos",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D533",
@@ -11006,7 +11457,8 @@
       "cabbage",
       "sushi rice"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D534",
@@ -11033,7 +11485,8 @@
       "unagi sauce",
       "avocado"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D535",
@@ -11060,7 +11513,8 @@
       "cucumbers",
       "avocado"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D536",
@@ -11086,7 +11540,8 @@
       "Dorito crunch",
       "sriracha"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D537",
@@ -11112,7 +11567,8 @@
       "jalapeños",
       "sweet chili sauce"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D538",
@@ -11136,7 +11592,8 @@
       "macadamia nuts",
       "sesame"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D539",
@@ -11163,7 +11620,8 @@
       "ninja sauce",
       "tortilla crunch"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D540",
@@ -11188,7 +11646,8 @@
       "cucumbers",
       "spicy mango mayo"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D541",
@@ -11215,7 +11674,8 @@
       "unagi sauce",
       "Dorito crunch"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D542",
@@ -11240,7 +11700,8 @@
       "apples",
       "avocado"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D543",
@@ -11266,7 +11727,8 @@
       "caramelized onions",
       "sweet fried plantains"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D544",
@@ -11295,7 +11757,8 @@
       "tomatoes",
       "cabbage"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D545",
@@ -11321,7 +11784,8 @@
       "cream cheese",
       "sesame"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D546",
@@ -11347,7 +11811,8 @@
       "avocado",
       "unagi sauce"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D547",
@@ -11373,7 +11838,8 @@
       "cucumber",
       "avocado"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D548",
@@ -11399,7 +11865,8 @@
       "jalapeños",
       "tortilla crunch"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D549",
@@ -11426,7 +11893,8 @@
       "peanuts",
       "unagi sauce"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D550",
@@ -11454,7 +11922,8 @@
       "cabbage",
       "spicy mango mayo"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D551",
@@ -11478,7 +11947,8 @@
       "cream cheese",
       "unagi sauce"
     ],
-    "category": "sushi burrito"
+    "category": "sushi burrito",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D552",
@@ -11503,7 +11973,8 @@
       "cilantro",
       "lime"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D553",
@@ -11527,7 +11998,8 @@
       "mango slaw",
       "jalapeno"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D554",
@@ -11552,7 +12024,8 @@
       "ninja sauce",
       "sesame seeds"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D555",
@@ -11577,7 +12050,8 @@
       "mango slaw",
       "sesame seeds"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D556",
@@ -11602,7 +12076,8 @@
       "cream cheese",
       "cilantro"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D557",
@@ -11623,7 +12098,8 @@
       "dumpling wrapper",
       "Alabama tomato vinaigrette"
     ],
-    "category": "dumpling"
+    "category": "dumpling",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D558",
@@ -11644,7 +12120,8 @@
       "dumpling wrapper",
       "Alabama tomato vinaigrette"
     ],
-    "category": "dumpling"
+    "category": "dumpling",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D559",
@@ -11666,7 +12143,8 @@
       "water chestnuts",
       "house sweet chili sauce"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D560",
@@ -11688,7 +12166,8 @@
       "edamame",
       "Himalayan pink salt"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D561",
@@ -11710,7 +12189,8 @@
       "edamame",
       "Himalayan pink salt"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D562",
@@ -11732,7 +12212,8 @@
       "tempura batter",
       "togarashi sauce"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D563",
@@ -11753,7 +12234,8 @@
       "chicken",
       "house sweet chili sauce"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D564",
@@ -11775,7 +12257,8 @@
       "beer batter",
       "togarashi sauce"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D565",
@@ -11798,7 +12281,8 @@
       "shiitake mushrooms",
       "wrap"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D566",
@@ -11820,7 +12304,8 @@
       "ginger scallion sauce",
       "peanut sauce"
     ],
-    "category": "noodles"
+    "category": "noodles",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D567",
@@ -11844,7 +12329,8 @@
       "red bell peppers",
       "green bell peppers"
     ],
-    "category": "wings"
+    "category": "wings",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D568",
@@ -11873,7 +12359,8 @@
       "cilantro",
       "sesame ginger vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D569",
@@ -11895,7 +12382,8 @@
       "seared tuna",
       "wasabi aioli"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D570",
@@ -11918,7 +12406,8 @@
       "calamansi ponzu",
       "jalapeños"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D571",
@@ -11941,7 +12430,8 @@
       "hiyashi wakame",
       "sushi rice"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D572",
@@ -11963,7 +12453,8 @@
       "rice",
       "scallions"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D573",
@@ -11993,7 +12484,8 @@
       "house citrus dressing",
       "peanuts"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D574",
@@ -12023,7 +12515,8 @@
       "cilantro",
       "sesame ginger vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D575",
@@ -12049,7 +12542,8 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D576",
@@ -12072,7 +12566,8 @@
       "masago",
       "tempura"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D577",
@@ -12095,7 +12590,8 @@
       "cucumber",
       "Abhi aioli"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D578",
@@ -12117,7 +12613,8 @@
       "avocado",
       "cucumber"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D579",
@@ -12140,7 +12637,8 @@
       "cucumber",
       "tempura"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D580",
@@ -12163,7 +12661,8 @@
       "masago",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D581",
@@ -12191,7 +12690,8 @@
       "wasabi aioli",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D582",
@@ -12215,7 +12715,8 @@
       "avocado",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D583",
@@ -12241,7 +12742,8 @@
       "hot sauce",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D584",
@@ -12265,7 +12767,8 @@
       "smoked eel",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D585",
@@ -12290,7 +12793,8 @@
       "wasabi aioli",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D586",
@@ -12316,7 +12820,8 @@
       "cucumber",
       "carrots"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D587",
@@ -12339,7 +12844,8 @@
       "avocado",
       "tuna"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D588",
@@ -12364,7 +12870,8 @@
       "Abhi aioli",
       "sriracha"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D589",
@@ -12389,7 +12896,8 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D590",
@@ -12416,7 +12924,8 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D591",
@@ -12441,7 +12950,8 @@
       "salmon",
       "steamed shrimp"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D592",
@@ -12463,7 +12973,8 @@
       "avocado",
       "cucumber"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D593",
@@ -12488,7 +12999,8 @@
       "Abhi aioli",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D594",
@@ -12513,7 +13025,8 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D595",
@@ -12539,7 +13052,8 @@
       "sriracha",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D596",
@@ -12562,7 +13076,8 @@
       "cucumber",
       "Abhi aioli"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D597",
@@ -12587,7 +13102,8 @@
       "hamachi",
       "tobiko"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D598",
@@ -12610,7 +13126,8 @@
       "smoked salmon",
       "eel sauce"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D599",
@@ -12636,7 +13153,8 @@
       "eel sauce",
       "scallions"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D600",
@@ -12659,7 +13177,8 @@
       "cucumber",
       "steamed shrimp"
     ],
-    "category": "roll"
+    "category": "roll",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D601",
@@ -12682,7 +13201,8 @@
       "shrimp",
       "Korean bbq sauce"
     ],
-    "category": "sekuwa"
+    "category": "sekuwa",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D602",
@@ -12712,7 +13232,8 @@
       "ginger scallion sauce",
       "premium jasmine rice"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D603",
@@ -12740,7 +13261,8 @@
       "sushi rice",
       "shrimp chip"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D604",
@@ -12769,7 +13291,8 @@
       "Abhi aioli",
       "shrimp chip"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D605",
@@ -12795,7 +13318,8 @@
       "cilantro",
       "premium jasmine rice"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D606",
@@ -12818,7 +13342,8 @@
       "tomato",
       "onions"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D607",
@@ -12844,7 +13369,8 @@
       "kimchi",
       "premium jasmine rice"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D608",
@@ -12869,7 +13395,8 @@
       "scallions",
       "cilantro"
     ],
-    "category": "noodle bowl"
+    "category": "noodle bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D609",
@@ -12895,7 +13422,8 @@
       "tree ear mushroom",
       "soft boiled egg"
     ],
-    "category": "noodle bowl"
+    "category": "noodle bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D610",
@@ -12925,7 +13453,8 @@
       "tree ear mushrooms",
       "spinach"
     ],
-    "category": "noodle bowl"
+    "category": "noodle bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D611",
@@ -12948,7 +13477,8 @@
       "carrots",
       "spinach"
     ],
-    "category": "noodle bowl"
+    "category": "noodle bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D612",
@@ -12971,7 +13501,8 @@
       "carrots",
       "spinach"
     ],
-    "category": "noodle bowl"
+    "category": "noodle bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D613",
@@ -12997,7 +13528,8 @@
       "tree ear mushrooms",
       "carrots"
     ],
-    "category": "noodle bowl"
+    "category": "noodle bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D614",
@@ -13020,7 +13552,8 @@
       "cilantro",
       "fried noodles"
     ],
-    "category": "noodle bowl"
+    "category": "noodle bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D615",
@@ -13046,7 +13579,8 @@
       "scallions",
       "cilantro"
     ],
-    "category": "noodle bowl"
+    "category": "noodle bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D616",
@@ -13069,7 +13603,8 @@
       "Thai basil",
       "premium jasmine rice"
     ],
-    "category": "curry"
+    "category": "curry",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D617",
@@ -13092,7 +13627,8 @@
       "onions",
       "premium jasmine rice"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D618",
@@ -13115,7 +13651,8 @@
       "premium jasmine rice",
       "cilantro"
     ],
-    "category": "curry"
+    "category": "curry",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D619",
@@ -13139,7 +13676,8 @@
       "cilantro",
       "onions"
     ],
-    "category": "curry"
+    "category": "curry",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D620",
@@ -13163,7 +13701,8 @@
       "carrots",
       "premium jasmine rice"
     ],
-    "category": "curry"
+    "category": "curry",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D621",
@@ -13193,6 +13732,7 @@
       "Old Fashion Bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13234,6 +13774,7 @@
       "Sweet Sourdough Bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13277,6 +13818,7 @@
       "Old Fashion Bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13319,6 +13861,7 @@
       "Old Fashion Bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13363,6 +13906,7 @@
       "Wheat Bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13407,6 +13951,7 @@
       "Wheat Bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13448,6 +13993,7 @@
       "Sweet Sourdough Bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13488,6 +14034,7 @@
       "Wheat Bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13530,6 +14077,7 @@
       "Old Fashion Bun"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13572,6 +14120,7 @@
       "Old Fashion Bun"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13616,6 +14165,7 @@
       "Sourdough Bread"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13657,6 +14207,7 @@
       "Old Fashion Bun"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13697,6 +14248,7 @@
       "BBQ sauce"
     ],
     "category": "chicken",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13739,6 +14291,7 @@
       "Old Fashion Bun"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13781,6 +14334,7 @@
       "Old Fashion Bun"
     ],
     "category": "sandwich",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13822,6 +14376,7 @@
       "Old Fashion Bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13866,6 +14421,7 @@
       "kalamata olives"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13909,6 +14465,7 @@
       "roasted red peppers"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13952,6 +14509,7 @@
       "roasted red peppers"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "sourcing",
@@ -13995,7 +14553,8 @@
       "roasted jalapeño vinaigrette",
       "white or wheat wrap"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D641",
@@ -14021,7 +14580,8 @@
       "citrus vinaigrette",
       "white or wheat wrap"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D642",
@@ -14048,7 +14608,8 @@
       "honey mustard vinaigrette",
       "white or wheat wrap"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D643",
@@ -14075,7 +14636,8 @@
       "honey mustard vinaigrette",
       "white or wheat wrap"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D644",
@@ -14098,7 +14660,8 @@
       "cheddar cheese",
       "white wrap"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D645",
@@ -14126,7 +14689,8 @@
       "honey sesame dressing",
       "white or wheat wrap"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D646",
@@ -14150,7 +14714,8 @@
       "fresh fruit",
       "citrus vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D647",
@@ -14176,7 +14741,8 @@
       "pepper jack cheese",
       "roasted jalapeño vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D648",
@@ -14201,7 +14767,8 @@
       "cheddar cheese",
       "honey mustard vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D649",
@@ -14226,7 +14793,8 @@
       "feta cheese",
       "citrus vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D650",
@@ -14252,7 +14820,8 @@
       "shredded carrots",
       "honey sesame dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D651",
@@ -14276,7 +14845,8 @@
       "bacon",
       "French roll"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D652",
@@ -14301,7 +14871,8 @@
       "aioli",
       "French roll"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D653",
@@ -14324,7 +14895,8 @@
       "hot-sweet mustard",
       "wheat bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D654",
@@ -14349,7 +14921,8 @@
       "mustard",
       "French roll"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D655",
@@ -14374,7 +14947,8 @@
       "aioli",
       "white bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D656",
@@ -14397,7 +14971,8 @@
       "aioli",
       "white bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D657",
@@ -14418,7 +14993,8 @@
       "aioli",
       "yeast rolls"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D658",
@@ -14441,7 +15017,8 @@
       "tomatoes",
       "wheat bread"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D659",
@@ -14463,7 +15040,8 @@
       "lettuce",
       "white bread"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D660",
@@ -14485,7 +15063,8 @@
       "broccoli salad",
       "orange roll"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D661",
@@ -14508,7 +15087,8 @@
       "broccoli salad",
       "white bread"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D662",
@@ -14531,7 +15111,8 @@
       "garden salad",
       "orange roll"
     ],
-    "category": "chicken"
+    "category": "chicken",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D663",
@@ -14554,7 +15135,8 @@
       "garden salad",
       "orange roll"
     ],
-    "category": "steak"
+    "category": "steak",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D664",
@@ -14577,7 +15159,8 @@
       "garden salad",
       "orange roll"
     ],
-    "category": "kabob"
+    "category": "kabob",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D665",
@@ -14602,7 +15185,8 @@
       "provolone cheese",
       "flour tortilla"
     ],
-    "category": "quesadilla"
+    "category": "quesadilla",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D666",
@@ -14627,7 +15211,8 @@
       "salsa",
       "flour tortilla"
     ],
-    "category": "quesadilla"
+    "category": "quesadilla",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D667",
@@ -14647,7 +15232,8 @@
     "ingredients": [
       "rice pilaf"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D668",
@@ -14667,7 +15253,8 @@
     "ingredients": [
       "broccoli salad"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D669",
@@ -14688,7 +15275,8 @@
     "ingredients": [
       "fresh seasonal fruit"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D670",
@@ -14708,7 +15296,8 @@
     "ingredients": [
       "hot cheddar pasta"
     ],
-    "category": "pasta"
+    "category": "pasta",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D671",
@@ -14729,7 +15318,8 @@
     "ingredients": [
       "roasted seasonal vegetables"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D672",
@@ -14750,7 +15340,8 @@
     "ingredients": [
       "garden salad"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D673",
@@ -14781,6 +15372,7 @@
       "honey mustard lemon vinaigrette"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -14815,6 +15407,7 @@
       "raw walnuts"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -14851,6 +15444,7 @@
       "lemon poppy seed vinaigrette"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -14887,6 +15481,7 @@
       "pesto vinaigrette"
     ],
     "category": "bowl",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -14922,6 +15517,7 @@
       "balsamic vinaigrette"
     ],
     "category": "bowl",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -14958,6 +15554,7 @@
       "cucumber tahini yogurt"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -14992,6 +15589,7 @@
       "caesar dressing"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -15029,6 +15627,7 @@
       "chipotle honey vinaigrette"
     ],
     "category": "salad",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "dietary",
@@ -15065,7 +15664,8 @@
       "Slut Sauce",
       "vegan Hawaiian bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D682",
@@ -15095,7 +15695,8 @@
       "Slut Sauce",
       "vegan Hawaiian bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D683",
@@ -15127,7 +15728,8 @@
       "vegan mayo",
       "hoagie roll"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D684",
@@ -15154,7 +15756,8 @@
       "pickles",
       "vegan Hawaiian bun"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D685",
@@ -15176,7 +15779,8 @@
       "french fries",
       "Slut Dust"
     ],
-    "category": "side"
+    "category": "side",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D686",
@@ -15202,7 +15806,8 @@
       "romaine",
       "basil caesar dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D687",
@@ -15230,7 +15835,8 @@
       "basil vinaigrette",
       "hot honey drizzle"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D688",
@@ -15257,7 +15863,8 @@
       "whole wheat tortilla",
       "basil caesar dressing"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D690",
@@ -15281,7 +15888,8 @@
       "kale",
       "creamy caesar dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D691",
@@ -15305,7 +15913,8 @@
       "romaine",
       "mexican caesar dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D693",
@@ -15332,7 +15941,8 @@
       "romaine",
       "buttermilk ranch dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D694",
@@ -15358,7 +15968,8 @@
       "romaine",
       "sweet & smoky chipotle vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D695",
@@ -15385,7 +15996,8 @@
       "romaine",
       "chopt vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D696",
@@ -15412,7 +16024,8 @@
       "romaine",
       "buttermilk ranch dressing"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D697",
@@ -15437,7 +16050,8 @@
       "romaine & chopt lettuce blend",
       "white balsamic vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D699",
@@ -15470,7 +16084,8 @@
       "carrot miso dressing",
       "creamy sesame dressing"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D700",
@@ -15504,7 +16119,8 @@
       "chopt vinaigrette",
       "fiery feta dressing"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D701",
@@ -15537,7 +16153,8 @@
       "white balsamic vinaigrette",
       "balsamic vinaigrette"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D702",
@@ -15566,7 +16183,8 @@
       "carrot miso dressing",
       "creamy sesame dressing"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D703",
@@ -15594,7 +16212,8 @@
       "whole wheat tortilla",
       "chopt vinaigrette"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D704",
@@ -15621,7 +16240,8 @@
       "whole wheat tortilla",
       "smoky bacon russian dressing"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D705",
@@ -15646,7 +16266,8 @@
       "whole wheat tortilla",
       "creamy caesar dressing"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D706",
@@ -15671,7 +16292,8 @@
       "whole wheat tortilla",
       "mexican caesar dressing"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D707",
@@ -15701,7 +16323,8 @@
       "whole wheat tortilla",
       "mexican goddess dressing"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D708",
@@ -15729,7 +16352,8 @@
       "whole wheat tortilla",
       "buttermilk ranch dressing"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D709",
@@ -15756,7 +16380,8 @@
       "whole wheat tortilla",
       "sweet & smoky chipotle vinaigrette"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D710",
@@ -15784,7 +16409,8 @@
       "whole wheat tortilla",
       "chopt vinaigrette"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D712",
@@ -15810,7 +16436,8 @@
       "whole wheat tortilla",
       "white balsamic vinaigrette"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D713",
@@ -15839,7 +16466,8 @@
       "whole wheat tortilla",
       "chipotle ranch dressing"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D714",
@@ -15868,7 +16496,8 @@
       "whole wheat tortilla",
       "creamy sesame dressing"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D715",
@@ -15894,6 +16523,7 @@
       "tomato basil wrap"
     ],
     "category": "wrap",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -15927,6 +16557,7 @@
       "whole wheat wrap"
     ],
     "category": "wrap",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -15959,6 +16590,7 @@
       "tomato basil wrap"
     ],
     "category": "wrap",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -15991,6 +16623,7 @@
       "whole wheat wrap"
     ],
     "category": "wrap",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16023,6 +16656,7 @@
       "tomato basil wrap"
     ],
     "category": "wrap",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16056,6 +16690,7 @@
       "whole wheat wrap"
     ],
     "category": "wrap",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16088,6 +16723,7 @@
       "potato bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16122,6 +16758,7 @@
       "potato bun"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16154,6 +16791,7 @@
       "grilled mushrooms"
     ],
     "category": "burger",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16185,6 +16823,7 @@
       "red onions"
     ],
     "category": "plate",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16215,6 +16854,7 @@
       "mozzarella cheese"
     ],
     "category": "plate",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16246,6 +16886,7 @@
       "red onions"
     ],
     "category": "plate",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16276,6 +16917,7 @@
       "pickles"
     ],
     "category": "plate",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16308,6 +16950,7 @@
       "blueberry"
     ],
     "category": "drink",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16339,6 +16982,7 @@
       "strawberry"
     ],
     "category": "drink",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16370,6 +17014,7 @@
       "peanut butter"
     ],
     "category": "drink",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16401,6 +17046,7 @@
       "banana"
     ],
     "category": "drink",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16432,6 +17078,7 @@
       "banana"
     ],
     "category": "drink",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16463,6 +17110,7 @@
       "lemonade"
     ],
     "category": "drink",
+    "last_updated": "2026-06-27",
     "restaurant_claims": [
       {
         "type": "allergen-policy",
@@ -16491,7 +17139,8 @@
       "cahaba buffalo sauce",
       "ranch"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D738",
@@ -16516,7 +17165,8 @@
       "radish",
       "tortilla chips"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D739",
@@ -16542,7 +17192,8 @@
       "vegetables",
       "dipping sauce"
     ],
-    "category": "appetizer"
+    "category": "appetizer",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D740",
@@ -16570,7 +17221,8 @@
       "bacon tahini vinaigrette",
       "grilled chicken"
     ],
-    "category": "bowl"
+    "category": "bowl",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D741",
@@ -16597,7 +17249,8 @@
       "fresh berries",
       "lemon rosemary balsamic vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D742",
@@ -16625,7 +17278,8 @@
       "cornbread croutons",
       "ranch"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D743",
@@ -16651,7 +17305,8 @@
       "chopped bacon",
       "cornbread croutons"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D744",
@@ -16675,7 +17330,8 @@
       "gorgonzola crumbles",
       "bacon tahini vinaigrette"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D745",
@@ -16703,7 +17359,8 @@
       "scratch caesar dressing",
       "parmesan crisps"
     ],
-    "category": "salad"
+    "category": "salad",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D746",
@@ -16727,7 +17384,8 @@
       "gorgonzola crumbles",
       "jalapeno bacon"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D747",
@@ -16750,7 +17408,8 @@
       "mexican street corn",
       "kale broccoli slaw"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D748",
@@ -16776,7 +17435,8 @@
       "al white bbq sauce",
       "sweet griddled hoe cakes"
     ],
-    "category": "plate"
+    "category": "plate",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D749",
@@ -16804,7 +17464,8 @@
       "pickled red onion",
       "al white bbq sauce"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D750",
@@ -16829,7 +17490,8 @@
       "chopped bacon",
       "spiced ranch"
     ],
-    "category": "taco"
+    "category": "taco",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D751",
@@ -16857,7 +17519,8 @@
       "kale broccoli slaw",
       "orange ginger soy sauce"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D752",
@@ -16886,7 +17549,8 @@
       "red onion",
       "scratch caesar dressing"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D753",
@@ -16915,7 +17579,8 @@
       "red onion",
       "kale broccoli slaw"
     ],
-    "category": "wrap"
+    "category": "wrap",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D754",
@@ -16941,7 +17606,8 @@
       "pickled red onion",
       "bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D755",
@@ -16967,7 +17633,8 @@
       "red onion",
       "bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D756",
@@ -16995,7 +17662,8 @@
       "wickles pickles",
       "onion"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D757",
@@ -17022,7 +17690,8 @@
       "sauce",
       "bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D758",
@@ -17048,7 +17717,8 @@
       "onion",
       "bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D759",
@@ -17074,7 +17744,8 @@
       "Old Forester maple whiskey aioli",
       "bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D760",
@@ -17099,7 +17770,8 @@
       "gouda",
       "toasted potato roll"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D761",
@@ -17125,7 +17797,8 @@
       "sauce",
       "bun"
     ],
-    "category": "burger"
+    "category": "burger",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D762",
@@ -17151,7 +17824,8 @@
       "arugula",
       "red onion"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D763",
@@ -17174,7 +17848,8 @@
       "wickles pickles",
       "bun"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D764",
@@ -17199,7 +17874,8 @@
       "green tomato jam",
       "bun"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   },
   {
     "id": "D765",
@@ -17225,6 +17901,7 @@
       "greens",
       "bun"
     ],
-    "category": "sandwich"
+    "category": "sandwich",
+    "last_updated": "2026-06-27"
   }
 ]
