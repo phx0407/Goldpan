@@ -183,67 +183,6 @@
     "last_updated": "2026-06-27"
   },
   {
-    "id": "D126",
-    "name": "Sesame Chicken Bowl",
-    "restaurant": "Brick & Tin",
-    "location": "Mountain Brook, AL",
-    "level": "Moderate",
-    "tags": [
-      "gluten-free"
-    ],
-    "options": [],
-    "allergens": "Tree Nuts (cashews), Sesame, Soy (teriyaki, edamame). Contact restaurant to confirm.",
-    "hours": "Mon–Sun 10:30 AM–8:00 PM",
-    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-menus",
-    "restaurant_address": "2901 Cahaba Rd, Mountain Brook, AL 35223",
-    "restaurant_website": "https://brickandtin.com/",
-    "ingredients": [
-      "sesame chicken",
-      "edamame",
-      "crispy rice noodles",
-      "sushi rice",
-      "cashews",
-      "broccoli",
-      "savory teriyaki sauce"
-    ],
-    "category": "bowl",
-    "last_updated": "6/27/2026"
-  },
-  {
-    "id": "D013",
-    "name": "Crispy Brussels",
-    "restaurant": "Brick & Tin",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": [],
-    "category": "",
-    "last_updated": ""
-  },
-  {
-    "id": "D014",
-    "name": "Fall Harvest Salad",
-    "restaurant": "Brick & Tin",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": [],
-    "category": "",
-    "last_updated": ""
-  },
-  {
     "id": "D015",
     "name": "Simple Salad",
     "restaurant": "Brick & Tin",
@@ -262,23 +201,6 @@
     "ingredients": [],
     "category": "salad",
     "last_updated": "6/27/2026"
-  },
-  {
-    "id": "D016",
-    "name": "Fall Farro Salad",
-    "restaurant": "Brick & Tin",
-    "location": "Birmingham",
-    "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
-    "ingredients": [],
-    "category": "",
-    "last_updated": ""
   },
   {
     "id": "D017",
@@ -1715,7 +1637,7 @@
       "vegan"
     ],
     "options": [],
-    "allergens": "unknown (homemade hummus)",
+    "allergens": "Wheat (vegan pita bread). Allergens in homemade hummus unconfirmed. Contact restaurant to confirm.",
     "hours": "Mon–Sat 7:00 AM–11:00 PM",
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
@@ -1833,7 +1755,7 @@
       "vegan"
     ],
     "options": [],
-    "allergens": "unknown (vegan cheese, vegan mayo)",
+    "allergens": "Wheat (vegan pita bread). Allergens in vegan cheese and vegan mayo unconfirmed. Contact restaurant to confirm.",
     "hours": "Mon–Sat 7:00 AM–11:00 PM",
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
@@ -1852,7 +1774,7 @@
       "vegan"
     ],
     "options": [],
-    "allergens": "unknown (vegan salami, vegan cheese, vegan mayo)",
+    "allergens": "Wheat (pita bread). Allergens in vegan salami and vegan cheese unconfirmed. Contact restaurant to confirm.",
     "hours": "Mon–Sat 7:00 AM–11:00 PM",
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
@@ -1888,7 +1810,7 @@
       "vegan"
     ],
     "options": [],
-    "allergens": "unknown (vegan salami, vegan chipotle)",
+    "allergens": "Wheat (vegan pita bread). Allergens in vegan salami and vegan chipotle sauce unconfirmed. Contact restaurant to confirm.",
     "hours": "Mon–Sat 7:00 AM–11:00 PM",
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
@@ -1907,7 +1829,7 @@
       "vegetarian"
     ],
     "options": [],
-    "allergens": "dairy (parmesan), wheat (croutons), unknown (Caesar dressing)",
+    "allergens": "Dairy (parmesan), Wheat (croutons). Caesar dressing may contain eggs and anchovies. Contact restaurant to confirm.",
     "hours": "Mon–Sat 7:00 AM–11:00 PM",
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
@@ -1926,7 +1848,7 @@
       "vegan"
     ],
     "options": [],
-    "allergens": "unknown (baba ganoush)",
+    "allergens": "Wheat (pita bread). Allergens in baba ganoush unconfirmed. Contact restaurant to confirm.",
     "hours": "Mon–Sat 7:00 AM–11:00 PM",
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
@@ -2743,6 +2665,33 @@
     ],
     "category": "seafood",
     "last_updated": "2026-06-27"
+  },
+  {
+    "id": "D126",
+    "name": "Sesame Chicken Bowl",
+    "restaurant": "Brick & Tin",
+    "location": "Mountain Brook, AL",
+    "level": "Moderate",
+    "tags": [
+      "gluten-free"
+    ],
+    "options": [],
+    "allergens": "Tree Nuts (cashews), Sesame, Soy (teriyaki, edamame). Contact restaurant to confirm.",
+    "hours": "Mon–Sun 10:30 AM–8:00 PM",
+    "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-menus",
+    "restaurant_address": "2901 Cahaba Rd, Mountain Brook, AL 35223",
+    "restaurant_website": "https://brickandtin.com/",
+    "ingredients": [
+      "sesame chicken",
+      "edamame",
+      "crispy rice noodles",
+      "sushi rice",
+      "cashews",
+      "broccoli",
+      "savory teriyaki sauce"
+    ],
+    "category": "bowl",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D127",
@@ -8399,16 +8348,22 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "vegan"
+    ],
+    "options": [
+      "gf",
+      "vegan (per restaurant nutrition document). milk listed as allergen may reflect kitchen cross-contamination."
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk (possible cross-contamination — restaurant labels dish Vegan). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D401",
@@ -8666,12 +8621,12 @@
     ],
     "allergens": "Allergens sourced from Blue Root's published nutrition document: Eggs, Milk, Tree Nuts (Cashews). Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://media-cdn.getbento.com/accounts/fc1d22826aaad1786b15c971c7a95214/media/OqW1YgHOS9u4J1ta1Drn_Blueroot%20Nutrition%20Facts.pdf",
+    "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "dessert",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D420",
@@ -8691,12 +8646,12 @@
     ],
     "allergens": "Allergens sourced from Blue Root's published nutrition document: Egg, Sesame Seeds, Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://media-cdn.getbento.com/accounts/fc1d22826aaad1786b15c971c7a95214/media/OqW1YgHOS9u4J1ta1Drn_Blueroot%20Nutrition%20Facts.pdf",
+    "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "dessert",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D421",
@@ -8704,16 +8659,45 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "options": [
+      "gf",
+      "df"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Almonds, Coconut, Walnuts). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
+  },
+  {
+    "id": "D422",
+    "name": "Not Your Mama's Rice Crispy Treat",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "options": [
+      "gf",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Tree Nuts (Almonds, Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": [],
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D423",
@@ -8721,16 +8705,22 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "options": [
+      "gf",
+      "vegetarian"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk, Peanuts. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D424",
@@ -8750,12 +8740,33 @@
     ],
     "allergens": "Allergens sourced from Blue Root's published nutrition document: Sesame Seeds. Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://media-cdn.getbento.com/accounts/fc1d22826aaad1786b15c971c7a95214/media/OqW1YgHOS9u4J1ta1Drn_Blueroot%20Nutrition%20Facts.pdf",
+    "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "dip",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
+  },
+  {
+    "id": "D425",
+    "name": "Chicken Salad",
+    "restaurant": "Blue Root",
+    "location": "Birmingham",
+    "level": "Building",
+    "tags": [
+      "gluten-free"
+    ],
+    "options": [
+      "gf"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
+    "ingredients": [],
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D426",
@@ -8763,16 +8774,22 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "options": [
+      "gf",
+      "df"
+    ],
+    "allergens": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D427",
@@ -8790,12 +8807,12 @@
     ],
     "allergens": "Allergens sourced from Blue Root's published nutrition document: Egg. Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://media-cdn.getbento.com/accounts/fc1d22826aaad1786b15c971c7a95214/media/OqW1YgHOS9u4J1ta1Drn_Blueroot%20Nutrition%20Facts.pdf",
+    "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "eggs",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D428",
@@ -8803,16 +8820,22 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "options": [
+      "gf",
+      "df"
+    ],
+    "allergens": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D429",
@@ -8822,8 +8845,7 @@
     "level": "Building",
     "tags": [
       "gluten-free",
-      "dairy-free",
-      "high-protein"
+      "dairy-free"
     ],
     "options": [
       "gf",
@@ -8831,12 +8853,12 @@
     ],
     "allergens": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://media-cdn.getbento.com/accounts/fc1d22826aaad1786b15c971c7a95214/media/OqW1YgHOS9u4J1ta1Drn_Blueroot%20Nutrition%20Facts.pdf",
+    "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "chicken",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D430",
@@ -8846,8 +8868,7 @@
     "level": "Building",
     "tags": [
       "gluten-free",
-      "dairy-free",
-      "high-protein"
+      "dairy-free"
     ],
     "options": [
       "gf",
@@ -8855,12 +8876,12 @@
     ],
     "allergens": "Allergens sourced from Blue Root's published nutrition document: Fish. Kitchen processes milk, eggs, peanuts, and tree nuts.",
     "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
-    "menu_link": "https://media-cdn.getbento.com/accounts/fc1d22826aaad1786b15c971c7a95214/media/OqW1YgHOS9u4J1ta1Drn_Blueroot%20Nutrition%20Facts.pdf",
+    "menu_link": "https://bluerootco.com",
     "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
     "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
-    "category": "seafood",
-    "last_updated": "2026-06-27"
+    "category": "",
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D431",
@@ -8868,16 +8889,24 @@
     "restaurant": "Blue Root",
     "location": "Birmingham",
     "level": "Building",
-    "tags": [],
-    "options": [],
-    "allergens": "Unknown",
-    "hours": "",
-    "menu_link": "",
-    "restaurant_address": "",
-    "restaurant_website": "",
+    "tags": [
+      "gluten-free",
+      "dairy-free",
+      "vegan"
+    ],
+    "options": [
+      "gf",
+      "df",
+      "vegan"
+    ],
+    "allergens": "Allergens sourced from Blue Root's published nutrition document: Soy. Kitchen processes milk, eggs, peanuts, and tree nuts.",
+    "hours": "Mon-Fri 11am-3pm | Sat 7am-1pm",
+    "menu_link": "https://bluerootco.com",
+    "restaurant_address": "2829 2nd Ave S, Birmingham, AL 35233",
+    "restaurant_website": "https://bluerootco.com",
     "ingredients": [],
     "category": "",
-    "last_updated": ""
+    "last_updated": "6/27/2026"
   },
   {
     "id": "D432",
