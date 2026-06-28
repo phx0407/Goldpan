@@ -61,15 +61,13 @@
     "restaurant": "Real & Rosemary",
     "location": "Homewood, AL",
     "level": "Building",
-    "tags": [
-      "vegan"
-    ],
+    "tags": [],
     "options": [],
     "allergens": "soy (Impossible patty), wheat (patty, brioche bun)",
-    "hours": "Mon-Sat 11am-8pm",
-    "menu_link": "https://www.realandrosemary.com/menu/",
-    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
-    "restaurant_website": "https://www.realandrosemary.com",
+    "hours": "Thur 11am-5am, Fri-Sat 11am-6am, Sun/Tue/Wed 11am-4am",
+    "menu_link": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+    "restaurant_address": "2201 4th Place W, Birmingham, AL 35204",
+    "restaurant_website": "https://yochefsurfandturf.net/",
     "ingredients": [
       "Impossible burger patty",
       "romaine",
@@ -115,9 +113,9 @@
     "options": [],
     "allergens": "wheat (pasta), egg (likely in meatballs), dairy (parmesan)",
     "hours": "Mon-Sat 11am-8pm",
-    "menu_link": "https://kalemecrazy.net/menu/",
-    "restaurant_address": "1831 28th Ave. South, Ste. 106, Homewood, AL 35209",
-    "restaurant_website": "https://kalemecrazy.net",
+    "menu_link": "https://www.realandrosemary.com/menu/",
+    "restaurant_address": "1922 29th Ave S, Homewood, AL 35209",
+    "restaurant_website": "https://www.realandrosemary.com",
     "ingredients": [
       "angel hair pasta",
       "meatballs",
@@ -186,7 +184,7 @@
     "id": "D015",
     "name": "Simple Salad",
     "restaurant": "Brick & Tin",
-    "location": "Birmingham",
+    "location": "Mountain Brook, AL",
     "level": "Building",
     "tags": [
       "vegan",
@@ -198,7 +196,11 @@
     "menu_link": "https://brickandtin.com/mountain-brook-brick-and-tin-menus",
     "restaurant_address": "2901 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://brickandtin.com/",
-    "ingredients": [],
+    "ingredients": [
+      "spinach",
+      "romaine",
+      "champagne vinaigrette"
+    ],
     "category": "salad",
     "last_updated": "2026-06-27"
   },
@@ -335,7 +337,9 @@
     "ingredients": [
       "brussels sprouts",
       "pickled red onion",
-      "cashew"
+      "cashew",
+      "dried cherries",
+      "miso dressing"
     ],
     "category": "salad",
     "last_updated": "2026-06-27"
@@ -377,7 +381,7 @@
       "high-protein"
     ],
     "options": [],
-    "allergens": "shellfish (royal red shrimp), dairy (likely in grits and cream sauce)",
+    "allergens": "Unknown",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
     "restaurant_address": "1830 29th Ave S #175, Homewood, AL 35209",
@@ -430,7 +434,7 @@
       "high-protein"
     ],
     "options": [],
-    "allergens": "wheat (waffle), egg (waffle), dairy (bourbon butter), unknown (hot honey glaze ingredients beyond honey)",
+    "allergens": "Unknown",
     "hours": "Brunch: Sat-Sun 10am-2:30pm | Happy Hour: Mon-Sat 4-6pm",
     "menu_link": "https://www.sohostandard.bar/menus/",
     "restaurant_address": "1830 29th Ave S #175, Homewood, AL 35209",
@@ -1464,7 +1468,7 @@
     "id": "D064",
     "name": "Avocado Toast",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
       "vegan"
@@ -1475,7 +1479,12 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "avocado spread",
+      "crushed almonds",
+      "arugula",
+      "chia seeds"
+    ],
     "category": "toast",
     "last_updated": "2026-06-27"
   },
@@ -1483,7 +1492,7 @@
     "id": "D065",
     "name": "Bagels",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "options": [
@@ -1495,7 +1504,15 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "bagel",
+      "cream cheese",
+      "jelly",
+      "peanut butter",
+      "hummus",
+      "nutella",
+      "pistachios"
+    ],
     "category": "sandwich",
     "last_updated": "2026-06-27"
   },
@@ -1503,7 +1520,7 @@
     "id": "D066",
     "name": "Classic Club Wrap",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "options": [],
@@ -1512,7 +1529,16 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "turkey",
+      "swiss cheese",
+      "tomato",
+      "red onion",
+      "pickles",
+      "mayo",
+      "dijon mustard",
+      "pita bread"
+    ],
     "category": "wrap",
     "last_updated": "2026-06-27"
   },
@@ -1520,7 +1546,7 @@
     "id": "D067",
     "name": "Tuna Melt Wrap",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "options": [],
@@ -1529,7 +1555,15 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "tuna salad",
+      "cheddar cheese",
+      "arugula",
+      "cucumber",
+      "onion",
+      "pickles",
+      "pita bread"
+    ],
     "category": "wrap",
     "last_updated": "2026-06-27"
   },
@@ -1537,7 +1571,7 @@
     "id": "D068",
     "name": "Five Point Sandwich",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "options": [],
@@ -1546,7 +1580,17 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "roast beef",
+      "swiss cheese",
+      "mayonnaise",
+      "lettuce",
+      "jalapeño",
+      "tomato",
+      "onion",
+      "roasted pepper",
+      "pita bread"
+    ],
     "category": "sandwich",
     "last_updated": "2026-06-27"
   },
@@ -1554,7 +1598,7 @@
     "id": "D069",
     "name": "House Sandwich",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "options": [],
@@ -1563,7 +1607,15 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "turkey",
+      "avocado",
+      "swiss cheese",
+      "roasted pepper",
+      "grilled onions",
+      "chipotle mayonnaise",
+      "pita bread"
+    ],
     "category": "sandwich",
     "last_updated": "2026-06-27"
   },
@@ -1597,7 +1649,7 @@
     "id": "D071",
     "name": "Bham Best",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "options": [],
@@ -1606,7 +1658,14 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "pastrami",
+      "swiss cheese",
+      "roasted peppers",
+      "avocado",
+      "chipotle sauce",
+      "pita bread"
+    ],
     "category": "sandwich",
     "last_updated": "2026-06-27"
   },
@@ -1614,7 +1673,7 @@
     "id": "D072",
     "name": "Classic Club",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "options": [],
@@ -1623,7 +1682,17 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "turkey",
+      "swiss cheese",
+      "tomato",
+      "red onions",
+      "pickles",
+      "lettuce",
+      "mayo",
+      "mustard",
+      "pita bread"
+    ],
     "category": "sandwich",
     "last_updated": "2026-06-27"
   },
@@ -1631,7 +1700,7 @@
     "id": "D073",
     "name": "Lovely Hummus",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
       "vegan"
@@ -1642,7 +1711,15 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "homemade hummus",
+      "pickled tomato",
+      "lettuce",
+      "cucumbers",
+      "caramelized onions",
+      "banana peppers",
+      "vegan pita bread"
+    ],
     "category": "dip",
     "last_updated": "2026-06-27"
   },
@@ -1730,7 +1807,7 @@
     "id": "D077",
     "name": "Vegan Meatball",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
       "vegan"
@@ -1741,7 +1818,12 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "vegan meatballs",
+      "marinara sauce",
+      "vegan cheese",
+      "vegan pita bread"
+    ],
     "category": "appetizer",
     "last_updated": "2026-06-27"
   },
@@ -1749,7 +1831,7 @@
     "id": "D078",
     "name": "Surprise Me",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
       "vegan"
@@ -1760,7 +1842,15 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "vegan smoked turkey",
+      "vegan cheese",
+      "vegan mayonnaise",
+      "green apple slices",
+      "avocado",
+      "mustard",
+      "vegan pita bread"
+    ],
     "category": "sandwich",
     "last_updated": "2026-06-27"
   },
@@ -1768,7 +1858,7 @@
     "id": "D079",
     "name": "Vegan Italian Salami",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
       "vegan"
@@ -1779,7 +1869,14 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "vegan salami",
+      "vegan cheese",
+      "roasted peppers",
+      "vegan mayo",
+      "pita bread",
+      "lettuce"
+    ],
     "category": "sandwich",
     "last_updated": "2026-06-27"
   },
@@ -1787,7 +1884,7 @@
     "id": "D080",
     "name": "Birmingham Sandwich",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "options": [],
@@ -1796,7 +1893,14 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "turkey",
+      "cheese",
+      "green apple slices",
+      "avocado",
+      "mustard",
+      "pita bread"
+    ],
     "category": "sandwich",
     "last_updated": "2026-06-27"
   },
@@ -1804,7 +1908,7 @@
     "id": "D081",
     "name": "Italian Sandwich",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
       "vegan"
@@ -1815,7 +1919,14 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "vegan salami",
+      "lettuce",
+      "tomato",
+      "onions",
+      "vegan chipotle sauce",
+      "vegan pita bread"
+    ],
     "category": "sandwich",
     "last_updated": "2026-06-27"
   },
@@ -1823,7 +1934,7 @@
     "id": "D082",
     "name": "Fresh Caesar Salad",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
       "vegetarian"
@@ -1834,7 +1945,12 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "romaine lettuce",
+      "caesar dressing",
+      "parmesan cheese",
+      "croutons"
+    ],
     "category": "salad",
     "last_updated": "2026-06-27"
   },
@@ -1842,7 +1958,7 @@
     "id": "D083",
     "name": "Fresh Vegan Caesar Salad",
     "restaurant": "Adam and Eve Cafe",
-    "location": "Birmingham AL",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
       "vegan"
@@ -1853,7 +1969,12 @@
     "menu_link": "https://www.adamandevecafe.com/",
     "restaurant_address": "1022 20th St S, Birmingham, AL 35205",
     "restaurant_website": "https://www.adamandevecafe.com/",
-    "ingredients": [],
+    "ingredients": [
+      "arugula",
+      "homemade baba ganoush",
+      "oil vinegar dressing",
+      "pita bread"
+    ],
     "category": "salad",
     "last_updated": "2026-06-27"
   },
@@ -1869,7 +1990,7 @@
     ],
     "options": [],
     "allergens": "dairy (yogurt), tree nuts (coconut, almond)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -1892,7 +2013,7 @@
     ],
     "options": [],
     "allergens": "wheat (breadcrumbs), dairy (parmigiano), egg (caesar dressing - undisclosed)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -1916,8 +2037,8 @@
       "gluten-free"
     ],
     "options": [],
-    "allergens": "dairy (whipped feta), tree nuts (walnuts)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "allergens": "dairy (whipped feta), tree nuts (walnuts), wheat (barley, wheat berry)",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -1945,7 +2066,7 @@
     ],
     "options": [],
     "allergens": "wheat (bread), dairy (cream cheese), egg (poached egg), sesame (everything spice)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -1969,7 +2090,7 @@
     "tags": [],
     "options": [],
     "allergens": "wheat (english muffin), dairy (hollandaise), egg (poached eggs, hollandaise)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -1994,7 +2115,7 @@
     ],
     "options": [],
     "allergens": "wheat (banana bread), dairy (mascarpone), egg (french toast - undisclosed), tree nuts (walnuts)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2019,7 +2140,7 @@
     ],
     "options": [],
     "allergens": "dairy (honey butter), wheat (pancakes - undisclosed), egg (pancakes - undisclosed)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2040,7 +2161,7 @@
     "tags": [],
     "options": [],
     "allergens": "wheat (biscuit, fried coating), dairy (buttermilk, ranch)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2064,7 +2185,7 @@
     ],
     "options": [],
     "allergens": "egg (scrambled eggs)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2090,7 +2211,7 @@
     ],
     "options": [],
     "allergens": "dairy (parmesan), egg (poached egg)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2114,7 +2235,7 @@
     "tags": [],
     "options": [],
     "allergens": "wheat (rigatoni), dairy (manchego)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2136,7 +2257,7 @@
     "tags": [],
     "options": [],
     "allergens": "wheat (bun), dairy (cheddar), egg (russian, dijonaise - undisclosed)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2163,7 +2284,7 @@
     ],
     "options": [],
     "allergens": "egg (two eggs, hollandaise), dairy (hollandaise)",
-    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
+    "hours": "Brunch",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2236,7 +2357,7 @@
     ],
     "options": [],
     "allergens": "wheat (sourdough), dairy (creme fraiche)",
-    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2258,7 +2379,7 @@
     "tags": [],
     "options": [],
     "allergens": "wheat (semolina cracker), egg (beef tallow mayo)",
-    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2313,7 +2434,7 @@
     ],
     "options": [],
     "allergens": "dairy (fior di latte mozzarella)",
-    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2362,7 +2483,7 @@
     ],
     "options": [],
     "allergens": "wheat (spelt flour), dairy (cheese, butter), soy (miso - undisclosed)",
-    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2386,7 +2507,7 @@
     ],
     "options": [],
     "allergens": "wheat (pasta, breadcrumbs), dairy (Shelburne cheddar)",
-    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2460,7 +2581,7 @@
     ],
     "options": [],
     "allergens": "peanuts (peanut-lime gremolata)",
-    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2484,7 +2605,7 @@
     ],
     "options": [],
     "allergens": "none identified",
-    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2506,7 +2627,7 @@
     "tags": [],
     "options": [],
     "allergens": "wheat (rigatoni), dairy (creme fraiche, manchego)",
-    "hours": "Mon-Fri 11am-9pm, Sat-Sun 9am-2pm & 5-9pm",
+    "hours": "Mon-Fri 11am-9pm, Sat 9am-2pm & 5-9pm, Sun 9am-2pm & 5-9pm",
     "menu_link": "https://essentialbham.com/menus",
     "restaurant_address": "2215 1st Ave N, Birmingham, AL 35203",
     "restaurant_website": "https://essentialbham.com/",
@@ -2534,7 +2655,11 @@
     "restaurant_address": "2901 Cahaba Rd, Mountain Brook, AL 35223",
     "restaurant_website": "https://brickandtin.com/",
     "ingredients": [
-      "certified angus braised beef brisket"
+      "certified angus braised beef brisket",
+      "certified angus beef braised beef brisket",
+      "caramelized onions",
+      "white barbecue sauce",
+      "pain de mie flatbread"
     ],
     "category": "sandwich",
     "last_updated": "2026-06-27"
@@ -4830,7 +4955,7 @@
     "id": "D233",
     "name": "Cheesy Garlic Sticks",
     "restaurant": "Emmy Squared",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [
       "vegetarian"
@@ -4841,7 +4966,12 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [],
+    "ingredients": [
+      "garlic breadsticks",
+      "roasted garlic",
+      "pesto",
+      "red sauce"
+    ],
     "category": "appetizer",
     "last_updated": "2026-06-27"
   },
@@ -4849,7 +4979,7 @@
     "id": "D235",
     "name": "Zia Fries",
     "restaurant": "Emmy Squared",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "options": [],
@@ -4858,7 +4988,13 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [],
+    "ingredients": [
+      "waffle fries",
+      "bacon",
+      "scallions",
+      "hatch chile cheddar queso",
+      "green ranch"
+    ],
     "category": "side",
     "last_updated": "2026-06-27"
   },
@@ -4866,7 +5002,7 @@
     "id": "D239",
     "name": "Le Big Matt",
     "restaurant": "Emmy Squared",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "options": [],
@@ -4875,7 +5011,14 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [],
+    "ingredients": [
+      "grass-fed beef patty",
+      "american cheese",
+      "Sammy sauce",
+      "greens",
+      "pickles",
+      "pretzel bun"
+    ],
     "category": "burger",
     "last_updated": "2026-06-27"
   },
@@ -4883,7 +5026,7 @@
     "id": "D241",
     "name": "Chicken Parm Sandwich",
     "restaurant": "Emmy Squared",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Moderate",
     "tags": [],
     "options": [],
@@ -4892,7 +5035,13 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [],
+    "ingredients": [
+      "crispy breaded chicken",
+      "red sauce",
+      "mozzarella",
+      "basil",
+      "pretzel bun"
+    ],
     "category": "sandwich",
     "last_updated": "2026-06-27"
   },
@@ -4922,7 +5071,7 @@
     "id": "D249",
     "name": "Big Hawaiian Pizza",
     "restaurant": "Emmy Squared",
-    "location": "Birmingham",
+    "location": "Birmingham, AL",
     "level": "Building",
     "tags": [],
     "options": [
@@ -4934,7 +5083,14 @@
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
     "restaurant_website": "https://www.emmysquaredpizza.com",
-    "ingredients": [],
+    "ingredients": [
+      "cheese blend",
+      "Ezzo pepperoni",
+      "bacon",
+      "pineapple",
+      "pineapple chili glaze",
+      "Detroit-style dough"
+    ],
     "category": "pizza",
     "last_updated": "2026-06-27"
   },
