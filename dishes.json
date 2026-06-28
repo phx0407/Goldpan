@@ -213,7 +213,7 @@
       "gluten-free crust (+$4)",
       "vegan cheese (+$4) — available on sixer [8×10 | 6 slices] upon request"
     ],
-    "allergens": "dairy (cheese blend), wheat (Detroit-style dough)",
+    "allergens": "Gluten (Detroit-style dough), dairy (cheese blend), allium/garlic, nightshades (tomato sauce). Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -255,7 +255,7 @@
       "gluten-free crust (+$4)",
       "vegan cheese (+$4) — available on sixer [8×10 | 6 slices] upon request"
     ],
-    "allergens": "dairy (cheese blend), wheat (Detroit-style dough), unknown (house-made red sauce)",
+    "allergens": "⚠️ 'The Founders' does not appear in the Emmy Squared Allergy Matrix (March 2026). A pizza called 'Colony' appears in its place — this dish may have been renamed. Previous allergens (dairy, wheat) may be incomplete. Contact restaurant to confirm. Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -280,7 +280,7 @@
       "gluten-free crust (+$4)",
       "vegan cheese (+$4) — available on sixer [8×10 | 6 slices] upon request"
     ],
-    "allergens": "dairy (cheese blend, pecorino), wheat (Detroit-style dough), unknown (vodka sauce)",
+    "allergens": "Gluten (Detroit-style dough), dairy (cheese blend, pecorino), allium/garlic, nightshades (vodka/tomato sauce). Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -304,7 +304,7 @@
       "gluten-free crust (+$4)",
       "vegan cheese (+$4) — available on sixer [8×10 | 6 slices] upon request"
     ],
-    "allergens": "dairy (cheese blend, burrata), wheat (Detroit-style dough)",
+    "allergens": "Gluten (Detroit-style dough), dairy (cheese blend, burrata), allium/garlic, nightshades (tomatoes). Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -327,7 +327,7 @@
       "vegetarian"
     ],
     "options": [],
-    "allergens": "Dairy (blue cheese), Tree Nuts (cashew), Soy (miso dressing). Contact restaurant to confirm.",
+    "allergens": "Gluten, soy (miso dressing), dairy (blue cheese), tree nuts (cashews), eggs (dressing), allium/garlic, citrus, mushrooms, sulfites. Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -4836,7 +4836,7 @@
       "vegetarian"
     ],
     "options": [],
-    "allergens": "Wheat (breadsticks), Dairy (cheese, pesto), Tree Nuts (pesto may contain pine nuts). Contact restaurant to confirm.",
+    "allergens": "Gluten (breadsticks), dairy (cheese, pesto), allium/garlic, citrus, nightshades. NOTE: Tree nuts NOT confirmed in official allergy matrix — previous estimate was ingredient-derived. Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -4853,7 +4853,7 @@
     "level": "Building",
     "tags": [],
     "options": [],
-    "allergens": "Dairy (hatch chile cheddar queso, green ranch). Contact restaurant to confirm.",
+    "allergens": "Gluten, dairy (hatch chile cheddar queso, green ranch), eggs (ranch dressing), allium/garlic, citrus, nightshades (peppers, tomatoes), sulfites. Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -4870,7 +4870,7 @@
     "level": "Building",
     "tags": [],
     "options": [],
-    "allergens": "Dairy (american cheese), Wheat (pretzel bun). Sammy sauce may contain eggs. Contact restaurant to confirm.",
+    "allergens": "Gluten (pretzel bun), dairy (American cheese), eggs (Sammy sauce), allium/garlic, citrus, nightshades (tomato, ketchup), sulfites. Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -4887,7 +4887,7 @@
     "level": "Moderate",
     "tags": [],
     "options": [],
-    "allergens": "Dairy (mozzarella), Wheat (pretzel bun, breading). Contact restaurant to confirm.",
+    "allergens": "Gluten (pretzel bun, breading), dairy (mozzarella), eggs (breading/dressing), allium/garlic, citrus, nightshades (tomato sauce). Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -4907,7 +4907,7 @@
       "gluten-free crust (+$4)",
       "vegan cheese (+$4) — available on sixer [8×10 | 6 slices] upon request"
     ],
-    "allergens": "dairy (cheese blend, pecorino), wheat (Detroit-style dough, sesame seed crust), unknown (vodka sauce, parsley pesto)",
+    "allergens": "Gluten (Detroit-style dough), dairy (cheese blend, pecorino), sesame (sesame seed crust), allium/garlic, nightshades (tomato sauce). Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -4929,7 +4929,7 @@
       "gluten-free crust (+$4)",
       "vegan cheese (+$4) — available on sixer [8×10 | 6 slices] upon request"
     ],
-    "allergens": "Dairy (cheese blend), Wheat (Detroit-style dough). Contact restaurant to confirm.",
+    "allergens": "Gluten (Detroit-style dough), soy, dairy (cheese blend), allium/garlic, nightshades (tomato sauce), sulfites. Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -4949,7 +4949,7 @@
       "gluten-free crust (+$4)",
       "vegan cheese (+$4) — available on sixer [8×10 | 6 slices] upon request"
     ],
-    "allergens": "dairy (cheese blend), wheat (Detroit-style dough), unknown (Italian sausage)",
+    "allergens": "Gluten (Detroit-style dough), soy, dairy (cheese blend), allium/garlic, nightshades (tomato sauce). Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -4972,7 +4972,7 @@
       "gluten-free crust (+$4)",
       "vegan cheese (+$4) — available on sixer [8×10 | 6 slices] upon request"
     ],
-    "allergens": "dairy (cheese blend), wheat (Detroit-style dough), unknown (Italian sausage, house-made red sauce)",
+    "allergens": "Gluten (Detroit-style dough), dairy (cheese blend), allium/garlic, nightshades (tomato sauce). Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -4995,7 +4995,7 @@
       "gluten-free crust (+$4)",
       "vegan cheese (+$4) — available on sixer [8×10 | 6 slices] upon request"
     ],
-    "allergens": "dairy (cheese blend), wheat (Detroit-style dough), unknown ('Bama white sauce, Nashville hot spice blend)",
+    "allergens": "Gluten (Detroit-style dough), soy, dairy (cheese blend, Bama white sauce), eggs (Bama white sauce), allium/garlic, citrus, nightshades (sauce, hot sauce). Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
@@ -5018,7 +5018,7 @@
       "gluten-free crust (+$4)",
       "vegan cheese (+$4) — available on sixer [8×10 | 6 slices] upon request"
     ],
-    "allergens": "dairy (ricotta), wheat (Detroit-style dough), unknown (truffle cream, parsley pesto — may contain tree nuts)",
+    "allergens": "Gluten (Detroit-style dough), dairy (ricotta, truffle cream), tree nuts, eggs, allium/garlic, citrus, mushrooms (truffle). Source: Emmy Squared Allergy Matrix, March 31 2026 (official PDF).",
     "hours": "Mon-Wed 4pm-9pm, Thu 11am-9pm, Fri-Sat 11am-10pm, Sun 11am-9pm",
     "menu_link": "https://www.emmysquaredpizza.com/birmingham-menus/",
     "restaurant_address": "300 Summit Blvd, Birmingham, AL 35243",
