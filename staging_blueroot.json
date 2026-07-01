@@ -14,16 +14,23 @@
       "menu_category": "Salads + Bowls",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["eggs", "milk"],
+      "allergen_flags": [
+        "eggs",
+        "milk"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Egg, Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D387",
@@ -32,7 +39,11 @@
       "menu_category": "Salads + Bowls",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
       "allergen_flags": [],
       "allergen_summary": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -41,7 +52,8 @@
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D388",
@@ -50,16 +62,24 @@
       "menu_category": "Salads + Bowls",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["eggs", "milk", "tree nuts"],
+      "allergen_flags": [
+        "eggs",
+        "milk",
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Egg, Milk, Tree Nuts (Pecans). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D389",
@@ -68,16 +88,23 @@
       "menu_category": "Salads + Bowls",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["sesame", "tree nuts"],
+      "allergen_flags": [
+        "sesame",
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Sesame Seed, Tree Nuts (Almonds). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D390",
@@ -86,16 +113,24 @@
       "menu_category": "Salads + Bowls",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["soy", "tree nuts"],
+      "allergen_flags": [
+        "soy",
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Soy, Tree Nuts (Pistachios). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D391",
@@ -104,16 +139,22 @@
       "menu_category": "Salads + Bowls",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["milk"],
+      "allergen_flags": [
+        "milk"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D392",
@@ -122,16 +163,24 @@
       "menu_category": "Salads + Bowls",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["soy", "tree nuts"],
+      "allergen_flags": [
+        "soy",
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Soy, Tree Nuts (Almonds). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D393",
@@ -140,16 +189,23 @@
       "menu_category": "Salads + Bowls",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["milk", "tree nuts"],
+      "allergen_flags": [
+        "milk",
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk, Tree Nuts (Pistachios). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D394",
@@ -158,16 +214,23 @@
       "menu_category": "Salads + Bowls",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["tree nuts"],
+      "allergen_flags": [
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Cashews). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D395",
@@ -176,16 +239,22 @@
       "menu_category": "Salads + Bowls",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["milk"],
+      "allergen_flags": [
+        "milk"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D396",
@@ -194,16 +263,23 @@
       "menu_category": "Salads + Bowls",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["milk", "tree nuts"],
+      "allergen_flags": [
+        "milk",
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk, Tree Nuts (Cashews). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D397",
@@ -212,7 +288,11 @@
       "menu_category": "Soups + Sides",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
       "allergen_flags": [],
       "allergen_summary": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -221,7 +301,8 @@
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D398",
@@ -230,7 +311,11 @@
       "menu_category": "Soups + Sides",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
       "allergen_flags": [],
       "allergen_summary": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -239,7 +324,8 @@
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D399",
@@ -248,16 +334,22 @@
       "menu_category": "Soups + Sides",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["milk"],
+      "allergen_flags": [
+        "milk"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D400",
@@ -266,16 +358,22 @@
       "menu_category": "Soups + Sides",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["milk", "sesame"],
+      "allergen_flags": [
+        "milk",
+        "sesame"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk, Sesame Seeds. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D401",
@@ -284,16 +382,22 @@
       "menu_category": "Soups + Sides",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["sesame"],
+      "allergen_flags": [
+        "sesame"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Sesame Seeds. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D402",
@@ -302,16 +406,23 @@
       "menu_category": "Soups + Sides",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["sesame"],
+      "allergen_flags": [
+        "sesame"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Sesame Seeds. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D403",
@@ -320,7 +431,11 @@
       "menu_category": "Soups + Sides",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
       "allergen_flags": [],
       "allergen_summary": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -329,7 +444,8 @@
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D404",
@@ -338,16 +454,22 @@
       "menu_category": "Soups + Sides",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["milk", "wheat"],
+      "allergen_flags": [
+        "milk",
+        "wheat"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk, Wheat. NOTE: This item was labeled GF on the nutrition document, but wheatberries contain gluten — the GF tag has been omitted. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D405",
@@ -356,16 +478,21 @@
       "menu_category": "Soups + Sides",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["milk"],
+      "allergen_flags": [
+        "milk"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D406",
@@ -374,16 +501,23 @@
       "menu_category": "Breakfast Bites",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["tree nuts"],
+      "allergen_flags": [
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D407",
@@ -392,16 +526,23 @@
       "menu_category": "Breakfast Bites",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["tree nuts"],
+      "allergen_flags": [
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D408",
@@ -410,16 +551,24 @@
       "menu_category": "Breakfast Bites",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["sesame", "tree nuts"],
+      "allergen_flags": [
+        "sesame",
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Sesame Seeds, Tree Nuts (Almonds, Walnuts). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D409",
@@ -428,16 +577,23 @@
       "menu_category": "Breakfast Bites",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["tree nuts"],
+      "allergen_flags": [
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Almonds). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D410",
@@ -446,16 +602,23 @@
       "menu_category": "Breakfast Bites",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["tree nuts"],
+      "allergen_flags": [
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D411",
@@ -464,16 +627,23 @@
       "menu_category": "Smoothies",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["tree nuts"],
+      "allergen_flags": [
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D412",
@@ -482,16 +652,23 @@
       "menu_category": "Smoothies",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["tree nuts"],
+      "allergen_flags": [
+        "tree nuts"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D413",
@@ -500,16 +677,23 @@
       "menu_category": "Toast",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["milk", "sesame", "wheat"],
+      "allergen_flags": [
+        "milk",
+        "sesame",
+        "wheat"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk, Sesame Seeds, Wheat. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D414",
@@ -518,16 +702,24 @@
       "menu_category": "Toast",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["eggs", "milk", "sesame", "wheat"],
+      "allergen_flags": [
+        "eggs",
+        "milk",
+        "sesame",
+        "wheat"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Eggs, Milk, Sesame Seeds, Wheat. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D415",
@@ -538,14 +730,20 @@
       "menu_price": "",
       "dietary_tags": [],
       "dietary_options": "",
-      "allergen_flags": ["milk", "fish", "sesame", "wheat"],
+      "allergen_flags": [
+        "milk",
+        "fish",
+        "sesame",
+        "wheat"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk, Salmon (fish), Sesame Seeds, Wheat. Fish allergen listed as stated on nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D416",
@@ -556,14 +754,20 @@
       "menu_price": "",
       "dietary_tags": [],
       "dietary_options": "",
-      "allergen_flags": ["milk", "sesame", "wheat", "fish"],
+      "allergen_flags": [
+        "milk",
+        "sesame",
+        "wheat",
+        "fish"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk, Sesame Seeds, Wheat. Contains smoked salmon (fish). Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D417",
@@ -572,16 +776,23 @@
       "menu_category": "Toast",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["dairy-free"],
+      "dietary_tags": [
+        "dairy-free"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["eggs", "fish", "wheat"],
+      "allergen_flags": [
+        "eggs",
+        "fish",
+        "wheat"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Eggs, Salmon (fish), Wheat. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     },
     {
       "dish_id": "D418",
@@ -590,16 +801,24 @@
       "menu_category": "Toast",
       "dish_description": "",
       "menu_price": "",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "",
-      "allergen_flags": ["milk", "sesame", "tree nuts", "wheat"],
+      "allergen_flags": [
+        "milk",
+        "sesame",
+        "tree nuts",
+        "wheat"
+      ],
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk, Sesame Seeds, Tree Nuts (Almonds, Pecans), Wheat. Kitchen processes milk, eggs, peanuts, and tree nuts.",
       "core_ingredient_score": 5,
       "sauce_score": 5,
       "prep_score": 5,
       "allergen_transparency_score": 15,
       "transparency_score": 30,
-      "transparency_tier": "Building Transparency"
+      "transparency_tier": "Building Transparency",
+      "menu_verified": true
     }
   ]
 }

@@ -10,7 +10,10 @@
     {
       "dish_id": "D399",
       "dish_name": "Immunity Soup",
-      "dietary_tags": ["gluten-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegan"
+      ],
       "dietary_options": "GF, Vegan (per restaurant nutrition document). Milk listed as allergen may reflect kitchen cross-contamination.",
       "menu_price": "",
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk (possible cross-contamination — restaurant labels dish Vegan). Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -21,12 +24,16 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Tag corrected from vegetarian to vegan per Blue Root nutrition PDF (GF, VG). Milk allergen attributed to shared kitchen, not dish ingredients.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D419",
       "dish_name": "Cashew Butter Cookies",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "GF, Vegetarian",
       "menu_price": "",
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Eggs, Milk, Tree Nuts (Cashews). Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -37,12 +44,17 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Superfood snack. No ingredient detail on menu. Tags and allergens from published nutrition document.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D420",
       "dish_name": "Dark Chocolate Tahini Brownie",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegetarian"
+      ],
       "dietary_options": "GF, DF, Vegetarian",
       "menu_price": "",
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Egg, Sesame Seeds, Tree Nuts (Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -53,12 +65,16 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Superfood snack. No ingredient detail on menu. Tags and allergens from published nutrition document.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D421",
       "dish_name": "Dark Chocolate Collagen Bliss Bites",
-      "dietary_tags": ["gluten-free", "dairy-free"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free"
+      ],
       "dietary_options": "GF, DF",
       "menu_price": "",
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Tree Nuts (Almonds, Coconut, Walnuts). Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -69,12 +85,16 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Superfood snack. No ingredient detail on menu. Tags and allergens from published nutrition document. Contains collagen (animal-derived) — not vegan.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D422",
       "dish_name": "Not Your Mama's Rice Crispy Treat",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "GF, Vegetarian",
       "menu_price": "",
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk, Tree Nuts (Almonds, Coconut). Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -85,12 +105,16 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Superfood snack. No ingredient detail on menu. Tags and allergens from published nutrition document.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D423",
       "dish_name": "PB&J Protein Bliss Bites",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "GF, Vegetarian",
       "menu_price": "",
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk, Peanuts. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -101,12 +125,17 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Superfood snack. No ingredient detail on menu. Tags and allergens from published nutrition document. Contains peanuts.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D424",
       "dish_name": "Beet Hummus",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "GF, DF, Vegan",
       "menu_price": "",
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Sesame Seeds. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -117,12 +146,15 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Protein addition. No ingredient detail on menu. Tags and allergens from published nutrition document.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D425",
       "dish_name": "Chicken Salad",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF",
       "menu_price": "",
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Milk. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -133,12 +165,16 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Protein addition. PDF labels V (vegetarian) but this is a chicken dish — V tag omitted as labeling error. Allergens from published nutrition document.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D426",
       "dish_name": "Chipotle Chicken",
-      "dietary_tags": ["gluten-free", "dairy-free"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free"
+      ],
       "dietary_options": "GF, DF",
       "menu_price": "",
       "allergen_summary": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -149,12 +185,16 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Protein addition. No ingredient detail on menu. Tags and allergens from published nutrition document.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D427",
       "dish_name": "Soft-Boiled Farm Egg",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "GF, Vegetarian",
       "menu_price": "",
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Egg. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -165,12 +205,16 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Protein addition. Prep method (soft-boiled) stated in name. Tags and allergens from published nutrition document.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D428",
       "dish_name": "Grilled Chicken",
-      "dietary_tags": ["gluten-free", "dairy-free"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free"
+      ],
       "dietary_options": "GF, DF",
       "menu_price": "",
       "allergen_summary": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -181,12 +225,16 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Protein addition. No ingredient detail on menu. Tags and allergens from published nutrition document.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D429",
       "dish_name": "Lemon-Herb Chicken",
-      "dietary_tags": ["gluten-free", "dairy-free"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free"
+      ],
       "dietary_options": "GF, DF",
       "menu_price": "",
       "allergen_summary": "No allergens listed in Blue Root's published nutrition document. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -197,12 +245,16 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Protein addition. No ingredient detail on menu. Tags and allergens from published nutrition document.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D430",
       "dish_name": "Maple Cured Salmon",
-      "dietary_tags": ["gluten-free", "dairy-free"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free"
+      ],
       "dietary_options": "GF, DF",
       "menu_price": "",
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Fish. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -213,12 +265,17 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Protein addition. No ingredient detail on menu. Tags and allergens from published nutrition document.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     },
     {
       "dish_id": "D431",
       "dish_name": "Miso-Glazed Tofu",
-      "dietary_tags": ["gluten-free", "dairy-free", "vegan"],
+      "dietary_tags": [
+        "gluten-free",
+        "dairy-free",
+        "vegan"
+      ],
       "dietary_options": "GF, DF, Vegan",
       "menu_price": "",
       "allergen_summary": "Allergens sourced from Blue Root's published nutrition document: Soy. Kitchen processes milk, eggs, peanuts, and tree nuts.",
@@ -229,7 +286,8 @@
       "total_score": 30,
       "transparency_level": "Building Transparency",
       "notes": "Protein addition. No ingredient detail on menu. Tags and allergens from published nutrition document. Contains soy.",
-      "ingredients": []
+      "ingredients": [],
+      "menu_verified": true
     }
   ]
 }

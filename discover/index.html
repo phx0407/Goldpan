@@ -554,6 +554,8 @@ function checkPassword() {
     sessionStorage.setItem('gp_unlocked','1');
     renderDishes();
     setView('map');
+    if (typeof injectAskGoldPanStyles === 'function') injectAskGoldPanStyles();
+    if (typeof injectAskGoldPanUI === 'function') injectAskGoldPanUI();
   } else {
     input.classList.add('error');
     err.classList.add('visible');
@@ -1142,6 +1144,8 @@ function viewOnMap(restaurantName) {
     document.getElementById('app').classList.add('unlocked');
     renderDishes();
     setView('map');
+    if (typeof injectAskGoldPanStyles === 'function') injectAskGoldPanStyles();
+    if (typeof injectAskGoldPanUI === 'function') injectAskGoldPanUI();
   }
 })();
 
@@ -1198,5 +1202,6 @@ setTimeout(function() {
   });
 })();
 </script>
+<script src="../ask-goldpan.js"></script>
 </body>
 </html>

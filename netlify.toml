@@ -1,0 +1,25 @@
+# netlify.toml — GoldPan deployment configuration
+#
+# Ask GoldPan™ requires a serverless function to proxy Claude API calls.
+# This config wires /api/ask → netlify/functions/ask.js so the client-side
+# code can POST to /api/ask without knowing the Netlify function path.
+#
+# Migrating from GitHub Pages to Netlify:
+#   1. Connect your GitHub repo in Netlify dashboard (Import an existing project)
+#   2. Set build command and publish directory below
+#   3. Add ANTHROPIC_API_KEY in Netlify → Site → Environment variables
+#   4. Deploy
+#
+# No build step required — GoldPan is a static site.
+# Netlify auto-detects the functions/ directory.
+
+[build]
+  publish   = "."       # serve from repo root (same as GitHub Pages)
+  functions = "netlify/functions"
+
+# Redirect /api/ask → the Netlify function
+# This keeps the client-side endpoint path clean and stable.
+[[redirects]]
+  from   = "/api/ask"
+  to     = "/.netlify/functions/ask"
+  status = 200

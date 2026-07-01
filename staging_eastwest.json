@@ -23,19 +23,78 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 25: 6 ingredients listed. Sauce 15: kimchi queso named. Allergen 5: no explicit labeling. Prep 10: minimal.",
       "ingredients": [
-        {"name": "wontons", "cut_type": "none", "preparation": "fried", "type": "grain", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
-        {"name": "duck", "cut_type": "none", "preparation": "none", "type": "protein", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "kimchi queso", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
-        {"name": "cilantro", "cut_type": "none", "preparation": "none", "type": "herb", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "cotija cheese", "cut_type": "none", "preparation": "none", "type": "dairy", "source": "unknown", "allergen_flags": "dairy", "role": "topping"},
-        {"name": "jalapeño slice", "cut_type": "sliced", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"}
-      ]
+        {
+          "name": "wontons",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "duck",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "kimchi queso",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        },
+        {
+          "name": "cilantro",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "herb",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cotija cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "jalapeño slice",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D471",
       "dish_name": "Fried Spring Rolls",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "",
       "menu_price": "$8",
       "allergen_summary": "Allergens based on visible menu description: Wheat (spring roll wrapper). Contact restaurant to confirm.",
@@ -47,17 +106,60 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 20: 4 filling ingredients listed. Sauce 15: sweet chili sauce named. Allergen 5: no labeling. Prep 15: fried.",
       "ingredients": [
-        {"name": "spring roll wrapper", "cut_type": "none", "preparation": "fried", "type": "grain", "source": "unknown", "allergen_flags": "wheat", "role": "vessel"},
-        {"name": "cabbage", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "filling"},
-        {"name": "carrots", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "filling"},
-        {"name": "onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "filling"},
-        {"name": "sweet chili sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "dipping sauce"}
-      ]
+        {
+          "name": "spring roll wrapper",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "vessel"
+        },
+        {
+          "name": "cabbage",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "filling"
+        },
+        {
+          "name": "carrots",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "filling"
+        },
+        {
+          "name": "onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "filling"
+        },
+        {
+          "name": "sweet chili sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "dipping sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D472",
       "dish_name": "Korean-Fried Cauliflower",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "",
       "menu_price": "$11",
       "allergen_summary": "Allergens based on visible menu description: Wheat (frying batter likely), Sesame (sesame seeds). Contact restaurant to confirm.",
@@ -69,16 +171,51 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 20: cauliflower, scallions, sesame seeds named. Sauce 20: garlic-ginger sauce fully named. Allergen 5: no labeling. Prep 15: fried prep method noted.",
       "ingredients": [
-        {"name": "cauliflower", "cut_type": "none", "preparation": "fried", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "garlic-ginger sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "green onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "sesame seeds", "cut_type": "none", "preparation": "none", "type": "condiment", "source": "unknown", "allergen_flags": "sesame", "role": "topping"}
-      ]
+        {
+          "name": "cauliflower",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "garlic-ginger sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "green onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "sesame seeds",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D473",
       "dish_name": "House Salad",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "",
       "menu_price": "$7",
       "allergen_summary": "Allergens based on visible menu description: No major allergens identified from menu description. Contact restaurant to confirm.",
@@ -90,15 +227,42 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 20: iceberg and carrots named. Sauce 20: carrot-ginger dressing named with flavor profile. Allergen 5: no labeling. Prep 10: minimal.",
       "ingredients": [
-        {"name": "iceberg lettuce", "cut_type": "chopped", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "carrots", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "carrot-ginger dressing", "cut_type": "none", "preparation": "none", "type": "dressing", "source": "unknown", "allergen_flags": "none", "role": "dressing"}
-      ]
+        {
+          "name": "iceberg lettuce",
+          "cut_type": "chopped",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "carrots",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "carrot-ginger dressing",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dressing",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "dressing"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D474",
       "dish_name": "Lettuce Wraps",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "Tofu or chicken",
       "menu_price": "$9",
       "allergen_summary": "Allergens based on visible menu description: Tree Nuts (nuts), Soy (tofu option). Contact restaurant to confirm.",
@@ -110,14 +274,71 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 25: 5 filling ingredients listed. Sauce 15: yum-yum named. Allergen 5: no labeling. Prep 10: minimal. Protein option (tofu or chicken) noted.",
       "ingredients": [
-        {"name": "lettuce", "cut_type": "whole", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "vessel"},
-        {"name": "tofu or chicken", "cut_type": "none", "preparation": "none", "type": "protein", "source": "unknown", "allergen_flags": "soy", "role": "protein"},
-        {"name": "carrots", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "filling"},
-        {"name": "nuts", "cut_type": "none", "preparation": "none", "type": "nut/seed", "source": "unknown", "allergen_flags": "tree nuts", "role": "filling"},
-        {"name": "yum-yum sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "filling"},
-        {"name": "shiitake mushrooms", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "filling"}
-      ]
+        {
+          "name": "lettuce",
+          "cut_type": "whole",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vessel"
+        },
+        {
+          "name": "tofu or chicken",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "protein"
+        },
+        {
+          "name": "carrots",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "filling"
+        },
+        {
+          "name": "nuts",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "nut/seed",
+          "source": "unknown",
+          "allergen_flags": "tree nuts",
+          "role": "filling"
+        },
+        {
+          "name": "yum-yum sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "filling"
+        },
+        {
+          "name": "shiitake mushrooms",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "filling"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D475",
@@ -134,15 +355,42 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: chicken wings implied. Sauce 20: both yum-yum and ssamjang hot sauce named. Allergen 5: no labeling. Prep 20: two distinct prep methods (smoked and fried) disclosed.",
       "ingredients": [
-        {"name": "chicken wings", "cut_type": "none", "preparation": "smoked and fried", "type": "protein", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "yum-yum sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "ssamjang hot sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "soy, wheat", "role": "sauce"}
-      ]
+        {
+          "name": "chicken wings",
+          "cut_type": "none",
+          "preparation": "smoked and fried",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "yum-yum sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "ssamjang hot sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy, wheat",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D476",
       "dish_name": "Blistered Shishito Peppers",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "",
       "menu_price": "$11",
       "allergen_summary": "Allergens based on visible menu description: Dairy (sriracha yogurt). Contact restaurant to confirm.",
@@ -154,10 +402,35 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 15: shishito peppers implied. Sauce 15: sriracha yogurt named. Allergen 5: no labeling. Prep 15: blistered prep method noted.",
       "ingredients": [
-        {"name": "shishito peppers", "cut_type": "none", "preparation": "blistered", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "lemon-flake salt", "cut_type": "none", "preparation": "none", "type": "condiment", "source": "unknown", "allergen_flags": "none", "role": "seasoning"},
-        {"name": "sriracha yogurt", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "dairy", "role": "dipping sauce"}
-      ]
+        {
+          "name": "shishito peppers",
+          "cut_type": "none",
+          "preparation": "blistered",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "lemon-flake salt",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "seasoning"
+        },
+        {
+          "name": "sriracha yogurt",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "dipping sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D477",
@@ -174,11 +447,44 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 20: short ribs, green onion, sesame seeds named. Sauce 15: house sauce named but not broken down. Allergen 5: no labeling. Prep 15: char-grilled and off-bone noted.",
       "ingredients": [
-        {"name": "short ribs", "cut_type": "off-bone", "preparation": "char-grilled", "type": "protein", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "house sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "soy", "role": "sauce"},
-        {"name": "green onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "sesame seeds", "cut_type": "none", "preparation": "none", "type": "condiment", "source": "unknown", "allergen_flags": "sesame", "role": "topping"}
-      ]
+        {
+          "name": "short ribs",
+          "cut_type": "off-bone",
+          "preparation": "char-grilled",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "house sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "sauce"
+        },
+        {
+          "name": "green onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "sesame seeds",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D478",
@@ -195,12 +501,53 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 20: crab, slaw, jalapeño named. Sauce 15: yum-yum named. Allergen 5: no labeling. Prep 15: fried noted.",
       "ingredients": [
-        {"name": "bao bun", "cut_type": "none", "preparation": "steamed", "type": "grain", "source": "unknown", "allergen_flags": "wheat", "role": "vessel"},
-        {"name": "soft shell crab", "cut_type": "none", "preparation": "fried", "type": "protein", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "yum-yum sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "sweet-onion slaw", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "jalapeño", "cut_type": "sliced", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"}
-      ]
+        {
+          "name": "bao bun",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "vessel"
+        },
+        {
+          "name": "soft shell crab",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "yum-yum sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "sweet-onion slaw",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "jalapeño",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D479",
@@ -217,12 +564,53 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 20: pork belly, pickles, green onion named. Sauce 10: house sauce named but not described. Allergen 5: no labeling. Prep 15: smoked noted.",
       "ingredients": [
-        {"name": "bao bun", "cut_type": "none", "preparation": "steamed", "type": "grain", "source": "unknown", "allergen_flags": "wheat", "role": "vessel"},
-        {"name": "pork belly", "cut_type": "sliced", "preparation": "smoked", "type": "protein", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "house sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "soy", "role": "sauce"},
-        {"name": "pickles", "cut_type": "sliced", "preparation": "pickled", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "green onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"}
-      ]
+        {
+          "name": "bao bun",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "vessel"
+        },
+        {
+          "name": "pork belly",
+          "cut_type": "sliced",
+          "preparation": "smoked",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "house sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "sauce"
+        },
+        {
+          "name": "pickles",
+          "cut_type": "sliced",
+          "preparation": "pickled",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "green onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D480",
@@ -239,16 +627,51 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 20: short rib named. Sauce 15: ginger-scallion relish named with flavor components. Allergen 5: no labeling. Prep 15: char-grilled noted.",
       "ingredients": [
-        {"name": "bao bun", "cut_type": "none", "preparation": "steamed", "type": "grain", "source": "unknown", "allergen_flags": "wheat", "role": "vessel"},
-        {"name": "short rib", "cut_type": "none", "preparation": "char-grilled", "type": "protein", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "house sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "soy", "role": "sauce"},
-        {"name": "ginger-scallion relish", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "topping"}
-      ]
+        {
+          "name": "bao bun",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "vessel"
+        },
+        {
+          "name": "short rib",
+          "cut_type": "none",
+          "preparation": "char-grilled",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "house sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "sauce"
+        },
+        {
+          "name": "ginger-scallion relish",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D481",
       "dish_name": "Fried Mushroom Bao",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "",
       "menu_price": "$11",
       "allergen_summary": "Allergens based on visible menu description: Wheat (bao bun), Egg (garlic mayo likely). Contact restaurant to confirm.",
@@ -260,16 +683,51 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 20: portobello, green onion named. Sauce 15: garlic mayo named. Allergen 5: no labeling. Prep 15: fried noted.",
       "ingredients": [
-        {"name": "bao bun", "cut_type": "none", "preparation": "steamed", "type": "grain", "source": "unknown", "allergen_flags": "wheat", "role": "vessel"},
-        {"name": "portobello mushroom", "cut_type": "sliced", "preparation": "fried", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "garlic mayo", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "egg", "role": "sauce"},
-        {"name": "green onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"}
-      ]
+        {
+          "name": "bao bun",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "vessel"
+        },
+        {
+          "name": "portobello mushroom",
+          "cut_type": "sliced",
+          "preparation": "fried",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "garlic mayo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "egg",
+          "role": "sauce"
+        },
+        {
+          "name": "green onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D482",
       "dish_name": "Pan-Seared Salmon",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "",
       "menu_price": "$24",
       "allergen_summary": "Allergens based on visible menu description: Fish (salmon), Dairy (lemongrass-soy butter, parmesan risotto). Contact restaurant to confirm.",
@@ -281,11 +739,44 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: 4 distinct named components. Sauce 20: lemongrass-soy butter fully named. Allergen 5: no labeling. Prep 15: pan-seared and grilled asparagus both noted.",
       "ingredients": [
-        {"name": "salmon", "cut_type": "fillet", "preparation": "pan-seared", "type": "protein", "source": "unknown", "allergen_flags": "fish", "role": "base"},
-        {"name": "lemongrass-soy butter", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "dairy, soy", "role": "sauce"},
-        {"name": "grilled asparagus", "cut_type": "none", "preparation": "grilled", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "parmesan risotto", "cut_type": "none", "preparation": "none", "type": "grain", "source": "unknown", "allergen_flags": "dairy", "role": "side"}
-      ]
+        {
+          "name": "salmon",
+          "cut_type": "fillet",
+          "preparation": "pan-seared",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "base"
+        },
+        {
+          "name": "lemongrass-soy butter",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "dairy, soy",
+          "role": "sauce"
+        },
+        {
+          "name": "grilled asparagus",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "parmesan risotto",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "side"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D483",
@@ -302,14 +793,71 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: 5 toppings named. Sauce 20: both garlic mayo and onion-jam named. Allergen 5: no labeling. Prep 10: minimal.",
       "ingredients": [
-        {"name": "beef patty", "cut_type": "none", "preparation": "none", "type": "protein", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "burger bun", "cut_type": "none", "preparation": "none", "type": "grain", "source": "unknown", "allergen_flags": "wheat", "role": "vessel"},
-        {"name": "onion-jam", "cut_type": "none", "preparation": "none", "type": "condiment", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "garlic mayo", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "egg", "role": "sauce"},
-        {"name": "muenster cheese", "cut_type": "sliced", "preparation": "none", "type": "dairy", "source": "unknown", "allergen_flags": "dairy", "role": "topping"},
-        {"name": "pickled shiitakes", "cut_type": "none", "preparation": "pickled", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "curly fries", "cut_type": "curly", "preparation": "fried", "type": "vegetable", "source": "unknown", "allergen_flags": "wheat", "role": "side"}
-      ]
+        {
+          "name": "beef patty",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "burger bun",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "vessel"
+        },
+        {
+          "name": "onion-jam",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "garlic mayo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "egg",
+          "role": "sauce"
+        },
+        {
+          "name": "muenster cheese",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "topping"
+        },
+        {
+          "name": "pickled shiitakes",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "curly fries",
+          "cut_type": "curly",
+          "preparation": "fried",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "side"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D484",
@@ -326,14 +874,71 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: 6 components listed. Sauce 20: red pepper paste and mongolian sauce both named. Allergen 5: no labeling. Prep 15: wok sautéed method noted.",
       "ingredients": [
-        {"name": "gulf shrimp", "cut_type": "none", "preparation": "wok sautéed", "type": "protein", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "noodles", "cut_type": "none", "preparation": "none", "type": "grain", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
-        {"name": "onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
-        {"name": "peppers", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
-        {"name": "fried garlic", "cut_type": "none", "preparation": "fried", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "red pepper paste", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "mongolian sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "soy", "role": "sauce"}
-      ]
+        {
+          "name": "gulf shrimp",
+          "cut_type": "none",
+          "preparation": "wok sautéed",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "noodles",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "fried garlic",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "red pepper paste",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "mongolian sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D485",
@@ -350,18 +955,69 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 20: chicken, vegetables, rice named. Sauce 20: curry mustard and house sauce both named. Allergen 5: no labeling. Prep 15: fried katsu noted.",
       "ingredients": [
-        {"name": "chicken", "cut_type": "none", "preparation": "katsu fried", "type": "protein", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
-        {"name": "curry mustard", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "house sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "soy", "role": "sauce"},
-        {"name": "green onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "mixed vegetables", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "rice", "cut_type": "none", "preparation": "none", "type": "grain", "source": "unknown", "allergen_flags": "none", "role": "side"}
-      ]
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "katsu fried",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "curry mustard",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "house sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "sauce"
+        },
+        {
+          "name": "green onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "mixed vegetables",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "rice",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D486",
       "dish_name": "Mongolian Ribeye",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "",
       "menu_price": "$39",
       "allergen_summary": "Allergens based on visible menu description: Soy (mongolian sauce). Contact restaurant to confirm.",
@@ -373,10 +1029,35 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 20: ribeye, green beans, rice named. Sauce 15: mongolian implied by dish name. Allergen 5: no labeling. Prep 20: char-grilled and sliced both noted.",
       "ingredients": [
-        {"name": "ribeye", "cut_type": "12oz", "preparation": "char-grilled, sliced", "type": "protein", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "green beans", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "rice", "cut_type": "none", "preparation": "none", "type": "grain", "source": "unknown", "allergen_flags": "none", "role": "side"}
-      ]
+        {
+          "name": "ribeye",
+          "cut_type": "12oz",
+          "preparation": "char-grilled, sliced",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "green beans",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "rice",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D487",
@@ -393,19 +1074,79 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 20: chicken, carrot, green onion, pineapple kimchi named. Sauce 20: both teriyaki and yum-yum named. Allergen 5: no labeling. Prep 10: minimal.",
       "ingredients": [
-        {"name": "chicken", "cut_type": "none", "preparation": "none", "type": "protein", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "rice", "cut_type": "none", "preparation": "none", "type": "grain", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "teriyaki sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "soy, wheat", "role": "sauce"},
-        {"name": "yum-yum sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "carrot", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "green onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "pineapple kimchi", "cut_type": "none", "preparation": "none", "type": "condiment", "source": "unknown", "allergen_flags": "none", "role": "topping"}
-      ]
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "rice",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "teriyaki sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy, wheat",
+          "role": "sauce"
+        },
+        {
+          "name": "yum-yum sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "carrot",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "green onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "pineapple kimchi",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D488",
       "dish_name": "Vegetable Bowl",
-      "dietary_tags": ["vegetarian", "vegan"],
+      "dietary_tags": [
+        "vegetarian",
+        "vegan"
+      ],
       "dietary_options": "",
       "menu_price": "$16",
       "allergen_summary": "Allergens based on visible menu description: Soy (tofu, yum-yum sauce). Contact restaurant to confirm.",
@@ -417,15 +1158,80 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: 7 components listed. Sauce 15: yum-yum named. Allergen 5: no labeling. Prep 15: wok fired and fried cauliflower noted.",
       "ingredients": [
-        {"name": "rice", "cut_type": "none", "preparation": "none", "type": "grain", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "wok fired tofu", "cut_type": "none", "preparation": "wok fired", "type": "protein", "source": "unknown", "allergen_flags": "soy", "role": "protein"},
-        {"name": "mixed vegetables", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "green onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "cucumber kimchi", "cut_type": "none", "preparation": "fermented", "type": "condiment", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "fried cauliflower", "cut_type": "none", "preparation": "fried", "type": "vegetable", "source": "unknown", "allergen_flags": "wheat", "role": "topping"},
-        {"name": "shishito peppers", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "yum-yum sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "sauce"}
-      ]
+        {
+          "name": "rice",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "wok fired tofu",
+          "cut_type": "none",
+          "preparation": "wok fired",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "protein"
+        },
+        {
+          "name": "mixed vegetables",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "green onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cucumber kimchi",
+          "cut_type": "none",
+          "preparation": "fermented",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "fried cauliflower",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "topping"
+        },
+        {
+          "name": "shishito peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "yum-yum sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D489",
@@ -442,14 +1248,71 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 20: beef, carrot, cabbage kimchi, green onion named. Sauce 20: both mongolian and yum-yum named. Allergen 5: no labeling. Prep 10: minimal.",
       "ingredients": [
-        {"name": "beef", "cut_type": "sliced", "preparation": "none", "type": "protein", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "rice", "cut_type": "none", "preparation": "none", "type": "grain", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "mongolian sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "soy", "role": "sauce"},
-        {"name": "yum-yum sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "carrot", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "cabbage kimchi", "cut_type": "none", "preparation": "fermented", "type": "condiment", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "green onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"}
-      ]
+        {
+          "name": "beef",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "rice",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "mongolian sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "sauce"
+        },
+        {
+          "name": "yum-yum sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "carrot",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cabbage kimchi",
+          "cut_type": "none",
+          "preparation": "fermented",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "green onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D490",
@@ -466,16 +1329,89 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: 6 components listed. Sauce 15: house and yum-yum named. Allergen 5: no labeling. Prep 15: tempura fried noted.",
       "ingredients": [
-        {"name": "shrimp", "cut_type": "none", "preparation": "tempura fried", "type": "protein", "source": "unknown", "allergen_flags": "shellfish, wheat", "role": "protein"},
-        {"name": "rice", "cut_type": "none", "preparation": "none", "type": "grain", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "house sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "soy", "role": "sauce"},
-        {"name": "yum-yum sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "carrot", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "cilantro", "cut_type": "none", "preparation": "none", "type": "herb", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "cucumber kimchi", "cut_type": "none", "preparation": "fermented", "type": "condiment", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "green onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "sesame seeds", "cut_type": "none", "preparation": "none", "type": "condiment", "source": "unknown", "allergen_flags": "sesame", "role": "topping"}
-      ]
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "tempura fried",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish, wheat",
+          "role": "protein"
+        },
+        {
+          "name": "rice",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "house sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "sauce"
+        },
+        {
+          "name": "yum-yum sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "carrot",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cilantro",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "herb",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cucumber kimchi",
+          "cut_type": "none",
+          "preparation": "fermented",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "green onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "sesame seeds",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D491",
@@ -492,16 +1428,89 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: 6 components listed. Sauce 15: house and yum-yum named. Allergen 5: no labeling. Prep 15: tempura fried noted.",
       "ingredients": [
-        {"name": "soft shell crab", "cut_type": "none", "preparation": "tempura fried", "type": "protein", "source": "unknown", "allergen_flags": "shellfish, wheat", "role": "protein"},
-        {"name": "rice", "cut_type": "none", "preparation": "none", "type": "grain", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "house sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "soy", "role": "sauce"},
-        {"name": "yum-yum sauce", "cut_type": "none", "preparation": "none", "type": "sauce", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "carrot", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "crab salad", "cut_type": "none", "preparation": "none", "type": "protein", "source": "unknown", "allergen_flags": "shellfish", "role": "topping"},
-        {"name": "cucumber kimchi", "cut_type": "none", "preparation": "fermented", "type": "condiment", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "green onion", "cut_type": "none", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "topping"},
-        {"name": "sesame seeds", "cut_type": "none", "preparation": "none", "type": "condiment", "source": "unknown", "allergen_flags": "sesame", "role": "topping"}
-      ]
+        {
+          "name": "soft shell crab",
+          "cut_type": "none",
+          "preparation": "tempura fried",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish, wheat",
+          "role": "protein"
+        },
+        {
+          "name": "rice",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "house sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "sauce"
+        },
+        {
+          "name": "yum-yum sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "carrot",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "crab salad",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "topping"
+        },
+        {
+          "name": "cucumber kimchi",
+          "cut_type": "none",
+          "preparation": "fermented",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "green onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "sesame seeds",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D492",
@@ -518,11 +1527,44 @@
       "transparency_level": "Building Transparency",
       "notes": "All cocktail ingredients fully listed on menu. No allergen labeling. Standard cocktail transparency.",
       "ingredients": [
-        {"name": "cognac", "cut_type": "none", "preparation": "none", "type": "spirit", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "orgeat", "cut_type": "none", "preparation": "none", "type": "syrup", "source": "unknown", "allergen_flags": "tree nuts", "role": "modifier"},
-        {"name": "bitters", "cut_type": "none", "preparation": "none", "type": "bitters", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "lemon twist", "cut_type": "twist", "preparation": "none", "type": "fruit", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
-      ]
+        {
+          "name": "cognac",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "spirit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "orgeat",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "syrup",
+          "source": "unknown",
+          "allergen_flags": "tree nuts",
+          "role": "modifier"
+        },
+        {
+          "name": "bitters",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "bitters",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "lemon twist",
+          "cut_type": "twist",
+          "preparation": "none",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D493",
@@ -539,12 +1581,53 @@
       "transparency_level": "Building Transparency",
       "notes": "All cocktail ingredients fully listed on menu. No allergen labeling. Standard cocktail transparency.",
       "ingredients": [
-        {"name": "tequila", "cut_type": "none", "preparation": "none", "type": "spirit", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "lemongrass", "cut_type": "none", "preparation": "none", "type": "herb", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "dry vermouth", "cut_type": "none", "preparation": "none", "type": "wine", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "lime", "cut_type": "none", "preparation": "juiced", "type": "fruit", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "jalapeño", "cut_type": "sliced", "preparation": "none", "type": "vegetable", "source": "unknown", "allergen_flags": "none", "role": "modifier"}
-      ]
+        {
+          "name": "tequila",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "spirit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "lemongrass",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "herb",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "dry vermouth",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "wine",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "lime",
+          "cut_type": "none",
+          "preparation": "juiced",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "jalapeño",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D494",
@@ -561,12 +1644,53 @@
       "transparency_level": "Building Transparency",
       "notes": "All cocktail ingredients fully listed on menu. No allergen labeling. Standard cocktail transparency.",
       "ingredients": [
-        {"name": "dark rum", "cut_type": "none", "preparation": "none", "type": "spirit", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "ginger", "cut_type": "none", "preparation": "none", "type": "spice", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "chai", "cut_type": "none", "preparation": "none", "type": "tea", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "lemon", "cut_type": "none", "preparation": "juiced", "type": "fruit", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "soda", "cut_type": "none", "preparation": "none", "type": "mixer", "source": "unknown", "allergen_flags": "none", "role": "top"}
-      ]
+        {
+          "name": "dark rum",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "spirit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "ginger",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "spice",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "chai",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "tea",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "lemon",
+          "cut_type": "none",
+          "preparation": "juiced",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "soda",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "mixer",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "top"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D495",
@@ -583,12 +1707,53 @@
       "transparency_level": "Building Transparency",
       "notes": "All cocktail ingredients fully listed on menu. No allergen labeling. Standard cocktail transparency.",
       "ingredients": [
-        {"name": "gin", "cut_type": "none", "preparation": "none", "type": "spirit", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "thai basil", "cut_type": "none", "preparation": "none", "type": "herb", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "orange liqueur", "cut_type": "none", "preparation": "none", "type": "liqueur", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "lime", "cut_type": "none", "preparation": "juiced", "type": "fruit", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "cava", "cut_type": "none", "preparation": "none", "type": "wine", "source": "unknown", "allergen_flags": "none", "role": "top"}
-      ]
+        {
+          "name": "gin",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "spirit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "thai basil",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "herb",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "orange liqueur",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "liqueur",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "lime",
+          "cut_type": "none",
+          "preparation": "juiced",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "cava",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "wine",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "top"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D496",
@@ -605,11 +1770,44 @@
       "transparency_level": "Building Transparency",
       "notes": "All cocktail ingredients fully listed on menu. No allergen labeling. Standard cocktail transparency.",
       "ingredients": [
-        {"name": "rye whiskey", "cut_type": "none", "preparation": "none", "type": "spirit", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "tamarind", "cut_type": "none", "preparation": "none", "type": "fruit", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "lime", "cut_type": "none", "preparation": "juiced", "type": "fruit", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "angostura bitters", "cut_type": "none", "preparation": "none", "type": "bitters", "source": "unknown", "allergen_flags": "none", "role": "modifier"}
-      ]
+        {
+          "name": "rye whiskey",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "spirit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "tamarind",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "lime",
+          "cut_type": "none",
+          "preparation": "juiced",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "angostura bitters",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "bitters",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D497",
@@ -626,13 +1824,62 @@
       "transparency_level": "Building Transparency",
       "notes": "All cocktail ingredients fully listed on menu. No allergen labeling. Standard cocktail transparency.",
       "ingredients": [
-        {"name": "vodka", "cut_type": "none", "preparation": "none", "type": "spirit", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "lychee", "cut_type": "none", "preparation": "none", "type": "fruit", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "coconut", "cut_type": "none", "preparation": "none", "type": "fruit", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "hibiscus", "cut_type": "none", "preparation": "none", "type": "flower", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "lemon", "cut_type": "none", "preparation": "juiced", "type": "fruit", "source": "unknown", "allergen_flags": "none", "role": "modifier"},
-        {"name": "rosé", "cut_type": "none", "preparation": "none", "type": "wine", "source": "unknown", "allergen_flags": "none", "role": "top"}
-      ]
+        {
+          "name": "vodka",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "spirit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "lychee",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "coconut",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "hibiscus",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "flower",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "lemon",
+          "cut_type": "none",
+          "preparation": "juiced",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "modifier"
+        },
+        {
+          "name": "rosé",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "wine",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "top"
+        }
+      ],
+      "menu_verified": true
     }
   ]
 }

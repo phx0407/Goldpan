@@ -1,5 +1,5 @@
 {
-  "restaurant_id": "R016",
+  "restaurant_id": "R026",
   "restaurant_name": "Wasabi Juan's",
   "location": "Birmingham, AL",
   "restaurant_address": "2201 2nd Ave S #105, Birmingham, AL 35233",
@@ -54,7 +54,8 @@
           "role": "topping"
         }
       ],
-      "category": "salad"
+      "category": "salad",
+      "menu_verified": true
     },
     {
       "dish_id": "D530",
@@ -103,7 +104,8 @@
           "role": "topping"
         }
       ],
-      "category": "side"
+      "category": "side",
+      "menu_verified": true
     },
     {
       "dish_id": "D531",
@@ -175,7 +177,8 @@
           "role": "sauce"
         }
       ],
-      "category": "nachos"
+      "category": "nachos",
+      "menu_verified": true
     },
     {
       "dish_id": "D532",
@@ -258,7 +261,8 @@
           "role": "garnish"
         }
       ],
-      "category": "nachos"
+      "category": "nachos",
+      "menu_verified": true
     },
     {
       "dish_id": "D533",
@@ -348,7 +352,8 @@
           "role": "base"
         }
       ],
-      "category": "bowl"
+      "category": "bowl",
+      "menu_verified": true
     },
     {
       "dish_id": "D534",
@@ -438,7 +443,8 @@
           "role": "topping"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D535",
@@ -528,7 +534,8 @@
           "role": "topping"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D536",
@@ -609,7 +616,8 @@
           "role": "sauce"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D537",
@@ -690,7 +698,8 @@
           "role": "sauce"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D538",
@@ -753,7 +762,8 @@
           "role": "topping"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D539",
@@ -836,7 +846,8 @@
           "role": "topping"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D540",
@@ -908,7 +919,8 @@
           "role": "sauce"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D541",
@@ -998,7 +1010,8 @@
           "role": "topping"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D542",
@@ -1063,7 +1076,8 @@
           "role": "topping"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D543",
@@ -1144,7 +1158,8 @@
           "role": "topping"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D544",
@@ -1238,7 +1253,8 @@
           "role": "topping"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D545",
@@ -1312,7 +1328,8 @@
           "role": "topping"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D546",
@@ -1393,7 +1410,8 @@
           "role": "sauce"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D547",
@@ -1474,7 +1492,8 @@
           "role": "topping"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D548",
@@ -1548,7 +1567,8 @@
           "role": "topping"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D549",
@@ -1638,7 +1658,8 @@
           "role": "sauce"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D550",
@@ -1730,7 +1751,8 @@
           "role": "sauce"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D551",
@@ -1793,7 +1815,8 @@
           "role": "sauce"
         }
       ],
-      "category": "wrap"
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
       "dish_id": "D552",
@@ -1858,7 +1881,8 @@
           "role": "garnish"
         }
       ],
-      "category": "taco"
+      "category": "taco",
+      "menu_verified": true
     },
     {
       "dish_id": "D553",
@@ -1921,7 +1945,8 @@
           "role": "topping"
         }
       ],
-      "category": "taco"
+      "category": "taco",
+      "menu_verified": true
     },
     {
       "dish_id": "D554",
@@ -1993,7 +2018,8 @@
           "role": "topping"
         }
       ],
-      "category": "taco"
+      "category": "taco",
+      "menu_verified": true
     },
     {
       "dish_id": "D555",
@@ -2058,7 +2084,8 @@
           "role": "topping"
         }
       ],
-      "category": "taco"
+      "category": "taco",
+      "menu_verified": true
     },
     {
       "dish_id": "D556",
@@ -2123,7 +2150,8 @@
           "role": "topping"
         }
       ],
-      "category": "taco"
+      "category": "taco",
+      "menu_verified": true
     }
   ]
 }

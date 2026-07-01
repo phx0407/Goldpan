@@ -10,7 +10,9 @@
     {
       "dish_id": "D290",
       "dish_name": "Fish Plate",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF option available",
       "menu_price": "$9.95",
       "allergen_summary": "Fish (tilapia). GF option available. Cross-contamination possible in shared fryer.",
@@ -22,16 +24,51 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: tilapia, fries, slaw named. Sauce 15: homemade tartar sauce named. Prep 25: golden fried or grilled stated.",
       "ingredients": [
-        {"name": "tilapia fillets", "cut_type": "fillet", "preparation": "golden fried or grilled", "type": "standard", "source": "unknown", "allergen_flags": "fish", "role": "protein"},
-        {"name": "fresh-cut fries", "cut_type": "fry cut", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "cole slaw", "cut_type": "shredded", "preparation": "raw", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "side"},
-        {"name": "homemade tartar sauce", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"}
-      ]
+        {
+          "name": "tilapia fillets",
+          "cut_type": "fillet",
+          "preparation": "golden fried or grilled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "fresh-cut fries",
+          "cut_type": "fry cut",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "cole slaw",
+          "cut_type": "shredded",
+          "preparation": "raw",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "homemade tartar sauce",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D291",
       "dish_name": "Fish Tacos",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF with corn tortillas",
       "menu_price": "$9.95",
       "allergen_summary": "Fish (tilapia). Tree nuts (almonds in POE Sauce — labeled on menu). Wheat (flour tortilla option).",
@@ -43,19 +80,78 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Sauce 25: POE Sauce explicitly labeled almond-based on menu — key allergen disclosed. Core 15: tilapia, salsa fresca, slaw, black beans, rice named. Prep 25: grilled or fried stated.",
       "ingredients": [
-        {"name": "tilapia", "cut_type": "fillet", "preparation": "grilled or fried", "type": "standard", "source": "unknown", "allergen_flags": "fish", "role": "protein"},
-        {"name": "POE Sauce (almond-based)", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "tree nuts (almonds)", "role": "sauce"},
-        {"name": "salsa fresca", "cut_type": "diced", "preparation": "fresh", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"},
-        {"name": "cole slaw", "cut_type": "shredded", "preparation": "raw", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "side"},
-        {"name": "black beans", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "rice", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "tortillas (flour or corn)", "cut_type": "none", "preparation": "warmed", "type": "standard", "source": "unknown", "allergen_flags": "wheat (flour option)", "role": "base"}
-      ]
+        {
+          "name": "tilapia",
+          "cut_type": "fillet",
+          "preparation": "grilled or fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "POE Sauce (almond-based)",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "tree nuts (almonds)",
+          "role": "sauce"
+        },
+        {
+          "name": "salsa fresca",
+          "cut_type": "diced",
+          "preparation": "fresh",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "cole slaw",
+          "cut_type": "shredded",
+          "preparation": "raw",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "black beans",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "rice",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "tortillas (flour or corn)",
+          "cut_type": "none",
+          "preparation": "warmed",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat (flour option)",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D292",
       "dish_name": "Shrimp Tacos",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF with corn tortillas",
       "menu_price": "$9.95",
       "allergen_summary": "Shellfish (shrimp). Tree nuts (almonds in POE Sauce). Wheat (flour tortilla option).",
@@ -67,19 +163,78 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Same sauce profile as Fish Tacos. POE Sauce almond allergen disclosed. Prep 25: grilled or fried stated.",
       "ingredients": [
-        {"name": "shrimp", "cut_type": "none", "preparation": "grilled or fried", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "POE Sauce (almond-based)", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "tree nuts (almonds)", "role": "sauce"},
-        {"name": "salsa fresca", "cut_type": "diced", "preparation": "fresh", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"},
-        {"name": "cole slaw", "cut_type": "shredded", "preparation": "raw", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "side"},
-        {"name": "black beans", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "rice", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "tortillas (flour or corn)", "cut_type": "none", "preparation": "warmed", "type": "standard", "source": "unknown", "allergen_flags": "wheat (flour option)", "role": "base"}
-      ]
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "grilled or fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "POE Sauce (almond-based)",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "tree nuts (almonds)",
+          "role": "sauce"
+        },
+        {
+          "name": "salsa fresca",
+          "cut_type": "diced",
+          "preparation": "fresh",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "cole slaw",
+          "cut_type": "shredded",
+          "preparation": "raw",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "black beans",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "rice",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "tortillas (flour or corn)",
+          "cut_type": "none",
+          "preparation": "warmed",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat (flour option)",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D293",
       "dish_name": "Shrimp & Grits",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF as presented",
       "menu_price": "$10.95",
       "allergen_summary": "Shellfish (shrimp). Dairy (white cheddar, asiago, cream cheese). Sausage allergens unknown.",
@@ -91,21 +246,96 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 25: white cheddar, asiago, cream cheese, shrimp, spicy sausage, red & green bell peppers, onions all named. Sauce 5: no separate sauce; grits are the base. Prep 5: cooking method for shrimp/sausage not stated.",
       "ingredients": [
-        {"name": "shrimp", "cut_type": "none", "preparation": "unspecified", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "spicy sausage", "cut_type": "none", "preparation": "unspecified", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "protein"},
-        {"name": "grits", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "white cheddar cheese", "cut_type": "none", "preparation": "melted", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"},
-        {"name": "asiago cheese", "cut_type": "none", "preparation": "melted", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"},
-        {"name": "cream cheese", "cut_type": "none", "preparation": "mixed", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"},
-        {"name": "red bell pepper", "cut_type": "diced", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
-        {"name": "green bell pepper", "cut_type": "diced", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
-        {"name": "onions", "cut_type": "diced", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"}
-      ]
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "unspecified",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "spicy sausage",
+          "cut_type": "none",
+          "preparation": "unspecified",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "protein"
+        },
+        {
+          "name": "grits",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "white cheddar cheese",
+          "cut_type": "none",
+          "preparation": "melted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "base"
+        },
+        {
+          "name": "asiago cheese",
+          "cut_type": "none",
+          "preparation": "melted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "base"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "mixed",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "base"
+        },
+        {
+          "name": "red bell pepper",
+          "cut_type": "diced",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "green bell pepper",
+          "cut_type": "diced",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "onions",
+          "cut_type": "diced",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D294",
       "dish_name": "Shrimp Plate",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF option available",
       "menu_price": "$10.95",
       "allergen_summary": "Shellfish (shrimp). Cross-contamination possible in shared fryer.",
@@ -117,16 +347,51 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: shrimp, fries, slaw named. Sauce 15: homemade tartar sauce named. Prep 25: grilled or fried stated.",
       "ingredients": [
-        {"name": "shrimp", "cut_type": "none", "preparation": "grilled or fried", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "fresh-cut fries", "cut_type": "fry cut", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "cole slaw", "cut_type": "shredded", "preparation": "raw", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "side"},
-        {"name": "homemade tartar sauce", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"}
-      ]
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "grilled or fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "fresh-cut fries",
+          "cut_type": "fry cut",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "cole slaw",
+          "cut_type": "shredded",
+          "preparation": "raw",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "homemade tartar sauce",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D295",
       "dish_name": "Hot Wings Plate",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF option available",
       "menu_price": "$9.95",
       "allergen_summary": "Poultry. Dairy (ranch sauce). Sauce allergens unknown (house-made).",
@@ -138,17 +403,60 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 15: chicken wings, fries, bread, ranch sauce named. Sauce 5: hot wing sauce described as 'savory, spicy, and sweet' but unnamed/undetailed. Prep 25: crispy fried stated.",
       "ingredients": [
-        {"name": "chicken wings", "cut_type": "whole wing", "preparation": "crispy fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "house wing sauce", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "unknown", "role": "sauce"},
-        {"name": "ranch sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy, eggs", "role": "sauce"},
-        {"name": "fresh-cut fries", "cut_type": "fry cut", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "bread", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "side"}
-      ]
+        {
+          "name": "chicken wings",
+          "cut_type": "whole wing",
+          "preparation": "crispy fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "house wing sauce",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "ranch sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy, eggs",
+          "role": "sauce"
+        },
+        {
+          "name": "fresh-cut fries",
+          "cut_type": "fry cut",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "bread",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "side"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D296",
       "dish_name": "Chicken & Waffle",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF waffle available (+$1.50)",
       "menu_price": "$11.95",
       "allergen_summary": "Wheat (waffle). Eggs (waffle batter). Poultry.",
@@ -160,15 +468,42 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: Belgian waffle, 6 fried chicken wings named. Sauce 15: homemade syrup named. Prep 25: golden fried chicken stated.",
       "ingredients": [
-        {"name": "chicken wings (6)", "cut_type": "whole wing", "preparation": "golden fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "Belgian waffle", "cut_type": "none", "preparation": "baked in waffle iron", "type": "house-made", "source": "house", "allergen_flags": "wheat, eggs", "role": "base"},
-        {"name": "homemade syrup", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"}
-      ]
+        {
+          "name": "chicken wings (6)",
+          "cut_type": "whole wing",
+          "preparation": "golden fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "Belgian waffle",
+          "cut_type": "none",
+          "preparation": "baked in waffle iron",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "wheat, eggs",
+          "role": "base"
+        },
+        {
+          "name": "homemade syrup",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D297",
       "dish_name": "Chicken Plate",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF option available",
       "menu_price": "$9.95",
       "allergen_summary": "Poultry. Wheat (bread). Cross-contamination possible in shared fryer.",
@@ -180,16 +515,51 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 15: chicken wings, fries, slaw, bread named. Sauce 5: no sauce listed. Prep 25: golden fried stated.",
       "ingredients": [
-        {"name": "chicken wings", "cut_type": "whole wing", "preparation": "golden fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "fresh-cut fries", "cut_type": "fry cut", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "cole slaw", "cut_type": "shredded", "preparation": "raw", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "side"},
-        {"name": "bread", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "side"}
-      ]
+        {
+          "name": "chicken wings",
+          "cut_type": "whole wing",
+          "preparation": "golden fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "fresh-cut fries",
+          "cut_type": "fry cut",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "cole slaw",
+          "cut_type": "shredded",
+          "preparation": "raw",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "bread",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "side"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D298",
       "dish_name": "BBQ Cheeseburger Plate",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF bun available (+$1.50)",
       "menu_price": "$9.95",
       "allergen_summary": "Wheat (bun). Dairy (cheddar cheese). Beef.",
@@ -201,18 +571,69 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 15: beef, cheddar, caramelized onions, fries named. Sauce 15: homemade BBQ sauce named. Prep 5: cooking method for beef not stated ('perfectly seasoned' only).",
       "ingredients": [
-        {"name": "beef patty", "cut_type": "ground", "preparation": "unspecified", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "cheddar cheese", "cut_type": "sliced", "preparation": "melted", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"},
-        {"name": "caramelized onions", "cut_type": "sliced", "preparation": "caramelized", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
-        {"name": "homemade BBQ sauce", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"},
-        {"name": "fresh-cut fries", "cut_type": "fry cut", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "bun", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "beef patty",
+          "cut_type": "ground",
+          "preparation": "unspecified",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "cheddar cheese",
+          "cut_type": "sliced",
+          "preparation": "melted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "base"
+        },
+        {
+          "name": "caramelized onions",
+          "cut_type": "sliced",
+          "preparation": "caramelized",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "homemade BBQ sauce",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "fresh-cut fries",
+          "cut_type": "fry cut",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "bun",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D299",
       "dish_name": "Chicken & Pancakes",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF pancakes available (+$1.50). Brunch only.",
       "menu_price": "$11.95",
       "allergen_summary": "Wheat (pancakes). Eggs (pancake batter). Dairy (butter in batter). Poultry.",
@@ -224,15 +645,42 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: 3 buttermilk pancakes, 6 fried chicken wings named. Sauce 15: homemade syrup named. Prep 25: golden fried chicken, fluffy pancakes stated. Brunch item.",
       "ingredients": [
-        {"name": "chicken wings (6)", "cut_type": "whole wing", "preparation": "golden fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "buttermilk pancakes (3)", "cut_type": "none", "preparation": "griddled", "type": "house-made", "source": "house", "allergen_flags": "wheat, eggs, dairy", "role": "base"},
-        {"name": "homemade syrup", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"}
-      ]
+        {
+          "name": "chicken wings (6)",
+          "cut_type": "whole wing",
+          "preparation": "golden fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "buttermilk pancakes (3)",
+          "cut_type": "none",
+          "preparation": "griddled",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "wheat, eggs, dairy",
+          "role": "base"
+        },
+        {
+          "name": "homemade syrup",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D300",
       "dish_name": "Fish & Grits",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF (toast optional +$0.75, GF toast +$0.75 extra). Brunch only.",
       "menu_price": "$9.95",
       "allergen_summary": "Fish (tilapia). Dairy (white cheddar, asiago, cream cheese). Wheat (toast, optional).",
@@ -244,18 +692,69 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: grits with white cheddar, asiago, cream cheese, 2 fried tilapia filets named. Sauce 5: no separate sauce. Prep 25: golden fried tilapia stated. Brunch item.",
       "ingredients": [
-        {"name": "tilapia fillets (2)", "cut_type": "fillet", "preparation": "golden fried", "type": "standard", "source": "unknown", "allergen_flags": "fish", "role": "protein"},
-        {"name": "grits", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "white cheddar cheese", "cut_type": "none", "preparation": "melted", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"},
-        {"name": "asiago cheese", "cut_type": "none", "preparation": "melted", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"},
-        {"name": "cream cheese", "cut_type": "none", "preparation": "mixed", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"},
-        {"name": "toast (optional)", "cut_type": "sliced", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "side"}
-      ]
+        {
+          "name": "tilapia fillets (2)",
+          "cut_type": "fillet",
+          "preparation": "golden fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "grits",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "white cheddar cheese",
+          "cut_type": "none",
+          "preparation": "melted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "base"
+        },
+        {
+          "name": "asiago cheese",
+          "cut_type": "none",
+          "preparation": "melted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "base"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "mixed",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "base"
+        },
+        {
+          "name": "toast (optional)",
+          "cut_type": "sliced",
+          "preparation": "toasted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "side"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D301",
       "dish_name": "Mama's Meal",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF toast available (+$0.75). Brunch only.",
       "menu_price": "$9.95",
       "allergen_summary": "Wheat (toast). Dairy (grits). Eggs. Sausage allergens unknown.",
@@ -267,17 +766,60 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 15: protein choice (bacon/sausage/smoked sausage), grits, 2 eggs, potatoes, toast named but protein is a choice. Sauce 5: no sauce. Prep 5: egg and protein preparation not stated. Brunch item.",
       "ingredients": [
-        {"name": "bacon, sausage, or smoked sausage (choice)", "cut_type": "none", "preparation": "unspecified", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "protein"},
-        {"name": "grits", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"},
-        {"name": "eggs (2)", "cut_type": "none", "preparation": "unspecified", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "protein"},
-        {"name": "homestyle potatoes", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "toast", "cut_type": "sliced", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "side"}
-      ]
+        {
+          "name": "bacon, sausage, or smoked sausage (choice)",
+          "cut_type": "none",
+          "preparation": "unspecified",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "protein"
+        },
+        {
+          "name": "grits",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "base"
+        },
+        {
+          "name": "eggs (2)",
+          "cut_type": "none",
+          "preparation": "unspecified",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "protein"
+        },
+        {
+          "name": "homestyle potatoes",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "toast",
+          "cut_type": "sliced",
+          "preparation": "toasted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "side"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D302",
       "dish_name": "Salmon Croquettes",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF option available. Brunch only.",
       "menu_price": "$9.95",
       "allergen_summary": "Fish (salmon). Eggs. Wheat (biscuit). Binder in croquettes unknown.",
@@ -289,16 +831,51 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 15: salmon croquettes, eggs, rice, buttermilk biscuit named. Sauce 5: no sauce. Prep 5: croquette cooking method not explicitly stated. Brunch item.",
       "ingredients": [
-        {"name": "salmon croquettes (2)", "cut_type": "croquette", "preparation": "unspecified", "type": "house-made", "source": "house", "allergen_flags": "fish", "role": "protein"},
-        {"name": "eggs (2)", "cut_type": "none", "preparation": "unspecified", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "protein"},
-        {"name": "rice", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "side"},
-        {"name": "buttermilk biscuit", "cut_type": "none", "preparation": "baked", "type": "house-made", "source": "house", "allergen_flags": "wheat, dairy", "role": "side"}
-      ]
+        {
+          "name": "salmon croquettes (2)",
+          "cut_type": "croquette",
+          "preparation": "unspecified",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "eggs (2)",
+          "cut_type": "none",
+          "preparation": "unspecified",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "protein"
+        },
+        {
+          "name": "rice",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "side"
+        },
+        {
+          "name": "buttermilk biscuit",
+          "cut_type": "none",
+          "preparation": "baked",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "wheat, dairy",
+          "role": "side"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D303",
       "dish_name": "Pancakes",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF available (+$1.50). Brunch only.",
       "menu_price": "$8.95",
       "allergen_summary": "Wheat (pancakes). Eggs (batter). Dairy (buttermilk). Sausage allergens unknown.",
@@ -310,15 +887,42 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 15: 3 buttermilk pancakes, meat choice (bacon/sausage/smoked sausage) named. Sauce 15: homemade syrup named. Prep 5: griddling method not explicitly stated. Brunch item.",
       "ingredients": [
-        {"name": "buttermilk pancakes (3)", "cut_type": "none", "preparation": "griddled", "type": "house-made", "source": "house", "allergen_flags": "wheat, eggs, dairy", "role": "base"},
-        {"name": "bacon, sausage, or smoked sausage (choice)", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "protein"},
-        {"name": "homemade syrup", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"}
-      ]
+        {
+          "name": "buttermilk pancakes (3)",
+          "cut_type": "none",
+          "preparation": "griddled",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "wheat, eggs, dairy",
+          "role": "base"
+        },
+        {
+          "name": "bacon, sausage, or smoked sausage (choice)",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "protein"
+        },
+        {
+          "name": "homemade syrup",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D304",
       "dish_name": "French Toast",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF available (+$1.50). Brunch only.",
       "menu_price": "$8.95",
       "allergen_summary": "Wheat (bread). Eggs (sweet vanilla cream mix). Dairy (cream). Sausage allergens unknown.",
@@ -330,16 +934,51 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: bakery-fresh bread, sweet vanilla cream mix, meat choice named. Sauce 15: homemade syrup named. Prep 25: soaked in sweet vanilla cream and grilled explicitly stated. Brunch item.",
       "ingredients": [
-        {"name": "bakery-fresh bread (3 slices)", "cut_type": "sliced", "preparation": "soaked in vanilla cream mix, grilled", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
-        {"name": "sweet vanilla cream mix", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "eggs, dairy", "role": "base"},
-        {"name": "bacon, sausage, or smoked sausage (choice)", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "protein"},
-        {"name": "homemade syrup", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"}
-      ]
+        {
+          "name": "bakery-fresh bread (3 slices)",
+          "cut_type": "sliced",
+          "preparation": "soaked in vanilla cream mix, grilled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "sweet vanilla cream mix",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "eggs, dairy",
+          "role": "base"
+        },
+        {
+          "name": "bacon, sausage, or smoked sausage (choice)",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "protein"
+        },
+        {
+          "name": "homemade syrup",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D305",
       "dish_name": "Waffle",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF available (+$1.50). Brunch only.",
       "menu_price": "$9.95",
       "allergen_summary": "Wheat (waffle batter). Eggs (batter). Dairy. Sausage allergens unknown.",
@@ -351,15 +990,42 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 15: Belgian waffle, meat choice (bacon/sausage/smoked sausage) named. Sauce 15: homemade syrup named. Prep 5: waffle iron preparation not explicitly stated. Brunch item.",
       "ingredients": [
-        {"name": "Belgian waffle", "cut_type": "none", "preparation": "baked in waffle iron", "type": "house-made", "source": "house", "allergen_flags": "wheat, eggs, dairy", "role": "base"},
-        {"name": "bacon, sausage, or smoked sausage (choice)", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "unknown", "role": "protein"},
-        {"name": "homemade syrup", "cut_type": "none", "preparation": "house-made", "type": "house-made", "source": "house", "allergen_flags": "none", "role": "sauce"}
-      ]
+        {
+          "name": "Belgian waffle",
+          "cut_type": "none",
+          "preparation": "baked in waffle iron",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "wheat, eggs, dairy",
+          "role": "base"
+        },
+        {
+          "name": "bacon, sausage, or smoked sausage (choice)",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "protein"
+        },
+        {
+          "name": "homemade syrup",
+          "cut_type": "none",
+          "preparation": "house-made",
+          "type": "house-made",
+          "source": "house",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D306",
       "dish_name": "2-Egg Omelette",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "GF available (GF toast option). Brunch only.",
       "menu_price": "$9.95",
       "allergen_summary": "Eggs. Dairy (cheese option, cheese grits). Wheat (toast). Fillings vary by choice.",
@@ -371,11 +1037,44 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 15: 2 eggs, choice of 3 fillings from listed options, cheese grits or potatoes, toast — proteins and fillings are a choice. Sauce 5: no sauce. Prep 5: omelette method not stated. Brunch item.",
       "ingredients": [
-        {"name": "eggs (2)", "cut_type": "none", "preparation": "omelette", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "base"},
-        {"name": "choice of 3 fillings (onions/bell peppers/mushrooms/spinach/cheddar/ham/sausage/bacon)", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "dairy (cheese option), unknown (sausage/ham)", "role": "base"},
-        {"name": "cheese grits or homestyle potatoes (choice)", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "dairy (grits)", "role": "side"},
-        {"name": "toast", "cut_type": "sliced", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "side"}
-      ]
+        {
+          "name": "eggs (2)",
+          "cut_type": "none",
+          "preparation": "omelette",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "base"
+        },
+        {
+          "name": "choice of 3 fillings (onions/bell peppers/mushrooms/spinach/cheddar/ham/sausage/bacon)",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy (cheese option), unknown (sausage/ham)",
+          "role": "base"
+        },
+        {
+          "name": "cheese grits or homestyle potatoes (choice)",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy (grits)",
+          "role": "side"
+        },
+        {
+          "name": "toast",
+          "cut_type": "sliced",
+          "preparation": "toasted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "side"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D307",
@@ -392,14 +1091,71 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 25: lump crab, shrimp, red bell pepper, onions, spinach, Gouda cheese all named. Sauce 5: no sauce. Prep 5: omelette method not stated. Brunch item.",
       "ingredients": [
-        {"name": "lump crab", "cut_type": "none", "preparation": "unspecified", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "shrimp", "cut_type": "none", "preparation": "unspecified", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "eggs", "cut_type": "none", "preparation": "omelette", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "base"},
-        {"name": "red bell pepper", "cut_type": "diced", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
-        {"name": "onions", "cut_type": "diced", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
-        {"name": "spinach", "cut_type": "none", "preparation": "cooked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "vegetable"},
-        {"name": "Gouda cheese", "cut_type": "none", "preparation": "melted", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"}
-      ]
+        {
+          "name": "lump crab",
+          "cut_type": "none",
+          "preparation": "unspecified",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "unspecified",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "eggs",
+          "cut_type": "none",
+          "preparation": "omelette",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "base"
+        },
+        {
+          "name": "red bell pepper",
+          "cut_type": "diced",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "onions",
+          "cut_type": "diced",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "spinach",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vegetable"
+        },
+        {
+          "name": "Gouda cheese",
+          "cut_type": "none",
+          "preparation": "melted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     }
   ]
 }

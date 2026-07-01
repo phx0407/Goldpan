@@ -1,622 +1,2157 @@
 {
-  "restaurant_id": "R019",
-  "restaurant_name": "The Battery",
-  "location": "Homewood, AL",
-  "restaurant_address": "2821 Central Ave Ste 101, Homewood, AL 35209",
-  "restaurant_website": "https://manthebattery.com",
-  "menu_link": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
-  "hours": "",
+  "restaurant_id": "R016",
+  "restaurant_name": "Wasabi Juan's",
+  "location": "Birmingham, AL",
+  "restaurant_address": "2201 2nd Ave S #105, Birmingham, AL 35233",
+  "restaurant_website": "https://wasabijuan.com",
+  "menu_link": "https://wasabijuan.com/our-menu/",
+  "hours": "Mon Closed / Tue-Thu 11am-8pm / Fri-Sat 11am-9pm / Sun 12pm-7pm",
   "dishes": [
     {
-      "dish_id": "D432",
-      "dish_name": "Monsterella Sticks",
-      "dietary_tags": ["vegetarian"],
-      "dietary_options": "Vegetarian",
-      "menu_price": "$10",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (mozzarella, vodka sauce), Wheat (breading). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 25,
-      "allergen_transparency": 5,
-      "prep_clarity": 15,
-      "total_score": 70,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: mozzarella and vodka sauce both named. Sauce 25: vodka sauce named. Prep 15: fried implied, not stated.",
-      "ingredients": [
-        {"name": "mozzarella", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "protein"},
-        {"name": "breading", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
-        {"name": "vodka sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"}
-      ]
-    },
-    {
-      "dish_id": "D433",
-      "dish_name": "Pickle Fries",
-      "dietary_tags": ["vegetarian"],
-      "dietary_options": "Vegetarian",
-      "menu_price": "$10",
-      "allergen_summary": "Allergens based on visible menu description: Wheat (batter), Dairy (ranch), Eggs (ranch may contain). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 15,
-      "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 70,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: pickles, batter, ranch named. Sauce 15: ranch named by type. Prep 25: battered and golden fried explicitly stated.",
-      "ingredients": [
-        {"name": "pickles", "cut_type": "sliced", "preparation": "pickled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "batter", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat,eggs", "role": "base"},
-        {"name": "ranch", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,eggs", "role": "dipping sauce"}
-      ]
-    },
-    {
-      "dish_id": "D434",
-      "dish_name": "Crispy Brussels Sprouts",
-      "dietary_tags": ["vegetarian"],
-      "dietary_options": "Vegetarian",
-      "menu_price": "$12",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (whipped goat cheese), Tree Nuts (pecans). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 5,
-      "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 60,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: whipped goat cheese, honey, chopped roasted pecans, pomegranate seeds all named. Sauce 5: no sauce. Prep 25: crispy in name, roasted pecans stated.",
-      "ingredients": [
-        {"name": "brussels sprouts", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "goat cheese", "cut_type": "none", "preparation": "whipped", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "honey", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "drizzle"},
-        {"name": "pecans", "cut_type": "chopped", "preparation": "roasted", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "garnish"},
-        {"name": "pomegranate seeds", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
-      ]
-    },
-    {
-      "dish_id": "D435",
-      "dish_name": "Smoked Chicken Wings",
-      "dietary_tags": [],
-      "dietary_options": "Sauce choice: Alabama White, Buffalo, or Korean BBQ (Peanut Togarashi). Available in 6 or 12.",
-      "menu_price": "$12 (6) | $20 (12)",
-      "allergen_summary": "Allergens based on visible menu description: Peanuts (Korean BBQ Peanut Togarashi option), Dairy (Alabama White sauce option). Allergens vary by sauce choice — contact restaurant to confirm.",
+      "dish_id": "D529",
+      "dish_name": "Cucumber Salad",
+      "dietary_tags": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$4.50",
+      "allergen_summary": "Contains sesame. Gluten-free as prepared. Contact restaurant to confirm.",
       "core_clarity": 15,
-      "sauce_disclosure": 5,
-      "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 50,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 20,
+      "prep_clarity": 10,
+      "total_score": 55,
       "transparency_level": "Building Transparency",
-      "notes": "Core 15: wings named, three sauce options listed. Sauce 5: three options named only, no sauce ingredients disclosed. Prep 25: smoked explicitly stated.",
+      "notes": "Core 15: 3 named. Sauce 10: vinegar dressing. Allergen 20: GF labeled on menu. Prep 10: minimal.",
       "ingredients": [
-        {"name": "chicken wings", "cut_type": "none", "preparation": "smoked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"}
-      ]
+        {
+          "name": "cucumbers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "vinegar",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "dressing"
+        },
+        {
+          "name": "sesame seeds",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "seed",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        }
+      ],
+      "category": "salad",
+      "menu_verified": true
     },
     {
-      "dish_id": "D436",
-      "dish_name": "Pimento Cheese",
-      "dietary_tags": ["vegetarian"],
-      "dietary_options": "Vegetarian",
-      "menu_price": "$10",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (sharp cheddar), Wheat (ranch chips). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 5,
-      "allergen_transparency": 5,
-      "prep_clarity": 5,
-      "total_score": 40,
-      "transparency_level": "Building Transparency",
-      "notes": "Core 25: sharp cheddar pimento cheese, house-made ranch chips, fresh vegetables named. Sauce 5: no sauce. Prep 5: no prep method stated.",
-      "ingredients": [
-        {"name": "sharp cheddar", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "protein"},
-        {"name": "pimento peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "ranch chips", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house-made", "allergen_flags": "wheat", "role": "base"},
-        {"name": "fresh vegetables", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"}
-      ]
-    },
-    {
-      "dish_id": "D437",
-      "dish_name": "Queso Dip",
-      "dietary_tags": ["vegetarian"],
-      "dietary_options": "Vegetarian",
-      "menu_price": "$10",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (white queso). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 25,
-      "allergen_transparency": 5,
-      "prep_clarity": 5,
+      "dish_id": "D530",
+      "dish_name": "Mango Slaw",
+      "dietary_tags": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$4.50",
+      "allergen_summary": "Gluten-free as prepared. Contact restaurant to confirm.",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 20,
+      "prep_clarity": 10,
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: white queso, Fresno peppers, jalapeños, tortilla chips all named. Sauce 25: queso components named. Prep 5: no prep stated.",
+      "notes": "Core 15: 3 named. Sauce 15: mango-based dressing named. Allergen 20: GF labeled on menu. Prep 10: minimal.",
       "ingredients": [
-        {"name": "white queso", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
-        {"name": "Fresno peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "jalapeños", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "tortilla chips", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"}
-      ]
+        {
+          "name": "cole slaw",
+          "cut_type": "shredded",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "mango dressing",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dressing",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "dressing"
+        },
+        {
+          "name": "mango",
+          "cut_type": "chunked",
+          "preparation": "none",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "category": "side",
+      "menu_verified": true
     },
     {
-      "dish_id": "D438",
-      "dish_name": "Tuna Poke Bowl",
+      "dish_id": "D531",
+      "dish_name": "4:20 Nachos",
       "dietary_tags": [],
       "dietary_options": "",
-      "menu_price": "$18",
-      "allergen_summary": "Allergens based on visible menu description: Fish (ahi tuna), Soy (edamame, teriyaki sauce), Sesame (sesame seeds), Eggs (yum yum sauce). Contact restaurant to confirm.",
+      "menu_price": "$10.50",
+      "allergen_summary": "Contains fish (tuna), gluten (Doritos). May contain soy (unagi sauce). Contact restaurant to confirm.",
       "core_clarity": 25,
       "sauce_disclosure": 15,
       "allergen_transparency": 5,
       "prep_clarity": 15,
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: ahi tuna, edamame, carrots, jalapeño, avocado, cilantro, yum yum sauce, teriyaki, sesame seeds, fried shallots all named. Sauce 15: yum yum and teriyaki named by type. Prep 15: fried shallots stated.",
+      "notes": "Core 25: 6 named. Sauce 15: unagi and spicy mayo named. Allergen 5: raw fish not explicitly labeled beyond *. Prep 15: raw noted (*).",
       "ingredients": [
-        {"name": "ahi tuna", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "unknown", "allergen_flags": "fish", "role": "protein"},
-        {"name": "edamame", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "soy", "role": "component"},
-        {"name": "carrots", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "jalapeño", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "avocado", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "cilantro", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
-        {"name": "yum yum sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "teriyaki sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "soy", "role": "sauce"},
-        {"name": "sesame seeds", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "sesame", "role": "garnish"},
-        {"name": "fried shallots", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
-      ]
+        {
+          "name": "Doritos",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "wheat, dairy",
+          "role": "base"
+        },
+        {
+          "name": "spicy tuna",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "sesame seeds",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "seed",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        },
+        {
+          "name": "unagi sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy, fish",
+          "role": "sauce"
+        },
+        {
+          "name": "spicy mayo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "egg",
+          "role": "sauce"
+        }
+      ],
+      "category": "nachos",
+      "menu_verified": true
     },
     {
-      "dish_id": "D439",
-      "dish_name": "Battery Quesadilla",
-      "dietary_tags": [],
-      "dietary_options": "Choice of sliced ribeye, grilled chicken, or shrimp (+$3).",
-      "menu_price": "$16",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (shredded cheese, sour cream), Wheat (flour tortilla), Shellfish (shrimp option). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 15,
-      "allergen_transparency": 5,
+      "dish_id": "D532",
+      "dish_name": "Juan's Nachos",
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$10.50",
+      "allergen_summary": "Contains shellfish (shrimp). Gluten-free as prepared. Contact restaurant to confirm.",
+      "core_clarity": 30,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 20,
       "prep_clarity": 15,
-      "total_score": 60,
+      "total_score": 75,
       "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: protein options, cheese, peppers, onions all named. Sauce 15: salsa and sour cream named. Prep 15: grilled implied for quesadilla.",
+      "notes": "Core 30: 7 named. Sauce 10: ceviche marinade implied. Allergen 20: GF labeled. Prep 15: ceviche (citrus-marinated) noted.",
       "ingredients": [
-        {"name": "sliced ribeye (or grilled chicken or shrimp)", "cut_type": "sliced", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "shredded cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "onions", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "salsa", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
-        {"name": "sour cream", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "condiment"},
-        {"name": "flour tortilla", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "tortilla chips",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "shrimp ceviche",
+          "cut_type": "none",
+          "preparation": "ceviche",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "tomatoes",
+          "cut_type": "diced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cilantro",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "herb",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "jalapeno",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "lime",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ],
+      "category": "nachos",
+      "menu_verified": true
     },
     {
-      "dish_id": "D440",
-      "dish_name": "Green Goddess Salad",
-      "dietary_tags": ["gluten-free"],
-      "dietary_options": "Gluten-free per menu (*). Contains bacon.",
-      "menu_price": "$10 | $15",
-      "allergen_summary": "Allergens based on visible menu description: Eggs (hard boiled egg), Dairy (green goddess dressing may contain). Contains bacon. Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 15,
-      "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 70,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: spinach, arugula, roasted broccoli, fried brussels leaves, onion, tomato, hard boiled egg, avocado, bacon, green goddess dressing all named. Sauce 15: green goddess dressing named by type. Prep 25: roasted broccoli, fried brussels stated.",
-      "ingredients": [
-        {"name": "spinach", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "arugula", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "broccoli", "cut_type": "none", "preparation": "roasted", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "brussels sprout leaves", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "onion", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "tomato", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "hard boiled egg", "cut_type": "none", "preparation": "boiled", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "component"},
-        {"name": "avocado", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bacon", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "green goddess dressing", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "dressing"}
-      ]
-    },
-    {
-      "dish_id": "D441",
-      "dish_name": "Cobb Salad",
-      "dietary_tags": ["gluten-free"],
-      "dietary_options": "Gluten-free per menu (*). Choice of dressing.",
-      "menu_price": "$12 | $18",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (shredded cheese), Eggs (hard boiled egg). Dressing allergens vary by choice — contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 5,
-      "allergen_transparency": 5,
-      "prep_clarity": 5,
-      "total_score": 40,
-      "transparency_level": "Building Transparency",
-      "notes": "Core 25: romaine, ham, turkey, bacon, shredded cheese, cherry tomato, carrots, hard boiled egg all named. Sauce 5: dressing not specified — choice of. Prep 5: no prep stated.",
-      "ingredients": [
-        {"name": "romaine", "cut_type": "chopped", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "ham", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "turkey", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bacon", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "shredded cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "cherry tomato", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "shredded carrots", "cut_type": "shredded", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "hard boiled egg", "cut_type": "none", "preparation": "boiled", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "component"},
-        {"name": "dressing", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "dressing"}
-      ]
-    },
-    {
-      "dish_id": "D442",
-      "dish_name": "Wedge Salad",
-      "dietary_tags": ["gluten-free"],
-      "dietary_options": "Gluten-free per menu (*).",
-      "menu_price": "$10",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (blue cheese crumbles, blue cheese dressing), Eggs (dressing may contain). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 25,
-      "allergen_transparency": 5,
-      "prep_clarity": 15,
-      "total_score": 70,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: iceberg, bacon lardons, blue cheese crumbles, fried shallot, cherry tomato, red onion, blue cheese dressing all named. Sauce 25: blue cheese dressing named. Prep 15: fried shallot, bacon lardons prep implied.",
-      "ingredients": [
-        {"name": "iceberg lettuce", "cut_type": "wedge", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "bacon lardons", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "blue cheese crumbles", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "shallot", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
-        {"name": "cherry tomato", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "red onion", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "blue cheese dressing", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,eggs", "role": "dressing"}
-      ]
-    },
-    {
-      "dish_id": "D443",
-      "dish_name": "Tomato Soup",
-      "dietary_tags": ["gluten-free", "vegetarian"],
-      "dietary_options": "Gluten-free per menu (*). Vegetarian.",
-      "menu_price": "$6 | $10",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (parmesan). Confirm GF status of okra croutons with restaurant.",
-      "core_clarity": 25,
-      "sauce_disclosure": 5,
-      "allergen_transparency": 5,
-      "prep_clarity": 15,
-      "total_score": 50,
-      "transparency_level": "Building Transparency",
-      "notes": "Core 25: tomato soup base, crispy okra croutons, parmesan, chives all named. Sauce 5: soup base not detailed beyond 'tomato'. Prep 15: crispy okra croutons prep implied.",
-      "ingredients": [
-        {"name": "tomato soup", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "okra croutons", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "parmesan", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "garnish"},
-        {"name": "chives", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
-      ]
-    },
-    {
-      "dish_id": "D444",
-      "dish_name": "Southern Caesar",
+      "dish_id": "D533",
+      "dish_name": "Poke' & Sticky",
       "dietary_tags": [],
       "dietary_options": "",
-      "menu_price": "$10 | $15",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (parmesan), Eggs (caesar dressing), Fish (caesar dressing may contain anchovies), Wheat (okra croutons). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 15,
-      "allergen_transparency": 5,
-      "prep_clarity": 5,
-      "total_score": 50,
-      "transparency_level": "Building Transparency",
-      "notes": "Core 25: romaine, parmesan, okra croutons, red chili flakes, house caesar dressing all named. Sauce 15: house caesar named but not detailed. Prep 5: no prep stated.",
-      "ingredients": [
-        {"name": "romaine", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "parmesan", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "okra croutons", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "component"},
-        {"name": "red chili flakes", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "seasoning"},
-        {"name": "house caesar dressing", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house-made", "allergen_flags": "eggs,fish,dairy", "role": "dressing"}
-      ]
-    },
-    {
-      "dish_id": "D445",
-      "dish_name": "Chicken Tender Basket",
-      "dietary_tags": [],
-      "dietary_options": "Choice of honey mustard or ranch.",
-      "menu_price": "$16",
-      "allergen_summary": "Allergens based on visible menu description: Wheat (hand breading), Eggs (breading may contain), Dairy (ranch). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 15,
-      "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 70,
+      "menu_price": "$10.50",
+      "allergen_summary": "Contains fish (tuna), soy, tree nuts (macadamia nuts), sesame. Contact restaurant to confirm.",
+      "core_clarity": 30,
+      "sauce_disclosure": 20,
+      "allergen_transparency": 10,
+      "prep_clarity": 15,
+      "total_score": 75,
       "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: hand breaded tenders, fries, honey mustard or ranch all named. Sauce 15: honey mustard and ranch named by type. Prep 25: hand breaded explicitly stated.",
+      "notes": "Core 30: 8 named. Sauce 20: sesame oil and soy sauce both named. Allergen 10: soy and nuts identifiable by name. Prep 15: Hawaiian poke style and raw noted (*).",
       "ingredients": [
-        {"name": "chicken tenders", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "wheat,eggs", "role": "protein"},
-        {"name": "hand breading", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house-made", "allergen_flags": "wheat", "role": "base"},
-        {"name": "parmesan fries", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "side"},
-        {"name": "honey mustard", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "dipping sauce"},
-        {"name": "ranch", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,eggs", "role": "dipping sauce"}
-      ]
+        {
+          "name": "tuna",
+          "cut_type": "diced",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "onions",
+          "cut_type": "diced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "mix-in"
+        },
+        {
+          "name": "macadamia nuts",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "nut",
+          "source": "unknown",
+          "allergen_flags": "tree nut",
+          "role": "topping"
+        },
+        {
+          "name": "sesame seeds",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "seed",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        },
+        {
+          "name": "sesame seed oil",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "oil",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "dressing"
+        },
+        {
+          "name": "soy sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "soy, wheat",
+          "role": "dressing"
+        },
+        {
+          "name": "cabbage",
+          "cut_type": "shredded",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        }
+      ],
+      "category": "bowl",
+      "menu_verified": true
     },
     {
-      "dish_id": "D446",
-      "dish_name": "The Club",
+      "dish_id": "D534",
+      "dish_name": "L.H.M. (Lord Have Mercy)",
       "dietary_tags": [],
-      "dietary_options": "Served with parmesan fries.",
+      "dietary_options": "",
       "menu_price": "$16",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (cheese), Eggs (garlic aioli), Wheat (bread). Contact restaurant to confirm.",
+      "allergen_summary": "Contains fish (tuna), shellfish (shrimp), dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce), egg (mayo). Contact restaurant to confirm.",
       "core_clarity": 25,
-      "sauce_disclosure": 25,
+      "sauce_disclosure": 15,
       "allergen_transparency": 5,
       "prep_clarity": 15,
-      "total_score": 70,
+      "total_score": 60,
       "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: crispy bacon, ham, turkey, cheese, garlic aioli, tomato, arugula all named. Sauce 25: garlic aioli named. Prep 15: crispy bacon implied.",
+      "notes": "Core 25: 6 named fillings. Sauce 15: spicy mayo and unagi named. Allergen 5: raw noted (*), allergens not explicitly labeled. Prep 15: raw noted.",
       "ingredients": [
-        {"name": "bacon", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "ham", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "turkey", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "garlic aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "tomato", "cut_type": "sliced", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "arugula", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bread", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "spicy tuna",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "spread"
+        },
+        {
+          "name": "spicy mayo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "egg",
+          "role": "sauce"
+        },
+        {
+          "name": "unagi sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy, fish",
+          "role": "sauce"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
-      "dish_id": "D447",
-      "dish_name": "Philly Cheesesteak",
+      "dish_id": "D535",
+      "dish_name": "Rainbow",
       "dietary_tags": [],
-      "dietary_options": "Choice of sliced ribeye or grilled chicken. Served with parmesan fries.",
+      "dietary_options": "",
       "menu_price": "$16",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (cheese sauce), Eggs (garlic aioli), Wheat (hoagie roll). Contact restaurant to confirm.",
+      "allergen_summary": "Contains fish (tuna, salmon), shellfish (crab), sesame (seaweed wrap), egg (spicy mayo). Contact restaurant to confirm.",
       "core_clarity": 25,
-      "sauce_disclosure": 25,
+      "sauce_disclosure": 10,
       "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 80,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: protein options, yellow onion, red bell peppers, garlic aioli, cheese sauce all named. Sauce 25: garlic aioli and cheese sauce both named. Prep 25: sliced ribeye and grilled chicken stated.",
+      "prep_clarity": 15,
+      "total_score": 55,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 25: 6 named. Sauce 10: spicy mayo named. Allergen 5: raw noted (*), allergens not labeled. Prep 15: raw noted.",
       "ingredients": [
-        {"name": "sliced ribeye (or grilled chicken)", "cut_type": "sliced", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "yellow onion", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "red bell peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "garlic aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "cheese sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
-        {"name": "hoagie roll", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "tuna",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "salmon",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "crab",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "spicy mayo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "egg",
+          "role": "sauce"
+        },
+        {
+          "name": "cucumbers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
-      "dish_id": "D448",
-      "dish_name": "The Smashburger",
+      "dish_id": "D536",
+      "dish_name": "Ignition",
       "dietary_tags": [],
-      "dietary_options": "Add bacon +$3. Served with parmesan fries.",
-      "menu_price": "$16",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (white American cheese), Wheat (bun). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 15,
-      "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 70,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: Black Angus beef patties, white American cheese, yellow mustard, pickles, grilled onions, toasted bun all named. Black Angus breed specified. Sauce 15: yellow mustard named by type. Prep 25: smashed implied in dish name, grilled onions and toasted bun stated.",
-      "ingredients": [
-        {"name": "Black Angus beef patties", "cut_type": "none", "preparation": "smashed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "white American cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "yellow mustard", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
-        {"name": "pickles", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
-        {"name": "onions", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bun", "cut_type": "none", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
-    },
-    {
-      "dish_id": "D449",
-      "dish_name": "Buffalo Chicken Sandwich",
-      "dietary_tags": [],
-      "dietary_options": "Choice of fried or grilled chicken. Served with parmesan fries.",
-      "menu_price": "$16",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (buttermilk ranch, blue cheese), Wheat (bun, breading if fried), Eggs (ranch may contain). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 25,
-      "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 80,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: chicken, house buffalo sauce, buttermilk ranch, blue cheese crumbles, ranch celery slaw, toasted bun all named. Sauce 25: house buffalo sauce and buttermilk ranch both named. Prep 25: fried or grilled stated.",
-      "ingredients": [
-        {"name": "chicken", "cut_type": "none", "preparation": "fried or grilled", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "protein"},
-        {"name": "house buffalo sauce", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house-made", "allergen_flags": "none", "role": "sauce"},
-        {"name": "buttermilk ranch", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,eggs", "role": "sauce"},
-        {"name": "blue cheese crumbles", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "ranch celery slaw", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "bun", "cut_type": "none", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
-    },
-    {
-      "dish_id": "D450",
-      "dish_name": "Brisket Grilled Cheese",
-      "dietary_tags": [],
-      "dietary_options": "Comes with choice of tomato soup or fries.",
+      "dietary_options": "",
       "menu_price": "$15",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (white American cheese), Wheat (sourdough). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 5,
+      "allergen_summary": "Contains fish (tuna), gluten (Doritos, seaweed wrap), egg (spicy mayo). Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 15,
       "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 60,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: brisket marmalade, white American cheese, toasted sourdough all named. Sauce 5: no separate sauce. Prep 25: grilled in name, toasted sourdough stated.",
+      "prep_clarity": 15,
+      "total_score": 55,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 20: 5 named. Sauce 15: spicy mayo and sriracha named. Allergen 5: raw noted (*). Prep 15: raw noted.",
       "ingredients": [
-        {"name": "brisket marmalade", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "filling"},
-        {"name": "white American cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "sourdough", "cut_type": "sliced", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "spicy tuna",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "jalapeno",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "spicy mayo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "egg",
+          "role": "sauce"
+        },
+        {
+          "name": "Dorito crunch",
+          "cut_type": "crushed",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "wheat, dairy",
+          "role": "topping"
+        },
+        {
+          "name": "sriracha",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
-      "dish_id": "D451",
-      "dish_name": "Korean BBQ Tacos",
+      "dish_id": "D537",
+      "dish_name": "Alaskan Sunrise",
       "dietary_tags": [],
-      "dietary_options": "Choice of brisket, chicken, or shrimp. Served with parmesan fries.",
+      "dietary_options": "",
       "menu_price": "$16",
-      "allergen_summary": "Allergens based on visible menu description: Peanuts (peanut Togarashi), Wheat (taco shells), Shellfish (shrimp option), Soy (Korean BBQ sauce). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 25,
+      "allergen_summary": "Contains fish (salmon), shellfish (crab), sesame (seaweed wrap). Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 15,
       "allergen_transparency": 5,
-      "prep_clarity": 5,
-      "total_score": 60,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: protein options, Korean BBQ sauce, carrot slaw, peanut Togarashi, cilantro, lime all named. Sauce 25: Korean BBQ sauce and peanut Togarashi named. Prep 5: no prep method stated for protein.",
+      "prep_clarity": 15,
+      "total_score": 55,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 20: 5 named. Sauce 15: sweet chili sauce named. Allergen 5: raw noted (*). Prep 15: raw noted.",
       "ingredients": [
-        {"name": "brisket (or chicken or shrimp)", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "Korean BBQ sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "soy", "role": "sauce"},
-        {"name": "carrot slaw", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "peanut Togarashi", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "peanuts", "role": "seasoning"},
-        {"name": "cilantro", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
-        {"name": "lime", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
-        {"name": "taco shells", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "salmon",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "crab",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "mango",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "jalapeños",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "sweet chili sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
-      "dish_id": "D452",
-      "dish_name": "Blackened Fish Sandwich",
+      "dish_id": "D538",
+      "dish_name": "Aloha",
       "dietary_tags": [],
-      "dietary_options": "Served with parmesan fries.",
-      "menu_price": "$18",
-      "allergen_summary": "Allergens based on visible menu description: Fish (species not disclosed), Wheat (bun), Eggs (garlic aioli). Contact restaurant to confirm fish species.",
+      "dietary_options": "",
+      "menu_price": "$15",
+      "allergen_summary": "Contains fish (tuna), tree nuts (macadamia nuts), sesame. Contact restaurant to confirm.",
       "core_clarity": 15,
-      "sauce_disclosure": 25,
+      "sauce_disclosure": 10,
       "allergen_transparency": 5,
-      "prep_clarity": 25,
+      "prep_clarity": 15,
+      "total_score": 45,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 15: 3 named fillings. Sauce 10: Hawaiian seasoning noted but not specific. Allergen 5: raw noted (*), nuts identifiable by name. Prep 15: Hawaiian-style and raw noted.",
+      "ingredients": [
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "Hawaiian-style seasoned tuna",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "macadamia nuts",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "nut",
+          "source": "unknown",
+          "allergen_flags": "tree nut",
+          "role": "topping"
+        },
+        {
+          "name": "sesame",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "seed",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D539",
+      "dish_name": "Spicy Juan",
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$15",
+      "allergen_summary": "Contains fish (salmon), sesame (seaweed wrap). Gluten-free as prepared. Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 20,
+      "prep_clarity": 15,
       "total_score": 70,
       "transparency_level": "Moderate Transparency",
-      "notes": "Core 15: fish species not disclosed — just 'blackened fish'. Accompaniments (lettuce, tomato, pickled red onion, garlic aioli) all named. Sauce 25: garlic aioli named. Prep 25: blackened stated.",
+      "notes": "Core 20: 5 named. Sauce 15: ninja sauce named. Allergen 20: GF labeled. Prep 15: raw noted (*).",
       "ingredients": [
-        {"name": "fish", "cut_type": "none", "preparation": "blackened", "type": "standard", "source": "unknown", "allergen_flags": "fish", "role": "protein"},
-        {"name": "lettuce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "tomato", "cut_type": "sliced", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "red onion", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "garlic aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "bun", "cut_type": "none", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "salmon",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "jalapeños",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cucumbers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "ninja sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "tortilla crunch",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
-      "dish_id": "D453",
-      "dish_name": "Black & Blue Burger",
-      "dietary_tags": [],
-      "dietary_options": "Served with parmesan fries.",
-      "menu_price": "$18",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (blue cheese), Eggs (garlic aioli), Wheat (bun). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 25,
-      "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 80,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: blackened beef patties, blue cheese crumbles, garlic aioli, bacon jam, lettuce, tomato, red onion all named. Sauce 25: garlic aioli and bacon jam both named. Prep 25: blackened stated.",
-      "ingredients": [
-        {"name": "beef patties", "cut_type": "none", "preparation": "blackened", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "blue cheese crumbles", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "garlic aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "bacon jam", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
-        {"name": "lettuce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "tomato", "cut_type": "sliced", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "red onion", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bun", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
-    },
-    {
-      "dish_id": "D454",
-      "dish_name": "Pork Ribeye",
+      "dish_id": "D540",
+      "dish_name": "Tropical Tuna",
       "dietary_tags": [],
       "dietary_options": "",
-      "menu_price": "$32",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (mashed potatoes). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 25,
+      "menu_price": "$15",
+      "allergen_summary": "Contains fish (tuna), dairy (cream cheese), sesame (seaweed wrap), egg (mayo). Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 20,
       "allergen_transparency": 5,
-      "prep_clarity": 5,
+      "prep_clarity": 15,
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: battery brussels, mashed potatoes, blueberry glaze, fresh mint all named. Sauce 25: blueberry glaze named. Prep 5: no prep method stated for the pork.",
+      "notes": "Core 20: 4 named fillings. Sauce 20: spicy mango mayo named specifically. Allergen 5: raw noted (*). Prep 15: raw noted.",
       "ingredients": [
-        {"name": "pork ribeye", "cut_type": "ribeye", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "brussels sprouts", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "mashed potatoes", "cut_type": "none", "preparation": "mashed", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "blueberry glaze", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "fresh mint", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
-      ]
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "tuna",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "spread"
+        },
+        {
+          "name": "cucumbers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "spicy mango mayo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "egg",
+          "role": "sauce"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
-      "dish_id": "D455",
-      "dish_name": "Mama's Chicken",
+      "dish_id": "D541",
+      "dish_name": "Rick Roll",
       "dietary_tags": [],
       "dietary_options": "",
-      "menu_price": "$26",
-      "allergen_summary": "Allergens based on visible menu description: Dairy (mashed potatoes, sawmill gravy), Wheat (breading, sawmill gravy). Contact restaurant to confirm.",
+      "menu_price": "$17",
+      "allergen_summary": "Contains fish (tuna), beef, dairy (cream cheese), gluten (Doritos), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
       "core_clarity": 25,
-      "sauce_disclosure": 25,
+      "sauce_disclosure": 20,
       "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 80,
+      "prep_clarity": 20,
+      "total_score": 70,
       "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: fried chicken breast, Conecuh collard greens (brand named), mashed potatoes, sawmill gravy all named. Sauce 25: sawmill gravy named specifically. Prep 25: fried stated.",
+      "notes": "Core 25: 6 named. Sauce 20: ninja and unagi sauces both named. Allergen 5: raw noted (*). Prep 20: grilled steak and raw tuna both noted.",
       "ingredients": [
-        {"name": "chicken breast", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "wheat,eggs", "role": "protein"},
-        {"name": "Conecuh collard greens", "cut_type": "none", "preparation": "braised", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "mashed potatoes", "cut_type": "none", "preparation": "mashed", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "sawmill gravy", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,wheat", "role": "sauce"}
-      ]
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "grilled steak",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "spicy tuna",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "spread"
+        },
+        {
+          "name": "ninja sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "unagi sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy, fish",
+          "role": "sauce"
+        },
+        {
+          "name": "Dorito crunch",
+          "cut_type": "crushed",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "wheat, dairy",
+          "role": "topping"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
-      "dish_id": "D456",
-      "dish_name": "Seared King Salmon",
-      "dietary_tags": ["gluten-free"],
-      "dietary_options": "Gluten-free per menu (*).",
-      "menu_price": "$29",
-      "allergen_summary": "Allergens based on visible menu description: Fish (king salmon), Eggs (garlic aioli). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 25,
-      "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 80,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: king salmon (species named), roasted sweet potatoes, grilled broccolini, garlic aioli, salsa verde all named. Sauce 25: garlic aioli and salsa verde both named. Prep 25: seared, roasted, and grilled all explicitly stated.",
+      "dish_id": "D542",
+      "dish_name": "JTH",
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$13",
+      "allergen_summary": "Contains fish (tuna), sesame (seaweed wrap). Gluten-free as prepared. Contact restaurant to confirm.",
+      "core_clarity": 15,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 20,
+      "prep_clarity": 15,
+      "total_score": 55,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 15: 3 named. Sauce 5: no sauce. Allergen 20: GF labeled. Prep 15: raw noted (*).",
       "ingredients": [
-        {"name": "king salmon", "cut_type": "none", "preparation": "seared", "type": "standard", "source": "unknown", "allergen_flags": "fish", "role": "protein"},
-        {"name": "sweet potatoes", "cut_type": "none", "preparation": "roasted", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "broccolini", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "garlic aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "salsa verde", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"}
-      ]
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "tuna",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "apples",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
-      "dish_id": "D457",
-      "dish_name": "Shrimp & Grits",
+      "dish_id": "D543",
+      "dish_name": "South Beach",
       "dietary_tags": [],
       "dietary_options": "",
-      "menu_price": "$29",
-      "allergen_summary": "Allergens based on visible menu description: Shellfish (shrimp), Dairy (cheese grits, Crystal cream sauce). Contact restaurant to confirm.",
+      "menu_price": "$16",
+      "allergen_summary": "Contains gluten (seaweed wrap), dairy (cream cheese). Contact restaurant to confirm.",
       "core_clarity": 25,
-      "sauce_disclosure": 25,
+      "sauce_disclosure": 10,
       "allergen_transparency": 5,
-      "prep_clarity": 5,
+      "prep_clarity": 20,
       "total_score": 60,
       "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: shrimp, bell peppers, bacon, Conecuh sausage (brand named), Crystal cream sauce, cheese grits all named. Sauce 25: Crystal cream sauce named specifically (Crystal hot sauce brand). Prep 5: no prep method stated.",
+      "notes": "Core 25: 5 named. Sauce 10: cream cheese noted. Allergen 5: no explicit labeling. Prep 20: grilled steak, caramelized onions, sweet fried plantains all noted.",
       "ingredients": [
-        {"name": "shrimp", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "bell peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bacon", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "Conecuh sausage", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "Crystal cream sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
-        {"name": "cheese grits", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"}
-      ]
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "grilled steak",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "spread"
+        },
+        {
+          "name": "green bell peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "caramelized onions",
+          "cut_type": "none",
+          "preparation": "caramelized",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "sweet fried plantains",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
     },
     {
-      "dish_id": "D458",
-      "dish_name": "Chicken Pesto Pasta",
+      "dish_id": "D544",
+      "dish_name": "Hippy",
+      "dietary_tags": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$13",
+      "allergen_summary": "Vegan. Gluten-free as prepared. Contains sesame. Contact restaurant to confirm.",
+      "core_clarity": 25,
+      "sauce_disclosure": 5,
+      "allergen_transparency": 20,
+      "prep_clarity": 10,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: 6 named. Sauce 5: no sauce. Allergen 20: GF labeled, vegan by composition. Prep 10: minimal.",
+      "ingredients": [
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "jalapeno",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "sesame",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "seed",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        },
+        {
+          "name": "cucumber",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "tomatoes",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cabbage",
+          "cut_type": "shredded",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D545",
+      "dish_name": "Cowboy",
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$15",
+      "allergen_summary": "Contains dairy (cream cheese), sesame. Gluten-free as prepared. Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 20,
+      "prep_clarity": 15,
+      "total_score": 65,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 20: 4 named. Sauce 10: cream cheese noted. Allergen 20: GF labeled. Prep 15: steak (cooked) noted.",
+      "ingredients": [
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "steak",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "spread"
+        },
+        {
+          "name": "sesame",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "seed",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D546",
+      "dish_name": "Toro",
       "dietary_tags": [],
       "dietary_options": "",
-      "menu_price": "$23",
-      "allergen_summary": "Allergens based on visible menu description: Wheat (linguine, grilled toast points), Tree Nuts (almonds in pesto). Contact restaurant to confirm.",
-      "core_clarity": 25,
-      "sauce_disclosure": 25,
+      "menu_price": "$16",
+      "allergen_summary": "Contains shellfish (shrimp), dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 15,
       "allergen_transparency": 5,
-      "prep_clarity": 25,
-      "total_score": 80,
-      "transparency_level": "Moderate Transparency",
-      "notes": "Core 25: linguine, basil and almond pesto (composition stated), sliced grilled chicken, red chili flake, grilled toast points all named. Sauce 25: basil and almond pesto named with key ingredients. Prep 25: grilled chicken and grilled toast points stated.",
+      "prep_clarity": 10,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 20: 5 named. Sauce 15: unagi sauce named. Allergen 5: no explicit labeling. Prep 10: minimal.",
       "ingredients": [
-        {"name": "linguine pasta", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
-        {"name": "basil and almond pesto", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "sauce"},
-        {"name": "chicken", "cut_type": "sliced", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "red chili flake", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "seasoning"},
-        {"name": "toast points", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "component"}
-      ]
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "steak",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "spread"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "unagi sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy, fish",
+          "role": "sauce"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D547",
+      "dish_name": "Destin",
+      "dietary_tags": [],
+      "dietary_options": "",
+      "menu_price": "$16",
+      "allergen_summary": "Contains shellfish (crab, shrimp), sesame (seaweed wrap), egg (spicy mayo). Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 5,
+      "prep_clarity": 10,
+      "total_score": 45,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 20: 5 named. Sauce 10: spicy mayo named. Allergen 5: shellfish not explicitly labeled. Prep 10: minimal.",
+      "ingredients": [
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "crab",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "spicy mayo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "egg",
+          "role": "sauce"
+        },
+        {
+          "name": "cucumber",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D548",
+      "dish_name": "Samurai",
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$15",
+      "allergen_summary": "Contains shellfish (shrimp), sesame (seaweed wrap). Gluten-free as prepared. Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 20,
+      "prep_clarity": 10,
+      "total_score": 65,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 20: 4 named. Sauce 15: ninja sauce named. Allergen 20: GF labeled. Prep 10: minimal.",
+      "ingredients": [
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "ninja sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "jalapeños",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "tortilla crunch",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D549",
+      "dish_name": "Thai'd Up",
+      "dietary_tags": [],
+      "dietary_options": "",
+      "menu_price": "$15",
+      "allergen_summary": "Contains shellfish (shrimp), peanuts, dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
+      "core_clarity": 25,
+      "sauce_disclosure": 20,
+      "allergen_transparency": 10,
+      "prep_clarity": 10,
+      "total_score": 65,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: 6 named. Sauce 20: peanut sauce and unagi both named. Allergen 10: peanuts identifiable by name (common allergen). Prep 10: minimal.",
+      "ingredients": [
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "peanut sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "peanut",
+          "role": "sauce"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "spread"
+        },
+        {
+          "name": "cilantro",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "herb",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "peanuts",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "nut",
+          "source": "unknown",
+          "allergen_flags": "peanut",
+          "role": "topping"
+        },
+        {
+          "name": "unagi sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy, fish",
+          "role": "sauce"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D550",
+      "dish_name": "The Blazer",
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$16",
+      "allergen_summary": "Contains dairy (cream cheese), sesame (seaweed wrap), egg (mayo). Gluten-free as prepared. Contact restaurant to confirm.",
+      "core_clarity": 25,
+      "sauce_disclosure": 20,
+      "allergen_transparency": 20,
+      "prep_clarity": 10,
+      "total_score": 75,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 25: 6 named. Sauce 20: spicy mango mayo named. Allergen 20: GF labeled. Prep 10: minimal.",
+      "ingredients": [
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "spread"
+        },
+        {
+          "name": "cilantro",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "herb",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "tomatoes",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cabbage",
+          "cut_type": "shredded",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "spicy mango mayo",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "egg",
+          "role": "sauce"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D551",
+      "dish_name": "Starter",
+      "dietary_tags": [],
+      "dietary_options": "",
+      "menu_price": "$13",
+      "allergen_summary": "Contains shellfish (shrimp), dairy (cream cheese), sesame (seaweed wrap), soy (unagi sauce). Contact restaurant to confirm.",
+      "core_clarity": 15,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 10,
+      "total_score": 45,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 15: 3 named. Sauce 15: unagi sauce named. Allergen 5: no explicit labeling. Prep 10: minimal.",
+      "ingredients": [
+        {
+          "name": "seaweed wrap",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "vessel"
+        },
+        {
+          "name": "sushi rice",
+          "cut_type": "none",
+          "preparation": "steamed",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "spread"
+        },
+        {
+          "name": "unagi sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "soy, fish",
+          "role": "sauce"
+        }
+      ],
+      "category": "sushi burrito",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D552",
+      "dish_name": "Ceviche Taco",
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$6/$10",
+      "allergen_summary": "Contains shellfish (shrimp). Gluten-free as prepared. Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 20,
+      "prep_clarity": 15,
+      "total_score": 65,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 20: 4 named. Sauce 10: ceviche marinade implied. Allergen 20: GF labeled. Prep 15: ceviche (citrus-marinated) noted.",
+      "ingredients": [
+        {
+          "name": "corn tortilla",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vessel"
+        },
+        {
+          "name": "shrimp ceviche",
+          "cut_type": "none",
+          "preparation": "ceviche",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "cilantro",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "herb",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "lime",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "fruit",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ],
+      "category": "taco",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D553",
+      "dish_name": "Avondale Taco",
+      "dietary_tags": [],
+      "dietary_options": "",
+      "menu_price": "$6/$10",
+      "allergen_summary": "Contains fish (tuna), sesame (taco shell). Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 5,
+      "prep_clarity": 15,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 20: 4 named. Sauce 10: mango slaw as flavor component. Allergen 5: raw noted (*). Prep 15: raw tuna noted.",
+      "ingredients": [
+        {
+          "name": "taco shell",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vessel"
+        },
+        {
+          "name": "spicy tuna",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "mango slaw",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "jalapeno",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "category": "taco",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D554",
+      "dish_name": "Chicken Little Taco",
+      "dietary_tags": [],
+      "dietary_options": "",
+      "menu_price": "$6/$10",
+      "allergen_summary": "Contains dairy (cream cheese), sesame. Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 15,
+      "allergen_transparency": 5,
+      "prep_clarity": 10,
+      "total_score": 50,
+      "transparency_level": "Building Transparency",
+      "notes": "Core 20: 5 named. Sauce 15: ninja sauce named. Allergen 5: no explicit labeling. Prep 10: minimal.",
+      "ingredients": [
+        {
+          "name": "taco shell",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vessel"
+        },
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "spread"
+        },
+        {
+          "name": "jalapeños",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "ninja sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "sauce",
+          "source": "unknown",
+          "allergen_flags": "unknown",
+          "role": "sauce"
+        },
+        {
+          "name": "sesame seeds",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "seed",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        }
+      ],
+      "category": "taco",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D555",
+      "dish_name": "30-A Taco",
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$6/$10",
+      "allergen_summary": "Contains shellfish (shrimp), sesame. Gluten-free as prepared. Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 20,
+      "prep_clarity": 10,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 20: 4 named. Sauce 10: mango slaw as flavor component. Allergen 20: GF labeled. Prep 10: minimal.",
+      "ingredients": [
+        {
+          "name": "corn tortilla",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vessel"
+        },
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "vegetable",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "mango slaw",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        },
+        {
+          "name": "sesame seeds",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "seed",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "topping"
+        }
+      ],
+      "category": "taco",
+      "menu_verified": true
+    },
+    {
+      "dish_id": "D556",
+      "dish_name": "Sonora Taco",
+      "dietary_tags": [
+        "gluten-free"
+      ],
+      "dietary_options": "",
+      "menu_price": "$6/$10",
+      "allergen_summary": "Contains dairy (cream cheese). Gluten-free as prepared. Contact restaurant to confirm.",
+      "core_clarity": 20,
+      "sauce_disclosure": 10,
+      "allergen_transparency": 20,
+      "prep_clarity": 10,
+      "total_score": 60,
+      "transparency_level": "Moderate Transparency",
+      "notes": "Core 20: 4 named. Sauce 10: guacamole noted. Allergen 20: GF labeled. Prep 10: minimal.",
+      "ingredients": [
+        {
+          "name": "corn tortilla",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "grain",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "vessel"
+        },
+        {
+          "name": "steak",
+          "cut_type": "none",
+          "preparation": "cooked",
+          "type": "protein",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "guacamole",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "condiment",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "condiment"
+        },
+        {
+          "name": "cream cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "dairy",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "spread"
+        },
+        {
+          "name": "cilantro",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "herb",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "topping"
+        }
+      ],
+      "category": "taco",
+      "menu_verified": true
     }
   ]
 }

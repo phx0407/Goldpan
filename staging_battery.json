@@ -10,7 +10,9 @@
     {
       "dish_id": "D432",
       "dish_name": "Monsterella Sticks",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "Vegetarian",
       "menu_price": "$10",
       "allergen_summary": "Allergens based on visible menu description: Dairy (mozzarella, vodka sauce), Wheat (breading). Contact restaurant to confirm.",
@@ -22,15 +24,42 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: mozzarella and vodka sauce both named. Sauce 25: vodka sauce named. Prep 15: fried implied, not stated.",
       "ingredients": [
-        {"name": "mozzarella", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "protein"},
-        {"name": "breading", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
-        {"name": "vodka sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"}
-      ]
+        {
+          "name": "mozzarella",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "protein"
+        },
+        {
+          "name": "breading",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "vodka sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D433",
       "dish_name": "Pickle Fries",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "Vegetarian",
       "menu_price": "$10",
       "allergen_summary": "Allergens based on visible menu description: Wheat (batter), Dairy (ranch), Eggs (ranch may contain). Contact restaurant to confirm.",
@@ -42,15 +71,42 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: pickles, batter, ranch named. Sauce 15: ranch named by type. Prep 25: battered and golden fried explicitly stated.",
       "ingredients": [
-        {"name": "pickles", "cut_type": "sliced", "preparation": "pickled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "batter", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat,eggs", "role": "base"},
-        {"name": "ranch", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,eggs", "role": "dipping sauce"}
-      ]
+        {
+          "name": "pickles",
+          "cut_type": "sliced",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "batter",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat,eggs",
+          "role": "base"
+        },
+        {
+          "name": "ranch",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy,eggs",
+          "role": "dipping sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D434",
       "dish_name": "Crispy Brussels Sprouts",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "Vegetarian",
       "menu_price": "$12",
       "allergen_summary": "Allergens based on visible menu description: Dairy (whipped goat cheese), Tree Nuts (pecans). Contact restaurant to confirm.",
@@ -62,12 +118,53 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: whipped goat cheese, honey, chopped roasted pecans, pomegranate seeds all named. Sauce 5: no sauce. Prep 25: crispy in name, roasted pecans stated.",
       "ingredients": [
-        {"name": "brussels sprouts", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "goat cheese", "cut_type": "none", "preparation": "whipped", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "honey", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "drizzle"},
-        {"name": "pecans", "cut_type": "chopped", "preparation": "roasted", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "garnish"},
-        {"name": "pomegranate seeds", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
-      ]
+        {
+          "name": "brussels sprouts",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "goat cheese",
+          "cut_type": "none",
+          "preparation": "whipped",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "honey",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "drizzle"
+        },
+        {
+          "name": "pecans",
+          "cut_type": "chopped",
+          "preparation": "roasted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "tree nuts",
+          "role": "garnish"
+        },
+        {
+          "name": "pomegranate seeds",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D435",
@@ -84,13 +181,24 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 15: wings named, three sauce options listed. Sauce 5: three options named only, no sauce ingredients disclosed. Prep 25: smoked explicitly stated.",
       "ingredients": [
-        {"name": "chicken wings", "cut_type": "none", "preparation": "smoked", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"}
-      ]
+        {
+          "name": "chicken wings",
+          "cut_type": "none",
+          "preparation": "smoked",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D436",
       "dish_name": "Pimento Cheese",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "Vegetarian",
       "menu_price": "$10",
       "allergen_summary": "Allergens based on visible menu description: Dairy (sharp cheddar), Wheat (ranch chips). Contact restaurant to confirm.",
@@ -102,16 +210,51 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 25: sharp cheddar pimento cheese, house-made ranch chips, fresh vegetables named. Sauce 5: no sauce. Prep 5: no prep method stated.",
       "ingredients": [
-        {"name": "sharp cheddar", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "protein"},
-        {"name": "pimento peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "ranch chips", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house-made", "allergen_flags": "wheat", "role": "base"},
-        {"name": "fresh vegetables", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"}
-      ]
+        {
+          "name": "sharp cheddar",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "protein"
+        },
+        {
+          "name": "pimento peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "ranch chips",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "house-made",
+          "source": "house-made",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "fresh vegetables",
+          "cut_type": "none",
+          "preparation": "fresh",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D437",
       "dish_name": "Queso Dip",
-      "dietary_tags": ["vegetarian"],
+      "dietary_tags": [
+        "vegetarian"
+      ],
       "dietary_options": "Vegetarian",
       "menu_price": "$10",
       "allergen_summary": "Allergens based on visible menu description: Dairy (white queso). Contact restaurant to confirm.",
@@ -123,11 +266,44 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: white queso, Fresno peppers, jalapeños, tortilla chips all named. Sauce 25: queso components named. Prep 5: no prep stated.",
       "ingredients": [
-        {"name": "white queso", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
-        {"name": "Fresno peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "jalapeños", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "tortilla chips", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"}
-      ]
+        {
+          "name": "white queso",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        },
+        {
+          "name": "Fresno peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "jalapeños",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "tortilla chips",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D438",
@@ -144,17 +320,98 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: ahi tuna, edamame, carrots, jalapeño, avocado, cilantro, yum yum sauce, teriyaki, sesame seeds, fried shallots all named. Sauce 15: yum yum and teriyaki named by type. Prep 15: fried shallots stated.",
       "ingredients": [
-        {"name": "ahi tuna", "cut_type": "none", "preparation": "raw", "type": "standard", "source": "unknown", "allergen_flags": "fish", "role": "protein"},
-        {"name": "edamame", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "soy", "role": "component"},
-        {"name": "carrots", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "jalapeño", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "avocado", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "cilantro", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
-        {"name": "yum yum sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "teriyaki sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "soy", "role": "sauce"},
-        {"name": "sesame seeds", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "sesame", "role": "garnish"},
-        {"name": "fried shallots", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
-      ]
+        {
+          "name": "ahi tuna",
+          "cut_type": "none",
+          "preparation": "raw",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "edamame",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "component"
+        },
+        {
+          "name": "carrots",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "jalapeño",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "cilantro",
+          "cut_type": "none",
+          "preparation": "fresh",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "garnish"
+        },
+        {
+          "name": "yum yum sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "sauce"
+        },
+        {
+          "name": "teriyaki sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "sauce"
+        },
+        {
+          "name": "sesame seeds",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "sesame",
+          "role": "garnish"
+        },
+        {
+          "name": "fried shallots",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D439",
@@ -171,19 +428,78 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: protein options, cheese, peppers, onions all named. Sauce 15: salsa and sour cream named. Prep 15: grilled implied for quesadilla.",
       "ingredients": [
-        {"name": "sliced ribeye (or grilled chicken or shrimp)", "cut_type": "sliced", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "shredded cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "onions", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "salsa", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
-        {"name": "sour cream", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "condiment"},
-        {"name": "flour tortilla", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "sliced ribeye (or grilled chicken or shrimp)",
+          "cut_type": "sliced",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "shredded cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "onions",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "salsa",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "condiment"
+        },
+        {
+          "name": "sour cream",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "condiment"
+        },
+        {
+          "name": "flour tortilla",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D440",
       "dish_name": "Green Goddess Salad",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "Gluten-free per menu (*). Contains bacon.",
       "menu_price": "$10 | $15",
       "allergen_summary": "Allergens based on visible menu description: Eggs (hard boiled egg), Dairy (green goddess dressing may contain). Contains bacon. Contact restaurant to confirm.",
@@ -195,22 +511,105 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: spinach, arugula, roasted broccoli, fried brussels leaves, onion, tomato, hard boiled egg, avocado, bacon, green goddess dressing all named. Sauce 15: green goddess dressing named by type. Prep 25: roasted broccoli, fried brussels stated.",
       "ingredients": [
-        {"name": "spinach", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "arugula", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "broccoli", "cut_type": "none", "preparation": "roasted", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "brussels sprout leaves", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "onion", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "tomato", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "hard boiled egg", "cut_type": "none", "preparation": "boiled", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "component"},
-        {"name": "avocado", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bacon", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "green goddess dressing", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "dressing"}
-      ]
+        {
+          "name": "spinach",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "arugula",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "broccoli",
+          "cut_type": "none",
+          "preparation": "roasted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "brussels sprout leaves",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "tomato",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "hard boiled egg",
+          "cut_type": "none",
+          "preparation": "boiled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "component"
+        },
+        {
+          "name": "avocado",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "green goddess dressing",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "dressing"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D441",
       "dish_name": "Cobb Salad",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "Gluten-free per menu (*). Choice of dressing.",
       "menu_price": "$12 | $18",
       "allergen_summary": "Allergens based on visible menu description: Dairy (shredded cheese), Eggs (hard boiled egg). Dressing allergens vary by choice — contact restaurant to confirm.",
@@ -222,21 +621,96 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 25: romaine, ham, turkey, bacon, shredded cheese, cherry tomato, carrots, hard boiled egg all named. Sauce 5: dressing not specified — choice of. Prep 5: no prep stated.",
       "ingredients": [
-        {"name": "romaine", "cut_type": "chopped", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "ham", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "turkey", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bacon", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "shredded cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "cherry tomato", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "shredded carrots", "cut_type": "shredded", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "hard boiled egg", "cut_type": "none", "preparation": "boiled", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "component"},
-        {"name": "dressing", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "dressing"}
-      ]
+        {
+          "name": "romaine",
+          "cut_type": "chopped",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "ham",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "turkey",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "shredded cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "cherry tomato",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "shredded carrots",
+          "cut_type": "shredded",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "hard boiled egg",
+          "cut_type": "none",
+          "preparation": "boiled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "component"
+        },
+        {
+          "name": "dressing",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "dressing"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D442",
       "dish_name": "Wedge Salad",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "Gluten-free per menu (*).",
       "menu_price": "$10",
       "allergen_summary": "Allergens based on visible menu description: Dairy (blue cheese crumbles, blue cheese dressing), Eggs (dressing may contain). Contact restaurant to confirm.",
@@ -248,19 +722,79 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: iceberg, bacon lardons, blue cheese crumbles, fried shallot, cherry tomato, red onion, blue cheese dressing all named. Sauce 25: blue cheese dressing named. Prep 15: fried shallot, bacon lardons prep implied.",
       "ingredients": [
-        {"name": "iceberg lettuce", "cut_type": "wedge", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "bacon lardons", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "blue cheese crumbles", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "shallot", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
-        {"name": "cherry tomato", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "red onion", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "blue cheese dressing", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,eggs", "role": "dressing"}
-      ]
+        {
+          "name": "iceberg lettuce",
+          "cut_type": "wedge",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "bacon lardons",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "blue cheese crumbles",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "shallot",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "garnish"
+        },
+        {
+          "name": "cherry tomato",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "red onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "blue cheese dressing",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy,eggs",
+          "role": "dressing"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D443",
       "dish_name": "Tomato Soup",
-      "dietary_tags": ["gluten-free", "vegetarian"],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
       "dietary_options": "Gluten-free per menu (*). Vegetarian.",
       "menu_price": "$6 | $10",
       "allergen_summary": "Allergens based on visible menu description: Dairy (parmesan). Confirm GF status of okra croutons with restaurant.",
@@ -272,11 +806,44 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 25: tomato soup base, crispy okra croutons, parmesan, chives all named. Sauce 5: soup base not detailed beyond 'tomato'. Prep 15: crispy okra croutons prep implied.",
       "ingredients": [
-        {"name": "tomato soup", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "okra croutons", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "parmesan", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "garnish"},
-        {"name": "chives", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
-      ]
+        {
+          "name": "tomato soup",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "okra croutons",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "parmesan",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "garnish"
+        },
+        {
+          "name": "chives",
+          "cut_type": "none",
+          "preparation": "fresh",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D444",
@@ -293,12 +860,53 @@
       "transparency_level": "Building Transparency",
       "notes": "Core 25: romaine, parmesan, okra croutons, red chili flakes, house caesar dressing all named. Sauce 15: house caesar named but not detailed. Prep 5: no prep stated.",
       "ingredients": [
-        {"name": "romaine", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "base"},
-        {"name": "parmesan", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "okra croutons", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "component"},
-        {"name": "red chili flakes", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "seasoning"},
-        {"name": "house caesar dressing", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house-made", "allergen_flags": "eggs,fish,dairy", "role": "dressing"}
-      ]
+        {
+          "name": "romaine",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "base"
+        },
+        {
+          "name": "parmesan",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "okra croutons",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "component"
+        },
+        {
+          "name": "red chili flakes",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "seasoning"
+        },
+        {
+          "name": "house caesar dressing",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "house-made",
+          "source": "house-made",
+          "allergen_flags": "eggs,fish,dairy",
+          "role": "dressing"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D445",
@@ -315,12 +923,53 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: hand breaded tenders, fries, honey mustard or ranch all named. Sauce 15: honey mustard and ranch named by type. Prep 25: hand breaded explicitly stated.",
       "ingredients": [
-        {"name": "chicken tenders", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "wheat,eggs", "role": "protein"},
-        {"name": "hand breading", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house-made", "allergen_flags": "wheat", "role": "base"},
-        {"name": "parmesan fries", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "side"},
-        {"name": "honey mustard", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "dipping sauce"},
-        {"name": "ranch", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,eggs", "role": "dipping sauce"}
-      ]
+        {
+          "name": "chicken tenders",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat,eggs",
+          "role": "protein"
+        },
+        {
+          "name": "hand breading",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "house-made",
+          "source": "house-made",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "parmesan fries",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "side"
+        },
+        {
+          "name": "honey mustard",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "dipping sauce"
+        },
+        {
+          "name": "ranch",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy,eggs",
+          "role": "dipping sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D446",
@@ -337,15 +986,80 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: crispy bacon, ham, turkey, cheese, garlic aioli, tomato, arugula all named. Sauce 25: garlic aioli named. Prep 15: crispy bacon implied.",
       "ingredients": [
-        {"name": "bacon", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "ham", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "turkey", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "garlic aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "tomato", "cut_type": "sliced", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "arugula", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bread", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "ham",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "turkey",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "garlic aioli",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "sauce"
+        },
+        {
+          "name": "tomato",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "arugula",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "bread",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D447",
@@ -362,13 +1076,62 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: protein options, yellow onion, red bell peppers, garlic aioli, cheese sauce all named. Sauce 25: garlic aioli and cheese sauce both named. Prep 25: sliced ribeye and grilled chicken stated.",
       "ingredients": [
-        {"name": "sliced ribeye (or grilled chicken)", "cut_type": "sliced", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "yellow onion", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "red bell peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "garlic aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "cheese sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
-        {"name": "hoagie roll", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "sliced ribeye (or grilled chicken)",
+          "cut_type": "sliced",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "yellow onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "red bell peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "garlic aioli",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "sauce"
+        },
+        {
+          "name": "cheese sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        },
+        {
+          "name": "hoagie roll",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D448",
@@ -385,13 +1148,62 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: Black Angus beef patties, white American cheese, yellow mustard, pickles, grilled onions, toasted bun all named. Black Angus breed specified. Sauce 15: yellow mustard named by type. Prep 25: smashed implied in dish name, grilled onions and toasted bun stated.",
       "ingredients": [
-        {"name": "Black Angus beef patties", "cut_type": "none", "preparation": "smashed", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "white American cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "yellow mustard", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
-        {"name": "pickles", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
-        {"name": "onions", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bun", "cut_type": "none", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "Black Angus beef patties",
+          "cut_type": "none",
+          "preparation": "smashed",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "white American cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "yellow mustard",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "condiment"
+        },
+        {
+          "name": "pickles",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "condiment"
+        },
+        {
+          "name": "onions",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "bun",
+          "cut_type": "none",
+          "preparation": "toasted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D449",
@@ -408,13 +1220,62 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: chicken, house buffalo sauce, buttermilk ranch, blue cheese crumbles, ranch celery slaw, toasted bun all named. Sauce 25: house buffalo sauce and buttermilk ranch both named. Prep 25: fried or grilled stated.",
       "ingredients": [
-        {"name": "chicken", "cut_type": "none", "preparation": "fried or grilled", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "protein"},
-        {"name": "house buffalo sauce", "cut_type": "none", "preparation": "none", "type": "house-made", "source": "house-made", "allergen_flags": "none", "role": "sauce"},
-        {"name": "buttermilk ranch", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,eggs", "role": "sauce"},
-        {"name": "blue cheese crumbles", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "ranch celery slaw", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "bun", "cut_type": "none", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "chicken",
+          "cut_type": "none",
+          "preparation": "fried or grilled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "protein"
+        },
+        {
+          "name": "house buffalo sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "house-made",
+          "source": "house-made",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "buttermilk ranch",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy,eggs",
+          "role": "sauce"
+        },
+        {
+          "name": "blue cheese crumbles",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "ranch celery slaw",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "bun",
+          "cut_type": "none",
+          "preparation": "toasted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D450",
@@ -431,10 +1292,35 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: brisket marmalade, white American cheese, toasted sourdough all named. Sauce 5: no separate sauce. Prep 25: grilled in name, toasted sourdough stated.",
       "ingredients": [
-        {"name": "brisket marmalade", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "filling"},
-        {"name": "white American cheese", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "sourdough", "cut_type": "sliced", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "brisket marmalade",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "filling"
+        },
+        {
+          "name": "white American cheese",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "sourdough",
+          "cut_type": "sliced",
+          "preparation": "toasted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D451",
@@ -451,14 +1337,71 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: protein options, Korean BBQ sauce, carrot slaw, peanut Togarashi, cilantro, lime all named. Sauce 25: Korean BBQ sauce and peanut Togarashi named. Prep 5: no prep method stated for protein.",
       "ingredients": [
-        {"name": "brisket (or chicken or shrimp)", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "Korean BBQ sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "soy", "role": "sauce"},
-        {"name": "carrot slaw", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "peanut Togarashi", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "peanuts", "role": "seasoning"},
-        {"name": "cilantro", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
-        {"name": "lime", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"},
-        {"name": "taco shells", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "brisket (or chicken or shrimp)",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "Korean BBQ sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "soy",
+          "role": "sauce"
+        },
+        {
+          "name": "carrot slaw",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "peanut Togarashi",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "peanuts",
+          "role": "seasoning"
+        },
+        {
+          "name": "cilantro",
+          "cut_type": "none",
+          "preparation": "fresh",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "garnish"
+        },
+        {
+          "name": "lime",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "garnish"
+        },
+        {
+          "name": "taco shells",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D452",
@@ -475,13 +1418,62 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 15: fish species not disclosed — just 'blackened fish'. Accompaniments (lettuce, tomato, pickled red onion, garlic aioli) all named. Sauce 25: garlic aioli named. Prep 25: blackened stated.",
       "ingredients": [
-        {"name": "fish", "cut_type": "none", "preparation": "blackened", "type": "standard", "source": "unknown", "allergen_flags": "fish", "role": "protein"},
-        {"name": "lettuce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "tomato", "cut_type": "sliced", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "red onion", "cut_type": "none", "preparation": "pickled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "garlic aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "bun", "cut_type": "none", "preparation": "toasted", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "fish",
+          "cut_type": "none",
+          "preparation": "blackened",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "lettuce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "tomato",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "red onion",
+          "cut_type": "none",
+          "preparation": "pickled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "garlic aioli",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "sauce"
+        },
+        {
+          "name": "bun",
+          "cut_type": "none",
+          "preparation": "toasted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D453",
@@ -498,15 +1490,80 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: blackened beef patties, blue cheese crumbles, garlic aioli, bacon jam, lettuce, tomato, red onion all named. Sauce 25: garlic aioli and bacon jam both named. Prep 25: blackened stated.",
       "ingredients": [
-        {"name": "beef patties", "cut_type": "none", "preparation": "blackened", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "blue cheese crumbles", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "garlic aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "bacon jam", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "condiment"},
-        {"name": "lettuce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "tomato", "cut_type": "sliced", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "red onion", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bun", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"}
-      ]
+        {
+          "name": "beef patties",
+          "cut_type": "none",
+          "preparation": "blackened",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "blue cheese crumbles",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "garlic aioli",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "sauce"
+        },
+        {
+          "name": "bacon jam",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "condiment"
+        },
+        {
+          "name": "lettuce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "tomato",
+          "cut_type": "sliced",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "red onion",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "bun",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D454",
@@ -523,12 +1580,53 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: battery brussels, mashed potatoes, blueberry glaze, fresh mint all named. Sauce 25: blueberry glaze named. Prep 5: no prep method stated for the pork.",
       "ingredients": [
-        {"name": "pork ribeye", "cut_type": "ribeye", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "brussels sprouts", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "mashed potatoes", "cut_type": "none", "preparation": "mashed", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "blueberry glaze", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"},
-        {"name": "fresh mint", "cut_type": "none", "preparation": "fresh", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "garnish"}
-      ]
+        {
+          "name": "pork ribeye",
+          "cut_type": "ribeye",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "brussels sprouts",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "mashed potatoes",
+          "cut_type": "none",
+          "preparation": "mashed",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "blueberry glaze",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        },
+        {
+          "name": "fresh mint",
+          "cut_type": "none",
+          "preparation": "fresh",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "garnish"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D455",
@@ -545,16 +1643,51 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: fried chicken breast, Conecuh collard greens (brand named), mashed potatoes, sawmill gravy all named. Sauce 25: sawmill gravy named specifically. Prep 25: fried stated.",
       "ingredients": [
-        {"name": "chicken breast", "cut_type": "none", "preparation": "fried", "type": "standard", "source": "unknown", "allergen_flags": "wheat,eggs", "role": "protein"},
-        {"name": "Conecuh collard greens", "cut_type": "none", "preparation": "braised", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "mashed potatoes", "cut_type": "none", "preparation": "mashed", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "component"},
-        {"name": "sawmill gravy", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy,wheat", "role": "sauce"}
-      ]
+        {
+          "name": "chicken breast",
+          "cut_type": "none",
+          "preparation": "fried",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat,eggs",
+          "role": "protein"
+        },
+        {
+          "name": "Conecuh collard greens",
+          "cut_type": "none",
+          "preparation": "braised",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "mashed potatoes",
+          "cut_type": "none",
+          "preparation": "mashed",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "component"
+        },
+        {
+          "name": "sawmill gravy",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy,wheat",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D456",
       "dish_name": "Seared King Salmon",
-      "dietary_tags": ["gluten-free"],
+      "dietary_tags": [
+        "gluten-free"
+      ],
       "dietary_options": "Gluten-free per menu (*).",
       "menu_price": "$29",
       "allergen_summary": "Allergens based on visible menu description: Fish (king salmon), Eggs (garlic aioli). Contact restaurant to confirm.",
@@ -566,12 +1699,53 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: king salmon (species named), roasted sweet potatoes, grilled broccolini, garlic aioli, salsa verde all named. Sauce 25: garlic aioli and salsa verde both named. Prep 25: seared, roasted, and grilled all explicitly stated.",
       "ingredients": [
-        {"name": "king salmon", "cut_type": "none", "preparation": "seared", "type": "standard", "source": "unknown", "allergen_flags": "fish", "role": "protein"},
-        {"name": "sweet potatoes", "cut_type": "none", "preparation": "roasted", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "broccolini", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "garlic aioli", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "eggs", "role": "sauce"},
-        {"name": "salsa verde", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "sauce"}
-      ]
+        {
+          "name": "king salmon",
+          "cut_type": "none",
+          "preparation": "seared",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "fish",
+          "role": "protein"
+        },
+        {
+          "name": "sweet potatoes",
+          "cut_type": "none",
+          "preparation": "roasted",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "broccolini",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "garlic aioli",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "eggs",
+          "role": "sauce"
+        },
+        {
+          "name": "salsa verde",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "sauce"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D457",
@@ -588,13 +1762,62 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: shrimp, bell peppers, bacon, Conecuh sausage (brand named), Crystal cream sauce, cheese grits all named. Sauce 25: Crystal cream sauce named specifically (Crystal hot sauce brand). Prep 5: no prep method stated.",
       "ingredients": [
-        {"name": "shrimp", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "shellfish", "role": "protein"},
-        {"name": "bell peppers", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "bacon", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "Conecuh sausage", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "component"},
-        {"name": "Crystal cream sauce", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "sauce"},
-        {"name": "cheese grits", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "dairy", "role": "base"}
-      ]
+        {
+          "name": "shrimp",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "shellfish",
+          "role": "protein"
+        },
+        {
+          "name": "bell peppers",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "bacon",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "Conecuh sausage",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "component"
+        },
+        {
+          "name": "Crystal cream sauce",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "sauce"
+        },
+        {
+          "name": "cheese grits",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "dairy",
+          "role": "base"
+        }
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D458",
@@ -611,12 +1834,53 @@
       "transparency_level": "Moderate Transparency",
       "notes": "Core 25: linguine, basil and almond pesto (composition stated), sliced grilled chicken, red chili flake, grilled toast points all named. Sauce 25: basil and almond pesto named with key ingredients. Prep 25: grilled chicken and grilled toast points stated.",
       "ingredients": [
-        {"name": "linguine pasta", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "base"},
-        {"name": "basil and almond pesto", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "tree nuts", "role": "sauce"},
-        {"name": "chicken", "cut_type": "sliced", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "protein"},
-        {"name": "red chili flake", "cut_type": "none", "preparation": "none", "type": "standard", "source": "unknown", "allergen_flags": "none", "role": "seasoning"},
-        {"name": "toast points", "cut_type": "none", "preparation": "grilled", "type": "standard", "source": "unknown", "allergen_flags": "wheat", "role": "component"}
-      ]
+        {
+          "name": "linguine pasta",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "base"
+        },
+        {
+          "name": "basil and almond pesto",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "tree nuts",
+          "role": "sauce"
+        },
+        {
+          "name": "chicken",
+          "cut_type": "sliced",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "protein"
+        },
+        {
+          "name": "red chili flake",
+          "cut_type": "none",
+          "preparation": "none",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "none",
+          "role": "seasoning"
+        },
+        {
+          "name": "toast points",
+          "cut_type": "none",
+          "preparation": "grilled",
+          "type": "standard",
+          "source": "unknown",
+          "allergen_flags": "wheat",
+          "role": "component"
+        }
+      ],
+      "menu_verified": true
     }
   ]
 }

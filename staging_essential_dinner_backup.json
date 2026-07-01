@@ -45,7 +45,8 @@
           "allergen_flags": "none",
           "role": "sauce"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D098",
@@ -96,7 +97,8 @@
           "allergen_flags": "wheat",
           "role": "base"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D099",
@@ -147,7 +149,8 @@
           "allergen_flags": "none",
           "role": "garnish"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D100",
@@ -207,7 +210,8 @@
           "allergen_flags": "wheat",
           "role": "base"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D101",
@@ -303,7 +307,8 @@
           "allergen_flags": "none",
           "role": "garnish"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D102",
@@ -354,7 +359,8 @@
           "allergen_flags": "none",
           "role": "sauce"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D103",
@@ -414,7 +420,8 @@
           "allergen_flags": "dairy",
           "role": "sauce"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D104",
@@ -465,7 +472,8 @@
           "allergen_flags": "none",
           "role": "garnish"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D105",
@@ -525,7 +533,8 @@
           "allergen_flags": "wheat",
           "role": "topping"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D106",
@@ -603,7 +612,8 @@
           "allergen_flags": "none",
           "role": "topping"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D107",
@@ -654,7 +664,8 @@
           "allergen_flags": "none",
           "role": "sauce"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D108",
@@ -705,7 +716,8 @@
           "allergen_flags": "none",
           "role": "base"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D109",
@@ -756,7 +768,8 @@
           "allergen_flags": "none",
           "role": "sauce"
         }
-      ]
+      ],
+      "menu_verified": true
     },
     {
       "dish_id": "D110",
@@ -816,7 +829,8 @@
           "allergen_flags": "dairy",
           "role": "topping"
         }
-      ]
+      ],
+      "menu_verified": true
     }
   ]
 }

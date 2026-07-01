@@ -1,0 +1,108 @@
+{
+  "date": "2026-06-25",
+  "restaurants": [
+    {
+      "name": "Baha Burger",
+      "potential_new": [
+        "Dedicated to humane animal care",
+        "Regular 9.40 Baby 7.50",
+        "ZERO antibiotics or added hormones"
+      ],
+      "count": 3
+    },
+    {
+      "name": "Cayo Coco Rum Bar & Restaurant",
+      "potential_new": [
+        "Burnt Onion Yum Yum",
+        "Calypso Tamarind Calypso",
+        "Candied Oranges Salsa Verde",
+        "Charred Scallion Sweet Plantains",
+        "Cherry Tomato",
+        "Croutons",
+        "Farro Risotto",
+        "Guava-Banana Sauce",
+        "Horseradish Butter Jerk BBQ",
+        "JUNE 2026 BHM",
+        "Lime Crema",
+        "Pickled Red Coconut-Lime",
+        "Rum Butter Anchovies",
+        "Rum Glaze",
+        "Rum Onions",
+        "Salsa Criolla",
+        "Smoked Mole",
+        "Vanilla Ice Cream Vanilla Ice Cream Carmelized Pineapple"
+      ],
+      "count": 18
+    },
+    {
+      "name": "Clean Eatz",
+      "potential_new": [
+        "Cafe Menu"
+      ],
+      "count": 1
+    },
+    {
+      "name": "Emmy Squared",
+      "potential_new": [
+        "Birmingham Menus"
+      ],
+      "count": 1
+    },
+    {
+      "name": "Real & Rosemary",
+      "potential_new": [
+        "CONTACT US",
+        "Homewood, AL 35209 75 Church Street",
+        "JOIN OUR TEAM 1922 29th Ave S",
+        "LOCATIONS SOCIAL MEDIA",
+        "OUR STORY",
+        "Real &amp; Rosemary"
+      ],
+      "count": 6
+    },
+    {
+      "name": "Slutty Vegan",
+      "potential_new": [
+        "Best Vegan Restaurant"
+      ],
+      "count": 1
+    },
+    {
+      "name": "SoHo Social",
+      "potential_new": [
+        "Soho Social Menus"
+      ],
+      "count": 1
+    },
+    {
+      "name": "SoHo Standard",
+      "potential_new": [
+        "Menus"
+      ],
+      "count": 1
+    },
+    {
+      "name": "Yo Chef Surf & Turf Smokehouse",
+      "potential_new": [
+        "Asparagus Regular Green Beans",
+        "Baked Beans",
+        "Broccolini",
+        "Collard Greens",
+        "Mashed Potatoes",
+        "Mashed Sweet Potatoes",
+        "Smack &amp; Cheese",
+        "Yellow Rice"
+      ],
+      "count": 8
+    },
+    {
+      "name": "Yo Mama's",
+      "potential_new": [
+        "Downtown Birmingham AL Restaurant",
+        "Downtown Birmingham, AL",
+        "MenuYo&#039; Mama&#039;s Restaurant"
+      ],
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-06-30T14:21:02",
+  "date": "2026-06-30",
+  "mode": "apply",
+  "overall": "passed",
+  "total_elapsed": 8.65,
+  "passed": 5,
+  "warned": 0,
+  "failed": 0,
+  "skipped": 0,
+  "from_step": 1,
+  "only_step": null,
+  "skip_steps": [],
+  "steps": [
+    {
+      "num": 1,
+      "name": "Validate staging files",
+      "status": "ok",
+      "elapsed": 0.07,
+      "notes": [
+        "22/22 files passed \u00b7 290 warning(s)"
+      ]
+    },
+    {
+      "num": 2,
+      "name": "Backfill enrichment",
+      "status": "ok",
+      "elapsed": 2.77,
+      "notes": [
+        "[applied] \u00b7 29 field(s) filled"
+      ]
+    },
+    {
+      "num": 3,
+      "name": "Compute derived filters",
+      "status": "ok",
+      "elapsed": 2.4,
+      "notes": [
+        "[written] \u00b7 750 dishes \u00b7 750 entries in derived_filters.json"
+      ]
+    },
+    {
+      "num": 4,
+      "name": "Fetch dishes (write outputs)",
+      "status": "ok",
+      "elapsed": 3.29,
+      "notes": [
+        "686 dishes exported \u00b7 686 with derived_filters"
+      ]
+    },
+    {
+      "num": 5,
+      "name": "Verify outputs",
+      "status": "ok",
+      "elapsed": 0.0,
+      "notes": [
+        "dishes.json: 686 entries \u2713",
+        "restaurants.json: 25 entries \u2713",
+        "derived_filters.json: 750 entries \u2713"
+      ]
+    }
+  ]
+}

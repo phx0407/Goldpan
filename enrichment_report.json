@@ -1,0 +1,7213 @@
+{
+  "generated": "2026-06-28",
+  "total_data_rows": 3877,
+  "rows_fully_processed": 3741,
+  "rows_with_blank_gaps": 136,
+  "total_blank_field_slots": 816,
+  "field_classification": {
+    "Cut_Type": {
+      "verified": 529,
+      "reviewed_none": 3212,
+      "reviewed_unknown": 0,
+      "reviewed_na": 0,
+      "blank": 136
+    },
+    "Preparation": {
+      "verified": 1387,
+      "reviewed_none": 2354,
+      "reviewed_unknown": 0,
+      "reviewed_na": 0,
+      "blank": 136
+    },
+    "Ingredient_Type": {
+      "verified": 3741,
+      "reviewed_none": 0,
+      "reviewed_unknown": 0,
+      "reviewed_na": 0,
+      "blank": 136
+    },
+    "Status": {
+      "verified": 3877,
+      "reviewed_none": 0,
+      "reviewed_unknown": 0,
+      "reviewed_na": 0,
+      "blank": 0
+    },
+    "Version": {
+      "verified": 3877,
+      "reviewed_none": 0,
+      "reviewed_unknown": 0,
+      "reviewed_na": 0,
+      "blank": 0
+    },
+    "Ingredient_Source": {
+      "verified": 1133,
+      "reviewed_none": 0,
+      "reviewed_unknown": 2608,
+      "reviewed_na": 0,
+      "blank": 136
+    },
+    "Allergen_Flags": {
+      "verified": 1289,
+      "reviewed_none": 2307,
+      "reviewed_unknown": 145,
+      "reviewed_na": 0,
+      "blank": 136
+    },
+    "Component_Role": {
+      "verified": 3741,
+      "reviewed_none": 0,
+      "reviewed_unknown": 0,
+      "reviewed_na": 0,
+      "blank": 136
+    }
+  },
+  "source_provenance": {
+    "verified": 0,
+    "inferred": 0,
+    "reviewed_unknown": 2608,
+    "blank": 1269
+  },
+  "gaps_by_restaurant": {
+    "EastWest": {
+      "total_rows": 176,
+      "fully_processed": 176,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Abhi Eatery and Bar": {
+      "total_rows": 389,
+      "fully_processed": 389,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Real & Rosemary": {
+      "total_rows": 120,
+      "fully_processed": 120,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Slutty Vegan": {
+      "total_rows": 68,
+      "fully_processed": 68,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Eli's Jerusalem Grill": {
+      "total_rows": 154,
+      "fully_processed": 154,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Wooden City Birmingham": {
+      "total_rows": 175,
+      "fully_processed": 175,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Chop N Fresh": {
+      "total_rows": 121,
+      "fully_processed": 121,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "SoHo Social": {
+      "total_rows": 236,
+      "fully_processed": 236,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "The Essential": {
+      "total_rows": 131,
+      "fully_processed": 131,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "The Battery": {
+      "total_rows": 152,
+      "fully_processed": 152,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Cayo Coco Rum Bar & Restaurant": {
+      "total_rows": 54,
+      "fully_processed": 54,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Chopt Creative Salad Co.": {
+      "total_rows": 278,
+      "fully_processed": 278,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Wasabi Juan's": {
+      "total_rows": 176,
+      "fully_processed": 176,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Yo Mama's": {
+      "total_rows": 88,
+      "fully_processed": 88,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "SoHo Standard": {
+      "total_rows": 185,
+      "fully_processed": 185,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Kale Me Crazy": {
+      "total_rows": 320,
+      "fully_processed": 320,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Frothy Monkey": {
+      "total_rows": 169,
+      "fully_processed": 169,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Clean Eatz": {
+      "total_rows": 166,
+      "fully_processed": 166,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Baha Burger": {
+      "total_rows": 119,
+      "fully_processed": 119,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Adam and Eve Cafe": {
+      "total_rows": 177,
+      "fully_processed": 76,
+      "rows_with_gaps": 101,
+      "blank_field_count": 606,
+      "dishes_with_gaps": [
+        "D064",
+        "D065",
+        "D066",
+        "D067",
+        "D068",
+        "D069",
+        "D071",
+        "D072",
+        "D073",
+        "D077",
+        "D078",
+        "D079",
+        "D080",
+        "D081",
+        "D082",
+        "D083"
+      ]
+    },
+    "Yo Chef Surf & Turf": {
+      "total_rows": 6,
+      "fully_processed": 6,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Emmy Squared": {
+      "total_rows": 85,
+      "fully_processed": 57,
+      "rows_with_gaps": 28,
+      "blank_field_count": 168,
+      "dishes_with_gaps": [
+        "D021",
+        "D233",
+        "D235",
+        "D239",
+        "D241",
+        "D249"
+      ]
+    },
+    "Brick & Tin Mountain Brook": {
+      "total_rows": 78,
+      "fully_processed": 71,
+      "rows_with_gaps": 7,
+      "blank_field_count": 42,
+      "dishes_with_gaps": [
+        "D015",
+        "D111"
+      ]
+    },
+    "Yo Chef Surf & Turf Smokehouse": {
+      "total_rows": 93,
+      "fully_processed": 93,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    },
+    "Urban Cookhouse": {
+      "total_rows": 161,
+      "fully_processed": 161,
+      "rows_with_gaps": 0,
+      "blank_field_count": 0,
+      "dishes_with_gaps": []
+    }
+  },
+  "rows_with_gaps": [
+    {
+      "sheet_row": 3743,
+      "Dish_ID": "D015",
+      "Dish_Name": "Simple Salad",
+      "Restaurant_Name": "Brick & Tin Mountain Brook",
+      "Ingredient": "spinach",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3744,
+      "Dish_ID": "D015",
+      "Dish_Name": "Simple Salad",
+      "Restaurant_Name": "Brick & Tin Mountain Brook",
+      "Ingredient": "romaine",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3745,
+      "Dish_ID": "D015",
+      "Dish_Name": "Simple Salad",
+      "Restaurant_Name": "Brick & Tin Mountain Brook",
+      "Ingredient": "champagne vinaigrette",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3746,
+      "Dish_ID": "D021",
+      "Dish_Name": "Shaved Brussels Sprouts Salad",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "dried cherries",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3747,
+      "Dish_ID": "D021",
+      "Dish_Name": "Shaved Brussels Sprouts Salad",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "miso dressing",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3748,
+      "Dish_ID": "D064",
+      "Dish_Name": "Avocado Toast",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "avocado spread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3749,
+      "Dish_ID": "D064",
+      "Dish_Name": "Avocado Toast",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "crushed almonds",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3750,
+      "Dish_ID": "D064",
+      "Dish_Name": "Avocado Toast",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "arugula",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3751,
+      "Dish_ID": "D064",
+      "Dish_Name": "Avocado Toast",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "chia seeds",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3752,
+      "Dish_ID": "D065",
+      "Dish_Name": "Bagels",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "bagel",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3753,
+      "Dish_ID": "D065",
+      "Dish_Name": "Bagels",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "cream cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3754,
+      "Dish_ID": "D065",
+      "Dish_Name": "Bagels",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "jelly",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3755,
+      "Dish_ID": "D065",
+      "Dish_Name": "Bagels",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "peanut butter",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3756,
+      "Dish_ID": "D065",
+      "Dish_Name": "Bagels",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "hummus",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3757,
+      "Dish_ID": "D065",
+      "Dish_Name": "Bagels",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "nutella",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3758,
+      "Dish_ID": "D065",
+      "Dish_Name": "Bagels",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pistachios",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3759,
+      "Dish_ID": "D066",
+      "Dish_Name": "Classic Club Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "turkey",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3760,
+      "Dish_ID": "D066",
+      "Dish_Name": "Classic Club Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "swiss cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3761,
+      "Dish_ID": "D066",
+      "Dish_Name": "Classic Club Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "tomato",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3762,
+      "Dish_ID": "D066",
+      "Dish_Name": "Classic Club Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "red onion",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3763,
+      "Dish_ID": "D066",
+      "Dish_Name": "Classic Club Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pickles",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3764,
+      "Dish_ID": "D066",
+      "Dish_Name": "Classic Club Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "mayo",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3765,
+      "Dish_ID": "D066",
+      "Dish_Name": "Classic Club Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "dijon mustard",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3766,
+      "Dish_ID": "D066",
+      "Dish_Name": "Classic Club Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3767,
+      "Dish_ID": "D067",
+      "Dish_Name": "Tuna Melt Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "tuna salad",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3768,
+      "Dish_ID": "D067",
+      "Dish_Name": "Tuna Melt Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "cheddar cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3769,
+      "Dish_ID": "D067",
+      "Dish_Name": "Tuna Melt Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "arugula",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3770,
+      "Dish_ID": "D067",
+      "Dish_Name": "Tuna Melt Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "cucumber",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3771,
+      "Dish_ID": "D067",
+      "Dish_Name": "Tuna Melt Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "onion",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3772,
+      "Dish_ID": "D067",
+      "Dish_Name": "Tuna Melt Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pickles",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3773,
+      "Dish_ID": "D067",
+      "Dish_Name": "Tuna Melt Wrap",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3774,
+      "Dish_ID": "D068",
+      "Dish_Name": "Five Point Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "roast beef",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3775,
+      "Dish_ID": "D068",
+      "Dish_Name": "Five Point Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "swiss cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3776,
+      "Dish_ID": "D068",
+      "Dish_Name": "Five Point Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "mayonnaise",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3777,
+      "Dish_ID": "D068",
+      "Dish_Name": "Five Point Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "lettuce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3778,
+      "Dish_ID": "D068",
+      "Dish_Name": "Five Point Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "jalape\u00f1o",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3779,
+      "Dish_ID": "D068",
+      "Dish_Name": "Five Point Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "tomato",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3780,
+      "Dish_ID": "D068",
+      "Dish_Name": "Five Point Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "onion",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3781,
+      "Dish_ID": "D068",
+      "Dish_Name": "Five Point Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "roasted pepper",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3782,
+      "Dish_ID": "D068",
+      "Dish_Name": "Five Point Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3783,
+      "Dish_ID": "D069",
+      "Dish_Name": "House Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "turkey",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3784,
+      "Dish_ID": "D069",
+      "Dish_Name": "House Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "avocado",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3785,
+      "Dish_ID": "D069",
+      "Dish_Name": "House Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "swiss cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3786,
+      "Dish_ID": "D069",
+      "Dish_Name": "House Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "roasted pepper",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3787,
+      "Dish_ID": "D069",
+      "Dish_Name": "House Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "grilled onions",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3788,
+      "Dish_ID": "D069",
+      "Dish_Name": "House Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "chipotle mayonnaise",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3789,
+      "Dish_ID": "D069",
+      "Dish_Name": "House Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3790,
+      "Dish_ID": "D071",
+      "Dish_Name": "Bham Best",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pastrami",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3791,
+      "Dish_ID": "D071",
+      "Dish_Name": "Bham Best",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "swiss cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3792,
+      "Dish_ID": "D071",
+      "Dish_Name": "Bham Best",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "roasted peppers",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3793,
+      "Dish_ID": "D071",
+      "Dish_Name": "Bham Best",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "avocado",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3794,
+      "Dish_ID": "D071",
+      "Dish_Name": "Bham Best",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "chipotle sauce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3795,
+      "Dish_ID": "D071",
+      "Dish_Name": "Bham Best",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3796,
+      "Dish_ID": "D072",
+      "Dish_Name": "Classic Club",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "turkey",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3797,
+      "Dish_ID": "D072",
+      "Dish_Name": "Classic Club",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "swiss cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3798,
+      "Dish_ID": "D072",
+      "Dish_Name": "Classic Club",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "tomato",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3799,
+      "Dish_ID": "D072",
+      "Dish_Name": "Classic Club",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "red onions",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3800,
+      "Dish_ID": "D072",
+      "Dish_Name": "Classic Club",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pickles",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3801,
+      "Dish_ID": "D072",
+      "Dish_Name": "Classic Club",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "lettuce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3802,
+      "Dish_ID": "D072",
+      "Dish_Name": "Classic Club",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "mayo",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3803,
+      "Dish_ID": "D072",
+      "Dish_Name": "Classic Club",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "mustard",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3804,
+      "Dish_ID": "D072",
+      "Dish_Name": "Classic Club",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3805,
+      "Dish_ID": "D073",
+      "Dish_Name": "Lovely Hummus",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "homemade hummus",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3806,
+      "Dish_ID": "D073",
+      "Dish_Name": "Lovely Hummus",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pickled tomato",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3807,
+      "Dish_ID": "D073",
+      "Dish_Name": "Lovely Hummus",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "lettuce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3808,
+      "Dish_ID": "D073",
+      "Dish_Name": "Lovely Hummus",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "cucumbers",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3809,
+      "Dish_ID": "D073",
+      "Dish_Name": "Lovely Hummus",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "caramelized onions",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3810,
+      "Dish_ID": "D073",
+      "Dish_Name": "Lovely Hummus",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "banana peppers",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3811,
+      "Dish_ID": "D073",
+      "Dish_Name": "Lovely Hummus",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3812,
+      "Dish_ID": "D077",
+      "Dish_Name": "Vegan Meatball",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan meatballs",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3813,
+      "Dish_ID": "D077",
+      "Dish_Name": "Vegan Meatball",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "marinara sauce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3814,
+      "Dish_ID": "D077",
+      "Dish_Name": "Vegan Meatball",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3815,
+      "Dish_ID": "D077",
+      "Dish_Name": "Vegan Meatball",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3816,
+      "Dish_ID": "D078",
+      "Dish_Name": "Surprise Me",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan smoked turkey",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3817,
+      "Dish_ID": "D078",
+      "Dish_Name": "Surprise Me",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3818,
+      "Dish_ID": "D078",
+      "Dish_Name": "Surprise Me",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan mayonnaise",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3819,
+      "Dish_ID": "D078",
+      "Dish_Name": "Surprise Me",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "green apple slices",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3820,
+      "Dish_ID": "D078",
+      "Dish_Name": "Surprise Me",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "avocado",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3821,
+      "Dish_ID": "D078",
+      "Dish_Name": "Surprise Me",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "mustard",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3822,
+      "Dish_ID": "D078",
+      "Dish_Name": "Surprise Me",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3823,
+      "Dish_ID": "D079",
+      "Dish_Name": "Vegan Italian Salami",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan salami",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3824,
+      "Dish_ID": "D079",
+      "Dish_Name": "Vegan Italian Salami",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3825,
+      "Dish_ID": "D079",
+      "Dish_Name": "Vegan Italian Salami",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "roasted peppers",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3826,
+      "Dish_ID": "D079",
+      "Dish_Name": "Vegan Italian Salami",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan mayo",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3827,
+      "Dish_ID": "D079",
+      "Dish_Name": "Vegan Italian Salami",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3828,
+      "Dish_ID": "D079",
+      "Dish_Name": "Vegan Italian Salami",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "lettuce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3829,
+      "Dish_ID": "D080",
+      "Dish_Name": "Birmingham Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "turkey",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3830,
+      "Dish_ID": "D080",
+      "Dish_Name": "Birmingham Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3831,
+      "Dish_ID": "D080",
+      "Dish_Name": "Birmingham Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "green apple slices",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3832,
+      "Dish_ID": "D080",
+      "Dish_Name": "Birmingham Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "avocado",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3833,
+      "Dish_ID": "D080",
+      "Dish_Name": "Birmingham Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "mustard",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3834,
+      "Dish_ID": "D080",
+      "Dish_Name": "Birmingham Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3835,
+      "Dish_ID": "D081",
+      "Dish_Name": "Italian Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan salami",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3836,
+      "Dish_ID": "D081",
+      "Dish_Name": "Italian Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "lettuce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3837,
+      "Dish_ID": "D081",
+      "Dish_Name": "Italian Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "tomato",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3838,
+      "Dish_ID": "D081",
+      "Dish_Name": "Italian Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "onions",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3839,
+      "Dish_ID": "D081",
+      "Dish_Name": "Italian Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan chipotle sauce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3840,
+      "Dish_ID": "D081",
+      "Dish_Name": "Italian Sandwich",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "vegan pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3841,
+      "Dish_ID": "D082",
+      "Dish_Name": "Fresh Caesar Salad",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "romaine lettuce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3842,
+      "Dish_ID": "D082",
+      "Dish_Name": "Fresh Caesar Salad",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "caesar dressing",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3843,
+      "Dish_ID": "D082",
+      "Dish_Name": "Fresh Caesar Salad",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "parmesan cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3844,
+      "Dish_ID": "D082",
+      "Dish_Name": "Fresh Caesar Salad",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "croutons",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3845,
+      "Dish_ID": "D083",
+      "Dish_Name": "Fresh Vegan Caesar Salad",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "arugula",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3846,
+      "Dish_ID": "D083",
+      "Dish_Name": "Fresh Vegan Caesar Salad",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "homemade baba ganoush",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3847,
+      "Dish_ID": "D083",
+      "Dish_Name": "Fresh Vegan Caesar Salad",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "oil vinegar dressing",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3848,
+      "Dish_ID": "D083",
+      "Dish_Name": "Fresh Vegan Caesar Salad",
+      "Restaurant_Name": "Adam and Eve Cafe",
+      "Ingredient": "pita bread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3849,
+      "Dish_ID": "D111",
+      "Dish_Name": "Brisket Panini",
+      "Restaurant_Name": "Brick & Tin Mountain Brook",
+      "Ingredient": "certified angus beef braised beef brisket",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3850,
+      "Dish_ID": "D111",
+      "Dish_Name": "Brisket Panini",
+      "Restaurant_Name": "Brick & Tin Mountain Brook",
+      "Ingredient": "caramelized onions",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3851,
+      "Dish_ID": "D111",
+      "Dish_Name": "Brisket Panini",
+      "Restaurant_Name": "Brick & Tin Mountain Brook",
+      "Ingredient": "white barbecue sauce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3852,
+      "Dish_ID": "D111",
+      "Dish_Name": "Brisket Panini",
+      "Restaurant_Name": "Brick & Tin Mountain Brook",
+      "Ingredient": "pain de mie flatbread",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3853,
+      "Dish_ID": "D233",
+      "Dish_Name": "Cheesy Garlic Sticks",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "garlic breadsticks",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3854,
+      "Dish_ID": "D233",
+      "Dish_Name": "Cheesy Garlic Sticks",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "roasted garlic",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3855,
+      "Dish_ID": "D233",
+      "Dish_Name": "Cheesy Garlic Sticks",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "pesto",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3856,
+      "Dish_ID": "D233",
+      "Dish_Name": "Cheesy Garlic Sticks",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "red sauce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3857,
+      "Dish_ID": "D235",
+      "Dish_Name": "Zia Fries",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "waffle fries",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3858,
+      "Dish_ID": "D235",
+      "Dish_Name": "Zia Fries",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "bacon",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3859,
+      "Dish_ID": "D235",
+      "Dish_Name": "Zia Fries",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "scallions",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3860,
+      "Dish_ID": "D235",
+      "Dish_Name": "Zia Fries",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "hatch chile cheddar queso",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3861,
+      "Dish_ID": "D235",
+      "Dish_Name": "Zia Fries",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "green ranch",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3862,
+      "Dish_ID": "D239",
+      "Dish_Name": "Le Big Matt",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "grass-fed beef patty",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3863,
+      "Dish_ID": "D239",
+      "Dish_Name": "Le Big Matt",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "american cheese",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3864,
+      "Dish_ID": "D239",
+      "Dish_Name": "Le Big Matt",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "Sammy sauce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3865,
+      "Dish_ID": "D239",
+      "Dish_Name": "Le Big Matt",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "greens",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3866,
+      "Dish_ID": "D239",
+      "Dish_Name": "Le Big Matt",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "pickles",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3867,
+      "Dish_ID": "D239",
+      "Dish_Name": "Le Big Matt",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "pretzel bun",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3868,
+      "Dish_ID": "D241",
+      "Dish_Name": "Chicken Parm Sandwich",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "crispy breaded chicken",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3869,
+      "Dish_ID": "D241",
+      "Dish_Name": "Chicken Parm Sandwich",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "red sauce",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3870,
+      "Dish_ID": "D241",
+      "Dish_Name": "Chicken Parm Sandwich",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "mozzarella",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3871,
+      "Dish_ID": "D241",
+      "Dish_Name": "Chicken Parm Sandwich",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "basil",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3872,
+      "Dish_ID": "D241",
+      "Dish_Name": "Chicken Parm Sandwich",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "pretzel bun",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3873,
+      "Dish_ID": "D249",
+      "Dish_Name": "Big Hawaiian Pizza",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "cheese blend",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3874,
+      "Dish_ID": "D249",
+      "Dish_Name": "Big Hawaiian Pizza",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "Ezzo pepperoni",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3875,
+      "Dish_ID": "D249",
+      "Dish_Name": "Big Hawaiian Pizza",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "bacon",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3876,
+      "Dish_ID": "D249",
+      "Dish_Name": "Big Hawaiian Pizza",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "pineapple",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3877,
+      "Dish_ID": "D249",
+      "Dish_Name": "Big Hawaiian Pizza",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "pineapple chili glaze",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    },
+    {
+      "sheet_row": 3878,
+      "Dish_ID": "D249",
+      "Dish_Name": "Big Hawaiian Pizza",
+      "Restaurant_Name": "Emmy Squared",
+      "Ingredient": "Detroit-style dough",
+      "Ingredient_Source": "",
+      "source_class": "blank",
+      "fields": {
+        "Cut_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Preparation": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Ingredient_Type": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Status": {
+          "value": "Active",
+          "classification": "verified"
+        },
+        "Version": {
+          "value": "1",
+          "classification": "verified"
+        },
+        "Ingredient_Source": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Allergen_Flags": {
+          "value": "",
+          "classification": "blank"
+        },
+        "Component_Role": {
+          "value": "",
+          "classification": "blank"
+        }
+      },
+      "blank_fields": [
+        "Cut_Type",
+        "Preparation",
+        "Ingredient_Type",
+        "Ingredient_Source",
+        "Allergen_Flags",
+        "Component_Role"
+      ]
+    }
+  ]
+}

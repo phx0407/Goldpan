@@ -1,0 +1,256 @@
+{
+  "date": "2026-06-29",
+  "total_dishes": 686,
+  "restaurants": [
+    {
+      "name": "Abhi Eatery and Bar",
+      "dish_count": 64,
+      "menu_url": "https://www.abhieatery.com/eat",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='www.abhieatery.com', port=443): Ma",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Adam and Eve Cafe",
+      "dish_count": 26,
+      "menu_url": "https://www.adamandevecafe.com/",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='www.adamandevecafe.com', port=443)",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Baha Burger",
+      "dish_count": 19,
+      "menu_url": "https://bahaburger.com/images/menu.pdf",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='bahaburger.com', port=443): Max re",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Blue Root",
+      "dish_count": 31,
+      "menu_url": "https://media-cdn.getbento.com/accounts/fc1d22826aaad1786b15c971c7a95214/media/OqW1YgHOS9u4J1ta1Drn_Blueroot%20Nutrition%20Facts.pdf",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='media-cdn.getbento.com', port=443)",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Brick & Tin",
+      "dish_count": 8,
+      "menu_url": "https://brickandtin.com/mountain-brook-brick-and-tin-menus",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='brickandtin.com', port=443): Max r",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Cayo Coco Rum Bar & Restaurant",
+      "dish_count": 11,
+      "menu_url": "https://cayococorumbar.com/assets/uploads/2026/06/Printed%20Menus.June.pdf",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='cayococorumbar.com', port=443): Ma",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Chop N Fresh",
+      "dish_count": 13,
+      "menu_url": "https://chopnfreshbhm.com/",
+      "status": "manual",
+      "error": null,
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Chopt Creative Salad Co.",
+      "dish_count": 30,
+      "menu_url": "https://www.choptsalad.com/menu",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='www.choptsalad.com', port=443): Ma",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Clean Eatz",
+      "dish_count": 24,
+      "menu_url": "https://cleaneatz.com/cafe-menu",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='cleaneatz.com', port=443): Max ret",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "EastWest",
+      "dish_count": 30,
+      "menu_url": "https://www.eastwestbirmingham.com/menus",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='www.eastwestbirmingham.com', port=",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Eli's Jerusalem Grill",
+      "dish_count": 44,
+      "menu_url": "https://elisjerusalemgrill.com",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='elisjerusalemgrill.com', port=443)",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Emmy Squared",
+      "dish_count": 15,
+      "menu_url": "https://www.emmysquaredpizza.com/birmingham-menus/",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='www.emmysquaredpizza.com', port=44",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Frothy Monkey",
+      "dish_count": 31,
+      "menu_url": "https://frothymonkey.com/food-drinks/",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='frothymonkey.com', port=443): Max ",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Kale Me Crazy",
+      "dish_count": 50,
+      "menu_url": "https://kalemecrazy.net/menu/",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='kalemecrazy.net', port=443): Max r",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Real & Rosemary",
+      "dish_count": 29,
+      "menu_url": "https://www.realandrosemary.com/menu/",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='www.realandrosemary.com', port=443",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Slutty Vegan",
+      "dish_count": 8,
+      "menu_url": "https://sluttyveganatl.com/#menu",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='sluttyveganatl.com', port=443): Ma",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "SoHo Social",
+      "dish_count": 34,
+      "menu_url": "https://www.sohohomewood.bar/soho-social-menus/",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='www.sohohomewood.bar', port=443): ",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "SoHo Standard",
+      "dish_count": 37,
+      "menu_url": "https://www.sohostandard.bar/menus/",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='www.sohostandard.bar', port=443): ",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "The Battery",
+      "dish_count": 27,
+      "menu_url": "https://manthebattery.com/wp-content/uploads/2025/07/The-Battery-Menu-July-2025.pdf",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='manthebattery.com', port=443): Max",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "The Essential",
+      "dish_count": 27,
+      "menu_url": "https://essentialbham.com/menus",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='essentialbham.com', port=443): Max",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Urban Cookhouse",
+      "dish_count": 33,
+      "menu_url": "https://www.uc-birmingham.com/_files/ugd/b524de_463ca8a5b95c45e9ba3e3a36195f8a4a.pdf",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='www.uc-birmingham.com', port=443):",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Wasabi Juan's",
+      "dish_count": 28,
+      "menu_url": "https://wasabijuan.com/our-menu/",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='wasabijuan.com', port=443): Max re",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Wooden City Birmingham",
+      "dish_count": 34,
+      "menu_url": "https://www.woodencitybirmingham.com/menu",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='www.woodencitybirmingham.com', por",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Yo Chef Surf & Turf Smokehouse",
+      "dish_count": 16,
+      "menu_url": "https://yochefsurfandturf.net/birmingham-yo-chef-surf-and-turf-smokehouse-food-menu",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='yochefsurfandturf.net', port=443):",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    },
+    {
+      "name": "Yo Mama's",
+      "dish_count": 17,
+      "menu_url": "https://www.yomamasrestaurant.com/food/",
+      "status": "error",
+      "error": "Connection error: HTTPSConnectionPool(host='www.yomamasrestaurant.com', port=4",
+      "dishes_found": [],
+      "dishes_missing": [],
+      "menu_text_length": 0
+    }
+  ]
+}
