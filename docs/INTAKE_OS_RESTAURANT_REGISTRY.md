@@ -105,10 +105,10 @@ The restaurant publicly publishes allergen or ingredient information on its own 
 
 Tier 2 evidence carries high confidence where the disclosure is clear and specific.
 
-**Evidence Tier 3 — Inferred**  
-Dietary conclusions are drawn from menu language and ingredient inference without explicit allergen or ingredient disclosure. The canvasser uses available menu language, preparation descriptions, and ingredient knowledge to make dietary assessments.
+**Evidence Tier 3 — Menu-Stated Only**  
+Evidence is limited to what the restaurant's menu explicitly states. No allergen or ingredient disclosure has been published by the restaurant. Dietary conclusions exist only where the menu text directly supports them — everything else is `unknown`.
 
-Tier 3 evidence requires careful governing-language treatment in the product: conclusions are `inferred`, not `confirmed`. Users are informed of the evidence basis.
+Tier 3 restaurants are still valuable GoldPan records. They surface restaurants users might not otherwise find (Discovery Value) and provide whatever stated evidence the menu contains. `unknown` conclusions are communicated honestly to the user — they are not gaps to be filled with inference.
 
 > **Note on tier progression:** Evidence Tier is a property of the restaurant's current best evidence, not a permanent rating. A restaurant may begin at Tier 3 and advance to Tier 2 when the restaurant publishes an allergen guide, or to Tier 1 when GoldPan completes a confirmation interaction. Tier progression should trigger a recanvassing pass to update dish records.
 
