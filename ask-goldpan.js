@@ -18,7 +18,7 @@
 
 // ── Configuration ──────────────────────────────────────────────────────────────
 
-window.AG_ENDPOINT = window.AG_ENDPOINT || '/api/ask';
+window.AG_ENDPOINT = window.AG_ENDPOINT || 'https://fabulous-marshmallow-c1991d.netlify.app/api/ask';
 
 // ── Dietary keyword map ────────────────────────────────────────────────────────
 // Maps question keywords → filter slugs in derived_filters
