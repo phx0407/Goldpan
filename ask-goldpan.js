@@ -18,7 +18,7 @@
 
 // ── Configuration ──────────────────────────────────────────────────────────────
 
-window.AG_ENDPOINT = window.AG_ENDPOINT || '/.netlify/functions/ask';
+window.AG_ENDPOINT = window.AG_ENDPOINT || '/.netlify/functions/api-ask';
 
 // ── Dietary keyword map ────────────────────────────────────────────────────────
 // Maps question keywords → filter slugs in derived_filters
