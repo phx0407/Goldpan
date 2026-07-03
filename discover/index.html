@@ -1203,5 +1203,16 @@ setTimeout(function() {
 })();
 </script>
 <script src="../ask-goldpan.js"></script>
+<script>
+// The auto-unlock IIFE above runs before ask-goldpan.js loads, so returning
+// visitors (sessionStorage-unlocked) never get the Ask GoldPan™ UI injected.
+// Re-run injection now that the module is available.
+(function() {
+  if (sessionStorage.getItem('gp_unlocked') === '1') {
+    if (typeof injectAskGoldPanStyles === 'function') injectAskGoldPanStyles();
+    if (typeof injectAskGoldPanUI    === 'function') injectAskGoldPanUI();
+  }
+})();
+</script>
 </body>
 </html>
