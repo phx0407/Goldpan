@@ -551,7 +551,7 @@ function checkPassword() {
   if (val === 'staygold') {
     document.getElementById('gate').style.display = 'none';
     document.getElementById('app').classList.add('unlocked');
-    sessionStorage.setItem('gp_unlocked','1');
+    localStorage.setItem('gp_unlocked', Date.now() + 7 * 24 * 60 * 60 * 1000);
     renderDishes();
     setView('map');
     if (typeof injectAskGoldPanStyles === 'function') injectAskGoldPanStyles();
@@ -1137,9 +1137,10 @@ function viewOnMap(restaurantName) {
   }, gpMap ? 0 : 400);
 }
 
-// Auto-unlock if already authenticated in this session
+// Auto-unlock if authenticated within the last 7 days
 (function() {
-  if (sessionStorage.getItem('gp_unlocked') === '1') {
+  var expiry = parseInt(localStorage.getItem('gp_unlocked') || '0', 10);
+  if (expiry && Date.now() < expiry) {
     document.getElementById('gate').style.display = 'none';
     document.getElementById('app').classList.add('unlocked');
     renderDishes();
@@ -1208,7 +1209,8 @@ setTimeout(function() {
 // visitors (sessionStorage-unlocked) never get the Ask GoldPan™ UI injected.
 // Re-run injection now that the module is available.
 (function() {
-  if (sessionStorage.getItem('gp_unlocked') === '1') {
+  var expiry = parseInt(localStorage.getItem('gp_unlocked') || '0', 10);
+  if (expiry && Date.now() < expiry) {
     if (typeof injectAskGoldPanStyles === 'function') injectAskGoldPanStyles();
     if (typeof injectAskGoldPanUI    === 'function') injectAskGoldPanUI();
   }
