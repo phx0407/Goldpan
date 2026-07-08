@@ -263,6 +263,20 @@
     /* locate-me button */
     .locate-btn { position: absolute; bottom: 16px; right: 16px; z-index: 999; background: #111111; border: 1px solid #C9A84C; color: #C9A84C; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding: 8px 14px; cursor: pointer; transition: all 0.2s; }
     .locate-btn:hover { background: #C9A84C; color: #0A0A0A; }
+
+    /* ── Hover tooltip ── */
+    .gp-tooltip {
+      background: rgba(10, 10, 10, 0.97) !important;
+      border: 1px solid rgba(201, 168, 76, 0.4) !important;
+      border-radius: 0 !important;
+      padding: 8px 12px !important;
+      color: #F5F2EC !important;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.65) !important;
+      white-space: nowrap !important;
+      pointer-events: none !important;
+      max-width: 240px !important;
+    }
+    .gp-tooltip::before { display: none !important; }
   </style>
   <script src="/consent.js" defer></script>
 </head>
@@ -1010,6 +1024,16 @@ function initMap() {
         '<button class="map-popup-btn" onclick="gpMapOpenRestaurant(' + rIdx + ')">View Dishes</button>' +
         '<button class="map-popup-dir" style="background:none;border:none;cursor:pointer;width:100%;text-align:center;" onclick="getDirections(\'' + address.replace(/'/g, "\\'") + '\')">Get Directions ↗</button>';
       marker.bindPopup(popupHtml, { className: 'gp-popup', maxWidth: 220, minWidth: 180 });
+
+      var tooltipHtml =
+        '<div style="font-family:\'Bebas Neue\',sans-serif;font-size:16px;letter-spacing:0.04em;color:#C9A84C;line-height:1.1">' + name + '</div>' +
+        (c.location ? '<div style="font-family:\'DM Mono\',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#9A9488;margin-top:3px">' + c.location + '</div>' : '');
+      marker.bindTooltip(tooltipHtml, {
+        className:  'gp-tooltip',
+        direction:  'top',
+        offset:     [0, -10],
+        opacity:    1,
+      });
     });
   }
 
