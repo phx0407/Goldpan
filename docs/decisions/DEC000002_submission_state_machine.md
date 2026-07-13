@@ -1,197 +1,211 @@
 # DEC000002 — Canonical Restaurant Update Submission State Machine
 
-**Status:** draft v2 — awaiting Founder approval (revised per Founder review of v1)
+**Status:** draft v3 — awaiting Founder approval (revised per targeted Founder corrections to v2)
 **Decision basis:** architectural_requirement, compliance_or_risk_control
 **Decision dependencies:** none (foundational record, sibling to DEC000001)
-**Registry impact:** governs `submission.restaurant_update.*` and `submission.convert_to_intake` namespace commands (see §6)
+**Registry impact:** governs `submission.restaurant_update.*`, `submission.convert_to_intake`, and new routing commands (see §5.5)
 
-**Revision note:** v1 proposed a single linear `packet_status`-style field running `received → pending_review → in_review → returned → approved → converted → archived`. Founder review identified that this conflates three genuinely different concerns — review outcome, downstream conversion outcome, and retention — into one field, and asked for a full re-evaluation using the actual `restaurant_update_submissions` schema (now read in full; v1 had only partially inspected it) rather than the earlier partial reading. This version replaces §4 onward; §1-§3 are retained with corrections noted inline.
+**Revision note:** v2's core separation of review outcome from downstream processing is retained and not reopened. This revision makes ten targeted corrections: keeping the physical `status` column rather than renaming it, replacing "conversion" with the broader "disposition" concept and reconciling it against actual OS ownership boundaries, correcting the resubmission lifecycle (parent does not return to `pending_review`), tightening archival eligibility, resolving the claim mechanism to match DEC000001 v3's pattern, and leaving the `resulting_intake_session` entity question genuinely open rather than silently renaming it. Sections 1-3 carry forward with corrections noted inline; §5 onward is rewritten.
 
 ---
 
-## 1. Competing versions, side by side (corrected)
+## 1. Competing versions, side by side (unchanged from v2)
 
 | Source | States (in order) | Notes |
 |---|---|---|
-| Blueprint §5b (generic) | `pending_review → in_review → approved → returned → rejected → converted` | 6 states, generic "Submission" row. |
-| Blueprint §5i (Restaurant Update Submission table) | `received → pending_review → in_review → accepted → rejected → archived` | 6 states, entity-specific. Uses `accepted`, not `approved`; no `converted`. |
-| Live DB — `operations.restaurant_update_submissions` (`011_submission_tables.sql`, full text now read) | `status` CHECK: `pending_review, in_review, approved, returned, rejected` (5 values) | **Correction from v1:** the table's own column comment states this explicitly: *"pending_review → in_review → approved / returned / rejected. approved does NOT automatically write to evidence — reviewer must take deliberate action (trigger Intake session or direct edit)."* This is significant and was under-weighted in v1: the schema's own documentation already treats "approved" and "what happens after approval" as two separate ideas, even though today they share no separate status field for the latter — the `resulting_intake_session`/`resulting_evidence_summary` columns are filled in as a second, later step after `approved` is reached, not as part of reaching it. |
-| Live DB — `operations.partner_submissions` (sibling table, same migration) | `status` CHECK: `pending_review, in_review, approved, returned, rejected, converted` (6 values) | Has `converted`, plus `converted_action_id`/`converted_partner_id` — see §2 for why this is not strong evidence that `restaurant_update_submissions` should match it. |
+| Blueprint §5b (generic) | `pending_review → in_review → approved → returned → rejected → converted` | Generic "Submission" row. |
+| Blueprint §5i (Restaurant Update Submission table) | `received → pending_review → in_review → accepted → rejected → archived` | Uses `accepted`, not `approved`; no `converted`. |
+| Live DB — `operations.restaurant_update_submissions` | `status` CHECK: `pending_review, in_review, approved, returned, rejected` | Column comment: *"approved does NOT automatically write to evidence — reviewer must take deliberate action (trigger Intake session or direct edit)."* Treated in this revision as E1 evidence of prior implementation intent, not as governing authority over the Blueprint's evidence boundary — see §5.3. |
+| Live DB — `operations.partner_submissions` (sibling) | `status` CHECK includes `converted` | Not treated as binding precedent for this table — finding unchanged from v2 §2. |
 
-No API or UI exists for either submissions table (confirmed: `api/main.py` mounts only `ai_usage`, `restaurants`, `business_development`, `intake`).
+No API or UI exists for either submissions table.
 
-## 2. Sibling-table evidence, reassessed
+**New finding this revision:** the Blueprint independently documents a real, already-governed routing destination for restaurant-submitted identity/contact changes — the **Identity Review Queue**, part of Restaurant Operations OS: *"Restaurant-submitted changes land in pending review. No restaurant-submitted value writes directly to evidence.restaurants. The submission enters the Identity Review Queue with status `pending_restaurant_submission`."* (Blueprint, Identity/Enrichment section). This is E2 evidence — a governing Blueprint requirement, not an inference — and it directly informs the disposition-routing model in §5.2.
 
-v1 treated `partner_submissions`'s `converted` status as corroborating evidence that `restaurant_update_submissions` should adopt the same pattern. Having now read both table definitions in full, this is not a safe inference:
+## 2. Sibling-table evidence (unchanged from v2)
 
-- **`partner_submissions` converts to exactly one kind of downstream object family**: a CRM action or partner record (`converted_action_id → operations.partner_actions`, `converted_partner_id → operations.partners`). Its "conversion" is a single, simple, one-shot linkage.
-- **`restaurant_update_submissions` converts to one of two structurally different outcomes**: "(a) manually triggers an Intake session (records session ID here), OR (b) directly edits evidence records (records a JSON summary here)" — per the table's own comment. These are not the same kind of downstream action, and only one of them (Intake session) resembles what DEC000001 governs; the other (direct evidence edit) bypasses Intake entirely.
-- The two tables also differ structurally beyond status: `restaurant_update_submissions` has `priority`, `dish_id`, `effective_date`, `attachment_*` fields with no `partner_submissions` equivalent, and links to `evidence.dishes`/`evidence.restaurants` rather than `operations.partners`.
+`partner_submissions`'s `converted` status and single-target CRM conversion remain treated as a different downstream shape from this entity's multi-path resolution, not binding precedent. No change to `partner_submissions` is recommended by this decision.
 
-**Conclusion:** the divergence between the two tables (partner_submissions has `converted`; restaurant_update_submissions does not) looks like it reflects a genuine difference in downstream complexity, not an oversight to be reconciled. This record does not recommend modifying `partner_submissions`, and does not treat its `converted` status as proof that `restaurant_update_submissions` needs an identical field. Whether `partner_submissions` needs its own review or archival attributes is out of scope here and not addressed by this decision.
+## 3. Phase 5 commands that depend on this decision (expanded)
 
-## 3. Phase 5 commands that depend on this decision (corrected naming)
+| Command | Registry status | This revision's treatment |
+|---|---|---|
+| `submission.restaurant_update.view` (CMD000024, missing) | unchanged | No change. |
+| `submission.restaurant_update.review` (CMD000025, missing, currently one combined command) | **split, adopted outright** | See §5.5 — no longer left optional as in v2; this revision recommends the split as the registry correction itself. |
+| `submission.convert_to_intake` (CMD000026, missing) | **scope narrowed** | Handles the `intake_required` disposition only, not all post-approval outcomes. See §5.2, §5.5. |
+| **New:** `submission.restaurant_update.claim`, `.release`, `.return`, `.approve`, `.reject` | not in registry today | Replace the single `.review` entry. See §5.5, §5.6. |
+| **New:** `submission.route_to_identity_review` | not in registry today | Missing/future — routes to the Blueprint's existing Identity Review Queue. See §5.2, §5.5. |
+| **New:** `submission.close_no_action` | not in registry today | Missing/future. See §5.2, §5.5. |
+| **New:** `submission.escalate_exception` | not in registry today | Missing/future — routes to a Governance/Knowledge OS correction workflow, not a direct evidence edit. See §5.2, §5.5. |
 
-The Command Registry (`docs/GOLDPAN_COMMAND_REGISTRY_PHASE5.md` §20) already reserves specific names, which this revision preserves rather than replacing with an invented `restaurant.submission.*` family (v1's error):
+## 5. Resolution of each targeted correction
 
-- `submission.restaurant_update.view` (CMD000024, query, missing)
-- `submission.restaurant_update.review` (CMD000025, approval, missing) — currently a single combined command; §6 evaluates splitting it.
-- `submission.convert_to_intake` (CMD000026, workflow_trigger, missing) — already named and typed distinctly from the review commands, which independently corroborates separating review from conversion (§4): the registry's own author already modeled conversion as a different *kind* of command (`workflow_trigger`) than review (`approval`), before this decision was drafted.
+### 5.1 Column naming — no physical rename
 
-## 4. Review outcome vs. conversion outcome — the central issue
+v2 recommended renaming `status` → `review_status`. This revision withdraws that recommendation for Phase 5. **The existing physical column name `status` is retained**; "review status" is used only as the conceptual/documentation label for what that column represents (to distinguish it from the new disposition dimension). A physical rename adds migration churn (every existing query, RLS policy reference, and report using `status` would need updating) with no compatibility or clarity benefit strong enough to justify it — the column's meaning is already unambiguous once a separate `disposition_status` exists alongside it. Revisit only if a concrete conflict or confusion is later demonstrated.
 
-Two models evaluated, per the Founder's framing:
+### 5.2 "Conversion" replaced with "disposition" — and reconciled against OS ownership
 
-**Model A — one linear status** (v1's model): `received → pending_review → in_review → returned → approved → converted → archived`. A submission's status keeps moving after approval to reflect what happened downstream.
-
-**Model B — review outcome separated from conversion outcome:**
-
-```
-review_status:      pending_review | in_review | returned | approved | rejected
-
-conversion_status:   not_required | pending | in_progress | completed | failed
-conversion_type:      intake_packet | identity_update | no_action | other
-resulting_intake_packet_id
-resulting_evidence_summary
-converted_at
-converted_by
-```
-
-**Recommendation: Model B.** Reasons:
-
-- **It matches what the schema already says, not just what it currently enforces.** The live column comment ("approved does NOT automatically write to evidence — reviewer must take deliberate action") already describes review and conversion as two separate moments; Model A would have to re-merge something the current design already keeps apart in practice, just not yet in a dedicated field.
-- **An approved submission does not stop being approved if conversion fails or is retried.** Under Model A, "approved" is a transient waypoint that gets overwritten by `converted` — there is no way to represent "approved, conversion attempted and failed, will retry" without inventing extra states (`approved_conversion_failed`?) that don't belong in a review-outcome field. Under Model B, `review_status` stays `approved` permanently and `conversion_status` carries the retry history.
-- **Two different downstream object types already exist for this entity** (Intake session vs. direct evidence edit — see §2). A single `converted` status cannot distinguish which happened; `conversion_type` can.
-- **`not_required` is a real, common case.** Some approved submissions (e.g., a `contact_update`) may need no conversion at all — a direct edit made once and closed, not a workflow. Model A has no clean way to represent "approved, nothing further needed" other than jumping straight to a `converted` that didn't really convert anything, or leaving it stuck at `approved` forever, which is indistinguishable from "approved, conversion still pending."
-
-## 5. `received` — evaluated against actual need
-
-Checked directly against the schema: no `received` state exists anywhere in either submissions table, and the `pending_review` default comment reads "just arrived, nobody has looked" — meaning `pending_review` already serves as the receipt marker in the live system. No distinct validation, deduplication, routing, or security-screening stage exists between insertion and queue entry today.
-
-**Recommendation:** do not add `received` as a status. Use `created_at` (already present on both tables) as the receipt timestamp — no new column is even needed, since `created_at` already means exactly this. If a future pre-queue stage (e.g., automated spam/dedup screening before a submission reaches a human queue) is built, a distinct state can be added then against a real requirement.
-
-## 6. Archival — separated from review status
-
-Confirmed via the schema: no `archived` state or column exists on either table today. Per the Founder's framing and consistent with the DEC000001 archival treatment:
-
-**Recommendation:** add `archived_at timestamptz`, `archived_by text`, `archive_reason text` (all nullable) rather than an `archived` review_status value. The submission's final review outcome (`approved` or `rejected`) must remain visible after archival — an `archived` status would destroy that information unless duplicated elsewhere, which is unnecessary complexity. Archival only changes queue visibility (default views filter `WHERE archived_at IS NULL`); it does not change what the submission's outcome was.
-
-## 7. Correction and resubmission behavior
-
-This is resolved differently from DEC000001, because the evidence differs. `restaurant_update_submissions`'s own table comment states: *"Append-only for the submission row; only status and review fields are mutable."* This is an explicit design constraint already present in the schema — the original submitted `payload_json`/`description` is not meant to be edited after creation, unlike an Intake Packet's `packet_data`, which DEC000001 found no such constraint against.
-
-**Recommendation:** a `returned` submission is corrected via a **linked child submission**, not an in-place edit and not an append-only revision-log-on-the-same-row. New column: `resubmission_of_submission_id uuid REFERENCES operations.restaurant_update_submissions(submission_id)`. The original row is never mutated beyond its status/review fields, fully honoring the existing "append-only for the submission row" comment; the corrected payload lives in a new row that references the one it corrects. This preserves, without any new audit table: the original payload (original row, untouched), the return reason/reviewer/timestamp (original row's `return_reason`/`reviewed_by`/`reviewed_at`), the corrected payload (child row), and the resubmission event (child row's `created_at` plus the `resubmission_of_submission_id` link). Every subsequent decision on the child row follows the same `review_status`/`conversion_status` model as any other submission.
-
-## 8. Command namespace — preserved, with a separately-flagged discretization option
-
-Per the Founder's instruction, existing registry names are not replaced:
-
-- `submission.restaurant_update.view` (CMD000024) — unchanged.
-- `submission.restaurant_update.review` (CMD000025) — currently registered as one combined `approval`-type command. **Separate recommendation, requiring its own approval, not bundled into this decision:** split into discrete actions — `submission.restaurant_update.claim`, `submission.restaurant_update.return`, `submission.restaurant_update.approve`, `submission.restaurant_update.reject` — mirroring the claim/return/approve pattern DEC000001 established for Intake Packets, for the same reason (an undifferentiated "review" command doesn't distinguish claiming a queue item from deciding it). This is presented as an option, not adopted by default, since the registry currently models it as a single command and changing that is a namespace decision distinct from the state-machine question this record is about.
-- `submission.convert_to_intake` (CMD000026) — unchanged; this is the natural home for the conversion action described in §4, already typed as `workflow_trigger` rather than `approval` in the existing registry, consistent with Model B's separation.
-
-## 9. Conversion guardrail (revised)
-
-v1 implicitly assumed conversion tracking required a `converted` status. Revised requirements, independent of any specific field:
-
-- A submission must reach `review_status = approved` before any conversion attempt may begin.
-- `resulting_intake_packet_id` / `resulting_evidence_summary` / `converted_at` / `converted_by` are written only by the governed conversion workflow (`submission.convert_to_intake`), never directly by a reviewer action or any other code path.
-- Where practical, downstream object creation and the linkage write should be atomic (e.g., a single transaction that both creates the Intake packet row and sets `resulting_intake_packet_id`), so a partial failure cannot leave a submission pointing at a downstream object that doesn't actually exist.
-- A failed conversion attempt sets `conversion_status = failed` without altering `review_status` — the approval stands regardless of downstream success, and a retry simply re-attempts conversion against the still-`approved` submission.
-- Every conversion attempt (success or failure) is audited — actor, timestamp, outcome — satisfying §5f.10 for this workflow specifically, not just at the review-decision level.
-
-## 10. Recommended canonical model (Model B, refined)
+v2's `conversion_status`/`conversion_type` implied a single downstream action shape (data gets converted into something). The actual post-approval outcomes are broader and cross OS boundaries differently. Renamed dimension:
 
 ```
-review_status:        pending_review → in_review → returned → pending_review (new child row)
-                       in_review → approved
-                       in_review → rejected
-
-conversion_status:     not_required | pending | in_progress | completed | failed
-conversion_type:       intake_packet | identity_update | no_action | other
-
-Attributes, not statuses:
-  created_at                    — receipt marker (already exists; no new column)
-  archived_at / archived_by / archive_reason
-  resubmission_of_submission_id — links a corrected resubmission to the returned original
-  resulting_intake_packet_id / resulting_evidence_summary / converted_at / converted_by
+disposition_status:   unassessed | pending | in_progress | completed | failed
+disposition_type:     intake_required | identity_review | no_action | exception_escalation
 ```
 
-Five `review_status` values (unchanged from the live DB's 5-value `status` enum — this recommendation does not add or remove any review_status value, it only renames the field and adds the parallel conversion dimension). This is a smaller change to the review dimension than v1 proposed, and the added complexity (conversion_status/type, archival attributes, resubmission link) is additive rather than a redesign of the existing 5-state enum.
+**Routing rules, reconciled against the Blueprint's evidence boundary (§5.3 below) and OS ownership model:**
 
-## 11. Nature of this recommendation
+| `disposition_type` | Routes to | Owning OS | Command | Governing basis |
+|---|---|---|---|---|
+| `intake_required` | Creates/links an Intake Packet | Intake OS (governed by DEC000001) | `submission.convert_to_intake` | Blueprint §6 Workflow 2: food/menu/evidence-adjacent changes must pass through Intake, not direct edit. |
+| `identity_review` | Enters the existing Identity Review Queue | Restaurant Operations OS | `submission.route_to_identity_review` | Blueprint, Identity/Enrichment section (E2, quoted in §1) — this pathway already exists and is already governed; this decision routes into it rather than inventing a new one. |
+| `no_action` | Closes immediately, no cross-OS handoff | Restaurant Operations OS (the reviewing coordinator's own scope) | `submission.close_no_action` | No further action needed; requires a documented reason so "no action" is distinguishable from "forgotten." |
+| `exception_escalation` | A separately governed correction workflow | Governance OS / Knowledge OS | `submission.escalate_exception` | Reserved for cases that don't fit ordinary Intake or Identity Review routing — not a bypass, a distinct escalation with its own (not-yet-defined) governance. |
 
-This combines elements from multiple sources: it keeps the live DB's exact 5-value review vocabulary (`pending_review, in_review, approved, returned, rejected` — matching neither §5b's nor §5i's naming exactly, since both include states the live schema doesn't need), and it introduces a conversion-outcome dimension that no source document proposes in these terms but that the live schema's own comments already imply conceptually. It explicitly does not adopt `partner_submissions`'s `converted` status pattern (§2), does not add `received` (§5), and does not add `archived` as a status (§6).
+This table is the direct answer to why these four values, rather than v2's `intake_packet`/`identity_update`/`no_action`/`other`, better preserve ownership boundaries: each value now maps to exactly one owning OS and one already-or-newly-named command, rather than leaving "what actually happens and who's responsible" implicit in a status label.
 
-## 12. Assumptions
+### 5.3 The live schema comment vs. the Blueprint evidence boundary — reconciled
 
-- Assumes the two documented post-approval outcomes ("triggers an Intake session" / "directly edits evidence records") are the right basis for `conversion_type`'s `intake_packet`/`identity_update` values; exact naming of `identity_update` vs. a more general "direct_edit" label is an open naming question, not an architectural one.
-- Assumes `resubmission_of_submission_id` linking (§7) is preferred over building an append-only revision table like DEC000001's, specifically because this schema already declares itself row-append-only in a way Intake Packets do not.
-- Assumes splitting `submission.restaurant_update.review` into discrete claim/return/approve/reject commands (§8) is desirable but treats it as optional, pending Founder input, since it wasn't asked for as a requirement, only evaluated as a candidate.
+The current `restaurant_update_submissions` column comment describes an approved submission as being able to, at a reviewer's discretion, "directly edit evidence records." v2 preserved this option (via a `direct_edit`/`identity_update` disposition type) without checking it against governing Blueprint text. This revision does check it, and finds a conflict:
 
-## 13. Alternatives rejected
+- Blueprint: submitted data is a candidate evidence only; restaurant submissions do not write directly to production evidence (§6 Workflow 2: *"No restaurant submission writes directly to production evidence"*); food/menu changes route through Intake and Governance; each OS mutates only its own owned data (Restaurant Operations OS does not own `evidence.*`).
+- Live schema comment: describes a coordinator directly editing evidence as one of two normal outcomes of approval.
 
-- **Model A (single linear status through `converted`/`archived`):** rejected as the primary recommendation — conflates review outcome, conversion outcome, and retention into one field, contradicting the live schema's own comment separating "approved" from "deliberate action taken afterward." Retained above as the explicit comparison point requested.
-- **Standardizing `partner_submissions` to match this decision:** rejected — no demonstrated need, and the two tables' downstream purposes differ enough (§2) that forced consistency could paper over a real distinction rather than fix an oversight.
-- **In-place editing or same-row revision log for corrections (DEC000001's pattern):** rejected specifically for this entity, because `restaurant_update_submissions`'s own schema comment already declares the row append-only beyond status/review fields — a linked child-row model respects that existing constraint instead of overriding it.
+**Resolution:** the schema comment is treated as **E1 evidence of prior implementation intent** — real signal about what the system's authors previously assumed — but it does **not** carry governing authority over the Blueprint's evidence boundary, which is more specific and more recently reasoned about in this analysis. The "direct edit" path is **not preserved automatically**. Instead:
+- Food/menu/evidence-adjacent changes route to Intake (`intake_required`).
+- Identity/contact/info changes route to the existing Identity Review Queue (`identity_review`) rather than being edited directly by the submission's reviewer.
+- Genuinely actionless submissions close with a reason (`no_action`).
+- Any submission that seems to need a direct evidence correction outside these paths is not given one by this workflow — it is escalated (`exception_escalation`) to a separately governed Knowledge/Governance correction workflow, which is out of scope to design here and must be its own future decision.
 
-## 14. Exact downstream changes this recommendation would require
+This is the most consequential correction in this revision: it closes a path that the live schema currently implies is normal but that does not hold up against the Blueprint's own evidence-boundary rules once actually checked.
 
-**Blueprint (`docs/GOLDPAN_MASTER_OS_BLUEPRINT.md`):**
-- §5i's Restaurant Update Submission lifecycle table: replace the single linear table with two parallel dimensions (review_status, conversion_status/type) plus the archival and resubmission attributes.
-- §6 Workflow 2 ("Restaurant Update Submission"): confirm the 8-step workflow maps its "submission becomes evidence" step onto the new explicit conversion dimension rather than a status transition.
+### 5.4 Disposition selection required at approval
 
-**Database (new migration, e.g. `01X_restaurant_submission_lifecycle_v2.sql`):**
-- Rename `status` → `review_status` on `operations.restaurant_update_submissions` (no value changes — same 5 values).
-- Add columns: `conversion_status text` (CHECK: `not_required, pending, in_progress, completed, failed`, default `not_required`), `conversion_type text` (CHECK: `intake_packet, identity_update, no_action, other`, nullable), `converted_at timestamptz`, `converted_by text`, `archived_at timestamptz`, `archived_by text`, `archive_reason text`, `resubmission_of_submission_id uuid REFERENCES operations.restaurant_update_submissions(submission_id)`.
-- `resulting_intake_session`/`resulting_evidence_summary` (existing columns) are retained; consider renaming `resulting_intake_session` → `resulting_intake_packet_id` if it should be a typed FK to `operations.intake_packets(packet_id)` rather than free text — flagged as a data-typing improvement, not required by this decision.
-- **No change to `partner_submissions`.**
-- Add an audit trigger on `operations.restaurant_update_submissions`, consistent with the DEC000001 recommendation for `intake_packets`.
+An approved submission must not be left with an undefined next action. **The approval command (`submission.restaurant_update.approve`) requires `disposition_type` as a parameter** — it cannot be called without one. The system then derives the initial `disposition_status`:
 
-**API (new — none exists today):**
-- Build the router implementing `submission.restaurant_update.view`, `submission.restaurant_update.review` (or its split form, per Founder decision), and `submission.convert_to_intake`, gated on `review_status = approved` before conversion per §9.
+- `disposition_type = no_action` → `disposition_status = completed` immediately (the "action" was the decision itself, plus the mandatory reason).
+- `disposition_type ∈ {intake_required, identity_review, exception_escalation}` → `disposition_status = pending` (routed, not yet resolved).
 
-**Frontend (new — none exists today):**
-- Build the submissions queue UI directly against `review_status`/`conversion_status` as two separate filterable dimensions from the start, avoiding a later split.
+Before approval, `disposition_status = unassessed` (not `not_required` as in v2 — "unassessed" more accurately says "no disposition decision has been made yet," whereas "not_required" could be misread as an assessment that concluded nothing was needed, which is a `no_action` outcome, not a pre-approval default). This directly closes the Founder's concern: an approved-but-unrouted submission is impossible under this model, and `unassessed` is visually and semantically distinct from `completed`, so it cannot be mistaken for resolved work.
 
-**Audit events:**
-- Every review_status transition and every conversion attempt logged with actor/timestamp/reason/outcome per §5f.10 and §9.
+### 5.5 Command impacts, expanded
 
-**Command Registry (`docs/GOLDPAN_COMMAND_REGISTRY_PHASE5.md`):**
-- Populate `submission.restaurant_update.view`, `submission.restaurant_update.review`, `submission.convert_to_intake` with this model as their governing basis.
-- If the Founder approves splitting `.review` (§8), add `submission.restaurant_update.claim`, `.return`, `.approve`, `.reject` as new entries — a separate approval, not automatic.
-- Resolve §22's DEC000002 placeholder by referencing this file directly.
+- `submission.convert_to_intake` — **scope narrowed** to the `intake_required` disposition only. It must refuse to run against any submission whose `disposition_type` is not `intake_required`.
+- `submission.route_to_identity_review` — new, missing/future. Places the submission's relevant fields into the existing Identity Review Queue (Restaurant Operations OS), per §5.2.
+- `submission.close_no_action` — new, missing/future. Sets `disposition_status = completed` with the mandatory reason already captured at approval time; effectively a formality/finalization step, not a separate decision.
+- `submission.escalate_exception` — new, missing/future. Hands off to Governance/Knowledge OS; this decision does not define that workflow's internals, only that this is the correct exit point from the submission lifecycle for cases that don't fit the other three.
+- `submission.restaurant_update.review` (CMD000025) — **split, adopted as the registry correction itself** (not left optional): replaced by `submission.restaurant_update.claim`, `.release`, `.return`, `.approve`, `.reject`. Per the Founder's instruction, this is recommended directly rather than presented as an optional Founder choice, mirroring DEC000001 v3's treatment of mechanical corrections.
 
-## 15. Migration-risk statement (corrected)
+### 5.6 Claim ownership for `in_review`
 
-v1 stated "zero live-behavior migration risk." Revised: **low live-application risk based on the inspected API and UI (no router is mounted, no frontend consumes this table), subject to verifying existing rows, any scripts, RLS policies, reports, or manual consumers not visible in this codebase inspection.** The RLS policies in `011_submission_tables.sql` reference `operations.current_user_role()` gating coordinator/admin access — this decision does not change those policies, but any implementation should re-verify they still apply correctly to the renamed/added columns before building the API.
+Defined identically in structure to DEC000001 v3's mechanism, applied to this entity:
 
-## 16. Founder decisions required
+- **Claim** (`submission.restaurant_update.claim`): one atomic conditional update — `pending_review → in_review`, requires `claimed_by_user_id IS NULL`, sets `claimed_by_user_id`, optional `claimed_by_display_name` snapshot, `claimed_at`. Returns no row (claim fails, caller told plainly) if already claimed or state changed.
+- **Release** (`submission.restaurant_update.release`): `in_review → pending_review`, clears claim fields. Allowed by the current claimant; administrator override allowed with a required reason.
+- **Decision commands clear the claim atomically as part of the same transition:** `.return`, `.approve`, `.reject` each, in one operation, move `status` out of `in_review`, clear the claim fields, and write the reviewer identity into append-only decision history — consistent with DEC000001 v3 §5.5's rule that the claim fields describe current ownership, not historical record; the historical reviewer of record lives permanently in the audit/event log, not in the (now-cleared) claim fields.
+- Same open question as DEC000001 §7 Founder decision 8: the exact reference target for `claimed_by_user_id` depends on identifying the current authentication/user model, not assumed here.
 
-1. **Confirm Model B (separate `review_status` + `conversion_status`/`conversion_type`) over Model A (single linear status through `converted`/`archived`).**
-2. **Confirm no changes are made to `partner_submissions`** — its `converted` status and downstream linkage stay as-is, on the grounds that its conversion target (CRM/partner record) is simpler and structurally different from this entity's two conversion paths.
-3. **Confirm dropping `received` as a status**, relying on existing `created_at` as the receipt marker.
-4. **Confirm archival as attributes (`archived_at`/`archived_by`/`archive_reason`)** rather than a `review_status` value.
-5. **Confirm the linked-child-submission model for corrections** (`resubmission_of_submission_id`), consistent with the schema's existing "append-only for the submission row" comment, rather than in-place editing or a same-row revision log.
-6. **Decide whether to split `submission.restaurant_update.review`** into discrete `claim`/`return`/`approve`/`reject` commands now, or keep it as the single registered command and revisit later.
-7. **Confirm `conversion_type` values** (`intake_packet`, `identity_update`, `no_action`, `other`) correctly represent the two documented post-approval outcomes, or specify different/additional values.
-8. **Confirm whether `resulting_intake_session` should be retyped as a proper FK** (`resulting_intake_packet_id uuid REFERENCES operations.intake_packets`) as part of this migration, or left as free text for now.
+### 5.7 Resubmission lifecycle — corrected
 
-## 17. Risks, guardrails, validation criteria, revisit triggers
+v2 stated a returned submission transitions `returned → pending_review` (same row). This is wrong for this entity, for the same reason DEC000001 v3 recommended in-place correction for packets but not here: `restaurant_update_submissions`'s own schema comment declares the row append-only beyond status/review fields, and once `status = returned` is reached that is the row's final state.
+
+**Corrected model:**
+
+```
+parent:  in_review → returned    (terminal for the parent row — it never moves again)
+child:   created fresh at pending_review
+         child.resubmission_of_submission_id = parent.submission_id
+```
+
+**Linear-chain rules:**
+- Each replacement (child) references exactly one parent via `resubmission_of_submission_id`.
+- Each parent may have **at most one** direct replacement — enforced via a `UNIQUE` constraint on `resubmission_of_submission_id` (excluding nulls), preventing branching (two different corrected versions of the same returned submission).
+- Only the newest leaf in a chain is "active" for review; earlier links are superseded but remain queryable.
+- Original payloads are immutable at every link — no row's `payload_json`/`description` is ever edited in place, consistent with the schema's append-only comment.
+- Obsolete parents are excluded from default active-review queue views but are not archived automatically (archival is a separate, explicit action — see §5.8) and remain fully queryable for audit.
+
+**`superseded_by_submission_id`:** recommended, added to make the active chain explicit and queryable in one direction without requiring a join to find "is there a child." Set on the parent at the moment a child is created (`parent.superseded_by_submission_id = child.submission_id`), atomically with the child's creation. This also structurally prevents branching at the database level if paired with the `UNIQUE` constraint above — an attempt to create a second child would violate uniqueness on `resubmission_of_submission_id`.
+
+### 5.8 Archival eligibility — tightened
+
+Archival must never hide unresolved work. **Eligible for archival:**
+- `rejected` submissions (terminal, nothing pending).
+- `approved` submissions with `disposition_status = completed`.
+- `returned` parent submissions that already have a replacement child (`superseded_by_submission_id IS NOT NULL`) — the parent is historical, not active.
+
+**Not eligible for archival:** `pending_review`, `in_review` (actively claimed or queued), and `approved` submissions with `disposition_status` of `pending`, `in_progress`, or `failed` — these represent unresolved or in-flight work and must remain in active views regardless of age.
+
+**Actor reference, corrected to match DEC000001 v3's standard:** `archived_by_user_id` (stable reference), optional `archived_by_display_name` snapshot, `archived_at`, `archive_reason`. No `archived_by text` free-text field, correcting the same class of issue DEC000001 v3 fixed for claims.
+
+### 5.9 Downstream linkage entity — left open, not silently renamed
+
+v2 recommended renaming `resulting_intake_session` → `resulting_intake_packet_id` without checking what entity it should actually reference. Checked this revision: the schema defines **two distinct entities** that could plausibly be meant —
+
+- `evidence.intake_sessions` (`session_id`) — a log of AI/human intake runs, used by AI Usage OS for cost/quality attribution (migration `002_evidence_tables.sql`).
+- `operations.intake_packets` (`packet_id`) — the structured, reviewable artifact governed by DEC000001.
+
+These are not currently linked to each other in the schema (no `session_id` column exists on `intake_packets`). The column name `resulting_intake_session` could historically have meant either, and this decision does not have enough information to resolve which was intended, or whether both should be captured.
+
+**Recommendation: do not rename the column until this is resolved.** The operationally load-bearing link for this decision's purposes — since it is what `submission.convert_to_intake` produces and what a reviewer would actually want to trace to — is most likely the **Intake Packet** (`operations.intake_packets.packet_id`), since that is the entity with its own review/approve/reject lifecycle (DEC000001) that a routed submission would flow into. Whether a separate `resulting_intake_session_id` should also be captured for cost/quality attribution is a related but distinct schema question, deferred to whoever owns AI Usage OS's cost-tracking requirements — flagged as an open question in §7, not decided here.
+
+**Idempotency requirement, independent of the entity question:** the downstream-processing workflow (`submission.convert_to_intake`, and by extension `.route_to_identity_review`/`.escalate_exception`) must be idempotent. A retry (e.g., after a transient failure) must not create a duplicate downstream record. `submission_id` should serve as, or contribute to, the idempotency key for whatever downstream creation call is made. A failed attempt sets `disposition_status = failed` without altering the `status = approved` review outcome — the approval stands regardless of downstream failure, matching DEC000001 v3's parallel rule for packet ingestion. Every attempt (success or failure) is audited — actor/system, timestamp, outcome.
+
+### 5.10 `resulting_evidence_summary` — renamed to a neutral term
+
+The current name implies the submission itself directly produced evidence, which §5.3 explicitly closes as a normal path. **Recommendation: rename to `resolution_summary` (jsonb).** It holds a structured/human-readable note applicable across all four disposition types — not just intake-routed ones — e.g. `no_action`'s documented reason, `identity_review`'s routing note, `exception_escalation`'s escalation note, or `intake_required`'s downstream-linkage confirmation. This keeps the field meaningful even for dispositions that never touch `evidence.*` at all.
+
+## 6. Recommended canonical model (final, v3)
+
+```
+status (conceptually "review status"; column name unchanged):
+    pending_review → in_review (claim)
+    in_review → pending_review (release)
+    in_review → returned (return; reason required; terminal for this row)
+    in_review → approved (approve; disposition_type required)
+    in_review → rejected (reject; reason required)
+
+disposition_status:  unassessed | pending | in_progress | completed | failed
+disposition_type:    intake_required | identity_review | no_action | exception_escalation
+
+Resubmission (separate rows, not a status loop):
+    parent.status = returned (permanent)
+    child.status = pending_review
+    child.resubmission_of_submission_id = parent.submission_id
+    parent.superseded_by_submission_id = child.submission_id
+
+Attributes/relationships, not statuses:
+    claimed_by_user_id, claimed_by_display_name, claimed_at
+    archived_at, archived_by_user_id, archived_by_display_name, archive_reason
+    resolution_summary (renamed from resulting_evidence_summary)
+    resulting_intake_packet_id (entity question open — see §5.9; do not rename resulting_intake_session yet)
+```
+
+## 7. Founder decisions required (concise — true policy choices only)
+
+Mechanical/architectural corrections above (disposition naming and OS routing, claim mechanism, resubmission chain model, archival eligibility rules, command split) are treated as resolved by this revision, not re-listed as open questions. What remains genuinely open:
+
+1. **Confirm the disposition routing table in §5.2** — in particular, that identity/contact changes should route to the Blueprint's existing Identity Review Queue rather than being edited directly by the submission reviewer, closing the path the live schema comment currently implies is normal.
+2. **Confirm `exception_escalation` routes to a Governance/Knowledge OS correction workflow that does not yet exist** — this decision creates the exit point (`submission.escalate_exception`) but does not design that workflow; a future decision must.
+3. **Resolve the `resulting_intake_session` entity question** (§5.9): does downstream linkage need `resulting_intake_packet_id`, `resulting_intake_session_id`, or both? Requires input from whoever owns AI Usage OS cost/quality tracking, not just this decision's scope.
+4. **Confirm the exact source of stable user identity** for `claimed_by_user_id`/`archived_by_user_id` — same open question as DEC000001 §7 decision 5, shared across both records.
+5. **Confirm no changes to `operations.partner_submissions`** (carried forward from v2, unchanged).
+
+## 8. Risks, guardrails, validation criteria, revisit triggers
 
 **Risks:**
-- Renaming `status` → `review_status` requires updating anything that queries the column by name — this codebase inspection found none (no API/UI), but per §15 this should be reverified rather than assumed safe.
-- The child-row resubmission model means "the current version of a submission" requires following `resubmission_of_submission_id` chains rather than reading a single row — any future queue view must account for this (e.g., default to showing only rows with no submission pointing to them as the "latest," or an explicit `is_latest` flag).
+- Closing the "direct evidence edit" path (§5.3) removes a capability the live schema comment currently implies coordinators have, even though no code has ever exercised it (no API exists). If any manual, out-of-band process currently relies on that comment as documentation for a real practice, this should be surfaced before implementation.
+- The resubmission chain (§5.7) requires queue views to correctly show only leaf (non-superseded) submissions as "active" — an oversight here could either hide corrected resubmissions or double-count a parent and its child.
 
 **Guardrails:**
-- No implementation proceeds until Founder decisions 1-8 above are made.
-- `submission.convert_to_intake` must refuse to run against a submission whose `review_status` is not `approved`.
+- No implementation proceeds until Founder decisions 1-5 above are made.
+- `submission.restaurant_update.approve` must reject any call that omits `disposition_type`.
+- `submission.convert_to_intake` must reject any submission whose `disposition_type != intake_required`.
 
 **Validation criteria:**
-- Every `review_status` value has a defined entry/exit path; `conversion_status`/`conversion_type` are independently nullable/settable without disturbing `review_status`.
-- A returned submission's correction chain is fully reconstructable via `resubmission_of_submission_id` without any row's original payload having been overwritten.
-- `partner_submissions` remains untouched by this migration.
+- No submission can reach `status = approved` with `disposition_status = unassessed` — the approve command's atomicity guarantees this.
+- Every resubmission chain has exactly one active leaf per original parent, verifiable by checking no submission both has a non-null `resubmission_of_submission_id` and is pointed to by another submission's `superseded_by_submission_id` other than its own direct parent.
+- No submission with `disposition_status ∈ {pending, in_progress, failed}` appears in an archived state.
 
 **Revisit triggers:**
-- If `partner_submissions` is later found to need the same conversion-outcome separation (e.g., its CRM conversions start failing/retrying in ways that need tracking), revisit decision 2 as a new, separate decision — not a retroactive change to this one.
-- If submission volume or queue-management needs grow, revisit decision 6 (splitting the review command) even if deferred now.
+- If the exception-escalation workflow is designed later and turns out to need its own richer status model, that becomes its own Decision Record, not a reopening of this one.
+- If `partner_submissions` is later found to need the same disposition separation, that is also a new, separate decision (per v2 §13, unchanged).
