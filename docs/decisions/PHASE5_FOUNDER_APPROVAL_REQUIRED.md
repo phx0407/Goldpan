@@ -22,16 +22,20 @@
 10. **Resolve the `approved → returned` question** (carried over from v1, still open). Live code allows it; no Blueprint source supports it. Confirm bug-to-close vs. intentional feature.
 11. **Confirm `intake.packet.reopen` (existing registry placeholder, CMD000010) is the correct name/semantics for the resubmission command**, or specify different intended behavior.
 
-## From DEC000002 (Restaurant Update Submission)
+## From DEC000002 (Restaurant Update Submission) — revised in v2
 
-12. **Adopt the recommended canonical lifecycle:** `received → pending_review → in_review → returned → pending_review (resubmit) → rejected (terminal)`, and `approved → converted → archived`. Yes/no, or request changes.
-13. **Confirm the `approved`/`converted` naming choice over §5i's `accepted`/no-`converted`.** The recommendation weights two live DB tables plus §5b over the single-source §5i wording — confirm this reasoning is acceptable.
-14. **Confirm whether `partner_submissions`'s existing divergence from `restaurant_update_submissions`** (it already has `converted`, the other doesn't) was intentional or an oversight. This affects whether the same migration should touch both tables or just one.
-15. **Confirm whether `received` is worth persisting as distinct from `pending_review`,** or whether it should be dropped from the canonical model as redundant.
+12. **Confirm Model B (separate `review_status` + `conversion_status`/`conversion_type` dimensions) over Model A (single linear status through `converted`/`archived`).** Recommendation: Model B — the live schema's own column comment already treats "approved" and "downstream action taken" as separate moments; Model A would re-merge them.
+13. **Confirm no changes are made to `operations.partner_submissions`.** Its `converted` status and simpler single-target conversion (CRM/partner record) are treated as a genuinely different downstream shape from this entity's two-path conversion (Intake session or direct evidence edit), not an inconsistency to fix.
+14. **Confirm dropping `received` as a status**, relying on the existing `created_at` column as the receipt marker — no new column needed.
+15. **Confirm archival as attributes (`archived_at`/`archived_by`/`archive_reason`)** rather than a `review_status` value, so a submission's final approved/rejected outcome survives archival.
+16. **Confirm the linked-child-submission model for corrections** (`resubmission_of_submission_id`) rather than in-place editing or a same-row revision log — this respects the schema's existing "append-only for the submission row" comment.
+17. **Decide whether to split the single registered `submission.restaurant_update.review` command** into discrete `claim`/`return`/`approve`/`reject` commands now, or keep it as one command and revisit later. Optional, not required by the state-machine decision itself.
+18. **Confirm `conversion_type` values** (`intake_packet`, `identity_update`, `no_action`, `other`) correctly represent the two documented post-approval outcomes ("triggers an Intake session" / "directly edits evidence records"), or specify different values.
+19. **Confirm whether `resulting_intake_session` should be retyped as a proper FK** to `operations.intake_packets`, or left as free text for now.
 
 ## Sequencing note (not a decision, just scope framing)
 
-DEC000001 has live behavior to migrate (existing packets, working endpoints) — its risk is now concentrated in decisions #7 (claim mechanism scope), #9 (reject), and #10 (`approved → returned`), since #4/#5/#6/#8 no longer require any constraint or schema risk beyond simple additive columns. DEC000002 has zero live API/UI to break — its main risk is building against an unconfirmed model later, not breaking anything now (#13-15 above). If the Founder wants to approve one record ahead of the other, DEC000002 is still the lower-risk one to greenlight first since no code depends on it yet.
+DEC000001's risk is concentrated in decisions #7 (claim mechanism scope), #9 (reject), and #10 (`approved → returned`), since #4/#5/#6/#8 no longer require any constraint or schema risk beyond simple additive columns. DEC000002 has zero live API/UI to break — per its revised migration-risk statement, this is "low live-application risk based on the inspected API and UI, subject to verifying existing rows, scripts, RLS policies, reports, and any manual consumers" not visible in this codebase inspection — not "zero risk" as v1 overstated. If the Founder wants to approve one record ahead of the other, DEC000002 is still the lower-risk one to greenlight first since no code depends on it yet.
 
 ---
 
