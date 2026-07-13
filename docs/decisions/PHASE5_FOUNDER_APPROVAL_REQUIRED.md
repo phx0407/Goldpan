@@ -11,23 +11,27 @@
 2. **Decision-basis categories.** No action needed yet — provisional approval converts to full approval automatically once DEC000001/DEC000002 are themselves approved, per the memo's own terms.
 3. **Namespace ownership-transfer footnote.** Optional, non-blocking — approve or skip; can ride along with the next registry edit either way.
 
-## From DEC000001 (Intake Packet)
+## From DEC000001 (Intake Packet) — revised in v2
 
-4. **Adopt the recommended canonical lifecycle:** `draft → pending_review → in_review → returned → pending_review (resubmit) → approved → ingested → archived`, plus `approved → superseded` via recanvass. Yes/no, or request changes.
-5. **Resolve the `approved → returned` question.** Live code (`return_packet()`) currently allows this transition; no Blueprint source supports it. Confirm: is this a bug to close, or an intentional "unapprove" feature to formally document? The recommendation assumes it's a bug — this needs explicit confirmation before the API change in DEC000001 §9 is made.
-6. **Confirm whether a hard-terminal `rejected` state (distinct from the recoverable `returned`) is needed.** The recommendation omits it for lack of evidence of need. If Founder knows of a real use case, say so now — cheaper to add before implementation than after.
-7. **Confirm `draft` should be a persisted state** (a packet can exist in the DB before submission), not just a client-side/pre-persistence concept. The recommendation assumes yes.
+4. **Confirm Model A (correct-and-resubmit the same packet row) over Model B (new row per revision via `revision_of_packet_id`).** Model A requires no change to `UNIQUE(restaurant_external_id, canvass_date)`; Model B would require a revision-aware constraint redesign. Recommendation: Model A.
+5. **Confirm `superseded_by_packet_id` (a relationship column) over a `superseded` packet_status value.** Recommendation: relationship column — a packet's own processing status shouldn't change just because a later canvass supersedes its evidence downstream.
+6. **Confirm excluding `draft` from the Phase 5 lifecycle.** No current operator workflow authors packets incrementally inside Master OS; recommendation is to exclude it now and add it later only if a real packet-authoring capability is built.
+7. **Confirm the minimal, non-locking `in_review` claim mechanism** (`claimed_by`/`claimed_at` columns, check-then-set guard, manual stale-claim recovery, no reassignment workflow) is right-sized for Phase 5's small admin-only review team, versus building fuller concurrency control now.
+8. **Confirm `archived_at` (a retention attribute) over an `archived` packet_status value.** `ingested` remains the terminal processing status; `archived_at` only affects queue visibility.
+9. **Decide on `rejected` / `intake.packet.reject`.** Not adopted by default — the only evidence for it is the registry's own placeholder entry (CMD000009), which this record treats as insufficient on its own. Say so explicitly if a hard-terminal reject state is wanted.
+10. **Resolve the `approved → returned` question** (carried over from v1, still open). Live code allows it; no Blueprint source supports it. Confirm bug-to-close vs. intentional feature.
+11. **Confirm `intake.packet.reopen` (existing registry placeholder, CMD000010) is the correct name/semantics for the resubmission command**, or specify different intended behavior.
 
 ## From DEC000002 (Restaurant Update Submission)
 
-8. **Adopt the recommended canonical lifecycle:** `received → pending_review → in_review → returned → pending_review (resubmit) → rejected (terminal)`, and `approved → converted → archived`. Yes/no, or request changes.
-9. **Confirm the `approved`/`converted` naming choice over §5i's `accepted`/no-`converted`.** The recommendation weights two live DB tables plus §5b over the single-source §5i wording — confirm this reasoning is acceptable.
-10. **Confirm whether `partner_submissions`'s existing divergence from `restaurant_update_submissions`** (it already has `converted`, the other doesn't) was intentional or an oversight. This affects whether the same migration should touch both tables or just one.
-11. **Confirm whether `received` is worth persisting as distinct from `pending_review`,** or whether it should be dropped from the canonical model as redundant.
+12. **Adopt the recommended canonical lifecycle:** `received → pending_review → in_review → returned → pending_review (resubmit) → rejected (terminal)`, and `approved → converted → archived`. Yes/no, or request changes.
+13. **Confirm the `approved`/`converted` naming choice over §5i's `accepted`/no-`converted`.** The recommendation weights two live DB tables plus §5b over the single-source §5i wording — confirm this reasoning is acceptable.
+14. **Confirm whether `partner_submissions`'s existing divergence from `restaurant_update_submissions`** (it already has `converted`, the other doesn't) was intentional or an oversight. This affects whether the same migration should touch both tables or just one.
+15. **Confirm whether `received` is worth persisting as distinct from `pending_review`,** or whether it should be dropped from the canonical model as redundant.
 
 ## Sequencing note (not a decision, just scope framing)
 
-DEC000001 has live behavior to migrate (existing packets, working endpoints) — its risk is concentrated in the `approved → returned` and resubmission-loop changes (#5, #7 above). DEC000002 has zero live API/UI to break — its main risk is building against an unconfirmed model later, not breaking anything now (#9-11 above). If the Founder wants to approve one record ahead of the other, DEC000002 is the lower-risk one to greenlight first since no code depends on it yet.
+DEC000001 has live behavior to migrate (existing packets, working endpoints) — its risk is now concentrated in decisions #7 (claim mechanism scope), #9 (reject), and #10 (`approved → returned`), since #4/#5/#6/#8 no longer require any constraint or schema risk beyond simple additive columns. DEC000002 has zero live API/UI to break — its main risk is building against an unconfirmed model later, not breaking anything now (#13-15 above). If the Founder wants to approve one record ahead of the other, DEC000002 is still the lower-risk one to greenlight first since no code depends on it yet.
 
 ---
 
