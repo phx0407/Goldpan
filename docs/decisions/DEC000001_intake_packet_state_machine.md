@@ -1,207 +1,197 @@
 # DEC000001 — Canonical Intake Packet State Machine
 
-**Status:** draft v2 — awaiting Founder approval (revised per Founder review of v1)
+**Status:** draft v3 — awaiting Founder approval (revised per targeted Founder corrections to v2)
 **Decision basis:** architectural_requirement, compliance_or_risk_control
 **Decision dependencies:** none (foundational record)
-**Registry impact:** governs `intake.packet.*` and `intake.review.*` namespace commands (see §3)
+**Registry impact:** governs `intake.packet.*` and `intake.review.*` namespace commands (see §3, §5.1)
 
-**Revision note:** v1 of this record proposed adding `draft`, `in_review`, `superseded`, and `archived` directly into `packet_status`, and proposed relaxing the `UNIQUE(restaurant_external_id, canvass_date)` constraint to support resubmission. Founder review identified that several of these moves added complexity or schema risk without a demonstrated operational need, and that the constraint change was unnecessary once resubmission is modeled correctly. This version replaces that analysis. Sections 1–3 (competing versions, terminology conflicts, dependent commands) carry forward from v1 largely unchanged; §4 onward is substantially revised.
+**Revision note:** v2's broader candidate analysis (§4, Candidates D/E/F) is not reopened here, per instruction. This revision makes eleven targeted corrections within that already-approved-in-principle direction: separating payload correction from resubmission, defining payload mutation rights explicitly, hardening the claim mechanism (stable identity, atomic operation, defined release rules), making supersession deterministic, making ingestion system-controlled, splitting revisions from lifecycle events, clarifying archival policy, defining `rejected` on its own operational merits, and closing `approved → returned`. Sections 1-3 carry forward from v2 with corrections noted inline; §5 onward is rewritten.
 
 ---
 
-## 1. Competing versions, side by side (unchanged from v1)
+## 1. Competing versions, side by side (unchanged from v2)
 
 | Source | States (in order) | Notes |
 |---|---|---|
-| Blueprint §5b (State Machine Philosophy, lines 672-687) | `draft → in_progress → pending_review → in_review → approved → rejected → archived` | 7 states. Generic table covering multiple entity types, not intake-packet-specific. |
-| Blueprint §5i (Data Lifecycle Standard, lines 1262-1421) | `draft → submitted → in_review → returned → approved → ingested → superseded → archived` | 8 states. Entity-specific table. States "packets are permanent audit records." Trust threshold = `approved`. |
-| Live DB (`supabase/migrations/015_intake_packets.sql`, CHECK constraint) | `pending_review, returned, approved, ingested` | 4 states only. |
-| Live API (`api/routers/intake.py`) | `submit_packet()` creates at `pending_review`; `approve_packet()` blocks if `ingested`; `return_packet()` blocks if `ingested`, allows from `pending_review` **or** `approved`; `mark_ingested()` only from `approved` | Code permits an `approved → returned` transition that appears in no Blueprint version. |
+| Blueprint §5b | `draft → in_progress → pending_review → in_review → approved → rejected → archived` | Generic table, not intake-packet-specific. |
+| Blueprint §5i | `draft → submitted → in_review → returned → approved → ingested → superseded → archived` | Entity-specific. Trust threshold = `approved`. |
+| Live DB (`015_intake_packets.sql`) | `pending_review, returned, approved, ingested` | 4 states. |
+| Live API (`intake.py`) | `submit_packet()` → `pending_review`; `approve_packet()` blocks if `ingested`; `return_packet()` blocks if `ingested`, allows from `pending_review` **or** `approved`; `mark_ingested()` only from `approved` | The `approved → returned` path is addressed and closed in §5.9 below. |
 
-**Standing correction (from v1, still applies):** §22 of `docs/GOLDPAN_COMMAND_REGISTRY_PHASE5.md` claims Blueprint §5i "describes reopening." Direct inspection found no literal `reopen` state or transition in §5i. This is an inference by that document's author, not quoted Blueprint text.
+## 2. Terminology and transition conflicts (unchanged from v2)
 
-**New finding this revision:** `docs/GOLDPAN_COMMAND_REGISTRY_PHASE5.md` §§17-21 independently list three commands relevant to this decision that were not addressed in v1:
-- `intake.packet.reject` (CMD000009, `approval`, currently `missing`)
-- `intake.packet.reopen` (CMD000010, `mutation`, currently `missing`)
-- `intake.packet.archive` (CMD000011, `mutation`, currently `missing`)
-- `intake.packet.commit_ingest` (CMD000008, `automated_job`, currently `missing`) — the actual durable evidence write (`ingest_packet.py --commit`), explicitly documented as distinct from `mark_ingested` (which only flips a status flag). This is relevant evidence for §5 below.
+Carried forward without change: `draft` present in both Blueprint versions, absent from DB; `submitted`/`pending_review` naming split; `in_review` present in both Blueprint versions with no DB/API representation; `rejected` (§5b) vs `returned` (§5i/DB/API) conceptually distinct; `ingested`/`superseded` only in §5i/DB; `archived` in both Blueprint versions, absent from DB/API.
 
-These are registry-level placeholders, not Blueprint requirements — they carry the same evidentiary weight as the rest of that draft document (i.e., none, until approved), but they are useful corroborating signal about what the framework's own author anticipated needing, and this revision reconciles its naming against them rather than inventing new command names in parallel.
+## 3. Phase 5 commands that depend on this decision (corrected)
 
-## 2. Terminology and transition conflicts (unchanged from v1)
+| Command | Registry status | This revision's treatment |
+|---|---|---|
+| `intake.packet.submit` (CMD000003, implemented) | unchanged | Sets initial status; no change. |
+| `intake.review.approve` (CMD000005, implemented) | unchanged | Now requires source state `in_review`, claimant-or-admin only. See §5.9. |
+| `intake.review.return` (CMD000006, implemented) | unchanged | Now requires source state `in_review` **only** — `pending_review` and `approved` both removed as valid sources. See §5.9. |
+| `intake.packet.mark_ingested` (CMD000007, implemented) | **treatment revised** | No longer an independent operator action under ordinary use. See §5.7. |
+| `intake.packet.commit_ingest` (CMD000008, missing) | **becomes the sole path to `ingested`** | See §5.7. |
+| `intake.packet.reject` (CMD000009, missing) | **adopted, with defined semantics** | See §5.10 — no longer left open; justified on its own operational grounds, not because the placeholder exists. |
+| `intake.packet.reopen` (CMD000010, missing) | **correction required — this revision does not treat its existing label as governing** | v2 assumed this placeholder was the natural home for resubmission. That assumption is withdrawn. See §5.1. |
+| `intake.packet.archive` (CMD000011, missing) | unchanged in mechanism, tightened in policy | Sets `archived_at`. See §5.11. |
+| **New:** `intake.packet.update` | not in registry today | New command, proposed. See §5.1. |
+| **New:** `intake.packet.resubmit` | not in registry today | New command, proposed. See §5.1. |
+| **New:** `intake.review.claim`, `intake.review.release` | not in registry today | See §5.3-§5.5. |
 
-- `draft` exists in both Blueprint versions, not in the DB.
-- `submitted` (§5i) and `pending_review` (§5b, DB, API) name the same conceptual state.
-- `in_review` exists in both Blueprint versions, has no DB or API representation; `pending_review` currently does double duty for "queued" and "under active review."
-- `rejected` (§5b) and `returned` (§5i, DB, API) are not the same concept — `rejected` implies terminal/non-recoverable, `returned` implies a correction round-trip.
-- `ingested` and `superseded` appear only in §5i/DB (as `ingested`); §5b has neither.
-- `archived` appears in both Blueprint versions, not in DB/API.
-- The live `approved → returned` transition matches no Blueprint version.
+Every command marked "new" or "treatment revised" above is flagged as a distinct namespace/behavior decision requiring its own line-item approval in §10, not silently bundled into "adopt DEC000001."
 
-## 3. Phase 5 commands that depend on this decision
+## 5. Resolution of each targeted correction
 
-Per the Command Registry inventory (§18-§21), with corrected naming per the Founder's instruction not to silently rename existing entries:
+### 5.1 Correction is not resubmission — `reopen` is not repurposed
 
-- `intake.packet.submit` (CMD000003, implemented) — sets initial status.
-- `intake.review.approve` (CMD000005, implemented) — **existing namespace, not renamed.** Canonical model must confirm allowed source states.
-- `intake.review.return` (CMD000006, implemented) — **existing namespace, not renamed.** Canonical model must resolve the `approved → returned` question.
-- `intake.packet.mark_ingested` (CMD000007, implemented) — status flag only; no conflict, current code already restricts this to `approved` source.
-- `intake.packet.commit_ingest` (CMD000008, missing) — the actual durable evidence write; relevant to §5's terminal-status analysis but not itself a `packet_status` value.
-- `intake.packet.reject` (CMD000009, missing) — **open question, not adopted by default.** See §5.3.
-- `intake.packet.reopen` (CMD000010, missing) — **proposed home for the resubmission mechanism.** See §5.1. This corrects v1, which invented a new `intake.packet.resubmit` command name instead of using the one the registry had already reserved.
-- `intake.packet.archive` (CMD000011, missing) — **proposed to set a retention attribute, not a status transition.** See §5.2.
-- **New, not currently in the registry:** `intake.review.claim`, `intake.review.release` — required only if `in_review` is adopted as a canonical status. See §5.4. Flagged per the Founder's instruction as a namespace addition requiring separate approval, not silently folded into this record.
+v2's error: it treated `intake.packet.reopen` (CMD000010) as the natural home for "correct the payload and send it back to the queue" solely because the placeholder already existed with that name. On reflection, "reopen" more naturally describes something different and rarer — reactivating a packet that is already in a terminal or closed state (`ingested`, `rejected`, or `archived`) for an exceptional, elevated correction, not the routine return-and-fix loop a reviewer performs regularly.
 
-## 4. Candidate models
+**Revised recommendation:** two distinct commands, neither of which is `reopen`:
 
-Three candidates, replacing v1's Candidate A/B/C:
+- **`intake.packet.update`** — edits `packet_data` while `packet_status = returned` only. Does not change `packet_status`. Writes a payload revision record (§5.8) capturing the prior payload, actor, reason, timestamp.
+- **`intake.packet.resubmit`** — transitions `returned → pending_review`. Does not touch `packet_data`. Requires that the packet is not mid-edit (no specific lock needed, since `update` and `resubmit` are typically called in sequence by the same operator, but they remain separate operations so a payload edit can be saved without immediately re-queuing, and so the event log distinguishes "what changed" from "state moved").
+- **`intake.packet.reopen`** — reserved, undefined by this decision, for a future exceptional reopening of a packet in a terminal/closed state (`ingested`, `rejected`, `archived`). Not built as part of this decision. The Command Registry's existing CMD000010 entry needs its own definition written before it can be marked buildable — this decision explicitly does not supply that definition, and flags CMD000010 as requiring correction/clarification rather than adopting its current bare label as authoritative.
 
-- **Candidate D (Founder's narrow model, §8 of review comments):** `pending_review → in_review → returned → pending_review` and `in_review → approved → ingested`. Five `packet_status` values. Supersession and archival modeled as relationships/attributes, not statuses. Resubmission is an in-place correction of the same row.
-- **Candidate E (v1's model, carried forward for comparison only):** eight-value `packet_status` including `draft`, `superseded`, `archived` as statuses, plus a new packet row for resubmission via `revision_of_packet_id`.
-- **Candidate F (status quo, formalized):** the current four DB values, no new capability.
+This is a genuinely new pair of commands, not a renaming of anything existing — flagged for separate Founder sign-off in §10.
 
-## 5. Resolution of each architectural issue raised
+### 5.2 Payload mutation rights (new — not present in v2)
 
-### 5.1 Resubmission and uniqueness
+| `packet_status` | Payload (`packet_data`) | Notes |
+|---|---|---|
+| `pending_review` | Read-only | No command may alter payload in this state. |
+| `in_review` | Read-only | Reviewer annotations (notes, flags) are stored separately from `packet_data` — they are not payload mutations. |
+| `returned` | **Mutable, via `intake.packet.update` only** | Only an authorized Intake operator; every edit produces a revision record (§5.8). |
+| `approved` | Immutable | No command may alter payload once approved. |
+| `ingested` | Immutable | Permanent audit record, per Blueprint §5i. |
+| `rejected` (if adopted, §5.10) | Immutable | Terminal; no further edits of any kind. |
 
-Two models were evaluated, per the Founder's instruction:
+Any future command touching `packet_data` must be checked against this table before being added to the registry as buildable.
 
-- **Model A — correct and resubmit the same row.** A `returned` packet is corrected via `intake.packet.reopen`, which updates `packet_data` in place and moves `packet_status` back to `pending_review`. `packet_id` is stable throughout the packet's life. Because this is an `UPDATE`, not an `INSERT`, **the `UNIQUE(restaurant_external_id, canvass_date)` constraint is never touched and never needs to change.** History is preserved via an append-only revision table (§5.6), not via the constraint.
-- **Model B — new row per revision.** Each correction creates a new packet row linked via `revision_of_packet_id`/`supersedes_packet_id`, requiring the uniqueness constraint to become revision-aware (e.g., unique on `(restaurant_external_id, canvass_date, revision_number)` or partial-unique on the latest revision only).
+### 5.3 Claim identity — stable reference, not free text
 
-**Recommendation: Model A.** It is materially lower complexity — no constraint redesign, no new FK for revision chains, no "which row is canonical" query logic anywhere the packet is looked up by `packet_id`. Canonical packet identity is simply: one `packet_id` per canvassing run, full stop; corrections mutate that row's `packet_data` and are recorded in the revision table. Model B would only be justified if there were a demonstrated need to keep every historical `packet_data` payload independently queryable/joinable as its own row (e.g., for point-in-time evidence reconstruction at the row level) — no such need is evidenced in the current system. v1's recommendation to weaken the uniqueness constraint is withdrawn; it was an artifact of implicitly assuming Model B without evaluating Model A first.
+v2 specified `claimed_by text`. Revised: **`claimed_by_user_id`** (a stable reference into whatever the current authentication/user model resolves to — e.g., a Supabase `auth.users` id or the operations-role user table already implied by `operations.current_user_role()` in the submissions migrations), plus an optional **`claimed_by_display_name`** snapshot for display purposes only (not authoritative — if a user's display name changes later, historical claim records don't need to be rewritten). Free text is not acceptable as the actor-of-record for a claim; this decision does not have visibility into the exact current user/session model from the files inspected so far, and flags confirming the correct reference target as a Founder/implementation question rather than assuming one.
 
-### 5.2 Superseded — not a `packet_status` value
+### 5.4 Atomic claim — corrected characterization
 
-Agreed with the Founder's framing: a packet is a point-in-time audit artifact of one canvassing run. A later canvass superseding that packet's *evidence* is a fact about the relationship between two packets, not a change to the earlier packet's own processing history — the earlier packet was still correctly submitted, reviewed, approved, and ingested; none of that becomes false when a newer packet arrives.
+v2 described the claim guard as "check-then-set... a narrow race window." That characterization is withdrawn as imprecise. **The claim must be implemented as a single conditional update, not a read followed by a write:**
 
-**Recommendation:** do not add `superseded` to `packet_status`. Instead add a nullable relationship column, `superseded_by_packet_id uuid REFERENCES operations.intake_packets(packet_id)`, set on the *older* packet when a newer `ingested` packet exists for the same restaurant. This is system-computed at the time the newer packet reaches `ingested` (via `intake.packet.commit_ingest` or `mark_ingested`), not a separate human-invoked command — no new command surface is needed for it. `packet_status` on the older row remains `ingested` permanently, which is accurate: it was ingested, and still was, even though newer evidence now supersedes it downstream. This directly answers the Founder's question — `superseded` is not limited to an `ingested → superseded` transition because it was never a transition; it is a link between two independently terminal packets.
-
-### 5.3 `draft` — excluded from the current lifecycle
-
-Checked against actual Phase 5 operational reality: packets are produced by `intake_agent.py` as complete, structured JSON and handed to `submit_packet()` as a single atomic action. There is no packet-authoring UI in Master OS today, and no operator workflow that builds a packet incrementally inside the system. Nothing currently creates a packet in a not-yet-submitted, persisted state.
-
-**Recommendation:** exclude `draft` from the Phase 5 `packet_status` enum. It is not evidenced by current operations, only by Blueprint prose describing a general-purpose state machine not written for this entity. If Master OS later grows an in-app packet-authoring capability, `draft` can be added then, against a real requirement, rather than spent now on a hypothetical one.
-
-### 5.4 `in_review` — kept, with a minimal ownership mechanism scoped to Phase 5
-
-`in_review` is retained in Candidate D because it answers a real question `pending_review` cannot: whether a packet is sitting untouched in the queue or is actively being looked at by someone right now. But per the Founder's instruction, it is not added as a bare label — a concrete mechanism is specified:
-
-- **Claim:** new nullable columns on `operations.intake_packets`: `claimed_by text`, `claimed_at timestamptz`. `intake.review.claim` (new command) sets both and moves `packet_status` to `in_review`, guarded by `WHERE claimed_by IS NULL` so two reviewers cannot claim the same packet simultaneously.
-- **Release:** `intake.review.release` (new command) clears both columns and returns `packet_status` to `pending_review`.
-- **Reassignment:** for Phase 5, no separate reassign command — an admin releases, then claims (or another admin directly overwrites `claimed_by`/`claimed_at` via an admin-override path). All Phase 5 users are admin-role already (RLS is admin-only per migration 015), so a dedicated reassignment workflow with permission checks is not justified yet.
-- **Stale-claim recovery:** manual for Phase 5 — any admin can release any packet regardless of who claimed it, since there is no multi-tenant permission boundary to protect against that today. An automated timeout (e.g., auto-release after N hours idle) is deferred as a future enhancement; no evidence of a stuck-claim problem exists yet to justify building it now.
-- **Concurrency:** the `WHERE claimed_by IS NULL` guard on claim is a single-writer check, not row-level locking — sufficient at Phase 5's operational scale (a small internal review team, low packet volume) and consistent with the framework's existing tolerance for admin-trust rather than defense-in-depth (see RLS comment in migration 015: "No anon or authenticated policies: Intake OS is admin-only").
-
-This is a genuine, if modest, scope addition beyond a status-label rename — two new columns, two new commands. It is called out explicitly in the Founder decision list (§10) rather than bundled silently into "add `in_review`."
-
-### 5.5 `archived` — retention attribute, not a status
-
-Per the Founder's suggestion: `ingested` already correctly marks the terminal point where a packet's evidence has been durably committed (via `intake.packet.commit_ingest`) — that is the actual trust/durability boundary, and it does not change when a packet is later archived. Archival is a visibility/retention concern: keeping old `ingested` packets out of the active queue view without deleting them, consistent with Blueprint's "archive over delete" design rule.
-
-**Recommendation:** add `archived_at timestamptz` (nullable) to `operations.intake_packets`, not an `archived` status value. `intake.packet.archive` sets `archived_at = now()`; queue views default to `WHERE archived_at IS NULL`; nothing else changes. This is routine, not exceptional — likely triggered by a scheduled job (e.g., archive `ingested` packets older than N months) with a manual override available, though the exact trigger policy is an operational decision, not an architectural one, and is left open for the Founder or an operator to set. `ingested` remains sufficient as the permanent terminal processing status; `archived_at` layers retention semantics on top without duplicating or overloading it.
-
-### 5.6 History preservation — corrected requirement
-
-v1 stated a validation requirement that "the original returned record is preserved (not overwritten)." Under Model A (§5.1), the packet row *is* updated in place, so that literal requirement cannot hold and is withdrawn. The real requirement, restated:
-
-The system must preserve, per packet, an append-only record of:
-- the pre-return `packet_data` payload,
-- the return decision, reason, reviewer, and timestamp,
-- the corrected `packet_data` payload,
-- the resubmission event (actor, timestamp),
-- and every subsequent decision (approve, reject if adopted, ingest, archive).
-
-**Recommendation:** a new table, `operations.intake_packet_revisions` (or equivalent), append-only, one row per state-changing event on a packet, storing `packet_id`, event type, actor, timestamp, reason (nullable), and a snapshot of `packet_data` at that point where the event changes the payload (return and resubmit events specifically). This also directly closes the standing audit-trigger gap noted in the framework memo and in v1 §4 (no audit trigger currently exists on `intake_packets`) — one mechanism serves both the audit requirement and the history-preservation requirement.
-
-## 6. Recommended canonical model (Candidate D, refined)
-
-```
-packet_status:  pending_review → in_review → returned → pending_review (loop, same row)
-                in_review → approved → ingested   (terminal)
-
-Attributes, not statuses:
-  claimed_by, claimed_at        — in_review ownership
-  superseded_by_packet_id       — set on an older ingested packet by a newer one
-  archived_at                   — retention marker, independent of packet_status
+```sql
+UPDATE operations.intake_packets
+SET packet_status = 'in_review',
+    claimed_by_user_id = :acting_user_id,
+    claimed_by_display_name = :acting_user_display_name,
+    claimed_at = now()
+WHERE packet_id = :packet_id
+  AND packet_status = 'pending_review'
+  AND claimed_by_user_id IS NULL
+RETURNING packet_id;
 ```
 
-Five `packet_status` values total: `pending_review`, `in_review`, `returned`, `approved`, `ingested`. This is one value more than the live DB (`in_review` is the only addition to the status enum itself), plus three relationship/attribute columns and one new revision-history table — a materially smaller and lower-risk change than v1 proposed.
+If this returns no row, the claim failed — either another reviewer already claimed it or the packet is no longer `pending_review` — and the caller is told exactly that, not given a false success. Implemented this way, there is no race window to characterize as a risk; the risk section in v2 attributing this to inherent check-then-set behavior was a modeling error, not a real property of the recommended design.
 
-**`rejected` is deliberately left undecided, not silently excluded.** v1 dismissed it for lack of evidence. This revision found weak but real registry-level evidence (`intake.packet.reject`, CMD000009) that the framework's own author anticipated needing it. That is not strong enough evidence to adopt it outright (it is speculation within the same unapproved draft, not independent confirmation), but it is strong enough that omitting it should be a visible Founder choice, not an assumption. See §10.
+### 5.5 Release and claim-clearing — tightened
 
-## 7. Nature of this recommendation
+- **`claim`**: `pending_review → in_review`, per §5.4.
+- **`release`** (`intake.review.release`): `in_review → pending_review`, clears `claimed_by_user_id`/`claimed_by_display_name`/`claimed_at`. Allowed by the current claimant. An administrator override is also allowed, but **requires a reason**, logged to the event history (§5.8) distinctly from an ordinary self-release.
+- **Decision commands clear the claim atomically as part of the same transition, not as a separate step:** `intake.review.return`, `intake.review.approve`, and `intake.packet.reject` (if adopted) each, in one operation, transition `packet_status` out of `in_review` **and** clear the claim fields **and** write the reviewer identity into the append-only decision/event history — so the reviewer of record is never lost even though the live `claimed_by_user_id` field is cleared once the decision is made. The claim fields describe "who currently has this checked out," not "who last acted on it"; the latter lives permanently in the event log.
 
-This combines elements from multiple sources and from the Founder's own framing: it keeps `pending_review`/`returned`/`approved`/`ingested` naming from the live system (§5b/DB/API agreement), adds `in_review` from both Blueprint versions but only with a concrete ownership mechanism neither Blueprint version specifies, and explicitly declines to promote `draft`, `superseded`, or `archived` into `packet_status` — instead representing them as attributes/relationships, which no source document proposed in those terms but which better fits the evidence about how these concepts are actually used (point-in-time audit artifact, retention vs. processing, ownership vs. terminal state).
+### 5.6 Supersession — made deterministic
 
-## 8. Assumptions
+Superseder determination uses **canonical restaurant identity and canvass chronology**, not ingestion order (which can differ from canvass order — a delayed review of an earlier canvass can cause it to be ingested after a later canvass's packet):
 
-- Assumes `intake.packet.reopen` (CMD000010) is the correct namespace home for the resubmission action (payload correction + `returned → pending_review`), since the registry lists it as missing with no further definition. If the Founder intends `reopen` to mean something narrower (e.g., only unlocking the packet for viewing, not payload correction), this needs a different or additional command name — flagged as an open question, not assumed silently.
-- Assumes Phase 5's admin-only, small-team operational context justifies the minimal (non-locking, manually-recoverable) claim mechanism in §5.4 rather than a fuller concurrency-control design.
-- Assumes the archival trigger policy (age-based, manual, or both) is an operational parameter to be set later, not an architectural decision this record needs to fix.
+- **Identity:** two packets are compared for supersession only if they resolve to the same `restaurant_id` (preferred) or, if `restaurant_id` is null on either, the same `restaurant_external_id`. This is the canonical restaurant identity already used elsewhere in the schema (migration 015).
+- **Chronology:** packet Q can supersede packet P only if `Q.canvass_date > P.canvass_date`, and both are `ingested`. Ingestion timestamp is not part of the comparison.
+- **Determinism / single-hop chaining:** each packet's `superseded_by_packet_id` points to exactly one packet — its immediate chronological successor by canvass_date among `ingested` packets for the same restaurant identity, not to every later packet. Full supersession history for a restaurant is reconstructed by walking the chain (`P1.superseded_by_packet_id → P2`, `P2.superseded_by_packet_id → P3`, ...), not by fanning one packet out to all future ones.
+- **Out-of-order ingestion:** the successor link is (re)computed at the moment any packet reaches `ingested`, in both directions: (a) when packet X is ingested, find the nearest earlier-canvass `ingested` packet P for the same restaurant with no closer successor already linked, and set `P.superseded_by_packet_id = X` if X's canvass_date is closer to P's than whatever P currently points to (handles a late-arriving, chronologically-earlier packet being ingested after a later one already exists); (b) also check whether an already-`ingested`, later-canvass packet already exists that should supersede X itself, and set `X.superseded_by_packet_id` accordingly if so.
+- **Self-reference and cycles:** a `CHECK` constraint enforces `superseded_by_packet_id != packet_id`. Cycles are structurally excluded because a packet may only be pointed to by an earlier-canvass packet and may only point to a later-canvass packet — canvass_date supplies a strict total order (ties broken by `submitted_at`), so no cycle can form.
 
-## 9. Alternatives rejected
+### 5.7 Ingestion status — system-controlled
 
-- **Candidate E (v1's model — 8-value status enum, revision-per-row via `revision_of_packet_id`):** rejected as higher complexity than necessary. Retained above only as a comparison point, per the Founder's request to evaluate it explicitly against the narrower model.
-- **Candidate F (status quo, formalized):** rejected — leaves the queue-ownership ambiguity (`pending_review` meaning both "untouched" and "being worked") unresolved, and leaves the audit-trail gap open.
-- **Automated stale-claim recovery (timers/expiry):** considered as part of §5.4, rejected for Phase 5 specifically for lack of evidence of need; not rejected permanently — listed as a revisit trigger in §10.
+Per the Founder's instruction: `packet_status = ingested` may only be set after a successful durable evidence write through the governed `intake.packet.commit_ingest` workflow — never by an independent human action that merely flips a status flag while evidence may or may not have actually been written.
 
-## 10. Exact downstream changes this recommendation would require
+**Recommendation: absorb `mark_ingested` into `commit_ingest`.** `intake.packet.commit_ingest` performs the durable write and, only upon confirmed success, sets `packet_status = ingested` itself, atomically, as its own last step. The currently-implemented `intake.packet.mark_ingested` (CMD000007) is **deprecated as an independent operator-facing action** — it currently allows a human to set `ingested` with no evidence-write guarantee behind it, which is exactly the defect this correction closes. It may be retained only as a restricted, admin-only, reason-required reconciliation tool for correcting drift between recorded status and actual evidence state (e.g., after a manual out-of-band fix) — not as part of the ordinary operator workflow.
 
-**Blueprint (`docs/GOLDPAN_MASTER_OS_BLUEPRINT.md`):**
-- §5i's Intake Packet lifecycle table: revise to the 5-value `packet_status` set plus the three attribute columns, replacing the current 8-state table.
-- §5b's generic state machine table: annotate that Intake Packet uses its own entity-specific model rather than the generic table, given the two now diverge more explicitly (no `draft`, no `rejected` by default, no `archived`-as-status).
+### 5.8 Revisions vs. lifecycle events — two stores, not one undefined table
 
-**Database (new migration, e.g. `01X_intake_packet_lifecycle_v2.sql`):**
-- Add `in_review` to the `packet_status` CHECK constraint. **No other status values added; the `UNIQUE(restaurant_external_id, canvass_date)` constraint is unchanged.**
-- Add columns: `claimed_by text`, `claimed_at timestamptz`, `superseded_by_packet_id uuid REFERENCES operations.intake_packets(packet_id)`, `archived_at timestamptz`.
-- Add new table `operations.intake_packet_revisions` (append-only), per §5.6.
+v2's single `intake_packet_revisions` table conflated two different kinds of record with different shapes and different write frequency. Revised recommendation (Model A — two append-only stores):
 
-**API (`api/routers/intake.py`):**
-- New endpoints: `intake.packet.reopen` (correct payload, `returned → pending_review`, writes a revision record), `intake.review.claim`, `intake.review.release`, `intake.packet.archive` (sets `archived_at`).
-- `intake.review.return`: remove `approved` as an allowed source state unless the Founder confirms it is intentional (carried forward from v1, unresolved — see Founder decisions below).
-- `intake.packet.mark_ingested` / `intake.packet.commit_ingest`: on reaching `ingested`, check for and link any prior packet for the same restaurant via `superseded_by_packet_id`.
-- `intake.packet.reject`: **not built** unless the Founder opts in — see §10 Founder decisions.
+- **`operations.intake_packet_revisions`** — payload snapshots only. One row per payload-changing event (i.e., `intake.packet.update`). Columns: `revision_id`, `packet_id`, `prior_payload jsonb`, `actor`, `reason`, `created_at`. This table stays small in row count (only correction events) but each row is heavy (a full JSON snapshot).
+- **`operations.intake_packet_events`** — lifecycle/audit trail. One row per state-changing or claim-changing event: `claim`, `release` (self or admin-override, with reason if override), `return`, `resubmit`, `approve`, `reject` (if adopted), `ingest`, `archive`, `supersede`. Columns: `event_id`, `packet_id`, `event_type`, `actor` (`claimed_by_user_id` or acting reviewer), `reason` (nullable, required for override/return/reject), `metadata jsonb` (event-specific detail, e.g. which packet superseded which), `created_at`. This table is high-frequency but each row is light.
 
-**Frontend (`web/app/admin/`):**
-- Intake queue: add claim/release controls and an "in review by X" indicator; add a reopen/correct action on `returned` packets; default queue view filters out `archived_at IS NOT NULL` rows with an explicit "show archived" toggle.
+This directly closes the standing audit-trigger gap (no trigger exists today on `intake_packets`) and gives each event type an explicit, queryable home rather than an ambiguous shared table.
 
-**Audit events:**
-- The `intake_packet_revisions` table serves as the audit record for payload-changing events; status-only transitions (claim/release/approve/return without payload change) should still log actor/timestamp/reason per §5f.10, either in the same table or a lighter-weight companion log — implementation detail, not an open architectural question.
+### 5.9 `approved → returned` — closed
 
-**Command Registry (`docs/GOLDPAN_COMMAND_REGISTRY_PHASE5.md`):**
-- Update `intake.review.return` implementation_status/notes for the source-state restriction.
-- Update `intake.packet.reopen`, `intake.packet.archive` from `missing` to buildable, with the specific behavior defined above.
-- Add two new registry entries not currently present: `intake.review.claim`, `intake.review.release`.
-- Leave `intake.packet.reject` as `missing` pending the Founder decision below.
+Per the Founder's instruction, this transition is treated as an implementation defect, not a feature to formally adopt. **`intake.review.return` is restricted to `in_review → returned` only** — `pending_review` and `approved` are both removed as valid source states (removing `pending_review` as a source is a further tightening beyond v2, made necessary by §5.5's rule that decisions are made from `in_review`, requiring a claim first). If a genuine need for reversing an already-approved packet is later identified, it must be proposed and approved as its own, separately governed, elevated action (e.g., a future `intake.review.reverse_approval` requiring admin role and mandatory reason) — not folded back into ordinary `return`.
 
-## 11. Founder decisions required (revised)
+### 5.10 `rejected` — adopted on its own merits
 
-1. **Confirm Model A (correct-in-place resubmission) over Model B (new row per revision).** No constraint change follows from Model A; a constraint redesign follows from Model B.
-2. **Confirm `superseded_by_packet_id` (relationship) over a `superseded` status value.**
-3. **Confirm excluding `draft` from Phase 5**, reserved for a future packet-authoring capability if one is ever built.
-4. **Confirm the minimal, non-locking `in_review` claim mechanism** (§5.4) is appropriate for Phase 5's scale, versus building fuller concurrency control now.
-5. **Confirm `archived_at` (attribute) over an `archived` status value.**
-6. **Decide on `rejected`/`intake.packet.reject`.** Not adopted by default in this revision; the registry's own placeholder (CMD000009) is the only evidence for it, which this record treats as insufficient to adopt unprompted. If the Founder wants a hard-terminal reject state, say so explicitly.
-7. **Resolve the standing `approved → returned` question from v1** — is it a bug to close, or an intentional feature? Still unconfirmed.
-8. **Confirm `intake.packet.reopen` is the correct name/semantics for the resubmission command**, or specify different intended behavior for that reserved name.
+v2 left this an open question because the only evidence was the registry's own placeholder (CMD000009). This revision evaluates it directly, independent of that placeholder:
 
-## 12. Risks, guardrails, validation criteria, revisit triggers
+**Distinction:** `returned` is a correctable packet that may re-enter review after a fix. `rejected` is a **terminal** determination that the packet is not actionable at all — not a data-quality problem to fix, but the wrong kind of submission entirely (e.g., wrong restaurant, spam/test data, duplicate of an already-ingested packet, policy violation). No amount of payload correction turns a rejected packet into a valid one; that operationally distinguishes it from `returned` in a way `returned` alone cannot represent, which is the real justification — not the existence of CMD000009.
+
+**If adopted (recommended):**
+- `in_review → rejected` only — same precondition as approve/return (must be claimed).
+- Reason is mandatory, not optional.
+- Requires an explicit confirmation step in the UI (distinct click/dialog from an ordinary return) given its terminality.
+- Logged to `intake_packet_events` (§5.8) with full reason.
+- A rejected packet can never reach `ingested`.
+- Reopening a rejected packet is not part of ordinary workflow — only through the same separately-governed exceptional action referenced in §5.1/§5.9 (`intake.packet.reopen`, still undefined by this decision).
+
+### 5.11 Archival — policy clarified, not prescribed
+
+Restated precisely, per instruction: **archival removes a resolved packet from default operational views but never deletes it or changes its processing outcome. Archival may be manual or policy-driven. No automatic archival schedule is approved by this decision.** `archived_at` (nullable) is the mechanism; when and by what policy it gets set is deliberately left open, to be decided operationally later, not implied here.
+
+## 6. Recommended canonical model (final, v3)
+
+```
+packet_status:  pending_review → in_review (claim)
+                in_review → pending_review (release)
+                in_review → returned (return; reason required)
+                returned → returned (payload update, via intake.packet.update — no status change)
+                returned → pending_review (resubmit)
+                in_review → approved (approve)
+                in_review → rejected (reject, if adopted; reason + confirmation required)
+                approved → ingested (system-set only, via commit_ingest)
+
+Attributes/relationships, not statuses:
+  claimed_by_user_id, claimed_by_display_name, claimed_at   — in_review ownership
+  superseded_by_packet_id                                   — deterministic, single-hop, canvass-chronology based
+  archived_at                                                — retention marker, policy undefined by this decision
+
+Append-only stores:
+  intake_packet_revisions   — payload snapshots (update events only)
+  intake_packet_events      — full lifecycle/claim event log
+```
+
+Five `packet_status` values if `rejected` is adopted (`pending_review`, `in_review`, `returned`, `approved`, `ingested`, `rejected` — six, correcting the count), four if not. `draft` remains excluded (v2's finding stands, not revisited here since it wasn't part of this correction round).
+
+## 7. Founder decisions required (shortened — true policy choices only)
+
+Mechanical/architectural corrections above (atomic claim implementation, stable user-id reference, two-store revision/event model, deterministic supersession algorithm, system-controlled ingestion) are treated as resolved by this revision and are not re-listed as open questions. What remains genuinely open:
+
+1. **Adopt `rejected` as a sixth status**, with the terminal, mandatory-reason, confirmation-gated semantics in §5.10 — yes/no.
+2. **Confirm `intake.packet.update` / `intake.packet.resubmit` as two new commands**, and confirm `intake.packet.reopen` (CMD000010) is left undefined and reserved for a future exceptional action rather than given any meaning by this decision.
+3. **Confirm `intake.packet.mark_ingested` is deprecated as an independent operator action** and folded into `commit_ingest`, retained only as a restricted admin reconciliation tool if at all.
+4. **Confirm the claim/decision precondition tightening**: `intake.review.return`, `.approve`, and `.reject` (if adopted) all require the packet to be `in_review` (claimed) first — closing `approved → returned` entirely rather than special-casing it.
+5. **Confirm the exact source of stable user identity** (`claimed_by_user_id`'s reference target) once the current authentication/user model is identified — this decision assumes such a model exists but does not have visibility into its exact shape from the files inspected.
+6. **Confirm no automatic archival schedule is being approved now** — archival policy (manual, scheduled, or both) is left for a later operational decision, not fixed here.
+
+## 8. Risks, guardrails, validation criteria, revisit triggers
 
 **Risks:**
-- The claim mechanism's `WHERE claimed_by IS NULL` guard is a check-then-set, not a database-level atomic lock; under true concurrent requests there's a narrow race window. Acceptable at Phase 5's volume; would need a proper `SELECT ... FOR UPDATE` or equivalent if review volume/concurrency grows materially.
-- Removing `approved` as a valid source state for `intake.review.return` could break an undocumented workflow if any current use relies on it — unverified, per v1's original note.
+- Supersession's out-of-order-ingestion recomputation (§5.6) touches more than one row per ingestion event — should be implemented as a single transaction to avoid a partially-updated chain if it fails midway.
+- Folding `mark_ingested` into `commit_ingest` (§5.7) removes a currently-working manual override; the restricted reconciliation-tool fallback must exist before the old path is removed, to avoid leaving no recovery mechanism for legitimate drift-correction cases.
 
 **Guardrails:**
-- No implementation proceeds until Founder decisions 1-8 above are made.
-- `intake.packet.reopen` must not allow a resubmitted packet to skip `pending_review`/`in_review` — it must re-enter the same review path as a first submission.
+- No implementation proceeds until Founder decisions 1-6 above are made.
+- `intake.packet.update` must refuse to run unless `packet_status = returned`, per §5.2's mutation-rights table exactly.
 
 **Validation criteria:**
-- Every `packet_status` value has at least one code path in and one code path out.
-- A returned packet can be corrected and resubmitted with the same `packet_id`, without touching the uniqueness constraint, and its full history is reconstructable from `intake_packet_revisions`.
-- `superseded_by_packet_id` is set automatically and correctly whenever a second packet for the same restaurant reaches `ingested`.
+- The claim `UPDATE ... WHERE ... RETURNING` pattern in §5.4 is used verbatim (or an equivalent single-statement conditional mutation) — no read-then-write claim implementation is acceptable.
+- Every packet's supersession chain (if any) resolves to exactly one predecessor and one successor at most, with no cycles, verifiable by a simple recursive query.
+- No code path sets `packet_status = ingested` except `commit_ingest`'s own success branch.
 
 **Revisit triggers:**
-- If claim contention becomes a real operational problem, revisit the concurrency model in §5.4.
-- If a genuine hard-reject use case emerges, revisit decision 6.
-- If Master OS grows in-app packet authoring, revisit decision 3.
+- If a real need for reversing an approved packet emerges, that becomes its own Decision Record (per §5.9), not a reopening of this one.
+- If the admin-only reconciliation fallback for `mark_ingested` is used with any regularity, that is itself a signal worth investigating — it would mean evidence-write failures are more common than assumed.
