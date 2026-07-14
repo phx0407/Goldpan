@@ -1,11 +1,14 @@
 # DEC000001 — Canonical Intake Packet State Machine
 
-**Status:** final draft — ready for Founder approval (v4.1 mechanical correction pass over v4)
+**Status:** approved — Founder approved
+**Approval date:** 2026-07-13
 **Decision basis:** architectural_requirement, compliance_or_risk_control
 **Decision dependencies:** none (foundational record)
 **Registry impact:** governs `intake.packet.*` and `intake.review.*` namespace commands (see §3, §5.1)
 
-**Revision note:** v4 is approved architecturally. This is a v4.1 mechanical correction pass only — no lifecycle, command, role, or evidence-boundary decision is reopened. Four corrections: (1) the event model now distinguishes `actor_type` (`user`/`system`/`pipeline`) and `actor_id` rather than requiring a user ID on system-generated events, aligned with the Blueprint's existing lifecycle-event actor standard; (2) the single-hop supersession chain rule is backed by an explicit enforcement mechanism (partial unique constraint), not just a descriptive statement; (3) archival eligibility is stated as an explicit two-value allow-list (`rejected`, `ingested`) rather than the vaguer "resolved packet" language; (4) a document-wide reference and terminology consistency pass — every miscited section reference to the `rejected` definition (§3's command table and §5.2's payload-mutation table both pointed to §5.6, the supersession section, instead of §5.10) is corrected, both places `claim`/`release` permissions were cited (§3's command table and §4's role table) are extended to include §5.5 where `release` is actually defined, and the canonical six-status count is reverified. Sections 1, 2, and 4 carry forward from v4 unchanged; §3 has two corrected section references (noted inline); §5.6, §5.8, and §5.11 are amended in place; §6-§8 carry forward with the corresponding cross-references and validation criteria updated to match.
+**Revision note:** v4 is approved architecturally. v4.1 was a mechanical correction pass only — no lifecycle, command, role, or evidence-boundary decision was reopened. Four corrections: (1) the event model now distinguishes `actor_type` (`user`/`system`/`pipeline`) and `actor_id` rather than requiring a user ID on system-generated events, aligned with the Blueprint's existing lifecycle-event actor standard; (2) the single-hop supersession chain rule is backed by an explicit enforcement mechanism (partial unique constraint), not just a descriptive statement; (3) archival eligibility is stated as an explicit two-value allow-list (`rejected`, `ingested`) rather than the vaguer "resolved packet" language; (4) a document-wide reference and terminology consistency pass — every miscited section reference to the `rejected` definition (§3's command table and §5.2's payload-mutation table both pointed to §5.6, the supersession section, instead of §5.10) is corrected, both places `claim`/`release` permissions were cited (§3's command table and §4's role table) are extended to include §5.5 where `release` is actually defined, and the canonical six-status count is reverified. Sections 1, 2, and 4 carry forward from v4 unchanged; §3 has two corrected section references (noted inline); §5.6, §5.8, and §5.11 are amended in place; §6-§8 carry forward with the corresponding cross-references and validation criteria updated to match.
+
+**Founder approval note:** approved subject to one non-substantive wording correction in §5.6's supersession section — the prior statement that canvass-date ties are broken by `submitted_at` is replaced with the precise structural basis for cycle-exclusion (every supersession link points from an earlier to a strictly later `canvass_date`, and the existing restaurant + canvass-date uniqueness rule already makes a tie-breaking rule unnecessary for the canonical chain). This is a wording correction only — it does not change §5.6's mechanism, the six canonical statuses, or any of the §7 Founder decisions, all of which are approved as drafted in v4.1.
 
 ---
 
@@ -122,7 +125,7 @@ Superseder determination uses **canonical restaurant identity and canvass chrono
 - **Chronology:** packet Q can supersede packet P only if `Q.canvass_date > P.canvass_date`, and both are `ingested`. Ingestion timestamp is not part of the comparison.
 - **Determinism / single-hop chaining:** each packet's `superseded_by_packet_id` points to exactly one packet — its immediate chronological successor by canvass_date among `ingested` packets for the same restaurant identity. Full supersession history is reconstructed by walking the chain, not by fanning one packet out to all future ones.
 - **Out-of-order ingestion:** the successor link is (re)computed at the moment any packet reaches `ingested`, in both directions, as described in v3 (unchanged mechanism).
-- **Self-reference and cycles:** a `CHECK` constraint enforces `superseded_by_packet_id != packet_id`. Cycles are structurally excluded because canvass_date supplies a strict total order (ties broken by `submitted_at`).
+- **Self-reference and cycles:** a `CHECK` constraint enforces `superseded_by_packet_id != packet_id`. Cycles are structurally excluded because every supersession link must point from an earlier `canvass_date` to a strictly later `canvass_date`. The existing uniqueness rule for restaurant and canvass date means a tie-breaking rule is not needed for the canonical supersession chain.
 
 **Single-hop enforcement, made explicit this revision (mechanical correction — the rule itself is unchanged from v4, only its enforcement mechanism is now stated):**
 - Each packet may point to **at most one** successor via `superseded_by_packet_id` — trivially true, since it is a single nullable column, not a set.
@@ -247,14 +250,16 @@ No `_display_name` field exists on any of these. Six `packet_status` values tota
 
 **Archival eligibility (reverified this revision, §5.11):** eligible only from `rejected` or `ingested`; not eligible from `pending_review`, `in_review`, `returned`, or `approved`.
 
-## 7. Founder decisions required (final — policy choices only; unchanged from v4, no new items added by this mechanical pass)
+## 7. Founder decisions — approved 2026-07-13 (all six items below approved as drafted; no item reopened by the §5.6 wording correction)
 
 1. **Approve the six canonical statuses:** `pending_review`, `in_review`, `returned`, `approved`, `rejected`, `ingested`.
 2. **Approve the discrete command model:** `intake.packet.edit_payload`, `intake.packet.resubmit`, `intake.review.claim`, `intake.review.release`, the existing `intake.review.approve`/`intake.review.return` commands (tightened per §5.9), `intake.packet.reject`, and `intake.packet.commit_ingest` as the sole ordinary path to `ingested`.
 3. **Approve reserving `intake.packet.reopen` (CMD000010) for a future exceptional, restricted workflow** — undefined and unbuilt by this decision.
 4. **Approve `superseded_by_packet_id` and `archived_at` as non-status attributes/relationships**, not statuses.
 5. **Approve the role boundary that Governance Reviewers do not edit Intake evidence** — only an Intake Specialist may call `intake.packet.edit_payload`, per §4 and §5.2.
-6. **Confirm the exact source of stable user identity** (`*_user_id`'s reference target) once the current authentication/user schema is inspected — this decision assumes such a model exists but does not have visibility into its exact shape from the files inspected.
+6. **Stable user identity — approved rule vs. deferred dependency:**
+   - **Approved architectural rule** (already established via §5.3, §5.8): every `*_user_id` field (`claimed_by_user_id`, `archived_by_user_id`, `actor_user_id`, and `actor_id` when `actor_type = user`) must reference a stable user identifier, never a display-name snapshot.
+   - **Deferred implementation dependency** (not yet resolved): the exact canonical user/auth table that `*_user_id` resolves to is unconfirmed — this decision assumes such a table exists but does not have visibility into its exact shape from the files inspected. This must be confirmed, by inspecting the current authentication/user schema, before implementing any command that writes a `*_user_id` field.
 
 ## 8. Risks, guardrails, validation criteria, revisit triggers
 
@@ -265,7 +270,7 @@ No `_display_name` field exists on any of these. Six `packet_status` values tota
 - Introducing `actor_type`/`actor_id` (§5.8, new this revision) means any existing code or mockup that assumed a single `actor_user_id` column on `intake_packet_events` must be updated before implementation; this is a pre-implementation correction, not a live migration risk, since no code has been built against this record yet.
 
 **Guardrails:**
-- No implementation proceeds until Founder decisions 1-6 above are made.
+- No implementation proceeds until Founder decisions 1-5 above are made, together with item 6's approved architectural rule. Any command implementation that writes a `*_user_id` field must additionally wait for item 6's deferred implementation dependency (confirmation of the canonical user/auth table) to be resolved.
 - `intake.packet.edit_payload` must refuse to run unless `packet_status = returned` **and** the caller holds the Intake Specialist role, per §5.2's mutation-rights table and §4's role table exactly.
 - No command in the `intake.review.*` namespace may write to `packet_data`, per §5.2.
 - Every row written to `intake_packet_events` must set both `actor_type` and `actor_id` — no row may carry a null `actor_type`, per §5.8.

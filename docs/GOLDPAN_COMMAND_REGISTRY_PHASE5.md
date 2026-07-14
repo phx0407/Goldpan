@@ -1,9 +1,10 @@
 # GoldPan™ Command Registry — Governing Specification, Phase 5 Inventory, Evidence Standard, and Registry Integration Model
 
-**Version:** 0.1
+**Version:** 0.2
 **Status:** Draft Architectural Standard
 **Companion to:** `GOLDPAN_MASTER_OS_BLUEPRINT.md`
 **Current scope:** Expanded Phase 5 — Intake OS
+**Governing decisions:** `DEC000001` (`docs/decisions/DEC000001_CANONICAL_INTAKE_PACKET_STATE_MACHINE.md`) — **approved 2026-07-13** — governs lifecycle-dependent states, permissions, evidence boundaries, and transition semantics for every `intake.packet.*`/`intake.review.*` command below. It does **not** automatically approve the existence or complete metadata (command type, evidence level, etc.) of every command in those namespaces — each command still requires its own valid registry status and evidence basis, per the Registry framework or an explicit Founder-approved decision. `DEC000002` (`docs/decisions/DEC000002_submission_state_machine.md`) — final draft v4.1, **not yet approved** — will govern `submission.*` commands once approved; those commands remain provisional pending that approval.
 **Primary objective:** Make routine GoldPan™ Master OS operations discoverable, understandable, and executable by trained nontechnical operators without requiring source code, terminal access, direct database access, API clients, or repeated Claude assistance.
 
 ---
@@ -350,38 +351,58 @@ It must **not** expand into full Phase 6 Governance implementation, Analytics, F
 
 ## 17. Phase 5 Command Inventory Summary
 
-| # | Registry ID | Command ID | Type | Status |
-|---|---|---|---|---|
-| 1 | CMD000001 | `intake.queue.view` | query | implemented |
-| 2 | CMD000002 | `intake.packet.view` | query | implemented |
-| 3 | CMD000003 | `intake.packet.submit` | mutation | implemented |
-| 4 | CMD000004 | `intake.packet.validate` | query | partial |
-| 5 | CMD000005 | `intake.review.approve` | approval | implemented |
-| 6 | CMD000006 | `intake.review.return` | approval | implemented |
-| 7 | CMD000007 | `intake.packet.mark_ingested` | mutation | implemented |
-| 8 | CMD000008 | `intake.packet.commit_ingest` | automated_job | missing |
-| 9 | CMD000009 | `intake.packet.reject` | approval | missing |
-| 10 | CMD000010 | `intake.packet.reopen` | mutation | missing |
-| 11 | CMD000011 | `intake.packet.archive` | mutation | missing |
-| 12 | CMD000012 | `intake.review_flag.view` | query | partial |
-| 13 | CMD000013 | `intake.review_flag.resolve` | mutation | missing |
-| 14 | CMD000014 | `intake.candidate_schema.view` | query | missing |
-| 15 | CMD000015 | `intake.send_to_governance` | workflow_trigger | missing |
-| 16 | CMD000016 | `restaurant.view` | query | implemented |
-| 17 | CMD000017 | `restaurant.intake.open` | navigation | partial |
-| 18 | CMD000018 | `restaurant.intake.start` | workflow_trigger | missing |
-| 19 | CMD000019 | `restaurant.lifecycle.publish` | mutation | implemented |
-| 20 | CMD000020 | `restaurant.lifecycle.unpublish` | mutation | implemented |
-| 21 | CMD000021 | `restaurant.lifecycle.advance_to_qa` | mutation | implemented |
-| 22 | CMD000022 | `restaurant.lifecycle.advance_to_verification` | mutation | implemented |
-| 23 | CMD000023 | `restaurant.lifecycle.recanvass` | mutation | implemented |
-| 24 | CMD000024 | `submission.restaurant_update.view` | query | missing |
-| 25 | CMD000025 | `submission.restaurant_update.review` | approval | missing |
-| 26 | CMD000026 | `submission.convert_to_intake` | workflow_trigger | missing |
-| 27 | CMD000027 | `governance.result.view` | query | missing |
-| 28 | CMD000028 | `governance.pipeline.run` | automated_job | missing |
-| 29 | CMD000029 | `knowledge.evidence.view` | query | partial |
-| 30 | CMD000030 | `audit.log.view` | query | missing |
+| # | Registry ID | Command ID | Type | Registry status | Implementation status | Notes |
+|---|---|---|---|---|---|---|
+| 1 | CMD000001 | `intake.queue.view` | query | approved | implemented | |
+| 2 | CMD000002 | `intake.packet.view` | query | approved | implemented | |
+| 3 | CMD000003 | `intake.packet.submit` | mutation | approved | implemented | |
+| 4 | CMD000004 | `intake.packet.validate` | query | approved | partial | |
+| 5 | CMD000005 | `intake.review.approve` | approval | approved | implemented | See §18 note — source-state gating drifts from DEC000001 §5.9. |
+| 6 | CMD000006 | `intake.review.return` | approval | approved | implemented | See §18 note — source-state gating drifts from DEC000001 §5.9. |
+| 7 | CMD000007 | `intake.packet.mark_ingested` | mutation | approved | implemented | Legacy path only — see §18 note. Planned deprecation once `commit_ingest` (CMD000008) is implemented, per DEC000001 §5.7. |
+| 8 | CMD000008 | `intake.packet.commit_ingest` | automated_job | approved | missing | Type restored to `automated_job` (v0.1 original) — DEC000001 §5.7 does not redefine this command's type, only its role as the sole ordinary path to `ingested`. Once invoked it performs the durable write and status transition without continuous human interaction, matching the `automated_job` definition in §6; it was not reclassified as `mutation` by any Founder decision. |
+| 9 | CMD000009 | `intake.packet.reject` | approval | approved | missing | Unblocked — DEC000001 §5.10 defines it precisely. |
+| 10 | CMD000010 | `intake.packet.reopen` | restricted_administrative_action | draft | missing | Reserved for a future exceptional, restricted workflow — undefined and unbuilt by this decision; not to be built as a routine command. Per DEC000001 §5.1, §7 item 3. |
+| 11 | CMD000011 | `intake.packet.archive` | mutation | approved | missing | Preconditions per DEC000001 §5.11 explicit allow-list. |
+| 12 | CMD000012 | `intake.review_flag.view` | query | draft | partial | Unchanged. |
+| 13 | CMD000013 | `intake.review_flag.resolve` | mutation | draft | missing | Unchanged. |
+| 14 | CMD000014 | `intake.candidate_schema.view` | query | draft | missing | Unchanged. |
+| 15 | CMD000015 | `intake.send_to_governance` | workflow_trigger | draft | missing | Unchanged. |
+| 16 | CMD000016 | `restaurant.view` | query | approved | implemented | |
+| 17 | CMD000017 | `restaurant.intake.open` | navigation | approved | partial | |
+| 18 | CMD000018 | `restaurant.intake.start` | workflow_trigger | draft | missing | |
+| 19 | CMD000019 | `restaurant.lifecycle.publish` | mutation | approved | implemented | |
+| 20 | CMD000020 | `restaurant.lifecycle.unpublish` | mutation | approved | implemented | |
+| 21 | CMD000021 | `restaurant.lifecycle.advance_to_qa` | mutation | approved | implemented | |
+| 22 | CMD000022 | `restaurant.lifecycle.advance_to_verification` | mutation | approved | implemented | |
+| 23 | CMD000023 | `restaurant.lifecycle.recanvass` | mutation | approved | implemented | |
+| 24 | CMD000024 | `submission.restaurant_update.view` | query | draft | missing | Pending DEC000002 approval. |
+| 25 | CMD000025 | `submission.restaurant_update.review` | approval | draft | missing | Pending DEC000002 approval. DEC000002 §5.5 proposes splitting this into `.claim`/`.release`/`.return`/`.approve`/`.reject` — see CMD000035-CMD000039. |
+| 26 | CMD000026 | `submission.convert_to_intake` | workflow_trigger | draft | missing | Pending DEC000002 approval. Preconditions tightened per DEC000002 §5.5. |
+| 27 | CMD000027 | `governance.result.view` | query | draft | missing | Unchanged. |
+| 28 | CMD000028 | `governance.pipeline.run` | automated_job | draft | missing | Unchanged. Type restored to `automated_job` (v0.1 original) — DEC000001 governs the Intake namespace only and does not authorize changes to Governance command types; the earlier `workflow_trigger` value in this table was an incidental drift, not a decision. |
+| 29 | CMD000029 | `knowledge.evidence.view` | query | draft | partial | Unchanged. |
+| 30 | CMD000030 | `audit.log.view` | query | draft | missing | Unchanged. |
+| 31 | CMD000031 | `intake.review.claim` | mutation | approved | missing | New this revision — DEC000001 §5.3-§5.5. |
+| 32 | CMD000032 | `intake.review.release` | mutation | approved | missing | New this revision — DEC000001 §5.5. |
+| 33 | CMD000033 | `intake.packet.edit_payload` | mutation | approved | missing | New this revision; Intake Specialist role only — DEC000001 §5.1-§5.2. |
+| 34 | CMD000034 | `intake.packet.resubmit` | mutation | approved | missing | New this revision; Intake Specialist role only — DEC000001 §5.1. |
+| 35 | CMD000035 | `submission.restaurant_update.claim` | mutation | draft | missing | Pending DEC000002 approval (§5.6). Replaces part of former CMD000025. |
+| 36 | CMD000036 | `submission.restaurant_update.release` | mutation | draft | missing | Pending DEC000002 approval (§5.6). Replaces part of former CMD000025. |
+| 37 | CMD000037 | `submission.restaurant_update.return` | approval | draft | missing | Pending DEC000002 approval (§5.5). Replaces part of former CMD000025; split out from a compound `.return`/`.approve`/`.reject` entry this revision. |
+| 38 | CMD000038 | `submission.restaurant_update.approve` | approval | draft | missing | Pending DEC000002 approval (§5.5). Replaces part of former CMD000025; split out from a compound `.return`/`.approve`/`.reject` entry this revision. |
+| 39 | CMD000039 | `submission.restaurant_update.reject` | approval | draft | missing | Pending DEC000002 approval (§5.5). Replaces part of former CMD000025; split out from a compound `.return`/`.approve`/`.reject` entry this revision. |
+| 40 | CMD000040 | `submission.restaurant_update.resubmit` | mutation | draft | missing | Pending DEC000002 approval (§5.7). Newly formalized in DEC000002 v4.1. Renumbered from CMD000038 this revision. |
+| 41 | CMD000041 | `submission.route_to_identity_review` | workflow_trigger | draft | missing | Pending DEC000002 approval (§5.5). New. Renumbered from CMD000039 this revision. |
+| 42 | CMD000042 | `submission.escalate_exception` | workflow_trigger | draft | missing | Pending DEC000002 approval (§5.11). New; target entity unconfirmed. Renumbered from CMD000040 this revision. |
+
+**Registry-status legend note:** rows marked `draft` with a "Pending DEC000002 approval" note are listed for completeness and are **not** approved registry entries — they exist so the inventory stays traceable once DEC000002 is approved. No `submission.*` command changes registry status until DEC000002 itself is approved.
+
+**Approval-authority note (namespace governance is not the same as command approval):** DEC000001 governs the Intake Packet lifecycle, permissions, evidence boundaries, and transition semantics — it does not by itself approve every command in the `intake.*` namespace. `approved` rows in this table rest on two distinct bases, and neither is conflated with the other:
+- **CMD000001-CMD000004, CMD000016-CMD000023** (query/navigation/mutation commands with no open lifecycle-state or permission question) are `approved` on the Registry framework's own basis — already implemented, in production use, and not subject to any disputed policy choice. Their approval predates and is independent of DEC000001.
+- **CMD000005-CMD000011, CMD000031-CMD000034** are `approved` specifically because DEC000001 §7 makes an explicit Founder decision reaching each one's lifecycle dependency, permission boundary, or command model (items 1-5, approved 2026-07-13) — see each row's Notes or full §20 record for the specific DEC000001 citation. CMD000010 remains `draft` despite being in this set, since DEC000001 §7 item 3 explicitly reserves it rather than approving it.
+
+No row in this table is marked `approved` solely because its namespace is `intake.*`; each has its own citation above.
 
 ---
 
@@ -402,14 +423,17 @@ Implementation: `POST /admin/intake/submit` → `submit_packet()` in `api/router
 **CMD000005 — Approve Intake Packet**
 `command_id: intake.review.approve` · `owning_os: Intake OS` · `command_type: approval` · `implementation_status: implemented` · `evidence_level: E1`
 Implementation: `POST /admin/intake/{packet_id}/approve` → `approve_packet()` in `api/routers/intake.py`. Sets packet status to `approved`, sets reviewed timestamp, clears return reason, blocks approval after ingestion. UI gating currently permits approval from `pending_review` or `returned`.
+**§18 note — source-state gating drift (DEC000001 §5.9, §3):** DEC000001 requires `intake.review.approve` to be invoked from `in_review` only, and only by the packet's current claimant or an admin — approval must follow a claim (§5.3-§5.5), not be callable directly from `pending_review` or `returned`. The live implementation's gating (`pending_review` or `returned`) predates the claim/release model and does not yet enforce this. This is a known drift between the approved decision and the current build, not a new defect — it must be closed when `intake.review.claim`/`.release` (CMD000031/CMD000032) are implemented, at which point `approve_packet()`'s precondition should be tightened to `in_review` only, per §5.9.
 
 **CMD000006 — Return Intake Packet**
 `command_id: intake.review.return` · `owning_os: Intake OS` · `command_type: approval` · `implementation_status: implemented` · `evidence_level: E1`
 Implementation: `POST /admin/intake/{packet_id}/return` → `return_packet()` in `api/routers/intake.py`. Requires a reason; optional reviewer notes. Blocked after ingestion.
+**§18 note — source-state gating drift (DEC000001 §5.9, §3):** DEC000001 restricts `intake.review.return` to `in_review → returned` only, excluding both `pending_review` and `approved` as valid sources. The live implementation currently blocks only on `ingested` and does not yet enforce the `in_review`-only precondition. Same drift and same remediation path as CMD000005 above — close this when the claim/release commands land.
 
 **CMD000007 — Mark Intake Packet Ingested**
-`command_id: intake.packet.mark_ingested` · `owning_os: Intake OS` · `command_type: mutation` · `implementation_status: implemented` · `evidence_level: E1`
-Implementation: `POST /admin/intake/{packet_id}/ingest` → `mark_ingested()` in `api/routers/intake.py`. Requires packet status `approved`, sets status to `ingested`, records ingestion timestamp. **Important:** this command currently marks the packet as ingested but does not perform the actual evidence write — the real ingestion operation remains separate and missing from Master OS (see CMD000008).
+`command_id: intake.packet.mark_ingested` · `owning_os: Intake OS` · `command_type: mutation` · `registry_status: approved` · `implementation_status: implemented` · `evidence_level: E1`
+Implementation: `POST /admin/intake/{packet_id}/ingest` → `mark_ingested()` in `api/routers/intake.py`. Requires packet status `approved`, sets status to `ingested`, records ingestion timestamp. Legacy path only. **Important:** this command currently marks the packet as ingested but does not perform the actual evidence write — the real ingestion operation remains separate and missing from Master OS (see CMD000008).
+**§18 note — planned deprecation (DEC000001 §5.7):** `intake.packet.commit_ingest` (CMD000008) becomes the sole ordinary path to `ingested` — it performs the durable write and, only on confirmed success, sets `packet_status = ingested` atomically as its own last step. Once CMD000008 is implemented, `mark_ingested` should be retained only as a restricted, reason-required reconciliation tool for correcting drift between recorded status and actual evidence state — not exposed as a routine operator command, and not usable by a Governance Reviewer as a substitute for `commit_ingest`. Registry status remains plain `approved` for now — the deprecation is approved in principle but not yet executed, since the legacy path remains the only working ingestion trigger until CMD000008 ships. It will move to `deprecated` once CMD000008 is implemented and the reconciliation-only restriction is enforced.
 
 **CMD000016 — View Restaurant**
 `command_id: restaurant.view` · `owning_os: Restaurant Operations OS` · `command_type: query` · `implementation_status: implemented` · `evidence_level: E1`
@@ -444,14 +468,14 @@ Evidence and dish information is visible indirectly through the Restaurant Maste
 
 **CMD000008 — Commit Intake Evidence** (`intake.packet.commit_ingest`)
 Purpose: perform the actual durable write of approved packet evidence. Current reality: `ingest_packet.py --commit` writes packet data to Google Sheets; no API or Master OS UI exposes this operation. Must remain distinct from `intake.packet.mark_ingested`, since marking a status is not the same as writing evidence.
-`implementation_status: missing` · `evidence_level: E1` (for current CLI existence) / `E2` (for Blueprint-required ingestion flow)
+`command_type: automated_job` (v0.1 original, unchanged by DEC000001 — see §17 Notes) · `implementation_status: missing` · `evidence_level: E1` (for current CLI existence) / `E2` (for Blueprint-required ingestion flow)
 
 **CMD000009 — Reject Intake Packet**
-Blueprint-defined, but no handler or database-supported state currently exists. Blocked by the unresolved Intake Packet state-machine conflict (§22).
-`implementation_status: missing` · `evidence_level: E2`
+Blueprint-defined, but no handler or database-supported state currently exists. No longer blocked by an unresolved state-machine conflict — DEC000001 §5.10 now defines `rejected` precisely: a terminal review determination that the record is fundamentally invalid or inappropriate as an Intake Packet (wrong restaurant, duplicate/test packet, unsupported source package, policy-invalid submission, packet created in error), distinct from the correctable `returned` state. Mechanism per §5.10: `in_review → rejected` only (must be claimed first, same precondition as approve/return); reason mandatory; explicit UI confirmation required given terminality; logged to `intake_packet_events` (§5.8) with full reason; payload becomes immutable; no ingestion possible; reopening a rejected packet is out of scope for this command and remains reserved to a future, separately-decided exceptional workflow (see CMD000010).
+`implementation_status: missing` · `evidence_level: E2` (Blueprint requirement) / now backed by DEC000001 §5.10 for the precise definition
 
 **CMD000010 — Reopen Intake Packet**
-No endpoint or supported lifecycle state currently exists.
+No endpoint or supported lifecycle state currently exists. **Reserved and undefined per DEC000001 §5.1 and §7 item 3 — not to be built as a routine command.** DEC000001 explicitly declines to repurpose `reopen` as the ordinary return-and-fix mechanism (that role belongs to `intake.packet.edit_payload` + `intake.packet.resubmit`, CMD000033/CMD000034). `reopen` is reserved for a rarer, future, exceptional case — reactivating a packet already in a terminal or closed state (`ingested`, `rejected`, `archived`) for an elevated correction outside the ordinary review loop. This decision gives it no mechanism, preconditions, or resulting state; it must not be implemented, and CMD000010's registry entry must not be marked buildable, until a separate Decision Record defines it.
 `implementation_status: missing` · `evidence_level: E2`
 
 **CMD000011 — Archive Intake Packet**
@@ -474,6 +498,37 @@ Blueprint §3.4 lists "Send to Governance." No handler, queue, API, or UI curren
 Blueprint-defined in Restaurant Operations and Business Development. No route or UI currently starts Intake from a selected restaurant or partner record. Packets originate from the standalone intake submission screen.
 `implementation_status: missing` · `evidence_level: E2`
 
+**CMD000031 — Claim Intake Packet for Review**
+`command_id: intake.review.claim` · `owning_os: Intake OS` · `command_type: mutation` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E2`
+`allowed_roles: Governance Reviewer` · `allowed_from_states: pending_review` · `resulting_state: in_review`
+New this revision — DEC000001 §5.3-§5.5. Purpose: establishes exclusive review ownership before a decision command (`approve`/`return`/`reject`) may be invoked. Must be implemented as a single conditional update, not a read-then-write — per DEC000001 §5.4, the canonical form is:
+```sql
+UPDATE operations.intake_packets
+SET packet_status = 'in_review', claimed_by_user_id = :acting_user_id, claimed_at = now()
+WHERE packet_id = :packet_id AND packet_status = 'pending_review' AND claimed_by_user_id IS NULL
+RETURNING packet_id;
+```
+A zero-row result means the claim failed (already claimed, or no longer `pending_review`) and must be reported to the caller as an explicit failure, not a false success. Sets `claimed_by_user_id` (stable user ID only, no display-name snapshot, per §5.3) and `claimed_at`. Emits a `claim` event (`actor_type: user`) to `intake_packet_events`, per §5.8.
+`audit_required: true` · `reason_required: false` · `decision_dependencies: DEC000001`
+
+**CMD000032 — Release Claimed Intake Packet**
+`command_id: intake.review.release` · `owning_os: Intake OS` · `command_type: mutation` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E2`
+`allowed_roles: Governance Reviewer (self-release); any role authorized for administrative claim override (admin-override release)` · `allowed_from_states: in_review` · `resulting_state: pending_review`
+New this revision — DEC000001 §5.5. Purpose: returns a claimed packet to the unclaimed pool without recording a review decision. Clears `claimed_by_user_id`/`claimed_at`. Self-release by the current claimant requires no reason. Admin-override release **requires a reason**, logged distinctly from an ordinary self-release, per DEC000001 §5.5 — the permission is designed against the Blueprint's future role model (any role authorized for administrative claim override), not hard-coded to the current admin-only implementation. Emits a `release` event (`actor_type: user`, `reason` populated only for override) to `intake_packet_events`, per §5.8.
+`audit_required: true` · `reason_required: conditionally (required for admin-override release only)` · `decision_dependencies: DEC000001`
+
+**CMD000033 — Edit Intake Packet Payload**
+`command_id: intake.packet.edit_payload` · `owning_os: Intake OS` · `command_type: mutation` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E2`
+`allowed_roles: Intake Specialist only — a Governance Reviewer may not call this command under any circumstance (DEC000001 §4, §5.2)` · `allowed_from_states: returned` · `resulting_state: returned (unchanged — this is not a lifecycle transition)`
+New this revision; Intake Specialist role only — DEC000001 §5.1-§5.2. Purpose: edits `packet_data` while `packet_status = returned`, replacing the earlier `intake.packet.update` naming from v3 with a name precise about what it mutates (payload, not packet metadata generally). Every payload table in DEC000001 §5.2 gates this command to `returned` only — `pending_review`, `in_review`, `approved`, `ingested`, and `rejected` are all read-only/immutable to this command. Writes a payload revision record to `operations.intake_packet_revisions` (`revision_id`, `packet_id`, `prior_payload jsonb`, `actor_user_id`, `reason`, `created_at`) — always human-initiated, per §5.8. The packet-row update and the revision-table insert must occur in one transaction where practical, so a payload change is never recorded without its corresponding revision snapshot, or vice versa.
+`audit_required: true` · `reason_required: true` · `decision_dependencies: DEC000001` · `related_tables: operations.intake_packets, operations.intake_packet_revisions`
+
+**CMD000034 — Resubmit Intake Packet**
+`command_id: intake.packet.resubmit` · `owning_os: Intake OS` · `command_type: mutation` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E2`
+`allowed_roles: Intake Specialist only` · `allowed_from_states: returned` · `resulting_state: pending_review`
+New this revision; Intake Specialist role only — DEC000001 §5.1. Purpose: transitions `returned → pending_review` to re-queue a corrected packet for review. Does not touch `packet_data` — kept as a separate command from `edit_payload` (CMD000033) so a payload edit can be saved without immediately re-queuing, and so the event log distinguishes "what changed" from "state moved," per DEC000001 §5.1. Emits a `resubmit` event (`actor_type: user`) to `intake_packet_events`, per §5.8.
+`audit_required: true` · `reason_required: false` · `decision_dependencies: DEC000001`
+
 **CMD000024 — View Restaurant Update Submission**
 The database schema exists. No mounted router or UI exists.
 `implementation_status: missing` · `evidence_level: E1` (schema) / `E2` (required workflow)
@@ -481,6 +536,7 @@ The database schema exists. No mounted router or UI exists.
 **CMD000025 — Review Restaurant Update Submission**
 The database schema supports submission states. No review handler or UI exists.
 `implementation_status: missing` · `evidence_level: E1` (schema) / `E2` (workflow)
+**§20 note — proposed discrete-command replacement (DEC000002 §5.5, not yet approved):** DEC000002 proposes splitting this single review command into five discrete commands — `.claim`, `.release`, `.return`, `.approve`, `.reject` (CMD000035-CMD000039) — mirroring the Intake OS claim/decision model in DEC000001. This is a proposal only; CMD000025 remains a `draft` registry entry pending DEC000002 approval and is not marked `superseded`, since no replacement command has been approved yet.
 
 **CMD000026 — Convert Submission to Intake**
 The schema contains a `resulting_intake_session` column, but no handler connects submission approval to Intake packet creation.
@@ -515,10 +571,8 @@ Explicitly outside the Phase 5 implementation scope:
 
 These are architecture decisions, not ordinary coding tasks. Each should become a Decision Registry record.
 
-**DECISION REQUIRED — Canonical Intake Packet State Machine**
-Blueprint §5b and §5i describe different Intake Packet lifecycles. The database currently supports only: `pending_review`, `returned`, `approved`, `ingested`. The following states appear in the Blueprint but not in the active constraint: `draft`, `in_progress`, `submitted`, `in_review`, `rejected`, `archived`, `superseded`.
-Required Decision Record — Title: *Canonical Intake Packet State Machine* — Suggested ID: **DEC000001**.
-No command depending on disputed states should publish definitive `allowed_from_states` or `resulting_state` values until this decision is approved.
+**RESOLVED — Canonical Intake Packet State Machine (see DEC000001)**
+Blueprint §5b and §5i previously described different Intake Packet lifecycles, and the database supported only a 4-state subset (`pending_review`, `returned`, `approved`, `ingested`) against Blueprint language listing up to eight (`draft`, `in_progress`, `submitted`, `in_review`, `rejected`, `archived`, `superseded`, plus the shared ones). **DEC000001 (`docs/decisions/DEC000001_CANONICAL_INTAKE_PACKET_STATE_MACHINE.md`) was Founder-approved 2026-07-13** and resolves this conflict. The canonical model is six `packet_status` values — `pending_review`, `in_review`, `returned`, `approved`, `rejected`, `ingested` — with `superseded_by_packet_id` and `archived_at` reclassified as non-status attributes/relationships rather than lifecycle states (DEC000001 §6, §7 item 4). `draft` is excluded from the canonical model, carried forward from an earlier finding not revisited by this decision. Commands may now publish definitive `allowed_from_states`/`resulting_state` values against this model — see §17's updated inventory and the CMD000031-CMD000034 full records in §20 above. The Blueprint §5b and §5i Intake Packet sections were updated in the same documentation propagation pass to reference and reflect DEC000001. DEC000001 remains the governing authority if later wording drift occurs.
 
 **DECISION REQUIRED — Canonical Submission State Machine**
 Blueprint §5b, Blueprint §5i, and migration 011 contain different Submission lifecycle definitions.

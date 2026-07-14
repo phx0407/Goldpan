@@ -1,7 +1,7 @@
 # Phase 5 — Founder Approval Required
 
-**Covers:** `REGISTRY_FRAMEWORK_APPROVAL_MEMO.md`, `DEC000001_intake_packet_state_machine.md`, `DEC000002_submission_state_machine.md`
-**Purpose:** List the exact choices that need a Founder decision before any implementation work begins. Nothing below has been implemented — no DB, API, UI, Blueprint, or registry file has been modified as part of this round.
+**Covers:** `REGISTRY_FRAMEWORK_APPROVAL_MEMO.md`, `DEC000001_CANONICAL_INTAKE_PACKET_STATE_MACHINE.md` (approved), `DEC000002_submission_state_machine.md` (pending)
+**Purpose:** List the exact choices that need a Founder decision before any implementation work begins. DEC000001 is now approved (2026-07-13) — its documentation has been updated accordingly (`docs/GOLDPAN_COMMAND_REGISTRY_PHASE5.md`, `docs/GOLDPAN_MASTER_OS_BLUEPRINT.md`); no DB, API, or UI has been modified. DEC000002 remains open — nothing below it has been implemented.
 
 ---
 
@@ -11,16 +11,18 @@
 2. **Decision-basis categories.** No action needed yet — provisional approval converts to full approval automatically once DEC000001/DEC000002 are themselves approved, per the memo's own terms.
 3. **Namespace ownership-transfer footnote.** Optional, non-blocking — approve or skip; can ride along with the next registry edit either way.
 
-## From DEC000001 (Intake Packet) — final draft (v4.1), ready for approval
+## From DEC000001 (Intake Packet) — APPROVED 2026-07-13
 
-v4 was approved architecturally; v4.1 is a mechanical-only correction pass (system-generated event actors split into `actor_type`/`actor_id`, single-hop supersession enforced via a partial unique constraint, archival eligibility stated as an explicit `rejected`/`ingested` allow-list, and several miscited section references corrected) that changes no policy choice. The six Founder decisions below (DEC000001 §7) are unchanged from v4 and remain the complete, final list — nothing further is deferred to a future revision of this record.
+Founder-approved subject to one non-substantive wording correction in §5.6 (canvass-date tie-breaking language replaced with the precise structural cycle-exclusion basis — see the Decision Record's Founder approval note). No policy choice changed by that correction. All six items below are approved as drafted in v4.1 (system-generated event actors split into `actor_type`/`actor_id`, single-hop supersession enforced via a partial unique constraint, archival eligibility stated as an explicit `rejected`/`ingested` allow-list, several miscited section references corrected). Document propagation from this approval: `docs/GOLDPAN_COMMAND_REGISTRY_PHASE5.md` and `docs/GOLDPAN_MASTER_OS_BLUEPRINT.md` have been updated to reference DEC000001 and adopt its canonical model (see §22 removal and Intake Packet lifecycle table update, respectively). No DB/API/UI change has been made.
 
-4. **Approve the six canonical statuses:** `pending_review`, `in_review`, `returned`, `approved`, `rejected`, `ingested`.
-5. **Approve the discrete command model:** `intake.packet.edit_payload`, `intake.packet.resubmit`, `intake.review.claim`, `intake.review.release`, the existing `intake.review.approve`/`intake.review.return` (tightened to require `in_review`), `intake.packet.reject`, and `intake.packet.commit_ingest` as the sole ordinary path to `ingested`.
-6. **Approve reserving `intake.packet.reopen` (CMD000010) for a future exceptional, restricted workflow** — undefined and unbuilt by this decision.
-7. **Approve `superseded_by_packet_id` and `archived_at` as non-status attributes/relationships**, not statuses — and confirm no routine `intake.packet.supersede` command is added (supersession stays system-derived, per DEC000001 §5.6).
-8. **Approve the role boundary that Governance Reviewers do not edit Intake evidence** — only an Intake Specialist may call `intake.packet.edit_payload` (DEC000001 §4, §5.2).
-9. **Confirm the exact source of stable user identity** for `*_user_id` fields once the current authentication/user schema is identified — this decision assumes one exists but doesn't have visibility into its exact shape. Shared with DEC000002 decision 13.
+4. **Approved — the six canonical statuses:** `pending_review`, `in_review`, `returned`, `approved`, `rejected`, `ingested`.
+5. **Approved — the discrete command model:** `intake.packet.edit_payload`, `intake.packet.resubmit`, `intake.review.claim`, `intake.review.release`, the existing `intake.review.approve`/`intake.review.return` (tightened to require `in_review`), `intake.packet.reject`, and `intake.packet.commit_ingest` as the sole ordinary path to `ingested`.
+6. **Approved — reserving `intake.packet.reopen` (CMD000010) for a future exceptional, restricted workflow** — undefined and unbuilt by this decision.
+7. **Approved — `superseded_by_packet_id` and `archived_at` as non-status attributes/relationships**, not statuses — and confirmed no routine `intake.packet.supersede` command is added (supersession stays system-derived, per DEC000001 §5.6).
+8. **Approved — the role boundary that Governance Reviewers do not edit Intake evidence** — only an Intake Specialist may call `intake.packet.edit_payload` (DEC000001 §4, §5.2).
+9. **Stable user identity — approved rule vs. deferred dependency:**
+   - **Approved architectural rule** (already established via DEC000001 §5.3, §5.8): every `*_user_id` field must reference a stable user identifier, never a display-name snapshot.
+   - **Still open — deferred implementation dependency:** the exact canonical user/auth table that `*_user_id` resolves to, once the current authentication/user schema is identified — this decision assumes one exists but doesn't have visibility into its exact shape. Shared with DEC000002 decision 17 (renumbered in DEC000002 v4.1). This item does not block registry/Blueprint documentation updates, only the eventual implementation of `*_user_id` columns.
 
 ## From DEC000002 (Restaurant Update Submission) — final draft (v4.1), ready for approval
 
@@ -38,8 +40,8 @@ v4 was approved architecturally; v4.1 is a mechanical-and-integrity correction p
 
 ## Sequencing note (not a decision, just scope framing)
 
-Both records are now at v4.1 and, per their own revision notes, ready for Founder approval — all mechanical and integrity corrections are resolved in both, leaving only the true policy choices in decisions #4-9 (DEC000001) and #10-18 (DEC000002) above. Decision #9/#17 (stable user-identity source) is shared across both records and has the widest downstream blast radius, since every claim/archival actor field in both decisions depends on it. DEC000002's remaining risk is concentrated in #12 (exception-escalation routes to a Governance OS workflow not yet designed) and #16 (downstream-link storage model choice, now with per-column build-readiness labeled), since v4.1 additionally resolved the resubmission-chain cycle-prevention gap, the one-downstream-object contradiction, and the FK-maturity ambiguity mechanically. DEC000002 still has zero live API/UI to break — per its migration-risk statement, this is "low live-application risk based on the inspected API and UI, subject to verifying existing rows, scripts, RLS policies, reports, and any manual consumers" not visible in this codebase inspection — not "zero risk" as v1 overstated. If the Founder wants to approve one record ahead of the other, DEC000002 is still the lower-risk one to greenlight first since no code depends on it yet.
+**DEC000001 is now approved (2026-07-13);** DEC000002 remains at v4.1, ready for Founder approval but not yet approved. DEC000001's approval unblocked documentation propagation only (Command Registry and Blueprint updates, below) — no DB, API, or UI work begins from this alone; that still requires the separate build-phase decisions this record does not make. Decision #9 (DEC000001, resolved as "still open, non-blocking for documentation") and #17 (DEC000002, stable user-identity source) remain the shared open item with the widest downstream blast radius, since every claim/archival actor field in both decisions depends on it. DEC000002's remaining risk is concentrated in #12 (exception-escalation routes to a Governance OS workflow not yet designed) and #16 (downstream-link storage model choice, now with per-column build-readiness labeled). DEC000002 still has zero live API/UI to break — per its migration-risk statement, this is "low live-application risk based on the inspected API and UI, subject to verifying existing rows, scripts, RLS policies, reports, and any manual consumers" not visible in this codebase inspection — not "zero risk" as v1 overstated.
 
 ---
 
-No further action will be taken — no migration written, no endpoint changed, no UI touched, no registry status flipped to `approved` — until the choices above are resolved.
+No database, API, or UI change has been made under either record. DEC000001's approval has been propagated into governing documentation only (Command Registry, Blueprint) — no migration written, no endpoint changed, no UI touched. DEC000002 awaits Founder approval before any documentation or implementation propagation begins.
