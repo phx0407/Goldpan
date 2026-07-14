@@ -11,16 +11,16 @@
 2. **Decision-basis categories.** No action needed yet — provisional approval converts to full approval automatically once DEC000001/DEC000002 are themselves approved, per the memo's own terms.
 3. **Namespace ownership-transfer footnote.** Optional, non-blocking — approve or skip; can ride along with the next registry edit either way.
 
-## From DEC000001 (Intake Packet) — revised in v3
+## From DEC000001 (Intake Packet) — revised in v4, ready for approval
 
-v3 resolved most of v2's open questions mechanically (atomic claim implementation, stable user-id reference, two-store revision/event model, deterministic supersession, system-controlled ingestion) rather than leaving them as Founder choices. What remains genuinely open:
+v4 is a final targeted-refinement pass over v3 (display-name snapshots removed from all actor fields, `intake.packet.update` renamed to `intake.packet.edit_payload`, an explicit reviewer/submitter role boundary added, supersession confirmed as system-derived with no routine command, `rejected` given a sharpened definition). The six Founder decisions below (DEC000001 §7) are the complete, final list — nothing further is deferred to a future revision of this record.
 
-4. **Adopt `rejected` as a sixth `packet_status`**, terminal, mandatory-reason, confirmation-gated (§5.10 of DEC000001) — yes/no. No longer justified merely because the registry placeholder (CMD000009) exists; justified on its own operational grounds (terminally-invalid vs. correctable) — confirm this reasoning is acceptable.
-5. **Confirm the two new commands `intake.packet.update` (payload correction while `returned`) and `intake.packet.resubmit` (`returned → pending_review`)**, and confirm `intake.packet.reopen` (CMD000010) is left undefined/reserved for a future exceptional action rather than repurposed as the resubmission mechanism (correcting v2's assumption).
-6. **Confirm `intake.packet.mark_ingested` is deprecated as an independent operator action**, folded into `intake.packet.commit_ingest`, and retained (if at all) only as a restricted, reason-required admin reconciliation tool.
-7. **Confirm the tightened precondition: `intake.review.return`, `.approve`, and `.reject` (if adopted) all require the packet to be `in_review` (claimed) first.** This fully closes `approved → returned` (and also removes `pending_review` as a direct source for `.return`) rather than treating it as a special case.
-8. **Confirm the exact source of stable user identity** for `claimed_by_user_id` once the current authentication/user model is identified — this decision assumes one exists but doesn't have visibility into its exact shape.
-9. **Confirm no automatic archival schedule is being approved now** — archival policy (manual, scheduled, or both) is deliberately left open for a later operational decision.
+4. **Approve the six canonical statuses:** `pending_review`, `in_review`, `returned`, `approved`, `rejected`, `ingested`.
+5. **Approve the discrete command model:** `intake.packet.edit_payload`, `intake.packet.resubmit`, `intake.review.claim`, `intake.review.release`, the existing `intake.review.approve`/`intake.review.return` (tightened to require `in_review`), `intake.packet.reject`, and `intake.packet.commit_ingest` as the sole ordinary path to `ingested`.
+6. **Approve reserving `intake.packet.reopen` (CMD000010) for a future exceptional, restricted workflow** — undefined and unbuilt by this decision.
+7. **Approve `superseded_by_packet_id` and `archived_at` as non-status attributes/relationships**, not statuses — and confirm no routine `intake.packet.supersede` command is added (supersession stays system-derived, per DEC000001 §5.6).
+8. **Approve the role boundary that Governance Reviewers do not edit Intake evidence** — only an Intake Specialist may call `intake.packet.edit_payload` (DEC000001 §4, §5.2).
+9. **Confirm the exact source of stable user identity** for `*_user_id` fields once the current authentication/user schema is identified — this decision assumes one exists but doesn't have visibility into its exact shape. Shared with DEC000002 decision 13.
 
 ## From DEC000002 (Restaurant Update Submission) — revised in v3
 
@@ -34,7 +34,7 @@ v3 resolved most of v2's open questions mechanically (disposition naming and OS 
 
 ## Sequencing note (not a decision, just scope framing)
 
-DEC000001's risk is now concentrated in decisions #4 (reject), #6 (deprecating `mark_ingested`), and #8 (user-identity source), since v3 resolved the claim mechanism, supersession, and history-store questions mechanically rather than leaving them open. DEC000002's risk is now concentrated in decisions #10 (closing the direct-evidence-edit path), #11 (exception-escalation workflow not yet designed), and #12 (resulting_intake_session entity question), since v3 resolved the disposition/routing model, claim mechanism, resubmission chain, and archival eligibility mechanically. DEC000002 still has zero live API/UI to break — per its migration-risk statement, this is "low live-application risk based on the inspected API and UI, subject to verifying existing rows, scripts, RLS policies, reports, and any manual consumers" not visible in this codebase inspection — not "zero risk" as v1 overstated. If the Founder wants to approve one record ahead of the other, DEC000002 is still the lower-risk one to greenlight first since no code depends on it yet.
+DEC000001 is now at v4 and, per its own revision note, ready for Founder approval — all mechanical corrections are resolved, leaving only the six true policy choices in decisions #4-9 above, with #9 (user-identity source) the one with the widest downstream blast radius since it also gates DEC000002. DEC000002's risk is concentrated in decisions #10 (closing the direct-evidence-edit path), #11 (exception-escalation workflow not yet designed), and #12 (resulting_intake_session entity question), since v3 resolved the disposition/routing model, claim mechanism, resubmission chain, and archival eligibility mechanically. DEC000002 still has zero live API/UI to break — per its migration-risk statement, this is "low live-application risk based on the inspected API and UI, subject to verifying existing rows, scripts, RLS policies, reports, and any manual consumers" not visible in this codebase inspection — not "zero risk" as v1 overstated. If the Founder wants to approve one record ahead of the other, DEC000002 is still the lower-risk one to greenlight first since no code depends on it yet.
 
 ---
 
