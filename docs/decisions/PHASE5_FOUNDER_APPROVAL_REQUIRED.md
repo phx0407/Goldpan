@@ -11,9 +11,9 @@
 2. **Decision-basis categories.** No action needed yet — provisional approval converts to full approval automatically once DEC000001/DEC000002 are themselves approved, per the memo's own terms.
 3. **Namespace ownership-transfer footnote.** Optional, non-blocking — approve or skip; can ride along with the next registry edit either way.
 
-## From DEC000001 (Intake Packet) — revised in v4, ready for approval
+## From DEC000001 (Intake Packet) — final draft (v4.1), ready for approval
 
-v4 is a final targeted-refinement pass over v3 (display-name snapshots removed from all actor fields, `intake.packet.update` renamed to `intake.packet.edit_payload`, an explicit reviewer/submitter role boundary added, supersession confirmed as system-derived with no routine command, `rejected` given a sharpened definition). The six Founder decisions below (DEC000001 §7) are the complete, final list — nothing further is deferred to a future revision of this record.
+v4 was approved architecturally; v4.1 is a mechanical-only correction pass (system-generated event actors split into `actor_type`/`actor_id`, single-hop supersession enforced via a partial unique constraint, archival eligibility stated as an explicit `rejected`/`ingested` allow-list, and several miscited section references corrected) that changes no policy choice. The six Founder decisions below (DEC000001 §7) are unchanged from v4 and remain the complete, final list — nothing further is deferred to a future revision of this record.
 
 4. **Approve the six canonical statuses:** `pending_review`, `in_review`, `returned`, `approved`, `rejected`, `ingested`.
 5. **Approve the discrete command model:** `intake.packet.edit_payload`, `intake.packet.resubmit`, `intake.review.claim`, `intake.review.release`, the existing `intake.review.approve`/`intake.review.return` (tightened to require `in_review`), `intake.packet.reject`, and `intake.packet.commit_ingest` as the sole ordinary path to `ingested`.
