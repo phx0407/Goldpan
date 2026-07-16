@@ -116,8 +116,13 @@ def get_acting_user(
       - that row has is_active = true
 
     Does NOT check role-specific authority (e.g. "is this a Governance
-    Reviewer") — that is a per-endpoint concern. See api/role_adapter.py for
-    the interim DB-role → Blueprint-role mapping used to make those checks.
+    Reviewer") — that is a per-endpoint concern. For the four intake review-
+    decision commands (claim/release/approve/return), that check is enforced
+    directly inside each command's Postgres RPC (operations.claim_intake_
+    packet / release_intake_packet / approve_intake_packet / return_intake_
+    packet, supabase/migrations/017 and 018) via its own operations.users.role
+    lookup — not via api/role_adapter.py, which is currently unused dead code
+    on this path (see that module's own docstring).
     """
     try:
         _uuid.UUID(x_user_id)
