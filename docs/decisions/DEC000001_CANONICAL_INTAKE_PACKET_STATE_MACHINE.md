@@ -34,9 +34,9 @@ Carried forward without change: `draft` present in both Blueprint versions, abse
 | `intake.review.return` (CMD000006, implemented) | claimant-or-admin override added 2026-07-16 | Requires source state `in_review` **only** — `pending_review` and `approved` both excluded as valid sources (§5.9, carried from v3). Ordinary use is claimant-only; a Founder/CEO administrator-override is permitted with a non-blank reason, logged distinctly — corrected 2026-07-16 (Founder/CEO governance clarification), see §5.5. Not claimant-only without exception. |
 | `intake.packet.mark_ingested` (CMD000007, implemented) | treatment carried from v3 | No longer an independent operator action under ordinary use. See §5.7. |
 | `intake.packet.commit_ingest` (CMD000008, missing) | **becomes the sole path to `ingested`** | See §5.7. |
-| `intake.packet.reject` (CMD000009, missing) | **adopted, with sharpened semantics** | See §5.10 (definition refined in v4; corrected reference this revision — was miscited to §5.6 in v4). |
+| `intake.packet.reject` (CMD000009, missing) | **adopted, with sharpened semantics; claimant-only-with-narrow-override added 2026-07-16** | See §5.10 (definition refined in v4; corrected reference this revision — was miscited to §5.6 in v4). Ordinary use is claimant-only; a Founder/CEO exceptional override through the current `admin` adapter was added 2026-07-16 (Founder/CEO governance correction) — see §5.10. |
 | `intake.packet.reopen` (CMD000010, missing) | **remains reserved and undefined** | This revision does not give it meaning. See §5.1. |
-| `intake.packet.archive` (CMD000011, missing) | unchanged in mechanism, tightened in policy | Sets `archived_at`. See §5.11 (carried from v3). |
+| `intake.packet.archive` (CMD000011, missing) | mechanism unchanged; role-and-status eligibility added 2026-07-16 | Sets `archived_at`. See §5.11 (carried from v3; role/status eligibility rule added 2026-07-16, Founder/CEO governance correction). |
 | **New (renamed this revision):** `intake.packet.edit_payload` | not in registry today — Command Registry correction/addition requiring Founder approval | Replaces the v3 proposal `intake.packet.update`. Edits `packet_data` only, not packet metadata generally. See §5.1, §5.2. |
 | **New:** `intake.packet.resubmit` | not in registry today — Command Registry correction/addition requiring Founder approval | Unchanged from v3. See §5.1. |
 | **New:** `intake.review.claim`, `intake.review.release` | not in registry today | See §5.3-§5.5 (corrected this revision — release is defined in §5.5, not covered by the §5.3-§5.4 range alone). |
@@ -194,6 +194,8 @@ This is distinct from `returned`, which is a correctable packet that may re-ente
 - Payload immutable; no ingestion possible.
 - Reopening a rejected packet is not part of ordinary workflow — exceptional reopening only through a future restricted command and a separate Decision Record, not through this one.
 
+**Authorization (corrected 2026-07-16, Founder/CEO governance correction):** ordinary use of `intake.packet.reject` is **claimant-only** — only the reviewer currently holding the claim may reject the packet. The Founder/CEO may additionally perform an exceptional rejection override through the current `admin` role adapter, because the Founder/CEO is presently performing the company's operational roles directly. An override requires a non-blank reason (the same mandatory reason every caller must supply, reused as the override justification — no separate override-reason field). Every reject event records both `actor_role` (the actor's literal database role) and `authority_basis`: `governance_reviewer` with `override = false` for ordinary claimant rejection, or `founder_ceo_override` with `override = true` for an admin-adapter override, alongside the prior claimant's stable user ID. As with §5.5's return/approve override, this is **not** a standing grant of unrestricted rejection authority to every future holder of an administrator-tier database role — `admin` is documented here as the current technical implementation adapter through which Founder/CEO authority happens to be exercised today, not the permanent organizational authority model. A non-claimant actor who does not resolve through the `admin` adapter is refused, exactly as before this correction.
+
 ### 5.11 Archival — eligibility stated as an explicit allow-list
 
 **Corrected this revision:** v4 described archival as removing "a resolved packet" from default views without stating precisely which statuses qualify as resolved. Replaced with an explicit rule:
@@ -215,6 +217,14 @@ Archival must never hide unfinished work or an approved packet whose ingestion h
 - No automatic archival schedule is approved by this decision — archival may be manual or, if a policy-driven schedule is adopted later, system-initiated (in which case the corresponding event, per §5.8, is recorded with `actor_type = system`).
 - Manual archival requires an authorized actor (`archived_by_user_id`, stable ID only, per §5.3 and §5.8) and a reason.
 - Archival never changes the packet's processing outcome, deletes its payload, or deletes its event/revision history.
+
+**Manual archival authorization (added 2026-07-16, Founder/CEO governance correction — narrows the prior "an authorized actor" language, which named no specific role):**
+- A **Governance Reviewer** may manually archive an eligible `rejected` packet only. A Governance Reviewer may **not** archive an `ingested` packet.
+- The **Founder/CEO**, through the current `admin` role adapter, may manually archive either an eligible `rejected` **or** `ingested` packet.
+- **Intake Specialists and any other active user may not archive**, regardless of packet status.
+- Every manual archive requires a non-blank reason, and the event written to `intake_packet_events` (§5.8) preserves `actor_role` (the actor's literal database role), `authority_basis` (`governance_reviewer` for an ordinary reviewer archiving a rejected packet, or `founder_ceo_override` for Founder/CEO archival through the admin adapter), the eligible source `packet_status` at the time of archival, and the reason.
+- As with §5.5's and §5.10's override provisions, `admin` is documented here as the current technical implementation adapter through which Founder/CEO authority happens to be exercised today — not a standing grant of archival authority to every future holder of an administrator-tier database role.
+- This authorization rule governs manual archival only. Automated or policy-driven archival, if ever adopted, remains a separate, not-yet-approved mechanism (see the retained bullet above) and is not authorized by the manual archival command.
 
 ## 6. Recommended canonical model (final, v4.1)
 
@@ -275,7 +285,8 @@ No `_display_name` field exists on any of these. Six `packet_status` values tota
 - `intake.packet.edit_payload` must refuse to run unless `packet_status = returned` **and** the caller holds the Intake Specialist role, per §5.2's mutation-rights table and §4's role table exactly.
 - No command in the `intake.review.*` namespace may write to `packet_data`, per §5.2.
 - Every row written to `intake_packet_events` must set both `actor_type` and `actor_id` — no row may carry a null `actor_type`, per §5.8.
-- `intake.packet.archive`, when called manually, must refuse to run unless `packet_status ∈ {rejected, ingested}`, per §5.11's explicit allow-list.
+- `intake.packet.archive`, when called manually, must refuse to run unless `packet_status ∈ {rejected, ingested}`, per §5.11's explicit allow-list, **and** unless the actor is a Governance Reviewer (rejected-status packets only) or the Founder/CEO via the `admin` adapter (either eligible status) — added 2026-07-16, per §5.11's authorization rule.
+- `intake.packet.reject`, when invoked by a non-claimant, must refuse to run unless the actor resolves through the `admin` adapter — added 2026-07-16, per §5.10's authorization rule.
 
 **Validation criteria:**
 - The claim `UPDATE ... WHERE ... RETURNING` pattern in §5.4 is used verbatim (or an equivalent single-statement conditional mutation) — no read-then-write claim implementation is acceptable.

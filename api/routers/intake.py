@@ -10,6 +10,10 @@ Endpoints:
   POST /admin/intake/{packet_id}/approve — approve packet (ready to ingest)
   POST /admin/intake/{packet_id}/return  — return to canvasser with reason
   POST /admin/intake/{packet_id}/ingest  — mark as ingested (CLI ran externally)
+  POST /admin/intake/{packet_id}/edit_payload — replace packet_data on a returned packet (Task #45)
+  POST /admin/intake/{packet_id}/resubmit     — returned -> pending_review (Task #45)
+  POST /admin/intake/{packet_id}/reject       — in_review -> rejected, claimant-only (Task #45)
+  POST /admin/intake/{packet_id}/archive      — manual archival from rejected/ingested (Task #45)
 
 Python 3.9 compatible — uses typing.List / Dict / Optional throughout.
 """
@@ -139,6 +143,26 @@ class ReleasePacketRequest(BaseModel):
             "else (override release). Not required for ordinary self-release."
         ),
     )
+
+
+class EditPayloadRequest(BaseModel):
+    packet_data: Dict[str, Any] = Field(description="Replacement packet_data payload.")
+    reason:      str = Field(description="Non-blank reason for the payload edit.")
+
+
+class ResubmitPacketRequest(BaseModel):
+    reason: Optional[str] = Field(
+        None,
+        description="Optional reason for resubmitting (not required by DEC000001 CMD000034).",
+    )
+
+
+class RejectPacketRequest(BaseModel):
+    reason: str = Field(description="Non-blank reason for rejecting the packet.")
+
+
+class ArchivePacketRequest(BaseModel):
+    reason: str = Field(description="Non-blank reason for manually archiving the packet.")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -584,6 +608,200 @@ async def return_packet(
                 "p_actor_user_id":  actor.user_id,
                 "p_reason":         body.reason,
                 "p_reviewer_notes": body.reviewer_notes,
+            },
+        ).execute()
+    except PostgrestAPIError as err:
+        _raise_from_rpc_error(err)
+        raise  # pragma: no cover — _raise_from_rpc_error always raises
+
+    row = res.data
+    if isinstance(row, list):
+        row = row[0]
+    return _row_to_packet_row(row)
+
+
+@router.post(
+    "/{packet_id}/edit_payload",
+    response_model=IntakePacketRow,
+    summary="Edit intake packet payload",
+    description=(
+        "Replace packet_data on a returned packet, preserving the prior "
+        "payload as an append-only revision (DEC000001 §4, §5.2, §5.8, §7 "
+        "item 5). Intake Specialist only; Governance Reviewers may never "
+        "call this. Does not change packet_status."
+    ),
+)
+async def edit_packet_payload(
+    packet_id: str,
+    body: EditPayloadRequest,
+    _: str = Depends(verify_admin_key),
+    actor: ActingUser = Depends(get_acting_user),
+    sb: SupabaseClient = Depends(get_supabase),
+) -> IntakePacketRow:
+
+    # Task #45: validation, Intake Specialist-only authorization, the
+    # returned-only state check, the append-only revision insert, the
+    # packet_data replacement, and the cross-referenced 'annotate' event
+    # insert all happen inside operations.edit_intake_packet_payload
+    # (supabase/migrations/019_intake_edit_resubmit_reject_archive_rpcs.sql)
+    # as one DB transaction — the RPC is the authoritative atomic mutation,
+    # same pattern as claim/release/approve/return.
+    try:
+        res = sb.rpc(
+            "edit_intake_packet_payload",
+            {
+                "p_packet_id":     packet_id,
+                "p_actor_user_id": actor.user_id,
+                "p_packet_data":   body.packet_data,
+                "p_reason":        body.reason,
+            },
+        ).execute()
+    except PostgrestAPIError as err:
+        _raise_from_rpc_error(err)
+        raise  # pragma: no cover — _raise_from_rpc_error always raises
+
+    row = res.data
+    if isinstance(row, list):
+        row = row[0]
+    return _row_to_packet_row(row)
+
+
+@router.post(
+    "/{packet_id}/resubmit",
+    response_model=IntakePacketRow,
+    summary="Resubmit intake packet",
+    description=(
+        "Resubmit a returned packet for review, transitioning it back to "
+        "pending_review (DEC000001 §5.1, §6). Intake Specialist only. "
+        "Never mutates packet_data — use edit_payload first if the payload "
+        "itself needs to change."
+    ),
+)
+async def resubmit_packet(
+    packet_id: str,
+    body: ResubmitPacketRequest,
+    _: str = Depends(verify_admin_key),
+    actor: ActingUser = Depends(get_acting_user),
+    sb: SupabaseClient = Depends(get_supabase),
+) -> IntakePacketRow:
+
+    # Task #45: same single-transaction RPC pattern, via
+    # operations.resubmit_intake_packet (migration 019). Intake
+    # Specialist-only authorization, returned-only state check, status
+    # transition, return_reason clearing, and the resubmit event insert are
+    # all enforced inside the RPC.
+    try:
+        res = sb.rpc(
+            "resubmit_intake_packet",
+            {
+                "p_packet_id":     packet_id,
+                "p_actor_user_id": actor.user_id,
+                "p_reason":        body.reason,
+            },
+        ).execute()
+    except PostgrestAPIError as err:
+        _raise_from_rpc_error(err)
+        raise  # pragma: no cover — _raise_from_rpc_error always raises
+
+    row = res.data
+    if isinstance(row, list):
+        row = row[0]
+    return _row_to_packet_row(row)
+
+
+@router.post(
+    "/{packet_id}/reject",
+    response_model=IntakePacketRow,
+    summary="Reject intake packet",
+    description=(
+        "Reject an in_review packet with a mandatory reason, transitioning "
+        "it to rejected (DEC000001 §5.10). Ordinary rejection is current-"
+        "claimant only. The Founder/CEO may perform an exceptional "
+        "rejection override through the current 'admin' role adapter "
+        "(authority_basis=founder_ceo_override) — 'admin' here is the "
+        "current technical implementation adapter for Founder/CEO "
+        "authority, not a standing grant to every future Administrator "
+        "(2026-07-16 governance correction)."
+    ),
+)
+async def reject_packet(
+    packet_id: str,
+    body: RejectPacketRequest,
+    _: str = Depends(verify_admin_key),
+    actor: ActingUser = Depends(get_acting_user),
+    sb: SupabaseClient = Depends(get_supabase),
+) -> IntakePacketRow:
+
+    # Task #45, corrected 2026-07-16 (Founder/CEO governance correction):
+    # same single-transaction RPC pattern, via
+    # operations.reject_intake_packet (migration 019). Ordinary rejection is
+    # claimant-only; a non-claimant may reject only through the 'admin'
+    # adapter (Founder/CEO override). Mandatory-reason enforcement,
+    # in_review+claimed state check, status transition, claim-field
+    # clearing, and the reject event insert (always recording override and
+    # claimant_user_id) are all enforced inside the RPC.
+    try:
+        res = sb.rpc(
+            "reject_intake_packet",
+            {
+                "p_packet_id":     packet_id,
+                "p_actor_user_id": actor.user_id,
+                "p_reason":        body.reason,
+            },
+        ).execute()
+    except PostgrestAPIError as err:
+        _raise_from_rpc_error(err)
+        raise  # pragma: no cover — _raise_from_rpc_error always raises
+
+    row = res.data
+    if isinstance(row, list):
+        row = row[0]
+    return _row_to_packet_row(row)
+
+
+@router.post(
+    "/{packet_id}/archive",
+    response_model=IntakePacketRow,
+    summary="Archive intake packet",
+    description=(
+        "Manually archive a rejected or ingested packet, recording "
+        "archived_at/archived_by_user_id without changing packet_status "
+        "(DEC000001 §5.11). Requires a non-blank reason. A Governance "
+        "Reviewer may archive an eligible rejected packet; the Founder/CEO "
+        "via the current 'admin' role adapter may archive an eligible "
+        "rejected or ingested packet — 'admin' here is the current "
+        "technical implementation adapter for Founder/CEO authority, not a "
+        "standing grant to every future Administrator. Intake Specialists "
+        "and all other actors are refused (2026-07-16 governance "
+        "correction). Automated/policy-driven archival is out of scope of "
+        "this endpoint."
+    ),
+)
+async def archive_packet(
+    packet_id: str,
+    body: ArchivePacketRequest,
+    _: str = Depends(verify_admin_key),
+    actor: ActingUser = Depends(get_acting_user),
+    sb: SupabaseClient = Depends(get_supabase),
+) -> IntakePacketRow:
+
+    # Task #45, corrected 2026-07-16 (Founder/CEO governance correction):
+    # same single-transaction RPC pattern, via
+    # operations.archive_intake_packet (migration 019). Role + status-
+    # dependent authorization (Governance Reviewer: rejected only;
+    # Founder/CEO via admin adapter: rejected or ingested; everyone else
+    # refused), mandatory-reason enforcement, rejected/ingested-only state
+    # check, duplicate-archival prevention, the archived_at/
+    # archived_by_user_id write, and the archive event insert (preserving
+    # actor_role/authority_basis/source_status) are all enforced inside the
+    # RPC.
+    try:
+        res = sb.rpc(
+            "archive_intake_packet",
+            {
+                "p_packet_id":     packet_id,
+                "p_actor_user_id": actor.user_id,
+                "p_reason":        body.reason,
             },
         ).execute()
     except PostgrestAPIError as err:

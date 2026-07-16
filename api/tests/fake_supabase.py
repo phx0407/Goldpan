@@ -28,6 +28,18 @@ assert the packet row was never left mid-transitioned after a simulated
 event-insert failure, per task #44's transactional-integrity correction
 (and its task #43 claim/release extension), rather than merely asserting
 the HTTP status code.
+
+Task #45 extends this with fake implementations of the four RPCs in
+supabase/migrations/019_intake_edit_resubmit_reject_archive_rpcs.sql
+(operations.edit_intake_packet_payload / resubmit_intake_packet /
+reject_intake_packet / archive_intake_packet), plus a new in-memory
+"intake_packet_revisions" table for edit_payload's append-only prior-payload
+snapshot. edit_payload has two separate failure-injection points
+(db.simulate_revision_insert_failure, then the existing
+db.simulate_event_insert_failure) since its real RPC performs two inserts —
+this lets tests independently prove that a revision-insert failure never
+touches packet_data, and that an event-insert failure rolls back both the
+revision insert and the packet_data update together.
 """
 
 from copy import deepcopy
@@ -120,6 +132,7 @@ class FakeDB:
         self.tables: Dict[str, List[Dict[str, Any]]] = {
             "intake_packets": [],
             "intake_packet_events": [],
+            "intake_packet_revisions": [],
             "users": [],
         }
         self.events_log: List[Dict[str, Any]] = []
@@ -133,6 +146,15 @@ class FakeDB:
         # test_approve_failed_event_insert_does_not_report_success and its
         # return-side equivalent.
         self.simulate_event_insert_failure: bool = False
+
+        # Task #45 addition: edit_intake_packet_payload performs two inserts
+        # (intake_packet_revisions, then intake_packet_events) either side of
+        # its packet_data UPDATE. This second hook lets a test simulate the
+        # FIRST insert (the revision snapshot) failing, independently of
+        # simulate_event_insert_failure above — proving packet_data was never
+        # touched at all in that case, distinct from the event-failure case
+        # where packet_data was updated and must be rolled back.
+        self.simulate_revision_insert_failure: bool = False
 
     def seed_user(self, user_id: str, role: str, is_active: bool = True) -> Dict[str, Any]:
         """
@@ -168,6 +190,8 @@ class FakeDB:
             "ingested_at":            None,
             "claimed_by_user_id":     None,
             "claimed_at":             None,
+            "archived_at":            None,
+            "archived_by_user_id":    None,
         }
         row.update(fields)
         self.tables["intake_packets"].append(row)
@@ -180,6 +204,10 @@ class FakeDB:
     @property
     def packets(self) -> List[Dict[str, Any]]:
         return self.tables["intake_packets"]
+
+    @property
+    def revisions(self) -> List[Dict[str, Any]]:
+        return self.tables["intake_packet_revisions"]
 
 
 def _find_packet(db: FakeDB, packet_id: str) -> Optional[Dict[str, Any]]:
@@ -469,11 +497,277 @@ def _fake_release_intake_packet(db: FakeDB, params: Dict[str, Any]) -> Dict[str,
     return deepcopy(packet)
 
 
+def _fake_edit_intake_packet_payload(db: FakeDB, params: Dict[str, Any]) -> Dict[str, Any]:
+    """Mirrors operations.edit_intake_packet_payload (migration 019), step for step."""
+    packet_id     = params["p_packet_id"]
+    actor_user_id = params["p_actor_user_id"]
+    packet_data   = params.get("p_packet_data")
+    reason        = params.get("p_reason")
+
+    if actor_user_id is None:
+        raise APIError({"message": "p_actor_user_id is required", "code": "GP422"})
+    if packet_data is None:
+        raise APIError({"message": "p_packet_data (replacement payload) is required", "code": "GP422"})
+    if not reason or not reason.strip():
+        raise APIError({"message": "A non-blank reason is required to edit packet payload", "code": "GP422"})
+
+    # Authorization gate, resolved before the packet lookup (mirrors the
+    # real RPC's ordering) — Intake Specialist ('canvasser') only. A
+    # Governance Reviewer is rejected here, not merely un-granted.
+    actor_role = _lookup_user_role(db, actor_user_id)
+    if actor_role != "canvasser":
+        raise APIError({"message": "Only an Intake Specialist may edit packet payload", "code": "GP403"})
+
+    packet = _find_packet(db, packet_id)
+    if packet is None:
+        raise APIError({"message": f"Packet '{packet_id}' not found.", "code": "GP404"})
+
+    if packet["packet_status"] != "returned":
+        raise APIError({
+            "message": "Packet must be returned before its payload can be edited.",
+            "code": "GP409",
+        })
+
+    prior_payload = deepcopy(packet["packet_data"])
+
+    if db.simulate_revision_insert_failure:
+        # Simulates the intake_packet_revisions INSERT failing before
+        # packet_data is ever touched — proves the payload is untouched on
+        # this failure path, distinct from an event-insert failure below.
+        raise RuntimeError("simulated revision insert failure")
+
+    revision_id = f"rev-{len(db.tables['intake_packet_revisions']) + 1}"
+    db.tables["intake_packet_revisions"].append({
+        "revision_id":   revision_id,
+        "packet_id":     packet_id,
+        "prior_payload": prior_payload,
+        "actor_user_id": actor_user_id,
+        "reason":        reason,
+        "created_at":    "2026-07-16T00:00:00+00:00",
+    })
+
+    packet["packet_data"] = deepcopy(packet_data)
+
+    if db.simulate_event_insert_failure:
+        # Simulates the intake_packet_events INSERT failing after the
+        # revision insert and the packet_data update already happened on
+        # the live rows — FakeRpcCall.execute()'s pre-call snapshot must
+        # undo both.
+        raise RuntimeError("simulated event-log insert failure")
+
+    _insert_fake_event(
+        db,
+        packet_id=packet_id, event_type="annotate",
+        actor_type="user", actor_id=actor_user_id,
+        reason=reason,
+        metadata={
+            "actor_role": actor_role,
+            "authority_basis": "intake_specialist",
+            "annotation_type": "payload_edit",
+            "revision_id": revision_id,
+        },
+    )
+    return deepcopy(packet)
+
+
+def _fake_resubmit_intake_packet(db: FakeDB, params: Dict[str, Any]) -> Dict[str, Any]:
+    """Mirrors operations.resubmit_intake_packet (migration 019), step for step."""
+    packet_id     = params["p_packet_id"]
+    actor_user_id = params["p_actor_user_id"]
+    reason        = params.get("p_reason")
+
+    if actor_user_id is None:
+        raise APIError({"message": "p_actor_user_id is required", "code": "GP422"})
+
+    actor_role = _lookup_user_role(db, actor_user_id)
+    if actor_role != "canvasser":
+        raise APIError({"message": "Only an Intake Specialist may resubmit a packet", "code": "GP403"})
+
+    packet = _find_packet(db, packet_id)
+    if packet is None:
+        raise APIError({"message": f"Packet '{packet_id}' not found.", "code": "GP404"})
+
+    if packet["packet_status"] != "returned":
+        raise APIError({
+            "message": "Packet must be returned before it can be resubmitted.",
+            "code": "GP409",
+        })
+
+    packet["packet_status"] = "pending_review"
+    packet["return_reason"] = None
+
+    if db.simulate_event_insert_failure:
+        raise RuntimeError("simulated event-log insert failure")
+
+    _insert_fake_event(
+        db,
+        packet_id=packet_id, event_type="resubmit",
+        actor_type="user", actor_id=actor_user_id,
+        reason=reason,
+        metadata={"actor_role": actor_role, "authority_basis": "intake_specialist"},
+    )
+    return deepcopy(packet)
+
+
+def _fake_reject_intake_packet(db: FakeDB, params: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Mirrors operations.reject_intake_packet (migration 019), step for step,
+    as corrected 2026-07-16 (Founder/CEO governance correction): ordinary
+    rejection is claimant-only; a non-claimant may reject only through the
+    'admin' adapter (Founder/CEO override). 'admin' here is the current
+    technical adapter for Founder/CEO authority, not a standing grant to
+    every future Administrator.
+    """
+    packet_id     = params["p_packet_id"]
+    actor_user_id = params["p_actor_user_id"]
+    reason        = params.get("p_reason")
+
+    if actor_user_id is None:
+        raise APIError({"message": "p_actor_user_id is required", "code": "GP422"})
+    if not reason or not reason.strip():
+        raise APIError({"message": "A non-blank reason is required to reject a packet", "code": "GP422"})
+
+    packet = _find_packet(db, packet_id)
+    if packet is None:
+        raise APIError({"message": f"Packet '{packet_id}' not found.", "code": "GP404"})
+
+    claimant_id = packet.get("claimed_by_user_id")
+    if packet["packet_status"] != "in_review" or not claimant_id:
+        raise APIError({
+            "message": "Packet must be in_review and claimed before it can be rejected.",
+            "code": "GP409",
+        })
+
+    actor_role = _lookup_user_role(db, actor_user_id)
+    is_override = actor_user_id != claimant_id
+
+    # Ordinary rejection is claimant-only. A non-claimant may reject only
+    # through the 'admin' adapter (Founder/CEO override) — every other
+    # non-claimant actor is refused.
+    if is_override and actor_role != "admin":
+        raise APIError({
+            "message": f"Only the current claimant may reject packet '{packet_id}'.",
+            "code": "GP403",
+        })
+
+    authority_basis = "founder_ceo_override" if is_override else "governance_reviewer"
+
+    packet["packet_status"]      = "rejected"
+    packet["reviewed_at"]        = "2026-07-13T00:00:00+00:00"
+    packet["reviewed_by"]        = actor_user_id
+    packet["claimed_by_user_id"] = None
+    packet["claimed_at"]         = None
+
+    if db.simulate_event_insert_failure:
+        raise RuntimeError("simulated event-log insert failure")
+
+    # override and claimant_user_id are always present (never omitted),
+    # mirroring release_intake_packet's established pattern.
+    _insert_fake_event(
+        db,
+        packet_id=packet_id, event_type="reject",
+        actor_type="user", actor_id=actor_user_id,
+        reason=reason,
+        metadata={
+            "actor_role": actor_role,
+            "authority_basis": authority_basis,
+            "override": is_override,
+            "claimant_user_id": claimant_id,
+        },
+    )
+    return deepcopy(packet)
+
+
+def _fake_archive_intake_packet(db: FakeDB, params: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Mirrors operations.archive_intake_packet (migration 019), step for step,
+    as corrected 2026-07-16 (Founder/CEO governance correction): a
+    Governance Reviewer may archive an eligible 'rejected' packet only; the
+    Founder/CEO via the 'admin' adapter may archive an eligible 'rejected'
+    or 'ingested' packet; every other actor is refused. 'admin' here is the
+    current technical adapter for Founder/CEO authority, not a standing
+    grant to every future Administrator.
+    """
+    packet_id     = params["p_packet_id"]
+    actor_user_id = params["p_actor_user_id"]
+    reason        = params.get("p_reason")
+
+    if actor_user_id is None:
+        raise APIError({"message": "p_actor_user_id is required", "code": "GP422"})
+    if not reason or not reason.strip():
+        raise APIError({"message": "A non-blank reason is required to archive a packet", "code": "GP422"})
+
+    packet = _find_packet(db, packet_id)
+    if packet is None:
+        raise APIError({"message": f"Packet '{packet_id}' not found.", "code": "GP404"})
+
+    if packet["packet_status"] not in ("rejected", "ingested"):
+        raise APIError({
+            "message": "Packet must be rejected or ingested before it can be archived.",
+            "code": "GP409",
+        })
+
+    source_status = packet["packet_status"]
+
+    if packet.get("archived_at") is not None:
+        raise APIError({"message": f"Packet '{packet_id}' is already archived.", "code": "GP409"})
+
+    # Role + status-dependent authorization (2026-07-16 governance
+    # correction, supersedes the prior "any active actor" gate). Applied
+    # after the status-eligibility check above since Governance Reviewer
+    # eligibility is itself status-dependent.
+    actor_role = _lookup_user_role(db, actor_user_id)
+    if actor_role == "admin":
+        authority_basis = "founder_ceo_override"
+    elif actor_role == "reviewer":
+        if source_status != "rejected":
+            raise APIError({
+                "message": (
+                    "Only the Founder/CEO (admin adapter) may archive an "
+                    f"ingested packet; a Governance Reviewer may only archive "
+                    f"a rejected packet ('{packet_id}')."
+                ),
+                "code": "GP403",
+            })
+        authority_basis = "governance_reviewer"
+    else:
+        raise APIError({
+            "message": (
+                f"Actor '{actor_user_id}' is not authorized to archive packets "
+                "(Governance Reviewer or Founder/CEO admin adapter only)."
+            ),
+            "code": "GP403",
+        })
+
+    packet["archived_at"]         = "2026-07-16T00:00:00+00:00"
+    packet["archived_by_user_id"] = actor_user_id
+
+    if db.simulate_event_insert_failure:
+        raise RuntimeError("simulated event-log insert failure")
+
+    _insert_fake_event(
+        db,
+        packet_id=packet_id, event_type="archive",
+        actor_type="user", actor_id=actor_user_id,
+        reason=reason,
+        metadata={
+            "actor_role": actor_role,
+            "authority_basis": authority_basis,
+            "source_status": source_status,
+        },
+    )
+    return deepcopy(packet)
+
+
 _RPC_IMPLS: Dict[str, Callable[[FakeDB, Dict[str, Any]], Dict[str, Any]]] = {
-    "approve_intake_packet": _fake_approve_intake_packet,
-    "return_intake_packet":  _fake_return_intake_packet,
-    "claim_intake_packet":   _fake_claim_intake_packet,
-    "release_intake_packet": _fake_release_intake_packet,
+    "approve_intake_packet":         _fake_approve_intake_packet,
+    "return_intake_packet":          _fake_return_intake_packet,
+    "claim_intake_packet":           _fake_claim_intake_packet,
+    "release_intake_packet":         _fake_release_intake_packet,
+    "edit_intake_packet_payload":    _fake_edit_intake_packet_payload,
+    "resubmit_intake_packet":        _fake_resubmit_intake_packet,
+    "reject_intake_packet":          _fake_reject_intake_packet,
+    "archive_intake_packet":         _fake_archive_intake_packet,
 }
 
 
