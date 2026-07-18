@@ -678,7 +678,7 @@ Every major entity moves through explicit, defined states. Implicit or undocumen
 | Restaurant | prospect → qualified → onboarding → evidence_acquisition → verification → qa_review → published → recanvassing → suspended → deactivated |
 | Partner | prospect → outreach → engaged → negotiating → active → paused → declined → churned |
 | Intake Packet | pending_review → in_review; in_review → returned \| approved \| rejected; returned → pending_review; approved → ingested *(canonical model per DEC000001, approved 2026-07-13 — not a single linear sequence; see the branching transitions above and §5i below for full detail — `superseded_by_packet_id` and `archived_at` are non-status attributes, not lifecycle states; see `docs/decisions/DEC000001_CANONICAL_INTAKE_PACKET_STATE_MACHINE.md`)* |
-| Submission | pending_review → in_review → approved → returned → rejected → converted |
+| Restaurant Update Submission | pending_review → in_review; in_review → returned \| approved \| rejected; returned → pending_review (via a new child row, not in place) *(canonical model per DEC000002, approved 2026-07-18 — five review statuses only, no `converted` status; disposition/routing is a separate model layered on top of `approved`, not a further review-status transition; see §5i below for full detail — `superseded_by_submission_id`, `archived_at`, and the disposition fields are non-status attributes, not lifecycle states; see `docs/decisions/DEC000002_submission_state_machine.md`)* |
 | AI Job | queued → running → completed → failed → cancelled |
 | Governance Run | queued → running → completed → failed → partial |
 
@@ -1402,17 +1402,47 @@ Not all stages apply to every entity type — a Governance Result has no "Publis
 
 ### Restaurant Update Submission (from restaurant or staff)
 
-| Stage | Meaning | Owner |
-|---|---|---|
-| `received` | Submission entered the system | Restaurant OS |
-| `pending_review` | Awaiting staff review | Restaurant OS |
-| `in_review` | Staff actively reviewing | Restaurant OS |
-| `accepted` | Change approved; applied to identity or queued for intake | Restaurant OS / Intake OS |
-| `rejected` | Change not applied; reason recorded | Restaurant OS |
-| `archived` | Resolved submission; retained for history | Restaurant OS |
+**Canonical model per DEC000002 (Founder-approved 2026-07-18):** `docs/decisions/DEC000002_submission_state_machine.md`, implemented in `supabase/migrations/021_submission_state_machine.sql` and `022_submission_review_rpcs.sql`. Five `status` values total, and a **separate disposition model** layered on top of `approved` — the earlier `received`, `accepted`, and `archived` stage rows below are **replaced**, not merely relabeled: `received` is not a distinct status (a submission enters directly at `pending_review`); `accepted` is replaced by `approved` plus a `disposition_type`/`disposition_status` pair, since "approved" and "what happens next" are two different questions (DEC000002 §5.3-§5.4); and `archived` is **not a lifecycle stage** — it is a non-status attribute (`archived_at`), per DEC000002 §5.9.
 
-**Trust threshold:** `accepted` — a staff reviewer has confirmed the change.  
-**Archive over delete:** Yes.
+**Review status:**
+
+| Stage | Meaning | Owner | Who may mutate |
+|---|---|---|---|
+| `pending_review` | Awaiting or returned-to claim; payload read-only | Restaurant Operations OS | Status: `submission.restaurant_update.claim` (reviewer) → `in_review`; entry via restaurant/staff submission, or via `submission.restaurant_update.resubmit` creating a brand-new child row (registry status `draft` — see note below) |
+| `in_review` | Claimed by a reviewer; actively being decided | Restaurant Operations OS | Status: claimant (or admin override) via `.release`, `.approve`, `.return`, or `.reject` |
+| `returned` | Sent back for correction; **terminal for that row — it never moves again.** Correction happens via a brand-new child row, never an in-place edit (DEC000002 §5.7) | Restaurant Operations OS | Payload: no one, on this row. `submission.restaurant_update.resubmit` creates a new child at `pending_review` and sets this row's `superseded_by_submission_id`, atomically, in one transaction |
+| `approved` | Reviewer accepted; disposition selected atomically with the same transition; payload immutable | Restaurant Operations OS (submission row itself, end to end, per §4) | Read-only submission row. `disposition_status` advances via routing commands (`.convert_to_intake`, `.route_to_identity_review`, `.escalate_exception`) and downstream owning-OS callbacks — never by mutating the submission row's `status` again |
+| `rejected` | Terminal — change not applied; reason recorded | Restaurant Operations OS | Read-only |
+
+**Disposition model (not a further review-status transition — layered on top of `approved`, DEC000002 §5.3-§5.4):**
+
+| `disposition_status` | Meaning |
+|---|---|
+| `unassessed` | No disposition selected yet (pre-approval default; no approved submission may remain here) |
+| `pending` | Disposition selected at approval; downstream handoff not yet created |
+| `in_progress` | Downstream record created and linked; owning OS has not yet reported a terminal outcome |
+| `completed` | Downstream owning OS reports a terminal success, or `disposition_type = no_action` was approved (mandatory `resolution_summary`, the only record that disposition ever produces) |
+| `failed` | Handoff creation failed, or the downstream owning OS reported a terminal failure. `failure_stage` (`handoff_call` \| `local_write` \| `downstream_terminal`) records where, per §5.3 |
+
+| `disposition_type` | Routes to | Owning OS (sole) | Command | Build status |
+|---|---|---|---|---|
+| `intake_required` | Intake Packet | Intake OS (DEC000001) | `submission.convert_to_intake` | FK built (`resulting_intake_packet_id`), no RPC |
+| `identity_review` | Identity Review Queue | Restaurant Operations OS | `submission.route_to_identity_review` | Placeholder FK built, destination table doesn't exist yet — blocked |
+| `no_action` | No handoff | Restaurant Operations OS (closes within `.approve` itself) | none | Schema built, no RPC |
+| `exception_escalation` | Exception request | Governance OS, sole owner (never jointly with Knowledge OS) | `submission.escalate_exception` | Placeholder FK built, destination entity doesn't exist yet — blocked |
+
+**Non-status attributes (not stages):**
+- `resubmission_of_submission_id` / `superseded_by_submission_id` — resubmission lineage. Each parent has at most one direct child (`UNIQUE` constraint); a chain cannot cycle by construction, since `resubmit` only ever creates a brand-new row and no command rewires an existing link, per DEC000002 §5.7-§5.8. Both fields are immutable once written by the child-creation transaction.
+- `archived_at`, `archived_by_user_id`, `archive_reason` — archival eligibility: `rejected` submissions; `approved` submissions with `disposition_status = completed`; `returned` parents that already have a linked child (eligibility depends only on having a child, not the child's own outcome), per DEC000002 §5.9. Archival never deletes payload or event history.
+- `resulting_intake_packet_id` (canonical FK, `operations.intake_packets`, ready to build), `resulting_intake_session_id` (non-canonical, optional, no confirmed target, excluded from cardinality rules), `identity_review_item_id` (Blueprint-defined, target table not yet implemented), `exception_request_id` (future recommendation, no confirmed target) — at most one canonical FK populated at a time, per DEC000002 §5.11.
+
+**Audit coverage:** `operations.restaurant_update_submission_events` (append-only), covering `claim, release, return, resubmit, approve, reject, disposition_selected, disposition_handoff_attempted/_succeeded/_failed, downstream_completion_received, archive`. Every row sets `actor_type` (`user`/`system`/`pipeline`) and `actor_id`; handoff events additionally distinguish the initiating human actor from the executing system actor, and `downstream_completion_received` records the downstream owning OS's own callback identity — per DEC000002 §5.10.
+
+**Command note — `resubmit`'s invocation authority is not yet decided.** DEC000002 §7 item 5 approves `submission.restaurant_update.resubmit`'s existence, model, and mechanics only — not who may call it. The RPC (`operations.resubmit_restaurant_update_submission`, migration 022) is built, but no `GRANT EXECUTE` has been issued to any role; its Command Registry entry (CMD000040) stays `draft` until a separate role/portal-origin decision resolves invocation authority.
+
+**Trust threshold:** `approved` — a staff reviewer has confirmed the change.  
+**Customer-visible from:** Never directly; downstream via whichever disposition's target object is eventually published.  
+**Archive over delete:** Yes — submissions are permanent audit records; archival never deletes payload or event history (DEC000002 §5.9).
 
 ---
 

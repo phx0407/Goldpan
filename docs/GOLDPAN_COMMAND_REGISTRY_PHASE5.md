@@ -376,9 +376,9 @@ It must **not** expand into full Phase 6 Governance implementation, Analytics, F
 | 21 | CMD000021 | `restaurant.lifecycle.advance_to_qa` | mutation | approved | implemented | |
 | 22 | CMD000022 | `restaurant.lifecycle.advance_to_verification` | mutation | approved | implemented | |
 | 23 | CMD000023 | `restaurant.lifecycle.recanvass` | mutation | approved | implemented | |
-| 24 | CMD000024 | `submission.restaurant_update.view` | query | draft | missing | Pending DEC000002 approval. |
-| 25 | CMD000025 | `submission.restaurant_update.review` | approval | draft | missing | Pending DEC000002 approval. DEC000002 §5.5 proposes splitting this into `.claim`/`.release`/`.return`/`.approve`/`.reject` — see CMD000035-CMD000039. |
-| 26 | CMD000026 | `submission.convert_to_intake` | workflow_trigger | draft | missing | Pending DEC000002 approval. Preconditions tightened per DEC000002 §5.5. |
+| 24 | CMD000024 | `submission.restaurant_update.view` | query | approved | missing | DEC000002 approved 2026-07-18. No query handler or router exists yet. |
+| 25 | CMD000025 | `submission.restaurant_update.review` | approval | superseded | missing | Superseded by CMD000035-CMD000039 now that DEC000002 §5.5's discrete-command split is approved (2026-07-18). Not to be built as a compound command. |
+| 26 | CMD000026 | `submission.convert_to_intake` | workflow_trigger | approved | missing | DEC000002 approved 2026-07-18 (§5.5, §7 item 3). Preconditions tightened per §5.5. Target (`operations.intake_packets`) is real and the FK exists (`resulting_intake_packet_id`, migration 021) — no RPC/handler built yet. |
 | 27 | CMD000027 | `governance.result.view` | query | draft | missing | Unchanged. |
 | 28 | CMD000028 | `governance.pipeline.run` | automated_job | draft | missing | Unchanged. Type restored to `automated_job` (v0.1 original) — DEC000001 governs the Intake namespace only and does not authorize changes to Governance command types; the earlier `workflow_trigger` value in this table was an incidental drift, not a decision. |
 | 29 | CMD000029 | `knowledge.evidence.view` | query | draft | partial | Unchanged. |
@@ -387,22 +387,23 @@ It must **not** expand into full Phase 6 Governance implementation, Analytics, F
 | 32 | CMD000032 | `intake.review.release` | mutation | approved | missing | New this revision — DEC000001 §5.5. |
 | 33 | CMD000033 | `intake.packet.edit_payload` | mutation | approved | missing | New this revision; Intake Specialist role only — DEC000001 §5.1-§5.2. |
 | 34 | CMD000034 | `intake.packet.resubmit` | mutation | approved | missing | New this revision; Intake Specialist role only — DEC000001 §5.1. |
-| 35 | CMD000035 | `submission.restaurant_update.claim` | mutation | draft | missing | Pending DEC000002 approval (§5.6). Replaces part of former CMD000025. |
-| 36 | CMD000036 | `submission.restaurant_update.release` | mutation | draft | missing | Pending DEC000002 approval (§5.6). Replaces part of former CMD000025. |
-| 37 | CMD000037 | `submission.restaurant_update.return` | approval | draft | missing | Pending DEC000002 approval (§5.5). Replaces part of former CMD000025; split out from a compound `.return`/`.approve`/`.reject` entry this revision. |
-| 38 | CMD000038 | `submission.restaurant_update.approve` | approval | draft | missing | Pending DEC000002 approval (§5.5). Replaces part of former CMD000025; split out from a compound `.return`/`.approve`/`.reject` entry this revision. |
-| 39 | CMD000039 | `submission.restaurant_update.reject` | approval | draft | missing | Pending DEC000002 approval (§5.5). Replaces part of former CMD000025; split out from a compound `.return`/`.approve`/`.reject` entry this revision. |
-| 40 | CMD000040 | `submission.restaurant_update.resubmit` | mutation | draft | missing | Pending DEC000002 approval (§5.7). Newly formalized in DEC000002 v4.1. Renumbered from CMD000038 this revision. |
-| 41 | CMD000041 | `submission.route_to_identity_review` | workflow_trigger | draft | missing | Pending DEC000002 approval (§5.5). New. Renumbered from CMD000039 this revision. |
-| 42 | CMD000042 | `submission.escalate_exception` | workflow_trigger | draft | missing | Pending DEC000002 approval (§5.11). New; target entity unconfirmed. Renumbered from CMD000040 this revision. |
+| 35 | CMD000035 | `submission.restaurant_update.claim` | mutation | approved | missing | DEC000002 approved 2026-07-18 (§5.6). Replaces part of former CMD000025. Schema (`claimed_by_user_id`, `claimed_at`) built in migration 021; no RPC. |
+| 36 | CMD000036 | `submission.restaurant_update.release` | mutation | approved | missing | DEC000002 approved 2026-07-18 (§5.6). Replaces part of former CMD000025. Schema built in migration 021; no RPC. |
+| 37 | CMD000037 | `submission.restaurant_update.return` | approval | approved | missing | DEC000002 approved 2026-07-18 (§5.5). Replaces part of former CMD000025. No RPC built. |
+| 38 | CMD000038 | `submission.restaurant_update.approve` | approval | approved | missing | DEC000002 approved 2026-07-18 (§5.5). Replaces part of former CMD000025. Disposition-model schema (`disposition_type`, `disposition_status`, `resolution_summary`) built in migration 021; no RPC. |
+| 39 | CMD000039 | `submission.restaurant_update.reject` | approval | approved | missing | DEC000002 approved 2026-07-18 (§5.5). Replaces part of former CMD000025. No RPC built. |
+| 40 | CMD000040 | `submission.restaurant_update.resubmit` | mutation | draft | partial | DEC000002 §7 item 5 approves the command's existence, model, and mechanics only (2026-07-18) — invocation authority is explicitly withheld pending a separate role/portal-origin decision (§5.7). Registry status stays `draft` by the decision's own terms, not by oversight. Built in `022_submission_review_rpcs.sql` (`operations.resubmit_restaurant_update_submission`) with atomic parent/child creation and event logging, but **no `GRANT EXECUTE` was issued to any role** (`PUBLIC` explicitly revoked) — the function exists and is correct but cannot be invoked by anyone, including `service_role`. Classified `partial`, not `implemented`, on that basis. |
+| 41 | CMD000041 | `submission.route_to_identity_review` | workflow_trigger | approved | missing | DEC000002 approved 2026-07-18 (§5.5, §7 item 3). Placeholder FK (`identity_review_item_id`, unconstrained) built in migration 021. Blocked on the Identity Review Queue table, which does not yet exist anywhere in the schema — building the destination is Restaurant Operations OS's own separate work, per DEC000002 §5.11. |
+| 42 | CMD000042 | `submission.escalate_exception` | workflow_trigger | approved | missing | DEC000002 approved 2026-07-18 (§5.11, §7 item 3). Placeholder FK (`exception_request_id`, unconstrained) built in migration 021. Blocked on a Governance OS exception-request entity, not yet confirmed to exist anywhere in scope, per DEC000002 §5.11. |
 
-**Registry-status legend note:** rows marked `draft` with a "Pending DEC000002 approval" note are listed for completeness and are **not** approved registry entries — they exist so the inventory stays traceable once DEC000002 is approved. No `submission.*` command changes registry status until DEC000002 itself is approved.
+**Registry-status legend note:** as of 2026-07-18, DEC000002 is approved and every `submission.*` command above (CMD000024, CMD000026, CMD000035-CMD000039, CMD000041, CMD000042) carries `registry_status: approved` on that basis, with two named exceptions: CMD000025 is `superseded` (replaced by the discrete claim/release/return/approve/reject split), and CMD000040 (`resubmit`) stays `draft` by DEC000002's own explicit carve-out (§7 item 5) — approval of the record does not extend to who may invoke `resubmit`. `registry_status: approved` above reflects only that each command's design is Founder-approved; see the `implementation_status` column and §20 for whether a handler actually exists.
 
 **Approval-authority note (namespace governance is not the same as command approval):** DEC000001 governs the Intake Packet lifecycle, permissions, evidence boundaries, and transition semantics — it does not by itself approve every command in the `intake.*` namespace. `approved` rows in this table rest on two distinct bases, and neither is conflated with the other:
 - **CMD000001-CMD000004, CMD000016-CMD000023** (query/navigation/mutation commands with no open lifecycle-state or permission question) are `approved` on the Registry framework's own basis — already implemented, in production use, and not subject to any disputed policy choice. Their approval predates and is independent of DEC000001.
 - **CMD000005-CMD000011, CMD000031-CMD000034** are `approved` specifically because DEC000001 §7 makes an explicit Founder decision reaching each one's lifecycle dependency, permission boundary, or command model (items 1-5, approved 2026-07-13) — see each row's Notes or full §20 record for the specific DEC000001 citation. CMD000010 remains `draft` despite being in this set, since DEC000001 §7 item 3 explicitly reserves it rather than approving it.
+- **CMD000024, CMD000026, CMD000035-CMD000039, CMD000041, CMD000042** are `approved` specifically because DEC000002 §7 makes an explicit Founder decision reaching each one's lifecycle dependency, permission boundary, or command model (items 1-9, approved 2026-07-18) — see each row's Notes above for the specific DEC000002 citation. CMD000025 is `superseded`, not `approved` or `draft`, since DEC000002 §5.5 replaces it outright rather than reserving or approving it as-is. CMD000040 (`resubmit`) remains `draft` despite being in this set, since DEC000002 §7 item 5 explicitly withholds approval of its invocation authority.
 
-No row in this table is marked `approved` solely because its namespace is `intake.*`; each has its own citation above.
+No row in this table is marked `approved` solely because its namespace is `intake.*` or `submission.*`; each has its own citation above.
 
 ---
 
@@ -532,17 +533,66 @@ New this revision; Intake Specialist role only — DEC000001 §5.1. Purpose: tra
 `audit_required: true` · `reason_required: false` · `decision_dependencies: DEC000001`
 
 **CMD000024 — View Restaurant Update Submission**
-The database schema exists. No mounted router or UI exists.
-`implementation_status: missing` · `evidence_level: E1` (schema) / `E2` (required workflow)
+`command_id: submission.restaurant_update.view` · `owning_os: Restaurant Operations OS` · `command_type: query` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E1` (schema) / `E2` (required workflow)
+DEC000002 approved 2026-07-18. The database schema exists (`operations.restaurant_update_submissions`, migration 021's full canonical model). No mounted router or UI exists.
 
 **CMD000025 — Review Restaurant Update Submission**
-The database schema supports submission states. No review handler or UI exists.
-`implementation_status: missing` · `evidence_level: E1` (schema) / `E2` (workflow)
-**§20 note — proposed discrete-command replacement (DEC000002 §5.5, not yet approved):** DEC000002 proposes splitting this single review command into five discrete commands — `.claim`, `.release`, `.return`, `.approve`, `.reject` (CMD000035-CMD000039) — mirroring the Intake OS claim/decision model in DEC000001. This is a proposal only; CMD000025 remains a `draft` registry entry pending DEC000002 approval and is not marked `superseded`, since no replacement command has been approved yet.
+`command_id: submission.restaurant_update.review` · `owning_os: Restaurant Operations OS` · `command_type: approval` · `registry_status: superseded` · `implementation_status: missing` · `evidence_level: E1` (schema) / `E2` (workflow)
+**Superseded 2026-07-18.** DEC000002 §5.5's discrete-command replacement — `.claim`, `.release`, `.return`, `.approve`, `.reject` (CMD000035-CMD000039), mirroring the Intake OS claim/decision model in DEC000001 — is now Founder-approved. CMD000025 is retained in this table for traceability only; it is not to be built as a compound command.
 
 **CMD000026 — Convert Submission to Intake**
-The schema contains a `resulting_intake_session` column, but no handler connects submission approval to Intake packet creation.
-`implementation_status: missing` · `evidence_level: E1` (schema readiness) / `E2` (workflow requirement)
+`command_id: submission.convert_to_intake` · `owning_os: Intake OS` · `command_type: workflow_trigger` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E1` (schema readiness) / `E2` (workflow requirement)
+`allowed_from_states: status = approved, disposition_type = intake_required, disposition_status ∈ {pending, failed}` · `resulting_state: disposition_status = in_progress`
+DEC000002 approved 2026-07-18 (§5.5). Preconditions tightened per §5.5. Migration 021 built the canonical target FK, `resulting_intake_packet_id uuid REFERENCES operations.intake_packets(packet_id)` — the one downstream FK confirmed ready to build (§5.11) — but no RPC or handler connects submission approval to Intake packet creation yet. On success this command must set `disposition_status = in_progress`, record the linkage, and emit a `disposition_handoff_*` audit event (§5.10) once built.
+`audit_required: true` · `decision_dependencies: DEC000002, DEC000001` · `related_tables: operations.restaurant_update_submissions, operations.intake_packets`
+
+**CMD000035 — Claim Restaurant Update Submission for Review**
+`command_id: submission.restaurant_update.claim` · `owning_os: Restaurant Operations OS` · `command_type: mutation` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E2`
+`allowed_from_states: pending_review, claimed_by_user_id IS NULL` · `resulting_state: in_review`
+DEC000002 approved 2026-07-18 (§5.6). Mirrors `intake.review.claim`'s atomic conditional-update pattern — a zero-row result means the claim failed and must be reported as an explicit failure, not a silent no-op. Schema built in migration 021 (`claimed_by_user_id`, `claimed_at`); no RPC.
+`audit_required: true` · `reason_required: false` · `decision_dependencies: DEC000002`
+
+**CMD000036 — Release Claimed Restaurant Update Submission**
+`command_id: submission.restaurant_update.release` · `owning_os: Restaurant Operations OS` · `command_type: mutation` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E2`
+`allowed_from_states: in_review` · `resulting_state: pending_review`
+DEC000002 approved 2026-07-18 (§5.6). Self-release by the current claimant requires no reason; administrator-override release requires a reason, logged distinctly. Schema built in migration 021; no RPC.
+`audit_required: true` · `reason_required: conditionally (required for admin-override release only)` · `decision_dependencies: DEC000002`
+
+**CMD000037 — Return Restaurant Update Submission**
+`command_id: submission.restaurant_update.return` · `owning_os: Restaurant Operations OS` · `command_type: approval` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E2`
+`allowed_from_states: in_review` · `resulting_state: returned`
+DEC000002 approved 2026-07-18 (§5.5). Clears the active claim and writes the reviewer identity into append-only event history (§5.10, `operations.restaurant_update_submission_events`, built in migration 021) atomically with the transition. No RPC built.
+`audit_required: true` · `reason_required: true` · `decision_dependencies: DEC000002`
+
+**CMD000038 — Approve Restaurant Update Submission**
+`command_id: submission.restaurant_update.approve` · `owning_os: Restaurant Operations OS` · `command_type: approval` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E2`
+`allowed_from_states: in_review` · `resulting_state: approved`
+DEC000002 approved 2026-07-18 (§5.4, §5.5). Requires `disposition_type` and rejects `no_action` approvals missing `resolution_summary` — this is decision-blocking, per §5.4. Must, in one atomic operation, transition status, clear the claim, write the reviewer event, and derive the initial `disposition_status` from `disposition_type`. Disposition-model schema (`disposition_type`, `disposition_status`, `failure_stage`, `resolution_summary`) built in migration 021; no RPC.
+`audit_required: true` · `reason_required: recommended, mandatory only for no_action (resolution_summary)` · `decision_dependencies: DEC000002`
+
+**CMD000039 — Reject Restaurant Update Submission**
+`command_id: submission.restaurant_update.reject` · `owning_os: Restaurant Operations OS` · `command_type: approval` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E2`
+`allowed_from_states: in_review` · `resulting_state: rejected`
+DEC000002 approved 2026-07-18 (§5.5). Mirrors `intake.packet.reject` — status flip, claim clear, mandatory-reason event. No RPC built.
+`audit_required: true` · `reason_required: true` · `decision_dependencies: DEC000002`
+
+**CMD000040 — Resubmit Restaurant Update Submission**
+`command_id: submission.restaurant_update.resubmit` · `owning_os: Restaurant Operations OS` · `command_type: mutation` · `registry_status: draft` · `implementation_status: partial` · `evidence_level: E1` (built) 
+`allowed_from_states: returned, superseded_by_submission_id IS NULL` · `resulting_state: parent → returned (unchanged, superseded_by_submission_id set); child created at pending_review`
+**DEC000002 §7 item 5 approves this command's existence, model, and mechanics only (2026-07-18) — not who may invoke it.** Registry status stays `draft` by the decision's own explicit terms (§5.7), not by oversight; it cannot move to `approved` until a separate role/portal-origin decision resolves invocation authority. Built in `022_submission_review_rpcs.sql` as `operations.resubmit_restaurant_update_submission(p_submission_id uuid, p_actor_user_id uuid, p_payload_json jsonb DEFAULT NULL, p_description text DEFAULT NULL) RETURNS operations.restaurant_update_submissions` — atomic parent/child creation with `resubmission_of_submission_id`/`superseded_by_submission_id` linkage and cross-referenced `resubmit` events on both rows, per §5.7-§5.8. **No `GRANT EXECUTE` was issued to any role**, and `PUBLIC`'s default grant was explicitly `REVOKE`d — not even `service_role` can call it. Classified `partial`: the function is correctly built, but as a *command* (something callable) it does not yet function, since no actor has invocation authority. No API endpoint exists or can be wired to it until that authority is granted.
+`audit_required: true` · `reason_required: false` · `decision_dependencies: DEC000002`
+
+**CMD000041 — Route Restaurant Update Submission to Identity Review**
+`command_id: submission.route_to_identity_review` · `owning_os: Restaurant Operations OS` · `command_type: workflow_trigger` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E2`
+`allowed_from_states: status = approved, disposition_type = identity_review, disposition_status ∈ {pending, failed}` · `resulting_state: disposition_status = in_progress`
+DEC000002 approved 2026-07-18 (§5.5, §7 item 3). Migration 021 built the placeholder FK (`identity_review_item_id uuid`, unconstrained). **Blocked:** no Identity Review Queue table has been inspected anywhere in the live schema — the destination is real in the Blueprint's governance model (`pending_restaurant_submission` status, referenced in the Blueprint's Identity/Enrichment section) but not yet an implemented entity. Building that destination table is Restaurant Operations OS's own separate work, outside DEC000002's scope to originate, per §5.11.
+`audit_required: true` · `decision_dependencies: DEC000002` · `related_tables: operations.restaurant_update_submissions`
+
+**CMD000042 — Escalate Restaurant Update Submission Exception**
+`command_id: submission.escalate_exception` · `owning_os: Governance OS` · `command_type: workflow_trigger` · `registry_status: approved` · `implementation_status: missing` · `evidence_level: E2`
+`allowed_from_states: status = approved, disposition_type = exception_escalation, disposition_status ∈ {pending, failed}` · `resulting_state: disposition_status = in_progress`
+DEC000002 approved 2026-07-18 (§5.11, §7 item 3). Sole owner is Governance OS (not jointly Knowledge OS), per §5.2. Migration 021 built the placeholder FK (`exception_request_id uuid`, unconstrained). **Blocked:** no Governance OS exception-request entity has been inspected or confirmed to exist anywhere in scope — building `submission.escalate_exception` is blocked on Governance OS defining that entity, independent of this decision, per §5.11.
+`audit_required: true` · `decision_dependencies: DEC000002` · `related_tables: operations.restaurant_update_submissions`
 
 **CMD000027 — View Governance Result**
 Governance UI is not yet built. Current Governance page is a placeholder.
@@ -576,9 +626,8 @@ These are architecture decisions, not ordinary coding tasks. Each should become 
 **RESOLVED — Canonical Intake Packet State Machine (see DEC000001)**
 Blueprint §5b and §5i previously described different Intake Packet lifecycles, and the database supported only a 4-state subset (`pending_review`, `returned`, `approved`, `ingested`) against Blueprint language listing up to eight (`draft`, `in_progress`, `submitted`, `in_review`, `rejected`, `archived`, `superseded`, plus the shared ones). **DEC000001 (`docs/decisions/DEC000001_CANONICAL_INTAKE_PACKET_STATE_MACHINE.md`) was Founder-approved 2026-07-13** and resolves this conflict. The canonical model is six `packet_status` values — `pending_review`, `in_review`, `returned`, `approved`, `rejected`, `ingested` — with `superseded_by_packet_id` and `archived_at` reclassified as non-status attributes/relationships rather than lifecycle states (DEC000001 §6, §7 item 4). `draft` is excluded from the canonical model, carried forward from an earlier finding not revisited by this decision. Commands may now publish definitive `allowed_from_states`/`resulting_state` values against this model — see §17's updated inventory and the CMD000031-CMD000034 full records in §20 above. The Blueprint §5b and §5i Intake Packet sections were updated in the same documentation propagation pass to reference and reflect DEC000001. DEC000001 remains the governing authority if later wording drift occurs.
 
-**DECISION REQUIRED — Canonical Submission State Machine**
-Blueprint §5b, Blueprint §5i, and migration 011 contain different Submission lifecycle definitions.
-Required Decision Record — Title: *Canonical Restaurant Update Submission State Machine* — Suggested ID: **DEC000002**.
+**RESOLVED — Canonical Restaurant Update Submission State Machine (see DEC000002)**
+Blueprint §5b, Blueprint §5i, and migration 011 previously contained different Submission lifecycle definitions, and no disposition/routing model existed anywhere. **DEC000002 (`docs/decisions/DEC000002_submission_state_machine.md`) was Founder-approved 2026-07-18** and resolves this conflict. The canonical model is the same five `status` values migration 011 already had (`pending_review`, `in_review`, `returned`, `approved`, `rejected`), plus a separate disposition model (`disposition_type`, `disposition_status`, `failure_stage`) that did not exist before, plus claim, resubmission-chain, archival, and downstream-linkage attributes (DEC000002 §5.1-§5.11). Built in `supabase/migrations/021_submission_state_machine.sql` and `022_submission_review_rpcs.sql` (committed `109fc2ba150fa81299bd384b690486d0dee6a640`) — schema, integrity triggers, append-only event table, and the `resubmit` RPC (mechanics only, no invocation authority granted, per §7 item 5). Command handlers for `.claim`/`.release`/`.return`/`.approve`/`.reject`/`.convert_to_intake` remain unbuilt — see §17's updated inventory and §20 above. The Blueprint §5i Restaurant Update Submission section was updated in the same documentation propagation pass to reference and reflect DEC000002. DEC000002 remains the governing authority if later wording drift occurs.
 
 **DECISION REQUIRED — Intake Ingestion Destination**
 The Blueprint implies Intake evidence flows into Supabase-backed Knowledge OS evidence tables. The current process writes to Google Sheets and later synchronizes generated files.
@@ -611,13 +660,13 @@ This should be addressed before Intake review is considered fully production-gov
 Approve registry ID format, command namespace format, evidence levels, registry status, implementation status, and decision dependency model. No UI build is required for this step.
 
 **Priority 2 — Create the Decision Registry Foundation**
-Create Decision Records for: (1) Canonical Intake Packet State Machine, (2) Canonical Submission State Machine, (3) Canonical Intake Evidence Ingestion Architecture, (4) Review Flag Entity Model. These decisions unblock reliable command definitions.
+Create Decision Records for: (1) Canonical Intake Packet State Machine — **done, DEC000001, approved 2026-07-13**; (2) Canonical Submission State Machine — **done, DEC000002, approved 2026-07-18**; (3) Canonical Intake Evidence Ingestion Architecture (DEC000003, still required); (4) Review Flag Entity Model (DEC000004, still required). Priorities 1 and 2 are now approved for both Intake and Submission; the remaining decisions unblock reliable command definitions elsewhere.
 
 **Priority 3 — Fix Silent Audit Failures**
 Address the discarded restaurant lifecycle note and the missing Intake packet audit trail — trust and organizational-memory issues.
 
 **Priority 4 — Build Submission Review**
-Implement `submission.restaurant_update.view`, `submission.restaurant_update.review`, `submission.convert_to_intake`. The schema already exists, making this one of the highest-leverage Phase 5 gaps.
+Implement `submission.restaurant_update.view`, `.claim`, `.release`, `.return`, `.approve`, `.reject` (CMD000024, CMD000035-CMD000039 — replacing the retired compound `.review`), and `submission.convert_to_intake` (CMD000026). The schema and disposition model already exist (migration 021), and `resubmit`'s mechanics are already built (migration 022, invocation authority still withheld) — command handlers are the remaining, highest-leverage Phase 5 gap.
 
 **Priority 5 — Expose Actual Ingestion**
 Implement `intake.packet.commit_ingest` — the most important remaining operation that requires leaving Master OS. The command should clearly distinguish preview, commit, success, partial failure, and rollback or compensating action.
