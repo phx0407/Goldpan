@@ -1,5 +1,9 @@
 service_account.json
 
+# Local environment files
+.env
+.DS_Store
+
 # Internal pipeline scripts
 upsert_dishes.py
 patch_*.py
