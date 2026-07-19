@@ -1,0 +1,16 @@
+# Dependencies for the root-level GoldPan intake/ingest pipeline tools:
+#   goldpan_ai_client.py, intake_agent.py, ingest_packet.py
+#
+# This is separate from api/requirements.txt, which declares dependencies
+# for the FastAPI backend service only. The two run in different contexts
+# (standalone CLI pipeline vs. served API) and are each self-sufficient.
+#
+# Install with:
+#   pip install -r requirements-pipeline.txt
+
+anthropic>=0.117.0
+python-dotenv>=1.2.2
+supabase>=2.31.0
+requests>=2.34.2
+gspread>=6.2.1
+google-auth>=2.56.0

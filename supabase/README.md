@@ -111,6 +111,62 @@ LIMIT 5;
 
 ---
 
+## Intake pipeline (canvassing → ingest)
+
+This is separate from the one-time `migrate_sheets_to_supabase.py` migration in Step 3
+above. These are the ongoing production tools used to canvass new restaurants and load
+their data:
+
+- `intake_agent.py` — standalone canvassing agent that extracts a structured Intake
+  Packet from restaurant sources (menu, website, allergen guide, etc.), per
+  `docs/INTAKE_AGENT_STANDARD.md`.
+- `ingest_packet.py` — converts a reviewed Intake Packet (`intake_packets/*.json`) into
+  Google Sheets rows.
+- `goldpan_ai_client.py` — shared AI client used by `intake_agent.py` for model calls and
+  usage logging.
+
+### Install
+
+```bash
+pip install -r requirements-pipeline.txt
+```
+
+### Required environment variables
+
+Set in `.env` at the repo root (loaded via `python-dotenv`):
+
+- `ANTHROPIC_API_KEY` — used by `goldpan_ai_client.py` for Claude API calls.
+- `SUPABASE_URL` — used by `goldpan_ai_client.py` for usage/budget logging.
+- `SUPABASE_SERVICE_ROLE_KEY` — used by `goldpan_ai_client.py` for usage/budget logging.
+
+### Google service account credentials
+
+`intake_agent.py` and `ingest_packet.py` (like `fetch_dishes.py`) expect a Google service
+account key file named `service_account.json` in the repo root, alongside the scripts
+themselves. This is a **hardcoded relative filename**, not an environment variable — it's
+a different convention from the `GOOGLE_SERVICE_ACCOUNT_FILE` env var used by
+`migrate_sheets_to_supabase.py` in Step 3.
+
+This file must remain **untracked** — it is already listed in `.gitignore` and must never
+be committed.
+
+### Running the tools
+
+```bash
+# Canvass a restaurant (menu only)
+python intake_agent.py --restaurant "Name" --url "https://..."
+
+# Canvass with website + allergen guide for fuller Enhanced-field coverage
+python intake_agent.py --restaurant "Name" --url "https://menu..." \
+    --website-url "https://website..." --allergen-url "https://allergen..."
+
+# Review the resulting packet in intake_packets/, then ingest it
+python3 ingest_packet.py intake_packets/<packet_file>.json          # dry run
+python3 ingest_packet.py intake_packets/<packet_file>.json --commit # write to Sheets
+```
+
+---
+
 ## Schema overview
 
 | Schema        | Purpose                                      | Who writes         |
